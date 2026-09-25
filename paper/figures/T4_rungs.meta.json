@@ -1,0 +1,63 @@
+{
+ "table": "T4_rungs",
+ "ciktilar": [
+  "T4_rungs.tex",
+  "T4_body.tex",
+  "T4_full.tex",
+  "T4_note.tex",
+  "T4_scale.tex",
+  "T4_scale_full.tex",
+  "T4_OZET.tex",
+  "T4_TEMPLATE_CUMLE.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/rung_table_2026-09-01.json",
+   "sha256_16": "9e8b6c9129271d0b"
+  },
+  {
+   "yol": "results/v26_rung_extension_bare_2026-09-09.json",
+   "sha256_16": "be0e681ca5dfa111"
+  },
+  {
+   "yol": "results/v26_rung_zephyr_template_2026-09-09.json",
+   "sha256_16": "e36d7652a4d85290"
+  },
+  {
+   "yol": "results/v28_rung_template_2026-09-10.json",
+   "sha256_16": "ae5afcb97b2d2b5b"
+  },
+  {
+   "yol": "results/rung_olmo2_7b_template_2026-09-24.json",
+   "sha256_16": "35a153763c93576a"
+  },
+  {
+   "yol": "results/rung_tulu70b_template_2026-09-24.json",
+   "sha256_16": "0076e2422ff9fb9a"
+  },
+  {
+   "yol": "results/v31_rung_tulu70b_2026-09-10.json",
+   "sha256_16": "c60349d73332a1be"
+  },
+  {
+   "yol": "results/v31_rung_olmo2_7b_2026-09-10.json",
+   "sha256_16": "b8c84704f1774eae"
+  },
+  {
+   "yol": "results/v61_ladder_2026-09-11.json",
+   "sha256_16": "1309f88951636b17"
+  },
+  {
+   "yol": "results/ladder_level_bare_2026-09-15.json",
+   "sha256_16": "9ef3905cbd419b51"
+  }
+ ],
+ "payda": {
+  "n_merdiven": 7,
+  "tercih_buyuk": 4,
+  "berabere": 2,
+  "tercih_tek_basina": 1,
+  "denetim_buyuk": 0
+ },
+ "note": "renders PREREG-10; criterion fixed before the run"
+}

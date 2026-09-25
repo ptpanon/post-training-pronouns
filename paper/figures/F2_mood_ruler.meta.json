@@ -1,0 +1,20 @@
+{
+ "figure": "F2_mood_ruler",
+ "caption_draft": "Left: the grammatical mood swap moves teacher-forced NLL in the same direction under a short and a long frame across 16 models (Spearman rho = +0.90), so the effect is not an artefact of frame length. Right: on the same swap, where the ground truth is grammatical rather than judged, the Warriner dominance lexicon is silent on 54/85 cross-tier pairs and, on 26/31 of the pairs where it does move, ranks the polite request as the MORE dominant text --- the cheap ruler does not merely lack power here, it points the wrong way.",
+ "sources": [
+  {
+   "yol": "results/plainness_2026-08-27.json",
+   "sha256_16": "b33e89ba001a79ac"
+  },
+  {
+   "yol": "results/exploratory_mood16_2026-08-28.json",
+   "sha256_16": "256e9fc8f3b78590"
+  },
+  {
+   "yol": "<data>/c1_kip_takas/kip_takas.jsonl",
+   "sha256_16": "(veri: repo disi, cite-only)",
+   "rol": "98 cross-tier pairs — f4_mood_ruler.cetvel_sayimi()"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

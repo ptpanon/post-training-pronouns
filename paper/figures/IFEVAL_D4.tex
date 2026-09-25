@@ -1,0 +1,32 @@
+\paragraph*{What the restoring sentence costs on IFEval.}
+\vekalet{The pronoun-free register sentence of \S\ref{sec:deperson} was prepended to each IFEval prompt inside the model's own chat template, greedy, one sample, and both conditions were scored with the official strict and loose evaluators over its $541$ prompts. Intervals are prompt-clustered ($2{,}000$ resamples, prompts resampled and the difference taken within draw). Table~\ref{tab:ifeval} gives the per-model reading: every condition falls, and none rises with an interval excluding zero.}
+\begin{table}[t]\centering\small
+\caption{\textbf{IFEval prompt-level strict accuracy with and without the restoring sentence.} Plain is the IFEval prompt alone; \emph{+sentence} prepends it. $\Delta$ is aligned-with-sentence minus plain, with a $95\%$ prompt-clustered interval. Bold marks an interval excluding zero. The three targeted runs and the SFT checkpoint are read through the T\"ulu-3-8B template.}
+\label{tab:ifeval}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+model & plain & +sentence & $\Delta$ (95\% CI) \\
+\midrule
+Gemma-3-12B & $0.795$ & $0.667$ & \textbf{$-0.128$ [$-0.165$, $-0.089$]} \\
+Mistral-7B-v0.3 & $0.490$ & $0.385$ & \textbf{$-0.105$ [$-0.144$, $-0.065$]} \\
+Gemma-3-4B & $0.760$ & $0.680$ & \textbf{$-0.080$ [$-0.117$, $-0.044$]} \\
+OLMo-3-7B & $0.795$ & $0.726$ & \textbf{$-0.068$ [$-0.105$, $-0.035$]} \\
+Gemma-3-27B & $0.811$ & $0.763$ & \textbf{$-0.048$ [$-0.080$, $-0.017$]} \\
+T\"ulu-3-8B & $0.786$ & $0.741$ & \textbf{$-0.044$ [$-0.076$, $-0.013$]} \\
+OLMo-2-13B & $0.765$ & $0.725$ & \textbf{$-0.041$ [$-0.078$, $-0.005$]} \\
+Qwen2.5-3B & $0.597$ & $0.560$ & $-0.037$ [$-0.080$, $+0.004$] \\
+Llama-3.1-8B & $0.721$ & $0.688$ & $-0.033$ [$-0.074$, $+0.006$] \\
+Qwen2.5-1.5B & $0.410$ & $0.377$ & $-0.033$ [$-0.070$, $+0.004$] \\
+Qwen2.5-32B & $0.793$ & $0.762$ & $-0.031$ [$-0.065$, $+0.002$] \\
+Qwen2.5-14B & $0.789$ & $0.760$ & $-0.030$ [$-0.061$, $+0.004$] \\
+Qwen2.5-7B & $0.717$ & $0.691$ & $-0.026$ [$-0.063$, $+0.009$] \\
+OLMo-2-32B & $0.823$ & $0.800$ & $-0.022$ [$-0.052$, $+0.005$] \\
+\midrule
+targeted run, lower-rate chosen & $0.695$ & $0.660$ & $-0.035$ [$-0.076$, $+0.004$] \\
+targeted run, higher-rate chosen & $0.660$ & $0.580$ & \textbf{$-0.080$ [$-0.122$, $-0.039$]} \\
+targeted run, random pairs & $0.702$ & $0.630$ & \textbf{$-0.072$ [$-0.111$, $-0.030$]} \\
+T\"ulu-3-8B SFT checkpoint & $0.697$ & $0.627$ & \textbf{$-0.070$ [$-0.107$, $-0.030$]} \\
+\bottomrule
+\end{tabular}
+\end{table}
+\vekalet{\textbf{Two limits of this reading.} First, Llama-3.1-70B and Qwen2.5-72B were not run, for time, so the panel here is 14 of the sixteen models; the other counts in this paper are unaffected. Second, the official evaluator fills a constraint parameter at random whenever the benchmark leaves it unspecified, so an IFEval accuracy depends on the order in which cells are scored unless the seed is fixed: unseeded, two runs of this same panel moved the median by about $0.002$, one prompt in $541$. We fix the seed, and two full runs then agree exactly.}

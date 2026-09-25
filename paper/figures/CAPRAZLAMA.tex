@@ -1,0 +1,26 @@
+\begin{table}[t]\centering\small
+\caption{\textbf{The three robustness re-reads, crossed.} Each column is the model as it was read in the card that produced it: a per-sentence count whose interval excludes zero (Table~\ref{tab:dilution}), the nine prefix conditions that carry no second person (Table~\ref{tab:youfree}), and the four-seed re-read with its placebo band (Appendix~\ref{app:repro}). The three are cleared by $12$, $14$ and $16$ models and by the same $11$ together.}
+\label{tab:caprazlama}
+\begin{tabular}{lccc}\toprule
+model & per sentence & you-free prefixes & four seeds \\
+\midrule
+Gemma-3-12B & \checkmark & \checkmark & \checkmark \\
+Gemma-3-27B & \checkmark & --- & \checkmark \\
+Gemma-3-4B & \checkmark & \checkmark & \checkmark \\
+Llama-3.1-70B & \checkmark & \checkmark & \checkmark \\
+Llama-3.1-8B & \checkmark & \checkmark & \checkmark \\
+Mistral-7B-v0.3 & \checkmark & \checkmark & \checkmark \\
+OLMo-3-7B & \checkmark & \checkmark & \checkmark \\
+OLMo-2-13B & \checkmark & \checkmark & \checkmark \\
+OLMo-2-32B & \checkmark & \checkmark & \checkmark \\
+Qwen2.5-1.5B & --- & --- & \checkmark \\
+Qwen2.5-14B & --- & \checkmark & \checkmark \\
+Qwen2.5-32B & --- & \checkmark & \checkmark \\
+Qwen2.5-3B & \checkmark & \checkmark & \checkmark \\
+Qwen2.5-72B & --- & \checkmark & \checkmark \\
+Qwen2.5-7B & \checkmark & \checkmark & \checkmark \\
+T\"ulu-3-8B & \checkmark & \checkmark & \checkmark \\
+\midrule
+cleared / not cleared / not read & \textbf{12} / 4 / 0 & \textbf{14} / 2 / 0 & \textbf{16} / 0 / 0 \\
+\bottomrule\end{tabular}
+\end{table}

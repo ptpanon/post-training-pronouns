@@ -1,0 +1,1872 @@
+{
+ "sinif": "BETIM · card · bar yok · verdict adi yok",
+ "prereg": "preregistration/prereg_v98_elicit_ozdes_2026-09-21.md",
+ "alet": {
+  "hal": "ESDEGER",
+  "kapi_fark_max": 0.0
+ },
+ "tasarim": {
+  "n_uyaran": 99,
+  "uyaran_set_sha": "b80f60ada3a2e37eb1ee5dcb84714b762a348808dd1b45587b87d3b73103e8ac",
+  "n_cekim": 4,
+  "n_satir_bacak": 396,
+  "yeni_jeton": 1024,
+  "zemin": "ELICIT-99, iki bacak da HIZALI sohbet sablonunda"
+ },
+ "referans": "HAKEM6_A_ELICIT_BANT (hizali bant 14,58–19,47) · sablonlu münazara hücresi 7↑/7↓/2·",
+ "aile": {
+  "Qwen2.5-1.5B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 124,
+   "atilan_satir_payi": {
+    "taban": 0.0038,
+    "hizali": 0.4913
+   },
+   "M1_1k": {
+    "taban": 28.8809,
+    "gozlenen": -10.455,
+    "ci": [
+     -19.3986139615654,
+     -2.276179243259347
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.362,
+    "z": -1.1139,
+    "plasebo_ort": -0.4911,
+    "plasebo_sd": 8.945,
+    "plasebo_p95": 16.4794,
+    "plasebo_ustu": false
+   },
+   "IS1_1k": {
+    "taban": 19.3172,
+    "gozlenen": -10.0299,
+    "ci": [
+     -16.710532319818046,
+     -3.5662448355648335
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.5192,
+    "z": -1.9585,
+    "plasebo_ort": -0.094,
+    "plasebo_sd": 5.0732,
+    "plasebo_p95": 10.2024,
+    "plasebo_ustu": false
+   },
+   "duz_M1_1k": {
+    "taban": 24.8998,
+    "gozlenen": -1.623,
+    "ci": [
+     -9.821326734447263,
+     6.118449832375745
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.0652,
+    "z": -0.1368,
+    "plasebo_ort": -0.6011,
+    "plasebo_sd": 7.4678,
+    "plasebo_p95": 14.0739,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_1k": {
+    "taban": 23.2038,
+    "gozlenen": -6.8888,
+    "ci": [
+     -16.575553954642327,
+     2.122360921671181
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.2969,
+    "z": -1.0127,
+    "plasebo_ort": -0.2289,
+    "plasebo_sd": 6.5765,
+    "plasebo_p95": 12.9779,
+    "plasebo_ustu": false
+   },
+   "duz_M1_cumle": {
+    "taban": 0.5063,
+    "gozlenen": 0.0582,
+    "ci": [
+     -0.08987341078214091,
+     0.19744552069520677
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.1149,
+    "z": 0.5182,
+    "plasebo_ort": -0.0096,
+    "plasebo_sd": 0.1308,
+    "plasebo_p95": 0.2654,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.4718,
+    "gozlenen": -0.0762,
+    "ci": [
+     -0.2527029459731313,
+     0.08472376018087459
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.1614,
+    "z": -0.69,
+    "plasebo_ort": -0.0021,
+    "plasebo_sd": 0.1074,
+    "plasebo_p95": 0.211,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "null",
+   "duz_IS1_1k_sinif3": "null",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "null"
+  },
+  "Qwen2.5-3B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 325,
+   "atilan_satir_payi": {
+    "taban": 0.0351,
+    "hizali": 0.5824
+   },
+   "M1_1k": {
+    "taban": 16.4572,
+    "gozlenen": 2.5453,
+    "ci": [
+     -3.042929055048398,
+     6.764537277615074
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.1547,
+    "z": 0.4644,
+    "plasebo_ort": -0.3304,
+    "plasebo_sd": 6.1921,
+    "plasebo_p95": 11.2062,
+    "plasebo_ustu": false
+   },
+   "IS1_1k": {
+    "taban": 13.948,
+    "gozlenen": -5.7842,
+    "ci": [
+     -10.266500626302857,
+     -2.45526756974072
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4147,
+    "z": -0.9138,
+    "plasebo_ort": -0.5429,
+    "plasebo_sd": 5.7357,
+    "plasebo_p95": 10.5552,
+    "plasebo_ustu": false
+   },
+   "duz_M1_1k": {
+    "taban": 14.8469,
+    "gozlenen": 13.2499,
+    "ci": [
+     6.617775004690128,
+     18.662260679396482
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 0.8924,
+    "z": 2.1056,
+    "plasebo_ort": -0.4034,
+    "plasebo_sd": 6.4843,
+    "plasebo_p95": 11.7637,
+    "plasebo_ustu": true
+   },
+   "duz_IS1_1k": {
+    "taban": 15.7438,
+    "gozlenen": 1.5934,
+    "ci": [
+     -4.697510159416775,
+     6.3858453392716275
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.1012,
+    "z": 0.298,
+    "plasebo_ort": -0.621,
+    "plasebo_sd": 7.43,
+    "plasebo_p95": 13.8953,
+    "plasebo_ustu": false
+   },
+   "duz_M1_cumle": {
+    "taban": 0.465,
+    "gozlenen": 0.1764,
+    "ci": [
+     0.11070994757749292,
+     0.25548881693672343
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 0.3794,
+    "z": 3.5817,
+    "plasebo_ort": -0.0049,
+    "plasebo_sd": 0.0506,
+    "plasebo_p95": 0.0995,
+    "plasebo_ustu": true
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.4931,
+    "gozlenen": -0.0973,
+    "ci": [
+     -0.15969186760719928,
+     -0.024909230443541635
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.1973,
+    "z": -0.9827,
+    "plasebo_ort": -0.0112,
+    "plasebo_sd": 0.0877,
+    "plasebo_p95": 0.1528,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "null",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "yukari",
+   "duz_IS1_1k_sinif3": "null",
+   "duz_M1_cumle_sinif3": "yukari",
+   "duz_IS1_cumle_sinif3": "asagi"
+  },
+  "Mistral-7B-v0.3": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 308,
+   "atilan_satir_payi": {
+    "taban": 0.1872,
+    "hizali": 0.488
+   },
+   "M1_1k": {
+    "taban": 24.4197,
+    "gozlenen": -7.292,
+    "ci": [
+     -12.11699121269837,
+     -2.283234909597295
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.2986,
+    "z": -2.5036,
+    "plasebo_ort": -0.1563,
+    "plasebo_sd": 2.8502,
+    "plasebo_p95": 5.7195,
+    "plasebo_ustu": true
+   },
+   "IS1_1k": {
+    "taban": 31.2777,
+    "gozlenen": -15.1961,
+    "ci": [
+     -20.236823085324886,
+     -9.850552610699003
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4858,
+    "z": -3.9403,
+    "plasebo_ort": 0.6227,
+    "plasebo_sd": 4.0146,
+    "plasebo_p95": 8.0751,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 24.0062,
+    "gozlenen": -4.0085,
+    "ci": [
+     -9.128953194572171,
+     0.9970404136379774
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.167,
+    "z": -1.3053,
+    "plasebo_ort": -0.1976,
+    "plasebo_sd": 2.9197,
+    "plasebo_p95": 5.6544,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_1k": {
+    "taban": 31.9712,
+    "gozlenen": -6.7778,
+    "ci": [
+     -14.852893301444508,
+     0.683680637817658
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.212,
+    "z": -1.7897,
+    "plasebo_ort": 0.7318,
+    "plasebo_sd": 4.1959,
+    "plasebo_p95": 8.2691,
+    "plasebo_ustu": false
+   },
+   "duz_M1_cumle": {
+    "taban": 0.4086,
+    "gozlenen": 0.0431,
+    "ci": [
+     -0.05317034679006025,
+     0.1375960909237032
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.1056,
+    "z": 0.9414,
+    "plasebo_ort": -0.0031,
+    "plasebo_sd": 0.0491,
+    "plasebo_p95": 0.0917,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.5442,
+    "gozlenen": 0.0249,
+    "ci": [
+     -0.15530216392297333,
+     0.17488328964738123
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.0458,
+    "z": 0.1754,
+    "plasebo_ort": 0.0128,
+    "plasebo_sd": 0.0694,
+    "plasebo_p95": 0.1393,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "null",
+   "duz_IS1_1k_sinif3": "null",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "null"
+  },
+  "Qwen2.5-7B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 298,
+   "atilan_satir_payi": {
+    "taban": 0.2207,
+    "hizali": 0.6136
+   },
+   "M1_1k": {
+    "taban": 25.4971,
+    "gozlenen": -6.2836,
+    "ci": [
+     -8.73379528232717,
+     -3.813571294796486
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.2464,
+    "z": -2.0808,
+    "plasebo_ort": 0.0863,
+    "plasebo_sd": 3.0612,
+    "plasebo_p95": 6.0581,
+    "plasebo_ustu": true
+   },
+   "IS1_1k": {
+    "taban": 15.8454,
+    "gozlenen": -7.2042,
+    "ci": [
+     -10.013153195640959,
+     -4.582890295617851
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4547,
+    "z": -2.3181,
+    "plasebo_ort": 0.1684,
+    "plasebo_sd": 3.1805,
+    "plasebo_p95": 6.1638,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 29.6191,
+    "gozlenen": -0.9283,
+    "ci": [
+     -4.210753611132231,
+     2.2402228263693384
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.0313,
+    "z": -0.3068,
+    "plasebo_ort": 0.0242,
+    "plasebo_sd": 3.104,
+    "plasebo_p95": 5.8272,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_1k": {
+    "taban": 23.8134,
+    "gozlenen": -4.3276,
+    "ci": [
+     -7.996536968211672,
+     -0.6244444905064874
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.1817,
+    "z": -1.0806,
+    "plasebo_ort": 0.3412,
+    "plasebo_sd": 4.3206,
+    "plasebo_p95": 8.6063,
+    "plasebo_ustu": false
+   },
+   "duz_M1_cumle": {
+    "taban": 0.574,
+    "gozlenen": 0.0602,
+    "ci": [
+     -0.0015065081911247403,
+     0.13676845581383099
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.1048,
+    "z": 1.0243,
+    "plasebo_ort": 0.0025,
+    "plasebo_sd": 0.0563,
+    "plasebo_p95": 0.1098,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.4615,
+    "gozlenen": -0.0308,
+    "ci": [
+     -0.09881219672913731,
+     0.03513916076960659
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.0667,
+    "z": -0.4818,
+    "plasebo_ort": 0.0082,
+    "plasebo_sd": 0.081,
+    "plasebo_p95": 0.1634,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "null",
+   "duz_IS1_1k_sinif3": "asagi",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "null"
+  },
+  "OLMo-3-7B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 240,
+   "atilan_satir_payi": {
+    "taban": 0.1008,
+    "hizali": 0.6021
+   },
+   "M1_1k": {
+    "taban": 18.8001,
+    "gozlenen": -2.1315,
+    "ci": [
+     -4.622189201381542,
+     0.6718023366512726
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.1134,
+    "z": -1.1062,
+    "plasebo_ort": 0.0666,
+    "plasebo_sd": 1.987,
+    "plasebo_p95": 3.8389,
+    "plasebo_ustu": false
+   },
+   "IS1_1k": {
+    "taban": 16.1806,
+    "gozlenen": -9.1208,
+    "ci": [
+     -11.253859301937391,
+     -6.9989394219856536
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.5637,
+    "z": -5.0952,
+    "plasebo_ort": 0.0912,
+    "plasebo_sd": 1.808,
+    "plasebo_p95": 3.549,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 18.1588,
+    "gozlenen": 3.6723,
+    "ci": [
+     0.16111330233124282,
+     7.566025937571126
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 0.2022,
+    "z": 1.8656,
+    "plasebo_ort": 0.1491,
+    "plasebo_sd": 1.8885,
+    "plasebo_p95": 3.4403,
+    "plasebo_ustu": true
+   },
+   "duz_IS1_1k": {
+    "taban": 17.9734,
+    "gozlenen": -5.1892,
+    "ci": [
+     -8.303379141301223,
+     -2.0504145002489294
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.2887,
+    "z": -2.7309,
+    "plasebo_ort": 0.0585,
+    "plasebo_sd": 1.9216,
+    "plasebo_p95": 3.6725,
+    "plasebo_ustu": true
+   },
+   "duz_M1_cumle": {
+    "taban": 0.3235,
+    "gozlenen": 0.1894,
+    "ci": [
+     0.10857082400122779,
+     0.27692482852721934
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 0.5856,
+    "z": 5.5057,
+    "plasebo_ort": 0.0018,
+    "plasebo_sd": 0.0341,
+    "plasebo_p95": 0.0634,
+    "plasebo_ustu": true
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.3202,
+    "gozlenen": -0.0198,
+    "ci": [
+     -0.09129880634672427,
+     0.045870671594287274
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.0619,
+    "z": -0.607,
+    "plasebo_ort": 0.0003,
+    "plasebo_sd": 0.0331,
+    "plasebo_p95": 0.0644,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "null",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "yukari",
+   "duz_IS1_1k_sinif3": "asagi",
+   "duz_M1_cumle_sinif3": "yukari",
+   "duz_IS1_cumle_sinif3": "null"
+  },
+  "Llama-3.1-8B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 189,
+   "atilan_satir_payi": {
+    "taban": 0.128,
+    "hizali": 0.6139
+   },
+   "M1_1k": {
+    "taban": 22.734,
+    "gozlenen": -9.4355,
+    "ci": [
+     -13.654675450791187,
+     -5.016134056557343
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.415,
+    "z": -1.952,
+    "plasebo_ort": -0.2861,
+    "plasebo_sd": 4.6871,
+    "plasebo_p95": 9.2215,
+    "plasebo_ustu": true
+   },
+   "IS1_1k": {
+    "taban": 19.6462,
+    "gozlenen": -6.4845,
+    "ci": [
+     -12.653728719547487,
+     0.9582235531809793
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.3301,
+    "z": -1.4531,
+    "plasebo_ort": 0.2661,
+    "plasebo_sd": 4.6457,
+    "plasebo_p95": 8.6822,
+    "plasebo_ustu": false
+   },
+   "duz_M1_1k": {
+    "taban": 22.5989,
+    "gozlenen": -2.3982,
+    "ci": [
+     -8.238124783235136,
+     3.4235106020309165
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.1061,
+    "z": -0.4454,
+    "plasebo_ort": -0.0725,
+    "plasebo_sd": 5.2211,
+    "plasebo_p95": 9.8681,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_1k": {
+    "taban": 21.0113,
+    "gozlenen": 4.0054,
+    "ci": [
+     -4.668428610208976,
+     13.030733714152124
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.1906,
+    "z": 0.8853,
+    "plasebo_ort": 0.0305,
+    "plasebo_sd": 4.49,
+    "plasebo_p95": 8.8196,
+    "plasebo_ustu": false
+   },
+   "duz_M1_cumle": {
+    "taban": 0.4863,
+    "gozlenen": -0.0137,
+    "ci": [
+     -0.13977587797287422,
+     0.1157571409666331
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.0281,
+    "z": -0.129,
+    "plasebo_ort": -0.0003,
+    "plasebo_sd": 0.1039,
+    "plasebo_p95": 0.2126,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.4521,
+    "gozlenen": 0.1332,
+    "ci": [
+     -0.0713152047035434,
+     0.3435366479410564
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.2946,
+    "z": 1.4516,
+    "plasebo_ort": 0.002,
+    "plasebo_sd": 0.0904,
+    "plasebo_p95": 0.1744,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "null",
+   "duz_M1_1k_sinif3": "null",
+   "duz_IS1_1k_sinif3": "null",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "null"
+  },
+  "Tulu3-8B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 250,
+   "atilan_satir_payi": {
+    "taban": 0.0134,
+    "hizali": 0.5268
+   },
+   "M1_1k": {
+    "taban": 31.8934,
+    "gozlenen": -15.396,
+    "ci": [
+     -19.627345374786408,
+     -11.880763768457836
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4827,
+    "z": -4.0219,
+    "plasebo_ort": 0.306,
+    "plasebo_sd": 3.9041,
+    "plasebo_p95": 7.4338,
+    "plasebo_ustu": true
+   },
+   "IS1_1k": {
+    "taban": 34.0686,
+    "gozlenen": -23.4421,
+    "ci": [
+     -28.69142448609332,
+     -18.398010158768155
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.6881,
+    "z": -5.5921,
+    "plasebo_ort": 0.303,
+    "plasebo_sd": 4.2462,
+    "plasebo_p95": 8.2435,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 31.9141,
+    "gozlenen": -12.6499,
+    "ci": [
+     -17.156409464516805,
+     -8.590954575979643
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.3964,
+    "z": -3.3286,
+    "plasebo_ort": 0.3183,
+    "plasebo_sd": 3.896,
+    "plasebo_p95": 7.4156,
+    "plasebo_ustu": true
+   },
+   "duz_IS1_1k": {
+    "taban": 34.2863,
+    "gozlenen": -17.8484,
+    "ci": [
+     -24.27075097131821,
+     -11.450811870641262
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.5206,
+    "z": -4.2868,
+    "plasebo_ort": 0.303,
+    "plasebo_sd": 4.2342,
+    "plasebo_p95": 8.3394,
+    "plasebo_ustu": true
+   },
+   "duz_M1_cumle": {
+    "taban": 0.517,
+    "gozlenen": -0.0782,
+    "ci": [
+     -0.16522381053870117,
+     0.004046440761007653
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.1513,
+    "z": -1.2323,
+    "plasebo_ort": 0.0009,
+    "plasebo_sd": 0.0642,
+    "plasebo_p95": 0.1218,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.5554,
+    "gozlenen": -0.181,
+    "ci": [
+     -0.31536428614071627,
+     -0.043139867692943305
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.3259,
+    "z": -2.9081,
+    "plasebo_ort": 0.0003,
+    "plasebo_sd": 0.0624,
+    "plasebo_p95": 0.1183,
+    "plasebo_ustu": true
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "asagi",
+   "duz_IS1_1k_sinif3": "asagi",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "asagi"
+  },
+  "Gemma-3-4B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 201,
+   "atilan_satir_payi": {
+    "taban": 0.0042,
+    "hizali": 0.6219
+   },
+   "M1_1k": {
+    "taban": 8.3407,
+    "gozlenen": 9.8406,
+    "ci": [
+     5.387404656010093,
+     14.341071044322854
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 1.1798,
+    "z": 2.7901,
+    "plasebo_ort": 0.165,
+    "plasebo_sd": 3.4678,
+    "plasebo_p95": 6.2731,
+    "plasebo_ustu": true
+   },
+   "IS1_1k": {
+    "taban": 17.9863,
+    "gozlenen": -8.7021,
+    "ci": [
+     -14.844458637822132,
+     -2.8207345937122423
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4838,
+    "z": -1.5398,
+    "plasebo_ort": -0.1303,
+    "plasebo_sd": 5.567,
+    "plasebo_p95": 10.7762,
+    "plasebo_ustu": false
+   },
+   "duz_M1_1k": {
+    "taban": 8.1448,
+    "gozlenen": 13.4656,
+    "ci": [
+     8.629823653025518,
+     17.986662152892933
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 1.6533,
+    "z": 3.7982,
+    "plasebo_ort": 0.2365,
+    "plasebo_sd": 3.483,
+    "plasebo_p95": 6.2563,
+    "plasebo_ustu": true
+   },
+   "duz_IS1_1k": {
+    "taban": 18.0028,
+    "gozlenen": -4.1398,
+    "ci": [
+     -11.753481351954612,
+     2.6797598971921484
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.23,
+    "z": -0.7083,
+    "plasebo_ort": -0.1378,
+    "plasebo_sd": 5.65,
+    "plasebo_p95": 10.9043,
+    "plasebo_ustu": false
+   },
+   "duz_M1_cumle": {
+    "taban": 0.2583,
+    "gozlenen": 0.1123,
+    "ci": [
+     0.015608270598757995,
+     0.2062239474014108
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 0.4346,
+    "z": 1.2388,
+    "plasebo_ort": 0.0046,
+    "plasebo_sd": 0.0869,
+    "plasebo_p95": 0.161,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.5709,
+    "gozlenen": -0.3332,
+    "ci": [
+     -0.5009122574570538,
+     -0.20234656050758945
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.5836,
+    "z": -2.7692,
+    "plasebo_ort": -0.0105,
+    "plasebo_sd": 0.1165,
+    "plasebo_p95": 0.2379,
+    "plasebo_ustu": true
+   },
+   "M1_1k_sinif3": "yukari",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "yukari",
+   "duz_IS1_1k_sinif3": "null",
+   "duz_M1_cumle_sinif3": "yukari",
+   "duz_IS1_cumle_sinif3": "asagi"
+  },
+  "OLMo2-13B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 320,
+   "atilan_satir_payi": {
+    "taban": 0.0348,
+    "hizali": 0.5635
+   },
+   "M1_1k": {
+    "taban": 31.9249,
+    "gozlenen": -14.4762,
+    "ci": [
+     -18.009798618149688,
+     -10.935619713787924
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4534,
+    "z": -4.6494,
+    "plasebo_ort": -0.2282,
+    "plasebo_sd": 3.0644,
+    "plasebo_p95": 6.218,
+    "plasebo_ustu": true
+   },
+   "IS1_1k": {
+    "taban": 26.2756,
+    "gozlenen": -17.7205,
+    "ci": [
+     -20.58611641944983,
+     -14.481924791083584
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.6744,
+    "z": -7.7051,
+    "plasebo_ort": -0.1195,
+    "plasebo_sd": 2.2843,
+    "plasebo_p95": 4.1292,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 31.3964,
+    "gozlenen": -10.5195,
+    "ci": [
+     -14.559382723385605,
+     -6.3897727555469235
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.3351,
+    "z": -3.4646,
+    "plasebo_ort": -0.3096,
+    "plasebo_sd": 2.9469,
+    "plasebo_p95": 6.1882,
+    "plasebo_ustu": true
+   },
+   "duz_IS1_1k": {
+    "taban": 27.1716,
+    "gozlenen": -12.6595,
+    "ci": [
+     -17.257848597513423,
+     -7.970214647401256
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4659,
+    "z": -5.3649,
+    "plasebo_ort": -0.0955,
+    "plasebo_sd": 2.3419,
+    "plasebo_p95": 4.0661,
+    "plasebo_ustu": true
+   },
+   "duz_M1_cumle": {
+    "taban": 0.4412,
+    "gozlenen": 0.0343,
+    "ci": [
+     -0.04934706112679322,
+     0.11623249281964924
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.0778,
+    "z": 0.997,
+    "plasebo_ort": -0.0051,
+    "plasebo_sd": 0.0396,
+    "plasebo_p95": 0.0769,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.3819,
+    "gozlenen": -0.0513,
+    "ci": [
+     -0.15429671268730333,
+     0.052278401241593525
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.1343,
+    "z": -1.6856,
+    "plasebo_ort": -0.002,
+    "plasebo_sd": 0.0292,
+    "plasebo_p95": 0.049,
+    "plasebo_ustu": true
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "asagi",
+   "duz_IS1_1k_sinif3": "asagi",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "null"
+  },
+  "Gemma-3-12B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 244,
+   "atilan_satir_payi": {
+    "taban": 0.0804,
+    "hizali": 0.5581
+   },
+   "M1_1k": {
+    "taban": 20.3313,
+    "gozlenen": -4.0057,
+    "ci": [
+     -7.667149722092989,
+     -0.4351894038627925
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.197,
+    "z": -1.0851,
+    "plasebo_ort": -0.1382,
+    "plasebo_sd": 3.5641,
+    "plasebo_p95": 6.7926,
+    "plasebo_ustu": false
+   },
+   "IS1_1k": {
+    "taban": 23.1016,
+    "gozlenen": -15.7554,
+    "ci": [
+     -20.054682843900864,
+     -11.795241399956826
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.682,
+    "z": -4.3945,
+    "plasebo_ort": -0.0608,
+    "plasebo_sd": 3.5714,
+    "plasebo_p95": 6.7002,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 20.0061,
+    "gozlenen": -2.0729,
+    "ci": [
+     -6.063323921759128,
+     1.943378456311055
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.1036,
+    "z": -0.5414,
+    "plasebo_ort": -0.0722,
+    "plasebo_sd": 3.6952,
+    "plasebo_p95": 7.5056,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_1k": {
+    "taban": 24.3547,
+    "gozlenen": -12.7902,
+    "ci": [
+     -17.581526652794654,
+     -7.960653868521302
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.5252,
+    "z": -3.4292,
+    "plasebo_ort": -0.0856,
+    "plasebo_sd": 3.7048,
+    "plasebo_p95": 7.2749,
+    "plasebo_ustu": true
+   },
+   "duz_M1_cumle": {
+    "taban": 0.3978,
+    "gozlenen": -0.1032,
+    "ci": [
+     -0.18214540855211173,
+     -0.022514618147354202
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.2595,
+    "z": -1.4253,
+    "plasebo_ort": -0.0013,
+    "plasebo_sd": 0.0715,
+    "plasebo_p95": 0.1469,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.4842,
+    "gozlenen": -0.2943,
+    "ci": [
+     -0.3795149525449454,
+     -0.21120094117886362
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.6077,
+    "z": -4.3616,
+    "plasebo_ort": -0.0014,
+    "plasebo_sd": 0.0671,
+    "plasebo_p95": 0.1377,
+    "plasebo_ustu": true
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "null",
+   "duz_IS1_1k_sinif3": "asagi",
+   "duz_M1_cumle_sinif3": "asagi",
+   "duz_IS1_cumle_sinif3": "asagi"
+  },
+  "Qwen2.5-14B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 285,
+   "atilan_satir_payi": {
+    "taban": 0.2146,
+    "hizali": 0.4976
+   },
+   "M1_1k": {
+    "taban": 27.9952,
+    "gozlenen": -9.4634,
+    "ci": [
+     -12.562205592723638,
+     -6.370874667773365
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.338,
+    "z": -2.9027,
+    "plasebo_ort": 0.0778,
+    "plasebo_sd": 3.287,
+    "plasebo_p95": 7.1253,
+    "plasebo_ustu": true
+   },
+   "IS1_1k": {
+    "taban": 19.6601,
+    "gozlenen": -11.2294,
+    "ci": [
+     -15.261206425593645,
+     -7.766464054926682
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.5712,
+    "z": -2.8407,
+    "plasebo_ort": 0.2062,
+    "plasebo_sd": 4.0257,
+    "plasebo_p95": 7.8255,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 29.1783,
+    "gozlenen": -4.1039,
+    "ci": [
+     -7.77923398517789,
+     -0.22978858651057552
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.1406,
+    "z": -1.2964,
+    "plasebo_ort": 0.0446,
+    "plasebo_sd": 3.2001,
+    "plasebo_p95": 5.8781,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_1k": {
+    "taban": 26.9542,
+    "gozlenen": -11.6052,
+    "ci": [
+     -16.903394055253933,
+     -7.119812314162938
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4306,
+    "z": -2.4828,
+    "plasebo_ort": 0.5649,
+    "plasebo_sd": 4.9018,
+    "plasebo_p95": 9.927,
+    "plasebo_ustu": true
+   },
+   "duz_M1_cumle": {
+    "taban": 0.5882,
+    "gozlenen": 0.0052,
+    "ci": [
+     -0.08641252545470934,
+     0.10171115654279159
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.0088,
+    "z": 0.0573,
+    "plasebo_ort": 0.0017,
+    "plasebo_sd": 0.0608,
+    "plasebo_p95": 0.1132,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.5434,
+    "gozlenen": -0.1801,
+    "ci": [
+     -0.28949906278112175,
+     -0.09122842575973648
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.3315,
+    "z": -2.0079,
+    "plasebo_ort": 0.0121,
+    "plasebo_sd": 0.0958,
+    "plasebo_p95": 0.1917,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "asagi",
+   "duz_IS1_1k_sinif3": "asagi",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "asagi"
+  },
+  "Gemma-3-27B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 121,
+   "atilan_satir_payi": {
+    "taban": 0.0181,
+    "hizali": 0.5866
+   },
+   "M1_1k": {
+    "taban": 14.3402,
+    "gozlenen": 1.9414,
+    "ci": [
+     -3.898718578155441,
+     6.917695884506436
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.1354,
+    "z": 0.3645,
+    "plasebo_ort": -0.0539,
+    "plasebo_sd": 5.4737,
+    "plasebo_p95": 10.9052,
+    "plasebo_ustu": false
+   },
+   "IS1_1k": {
+    "taban": 25.3372,
+    "gozlenen": -17.0681,
+    "ci": [
+     -25.571176414194202,
+     -9.677194785869894
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.6736,
+    "z": -1.9892,
+    "plasebo_ort": 0.4076,
+    "plasebo_sd": 8.7853,
+    "plasebo_p95": 16.5227,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 13.9565,
+    "gozlenen": 6.8655,
+    "ci": [
+     0.8305436109535257,
+     12.334809307620423
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 0.4919,
+    "z": 1.1994,
+    "plasebo_ort": 0.085,
+    "plasebo_sd": 5.6534,
+    "plasebo_p95": 11.043,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_1k": {
+    "taban": 26.3313,
+    "gozlenen": -11.2891,
+    "ci": [
+     -21.056315666572267,
+     -2.546123476555392
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4287,
+    "z": -1.2484,
+    "plasebo_ort": 0.3927,
+    "plasebo_sd": 9.3574,
+    "plasebo_p95": 17.8923,
+    "plasebo_ustu": false
+   },
+   "duz_M1_cumle": {
+    "taban": 0.2953,
+    "gozlenen": 0.0494,
+    "ci": [
+     -0.07498484099775787,
+     0.1572094059090525
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.1672,
+    "z": 0.4249,
+    "plasebo_ort": -0.0003,
+    "plasebo_sd": 0.117,
+    "plasebo_p95": 0.2207,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.5571,
+    "gozlenen": -0.3081,
+    "ci": [
+     -0.4978691263256216,
+     -0.12707715337818457
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.5531,
+    "z": -1.8541,
+    "plasebo_ort": 0.004,
+    "plasebo_sd": 0.1683,
+    "plasebo_p95": 0.34,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "null",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "yukari",
+   "duz_IS1_1k_sinif3": "asagi",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "asagi"
+  },
+  "OLMo2-32B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 302,
+   "atilan_satir_payi": {
+    "taban": 0.0178,
+    "hizali": 0.557
+   },
+   "M1_1k": {
+    "taban": 34.5418,
+    "gozlenen": -16.519,
+    "ci": [
+     -20.150320557590625,
+     -13.00220078125451
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4782,
+    "z": -5.2131,
+    "plasebo_ort": -0.0473,
+    "plasebo_sd": 3.1597,
+    "plasebo_p95": 6.2017,
+    "plasebo_ustu": true
+   },
+   "IS1_1k": {
+    "taban": 26.9833,
+    "gozlenen": -16.7462,
+    "ci": [
+     -21.63188237738683,
+     -11.84808383097589
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.6206,
+    "z": -4.2655,
+    "plasebo_ort": 0.29,
+    "plasebo_sd": 3.994,
+    "plasebo_p95": 7.6398,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 34.9193,
+    "gozlenen": -11.7177,
+    "ci": [
+     -15.902101197688266,
+     -7.78326893118084
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.3356,
+    "z": -3.708,
+    "plasebo_ort": -0.0318,
+    "plasebo_sd": 3.1515,
+    "plasebo_p95": 6.0764,
+    "plasebo_ustu": true
+   },
+   "duz_IS1_1k": {
+    "taban": 27.747,
+    "gozlenen": -10.2176,
+    "ci": [
+     -16.520472502735874,
+     -3.959668637459768
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.3682,
+    "z": -2.6507,
+    "plasebo_ort": 0.2403,
+    "plasebo_sd": 3.9453,
+    "plasebo_p95": 7.8122,
+    "plasebo_ustu": true
+   },
+   "duz_M1_cumle": {
+    "taban": 0.4779,
+    "gozlenen": 0.0429,
+    "ci": [
+     -0.03845153932884709,
+     0.12503975176441004
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.0899,
+    "z": 1.0255,
+    "plasebo_ort": 0.0007,
+    "plasebo_sd": 0.0412,
+    "plasebo_p95": 0.0828,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.3798,
+    "gozlenen": 0.0138,
+    "ci": [
+     -0.11183394369125083,
+     0.1369801115356608
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.0363,
+    "z": 0.1881,
+    "plasebo_ort": 0.0042,
+    "plasebo_sd": 0.0512,
+    "plasebo_p95": 0.1009,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "asagi",
+   "duz_IS1_1k_sinif3": "asagi",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "null"
+  },
+  "Qwen2.5-32B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 302,
+   "atilan_satir_payi": {
+    "taban": 0.2044,
+    "hizali": 0.5193
+   },
+   "M1_1k": {
+    "taban": 25.4532,
+    "gozlenen": -8.3464,
+    "ci": [
+     -10.96060144770838,
+     -5.504805243819545
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.3279,
+    "z": -3.0462,
+    "plasebo_ort": 0.2285,
+    "plasebo_sd": 2.815,
+    "plasebo_p95": 5.2269,
+    "plasebo_ustu": true
+   },
+   "IS1_1k": {
+    "taban": 16.4669,
+    "gozlenen": -7.467,
+    "ci": [
+     -9.532722123094418,
+     -5.300611983611143
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4535,
+    "z": -2.6736,
+    "plasebo_ort": 0.3339,
+    "plasebo_sd": 2.9177,
+    "plasebo_p95": 5.6346,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 27.8157,
+    "gozlenen": -4.3635,
+    "ci": [
+     -7.676895672484639,
+     -1.2465989979920518
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.1569,
+    "z": -1.4899,
+    "plasebo_ort": 0.2067,
+    "plasebo_sd": 3.0674,
+    "plasebo_p95": 5.9988,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_1k": {
+    "taban": 22.0488,
+    "gozlenen": -6.0826,
+    "ci": [
+     -8.525102259091994,
+     -3.5574217161194004
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.2759,
+    "z": -1.8744,
+    "plasebo_ort": 0.4656,
+    "plasebo_sd": 3.4936,
+    "plasebo_p95": 6.6567,
+    "plasebo_ustu": false
+   },
+   "duz_M1_cumle": {
+    "taban": 0.5802,
+    "gozlenen": -0.0141,
+    "ci": [
+     -0.08452313813656609,
+     0.054727243967914924
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.0243,
+    "z": -0.2734,
+    "plasebo_ort": 0.0044,
+    "plasebo_sd": 0.0676,
+    "plasebo_p95": 0.1383,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.4599,
+    "gozlenen": -0.0745,
+    "ci": [
+     -0.13882267868666592,
+     -0.01193800874073339
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.162,
+    "z": -1.1772,
+    "plasebo_ort": 0.0098,
+    "plasebo_sd": 0.0716,
+    "plasebo_p95": 0.1333,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "asagi",
+   "duz_IS1_1k_sinif3": "asagi",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "asagi"
+  },
+  "Qwen2.5-72B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 310,
+   "atilan_satir_payi": {
+    "taban": 0.1481,
+    "hizali": 0.654
+   },
+   "M1_1k": {
+    "taban": 22.117,
+    "gozlenen": -3.8254,
+    "ci": [
+     -6.400553424142807,
+     -1.2268910431201532
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.173,
+    "z": -1.3464,
+    "plasebo_ort": -0.0175,
+    "plasebo_sd": 2.8281,
+    "plasebo_p95": 5.4098,
+    "plasebo_ustu": false
+   },
+   "IS1_1k": {
+    "taban": 13.8849,
+    "gozlenen": -5.1637,
+    "ci": [
+     -7.212411497421532,
+     -3.363384887135428
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.3719,
+    "z": -1.8292,
+    "plasebo_ort": -0.0787,
+    "plasebo_sd": 2.7798,
+    "plasebo_p95": 5.2178,
+    "plasebo_ustu": false
+   },
+   "duz_M1_1k": {
+    "taban": 23.6509,
+    "gozlenen": 5.6293,
+    "ci": [
+     2.0858035258896632,
+     9.089196512291707
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 0.238,
+    "z": 1.8304,
+    "plasebo_ort": -0.158,
+    "plasebo_sd": 3.1618,
+    "plasebo_p95": 6.4654,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_1k": {
+    "taban": 20.073,
+    "gozlenen": -1.8277,
+    "ci": [
+     -6.207278961684674,
+     2.601118989742037
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.0911,
+    "z": -0.4788,
+    "plasebo_ort": -0.1676,
+    "plasebo_sd": 3.4674,
+    "plasebo_p95": 6.7705,
+    "plasebo_ustu": false
+   },
+   "duz_M1_cumle": {
+    "taban": 0.5055,
+    "gozlenen": 0.1197,
+    "ci": [
+     0.05079092392085655,
+     0.19369501907467598
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 0.2368,
+    "z": 1.9352,
+    "plasebo_ort": -0.0042,
+    "plasebo_sd": 0.064,
+    "plasebo_p95": 0.1209,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.429,
+    "gozlenen": -0.0395,
+    "ci": [
+     -0.12166345688434836,
+     0.03437535277202533
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.092,
+    "z": -0.5115,
+    "plasebo_ort": -0.0042,
+    "plasebo_sd": 0.0689,
+    "plasebo_p95": 0.1344,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "yukari",
+   "duz_IS1_1k_sinif3": "null",
+   "duz_M1_cumle_sinif3": "yukari",
+   "duz_IS1_cumle_sinif3": "null"
+  },
+  "Llama-3.1-70B": {
+   "hal": "OKUNDU",
+   "kapi_fark": 0.0,
+   "ozdes_dize_payi": 1.0,
+   "n_cift": 396,
+   "n_tutulan": 164,
+   "atilan_satir_payi": {
+    "taban": 0.1299,
+    "hizali": 0.6133
+   },
+   "M1_1k": {
+    "taban": 24.0196,
+    "gozlenen": -8.4637,
+    "ci": [
+     -12.15491786744631,
+     -4.938478244783901
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.3524,
+    "z": -2.3799,
+    "plasebo_ort": 0.3452,
+    "plasebo_sd": 3.7013,
+    "plasebo_p95": 7.2637,
+    "plasebo_ustu": true
+   },
+   "IS1_1k": {
+    "taban": 18.6819,
+    "gozlenen": -8.7908,
+    "ci": [
+     -12.740759932997559,
+     -4.87589021050449
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4705,
+    "z": -2.5606,
+    "plasebo_ort": -0.1735,
+    "plasebo_sd": 3.3653,
+    "plasebo_p95": 6.5394,
+    "plasebo_ustu": true
+   },
+   "duz_M1_1k": {
+    "taban": 24.962,
+    "gozlenen": -4.1978,
+    "ci": [
+     -9.883179524851753,
+     1.5639214430389303
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "goreli": -0.1682,
+    "z": -1.1531,
+    "plasebo_ort": 0.402,
+    "plasebo_sd": 3.9891,
+    "plasebo_p95": 8.0827,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_1k": {
+    "taban": 21.7948,
+    "gozlenen": -6.2107,
+    "ci": [
+     -11.560748963691442,
+     -0.8440017211496069
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.285,
+    "z": -1.5483,
+    "plasebo_ort": 0.0636,
+    "plasebo_sd": 4.0523,
+    "plasebo_p95": 7.5022,
+    "plasebo_ustu": false
+   },
+   "duz_M1_cumle": {
+    "taban": 0.3959,
+    "gozlenen": 0.0793,
+    "ci": [
+     -0.05357386427335832,
+     0.21149830890802246
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.2002,
+    "z": 0.655,
+    "plasebo_ort": 0.012,
+    "plasebo_sd": 0.1027,
+    "plasebo_p95": 0.2003,
+    "plasebo_ustu": false
+   },
+   "duz_IS1_cumle": {
+    "taban": 0.3457,
+    "gozlenen": 0.011,
+    "ci": [
+     -0.1121853356524268,
+     0.13303679594713597
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 0.0317,
+    "z": 0.0547,
+    "plasebo_ort": 0.0058,
+    "plasebo_sd": 0.0938,
+    "plasebo_p95": 0.1655,
+    "plasebo_ustu": false
+   },
+   "M1_1k_sinif3": "asagi",
+   "IS1_1k_sinif3": "asagi",
+   "duz_M1_1k_sinif3": "null",
+   "duz_IS1_1k_sinif3": "asagi",
+   "duz_M1_cumle_sinif3": "null",
+   "duz_IS1_cumle_sinif3": "null"
+  }
+ },
+ "sayim": {
+  "M1_1k": {
+   "asagi": 12,
+   "yukari": 1,
+   "null": 3
+  },
+  "IS1_1k": {
+   "asagi": 15,
+   "yukari": 0,
+   "null": 1
+  },
+  "duz_M1_1k": {
+   "asagi": 5,
+   "yukari": 5,
+   "null": 6
+  },
+  "duz_IS1_1k": {
+   "asagi": 10,
+   "yukari": 0,
+   "null": 6
+  },
+  "duz_M1_cumle": {
+   "asagi": 1,
+   "yukari": 4,
+   "null": 11
+  },
+  "duz_IS1_cumle": {
+   "asagi": 7,
+   "yukari": 0,
+   "null": 9
+  }
+ },
+ "asagi_ve_plasebo_ustu": {
+  "M1_1k": 9,
+  "IS1_1k": 11,
+  "duz_M1_1k": 3,
+  "duz_IS1_1k": 6,
+  "duz_M1_cumle": 0,
+  "duz_IS1_cumle": 3
+ },
+ "bacak_eksik": [],
+ "dize_ayrik": [],
+ "motor": "v96_k3_oku.cift · kapi v96_q4_oku.cift_oku",
+ "damga_utc": "2026-09-21T21:21:58Z",
+ "sure_dk": 19.4
+}

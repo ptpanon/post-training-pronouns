@@ -1,0 +1,11 @@
+{
+ "figure": "F3_steering",
+ "caption_draft": "Injecting the sealed dominance direction moves all three aligned models far further ORTHOGONAL to that axis than along it, while the arousal negative control stays inside the null band — the intervention detours around the axis it was built from.",
+ "sources": [
+  {
+   "yol": "results/steering_scorecard_2026-08-23.json",
+   "sha256_16": "0f5174cdd6cffb56"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

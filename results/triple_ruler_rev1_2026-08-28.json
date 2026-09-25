@@ -1,0 +1,797 @@
+{
+ "N_eksen": {
+  "yargic_D_puan|gömme_D": {
+   "rho": 0.0237,
+   "n": 598,
+   "perm_ort": -0.0062,
+   "perm_sd": 0.041
+  },
+  "yargic_D_puan|uzunluk_log_jeton": {
+   "rho": -0.0139,
+   "n": 598,
+   "perm_ort": 0.0001,
+   "perm_sd": 0.0409
+  },
+  "yargic_D_puan|form_a": {
+   "rho": 0.1316,
+   "n": 598,
+   "perm_ort": -0.0045,
+   "perm_sd": 0.0376
+  },
+  "yargic_D_puan|form_b": {
+   "rho": 0.2501,
+   "n": 598,
+   "perm_ort": 0.0014,
+   "perm_sd": 0.0392
+  },
+  "yargic_D_puan|form_c": {
+   "rho": -0.0245,
+   "n": 598,
+   "perm_ort": 0.0027,
+   "perm_sd": 0.0422
+  },
+  "yargic_D_puan|form_d": {
+   "rho": -0.1061,
+   "n": 598,
+   "perm_ort": -0.0026,
+   "perm_sd": 0.0426
+  },
+  "yargic_D_puan|form_e": {
+   "rho": 0.2783,
+   "n": 598,
+   "perm_ort": -0.0034,
+   "perm_sd": 0.0405
+  },
+  "yargic_D_puan|sözlük_V": {
+   "rho": -0.1478,
+   "n": 595,
+   "perm_ort": 0.0014,
+   "perm_sd": 0.0419
+  },
+  "yargic_D_puan|sözlük_A": {
+   "rho": 0.0352,
+   "n": 595,
+   "perm_ort": -0.0043,
+   "perm_sd": 0.0396
+  },
+  "yargic_D_puan|sözlük_D": {
+   "rho": -0.1912,
+   "n": 595,
+   "perm_ort": 0.0013,
+   "perm_sd": 0.0411
+  },
+  "gömme_D|uzunluk_log_jeton": {
+   "rho": 0.1923,
+   "n": 598,
+   "perm_ort": 0.0025,
+   "perm_sd": 0.0453
+  },
+  "gömme_D|form_a": {
+   "rho": -0.0795,
+   "n": 598,
+   "perm_ort": 0.0055,
+   "perm_sd": 0.0418
+  },
+  "gömme_D|form_b": {
+   "rho": -0.0398,
+   "n": 598,
+   "perm_ort": 0.0008,
+   "perm_sd": 0.0452
+  },
+  "gömme_D|form_c": {
+   "rho": -0.2587,
+   "n": 598,
+   "perm_ort": -0.0033,
+   "perm_sd": 0.0416
+  },
+  "gömme_D|form_d": {
+   "rho": -0.2788,
+   "n": 598,
+   "perm_ort": 0.0038,
+   "perm_sd": 0.0382
+  },
+  "gömme_D|form_e": {
+   "rho": -0.0539,
+   "n": 598,
+   "perm_ort": -0.0044,
+   "perm_sd": 0.0434
+  },
+  "gömme_D|sözlük_V": {
+   "rho": -0.2318,
+   "n": 595,
+   "perm_ort": 0.0046,
+   "perm_sd": 0.0414
+  },
+  "gömme_D|sözlük_A": {
+   "rho": 0.0341,
+   "n": 595,
+   "perm_ort": -0.0022,
+   "perm_sd": 0.0422
+  },
+  "gömme_D|sözlük_D": {
+   "rho": -0.2467,
+   "n": 595,
+   "perm_ort": 0.0022,
+   "perm_sd": 0.0424
+  },
+  "uzunluk_log_jeton|form_a": {
+   "rho": -0.0254,
+   "n": 598,
+   "perm_ort": 0.0022,
+   "perm_sd": 0.0409
+  },
+  "uzunluk_log_jeton|form_b": {
+   "rho": 0.1512,
+   "n": 598,
+   "perm_ort": 0.001,
+   "perm_sd": 0.0433
+  },
+  "uzunluk_log_jeton|form_c": {
+   "rho": 0.0277,
+   "n": 598,
+   "perm_ort": -0.0002,
+   "perm_sd": 0.042
+  },
+  "uzunluk_log_jeton|form_d": {
+   "rho": -0.1372,
+   "n": 598,
+   "perm_ort": 0.0002,
+   "perm_sd": 0.0422
+  },
+  "uzunluk_log_jeton|form_e": {
+   "rho": 0.0439,
+   "n": 598,
+   "perm_ort": 0.0003,
+   "perm_sd": 0.0397
+  },
+  "uzunluk_log_jeton|sözlük_V": {
+   "rho": -0.0881,
+   "n": 595,
+   "perm_ort": -0.0006,
+   "perm_sd": 0.0399
+  },
+  "uzunluk_log_jeton|sözlük_A": {
+   "rho": 0.0309,
+   "n": 595,
+   "perm_ort": -0.004,
+   "perm_sd": 0.0405
+  },
+  "uzunluk_log_jeton|sözlük_D": {
+   "rho": -0.0703,
+   "n": 595,
+   "perm_ort": -0.0002,
+   "perm_sd": 0.0424
+  },
+  "form_a|form_b": {
+   "rho": 0.048,
+   "n": 598,
+   "perm_ort": -0.0039,
+   "perm_sd": 0.0398
+  },
+  "form_a|form_c": {
+   "rho": 0.0066,
+   "n": 598,
+   "perm_ort": 0.0012,
+   "perm_sd": 0.0428
+  },
+  "form_a|form_d": {
+   "rho": 0.0226,
+   "n": 598,
+   "perm_ort": -0.0008,
+   "perm_sd": 0.0439
+  },
+  "form_a|form_e": {
+   "rho": -0.0134,
+   "n": 598,
+   "perm_ort": -0.0012,
+   "perm_sd": 0.0354
+  },
+  "form_a|sözlük_V": {
+   "rho": -0.008,
+   "n": 595,
+   "perm_ort": 0.0039,
+   "perm_sd": 0.0391
+  },
+  "form_a|sözlük_A": {
+   "rho": -0.0013,
+   "n": 595,
+   "perm_ort": -0.0026,
+   "perm_sd": 0.0471
+  },
+  "form_a|sözlük_D": {
+   "rho": -0.0247,
+   "n": 595,
+   "perm_ort": 0.0002,
+   "perm_sd": 0.0419
+  },
+  "form_b|form_c": {
+   "rho": -0.0345,
+   "n": 598,
+   "perm_ort": -0.0009,
+   "perm_sd": 0.041
+  },
+  "form_b|form_d": {
+   "rho": -0.0024,
+   "n": 598,
+   "perm_ort": -0.001,
+   "perm_sd": 0.0397
+  },
+  "form_b|form_e": {
+   "rho": -0.0397,
+   "n": 598,
+   "perm_ort": 0.0032,
+   "perm_sd": 0.0438
+  },
+  "form_b|sözlük_V": {
+   "rho": -0.0173,
+   "n": 595,
+   "perm_ort": 0.0001,
+   "perm_sd": 0.042
+  },
+  "form_b|sözlük_A": {
+   "rho": 0.0142,
+   "n": 595,
+   "perm_ort": 0.0018,
+   "perm_sd": 0.0379
+  },
+  "form_b|sözlük_D": {
+   "rho": -0.0944,
+   "n": 595,
+   "perm_ort": -0.0021,
+   "perm_sd": 0.0405
+  },
+  "form_c|form_d": {
+   "rho": 0.3903,
+   "n": 598,
+   "perm_ort": -0.0029,
+   "perm_sd": 0.0411
+  },
+  "form_c|form_e": {
+   "rho": -0.048,
+   "n": 598,
+   "perm_ort": 0.0032,
+   "perm_sd": 0.0402
+  },
+  "form_c|sözlük_V": {
+   "rho": 0.114,
+   "n": 595,
+   "perm_ort": -0.0032,
+   "perm_sd": 0.0396
+  },
+  "form_c|sözlük_A": {
+   "rho": -0.07,
+   "n": 595,
+   "perm_ort": 0.0002,
+   "perm_sd": 0.0396
+  },
+  "form_c|sözlük_D": {
+   "rho": 0.0844,
+   "n": 595,
+   "perm_ort": 0.0003,
+   "perm_sd": 0.0431
+  },
+  "form_d|form_e": {
+   "rho": -0.0543,
+   "n": 598,
+   "perm_ort": -0.002,
+   "perm_sd": 0.0407
+  },
+  "form_d|sözlük_V": {
+   "rho": 0.1774,
+   "n": 595,
+   "perm_ort": 0.0018,
+   "perm_sd": 0.0414
+  },
+  "form_d|sözlük_A": {
+   "rho": -0.0962,
+   "n": 595,
+   "perm_ort": 0.0034,
+   "perm_sd": 0.0403
+  },
+  "form_d|sözlük_D": {
+   "rho": 0.1608,
+   "n": 595,
+   "perm_ort": -0.0016,
+   "perm_sd": 0.04
+  },
+  "form_e|sözlük_V": {
+   "rho": -0.0099,
+   "n": 595,
+   "perm_ort": 0.0011,
+   "perm_sd": 0.0403
+  },
+  "form_e|sözlük_A": {
+   "rho": 0.0891,
+   "n": 595,
+   "perm_ort": -0.0008,
+   "perm_sd": 0.0407
+  },
+  "form_e|sözlük_D": {
+   "rho": 0.0421,
+   "n": 595,
+   "perm_ort": -0.0018,
+   "perm_sd": 0.0392
+  },
+  "sözlük_V|sözlük_A": {
+   "rho": -0.2797,
+   "n": 595,
+   "perm_ort": -0.0004,
+   "perm_sd": 0.0405
+  },
+  "sözlük_V|sözlük_D": {
+   "rho": 0.7322,
+   "n": 595,
+   "perm_ort": -0.0029,
+   "perm_sd": 0.0429
+  },
+  "sözlük_A|sözlük_D": {
+   "rho": -0.2377,
+   "n": 595,
+   "perm_ort": 0.0036,
+   "perm_sd": 0.0407
+  }
+ },
+ "R_eksen": {
+  "secim_A|Δgömme_D": {
+   "rho": 0.0605,
+   "n": 3082,
+   "perm_ort": -0.0004,
+   "perm_sd": 0.0185
+  },
+  "secim_A|Δuzunluk": {
+   "rho": 0.037,
+   "n": 3082,
+   "perm_ort": -0.0018,
+   "perm_sd": 0.0181
+  },
+  "secim_A|Δform_a": {
+   "rho": 0.156,
+   "n": 3082,
+   "perm_ort": 0.0005,
+   "perm_sd": 0.0171
+  },
+  "secim_A|Δform_b": {
+   "rho": 0.1814,
+   "n": 3082,
+   "perm_ort": 0.0025,
+   "perm_sd": 0.0179
+  },
+  "secim_A|Δform_c": {
+   "rho": -0.0695,
+   "n": 3082,
+   "perm_ort": 0.0021,
+   "perm_sd": 0.0186
+  },
+  "secim_A|Δform_d": {
+   "rho": -0.0577,
+   "n": 3082,
+   "perm_ort": -0.0015,
+   "perm_sd": 0.0166
+  },
+  "secim_A|Δform_e": {
+   "rho": 0.0076,
+   "n": 3082,
+   "perm_ort": 0.0013,
+   "perm_sd": 0.018
+  },
+  "secim_A|Δsözlük_V": {
+   "rho": -0.0652,
+   "n": 3080,
+   "perm_ort": 0.0012,
+   "perm_sd": 0.0172
+  },
+  "secim_A|Δsözlük_A": {
+   "rho": 0.0606,
+   "n": 3080,
+   "perm_ort": 0.0027,
+   "perm_sd": 0.0183
+  },
+  "secim_A|Δsözlük_D": {
+   "rho": -0.0432,
+   "n": 3080,
+   "perm_ort": -0.0004,
+   "perm_sd": 0.0185
+  },
+  "Δgömme_D|Δuzunluk": {
+   "rho": -0.0093,
+   "n": 3082,
+   "perm_ort": 0.0003,
+   "perm_sd": 0.018
+  },
+  "Δgömme_D|Δform_a": {
+   "rho": 0.0136,
+   "n": 3082,
+   "perm_ort": 0.0003,
+   "perm_sd": 0.0178
+  },
+  "Δgömme_D|Δform_b": {
+   "rho": -0.0625,
+   "n": 3082,
+   "perm_ort": 0.0018,
+   "perm_sd": 0.0193
+  },
+  "Δgömme_D|Δform_c": {
+   "rho": -0.1891,
+   "n": 3082,
+   "perm_ort": -0.0024,
+   "perm_sd": 0.0173
+  },
+  "Δgömme_D|Δform_d": {
+   "rho": -0.0798,
+   "n": 3082,
+   "perm_ort": -0.002,
+   "perm_sd": 0.0177
+  },
+  "Δgömme_D|Δform_e": {
+   "rho": -0.0805,
+   "n": 3082,
+   "perm_ort": 0.0008,
+   "perm_sd": 0.0168
+  },
+  "Δgömme_D|Δsözlük_V": {
+   "rho": -0.136,
+   "n": 3080,
+   "perm_ort": 0.0003,
+   "perm_sd": 0.017
+  },
+  "Δgömme_D|Δsözlük_A": {
+   "rho": 0.1306,
+   "n": 3080,
+   "perm_ort": -0.0011,
+   "perm_sd": 0.0186
+  },
+  "Δgömme_D|Δsözlük_D": {
+   "rho": -0.1291,
+   "n": 3080,
+   "perm_ort": 0.0021,
+   "perm_sd": 0.0187
+  },
+  "Δuzunluk|Δform_a": {
+   "rho": 0.0246,
+   "n": 3082,
+   "perm_ort": -0.0005,
+   "perm_sd": 0.0195
+  },
+  "Δuzunluk|Δform_b": {
+   "rho": 0.028,
+   "n": 3082,
+   "perm_ort": 0.0011,
+   "perm_sd": 0.0181
+  },
+  "Δuzunluk|Δform_c": {
+   "rho": 0.0765,
+   "n": 3082,
+   "perm_ort": -0.0007,
+   "perm_sd": 0.0171
+  },
+  "Δuzunluk|Δform_d": {
+   "rho": -0.0498,
+   "n": 3082,
+   "perm_ort": -0.0007,
+   "perm_sd": 0.0184
+  },
+  "Δuzunluk|Δform_e": {
+   "rho": 0.0774,
+   "n": 3082,
+   "perm_ort": -0.0008,
+   "perm_sd": 0.0171
+  },
+  "Δuzunluk|Δsözlük_V": {
+   "rho": 0.033,
+   "n": 3080,
+   "perm_ort": 0.0002,
+   "perm_sd": 0.0189
+  },
+  "Δuzunluk|Δsözlük_A": {
+   "rho": 0.015,
+   "n": 3080,
+   "perm_ort": -0.0,
+   "perm_sd": 0.0189
+  },
+  "Δuzunluk|Δsözlük_D": {
+   "rho": 0.0423,
+   "n": 3080,
+   "perm_ort": 0.0016,
+   "perm_sd": 0.0191
+  },
+  "Δform_a|Δform_b": {
+   "rho": 0.0337,
+   "n": 3082,
+   "perm_ort": -0.0007,
+   "perm_sd": 0.0185
+  },
+  "Δform_a|Δform_c": {
+   "rho": -0.1016,
+   "n": 3082,
+   "perm_ort": -0.0025,
+   "perm_sd": 0.019
+  },
+  "Δform_a|Δform_d": {
+   "rho": -0.0204,
+   "n": 3082,
+   "perm_ort": -0.0007,
+   "perm_sd": 0.018
+  },
+  "Δform_a|Δform_e": {
+   "rho": -0.0158,
+   "n": 3082,
+   "perm_ort": -0.002,
+   "perm_sd": 0.0168
+  },
+  "Δform_a|Δsözlük_V": {
+   "rho": 0.0199,
+   "n": 3080,
+   "perm_ort": 0.0003,
+   "perm_sd": 0.0182
+  },
+  "Δform_a|Δsözlük_A": {
+   "rho": -0.0351,
+   "n": 3080,
+   "perm_ort": 0.0027,
+   "perm_sd": 0.0181
+  },
+  "Δform_a|Δsözlük_D": {
+   "rho": 0.0077,
+   "n": 3080,
+   "perm_ort": 0.0023,
+   "perm_sd": 0.0176
+  },
+  "Δform_b|Δform_c": {
+   "rho": 0.0541,
+   "n": 3082,
+   "perm_ort": 0.0001,
+   "perm_sd": 0.018
+  },
+  "Δform_b|Δform_d": {
+   "rho": -0.0309,
+   "n": 3082,
+   "perm_ort": -0.0008,
+   "perm_sd": 0.0175
+  },
+  "Δform_b|Δform_e": {
+   "rho": -0.0068,
+   "n": 3082,
+   "perm_ort": 0.0003,
+   "perm_sd": 0.0186
+  },
+  "Δform_b|Δsözlük_V": {
+   "rho": 0.006,
+   "n": 3080,
+   "perm_ort": 0.0007,
+   "perm_sd": 0.0196
+  },
+  "Δform_b|Δsözlük_A": {
+   "rho": -0.0142,
+   "n": 3080,
+   "perm_ort": 0.0008,
+   "perm_sd": 0.0175
+  },
+  "Δform_b|Δsözlük_D": {
+   "rho": -0.0227,
+   "n": 3080,
+   "perm_ort": 0.0019,
+   "perm_sd": 0.0167
+  },
+  "Δform_c|Δform_d": {
+   "rho": 0.115,
+   "n": 3082,
+   "perm_ort": 0.0016,
+   "perm_sd": 0.0191
+  },
+  "Δform_c|Δform_e": {
+   "rho": 0.0166,
+   "n": 3082,
+   "perm_ort": 0.0011,
+   "perm_sd": 0.0198
+  },
+  "Δform_c|Δsözlük_V": {
+   "rho": 0.0622,
+   "n": 3080,
+   "perm_ort": -0.0003,
+   "perm_sd": 0.0177
+  },
+  "Δform_c|Δsözlük_A": {
+   "rho": -0.0291,
+   "n": 3080,
+   "perm_ort": 0.0006,
+   "perm_sd": 0.018
+  },
+  "Δform_c|Δsözlük_D": {
+   "rho": 0.051,
+   "n": 3080,
+   "perm_ort": -0.0019,
+   "perm_sd": 0.0187
+  },
+  "Δform_d|Δform_e": {
+   "rho": 0.0248,
+   "n": 3082,
+   "perm_ort": -0.0036,
+   "perm_sd": 0.0176
+  },
+  "Δform_d|Δsözlük_V": {
+   "rho": 0.0297,
+   "n": 3080,
+   "perm_ort": -0.0001,
+   "perm_sd": 0.018
+  },
+  "Δform_d|Δsözlük_A": {
+   "rho": 0.0031,
+   "n": 3080,
+   "perm_ort": 0.0022,
+   "perm_sd": 0.0183
+  },
+  "Δform_d|Δsözlük_D": {
+   "rho": -0.0074,
+   "n": 3080,
+   "perm_ort": -0.0005,
+   "perm_sd": 0.0174
+  },
+  "Δform_e|Δsözlük_V": {
+   "rho": -0.0066,
+   "n": 3080,
+   "perm_ort": -0.0014,
+   "perm_sd": 0.0183
+  },
+  "Δform_e|Δsözlük_A": {
+   "rho": -0.0581,
+   "n": 3080,
+   "perm_ort": 0.0003,
+   "perm_sd": 0.0171
+  },
+  "Δform_e|Δsözlük_D": {
+   "rho": 0.017,
+   "n": 3080,
+   "perm_ort": -0.0022,
+   "perm_sd": 0.0187
+  },
+  "Δsözlük_V|Δsözlük_A": {
+   "rho": -0.1591,
+   "n": 3080,
+   "perm_ort": 0.0004,
+   "perm_sd": 0.0168
+  },
+  "Δsözlük_V|Δsözlük_D": {
+   "rho": 0.6354,
+   "n": 3080,
+   "perm_ort": -0.0004,
+   "perm_sd": 0.0183
+  },
+  "Δsözlük_A|Δsözlük_D": {
+   "rho": -0.2065,
+   "n": 3080,
+   "perm_ort": 0.0027,
+   "perm_sd": 0.017
+  }
+ },
+ "N_bolusum": {
+  "n": 596,
+  "taban_oran": 0.2718,
+  "R2_tum": 0.1557,
+  "CV_AUC_tum": 0.703,
+  "blok": {
+   "bicim": {
+    "k": 5,
+    "R2_tek_basina": 0.1473,
+    "R2_benzersiz": 0.1462,
+    "CV_AUC_tek_basina": 0.6469
+   },
+   "sözlük": {
+    "k": 3,
+    "R2_tek_basina": 0.005,
+    "R2_benzersiz": 0.0057,
+    "CV_AUC_tek_basina": 0.5187
+   },
+   "gömme": {
+    "k": 1,
+    "R2_tek_basina": 0.0026,
+    "R2_benzersiz": 0.0029,
+    "CV_AUC_tek_basina": 0.5278
+   },
+   "uzunluk": {
+    "k": 1,
+    "R2_tek_basina": 0.0003,
+    "R2_benzersiz": 0.0004,
+    "CV_AUC_tek_basina": 0.4475
+   }
+  },
+  "R2_ortak_kalinti": 0.0006
+ },
+ "R_bolusum": {
+  "n": 3082,
+  "taban_oran": 0.5276,
+  "R2_tum": 0.0672,
+  "CV_AUC_tum": 0.6485,
+  "blok": {
+   "bicim": {
+    "k": 5,
+    "R2_tek_basina": 0.0517,
+    "R2_benzersiz": 0.0533,
+    "CV_AUC_tek_basina": 0.6166
+   },
+   "sözlük": {
+    "k": 3,
+    "R2_tek_basina": 0.0041,
+    "R2_benzersiz": 0.0044,
+    "CV_AUC_tek_basina": 0.5336
+   },
+   "gömme": {
+    "k": 1,
+    "R2_tek_basina": 0.0031,
+    "R2_benzersiz": 0.0012,
+    "CV_AUC_tek_basina": 0.532
+   },
+   "uzunluk": {
+    "k": 1,
+    "R2_tek_basina": 0.0079,
+    "R2_benzersiz": 0.0087,
+    "CV_AUC_tek_basina": 0.5098
+   }
+  },
+  "R2_ortak_kalinti": -0.0003
+ },
+ "N_kismi": {
+  "yargic_D ~ gömme_D | sözlük_D": {
+   "n": 595,
+   "ham_rho": 0.024,
+   "kismi_rho": -0.0244,
+   "perm_ort": -0.0015,
+   "perm_sd": 0.0385,
+   "kalan_pay": 1.016
+  },
+  "yargic_D ~ sözlük_D | gömme_D": {
+   "n": 595,
+   "ham_rho": -0.1912,
+   "kismi_rho": -0.1912,
+   "perm_ort": 0.0041,
+   "perm_sd": 0.0414,
+   "kalan_pay": 1.0
+  },
+  "yargic_D ~ gömme_D | form_e": {
+   "n": 598,
+   "ham_rho": 0.0237,
+   "kismi_rho": 0.0404,
+   "perm_ort": -0.0008,
+   "perm_sd": 0.0431,
+   "kalan_pay": 1.702
+  },
+  "yargic_D ~ form_e | gömme_D": {
+   "n": 598,
+   "ham_rho": 0.2783,
+   "kismi_rho": 0.2801,
+   "perm_ort": 0.0037,
+   "perm_sd": 0.0434,
+   "kalan_pay": 1.006
+  }
+ },
+ "R_kismi": {
+  "secim_A ~ Δgömme_D | Δsözlük_V": {
+   "n": 3080,
+   "ham_rho": 0.0615,
+   "kismi_rho": 0.0532,
+   "perm_ort": 0.0008,
+   "perm_sd": 0.018,
+   "kalan_pay": 0.866
+  }
+ },
+ "damga_utc": "2026-08-28T22:12:58Z",
+ "gomme_kaynak": {
+  "dosya": "gomme_ayagi_2026-08-28.json",
+  "capa": {
+   "n_cift": 98,
+   "yari_bolme_kosinus": 0.9779,
+   "r_norm_orani": 0.3151,
+   "norm_d": 0.28093668818473816,
+   "norm_c": 0.8916391134262085,
+   "SERH": "KESIF"
+  },
+  "plasebo": {
+   "K": 200,
+   "tur": "anizotropi-eslesmis (bulutun kendi dagilimi)",
+   "rho_ort": 0.0041,
+   "rho_sd": 0.0816,
+   "rho_p95": 0.1468,
+   "gozlenen_rho": 0.0237,
+   "SERH": "KESIF"
+  }
+ }
+}

@@ -1,0 +1,12 @@
+\paragraph*{The targeted preference runs under the chat template.}
+\vekalet{The targeted preference runs in Table~\ref{tab:dial_dial} are read on the raw-continuation panel. We also read them through the T\"ulu-3-8B-SFT chat template, against that template's own SFT outputs, on the same debate prompts and four generation seeds, with the run's own within-prompt paired placebo. The shift survives the template and is larger than on the raw-continuation prompt: the person-down run moves $-7.31$ $[-9.52,-5.66]$ per thousand against the chat-template SFT outputs (raw continuation: $-6.67$) and $-9.04$ $[-10.95,-7.56]$ against the unselected run, against a placebo p95 of $0.43$. \textbf{No outcome name is given here}: the person-up run's generations fall below the \mbox{distinct-4} shelf ($0.59$), which the registration set as a degeneracy floor before the run, so its level ($+11.43$ $[+10.24,+12.74]$) is printed and not read as a magnitude (Appendix~\ref{app:sapma}). The unselected run, which the raw-continuation reading leaves at $+0.22$, moves $+1.73$ $[+1.05,+2.35]$ under the template: the template itself carries a little of the axis, which is why the second column of the table references every run to it. All four runs passed the identical-string gate, so the three trained runs and the SFT checkpoint answer the same prompts.}
+\begin{center}\small\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrrr}\toprule
+ & \multicolumn{2}{c}{$\Delta M_1$ per thousand} & & & raw-continuation \\
+\cmidrule(lr){2-3}
+run & vs chat-template SFT & vs unselected run & placebo p95 & distinct-4 & vs SFT \\ \midrule
+person-down & $-7.31$ $[-9.52,-5.66]$ & $-9.04$ $[-10.95,-7.56]$ & $0.43$ & $0.632$ & $-6.67$ \\
+unselected & $+1.73$ $[+1.05,+2.35]$ & --- & $1.04$ & $0.620$ & $+0.22$ \\
+person-up$^{\dagger}$ & $+11.43$ $[+10.24,+12.74]$ & $+9.70$ $[+8.79,+10.70]$ & $1.30$ & $0.593$ & $+6.87$ \\
+\bottomrule\end{tabular}\end{center}
+\vekalet{\footnotesize $^{\dagger}$ below the \mbox{distinct-4} floor of $0.60$; level printed, magnitude not read. The chat-template SFT outputs sit at $9.56$ per thousand.}

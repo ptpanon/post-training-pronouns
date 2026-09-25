@@ -1,0 +1,214 @@
+{
+ "_kunye": {
+  "alet": "scripts/ladder_level_bare.py",
+  "damga_utc": "2026-09-15T07:34:27Z",
+  "sinif": "DÜZEY OKUMASI — verdict kurmaz",
+  "protokol": "ciplak devam istemi",
+  "band_kaynagi": "YETENEK_KARNE_16_2026-09-13.json (M1_hizali / M1_taban, 16 aile)",
+  "sure_dk": 6.6
+ },
+ "hizali_band": {
+  "zemin": [
+   2.8954,
+   "Tulu3-8B"
+  ],
+  "tavan": [
+   9.7984,
+   "Gemma-3-12B"
+  ]
+ },
+ "taban_band": {
+  "alt": [
+   10.0918,
+   "Qwen2.5-1.5B"
+  ],
+  "ust": [
+   14.2388,
+   "OLMo-3-7B"
+  ]
+ },
+ "merdiven": {
+  "Tulu3-8B": {
+   "kok": "c1_panel",
+   "base": {
+    "M1": 11.61,
+    "n": 6528
+   },
+   "sft": {
+    "M1": 9.981,
+    "n": 6528
+   },
+   "dpo": {
+    "M1": 3.3592,
+    "n": 6528
+   },
+   "rl": {
+    "M1": 2.8954,
+    "n": 6528
+   },
+   "sft_zemine_mesafe": 7.0856,
+   "tercih_adimi": -6.6218,
+   "sft_bandda_konum": 1.0265
+  },
+  "OLMo2-13B": {
+   "kok": "c1_panel",
+   "base": {
+    "M1": 11.8651,
+    "n": 6528
+   },
+   "sft": {
+    "M1": 11.1941,
+    "n": 6528
+   },
+   "dpo": {
+    "M1": 5.8015,
+    "n": 6528
+   },
+   "instruct": {
+    "M1": 5.5856,
+    "n": 6528
+   },
+   "sft_zemine_mesafe": 8.2987,
+   "tercih_adimi": -5.3926,
+   "sft_bandda_konum": 1.2022
+  },
+  "OLMo2-32B": {
+   "kok": "c1_panel",
+   "base": {
+    "M1": 13.7242,
+    "n": 6528
+   },
+   "sft": {
+    "M1": 11.5599,
+    "n": 6528
+   },
+   "dpo": {
+    "M1": 8.88,
+    "n": 6528
+   },
+   "instruct": {
+    "M1": 8.9508,
+    "n": 6528
+   },
+   "sft_zemine_mesafe": 8.6645,
+   "tercih_adimi": -2.6799,
+   "sft_bandda_konum": 1.2552
+  },
+  "Zephyr-7B": {
+   "kok": "c1_panel",
+   "base": {
+    "M1": 13.4362,
+    "n": 6528
+   },
+   "sft": {
+    "M1": 13.5186,
+    "n": 6528
+   },
+   "dpo": {
+    "M1": 9.4603,
+    "n": 6528
+   },
+   "sft_zemine_mesafe": 10.6232,
+   "tercih_adimi": -4.0583,
+   "sft_bandda_konum": 1.5389
+  },
+  "OLMo3-7B": {
+   "kok": "c1_panel",
+   "base": {
+    "M1": 14.2388,
+    "n": 6528
+   },
+   "sft": {
+    "M1": 11.6203,
+    "n": 6528
+   },
+   "dpo": {
+    "M1": 10.0966,
+    "n": 6528
+   },
+   "rlvr": {
+    "M1": 9.5356,
+    "n": 6528
+   },
+   "sft_zemine_mesafe": 8.7249,
+   "tercih_adimi": -1.5237,
+   "sft_bandda_konum": 1.2639
+  },
+  "Tulu3-70B": {
+   "kok": "c1_panel",
+   "base": {
+    "M1": 11.518,
+    "n": 6528
+   },
+   "sft": {
+    "M1": 9.7107,
+    "n": 6528
+   },
+   "dpo": {
+    "M1": 4.8443,
+    "n": 6528
+   },
+   "sft_zemine_mesafe": 6.8153,
+   "tercih_adimi": -4.8664,
+   "sft_bandda_konum": 0.9873
+  },
+  "OLMo2-7B": {
+   "kok": "c1_panel",
+   "base": {
+    "M1": 13.0686,
+    "n": 6528
+   },
+   "sft": {
+    "M1": 9.8334,
+    "n": 6528
+   },
+   "dpo": {
+    "M1": 2.886,
+    "n": 6528
+   },
+   "instruct": {
+    "M1": 2.5579,
+    "n": 6528
+   },
+   "sft_zemine_mesafe": 6.938,
+   "tercih_adimi": -6.9474,
+   "sft_bandda_konum": 1.0051
+  },
+  "SmolLM2-1.7B": {
+   "kok": "c1_panel_v61",
+   "base": {
+    "M1": 14.2921,
+    "n": 6528
+   },
+   "sft": {
+    "M1": 10.9566,
+    "n": 6528
+   },
+   "dpo": {
+    "M1": 11.0306,
+    "n": 6528
+   },
+   "sft_zemine_mesafe": 8.0612,
+   "tercih_adimi": 0.074,
+   "sft_bandda_konum": 1.1678
+  },
+  "NeuralHermes-2.5": {
+   "kok": "c1_panel_v61",
+   "base": {
+    "M1": 13.4362,
+    "n": 6528
+   },
+   "sft": {
+    "M1": 7.9601,
+    "n": 6528
+   },
+   "dpo": {
+    "M1": 8.1098,
+    "n": 6528
+   },
+   "sft_zemine_mesafe": 5.0647,
+   "tercih_adimi": 0.1497,
+   "sft_bandda_konum": 0.7337
+  }
+ }
+}

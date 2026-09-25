@@ -1,0 +1,708 @@
+{
+ "damga_utc": "2026-08-22T21:37:59Z",
+ "prereg": "prereg_scale_arm_2026-08-21.md",
+ "VERDICT": "IMZA-AILEYE-GÖRE",
+ "KARNE_RULE3": {
+  "gecen": 3,
+  "gecmeyen": 0,
+  "rejim_kurulamadi": 0
+ },
+ "rejim_kurulamayan": [],
+ "gecmeyen_cifter": [],
+ "n_cift_gecen": 3,
+ "gecen_cifter": [
+  "Qwen2.5-32B",
+  "Qwen2.5-72B",
+  "Gemma-4-26B-A4B"
+ ],
+ "atlanan": [],
+ "ALT_IMZA_AYRIK": false,
+ "ALT_GEMMA_EKLER": false,
+ "ALT_DOM_HIC_BIRIKMEDI": false,
+ "eksenler": [
+  "ARO",
+  "DOM",
+  "TON"
+ ],
+ "VERDICT_ARO": "ARO-IKI-YÖNLÜ",
+ "ARO": {
+  "gecen": [
+   "Qwen2.5-32B",
+   "Qwen2.5-72B",
+   "Gemma-4-26B-A4B"
+  ],
+  "n_gecen": 3,
+  "ayrik_poz": [
+   "Qwen2.5-32B",
+   "Qwen2.5-72B"
+  ],
+  "ayrik_neg": [
+   "Gemma-4-26B-A4B"
+  ],
+  "rejim_kurulamadi": [],
+  "adlar": [
+   "ARO-DOKUNULMAMIS",
+   "ARO-IKI-YÖNLÜ",
+   "ARO-TEK-YÖNLÜ-POZ",
+   "ARO-TEK-YÖNLÜ-NEG",
+   "KAPI/ÖLCÜLEMEZ"
+  ]
+ },
+ "SEKIL": {},
+ "panel": {
+  "Qwen2.5-32B": {
+   "tarif": "RLHF (Alibaba) — ★ C1'deki Qwen2.5-7B'nin ×4,6 ölcegi",
+   "POZ_KONTROL": true,
+   "kapi_bos": true,
+   "base": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.033708,
+      "g_x4": 0.100801,
+      "U": 0.067093,
+      "U_CI": [
+       0.053893,
+       0.075908
+      ],
+      "U_sd": 0.005515,
+      "MDE_1645sd": 0.009073,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000459,
+      "Unull_sd": 0.003518,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.015703,
+      "g_x4": 0.106118,
+      "U": 0.090415,
+      "U_CI": [
+       0.075182,
+       0.09833
+      ],
+      "U_sd": 0.00601,
+      "MDE_1645sd": 0.009887,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.00092,
+      "Unull_sd": 0.003482,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.066561,
+      "g_x4": 0.122751,
+      "U": 0.05619,
+      "U_CI": [
+       0.043399,
+       0.068181
+      ],
+      "U_sd": 0.006344,
+      "MDE_1645sd": 0.010437,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000199,
+      "Unull_sd": 0.003776,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.033533,
+     "sd": 0.002554
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.001532,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-32B/snapshots/1818d35814b8319459f4bd55ed1ac8709630f003",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "4f84c9868f6df8b3",
+     "n_agirlik_dosyasi": 17,
+     "ayirt_edici_alanlar": [
+      "eos",
+      "orn"
+     ],
+     "config_ayirt_edici_VAR": true,
+     "imza": {
+      "eos": 151643,
+      "tip": "qwen2",
+      "L": 64,
+      "d": 5120,
+      "orn": false,
+      "template": true
+     }
+    }
+   },
+   "instruct": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.01628,
+      "g_x4": 0.045245,
+      "U": 0.028965,
+      "U_CI": [
+       0.014488,
+       0.042336
+      ],
+      "U_sd": 0.007209,
+      "MDE_1645sd": 0.011858,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000371,
+      "Unull_sd": 0.004557,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.029816,
+      "g_x4": 0.060094,
+      "U": 0.030278,
+      "U_CI": [
+       0.013312,
+       0.04902
+      ],
+      "U_sd": 0.008966,
+      "MDE_1645sd": 0.014749,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000666,
+      "Unull_sd": 0.004084,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.06747,
+      "g_x4": 0.104639,
+      "U": 0.037169,
+      "U_CI": [
+       0.022068,
+       0.055275
+      ],
+      "U_sd": 0.008846,
+      "MDE_1645sd": 0.014552,
+      "AYRIK_POZ": true,
+      "Unull_ort": 5.2e-05,
+      "Unull_sd": 0.004349,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.032024,
+     "sd": 0.003173
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.0,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-32B-Instruct/snapshots/5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "1c2a040f93beafb5",
+     "n_agirlik_dosyasi": 17,
+     "ayirt_edici_alanlar": [
+      "eos",
+      "orn"
+     ],
+     "config_ayirt_edici_VAR": true,
+     "imza": {
+      "eos": 151645,
+      "tip": "qwen2",
+      "L": 64,
+      "d": 5120,
+      "orn": true,
+      "template": true
+     }
+    }
+   },
+   "delta": {
+    "ARO": {
+     "dU": 0.038128,
+     "dU_CI": [
+      0.022423,
+      0.050397
+     ],
+     "dU_sd": 0.006888,
+     "MDE_1645sd": 0.01133,
+     "null_sd_kati": 5.536,
+     "AYRIK_POZ": true,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -8.8e-05,
+     "dU_plasebo_sd": 0.004617,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true
+    },
+    "DOM": {
+     "dU": 0.060137,
+     "dU_CI": [
+      0.034114,
+      0.075872
+     ],
+     "dU_sd": 0.010549,
+     "MDE_1645sd": 0.017353,
+     "null_sd_kati": 5.701,
+     "AYRIK_POZ": true,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -0.000254,
+     "dU_plasebo_sd": 0.004057,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true
+    },
+    "TON": {
+     "dU": 0.019021,
+     "dU_CI": [
+      -0.002008,
+      0.035515
+     ],
+     "dU_sd": 0.00983,
+     "MDE_1645sd": 0.016171,
+     "null_sd_kati": 1.935,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -0.000252,
+     "dU_plasebo_sd": 0.004169,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true
+    }
+   }
+  },
+  "Qwen2.5-72B": {
+   "tarif": "RLHF (Alibaba) — ★ ×10 ölcek; TP=2 ister",
+   "POZ_KONTROL": true,
+   "kapi_bos": true,
+   "base": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.038204,
+      "g_x4": 0.09872,
+      "U": 0.060516,
+      "U_CI": [
+       0.049186,
+       0.068248
+      ],
+      "U_sd": 0.004911,
+      "MDE_1645sd": 0.008079,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000265,
+      "Unull_sd": 0.003508,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.027429,
+      "g_x4": 0.078816,
+      "U": 0.051387,
+      "U_CI": [
+       0.033447,
+       0.065529
+      ],
+      "U_sd": 0.008216,
+      "MDE_1645sd": 0.013515,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000629,
+      "Unull_sd": 0.003433,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.047858,
+      "g_x4": 0.101677,
+      "U": 0.053819,
+      "U_CI": [
+       0.038575,
+       0.067548
+      ],
+      "U_sd": 0.00754,
+      "MDE_1645sd": 0.012404,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000535,
+      "Unull_sd": 0.00359,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.033164,
+     "sd": 0.002437
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.013634,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-72B/snapshots/efba10c8e54e91e0d9570ab5f7b51a958474d4cb",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "2547390616085942",
+     "n_agirlik_dosyasi": 37,
+     "ayirt_edici_alanlar": [
+      "eos",
+      "orn"
+     ],
+     "config_ayirt_edici_VAR": true,
+     "imza": {
+      "eos": 151643,
+      "tip": "qwen2",
+      "L": 80,
+      "d": 8192,
+      "orn": false,
+      "template": true
+     }
+    }
+   },
+   "instruct": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.038802,
+      "g_x4": 0.067385,
+      "U": 0.028583,
+      "U_CI": [
+       0.018345,
+       0.039996
+      ],
+      "U_sd": 0.005633,
+      "MDE_1645sd": 0.009266,
+      "AYRIK_POZ": true,
+      "Unull_ort": -2.2e-05,
+      "Unull_sd": 0.004051,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.015397,
+      "g_x4": 0.07326,
+      "U": 0.057863,
+      "U_CI": [
+       0.034677,
+       0.081531
+      ],
+      "U_sd": 0.011796,
+      "MDE_1645sd": 0.019405,
+      "AYRIK_POZ": true,
+      "Unull_ort": -1.6e-05,
+      "Unull_sd": 0.004693,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.045182,
+      "g_x4": 0.131243,
+      "U": 0.086061,
+      "U_CI": [
+       0.073489,
+       0.099369
+      ],
+      "U_sd": 0.006638,
+      "MDE_1645sd": 0.01092,
+      "AYRIK_POZ": true,
+      "Unull_ort": 0.000331,
+      "Unull_sd": 0.004502,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.030813,
+     "sd": 0.003182
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.0,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-72B-Instruct/snapshots/495f39366efef23836d0cfae4fbe635880d2be31",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "84a2639353b7bbc9",
+     "n_agirlik_dosyasi": 37,
+     "ayirt_edici_alanlar": [
+      "eos",
+      "orn"
+     ],
+     "config_ayirt_edici_VAR": true,
+     "imza": {
+      "eos": 151645,
+      "tip": "qwen2",
+      "L": 80,
+      "d": 8192,
+      "orn": true,
+      "template": true
+     }
+    }
+   },
+   "delta": {
+    "ARO": {
+     "dU": 0.031933,
+     "dU_CI": [
+      0.017491,
+      0.042329
+     ],
+     "dU_sd": 0.006441,
+     "MDE_1645sd": 0.010595,
+     "null_sd_kati": 4.958,
+     "AYRIK_POZ": true,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -0.000243,
+     "dU_plasebo_sd": 0.004356,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true
+    },
+    "DOM": {
+     "dU": -0.006476,
+     "dU_CI": [
+      -0.031777,
+      0.013344
+     ],
+     "dU_sd": 0.011414,
+     "MDE_1645sd": 0.018777,
+     "null_sd_kati": 0.567,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -0.000614,
+     "dU_plasebo_sd": 0.004889,
+     "dU_plasebo_frac": 0.1725,
+     "PLASEBO_MERKEZLI": true
+    },
+    "TON": {
+     "dU": -0.032242,
+     "dU_CI": [
+      -0.055813,
+      -0.012103
+     ],
+     "dU_sd": 0.011081,
+     "MDE_1645sd": 0.018229,
+     "null_sd_kati": 2.91,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": true,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -0.000866,
+     "dU_plasebo_sd": 0.004618,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true
+    }
+   }
+  },
+  "Gemma-4-26B-A4B": {
+   "tarif": "Google MoE (26B toplam / 4B etkin) — ★ Gemma ailesinin ölcek ucu",
+   "POZ_KONTROL": true,
+   "kapi_bos": true,
+   "base": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.032013,
+      "g_x4": 0.089635,
+      "U": 0.057622,
+      "U_CI": [
+       0.045323,
+       0.065826
+      ],
+      "U_sd": 0.005227,
+      "MDE_1645sd": 0.008598,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000467,
+      "Unull_sd": 0.003737,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.040553,
+      "g_x4": 0.096449,
+      "U": 0.055896,
+      "U_CI": [
+       0.036416,
+       0.069696
+      ],
+      "U_sd": 0.008547,
+      "MDE_1645sd": 0.014059,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000871,
+      "Unull_sd": 0.003595,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.093083,
+      "g_x4": 0.117611,
+      "U": 0.024528,
+      "U_CI": [
+       0.012899,
+       0.035731
+      ],
+      "U_sd": 0.005876,
+      "MDE_1645sd": 0.009666,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000452,
+      "Unull_sd": 0.003179,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.033674,
+     "sd": 0.002265
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.029718,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<repo>/.hf/hub/models--google--gemma-4-26B-A4B/snapshots/24548b62aa021d562695c04aaf7758a1ea47990b",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "ddf3c7dcdcb0e907",
+     "n_agirlik_dosyasi": 2,
+     "ayirt_edici_alanlar": [
+      "eos"
+     ],
+     "config_ayirt_edici_VAR": true,
+     "imza": {
+      "eos": null,
+      "tip": "gemma4",
+      "L": 30,
+      "d": 2816,
+      "orn": true,
+      "template": false
+     }
+    }
+   },
+   "instruct": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.098848,
+      "g_x4": 0.197393,
+      "U": 0.098545,
+      "U_CI": [
+       0.081649,
+       0.11077
+      ],
+      "U_sd": 0.007292,
+      "MDE_1645sd": 0.011995,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000549,
+      "Unull_sd": 0.004859,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.03427,
+      "g_x4": 0.074833,
+      "U": 0.040563,
+      "U_CI": [
+       0.022111,
+       0.052346
+      ],
+      "U_sd": 0.007579,
+      "MDE_1645sd": 0.012467,
+      "AYRIK_POZ": true,
+      "Unull_ort": 5.7e-05,
+      "Unull_sd": 0.004815,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.150438,
+      "g_x4": 0.191876,
+      "U": 0.041438,
+      "U_CI": [
+       0.024571,
+       0.056991
+      ],
+      "U_sd": 0.008124,
+      "MDE_1645sd": 0.013364,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000534,
+      "Unull_sd": 0.004861,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.029816,
+     "sd": 0.003249
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.004442,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<repo>/.hf/hub/models--google--gemma-4-26B-A4B-it/snapshots/4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "79f98065cc4064f2",
+     "n_agirlik_dosyasi": 2,
+     "ayirt_edici_alanlar": [
+      "eos"
+     ],
+     "config_ayirt_edici_VAR": true,
+     "imza": {
+      "eos": [
+       1,
+       106
+      ],
+      "tip": "gemma4",
+      "L": 30,
+      "d": 2816,
+      "orn": true,
+      "template": false
+     }
+    }
+   },
+   "delta": {
+    "ARO": {
+     "dU": -0.040923,
+     "dU_CI": [
+      -0.058267,
+      -0.024235
+     ],
+     "dU_sd": 0.008619,
+     "MDE_1645sd": 0.014179,
+     "null_sd_kati": 4.748,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": true,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": 8.2e-05,
+     "dU_plasebo_sd": 0.005458,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true
+    },
+    "DOM": {
+     "dU": 0.015333,
+     "dU_CI": [
+      -0.005895,
+      0.03944
+     ],
+     "dU_sd": 0.011405,
+     "MDE_1645sd": 0.018761,
+     "null_sd_kati": 1.344,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": false,
+     "CONTINGENT": true,
+     "dU_plasebo_ort": -0.000928,
+     "dU_plasebo_sd": 0.005774,
+     "dU_plasebo_frac": 0.01,
+     "PLASEBO_MERKEZLI": true
+    },
+    "TON": {
+     "dU": -0.01691,
+     "dU_CI": [
+      -0.034643,
+      0.001553
+     ],
+     "dU_sd": 0.009376,
+     "MDE_1645sd": 0.015424,
+     "null_sd_kati": 1.803,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": 8.2e-05,
+     "dU_plasebo_sd": 0.005182,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true
+    }
+   }
+  }
+ },
+ "N_CIFT_BAR": 3,
+ "B_boot": 2000,
+ "K_null": 400,
+ "betik_sha": "637b1177e9ba8a05",
+ "saniye": 52.6
+}

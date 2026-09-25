@@ -1,0 +1,53 @@
+{
+ "table": "JH_YARGIC_CUMLE",
+ "ciktilar": [
+  "JH_YARGIC_CUMLE.tex"
+ ],
+ "note": "v121: §2 block, sealed wording (PREREG_JH_YARGIC_JENERIK §6), cards V99_SONNET_YARGIC · V102_TAZE_B_UYUM · V99_SONNET_B_TAM · JH_YARGIC_JENERIK",
+ "sources": [
+  {
+   "yol": "results/v98_cpu_readings_2026-09-21.json",
+   "sha256_16": "742f321995a1cab5"
+  },
+  {
+   "yol": "results/v99_c2b_uyum_2026-09-21.json",
+   "sha256_16": "21c4acb4430206d1"
+  },
+  {
+   "yol": "results/v96_q2_judge_2026-09-18.json",
+   "sha256_16": "c8ee1984e6ee3fc0"
+  },
+  {
+   "yol": "results/v99_c2a_uyum_2026-09-21.json",
+   "sha256_16": "360a8a6d876dcda8"
+  },
+  {
+   "yol": "results/v99_sonnet_judge_2026-09-21.json",
+   "sha256_16": "1758da41e8e07092"
+  },
+  {
+   "yol": "results/v99_sonnet_full_2026-09-21.json",
+   "sha256_16": "f4b46556927f76c6"
+  },
+  {
+   "yol": "results/v98_elicit_ozdes_2026-09-21.json",
+   "sha256_16": "94e360f4d8132d9e"
+  },
+  {
+   "yol": "results/template_filtered_2026-09-07.json",
+   "sha256_16": "84812c8ac68df5ab"
+  },
+  {
+   "yol": "results/v102_taze_uyum_2026-09-23.json",
+   "sha256_16": "04fcd456823f200c"
+  },
+  {
+   "yol": "results/jh_b100_2026-09-25.json",
+   "sha256_16": "e5df7bbe5d12ff8c"
+  },
+  {
+   "yol": "results/jh_judge_generic_2026-09-25.json",
+   "sha256_16": "90f8ba04e79dd41d"
+  }
+ ]
+}

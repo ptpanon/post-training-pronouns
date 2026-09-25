@@ -1,0 +1,10 @@
+\paragraph*{The band on three prompt formats (\S\ref{sec:deperson}).}
+\vekalet{Largest over smallest model-level $M_1$, per thousand tokens, for the sixteen base and the sixteen aligned checkpoints. The URIAL row reads the base outputs inside the frame, with the task in context, and the aligned outputs through its own template.}
+\begin{center}\scriptsize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}\toprule
+prompt format & base min & base max & base ratio & aligned min & aligned max & aligned ratio \\ \midrule
+raw-continuation prompt & $10.09$ & $14.24$ & $1.41\times$ & $2.90$ & $9.80$ & $3.38\times$ \\
+own template, filtered & $8.31$ & $20.42$ & $2.46\times$ & $2.01$ & $41.20$ & $20.52\times$ \\
+URIAL frame, base; own template, aligned & $21.27$ & $32.37$ & $1.52\times$ & $1.94$ & $41.15$ & $21.19\times$ \\
+own template, filtered, echo and turn-marked lines dropped & $8.54$ & $21.28$ & $2.49\times$ & $2.06$ & $40.54$ & $19.69\times$ \\
+\bottomrule\end{tabular}\end{center}

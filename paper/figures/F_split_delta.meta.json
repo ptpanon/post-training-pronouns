@@ -1,0 +1,15 @@
+{
+ "figure": "F_split_delta",
+ "caption_draft": "Chat-template second-person density, base (open) to aligned (filled), sixteen models, same filtered cells as the split figure (fig:split), rows sorted by the shift.",
+ "sources": [
+  {
+   "yol": "results/template_filtered_2026-09-07.json",
+   "sha256_16": "84812c8ac68df5ab"
+  },
+  {
+   "yol": "paper/figures/BANT.meta.json",
+   "sha256_16": "a730f153725070cc"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

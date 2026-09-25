@@ -1,0 +1,73 @@
+{
+ "table": "Q2_KIP",
+ "damga_utc": "2026-09-25T23:44:15Z",
+ "sinif": "descriptive · unsealed · rule written before the count, no acceptance bound",
+ "alet": "scripts/continuation_mode_exit.py",
+ "sources": [
+  {
+   "yol": "results/continuation_mode_exit_count_2026-09-15.json",
+   "sha256_16": "7afb27bcbaedfdb6"
+  },
+  {
+   "yol": "results/continuation_mode_exit_sensitivity_2026-09-15.json",
+   "sha256_16": "130309fbc7cce70e"
+  },
+  {
+   "yol": "results/continuation_mode_exit_ceiling_2026-09-15.json",
+   "sha256_16": "7ac62d363b1d2e44"
+  }
+ ],
+ "tavan": {
+  "toplam": {
+   "taban": {
+    "n": 104448,
+    "atilan": 33073,
+    "isaretci": 22868,
+    "tur": 98,
+    "markdown": 12129
+   },
+   "hizali": {
+    "n": 104448,
+    "atilan": 54172,
+    "isaretci": 29072,
+    "tur": 354,
+    "markdown": 43453
+   }
+  },
+  "n_ayrik": 16,
+  "en_buyuk_kayma": {
+   "aile": "Qwen2.5-14B",
+   "kayma": 2.4415
+  }
+ },
+ "toplam": {
+  "hizali": [
+   2815,
+   104448,
+   136,
+   291,
+   2388
+  ],
+  "taban": [
+   2269,
+   104448,
+   237,
+   206,
+   1826
+  ]
+ },
+ "n_ayrik": 16,
+ "en_buyuk_kayma": {
+  "aile": "Gemma-3-27B",
+  "ph": 2.9871323529411766,
+  "pt": 2.4356617647058822,
+  "tum": -3.0669,
+  "dev": -3.2426,
+  "ci": [
+   -5.517,
+   -1.253
+  ],
+  "ayrik": true,
+  "pay": 3.92
+ }
+}

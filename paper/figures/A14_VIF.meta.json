@@ -1,0 +1,21 @@
+{
+ "table": "A14_VIF",
+ "ciktilar": [
+  "A14_VIF.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/v97_a14_vif_yeniden_fit_2026-09-19.json",
+   "sha256_16": "b38e335aa43e5dc1"
+  }
+ ],
+ "payda": {
+  "vif_uzunluk": 3.936028739418618,
+  "vif_kisi": 1.2787270104551172,
+  "Fa_marj": 1.3672836763983078,
+  "Fb_marj": 2.7298594966943135,
+  "Fa_beta": -0.19065526986640843,
+  "Fb_beta": -0.19107199980788175
+ },
+ "note": "renders the R3 VIF/refit card; no statistic computed here"
+}

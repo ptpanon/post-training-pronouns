@@ -1,0 +1,104 @@
+{
+ "_sonuc": {
+  "gercek": {
+   "M1_1k": {
+    "beta": -0.21158559379194525,
+    "ci": [
+     -0.22276391565531395,
+     -0.20082548012369275
+    ],
+    "ayrik": true,
+    "taban_gecti": true,
+    "isaret_negatif": true,
+    "frac_null": 0.0,
+    "null_ort": -0.000669766529334458,
+    "null_sd": 0.006213589073682273,
+    "gecti": true
+   },
+   "SAHIS1_1k": {
+    "beta": -0.17884663390429045,
+    "ci": [
+     -0.1933767925434337,
+     -0.1652001324680756
+    ],
+    "ayrik": true,
+    "taban_gecti": true,
+    "isaret_negatif": true,
+    "frac_null": 0.0,
+    "null_ort": -7.46901064315558e-05,
+    "null_sd": 0.006142306306206018,
+    "gecti": true
+   }
+  },
+  "plasebo_yuzey": {
+   "M1_1k": {
+    "beta": -0.11405676923665421,
+    "ci": [
+     -0.12485649234541514,
+     -0.10310025206265758
+    ],
+    "ayrik": true,
+    "taban_gecti": true,
+    "isaret_negatif": true,
+    "frac_null": 0.0,
+    "null_ort": -0.0005356875623239119,
+    "null_sd": 0.00569420889529255,
+    "gecti": true
+   },
+   "SAHIS1_1k": {
+    "beta": -0.18217869379334306,
+    "ci": [
+     -0.19727911912742,
+     -0.1671595200430211
+    ],
+    "ayrik": true,
+    "taban_gecti": true,
+    "isaret_negatif": true,
+    "frac_null": 0.0,
+    "null_ort": -3.1077675523083456e-05,
+    "null_sd": 0.006382874436229773,
+    "gecti": true
+   }
+  }
+ },
+ "_prova": {
+  "i_sifir_sinyal": false,
+  "ii_sabit_puan": false,
+  "iii_guclu_negatif": {
+   "gecti": true,
+   "beta": -1.001
+  },
+  "iv_sabit_esdegisken": false
+ },
+ "_mde_vekili": [
+  {
+   "icc": 0.0,
+   "deff": 1.0,
+   "mde": 0.0032520806680464936
+  },
+  {
+   "icc": 0.3,
+   "deff": 1.9,
+   "mde": 0.0044826838474083
+  },
+  {
+   "icc": 0.6,
+   "deff": 2.8,
+   "mde": 0.005441771796037466
+  }
+ ],
+ "_kunye": {
+  "damga_utc": "2026-09-03T17:00:42Z",
+  "veri": "openbmb/UltraFeedback train · TAMAMI",
+  "n_yanit": 255864,
+  "n_istem": 63966,
+  "n_model": 17,
+  "cikti": "overall_score",
+  "sabit_etki": "istem (sogurma) + model (gölge)",
+  "n_bootstrap": 1000,
+  "k_permutasyon": 200,
+  "seed": 20260903,
+  "taban": 0.05,
+  "motor": "MO.topla · FS._boru — ITHAL (K-5a)"
+ }
+}

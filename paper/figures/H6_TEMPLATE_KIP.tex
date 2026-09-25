@@ -1,0 +1,24 @@
+\paragraph*{Which opening the aligned outputs take under the template.}
+\vekalet{The opening rule used on the raw-continuation prompt (\S\ref{sec:deperson}: refusal, assistant opener, meta or summary, otherwise continuation, first match on the opening) was applied unchanged to both checkpoints of the chat-template panel, on the cells behind the template band. Under the template the three aligned Gemma-3 models open as an assistant in $95$--$99\%$ of generations, while T\"ulu-3-8B's aligned outputs continue in $90\%$ and its base in $93\%$. The table gives each model's rate within an opening where at least $80$ generations fall there. \textbf{We read no range across models from those columns.} The rule reads only the opening, and \emph{continue} means only that no listed opener was found, so a rate read inside that class carries the rule's own error; the spread under the template is reported in \S\ref{sec:deperson} over all generations, not within an opening.}
+\begin{center}\scriptsize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}\toprule
+ & \multicolumn{3}{c}{aligned outputs, share of generations (\%)} & \multicolumn{2}{c}{aligned $M_1$ within} & base \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-6}
+model & assistant & meta & continue & continue & assistant & continue (\%) \\ \midrule
+Gemma-3-12B & $99$ & $0$ & $1$ & -- & $36.25$ & $93$ \\
+Gemma-3-27B & $95$ & $1$ & $4$ & $37.42$ & $41.27$ & $96$ \\
+Gemma-3-4B & $95$ & $2$ & $3$ & $30.42$ & $40.27$ & $95$ \\
+Llama-3.1-70B & $0$ & $47$ & $50$ & $19.26$ & -- & $94$ \\
+Llama-3.1-8B & $1$ & $52$ & $43$ & $19.44$ & -- & $96$ \\
+Mistral-7B-v0.3 & $1$ & $19$ & $80$ & $12.97$ & -- & $98$ \\
+OLMo-3-7B & $32$ & $7$ & $61$ & $27.91$ & $24.76$ & $74$ \\
+OLMo-2-13B & $2$ & $27$ & $72$ & $4.50$ & -- & $81$ \\
+OLMo-2-32B & $3$ & $11$ & $86$ & $4.75$ & $11.12$ & $89$ \\
+Qwen2.5-1.5B & $2$ & $13$ & $58$ & $17.10$ & -- & $90$ \\
+Qwen2.5-14B & $13$ & $36$ & $51$ & $11.34$ & $7.33$ & $75$ \\
+Qwen2.5-32B & $1$ & $74$ & $24$ & $10.51$ & -- & $71$ \\
+Qwen2.5-3B & $32$ & $8$ & $59$ & $11.44$ & $10.88$ & $83$ \\
+Qwen2.5-72B & $10$ & $56$ & $35$ & $9.89$ & $4.29$ & $64$ \\
+Qwen2.5-7B & $36$ & $21$ & $43$ & $8.92$ & $9.21$ & $70$ \\
+T\"ulu-3-8B & $2$ & $7$ & $90$ & $1.99$ & -- & $93$ \\
+\bottomrule\end{tabular}\end{center}

@@ -1,0 +1,370 @@
+{
+ "prereg": "prereg_jh_judge_generic_2026-09-25.md",
+ "notice": "prerun_notice_jh_judge_generic_2026-09-25.md",
+ "girdi_sha": {
+  "<data>/v96_c2/sonnet/tam/dis_sonnet/B_yargi.jsonl": "739a2788dfe3225b0b2c62e02c1dfde7fc149b958b4c7c6f35b4830c5ec3e31b",
+  "<data>/v96_c2/sonnet/tam/V96_Q2_YARGIC_SONNET_B_ara.json": "40a978298cd53f0f3e2149232b7500b04f52c0952897e0890476e6010317590f",
+  "<data>/v96_c2/B_orneklem.jsonl": "97473f638c3e05db7011b17740cf3e7e6e3dfaebd123985a8f8fd6a239819f15",
+  "<repo>/scripts/v96_q2_judge.py": "b3054237edab2d02ff468ca824bfe82589bf45bde7a9d1d338188962492b27ce",
+  "<repo>/scripts/swapped_ruler.py": "63d9fb41286211dd9f793b429b625c5d18110941ae80044e8df7e4a02a1c590a",
+  "<repo>/scripts/depersonalization16_neutral_run.py": "99a84d3c06225d542ba5c7e4139b0789422a58dfa882acf1bef87683d78bf622",
+  "<repo>/scripts/addressee_run.py": "982b3b89acf143acca37a3ae57f1307b0a82a4ed71ed52aaf4d3d642de9b8870",
+  "<repo>/scripts/template_filtered.py": "a0f5d0b77114f192902b0aa24a7417172873f6eae4809dbb2fbca7d6141caa1a"
+ },
+ "alet_sha": "b6673dcea7cbd363e7242fd59eba6485424eb548fe30ad1068792c4a4a426674",
+ "seed": 20260926,
+ "bicim": "cip (ham devam)",
+ "sayim": {
+  "duser": 16,
+  "yukselir": 0,
+  "ayrik_asagi": 12,
+  "ayrik_yukari": 0,
+  "plasebo_ustu_asagi": 8,
+  "plasebo_ustu_yukari": 0,
+  "ayrik_ve_plasebo_ustu_asagi": 8,
+  "aralik_kurulamadi": 0
+ },
+ "dusen": [
+  "Gemma-3-12B",
+  "Gemma-3-27B",
+  "Gemma-3-4B",
+  "Llama-3.1-70B",
+  "Llama-3.1-8B",
+  "Mistral-7B-v0.3",
+  "OLMo-3-7B",
+  "OLMo2-13B",
+  "OLMo2-32B",
+  "Qwen2.5-1.5B",
+  "Qwen2.5-14B",
+  "Qwen2.5-32B",
+  "Qwen2.5-3B",
+  "Qwen2.5-72B",
+  "Qwen2.5-7B",
+  "Tulu3-8B"
+ ],
+ "yukselen": [],
+ "tartisma_cumlesi": "KALIR",
+ "aile": {
+  "Gemma-3-12B": {
+   "hal": "OKUNDU",
+   "M1_taban": 13.924657880119174,
+   "g_taban": 0.5,
+   "M1_hizali": 10.648920684513243,
+   "g_hizali": 0.046511627906976744,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 3050,
+   "n_istem": 34,
+   "gozlenen": -6.467030303570599,
+   "ci": [
+    -9.542606093701883,
+    -3.7400954463252307
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 5.463539453595147,
+   "plasebo_ustu": true
+  },
+  "Gemma-3-27B": {
+   "hal": "OKUNDU",
+   "M1_taban": 12.774888467801789,
+   "g_taban": 0.5833333333333334,
+   "M1_hizali": 9.964579505368608,
+   "g_hizali": 0.23809523809523808,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 2845,
+   "n_istem": 34,
+   "gozlenen": -5.079499343034708,
+   "ci": [
+    -8.175562439170168,
+    -2.4553015567449648
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 6.021261537778728,
+   "plasebo_ustu": false
+  },
+  "Gemma-3-4B": {
+   "hal": "OKUNDU",
+   "M1_taban": 11.552930728725418,
+   "g_taban": 0.6,
+   "M1_hizali": 8.379639183794099,
+   "g_hizali": 0.45,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 2706,
+   "n_istem": 34,
+   "gozlenen": -3.1609208045279056,
+   "ci": [
+    -7.111355799544459,
+    1.1201186579909712
+   ],
+   "ayrik": false,
+   "yon": "asagi",
+   "plasebo_p95": 4.238473140443086,
+   "plasebo_ustu": false
+  },
+  "Llama-3.1-70B": {
+   "hal": "OKUNDU",
+   "M1_taban": 12.144060119479372,
+   "g_taban": 0.48936170212765956,
+   "M1_hizali": 7.837548984681154,
+   "g_hizali": 0.6170212765957447,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 2424,
+   "n_istem": 34,
+   "gozlenen": -1.106903450899405,
+   "ci": [
+    -3.5484853949478223,
+    1.7931913413536877
+   ],
+   "ayrik": false,
+   "yon": "asagi",
+   "plasebo_p95": 5.167045088775648,
+   "plasebo_ustu": false
+  },
+  "Llama-3.1-8B": {
+   "hal": "OKUNDU",
+   "M1_taban": 12.099495876310405,
+   "g_taban": 0.6037735849056604,
+   "M1_hizali": 6.658641722730257,
+   "g_hizali": 0.6888888888888889,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 2695,
+   "n_istem": 34,
+   "gozlenen": -2.718291702910343,
+   "ci": [
+    -4.797241507987907,
+    -0.5639816481779624
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 4.927915245093677,
+   "plasebo_ustu": false
+  },
+  "Mistral-7B-v0.3": {
+   "hal": "OKUNDU",
+   "M1_taban": 13.366520415248875,
+   "g_taban": 0.6727272727272727,
+   "M1_hizali": 3.374740995568422,
+   "g_hizali": 0.8,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 4044,
+   "n_istem": 34,
+   "gozlenen": -6.292230028349051,
+   "ci": [
+    -8.436560887191082,
+    -3.3334330228592184
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 4.843059800882595,
+   "plasebo_ustu": true
+  },
+  "OLMo-3-7B": {
+   "hal": "OKUNDU",
+   "M1_taban": 14.18830367148474,
+   "g_taban": 0.6666666666666666,
+   "M1_hizali": 9.663533747270954,
+   "g_hizali": 0.4878048780487805,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 4378,
+   "n_istem": 34,
+   "gozlenen": -4.744950213215377,
+   "ci": [
+    -6.975618257557967,
+    -2.0794343899615457
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 4.612465272460167,
+   "plasebo_ustu": true
+  },
+  "OLMo2-13B": {
+   "hal": "OKUNDU",
+   "M1_taban": 12.67390355742017,
+   "g_taban": 0.8,
+   "M1_hizali": 6.109147122433155,
+   "g_hizali": 0.42105263157894735,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 2994,
+   "n_istem": 34,
+   "gozlenen": -7.566850373332702,
+   "ci": [
+    -10.448089852392872,
+    -4.743075535862342
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 3.7820000125939313,
+   "plasebo_ustu": true
+  },
+  "OLMo2-32B": {
+   "hal": "OKUNDU",
+   "M1_taban": 13.776387250157981,
+   "g_taban": 0.7169811320754716,
+   "M1_hizali": 9.023918570371583,
+   "g_hizali": 0.7058823529411765,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 3347,
+   "n_istem": 34,
+   "gozlenen": -3.507584853324892,
+   "ci": [
+    -6.912438293189398,
+    -0.42903134072042004
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 5.011424554296913,
+   "plasebo_ustu": false
+  },
+  "Qwen2.5-1.5B": {
+   "hal": "OKUNDU",
+   "M1_taban": 10.860493924186118,
+   "g_taban": 0.5681818181818182,
+   "M1_hizali": 8.548948940426952,
+   "g_hizali": 0.4888888888888889,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 1823,
+   "n_istem": 34,
+   "gozlenen": -1.9912490355434826,
+   "ci": [
+    -4.451345893309866,
+    0.5629771499831552
+   ],
+   "ayrik": false,
+   "yon": "asagi",
+   "plasebo_p95": 4.082672121867414,
+   "plasebo_ustu": false
+  },
+  "Qwen2.5-14B": {
+   "hal": "OKUNDU",
+   "M1_taban": 11.320703340390336,
+   "g_taban": 0.3488372093023256,
+   "M1_hizali": 7.418806746065538,
+   "g_hizali": 0.24324324324324326,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 3139,
+   "n_istem": 34,
+   "gozlenen": -2.1445079466934462,
+   "ci": [
+    -4.5149642627038755,
+    -0.4750089020395862
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 4.0633831567418905,
+   "plasebo_ustu": false
+  },
+  "Qwen2.5-32B": {
+   "hal": "OKUNDU",
+   "M1_taban": 10.611961318971995,
+   "g_taban": 0.46153846153846156,
+   "M1_hizali": 8.14810093154976,
+   "g_hizali": 0.3488372093023256,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 3499,
+   "n_istem": 34,
+   "gozlenen": -2.0554675109884997,
+   "ci": [
+    -5.181966545796446,
+    0.25912606730417154
+   ],
+   "ayrik": false,
+   "yon": "asagi",
+   "plasebo_p95": 4.282876263784313,
+   "plasebo_ustu": false
+  },
+  "Qwen2.5-3B": {
+   "hal": "OKUNDU",
+   "M1_taban": 10.403054194582516,
+   "g_taban": 0.7543859649122807,
+   "M1_hizali": 7.1374954583765975,
+   "g_hizali": 0.2571428571428571,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 3468,
+   "n_istem": 34,
+   "gozlenen": -6.012562101603756,
+   "ci": [
+    -8.252069630381223,
+    -3.6988531620955984
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 3.3534387389408225,
+   "plasebo_ustu": true
+  },
+  "Qwen2.5-72B": {
+   "hal": "OKUNDU",
+   "M1_taban": 10.651076447513208,
+   "g_taban": 0.6097560975609756,
+   "M1_hizali": 6.783830221351195,
+   "g_hizali": 0.14285714285714285,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 3784,
+   "n_istem": 34,
+   "gozlenen": -5.525440206409103,
+   "ci": [
+    -7.7330747013295165,
+    -3.413149975897898
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 4.362699526126757,
+   "plasebo_ustu": true
+  },
+  "Qwen2.5-7B": {
+   "hal": "OKUNDU",
+   "M1_taban": 11.005326959909333,
+   "g_taban": 0.6875,
+   "M1_hizali": 6.721717554304842,
+   "g_hizali": 0.4358974358974359,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 3066,
+   "n_istem": 34,
+   "gozlenen": -4.636182838189402,
+   "ci": [
+    -7.753285478753806,
+    -1.5955068004454958
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 4.599958086275366,
+   "plasebo_ustu": true
+  },
+  "Tulu3-8B": {
+   "hal": "OKUNDU",
+   "M1_taban": 12.391573729863692,
+   "g_taban": 0.82,
+   "M1_hizali": 3.1010171436913683,
+   "g_hizali": 0.75,
+   "n_etiketli_taban": 32,
+   "n_etiketli_hizali": 31,
+   "n_cift": 2976,
+   "n_istem": 34,
+   "gozlenen": -7.835327600719701,
+   "ci": [
+    -10.325533276396193,
+    -5.55087384857071
+   ],
+   "ayrik": true,
+   "yon": "asagi",
+   "plasebo_p95": 3.16612072316154,
+   "plasebo_ustu": true
+  }
+ },
+ "sure_sn": 404.0
+}

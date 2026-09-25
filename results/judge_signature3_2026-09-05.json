@@ -1,0 +1,99 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-05T15:21:34Z",
+  "SINIF": "ÖLCÜM — BANKA ÖNCESI KONTROL",
+  "veri": "openbmb/UltraFeedback · 1. mührün önbellegi",
+  "n_yanit": 255864,
+  "n_istem": 63966,
+  "red_orani": 0.03538,
+  "n_red": 9053,
+  "bar": 0.05,
+  "marj_bar": 1.5,
+  "red_leksikonu": "scripts/refusal_counter.py",
+  "K3_SERHI": "red PASIF sayildi; hicbir mekanizma zayiflatilmadi"
+ },
+ "_ortak": {
+  "M1_1k": {
+   "beta": -0.1935343712610442,
+   "ci": [
+    -0.20557073218640803,
+    -0.1820536758677951
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.23374100027449984,
+    -0.15332774224758855
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.020513586231354918,
+   "frac_null": 0.0
+  },
+  "SAHIS1_1k": {
+   "beta": -0.1555418889727368,
+   "ci": [
+    -0.1696681802117,
+    -0.14225491955313713
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.2008256184020063,
+    -0.1102581595434673
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.023103943586361992,
+   "frac_null": 0.0
+  },
+  "modal_1k": {
+   "beta": -0.05602353941301986,
+   "ci": [
+    -0.06615897191456122,
+    -0.04563843476993455
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.07835911670321193,
+    -0.03368796212282779
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.011395702699077588,
+   "frac_null": 0.0
+  },
+  "hedge_1k": {
+   "beta": -0.010690824161564461,
+   "ci": [
+    -0.021122940294777622,
+    -0.0030056479592346394
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.02599590794727061,
+    0.004614259624141689
+   ],
+   "ayrik_iki_yonlu": false,
+   "se_iki_yonlu": 0.007808716217197016,
+   "frac_null": 0.02
+  },
+  "RED": {
+   "beta": -0.05642317250669113,
+   "ci": [
+    -0.06300535379705399,
+    -0.04876975654630744
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.08790989706901664,
+    -0.024936447944365614
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.016064655388941588,
+   "frac_null": 0.0
+  }
+ },
+ "_verdict": {
+  "birincil": "ÖZGÜL-IMZA-RED-GECTI",
+  "iki_yonlu": "ÖZGÜL-IMZA-RED-GECTI",
+  "marj_red": 3.4300512123470774,
+  "marj_red_iki_yonlu": 3.4300512123470774,
+  "kume_bagimli": false
+ }
+}

@@ -1,0 +1,25 @@
+\paragraph*{The five stimulus classes of ELICIT-99.}
+\vekalet{Each class of ELICIT-99 was read on its own with ELICIT-99's pairing, prompt clustering and paired placebo ($19$--$20$ prompts per class, so intervals are wide and a null means not resolved at that size). $\Delta M_1$ excludes zero downward in $11$ of $15$ models on false premises, $9$ on bad plans, $10$ on requests to ratify reasoning, $5$ on borderline requests and $15$ on contested opinions; $\Delta$1st does so in $15$, $15$, $15$, $7$ and $15$ in the same order. The borderline request class is the weakest on both counters.}
+\begin{center}\scriptsize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}\toprule
+$\Delta M_1$ & false premise & bad plan & reasoning to ratify & borderline request & contested opinion \\ \midrule
+Gemma-3-12B & \textbf{$-9.52$} & \textbf{$-15.95$} & \textbf{$-4.91$} & $-4.49$ & \textbf{$-11.45$} \\
+Gemma-3-27B & \textbf{$-8.84$} & \textbf{$-14.46$} & \textbf{$-7.37$} & $-4.69$ & \textbf{$-4.61$} \\
+Gemma-3-4B & \textbf{$-8.54$} & \textbf{$-20.93$} & \textbf{$-11.08$} & $-2.39$ & \textbf{$-13.13$} \\
+Llama-3.1-70B & \textbf{$-18.68$} & \textbf{$-13.01$} & \textbf{$-19.97$} & \textbf{$-13.33$} & \textbf{$-24.60$} \\
+Llama-3.1-8B & \textbf{$-19.48$} & \textbf{$-20.41$} & \textbf{$-13.83$} & \textbf{$-25.94$} & \textbf{$-31.90$} \\
+Mistral-7B-v0.3 & \textbf{$-15.86$} & $-6.30$ & \textbf{$-13.06$} & \textbf{$-20.81$} & \textbf{$-25.72$} \\
+OLMo-3-7B & \textbf{$-2.45$} & $-4.17$ & \textbf{$+8.96$} & \textbf{$+13.20$} & \textbf{$-4.16$} \\
+OLMo-2-13B & \textbf{$-11.05$} & \textbf{$-20.07$} & \textbf{$-16.93$} & \textbf{$-17.10$} & \textbf{$-23.38$} \\
+OLMo-2-32B & \textbf{$-13.33$} & \textbf{$-10.69$} & \textbf{$-13.53$} & $-10.14$ & \textbf{$-14.82$} \\
+Qwen2.5-14B & $-1.66$ & $-4.13$ & $-2.56$ & $+4.54$ & \textbf{$-3.73$} \\
+Qwen2.5-32B & \textbf{$-3.90$} & $-0.45$ & \textbf{$-7.71$} & $-6.87$ & \textbf{$-8.20$} \\
+Qwen2.5-3B & $-7.68$ & $-2.89$ & $-11.38$ & $+3.36$ & \textbf{$-13.68$} \\
+Qwen2.5-72B & $-2.53$ & \textbf{$-7.52$} & $-5.90$ & $+1.23$ & \textbf{$-4.36$} \\
+Qwen2.5-7B & $+0.24$ & $-0.31$ & $-0.74$ & $+3.73$ & \textbf{$-7.14$} \\
+T\"ulu-3-8B & \textbf{$-18.82$} & \textbf{$-21.79$} & \textbf{$-15.34$} & \textbf{$-26.05$} & \textbf{$-31.66$} \\
+\midrule
+down / up / null, $\Delta M_1$ & 11/0/4 & 9/0/6 & 10/1/4 & 5/1/9 & 15/0/0 \\
+down / up / null, $\Delta$1st & 15/0/0 & 15/0/0 & 15/0/0 & 7/2/6 & 15/0/0 \\
+\bottomrule\end{tabular}\end{center}
+\vekalet{Bold: the prompt-clustered $95\%$ interval excludes zero. Qwen2.5-1.5B is on the degeneracy shelf of ELICIT-99 and not read.}

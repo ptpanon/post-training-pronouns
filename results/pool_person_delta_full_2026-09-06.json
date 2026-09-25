@@ -1,0 +1,94 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-06T15:18:29Z",
+  "alet": "scripts/pool_person_delta.py",
+  "borc": "D-0907-V19-B §2e",
+  "SINIF": "ÖLCÜM — köken kontrolü",
+  "kip": "TAM-HAVUZ",
+  "seed_ornekleme": 20260829,
+  "seed_boot": 20260906,
+  "nb": 1000,
+  "birim": "cift",
+  "n_cift_olculen": 493627,
+  "n_havuz": 494833,
+  "ONCUL_DUZELTME": "494 833 HAVUZUN boyudur; form sayaclari da bu 59 894'lük örneklemde ölcülmüstü (FILTRE_VERIM_2026-08-29 n_ornek)",
+  "prova": {
+   "i_ikinci_sahis_sayiliyor": true,
+   "ii_sahissiz_sifir": true,
+   "iii_jeton_pozitif": true,
+   "iv_bos_metin_cokmuyor": true
+  }
+ },
+ "set": {
+  "hh-rlhf": {
+   "HAL": "ÖLCÜLDÜ",
+   "repo": "Anthropic/hh-rlhf",
+   "n_havuz": 160800,
+   "n_cift": 160615,
+   "red_bos_taraf": 185,
+   "d_M1": -1.051528355855293,
+   "d_M1_medyan": 0.0,
+   "d_M1_ci": [
+    -1.331626485280258,
+    -0.7973791367963684
+   ],
+   "d_M1_havuz": -0.8144143308522132,
+   "kestirici_notu": "d_M1 = cift ortalamasi; d_M1_havuz = korpus-düzeyi oran farki (ikisi AYRI nesnedir)",
+   "d_sahis1": -1.437504846281161,
+   "d_sahis1_ci": [
+    -1.6876897201041787,
+    -1.1547335636762284
+   ],
+   "tam_sifir_pay": 0.21144351399308906,
+   "jeton_ort_chosen": 64.6773713538586,
+   "jeton_ort_rejected": 61.435868380910875
+  },
+  "ultrafeedback": {
+   "HAL": "ÖLCÜLDÜ",
+   "repo": "HuggingFaceH4/ultrafeedback_binarized",
+   "n_havuz": 61135,
+   "n_cift": 61054,
+   "red_bos_taraf": 81,
+   "d_M1": -2.9655709574812477,
+   "d_M1_medyan": 0.0,
+   "d_M1_ci": [
+    -3.160221432937065,
+    -2.7886478884681765
+   ],
+   "d_M1_havuz": -0.9551405166379219,
+   "kestirici_notu": "d_M1 = cift ortalamasi; d_M1_havuz = korpus-düzeyi oran farki (ikisi AYRI nesnedir)",
+   "d_sahis1": -3.2097191383131434,
+   "d_sahis1_ci": [
+    -3.41069680562823,
+    -3.010049262589759
+   ],
+   "tam_sifir_pay": 0.3968126576473286,
+   "jeton_ort_chosen": 246.22480099583976,
+   "jeton_ort_rejected": 215.80920169030694
+  },
+  "tulu3-pref": {
+   "HAL": "ÖLCÜLDÜ",
+   "repo": "allenai/llama-3.1-tulu-3-8b-preference-mixture",
+   "n_havuz": 272898,
+   "n_cift": 271958,
+   "red_bos_taraf": 940,
+   "d_M1": -1.0367040475287423,
+   "d_M1_medyan": 0.0,
+   "d_M1_ci": [
+    -1.0970906013450052,
+    -0.9802529575383884
+   ],
+   "d_M1_havuz": -1.027969247051716,
+   "kestirici_notu": "d_M1 = cift ortalamasi; d_M1_havuz = korpus-düzeyi oran farki (ikisi AYRI nesnedir)",
+   "d_sahis1": -1.4108784930435117,
+   "d_sahis1_ci": [
+    -1.4936902985967564,
+    -1.337378364155903
+   ],
+   "tam_sifir_pay": 0.5921171651505012,
+   "jeton_ort_chosen": 345.56790386750896,
+   "jeton_ort_rejected": 350.24166599254295
+  }
+ },
+ "_verdict": "KÖKEN-DESTEKLENDI"
+}

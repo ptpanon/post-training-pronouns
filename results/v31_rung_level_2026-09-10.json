@@ -1,0 +1,84 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-09T18:47:29Z",
+  "alet": "scripts/v31_rung_level.py",
+  "motor": "addressee_run.py b114a7b46a3369cb (edit yok)",
+  "borc": "D-0910-V31-METIN §2",
+  "kok": "<data>/c1_panel_template",
+  "sinif": "DÜZEY OKUMASI — verdict kurmaz"
+ },
+ "merdiven": {
+  "Zephyr-7B": {
+   "taban": {
+    "M1": 22.671,
+    "M3": 0.8274,
+    "sahis1": 34.607,
+    "n_satir": 6528
+   },
+   "sft": {
+    "M1": 1.991,
+    "M3": 0.9932,
+    "sahis1": 7.101,
+    "n_satir": 6528
+   },
+   "dpo": {
+    "M1": 2.075,
+    "M3": 0.9837,
+    "sahis1": 4.914,
+    "n_satir": 6528
+   }
+  },
+  "Tulu3-8B": {
+   "taban": {
+    "M1": 19.116,
+    "M3": 0.8472,
+    "sahis1": 32.125,
+    "n_satir": 6528
+   },
+   "sft": {
+    "M1": 9.563,
+    "M3": 0.9359,
+    "sahis1": 11.985,
+    "n_satir": 6528
+   },
+   "dpo": {
+    "M1": 2.285,
+    "M3": 0.9474,
+    "sahis1": 2.812,
+    "n_satir": 6528
+   },
+   "rl": {
+    "M1": 1.942,
+    "M3": 0.9704,
+    "sahis1": 2.549,
+    "n_satir": 6528
+   }
+  },
+  "OLMo2-13B": {
+   "taban": {
+    "M1": 17.72,
+    "M3": 0.8698,
+    "sahis1": 28.804,
+    "n_satir": 6528
+   },
+   "sft": {
+    "M1": 6.739,
+    "M3": 0.9019,
+    "sahis1": 5.061,
+    "n_satir": 6528
+   },
+   "dpo": {
+    "M1": 4.464,
+    "M3": 0.9214,
+    "sahis1": 1.641,
+    "n_satir": 6528
+   },
+   "instruct": {
+    "M1": 4.146,
+    "M3": 0.8946,
+    "sahis1": 1.335,
+    "n_satir": 6528
+   }
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "damga_utc": "2026-09-20T23:10:49Z",
+ "HALKA": "üretim",
+ "cift": "Mistral-7B-v0.3",
+ "zemin": "instruct",
+ "model": "<storage>/huggingface/hub/models--mistralai--Mistral-7B-Instruct-v0.3/snapshots/c170c708c41dac9275d15a8fff4eca08d52bab71",
+ "kimlik": {
+  "yol": true,
+  "agirlik_izi": "85393b0e46e8051d",
+  "n_agirlik_dosyasi": 4,
+  "ayirt_edici_alanlar": [
+   "template"
+  ],
+  "config_ayirt_edici_VAR": true,
+  "imza": {
+   "eos": 2,
+   "tip": "mistral",
+   "L": 32,
+   "d": 4096,
+   "orn": false,
+   "template": true
+  }
+ },
+ "cevre": {
+  "dev": "cuda:0",
+  "torch_index": 0,
+  "gpu_adi": "NVIDIA H100 NVL",
+  "gpu_uuid": "372a80c7-3e9c-436d-e98f-a8e9d9917ce9",
+  "fiziksel_gpu": 0,
+  "cvd_once": "0",
+  "cvd_kilitten_sonra": "0",
+  "smi_card_sayisi": 2,
+  "smi_kullanilan": "723 MiB"
+ },
+ "yerlesim": {
+  "(hepsi)": "cuda:0"
+ },
+ "coklu_card": 0,
+ "tepe_vram_MiB": 29153,
+ "seed": 20260812,
+ "seed_kaynagi": "seritA_harman102.SEED",
+ "TAM": true,
+ "n_kol": 4,
+ "n_satir": 1632,
+ "kol_satir": {
+  "TUR_BLOG": 408,
+  "TUR_FORUM": 408,
+  "TUR_NASIL": 408,
+  "TUR_NOTICE": 408
+ },
+ "atlanan_kol": 0,
+ "n_cekim": 12,
+ "yigin": 17,
+ "red_bos_metin": 0,
+ "bos_orani": 0.0,
+ "yukleme_sn": 2.9,
+ "saniye": 281.0
+}

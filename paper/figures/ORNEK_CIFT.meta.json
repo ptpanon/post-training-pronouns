@@ -1,0 +1,85 @@
+{
+ "table": "ORNEK_CIFT",
+ "damga_utc": "2026-09-25T23:36:38Z",
+ "rule": "preregistration/rule_example_pair_selection.md",
+ "sources": [
+  {
+   "yol": "results/PREREG9_A_OLCUM_2026-08-31.json",
+   "sha256_16": "9ce1b8503a30b287"
+  },
+  {
+   "yol": "results/KOL_TABLOSU_2026-09-10.json",
+   "sha256_16": "628a23fdcc710dbf"
+  }
+ ],
+ "secim": [
+  {
+   "aile": "Mistral-7B-v0.3",
+   "istem_i": 2,
+   "dM1_istem": -9.168584410249288,
+   "medyan": -8.953159943410302,
+   "kol": "ARO-x1",
+   "cekim": 0,
+   "tez": "bullfighting as a male dominated sport reinforces harmful gender stereotypes",
+   "durus": "arti",
+   "dusen": [],
+   "n_jeton": {
+    "istem": 51,
+    "taban": 120,
+    "hizali": 119
+   },
+   "kesildi": {
+    "istem": false,
+    "taban": true,
+    "hizali": false
+   },
+   "sha_metin": {
+    "istem": "43cb3a569a6be153",
+    "taban": "903fa77b9a5ffa14",
+    "hizali": "03e7dcb9c2ee4fcf"
+   },
+   "sha_uretim": {
+    "taban": "f5291d44eb5e37c9",
+    "hizali": "e4b5e106f119b9fc"
+   },
+   "bacak": {
+    "taban": "base",
+    "hizali": "instruct"
+   }
+  },
+  {
+   "aile": "Gemma-3-27B",
+   "istem_i": 7,
+   "dM1_istem": -1.7994909987120273,
+   "medyan": -2.1537537034894316,
+   "kol": "ARO-x1",
+   "cekim": 0,
+   "tez": "feminism aims to correct the systemic biases against women and other minorities that are born out of historical discrimination",
+   "durus": "eksi",
+   "dusen": [],
+   "n_jeton": {
+    "istem": 60,
+    "taban": 120,
+    "hizali": 120
+   },
+   "kesildi": {
+    "istem": false,
+    "taban": true,
+    "hizali": true
+   },
+   "sha_metin": {
+    "istem": "fd18dd6401ea0336",
+    "taban": "7cdd4470fae4dd3d",
+    "hizali": "ac3e8d78edbc6a86"
+   },
+   "sha_uretim": {
+    "taban": "0a74fa0aec1f728b",
+    "hizali": "0a62776eddf16eed"
+   },
+   "bacak": {
+    "taban": "base",
+    "hizali": "instruct"
+   }
+  }
+ ]
+}

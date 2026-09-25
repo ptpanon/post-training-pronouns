@@ -1,0 +1,283 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-12T15:19:23Z",
+  "prereg": "prereg_system_prompt_2026-09-10.md @ 5090356c",
+  "alet": "scripts/system_prompt_verdict.py",
+  "motor": "",
+  "NB": 1000,
+  "NPERM": 200,
+  "bar_aile": 12,
+  "d_shelf": 0.6,
+  "kok": "<data>/c1_panel_msistem"
+ },
+ "VERDICT": "ÖLCÜLEMEZ (payda<12)",
+ "n_aile": 16,
+ "n_olculen": 2,
+ "n_ayrik": 2,
+ "n_kucuk": 0,
+ "atlanan": [
+  "Gemma-3-12B",
+  "Gemma-3-27B",
+  "Gemma-3-4B",
+  "Llama-3.1-70B",
+  "Llama-3.1-8B",
+  "Mistral-7B-v0.3",
+  "OLMo2-13B",
+  "OLMo2-32B",
+  "Qwen2.5-1.5B",
+  "Qwen2.5-14B",
+  "Qwen2.5-32B",
+  "Qwen2.5-3B",
+  "Qwen2.5-72B",
+  "Qwen2.5-7B"
+ ],
+ "aile": {
+  "Gemma-3-12B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.4657473903752106,
+    "satirli/instruct": 0.5067501831174132,
+    "satirsiz/base": 0.5793914894355585,
+    "satirsiz/instruct": 0.5465691683913478
+   },
+   "dusen": [
+    "satirli/base",
+    "satirli/instruct",
+    "satirsiz/base",
+    "satirsiz/instruct"
+   ]
+  },
+  "Gemma-3-27B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.37988705005760554,
+    "satirli/instruct": 0.5041194566800383,
+    "satirsiz/base": 0.44321759906329605,
+    "satirsiz/instruct": 0.5742760671409516
+   },
+   "dusen": [
+    "satirli/base",
+    "satirli/instruct",
+    "satirsiz/base",
+    "satirsiz/instruct"
+   ]
+  },
+  "Gemma-3-4B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.6565381649267369,
+    "satirli/instruct": 0.5237410593634559,
+    "satirsiz/base": 0.6824859763155552,
+    "satirsiz/instruct": 0.5230729688049566
+   },
+   "dusen": [
+    "satirli/instruct",
+    "satirsiz/instruct"
+   ]
+  },
+  "Llama-3.1-70B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.43836133812267464,
+    "satirli/instruct": 0.4463642029012334,
+    "satirsiz/base": 0.4561783871352442,
+    "satirsiz/instruct": 0.46837662882282527
+   },
+   "dusen": [
+    "satirli/base",
+    "satirli/instruct",
+    "satirsiz/base",
+    "satirsiz/instruct"
+   ]
+  },
+  "Llama-3.1-8B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.6474706044669958,
+    "satirli/instruct": 0.49829536864385426,
+    "satirsiz/base": 0.6647406145766801,
+    "satirsiz/instruct": 0.5157954791267927
+   },
+   "dusen": [
+    "satirli/instruct",
+    "satirsiz/instruct"
+   ]
+  },
+  "Mistral-7B-v0.3": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.8096144608585766,
+    "satirli/instruct": 0.4856042628095863,
+    "satirsiz/base": 0.8110565571118897,
+    "satirsiz/instruct": 0.4988486006017804
+   },
+   "dusen": [
+    "satirli/instruct",
+    "satirsiz/instruct"
+   ]
+  },
+  "OLMo-3-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "fark": 2.6365514954221716,
+   "dM1_satirli": 13.068012534419346,
+   "dM1_satirsiz": 10.431461038997174,
+   "ci": [
+    1.7741000525179573,
+    3.4962130373437463
+   ],
+   "ayrik": true,
+   "null_sd": 0.6701303613015329,
+   "null_ort": 0.03301542878666141,
+   "MDE": 1.1023644443410217,
+   "kucuk": false,
+   "plasebo_frac": 0.0,
+   "distinct4": {
+    "satirli/base": 0.6525531431327894,
+    "satirli/instruct": 0.7676289748351879,
+    "satirsiz/base": 0.7222611050270957,
+    "satirsiz/instruct": 0.7753729944354351
+   },
+   "n_cift": 6528,
+   "n_istem": 34
+  },
+  "OLMo2-13B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.5119135002412838,
+    "satirli/instruct": 0.6307579693884285,
+    "satirsiz/base": 0.5852767279122852,
+    "satirsiz/instruct": 0.6448749272134612
+   },
+   "dusen": [
+    "satirli/base",
+    "satirsiz/base"
+   ]
+  },
+  "OLMo2-32B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.5089299853952948,
+    "satirli/instruct": 0.6558693984188342,
+    "satirsiz/base": 0.6199891268208082,
+    "satirsiz/instruct": 0.6736212143274042
+   },
+   "dusen": [
+    "satirli/base"
+   ]
+  },
+  "Qwen2.5-1.5B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.3804127227927487,
+    "satirli/instruct": 0.7887370025793877,
+    "satirsiz/base": 0.33070350359271433,
+    "satirsiz/instruct": 0.8355527469895495
+   },
+   "dusen": [
+    "satirli/base",
+    "satirsiz/base"
+   ]
+  },
+  "Qwen2.5-14B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.6140943705771444,
+    "satirli/instruct": 0.5405941999054814,
+    "satirsiz/base": 0.41367209396972965,
+    "satirsiz/instruct": 0.6029496036616109
+   },
+   "dusen": [
+    "satirli/instruct",
+    "satirsiz/base"
+   ]
+  },
+  "Qwen2.5-32B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.6372196848330465,
+    "satirli/instruct": 0.49782186374122056,
+    "satirsiz/base": 0.5736008642638828,
+    "satirsiz/instruct": 0.5228400174340851
+   },
+   "dusen": [
+    "satirli/instruct",
+    "satirsiz/base",
+    "satirsiz/instruct"
+   ]
+  },
+  "Qwen2.5-3B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.646278141618441,
+    "satirli/instruct": 0.6916199282784974,
+    "satirsiz/base": 0.26345360766819115,
+    "satirsiz/instruct": 0.7101377263521454
+   },
+   "dusen": [
+    "satirsiz/base"
+   ]
+  },
+  "Qwen2.5-72B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.569456641124046,
+    "satirli/instruct": 0.42062780614603773,
+    "satirsiz/base": 0.49459802458021995,
+    "satirsiz/instruct": 0.4265105931197036
+   },
+   "dusen": [
+    "satirli/base",
+    "satirli/instruct",
+    "satirsiz/base",
+    "satirsiz/instruct"
+   ]
+  },
+  "Qwen2.5-7B": {
+   "hal": "D-SHELF-DÜSTÜ",
+   "distinct4": {
+    "satirli/base": 0.6979158883207706,
+    "satirli/instruct": 0.6051766111228718,
+    "satirsiz/base": 0.43171250321284205,
+    "satirsiz/instruct": 0.6210813107267598
+   },
+   "dusen": [
+    "satirsiz/base"
+   ]
+  },
+  "Tulu3-8B": {
+   "hal": "ÖLCÜLDÜ",
+   "fark": -2.5923449757881905,
+   "dM1_satirli": -10.628746958763612,
+   "dM1_satirsiz": -8.036401982975422,
+   "ci": [
+    -3.6547674280314038,
+    -1.5539127042980216
+   ],
+   "ayrik": true,
+   "null_sd": 0.7992020468480638,
+   "null_ort": 0.016881896842268204,
+   "MDE": 1.314687367065065,
+   "kucuk": false,
+   "plasebo_frac": 0.0,
+   "distinct4": {
+    "satirli/base": 0.6296588210266407,
+    "satirli/instruct": 0.6603250983492843,
+    "satirsiz/base": 0.6504276503132373,
+    "satirsiz/instruct": 0.6799495058271712
+   },
+   "n_cift": 6528,
+   "n_istem": 34
+  }
+ },
+ "_errata": {
+  "damga_utc": "2026-09-13",
+  "numara": "W-1101",
+  "metin": "",
+  "kutuk": "unreleased/DEBTS.md · W-1101",
+  "ERRATA-2": {
+   "damga_utc": "2026-09-13",
+   "numara": "W-1101 · devam",
+   "metin": ""
+  }
+ }
+}

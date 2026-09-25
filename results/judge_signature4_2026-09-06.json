@@ -1,0 +1,164 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-06T14:17:35Z",
+  "SINIF": "ÖLCÜM — YÜZEY KONTROLLERI",
+  "alet": "scripts/judge_signature4.py",
+  "borc": "D-0907-V19-B §2a",
+  "veri": "openbmb/UltraFeedback · 1. mührün önbellegi",
+  "n_yanit": 255864,
+  "n_istem": 63966,
+  "listekod_ort": 0.24967,
+  "bar": 0.05,
+  "marj_bar": 1.5,
+  "yuzey": [
+   "modal_1k",
+   "hedge_1k",
+   "RED",
+   "LISTEKOD",
+   "LOG_JETON",
+   "LOG_CUMLE"
+  ],
+  "onceki_beta_M1": -0.192,
+  "prova": {
+   "i_duz_metin_sifir": true,
+   "ii_tam_liste_bir": true,
+   "iii_kod_bloku_sayilir": true,
+   "iv_bos_metin_sifir": true,
+   "v_ozgul_dogar": true,
+   "vi_yuzey_cezasi_dogar": true,
+   "vii_imza_yok_dogar": true,
+   "viii_isaret_kapisi": true
+  }
+ },
+ "_ortak": {
+  "M1_1k": {
+   "beta": -0.19304779690031107,
+   "ci": [
+    -0.2051047032961544,
+    -0.18153869935789463
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.23402178148511055,
+    -0.1520738123155116
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.020905094175918106,
+   "frac_null": 0.0
+  },
+  "SAHIS1_1k": {
+   "beta": -0.1544292388461047,
+   "ci": [
+    -0.1685222004705055,
+    -0.14118687567227073
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.19820756149413465,
+    -0.11065091619807477
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.022335878902056096,
+   "frac_null": 0.0
+  },
+  "modal_1k": {
+   "beta": -0.054610317426366246,
+   "ci": [
+    -0.06465646909744176,
+    -0.04433756047240291
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.07617940704303892,
+    -0.03304122780969357
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.011004637559526876,
+   "frac_null": 0.0
+  },
+  "hedge_1k": {
+   "beta": -0.010030733425658678,
+   "ci": [
+    -0.020315002236850087,
+    -0.0023634988870193355
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.02463904280989726,
+    0.004577575958579903
+   ],
+   "ayrik_iki_yonlu": false,
+   "se_iki_yonlu": 0.007453219073591113,
+   "frac_null": 0.03
+  },
+  "RED": {
+   "beta": -0.05612495925225977,
+   "ci": [
+    -0.06271784976622435,
+    -0.04845839132279634
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.08700037428449217,
+    -0.025249544220027374
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.015752762771547142,
+   "frac_null": 0.0
+  },
+  "LISTEKOD": {
+   "beta": 0.02329740042086311,
+   "ci": [
+    0.012242196918435932,
+    0.034059144326234685
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.018784988190471773,
+    0.06537978903219799
+   ],
+   "ayrik_iki_yonlu": false,
+   "se_iki_yonlu": 0.021470606434354535,
+   "frac_null": 0.0
+  },
+  "LOG_JETON": {
+   "beta": 0.13190425727614385,
+   "ci": [
+    0.1090152918379075,
+    0.15789512751755197
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    0.0772193967370829,
+    0.18658911781520482
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.027900439050541303,
+   "frac_null": 0.0
+  },
+  "LOG_CUMLE": {
+   "beta": 0.00894904233197383,
+   "ci": [
+    -0.014176095341402456,
+    0.03135364397242447
+   ],
+   "ayrik": false,
+   "ci_iki_yonlu": [
+    -0.04079649884385843,
+    0.05869458350780608
+   ],
+   "ayrik_iki_yonlu": false,
+   "se_iki_yonlu": 0.025380378150934826,
+   "frac_null": 0.485
+  }
+ },
+ "_verdict": {
+  "birincil": "YÜZEY-CEZASI",
+  "iki_yonlu": "YÜZEY-CEZASI",
+  "marj_yuzey": 1.463544853568768,
+  "marj_yuzey_iki_yonlu": 1.463544853568768,
+  "en_guclu_yuzey": "LOG_JETON",
+  "beta_M1": -0.19304779690031107,
+  "kayma_onceki": 0.0010477969003110654
+ }
+}

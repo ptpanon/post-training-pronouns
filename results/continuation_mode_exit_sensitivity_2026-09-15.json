@@ -1,0 +1,252 @@
+{
+ "sinif": "BETIM · mühürsüz · rebuttal (kâgitta yok)",
+ "rule": "REBUTTAL_CEVAPLAR_2026-09-15.md Q2",
+ "alet": "muhatap_kos.olc_toplam + basamak_kuvvet_ci.kume_boot (ITHAL)",
+ "NB": 1000,
+ "seed": 20260906,
+ "red_esdeger_M1": 0,
+ "n_aile": 16,
+ "n_ayrik_asagi_devam": 16,
+ "aile": {
+  "Tulu3-8B": {
+   "dM1_tum": -8.7147,
+   "dM1_card": -8.7147,
+   "dM1_devam": -8.7281,
+   "ci_devam": [
+    -10.103,
+    -7.478
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 87,
+   "cikis_taban": 151,
+   "ikinci_sahis_payi_cikis_hizali": 0.0028,
+   "ikinci_sahis_payi_cikis_taban": 0.0192
+  },
+  "OLMo2-13B": {
+   "dM1_tum": -6.2796,
+   "dM1_card": -6.2796,
+   "dM1_devam": -6.3375,
+   "ci_devam": [
+    -7.464,
+    -5.44
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 244,
+   "cikis_taban": 227,
+   "ikinci_sahis_payi_cikis_hizali": 0.0173,
+   "ikinci_sahis_payi_cikis_taban": 0.0201
+  },
+  "OLMo2-32B": {
+   "dM1_tum": -4.7733,
+   "dM1_card": -4.7733,
+   "dM1_devam": -4.7741,
+   "ci_devam": [
+    -5.488,
+    -4.071
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 186,
+   "cikis_taban": 173,
+   "ikinci_sahis_payi_cikis_hizali": 0.0168,
+   "ikinci_sahis_payi_cikis_taban": 0.0189
+  },
+  "OLMo-3-7B": {
+   "dM1_tum": -4.7032,
+   "dM1_card": -4.7032,
+   "dM1_devam": -4.7267,
+   "ci_devam": [
+    -5.755,
+    -3.765
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 58,
+   "cikis_taban": 49,
+   "ikinci_sahis_payi_cikis_hizali": 0.0075,
+   "ikinci_sahis_payi_cikis_taban": 0.0048
+  },
+  "Qwen2.5-1.5B": {
+   "dM1_tum": -1.6075,
+   "dM1_card": -1.6075,
+   "dM1_devam": -1.6784,
+   "ci_devam": [
+    -3.153,
+    -0.405
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 126,
+   "cikis_taban": 197,
+   "ikinci_sahis_payi_cikis_hizali": 0.0157,
+   "ikinci_sahis_payi_cikis_taban": 0.0202
+  },
+  "Qwen2.5-3B": {
+   "dM1_tum": -3.4625,
+   "dM1_card": -3.4625,
+   "dM1_devam": -3.4803,
+   "ci_devam": [
+    -5.166,
+    -1.891
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 105,
+   "cikis_taban": 114,
+   "ikinci_sahis_payi_cikis_hizali": 0.0091,
+   "ikinci_sahis_payi_cikis_taban": 0.011
+  },
+  "Qwen2.5-7B": {
+   "dM1_tum": -3.9045,
+   "dM1_card": -3.9045,
+   "dM1_devam": -3.8193,
+   "ci_devam": [
+    -5.489,
+    -2.284
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 170,
+   "cikis_taban": 68,
+   "ikinci_sahis_payi_cikis_hizali": 0.0091,
+   "ikinci_sahis_payi_cikis_taban": 0.0078
+  },
+  "Qwen2.5-14B": {
+   "dM1_tum": -3.4919,
+   "dM1_card": -3.4919,
+   "dM1_devam": -3.5025,
+   "ci_devam": [
+    -5.266,
+    -2.035
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 243,
+   "cikis_taban": 181,
+   "ikinci_sahis_payi_cikis_hizali": 0.0294,
+   "ikinci_sahis_payi_cikis_taban": 0.0212
+  },
+  "Qwen2.5-32B": {
+   "dM1_tum": -2.1777,
+   "dM1_card": -2.1777,
+   "dM1_devam": -2.1583,
+   "ci_devam": [
+    -3.435,
+    -1.02
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 282,
+   "cikis_taban": 118,
+   "ikinci_sahis_payi_cikis_hizali": 0.0347,
+   "ikinci_sahis_payi_cikis_taban": 0.0139
+  },
+  "Qwen2.5-72B": {
+   "dM1_tum": -3.6919,
+   "dM1_card": -3.6919,
+   "dM1_devam": -3.656,
+   "ci_devam": [
+    -6.032,
+    -1.763
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 245,
+   "cikis_taban": 155,
+   "ikinci_sahis_payi_cikis_hizali": 0.0284,
+   "ikinci_sahis_payi_cikis_taban": 0.0228
+  },
+  "Gemma-3-4B": {
+   "dM1_tum": -3.6314,
+   "dM1_card": -3.6314,
+   "dM1_devam": -3.6505,
+   "ci_devam": [
+    -5.312,
+    -2.078
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 238,
+   "cikis_taban": 156,
+   "ikinci_sahis_payi_cikis_hizali": 0.0288,
+   "ikinci_sahis_payi_cikis_taban": 0.0181
+  },
+  "Gemma-3-12B": {
+   "dM1_tum": -2.798,
+   "dM1_card": -2.798,
+   "dM1_devam": -2.7992,
+   "ci_devam": [
+    -4.509,
+    -1.358
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 365,
+   "cikis_taban": 152,
+   "ikinci_sahis_payi_cikis_hizali": 0.0435,
+   "ikinci_sahis_payi_cikis_taban": 0.0142
+  },
+  "Gemma-3-27B": {
+   "dM1_tum": -3.0669,
+   "dM1_card": -3.0669,
+   "dM1_devam": -3.2426,
+   "ci_devam": [
+    -5.517,
+    -1.253
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 195,
+   "cikis_taban": 159,
+   "ikinci_sahis_payi_cikis_hizali": 0.0392,
+   "ikinci_sahis_payi_cikis_taban": 0.0178
+  },
+  "Llama-3.1-8B": {
+   "dM1_tum": -4.7667,
+   "dM1_card": -4.7667,
+   "dM1_devam": -4.7681,
+   "ci_devam": [
+    -5.782,
+    -3.807
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 108,
+   "cikis_taban": 151,
+   "ikinci_sahis_payi_cikis_hizali": 0.0098,
+   "ikinci_sahis_payi_cikis_taban": 0.0192
+  },
+  "Llama-3.1-70B": {
+   "dM1_tum": -3.7798,
+   "dM1_card": -3.7798,
+   "dM1_devam": -3.7431,
+   "ci_devam": [
+    -4.413,
+    -3.089
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 99,
+   "cikis_taban": 149,
+   "ikinci_sahis_payi_cikis_hizali": 0.0097,
+   "ikinci_sahis_payi_cikis_taban": 0.0229
+  },
+  "Mistral-7B-v0.3": {
+   "dM1_tum": -9.8563,
+   "dM1_card": -9.8563,
+   "dM1_devam": -9.9272,
+   "ci_devam": [
+    -11.573,
+    -8.402
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "cikis_hizali": 64,
+   "cikis_taban": 69,
+   "ikinci_sahis_payi_cikis_hizali": 0.0126,
+   "ikinci_sahis_payi_cikis_taban": 0.0062
+  }
+ }
+}

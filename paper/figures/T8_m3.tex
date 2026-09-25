@@ -1,0 +1,28 @@
+\begin{table}[tb]\centering\scriptsize\setlength{\tabcolsep}{2.8pt}
+\caption{\textbf{Where corrections lose their addressee, model by model.} $\Delta M_3$ is the base$\rightarrow$aligned change in the share of corrections that name no person, with prompt-clustered $95\%$ intervals; \textbf{bold} marks an interval excluding zero. \textsc{corr.} is the number of correction sentences the counter flagged across both checkpoints---the denominator the share is taken over, without which the share cannot be read. \textbf{The base column is the reference the change is read against}: impersonal correction is already the base checkpoints' default (0.90--0.96 across the sixteen), so what alignment moves is a share that starts near its ceiling. On the debate prompts the share rises in 8 models and falls in 1, and does not separate in 7. On ELICIT-99, which scores 15 models, 3 separate; the one not measured there falls to the degeneracy shelf on its aligned outputs. The two prompt sets are not the same object: they differ in stimulus and, for most models, in prompt protocol (Table~\ref{tab:families}).}
+\label{tab:m3}
+\begin{tabular}{lrrrlr@{\hspace{8pt}}rrrlr}
+\toprule
+ & \multicolumn{5}{c}{debate prompts} & \multicolumn{5}{c}{ELICIT-99} \\
+\cmidrule(lr){2-6}\cmidrule(lr){7-11}
+model & base & aligned & $\Delta M_3$ & $95\%$ CI & \textsc{corr.} & base & aligned & $\Delta M_3$ & $95\%$ CI & \textsc{corr.} \\
+\midrule
+T\"ulu-3-8B & 0.919 & 0.983 & \textbf{+0.064} & $[+0.044,+0.086]$ & 1,765 & 0.894 & 0.936 & +0.042 & $[-0.066,+0.240]$ & 132 \\
+OLMo-2-13B & 0.916 & 0.980 & \textbf{+0.064} & $[+0.045,+0.084]$ & 2,388 & 0.905 & 0.912 & +0.008 & $[-0.123,+0.173]$ & 101 \\
+Mistral-7B-v0.3 & 0.919 & 0.979 & \textbf{+0.060} & $[+0.035,+0.084]$ & 1,886 & 0.807 & 0.923 & +0.116 & $[-0.018,+0.249]$ & 109 \\
+Gemma-3-4B & 0.908 & 0.960 & \textbf{+0.052} & $[+0.017,+0.081]$ & 1,524 & 0.750 & 0.581 & -0.169 & $[-0.410,+0.074]$ & 63 \\
+Gemma-3-27B & 0.925 & 0.975 & \textbf{+0.049} & $[+0.017,+0.078]$ & 1,545 & 0.897 & 0.796 & -0.101 & $[-0.250,+0.064]$ & 132 \\
+Llama-3.1-8B & 0.919 & 0.960 & \textbf{+0.042} & $[+0.027,+0.059]$ & 2,856 & 0.894 & 0.987 & \textbf{+0.093} & $[+0.011,+0.282]$ & 164 \\
+Qwen2.5-7B & 0.929 & 0.958 & \textbf{+0.029} & $[+0.009,+0.056]$ & 1,833 & 0.923 & 0.780 & -0.143 & $[-0.308,+0.033]$ & 67 \\
+Gemma-3-12B & 0.912 & 0.939 & +0.026 & $[-0.010,+0.063]$ & 1,504 & 0.853 & 0.833 & -0.020 & $[-0.150,+0.170]$ & 141 \\
+OLMo-2-32B & 0.921 & 0.945 & \textbf{+0.024} & $[+0.003,+0.045]$ & 2,504 & 0.955 & 0.877 & -0.078 & $[-0.189,+0.054]$ & 95 \\
+Qwen2.5-72B & 0.939 & 0.960 & +0.021 & $[-0.003,+0.043]$ & 1,362 & 0.918 & 0.908 & -0.010 & $[-0.102,+0.077]$ & 126 \\
+Qwen2.5-3B & 0.930 & 0.947 & +0.017 & $[-0.002,+0.037]$ & 1,938 & 0.897 & 0.818 & -0.078 & $[-0.251,+0.293]$ & 62 \\
+Llama-3.1-70B & 0.928 & 0.943 & +0.015 & $[-0.014,+0.039]$ & 2,504 & 0.750 & 1.000 & \textbf{+0.250} & $[+0.054,+0.430]$ & 122 \\
+OLMo-3-7B & 0.901 & 0.907 & +0.005 & $[-0.017,+0.029]$ & 2,422 & 0.929 & 0.726 & \textbf{-0.203} & $[-0.333,-0.069]$ & 132 \\
+Qwen2.5-14B & 0.930 & 0.932 & +0.002 & $[-0.030,+0.031]$ & 1,557 & 0.907 & 0.843 & -0.064 & $[-0.180,+0.054]$ & 94 \\
+Qwen2.5-1.5B & 0.924 & 0.918 & -0.006 & $[-0.028,+0.022]$ & 1,841 & \multicolumn{5}{c}{\textsc{not measured}} \\
+Qwen2.5-32B & 0.957 & 0.915 & \textbf{-0.043} & $[-0.082,-0.017]$ & 1,597 & 0.913 & 0.887 & -0.026 & $[-0.131,+0.083]$ & 99 \\
+\bottomrule
+\end{tabular}
+\end{table}

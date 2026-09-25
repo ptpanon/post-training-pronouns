@@ -1,0 +1,32 @@
+\begin{table}[t]\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\caption{\textbf{Selecting on person marking moves more than the persons.} $7{,}537$ preference pairs
+per run from the same SFT
+checkpoint, designed as one epoch (the trainer records $0.987$--$0.989$), read on the debate prompts over four generation seeds. Deltas are
+against the \emph{data-size-matched unselected} run (reading B), except $\Delta U$ (defined in Appendix~\ref{app:D7}), which is read against the supervised checkpoint; for the other columns the untrained-SFT
+reading (A) agrees on every cell. Each $z$ is the delta over a pre-registered
+noise scale for that quantity: $0.550$ per thousand for $\Delta M_1$
+(half the pre-registered bar of $1.1$, which was set at twice the largest seed
+standard deviation), $0.00104$ for $\Delta$force (the largest seed standard deviation), and the pre-registered band for
+$\Delta U$; $|z|<1$ is ``in the null band''. \textbf{The first two are generation-seed scales and can be compared; the $\Delta U$ band also carries training-seed variance, so its $z$ is not on the same scale.} \emph{steps (ep.)} is each run's optimizer step count with the epochs its trainer recorded. The real \textsc{sft}$\rightarrow$\textsc{dpo} stage is not
+matched on data size and is shown against SFT. \textbf{The matched control} is a run matched to the person-down run's co-selected refusal rate and length, though not to code blocks. It moves $\Delta M_1$ by $-0.24$ $[-0.51,-0.01]$ against $-6.89$, so those two do not carry the withdrawal (Limitations). Its $\Delta M_3$ and refusal change were not read.}
+\label{tab:dial_dial}
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+ & $\Delta M_1$ & $z$ & $\Delta$1st & $\Delta$force & $z$ & $\Delta U$ & $z$ & $\Delta M_3$ & $\Delta$tok/sent & $\Delta$refusal & steps (ep.) \\
+\midrule
+person-down    & $-6.89$ & $-12.5$ & $-3.34$ & $-0.0086$ & $8.3$ & $-0.0058$ & $2.2$ & $+0.039$ & $+0.67$ & $-0.010$ & $458$ ($0.989$) \\
+person-up      & $+6.65$ & $+12.1$ & $+1.90$ & $+0.0077$ & $7.4$ & $+0.0059$ & $2.2$ & $-0.042$ & $-0.20$ & $+0.005$ & $458$ ($0.989$) \\
+\textit{unselected} & $0$ & $0.0$ & $0$ & $0$ & $0.0$ & $-0.0008$ & $0.3$ & $0$ & $0$ & $0$ & $458$ ($0.989$) \\
+force-down     & $-1.24$ & $-2.3$ & $-0.97$ & $-0.0030$ & $2.9$ & $+0.0135$ & $5.1$ & $+0.006$ & $+1.28$ & $-0.004$ & $458$ ($0.987$) \\
+\textit{matched control} & $-0.24$ & $-0.4$ & $-0.63$ & $-0.0011$ & $1.1$ & $+0.0009$ & $0.3$ & --- & $+0.10$ & --- & $458$ ($0.989$) \\
+\midrule
+\textit{real stage} & $-6.61$ & $-12.0$ & $-9.76$ & $-0.0052$ & $5.0$ & --- & --- & $+0.040$ & $+3.66$ & $-0.016$ & --- \\
+\bottomrule
+\end{tabular}
+\\[2pt]
+\footnotesize
+The selection is not clean at its input either: in the person runs the chosen
+side carries $3.9$ points fewer refusals, $1.8$ points fewer code blocks and
+$24$ fewer tokens than the rejected side, and the unselected run carries none
+of these ($+0.1$, $-0.7$, $+7$). Selecting on person marking selects a bundle.
+\end{table}

@@ -1,0 +1,252 @@
+{
+ "sinif": "BETIM",
+ "rule": "preregistration/rule_v87_readings_2026-09-16.md @ 7ee8f32b",
+ "soru": "IS 5(b) · alti liste-bagimli ailede cümle-birimli düzyazi ΔM1 [CI]",
+ "satir_deseni": "^\\s{0,3}#{1,6}\\s+\\S|^\\s{0,3}[-*+•]\\s+\\S|^\\s{0,3}\\d{1,2}[.)]\\s+\\S|^\\s*\\*\\*[^*\\n]+\\*\\*\\s*:?\\s*$",
+ "birim": "cümle: dokundugu satirlarin hicbiri desene uymuyorsa DÜZYAZI; tek ayristirma",
+ "alet": {
+  "hal": "ESDEGER",
+  "satir_sapma": 0.0,
+  "d_sapma": 0.0,
+  "kapi": ""
+ },
+ "sayim": {
+  "asagi": 10,
+  "null": 0,
+  "yukari": 0
+ },
+ "aile": {
+  "Llama-3.1-70B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -3.9205,
+    "ci": [
+     -4.5622,
+     -3.2409
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.7798
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.083,
+    "jeton_payi": 0.0706
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.0667,
+    "jeton_payi": 0.0633
+   }
+  },
+  "Llama-3.1-8B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -4.9204,
+    "ci": [
+     -5.8957,
+     -3.9951
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -4.7667
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.0715,
+    "jeton_payi": 0.0622
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.0704,
+    "jeton_payi": 0.0626
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -8.6229,
+    "ci": [
+     -9.9956,
+     -7.3079
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -9.8563
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.2169,
+    "jeton_payi": 0.2055
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.5627,
+    "jeton_payi": 0.5046
+   }
+  },
+  "OLMo-3-7B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -4.7041,
+    "ci": [
+     -5.6744,
+     -3.7239
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -4.7032
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.0899,
+    "jeton_payi": 0.0738
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.0679,
+    "jeton_payi": 0.0633
+   }
+  },
+  "OLMo2-13B": {
+   "kontrast": "taban→instruct",
+   "duzyazi_cumle": {
+    "d": -6.2642,
+    "ci": [
+     -7.4057,
+     -5.384
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -6.2796
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.0507,
+    "jeton_payi": 0.0485
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.0661,
+    "jeton_payi": 0.0636
+   }
+  },
+  "OLMo2-32B": {
+   "kontrast": "taban→instruct",
+   "duzyazi_cumle": {
+    "d": -4.7879,
+    "ci": [
+     -5.4849,
+     -4.0907
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -4.7733
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.0376,
+    "jeton_payi": 0.0354
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.04,
+    "jeton_payi": 0.0368
+   }
+  },
+  "Qwen2.5-14B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -2.2552,
+    "ci": [
+     -3.4621,
+     -1.1994
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.4919
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.1011,
+    "jeton_payi": 0.0909
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.3874,
+    "jeton_payi": 0.3842
+   }
+  },
+  "Qwen2.5-3B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -3.0663,
+    "ci": [
+     -4.4974,
+     -1.69
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.4625
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.0926,
+    "jeton_payi": 0.0768
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.2623,
+    "jeton_payi": 0.2466
+   }
+  },
+  "Qwen2.5-7B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -3.1015,
+    "ci": [
+     -4.6452,
+     -1.7344
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.9045
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.1275,
+    "jeton_payi": 0.1079
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.3331,
+    "jeton_payi": 0.3313
+   }
+  },
+  "Tulu3-8B": {
+   "kontrast": "taban→rl",
+   "duzyazi_cumle": {
+    "d": -9.0292,
+    "ci": [
+     -10.3947,
+     -7.7884
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -8.7147
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.0715,
+    "jeton_payi": 0.0622
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.0763,
+    "jeton_payi": 0.06
+   }
+  }
+ },
+ "damga_utc": "2026-09-16T15:14:49Z",
+ "sure_dk": 8.9
+}

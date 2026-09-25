@@ -1,0 +1,22 @@
+{
+ "table": "BANT",
+ "damga_utc": "2026-09-25T23:44:11Z",
+ "sources": [
+  {
+   "yol": "results/template_filtered_2026-09-07.json",
+   "sha256_16": "84812c8ac68df5ab"
+  }
+ ],
+ "okuma": "dejenerelik SÜZÜLMÜS (2×2'nin yaslandigi card)",
+ "taban": [
+  8.3052,
+  20.4204
+ ],
+ "hizali": [
+  2.0079,
+  41.1952
+ ],
+ "oran_taban": 2.458748735731831,
+ "oran_hizali": 20.516559589621,
+ "n_aile": 16
+}

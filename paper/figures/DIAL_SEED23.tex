@@ -1,0 +1,15 @@
+\paragraph*{The person-selected runs at three training seeds.}
+\vekalet{Both person runs were retrained twice more from the same pairs and the same supervised checkpoint, changing only the training seed, and read over the same four generation seeds. The registered bar was the sign of the displacement against the data-size-matched unselected run in each new seed; magnitudes are given as ranges only.}
+\begin{center}\scriptsize\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{llrrrr}\toprule
+run & training seed & $\Delta M_1$ vs.\ unselected & 95\% CI & minus seed 1 [CI] & $\Delta M_1$ vs.\ SFT \\ \midrule
+person-down & 1 (20260830) & $-$6.89 & [$-$8.93, $-$5.32] & --- & $-$6.67 \\
+ & 2 (20260915) & $-$7.01 & [$-$9.10, $-$5.40] & $-$0.12 [$-$0.24, $+$0.01] & $-$6.78 \\
+ & 3 (20260916) & $-$6.95 & [$-$9.05, $-$5.35] & $-$0.06 [$-$0.16, $+$0.03] & $-$6.73 \\
+ & range, three seeds & [$-$7.01, $-$6.89] & & & \\
+\midrule
+person-up & 1 (20260830) & $+$6.65 & [$+$5.65, $+$7.72] & --- & $+$6.87 \\
+ & 2 (20260915) & $+$7.08 & [$+$6.02, $+$8.19] & $+$0.43 [$+$0.17, $+$0.73] & $+$7.30 \\
+ & 3 (20260916) & $+$6.83 & [$+$5.78, $+$8.01] & $+$0.18 [$-$0.12, $+$0.48] & $+$7.05 \\
+ & range, three seeds & [$+$6.65, $+$7.08] & & & \\
+\bottomrule\end{tabular}\end{center}

@@ -1,0 +1,459 @@
+{
+ "sinif": "BETIM · card · kâgida girmez",
+ "rule": "preregistration/rule_reviewer_readings_2026-09-15.md @ 25315d8e",
+ "soru": "Q2",
+ "satir_deseni": "^\\s{0,3}#{1,6}\\s+\\S|^\\s{0,3}[-*+•]\\s+\\S|^\\s{0,3}\\d{1,2}[.)]\\s+\\S|^\\s*\\*\\*[^*\\n]+\\*\\*\\s*:?\\s*$",
+ "sinir": "",
+ "alet": {
+  "hal": "ESDEGER",
+  "en_buyuk_sapma": 0.0
+ },
+ "sayim": {
+  "asagi": 10,
+  "yukari": 0,
+  "null": 6
+ },
+ "sayim_adlar": {
+  "asagi": [
+   "Llama-3.1-70B",
+   "Llama-3.1-8B",
+   "Mistral-7B-v0.3",
+   "OLMo-3-7B",
+   "OLMo2-13B",
+   "OLMo2-32B",
+   "Qwen2.5-14B",
+   "Qwen2.5-3B",
+   "Qwen2.5-7B",
+   "Tulu3-8B"
+  ],
+  "yukari": [],
+  "null": [
+   "Gemma-3-12B",
+   "Gemma-3-27B",
+   "Gemma-3-4B",
+   "Qwen2.5-1.5B",
+   "Qwen2.5-32B",
+   "Qwen2.5-72B"
+  ]
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.1282,
+    "jeton_payi": 0.083,
+    "uretim_payi": 0.1026
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.4447,
+    "jeton_payi": 0.3938,
+    "uretim_payi": 0.5938
+   },
+   "duzyazi": {
+    "d": 0.6896,
+    "ci": [
+     -0.9667,
+     2.1296
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -2.798
+   }
+  },
+  "Gemma-3-27B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.1373,
+    "jeton_payi": 0.088,
+    "uretim_payi": 0.1023
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.4547,
+    "jeton_payi": 0.3869,
+    "uretim_payi": 0.5919
+   },
+   "duzyazi": {
+    "d": -0.3545,
+    "ci": [
+     -2.5004,
+     1.5437
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.0669
+   }
+  },
+  "Gemma-3-4B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.1595,
+    "jeton_payi": 0.1049,
+    "uretim_payi": 0.1273
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.4317,
+    "jeton_payi": 0.3969,
+    "uretim_payi": 0.617
+   },
+   "duzyazi": {
+    "d": -1.1568,
+    "ci": [
+     -2.5476,
+     0.2218
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.6314
+   }
+  },
+  "Llama-3.1-70B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.0588,
+    "jeton_payi": 0.0699,
+    "uretim_payi": 0.0757
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.0847,
+    "jeton_payi": 0.0599,
+    "uretim_payi": 0.0855
+   },
+   "duzyazi": {
+    "d": -3.9169,
+    "ci": [
+     -4.5577,
+     -3.2366
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.7798
+   }
+  },
+  "Llama-3.1-8B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.0511,
+    "jeton_payi": 0.0616,
+    "uretim_payi": 0.0665
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.075,
+    "jeton_payi": 0.0608,
+    "uretim_payi": 0.0829
+   },
+   "duzyazi": {
+    "d": -4.9238,
+    "ci": [
+     -5.8957,
+     -3.9953
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -4.7667
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.3069,
+    "jeton_payi": 0.17,
+    "uretim_payi": 0.3536
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.6347,
+    "jeton_payi": 0.5025,
+    "uretim_payi": 0.4738
+   },
+   "duzyazi": {
+    "d": -8.6821,
+    "ci": [
+     -9.9991,
+     -7.4227
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -9.8563
+   }
+  },
+  "OLMo-3-7B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.0548,
+    "jeton_payi": 0.0732,
+    "uretim_payi": 0.0964
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.078,
+    "jeton_payi": 0.0598,
+    "uretim_payi": 0.0792
+   },
+   "duzyazi": {
+    "d": -4.7133,
+    "ci": [
+     -5.691,
+     -3.7237
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -4.7032
+   }
+  },
+  "OLMo2-13B": {
+   "kontrast": "taban→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.0902,
+    "jeton_payi": 0.038,
+    "uretim_payi": 0.0904
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.12,
+    "jeton_payi": 0.0492,
+    "uretim_payi": 0.1458
+   },
+   "duzyazi": {
+    "d": -6.2687,
+    "ci": [
+     -7.3898,
+     -5.4004
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -6.2796
+   }
+  },
+  "OLMo2-32B": {
+   "kontrast": "taban→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.0721,
+    "jeton_payi": 0.0265,
+    "uretim_payi": 0.0695
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.0608,
+    "jeton_payi": 0.0319,
+    "uretim_payi": 0.0611
+   },
+   "duzyazi": {
+    "d": -4.7678,
+    "ci": [
+     -5.4647,
+     -4.0682
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -4.7733
+   }
+  },
+  "Qwen2.5-1.5B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.1131,
+    "jeton_payi": 0.0827,
+    "uretim_payi": 0.116
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.2399,
+    "jeton_payi": 0.1919,
+    "uretim_payi": 0.4285
+   },
+   "duzyazi": {
+    "d": -1.1273,
+    "ci": [
+     -2.4942,
+     0.1003
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -1.6075
+   }
+  },
+  "Qwen2.5-14B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.1268,
+    "jeton_payi": 0.0857,
+    "uretim_payi": 0.1276
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.4803,
+    "jeton_payi": 0.3269,
+    "uretim_payi": 0.7178
+   },
+   "duzyazi": {
+    "d": -1.6713,
+    "ci": [
+     -2.9858,
+     -0.4853
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.4919
+   }
+  },
+  "Qwen2.5-32B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.1034,
+    "jeton_payi": 0.0646,
+    "uretim_payi": 0.1013
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.4553,
+    "jeton_payi": 0.322,
+    "uretim_payi": 0.6824
+   },
+   "duzyazi": {
+    "d": -0.3375,
+    "ci": [
+     -1.2962,
+     0.5583
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -2.1777
+   }
+  },
+  "Qwen2.5-3B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.099,
+    "jeton_payi": 0.0742,
+    "uretim_payi": 0.1006
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.3879,
+    "jeton_payi": 0.2072,
+    "uretim_payi": 0.5129
+   },
+   "duzyazi": {
+    "d": -2.6856,
+    "ci": [
+     -4.1861,
+     -1.246
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.4625
+   }
+  },
+  "Qwen2.5-72B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.1233,
+    "jeton_payi": 0.1078,
+    "uretim_payi": 0.1207
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.5487,
+    "jeton_payi": 0.3814,
+    "uretim_payi": 0.8004
+   },
+   "duzyazi": {
+    "d": -1.2849,
+    "ci": [
+     -3.3538,
+     0.4641
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.6919
+   }
+  },
+  "Qwen2.5-7B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.1215,
+    "jeton_payi": 0.1053,
+    "uretim_payi": 0.1267
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.4378,
+    "jeton_payi": 0.2935,
+    "uretim_payi": 0.5896
+   },
+   "duzyazi": {
+    "d": -2.7958,
+    "ci": [
+     -4.437,
+     -1.3651
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.9045
+   }
+  },
+  "Tulu3-8B": {
+   "kontrast": "taban→rl",
+   "kapi_sapma": 0.0,
+   "atilan_taban": {
+    "satir_payi": 0.0511,
+    "jeton_payi": 0.0616,
+    "uretim_payi": 0.0665
+   },
+   "atilan_hizali": {
+    "satir_payi": 0.1001,
+    "jeton_payi": 0.0549,
+    "uretim_payi": 0.0876
+   },
+   "duzyazi": {
+    "d": -9.0354,
+    "ci": [
+     -10.4093,
+     -7.7988
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -8.7147
+   }
+  }
+ },
+ "damga_utc": "2026-09-15T19:48:49Z",
+ "sure_dk": 14.2
+}

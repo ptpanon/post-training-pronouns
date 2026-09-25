@@ -1,0 +1,26 @@
+{
+ "table": "T7_otherM",
+ "sources": [
+  {
+   "yol": "results/PREREG9_A_OLCUM_2026-08-31.json",
+   "sha256_16": "8b3c5fba7156b393"
+  }
+ ],
+ "payda": {
+  "n_birincil": 16,
+  "n_genisletme": 4,
+  "M2_dus_yuk": [
+   8,
+   2
+  ],
+  "M4_dus_yuk": [
+   16,
+   0
+  ],
+  "M5_dus_yuk": [
+   6,
+   7
+  ]
+ },
+ "note": "renders sealed per-model differences; computes no new statistic"
+}

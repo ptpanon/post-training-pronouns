@@ -1,0 +1,534 @@
+{
+ "rule": "6f3d8107",
+ "alet": "60248faec0c6f633",
+ "damga_utc": "2026-09-21T19:46:44Z",
+ "yargic": {
+  "model_id": "claude-sonnet-5",
+  "efor": [
+   "medium"
+  ],
+  "yol": "Claude Code Workflow alt-ajani",
+  "tekrar": 3,
+  "yigin": 10,
+  "cogunluk": "≥2 gecerli oy; yoksa OTHER; oy yoksa HATA"
+ },
+ "denetim": {
+  "workflow": "<home>/user/.claude/projects/-home-example-com-owner-user-project/f909a0d9-0e88-4513-bdfe-e30e74c7a835/subagents/workflows/wf_374c0444-feb",
+  "n_cagri": 60,
+  "n_yigin": 60,
+  "n_yeniden": 0,
+  "gecersiz": {
+   "ARAC": 0,
+   "ISTEM": 0,
+   "KUME": 0,
+   "MODEL": 0
+  },
+  "n_yigin_etiketsiz": 0,
+  "modeller": [
+   "claude-sonnet-5"
+  ],
+  "efor": [
+   "medium"
+  ],
+  "arac_disi": [],
+  "istem_birebir": 60,
+  "aktarma_sha": [
+   "f1f9ef120015928cc096682e335036c6b866c7196dd68b573e02f4afc0d1781b"
+  ],
+  "damga_utc": "2026-09-21T19:46:43Z"
+ },
+ "paket": {
+  "A": {
+   "N": 100,
+   "X": 78,
+   "ham_uyum": 0.78,
+   "ham_uyum_ci": [
+    0.693069306930693,
+    0.8585858585858586
+   ],
+   "kappa": 0.5315161839863713,
+   "kappa_ci": [
+    0.3671258071127719,
+    0.6631406948009289
+   ],
+   "p_e": 0.5304000000000001,
+   "M": [
+    [
+     62,
+     3,
+     3
+    ],
+    [
+     9,
+     12,
+     7
+    ],
+    [
+     0,
+     0,
+     4
+    ]
+   ],
+   "sinif": {
+    "REPLY": {
+     "insan_n": 68,
+     "yargic_n": 71,
+     "ortak": 62,
+     "insan_sinifi_yargicta": 0.9117647058823529,
+     "yargic_sinifi_insanda": 0.8732394366197183
+    },
+    "CONTINUE": {
+     "insan_n": 28,
+     "yargic_n": 15,
+     "ortak": 12,
+     "insan_sinifi_yargicta": 0.42857142857142855,
+     "yargic_sinifi_insanda": 0.8
+    },
+    "OTHER": {
+     "insan_n": 4,
+     "yargic_n": 14,
+     "ortak": 4,
+     "insan_sinifi_yargicta": 1.0,
+     "yargic_sinifi_insanda": 0.2857142857142857
+    }
+   },
+   "katman": {
+    "hizali": {
+     "n": 49,
+     "uyum": 46
+    },
+    "taban": {
+     "n": 51,
+     "uyum": 32
+    }
+   },
+   "gecersiz_etiket": [],
+   "ayrisan": [
+    {
+     "hucre": 1,
+     "insan": "REPLY",
+     "yargic": "OTHER",
+     "aile": "Qwen2.5-7B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 2,
+     "insan": "CONTINUE",
+     "yargic": "OTHER",
+     "aile": "OLMo2-13B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 3,
+     "insan": "REPLY",
+     "yargic": "CONTINUE",
+     "aile": "Qwen2.5-3B",
+     "bacak": "hizali"
+    },
+    {
+     "hucre": 5,
+     "insan": "CONTINUE",
+     "yargic": "REPLY",
+     "aile": "OLMo2-32B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 6,
+     "insan": "CONTINUE",
+     "yargic": "OTHER",
+     "aile": "OLMo-3-7B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 8,
+     "insan": "CONTINUE",
+     "yargic": "REPLY",
+     "aile": "Gemma-3-12B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 9,
+     "insan": "REPLY",
+     "yargic": "OTHER",
+     "aile": "Gemma-3-4B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 14,
+     "insan": "CONTINUE",
+     "yargic": "OTHER",
+     "aile": "Gemma-3-27B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 16,
+     "insan": "CONTINUE",
+     "yargic": "REPLY",
+     "aile": "Llama-3.1-70B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 23,
+     "insan": "CONTINUE",
+     "yargic": "REPLY",
+     "aile": "Qwen2.5-3B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 27,
+     "insan": "CONTINUE",
+     "yargic": "REPLY",
+     "aile": "Llama-3.1-8B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 34,
+     "insan": "CONTINUE",
+     "yargic": "REPLY",
+     "aile": "Gemma-3-27B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 37,
+     "insan": "CONTINUE",
+     "yargic": "OTHER",
+     "aile": "Tulu3-8B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 39,
+     "insan": "CONTINUE",
+     "yargic": "OTHER",
+     "aile": "Tulu3-8B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 41,
+     "insan": "REPLY",
+     "yargic": "CONTINUE",
+     "aile": "Gemma-3-4B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 42,
+     "insan": "CONTINUE",
+     "yargic": "OTHER",
+     "aile": "Llama-3.1-8B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 43,
+     "insan": "REPLY",
+     "yargic": "CONTINUE",
+     "aile": "Llama-3.1-8B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 45,
+     "insan": "CONTINUE",
+     "yargic": "OTHER",
+     "aile": "OLMo2-32B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 53,
+     "insan": "CONTINUE",
+     "yargic": "REPLY",
+     "aile": "Llama-3.1-70B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 89,
+     "insan": "CONTINUE",
+     "yargic": "REPLY",
+     "aile": "Qwen2.5-72B",
+     "bacak": "hizali"
+    },
+    {
+     "hucre": 97,
+     "insan": "CONTINUE",
+     "yargic": "REPLY",
+     "aile": "OLMo2-13B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 98,
+     "insan": "REPLY",
+     "yargic": "OTHER",
+     "aile": "Llama-3.1-8B",
+     "bacak": "hizali"
+    }
+   ],
+   "verdict": "KALIR",
+   "kil_payi": true,
+   "hata_hucre": [],
+   "qwen_ayni_100": {
+    "X": 70
+   },
+   "sonnet_qwen": {
+    "N": 100,
+    "X": 77,
+    "kappa": 0.44484672942312353,
+    "M": [
+     [
+      65,
+      7,
+      6
+     ],
+     [
+      3,
+      6,
+      2
+     ],
+     [
+      3,
+      2,
+      6
+     ]
+    ]
+   },
+   "tekrar_basina_insan_uyumu": {
+    "t1": {
+     "n": 100,
+     "uyum": 80
+    },
+    "t2": {
+     "n": 100,
+     "uyum": 77
+    },
+    "t3": {
+     "n": 100,
+     "uyum": 78
+    }
+   },
+   "oybirligi": 89,
+   "insan_paketi": "<data>/v96_c2/insan/INSAN_PAKETI_V96_C2_A_100_DOLU_SAHIP_2026-09-21.md",
+   "insan_sha256": "b280aa62f6e6dcc15ea7c64cb69ad98727b95b18162384124c2871e37f8098c5"
+  },
+  "B": {
+   "N": 100,
+   "X": 84,
+   "ham_uyum": 0.84,
+   "ham_uyum_ci": [
+    0.7941176470588235,
+    0.8888888888888888
+   ],
+   "kappa": 0.6927803379416283,
+   "kappa_ci": [
+    0.6197863244462658,
+    0.7766718285292604
+   ],
+   "p_e": 0.4792,
+   "M": [
+    [
+     54,
+     4,
+     2
+    ],
+    [
+     4,
+     27,
+     2
+    ],
+    [
+     4,
+     0,
+     3
+    ]
+   ],
+   "sinif": {
+    "ADDRESSED": {
+     "insan_n": 60,
+     "yargic_n": 62,
+     "ortak": 54,
+     "insan_sinifi_yargicta": 0.9,
+     "yargic_sinifi_insanda": 0.8709677419354839
+    },
+    "GENERIC": {
+     "insan_n": 33,
+     "yargic_n": 31,
+     "ortak": 27,
+     "insan_sinifi_yargicta": 0.8181818181818182,
+     "yargic_sinifi_insanda": 0.8709677419354839
+    },
+    "UNDETERMINED": {
+     "insan_n": 7,
+     "yargic_n": 7,
+     "ortak": 3,
+     "insan_sinifi_yargicta": 0.42857142857142855,
+     "yargic_sinifi_insanda": 0.42857142857142855
+    }
+   },
+   "katman": {
+    "hizali": {
+     "n": 55,
+     "uyum": 46
+    },
+    "taban": {
+     "n": 45,
+     "uyum": 38
+    }
+   },
+   "gecersiz_etiket": [],
+   "ayrisan": [
+    {
+     "hucre": 1,
+     "insan": "ADDRESSED",
+     "yargic": "GENERIC",
+     "aile": "OLMo-3-7B",
+     "bacak": "hizali"
+    },
+    {
+     "hucre": 2,
+     "insan": "GENERIC",
+     "yargic": "ADDRESSED",
+     "aile": "Gemma-3-4B",
+     "bacak": "hizali"
+    },
+    {
+     "hucre": 6,
+     "insan": "GENERIC",
+     "yargic": "UNDETERMINED",
+     "aile": "Llama-3.1-70B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 15,
+     "insan": "GENERIC",
+     "yargic": "UNDETERMINED",
+     "aile": "Qwen2.5-32B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 29,
+     "insan": "ADDRESSED",
+     "yargic": "GENERIC",
+     "aile": "OLMo2-13B",
+     "bacak": "hizali"
+    },
+    {
+     "hucre": 34,
+     "insan": "GENERIC",
+     "yargic": "ADDRESSED",
+     "aile": "OLMo2-32B",
+     "bacak": "hizali"
+    },
+    {
+     "hucre": 49,
+     "insan": "UNDETERMINED",
+     "yargic": "ADDRESSED",
+     "aile": "Qwen2.5-72B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 50,
+     "insan": "ADDRESSED",
+     "yargic": "UNDETERMINED",
+     "aile": "Llama-3.1-70B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 54,
+     "insan": "UNDETERMINED",
+     "yargic": "ADDRESSED",
+     "aile": "OLMo2-32B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 62,
+     "insan": "ADDRESSED",
+     "yargic": "GENERIC",
+     "aile": "Qwen2.5-7B",
+     "bacak": "hizali"
+    },
+    {
+     "hucre": 67,
+     "insan": "ADDRESSED",
+     "yargic": "UNDETERMINED",
+     "aile": "Mistral-7B-v0.3",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 68,
+     "insan": "UNDETERMINED",
+     "yargic": "ADDRESSED",
+     "aile": "OLMo-3-7B",
+     "bacak": "hizali"
+    },
+    {
+     "hucre": 70,
+     "insan": "GENERIC",
+     "yargic": "ADDRESSED",
+     "aile": "Tulu3-8B",
+     "bacak": "hizali"
+    },
+    {
+     "hucre": 80,
+     "insan": "GENERIC",
+     "yargic": "ADDRESSED",
+     "aile": "Llama-3.1-8B",
+     "bacak": "hizali"
+    },
+    {
+     "hucre": 87,
+     "insan": "UNDETERMINED",
+     "yargic": "ADDRESSED",
+     "aile": "Qwen2.5-14B",
+     "bacak": "taban"
+    },
+    {
+     "hucre": 88,
+     "insan": "ADDRESSED",
+     "yargic": "GENERIC",
+     "aile": "Gemma-3-27B",
+     "bacak": "hizali"
+    }
+   ],
+   "verdict": "GECER",
+   "kil_payi": false,
+   "hata_hucre": [],
+   "qwen_ayni_100": {
+    "X": 76
+   },
+   "sonnet_qwen": {
+    "N": 100,
+    "X": 83,
+    "kappa": 0.6759435760579489,
+    "M": [
+     [
+      52,
+      3,
+      3
+     ],
+     [
+      9,
+      27,
+      0
+     ],
+     [
+      1,
+      1,
+      4
+     ]
+    ]
+   },
+   "tekrar_basina_insan_uyumu": {
+    "t1": {
+     "n": 100,
+     "uyum": 85
+    },
+    "t2": {
+     "n": 100,
+     "uyum": 83
+    },
+    "t3": {
+     "n": 100,
+     "uyum": 85
+    }
+   },
+   "oybirligi": 84,
+   "insan_paketi": "<repo>/INSAN_PAKETI_V96_C2_B_100.md",
+   "insan_sha256": "5985fe6d4258148351a1dabe9e8d4277f82c6d5de60d696b286683b81f9dc0fa"
+  }
+ }
+}

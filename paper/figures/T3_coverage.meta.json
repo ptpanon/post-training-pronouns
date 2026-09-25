@@ -1,0 +1,13 @@
+{
+ "table": "T3_coverage",
+ "sources": [
+  {
+   "yol": "results/P11_2X2_ELICIT_2026-09-03.json",
+   "sha256_16": "a7ce907d70af38ce"
+  }
+ ],
+ "payda": {
+  "n_satir": 1
+ },
+ "note": "renders pre-specified measurements; recomputes the frozen degeneracy criterion"
+}

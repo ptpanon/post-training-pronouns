@@ -1,0 +1,95 @@
+{
+ "table": "ORNEK_TEMPLATE",
+ "damga_utc": "2026-09-25T23:38:32Z",
+ "rule": [
+  "preregistration/rule_example_pair_selection.md",
+  "preregistration/rule_reviewer6_readings_2026-09-17.md"
+ ],
+ "sources": [
+  {
+   "yol": "results/PREREG9_A_OLCUM_2026-08-31.json",
+   "sha256_16": "9ce1b8503a30b287"
+  },
+  {
+   "yol": "results/KOL_TABLOSU_2026-09-10.json",
+   "sha256_16": "628a23fdcc710dbf"
+  },
+  {
+   "yol": "results/template_filtered_2026-09-07.json",
+   "sha256_16": "960d06e88b5c41d5"
+  }
+ ],
+ "secim": [
+  {
+   "aile": "Gemma-3-27B",
+   "istem_i": 7,
+   "dM1_istem": 33.306544547136255,
+   "medyan": 33.17449033209906,
+   "kol": "ARO-x1",
+   "cekim": 0,
+   "tez": "feminism aims to correct the systemic biases against women and other minorities that are born out of historical discrimination",
+   "durus": "eksi",
+   "dusen": [],
+   "n_jeton": {
+    "istem": 60,
+    "taban": 120,
+    "hizali": 120
+   },
+   "kesildi": {
+    "istem": false,
+    "taban": true,
+    "hizali": true
+   },
+   "sha_metin": {
+    "istem": "fd18dd6401ea0336",
+    "taban": "cd83b7e3caedddbc",
+    "hizali": "6e5606a571d54125"
+   },
+   "sha_uretim": {
+    "taban": "3c320a177a045381",
+    "hizali": "5ff6c2b995fa0291"
+   },
+   "n_istem": 34,
+   "bacak": {
+    "taban": "base",
+    "hizali": "instruct"
+   }
+  },
+  {
+   "aile": "Tulu3-8B",
+   "istem_i": 1,
+   "dM1_istem": -17.348123739584175,
+   "medyan": -17.463395462592914,
+   "kol": "ARO-x1",
+   "cekim": 0,
+   "tez": "scientific theories support the possibility of alien life",
+   "durus": "eksi",
+   "dusen": [],
+   "n_jeton": {
+    "istem": 49,
+    "taban": 120,
+    "hizali": 120
+   },
+   "kesildi": {
+    "istem": false,
+    "taban": true,
+    "hizali": true
+   },
+   "sha_metin": {
+    "istem": "0f036dee809420c9",
+    "taban": "18c17042abfab595",
+    "hizali": "a760a4019d5f938b"
+   },
+   "sha_uretim": {
+    "taban": "c708f011efa46f40",
+    "hizali": "740ffe9a217978f8"
+   },
+   "n_istem": 34,
+   "bacak": {
+    "taban": "taban",
+    "hizali": "rl"
+   }
+  }
+ ],
+ "sure_dk": 1.7
+}

@@ -1,0 +1,283 @@
+{
+ "lafiz": {
+  "kayit": {
+   "dize": "Write the continuation as if you were talking with a friend: informal, personal and conversational rather than neutral or encyclopedic.",
+   "sayac_m1_sahis2": 1,
+   "sayac_n_jeton": 23,
+   "sayac_m2_muhatap": 1,
+   "regex_sahis2": [
+    "you"
+   ],
+   "regex_sahis1": [],
+   "regex_hitap": false
+  },
+  "acik": {
+   "dize": "Write the continuation in the first and second person: refer to yourself as I and to the reader as you.",
+   "sayac_m1_sahis2": 2,
+   "sayac_n_jeton": 22,
+   "sayac_m2_muhatap": 1,
+   "regex_sahis2": [
+    "yourself",
+    "you"
+   ],
+   "regex_sahis1": [
+    "I"
+   ],
+   "regex_hitap": false
+  },
+  "kayit_sahissiz": {
+   "dize": "Write the continuation informally, personally and conversationally, rather than neutrally or encyclopedically.",
+   "sayac_m1_sahis2": 0,
+   "sayac_n_jeton": 15,
+   "sayac_m2_muhatap": 1,
+   "regex_sahis2": [],
+   "regex_sahis1": [],
+   "regex_hitap": false
+  }
+ },
+ "yetenek_istem": {
+  "n_aile_imza_ayni": 16,
+  "eski": {
+   "M1": 10.41638593181512,
+   "sahis2": 10822.0,
+   "jeton": 1038940.0,
+   "n_benzersiz": 4977,
+   "n_satir": 6528
+  },
+  "yeni": {
+   "M1": 4.351809436555199,
+   "sahis2": 4294.0,
+   "jeton": 986716.0,
+   "n_benzersiz": 4977,
+   "n_satir": 6528
+  },
+  "eski_youfree9": {
+   "M1": 7.125472832302144,
+   "sahis2": 3888.0,
+   "jeton": 545648.0,
+   "n_benzersiz": 2655,
+   "n_satir": 3672
+  },
+  "yeni_youfree9": {
+   "M1": 0.4183841076021942,
+   "sahis2": 216.0,
+   "jeton": 516272.0,
+   "n_benzersiz": 2655,
+   "n_satir": 3672
+  },
+  "delta_d_yet": 6.06457649525992,
+  "delta_d_yet_youfree9": 6.7070887246999495,
+  "delta_sahis2_satir_basina": 1.0
+ },
+ "urial_istem": {
+  "kisili": {
+   "M1": 19.766730445546088,
+   "sahis2": 44650.0,
+   "jeton": 2258846.0,
+   "n_benzersiz": 1020,
+   "n_satir": 2448
+  },
+  "kisisiz": {
+   "M1": 0.2597059561300799,
+   "sahis2": 586.0,
+   "jeton": 2256398.0,
+   "n_benzersiz": 1020,
+   "n_satir": 2448
+  },
+  "delta_d_urial": 19.507024489416008
+ },
+ "egim": {
+  "aile": {
+   "Gemma-3-12B": {
+    "M1_taban_kisili": 23.7929,
+    "M1_taban_kisisiz": 18.0454,
+    "kayma": 5.7475,
+    "egim": 0.29464,
+    "payda": 2.798,
+    "E_M1": 1.7869,
+    "E_gap": 0.6386,
+    "eski_kayit_sd_gap": 0.1626
+   },
+   "Gemma-3-27B": {
+    "M1_taban_kisili": 23.3638,
+    "M1_taban_kisisiz": 15.8619,
+    "kayma": 7.5019,
+    "egim": 0.38457,
+    "payda": 3.0669,
+    "E_M1": 2.3323,
+    "E_gap": 0.7605,
+    "eski_kayit_sd_gap": 0.1013
+   },
+   "Gemma-3-4B": {
+    "M1_taban_kisili": 22.433,
+    "M1_taban_kisisiz": 16.3354,
+    "kayma": 6.0976,
+    "egim": 0.31258,
+    "payda": 3.6314,
+    "E_M1": 1.8957,
+    "E_gap": 0.522,
+    "eski_kayit_sd_gap": 0.1545
+   },
+   "Llama-3.1-70B": {
+    "M1_taban_kisili": 20.2562,
+    "M1_taban_kisisiz": 11.6364,
+    "kayma": 8.6198,
+    "egim": 0.44188,
+    "payda": 3.7798,
+    "E_M1": 2.6798,
+    "E_gap": 0.709,
+    "eski_kayit_sd_gap": 0.0751
+   },
+   "Llama-3.1-8B": {
+    "M1_taban_kisili": 27.8649,
+    "M1_taban_kisisiz": 19.4625,
+    "kayma": 8.4024,
+    "egim": 0.43074,
+    "payda": 4.7667,
+    "E_M1": 2.6122,
+    "E_gap": 0.548,
+    "eski_kayit_sd_gap": 0.1324
+   },
+   "OLMo-3-7B": {
+    "M1_taban_kisili": 21.2162,
+    "M1_taban_kisisiz": 14.2552,
+    "kayma": 6.961,
+    "egim": 0.35685,
+    "payda": 4.7032,
+    "E_M1": 2.1641,
+    "E_gap": 0.4601,
+    "eski_kayit_sd_gap": 0.0837
+   },
+   "OLMo2-13B": {
+    "M1_taban_kisili": 25.3503,
+    "M1_taban_kisisiz": 21.198,
+    "kayma": 4.1523,
+    "egim": 0.21286,
+    "payda": 6.2796,
+    "E_M1": 1.2909,
+    "E_gap": 0.2056,
+    "eski_kayit_sd_gap": 0.1213
+   },
+   "OLMo2-32B": {
+    "M1_taban_kisili": 28.4353,
+    "M1_taban_kisisiz": 20.0236,
+    "kayma": 8.4117,
+    "egim": 0.43121,
+    "payda": 4.7733,
+    "E_M1": 2.6151,
+    "E_gap": 0.5479,
+    "eski_kayit_sd_gap": 0.1555
+   },
+   "Qwen2.5-1.5B": {
+    "M1_taban_kisili": 19.9063,
+    "M1_taban_kisisiz": 19.7592,
+    "kayma": 0.1471,
+    "egim": 0.00754,
+    "payda": 1.6075,
+    "E_M1": 0.0457,
+    "E_gap": 0.0284,
+    "eski_kayit_sd_gap": 0.3249
+   },
+   "Qwen2.5-14B": {
+    "M1_taban_kisili": 25.2778,
+    "M1_taban_kisisiz": 13.4896,
+    "kayma": 11.7882,
+    "egim": 0.60431,
+    "payda": 3.4919,
+    "E_M1": 3.6649,
+    "E_gap": 1.0495,
+    "eski_kayit_sd_gap": 0.1417
+   },
+   "Qwen2.5-32B": {
+    "M1_taban_kisili": 26.0726,
+    "M1_taban_kisisiz": 19.1442,
+    "kayma": 6.9284,
+    "egim": 0.35517,
+    "payda": 2.1777,
+    "E_M1": 2.154,
+    "E_gap": 0.9891,
+    "eski_kayit_sd_gap": 0.1714
+   },
+   "Qwen2.5-3B": {
+    "M1_taban_kisili": 19.5976,
+    "M1_taban_kisisiz": 17.2417,
+    "kayma": 2.3559,
+    "egim": 0.12077,
+    "payda": 3.4625,
+    "E_M1": 0.7324,
+    "E_gap": 0.2115,
+    "eski_kayit_sd_gap": 0.0992
+   },
+   "Qwen2.5-72B": {
+    "M1_taban_kisili": 20.3233,
+    "M1_taban_kisisiz": 14.7241,
+    "kayma": 5.5992,
+    "egim": 0.28704,
+    "payda": 3.6919,
+    "E_M1": 1.7407,
+    "E_gap": 0.4715,
+    "eski_kayit_sd_gap": 0.1415
+   },
+   "Qwen2.5-7B": {
+    "M1_taban_kisili": 21.8791,
+    "M1_taban_kisisiz": 18.463,
+    "kayma": 3.4161,
+    "egim": 0.17512,
+    "payda": 3.9045,
+    "E_M1": 1.062,
+    "E_gap": 0.272,
+    "eski_kayit_sd_gap": 0.1324
+   },
+   "Tulu3-8B": {
+    "M1_taban_kisili": 27.8649,
+    "M1_taban_kisisiz": 19.4625,
+    "kayma": 8.4024,
+    "egim": 0.43074,
+    "payda": 8.7147,
+    "E_M1": 2.6122,
+    "E_gap": 0.2998,
+    "eski_kayit_sd_gap": 0.0846
+   }
+  },
+  "dislanan": {
+   "Mistral-7B-v0.3": {
+    "kisili_hal": "ÖLCÜLDÜ",
+    "kisisiz_hal": "ÖLCÜLDÜ",
+    "kirpik_kisili": 1.0,
+    "kirpik_kisisiz": 1.0
+   }
+  },
+  "n_aile": 15,
+  "E_medyan": 0.522,
+  "E_min": 0.0284,
+  "E_maks": 1.0495,
+  "kayma_min": 0.1471,
+  "kayma_maks": 11.7882,
+  "n_kayma_pozitif": 15,
+  "eski_kayit_sd_gap_bandi": [
+   0.0751,
+   0.1324,
+   0.3249
+  ]
+ },
+ "_kunye": {
+  "alet": "scripts/capability_pronoun_free_threshold_floor.py",
+  "damga_utc": "2026-09-14T19:32:58Z",
+  "kaynak": {
+   "card16": [
+    "<repo>/results/YETENEK_KARNE_16_2026-09-13.json",
+    "2c17ba6aa1aa1f1c"
+   ],
+   "kisili": [
+    "<repo>/results/urial_verdict_x1_2026-09-10.json",
+    "ba8209621eba480d"
+   ],
+   "kisisiz": [
+    "<repo>/results/URIAL_VERDICT_KISISIZ_X1_2026-09-11.json",
+    "4fb35c0e9ffd17da"
+   ]
+  },
+  "K_e": "",
+  "sure_dk": 1.4
+ }
+}

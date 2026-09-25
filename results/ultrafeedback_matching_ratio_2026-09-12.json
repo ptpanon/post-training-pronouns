@@ -1,0 +1,20 @@
+{
+ "damga_utc": "2026-09-11T22:27:58Z",
+ "SINIF": "BETIM",
+ "alet": "",
+ "borc": "W-1053",
+ "kaynak": {
+  "npz": "<data>/uf_bilesen.npz",
+  "npz_sha16": "b3922b024da44f14",
+  "hedge": "<data>/uf_hedge.npy",
+  "hedge_sha16": "73fd872576c89d17"
+ },
+ "n_yanit": 255864,
+ "n_jeton_toplam": 56920010,
+ "tanim": "havuzlanmis oran: 1000 · Σsayac / Σjeton",
+ "M1_1k": 12.311,
+ "modal_1k": 14.0506,
+ "hedge_1k": 2.3201,
+ "oran_modal": 1.1413,
+ "oran_hedge": 0.1885
+}

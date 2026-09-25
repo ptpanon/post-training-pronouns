@@ -1,0 +1,10 @@
+\paragraph*{Is the rise the opening sentence?}
+\vekalet{Under a chat template an aligned model often opens with a fixed conversational frame, so we
+dropped the first sentence of every response, in \emph{both} checkpoints and on the same cells, and read
+the contrast again. Across the $7$ models whose rate rises, that removes a median
+$13.7\%$ of the aligned tokens, and the median shift moves from $+14.76$ to $+10.15$ per
+1,000 tokens. The rise survives with an interval excluding zero in
+$5$ of $7$, and stops in Llama-3.1-8B and Qwen2.5-1.5B (Qwen2.5-1.5B is the fragile positive this appendix already flags).
+\textbf{The opening frame is therefore part of the rise and not the whole of it}, which is what a
+density spread over a whole response should show; it does not explain why the sign differs between
+pipelines, and we still have no mechanism for that.}

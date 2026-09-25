@@ -1,0 +1,48 @@
+{
+ "table": "SATIR_TIPI",
+ "damga_utc": "2026-09-25T23:44:32Z",
+ "sources": [
+  {
+   "yol": "results/reviewer_v87_line_type_2026-09-16.json",
+   "sha256_16": "2a99344235fba02b"
+  }
+ ],
+ "n_satir": 16,
+ "n_ayrik": {
+  "ciplak_duzyazi": 8,
+  "ciplak_liste": 10,
+  "ciplak_baslik": 3,
+  "template_duzyazi": 9,
+  "template_liste": 11,
+  "template_baslik": 6
+ },
+ "kapi": {
+  "tol": 0.005,
+  "gecen": [
+   "Llama-3.1-70B",
+   "Mistral-7B-v0.3",
+   "OLMo2-13B",
+   "OLMo2-32B",
+   "Qwen2.5-1.5B",
+   "Qwen2.5-14B",
+   "Qwen2.5-32B",
+   "Qwen2.5-3B",
+   "Qwen2.5-72B",
+   "Qwen2.5-7B",
+   "Tulu3-8B"
+  ],
+  "kayit": [
+   "Gemma-3-12B",
+   "Gemma-3-27B",
+   "Gemma-3-4B",
+   "Llama-3.1-8B",
+   "OLMo-3-7B"
+  ]
+ },
+ "sayim": {
+  "ciplak_duzyazi_asagi": 8,
+  "ciplak_liste_asagi": 10,
+  "template_duzyazi_yukari": 5,
+  "template_liste_yukari": 1
+ }
+}

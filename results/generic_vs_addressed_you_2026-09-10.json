@@ -1,0 +1,475 @@
+{
+ "damga_utc": "2026-09-10T12:36:53Z",
+ "SINIF": "KESIF/BETIM — bar YOK · ad YOK · prediction YOK",
+ "alet": "scripts/generic_vs_addressed_you.py",
+ "borc": "D-0910-V32 §B/1.3",
+ "kok": "<data>/c1_panel",
+ "oncelik": "HITAP > JENERIK (yazili, kodda degil)",
+ "kanonik_sayac": "muhatap_olcu.SAHIS2 (ithal)",
+ "aile": {
+  "Qwen2.5-1.5B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6269,
+    "HITAP": 575,
+    "JENERIK": 1126,
+    "BELIRSIZ": 4568,
+    "pay_hitap": 0.0917,
+    "pay_jenerik": 0.1796,
+    "pay_belirsiz": 0.7287
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6227,
+    "HITAP": 588,
+    "JENERIK": 944,
+    "BELIRSIZ": 4695,
+    "pay_hitap": 0.0944,
+    "pay_jenerik": 0.1516,
+    "pay_belirsiz": 0.754
+   },
+   "d_hitap": 13,
+   "d_jenerik": -182,
+   "d_belirsiz": 127,
+   "pay_dususte_hitap": -0.0769
+  },
+  "Qwen2.5-3B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6326,
+    "HITAP": 520,
+    "JENERIK": 1370,
+    "BELIRSIZ": 4436,
+    "pay_hitap": 0.0822,
+    "pay_jenerik": 0.2166,
+    "pay_belirsiz": 0.7012
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 5408,
+    "HITAP": 373,
+    "JENERIK": 577,
+    "BELIRSIZ": 4458,
+    "pay_hitap": 0.069,
+    "pay_jenerik": 0.1067,
+    "pay_belirsiz": 0.8243
+   },
+   "d_hitap": -147,
+   "d_jenerik": -793,
+   "d_belirsiz": 22,
+   "pay_dususte_hitap": 0.1564
+  },
+  "Mistral-7B-v0.3": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6680,
+    "HITAP": 555,
+    "JENERIK": 1468,
+    "BELIRSIZ": 4657,
+    "pay_hitap": 0.0831,
+    "pay_jenerik": 0.2198,
+    "pay_belirsiz": 0.6972
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 1846,
+    "HITAP": 181,
+    "JENERIK": 381,
+    "BELIRSIZ": 1284,
+    "pay_hitap": 0.098,
+    "pay_jenerik": 0.2064,
+    "pay_belirsiz": 0.6956
+   },
+   "d_hitap": -374,
+   "d_jenerik": -1087,
+   "d_belirsiz": -3373,
+   "pay_dususte_hitap": 0.256
+  },
+  "Qwen2.5-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6094,
+    "HITAP": 510,
+    "JENERIK": 1169,
+    "BELIRSIZ": 4415,
+    "pay_hitap": 0.0837,
+    "pay_jenerik": 0.1918,
+    "pay_belirsiz": 0.7245
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 4889,
+    "HITAP": 338,
+    "JENERIK": 525,
+    "BELIRSIZ": 4026,
+    "pay_hitap": 0.0691,
+    "pay_jenerik": 0.1074,
+    "pay_belirsiz": 0.8235
+   },
+   "d_hitap": -172,
+   "d_jenerik": -644,
+   "d_belirsiz": -389,
+   "pay_dususte_hitap": 0.2108
+  },
+  "OLMo-3-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 9581,
+    "HITAP": 708,
+    "JENERIK": 1879,
+    "BELIRSIZ": 6994,
+    "pay_hitap": 0.0739,
+    "pay_jenerik": 0.1961,
+    "pay_belirsiz": 0.73
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6118,
+    "HITAP": 369,
+    "JENERIK": 1183,
+    "BELIRSIZ": 4566,
+    "pay_hitap": 0.0603,
+    "pay_jenerik": 0.1934,
+    "pay_belirsiz": 0.7463
+   },
+   "d_hitap": -339,
+   "d_jenerik": -696,
+   "d_belirsiz": -2428,
+   "pay_dususte_hitap": 0.3275
+  },
+  "Llama-3.1-8B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6781,
+    "HITAP": 556,
+    "JENERIK": 1420,
+    "BELIRSIZ": 4805,
+    "pay_hitap": 0.082,
+    "pay_jenerik": 0.2094,
+    "pay_belirsiz": 0.7086
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 4677,
+    "HITAP": 362,
+    "JENERIK": 765,
+    "BELIRSIZ": 3550,
+    "pay_hitap": 0.0774,
+    "pay_jenerik": 0.1636,
+    "pay_belirsiz": 0.759
+   },
+   "d_hitap": -194,
+   "d_jenerik": -655,
+   "d_belirsiz": -1255,
+   "pay_dususte_hitap": 0.2285
+  },
+  "Tulu3-8B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6781,
+    "HITAP": 556,
+    "JENERIK": 1420,
+    "BELIRSIZ": 4805,
+    "pay_hitap": 0.082,
+    "pay_jenerik": 0.2094,
+    "pay_belirsiz": 0.7086
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 1515,
+    "HITAP": 68,
+    "JENERIK": 281,
+    "BELIRSIZ": 1166,
+    "pay_hitap": 0.0449,
+    "pay_jenerik": 0.1855,
+    "pay_belirsiz": 0.7696
+   },
+   "d_hitap": -488,
+   "d_jenerik": -1139,
+   "d_belirsiz": -3639,
+   "pay_dususte_hitap": 0.2999
+  },
+  "Gemma-3-4B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6284,
+    "HITAP": 520,
+    "JENERIK": 1403,
+    "BELIRSIZ": 4361,
+    "pay_hitap": 0.0827,
+    "pay_jenerik": 0.2233,
+    "pay_belirsiz": 0.694
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 5695,
+    "HITAP": 360,
+    "JENERIK": 195,
+    "BELIRSIZ": 5140,
+    "pay_hitap": 0.0632,
+    "pay_jenerik": 0.0342,
+    "pay_belirsiz": 0.9025
+   },
+   "d_hitap": -160,
+   "d_jenerik": -1208,
+   "d_belirsiz": 779,
+   "pay_dususte_hitap": 0.117
+  },
+  "OLMo2-13B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 7120,
+    "HITAP": 790,
+    "JENERIK": 1459,
+    "BELIRSIZ": 4871,
+    "pay_hitap": 0.111,
+    "pay_jenerik": 0.2049,
+    "pay_belirsiz": 0.6841
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 3422,
+    "HITAP": 480,
+    "JENERIK": 590,
+    "BELIRSIZ": 2352,
+    "pay_hitap": 0.1403,
+    "pay_jenerik": 0.1724,
+    "pay_belirsiz": 0.6873
+   },
+   "d_hitap": -310,
+   "d_jenerik": -869,
+   "d_belirsiz": -2519,
+   "pay_dususte_hitap": 0.2629
+  },
+  "Gemma-3-12B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6776,
+    "HITAP": 589,
+    "JENERIK": 1382,
+    "BELIRSIZ": 4805,
+    "pay_hitap": 0.0869,
+    "pay_jenerik": 0.204,
+    "pay_belirsiz": 0.7091
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 7301,
+    "HITAP": 627,
+    "JENERIK": 200,
+    "BELIRSIZ": 6474,
+    "pay_hitap": 0.0859,
+    "pay_jenerik": 0.0274,
+    "pay_belirsiz": 0.8867
+   },
+   "d_hitap": 38,
+   "d_jenerik": -1182,
+   "d_belirsiz": 1669,
+   "pay_dususte_hitap": -0.0332
+  },
+  "Qwen2.5-14B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6669,
+    "HITAP": 574,
+    "JENERIK": 907,
+    "BELIRSIZ": 5188,
+    "pay_hitap": 0.0861,
+    "pay_jenerik": 0.136,
+    "pay_belirsiz": 0.7779
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 5909,
+    "HITAP": 369,
+    "JENERIK": 308,
+    "BELIRSIZ": 5232,
+    "pay_hitap": 0.0624,
+    "pay_jenerik": 0.0521,
+    "pay_belirsiz": 0.8854
+   },
+   "d_hitap": -205,
+   "d_jenerik": -599,
+   "d_belirsiz": 44,
+   "pay_dususte_hitap": 0.255
+  },
+  "Gemma-3-27B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6596,
+    "HITAP": 567,
+    "JENERIK": 1281,
+    "BELIRSIZ": 4748,
+    "pay_hitap": 0.086,
+    "pay_jenerik": 0.1942,
+    "pay_belirsiz": 0.7198
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6312,
+    "HITAP": 249,
+    "JENERIK": 237,
+    "BELIRSIZ": 5826,
+    "pay_hitap": 0.0394,
+    "pay_jenerik": 0.0375,
+    "pay_belirsiz": 0.923
+   },
+   "d_hitap": -318,
+   "d_jenerik": -1044,
+   "d_belirsiz": 1078,
+   "pay_dususte_hitap": 0.2335
+  },
+  "OLMo2-32B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 8105,
+    "HITAP": 797,
+    "JENERIK": 1658,
+    "BELIRSIZ": 5650,
+    "pay_hitap": 0.0983,
+    "pay_jenerik": 0.2046,
+    "pay_belirsiz": 0.6971
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 5117,
+    "HITAP": 659,
+    "JENERIK": 1013,
+    "BELIRSIZ": 3445,
+    "pay_hitap": 0.1288,
+    "pay_jenerik": 0.198,
+    "pay_belirsiz": 0.6732
+   },
+   "d_hitap": -138,
+   "d_jenerik": -645,
+   "d_belirsiz": -2205,
+   "pay_dususte_hitap": 0.1762
+  },
+  "Qwen2.5-32B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6327,
+    "HITAP": 602,
+    "JENERIK": 913,
+    "BELIRSIZ": 4812,
+    "pay_hitap": 0.0951,
+    "pay_jenerik": 0.1443,
+    "pay_belirsiz": 0.7606
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6328,
+    "HITAP": 423,
+    "JENERIK": 437,
+    "BELIRSIZ": 5468,
+    "pay_hitap": 0.0668,
+    "pay_jenerik": 0.0691,
+    "pay_belirsiz": 0.8641
+   },
+   "d_hitap": -179,
+   "d_jenerik": -476,
+   "d_belirsiz": 656,
+   "pay_dususte_hitap": 0.2733
+  },
+  "Qwen2.5-72B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 5754,
+    "HITAP": 529,
+    "JENERIK": 914,
+    "BELIRSIZ": 4311,
+    "pay_hitap": 0.0919,
+    "pay_jenerik": 0.1588,
+    "pay_belirsiz": 0.7492
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 5630,
+    "HITAP": 314,
+    "JENERIK": 271,
+    "BELIRSIZ": 5045,
+    "pay_hitap": 0.0558,
+    "pay_jenerik": 0.0481,
+    "pay_belirsiz": 0.8961
+   },
+   "d_hitap": -215,
+   "d_jenerik": -643,
+   "d_belirsiz": 734,
+   "pay_dususte_hitap": 0.2506
+  },
+  "Llama-3.1-70B": {
+   "hal": "ÖLCÜLDÜ",
+   "taban": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 6676,
+    "HITAP": 671,
+    "JENERIK": 1222,
+    "BELIRSIZ": 4783,
+    "pay_hitap": 0.1005,
+    "pay_jenerik": 0.183,
+    "pay_belirsiz": 0.7164
+   },
+   "hizali": {
+    "hal": "ÖLCÜLDÜ",
+    "n_satir": 6528,
+    "n_cumle_you": 5284,
+    "HITAP": 468,
+    "JENERIK": 930,
+    "BELIRSIZ": 3886,
+    "pay_hitap": 0.0886,
+    "pay_jenerik": 0.176,
+    "pay_belirsiz": 0.7354
+   },
+   "d_hitap": -203,
+   "d_jenerik": -292,
+   "d_belirsiz": -897,
+   "pay_dususte_hitap": 0.4101
+  }
+ }
+}

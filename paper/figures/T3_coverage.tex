@@ -1,0 +1,12 @@
+\begin{table}[tb]
+\centering\small
+\caption{\textbf{Why ELICIT-99 scores 15 of 16 models.} Reasons are printed rather than left blank. Every model in the panel is generated on this prompt set, so no row carries a compute reason: the two pairs produced on two GPUs are scored here. The degeneracy criterion is the pre-registered distinct-4 floor, whose threshold sits in an empty interval of the calibration distribution. With 15 models scored the twelve-model bar is reachable on this prompt set; how many clear it is a separate count, marked in bold in Table~\ref{tab:families-full}.}
+\label{tab:coverage}
+\begin{tabular}{lll}
+\toprule
+model & outcome & measured reason \\
+\midrule
+Qwen2.5-1.5B & \textsc{d-shelf} & distinct-4 $0.324 < 0.60$ (repetition loop) \\
+\bottomrule
+\end{tabular}
+\end{table}

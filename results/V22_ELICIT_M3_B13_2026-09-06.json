@@ -1,0 +1,197 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-06T17:40:30Z",
+  "alet": "scripts/v20_elicited_impersonal_correction.py",
+  "borc": "D-0907-V20 §1a",
+  "zemin": "ELICIT-99",
+  "n_aile": 13,
+  "ayrik": [
+   "Llama-3.1-8B",
+   "OLMo-3-7B"
+  ]
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 75.0,
+   "duzeltme_instruct": 66.0,
+   "M3_base": 0.8533333333333334,
+   "M3_instruct": 0.8333333333333334,
+   "dM3": -0.020000000000000018,
+   "dM3_ci": [
+    -0.1504612553138672,
+    0.1704086914650295
+   ],
+   "ayrik": false
+  },
+  "Gemma-3-27B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 78.0,
+   "duzeltme_instruct": 54.0,
+   "M3_base": 0.8974358974358975,
+   "M3_instruct": 0.7962962962962963,
+   "dM3": -0.10113960113960119,
+   "dM3_ci": [
+    -0.25027927880200607,
+    0.06418754936799038
+   ],
+   "ayrik": false
+  },
+  "Gemma-3-4B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 32.0,
+   "duzeltme_instruct": 31.0,
+   "M3_base": 0.75,
+   "M3_instruct": 0.5806451612903226,
+   "dM3": -0.16935483870967738,
+   "dM3_ci": [
+    -0.41029411764705886,
+    0.07385822510822503
+   ],
+   "ayrik": false
+  },
+  "Llama-3.1-8B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 85.0,
+   "duzeltme_instruct": 79.0,
+   "M3_base": 0.8941176470588236,
+   "M3_instruct": 0.9873417721518988,
+   "dM3": 0.0932241250930752,
+   "dM3_ci": [
+    0.010568669506754716,
+    0.2817347209752273
+   ],
+   "ayrik": true
+  },
+  "Mistral-7B-v0.3": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 57.0,
+   "duzeltme_instruct": 52.0,
+   "M3_base": 0.8070175438596491,
+   "M3_instruct": 0.9230769230769231,
+   "dM3": 0.11605937921727405,
+   "dM3_ci": [
+    -0.017666791488286034,
+    0.24941466552315608
+   ],
+   "ayrik": false
+  },
+  "OLMo-3-7B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 70.0,
+   "duzeltme_instruct": 62.0,
+   "M3_base": 0.9285714285714286,
+   "M3_instruct": 0.7258064516129032,
+   "dM3": -0.20276497695852536,
+   "dM3_ci": [
+    -0.33337500000000003,
+    -0.06865827637650486
+   ],
+   "ayrik": true
+  },
+  "OLMo2-13B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 21.0,
+   "duzeltme_instruct": 80.0,
+   "M3_base": 0.9047619047619048,
+   "M3_instruct": 0.9125,
+   "dM3": 0.007738095238095211,
+   "dM3_ci": [
+    -0.1234602580108198,
+    0.17300762300762298
+   ],
+   "ayrik": false
+  },
+  "OLMo2-32B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 22.0,
+   "duzeltme_instruct": 73.0,
+   "M3_base": 0.9545454545454546,
+   "M3_instruct": 0.8767123287671232,
+   "dM3": -0.07783312577833135,
+   "dM3_ci": [
+    -0.1886919938806731,
+    0.054286271099255975
+   ],
+   "ayrik": false
+  },
+  "Qwen2.5-14B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 43.0,
+   "duzeltme_instruct": 51.0,
+   "M3_base": 0.9069767441860465,
+   "M3_instruct": 0.8431372549019608,
+   "dM3": -0.06383948928408567,
+   "dM3_ci": [
+    -0.17965948090948086,
+    0.054430471661806805
+   ],
+   "ayrik": false
+  },
+  "Qwen2.5-32B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 46.0,
+   "duzeltme_instruct": 53.0,
+   "M3_base": 0.9130434782608695,
+   "M3_instruct": 0.8867924528301887,
+   "dM3": -0.026251025430680808,
+   "dM3_ci": [
+    -0.13148137161841478,
+    0.08333333333333337
+   ],
+   "ayrik": false
+  },
+  "Qwen2.5-3B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 29.0,
+   "duzeltme_instruct": 33.0,
+   "M3_base": 0.896551724137931,
+   "M3_instruct": 0.8181818181818182,
+   "dM3": -0.07836990595611282,
+   "dM3_ci": [
+    -0.25122934697088906,
+    0.2929220779220779
+   ],
+   "ayrik": false
+  },
+  "Qwen2.5-7B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 26.0,
+   "duzeltme_instruct": 41.0,
+   "M3_base": 0.9230769230769231,
+   "M3_instruct": 0.7804878048780488,
+   "dM3": -0.14258911819887432,
+   "dM3_ci": [
+    -0.3076056618819777,
+    0.03321969696969698
+   ],
+   "ayrik": false
+  },
+  "Tulu3-8B": {
+   "n_base": 396,
+   "n_instruct": 396,
+   "duzeltme_base": 85.0,
+   "duzeltme_instruct": 47.0,
+   "M3_base": 0.8941176470588236,
+   "M3_instruct": 0.9361702127659575,
+   "dM3": 0.04205256570713389,
+   "dM3_ci": [
+    -0.06637045751164439,
+    0.2402600931677018
+   ],
+   "ayrik": false
+  }
+ }
+}

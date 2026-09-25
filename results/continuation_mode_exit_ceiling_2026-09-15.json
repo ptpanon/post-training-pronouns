@@ -1,0 +1,369 @@
+{
+ "sinif": "BETIM · mühürsüz · bilerek fazla kesen tavan · kabul siniri yok",
+ "rule": "preregistration/rule_continuation_mode_exit_ceiling.md",
+ "alet": "muhatap_kos.olc_toplam + basamak_kuvvet_ci.kume_boot (ITHAL)",
+ "NB": 1000,
+ "seed": 20260906,
+ "red_esdeger_M1": 0,
+ "n_aile": 16,
+ "n_ayrik_asagi_tavan": 16,
+ "toplam": {
+  "taban": {
+   "n": 104448,
+   "atilan": 33073,
+   "isaretci": 22868,
+   "tur": 98,
+   "markdown": 12129
+  },
+  "hizali": {
+   "n": 104448,
+   "atilan": 54172,
+   "isaretci": 29072,
+   "tur": 354,
+   "markdown": 43453
+  }
+ },
+ "en_buyuk_kayma": {
+  "aile": "Qwen2.5-14B",
+  "kayma": 2.4415
+ },
+ "aile": {
+  "Tulu3-8B": {
+   "dM1_tum": -8.7147,
+   "dM1_tavan": -9.5681,
+   "ci_tavan": [
+    -11.153,
+    -8.088
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 1768,
+   "taban_isaretci": 1362,
+   "taban_tur": 0,
+   "taban_markdown": 444,
+   "hizali_n": 6528,
+   "hizali_atilan": 1004,
+   "hizali_isaretci": 577,
+   "hizali_tur": 1,
+   "hizali_markdown": 597,
+   "ikinci_sahis_payi_atilan_hizali": 0.2254
+  },
+  "OLMo2-13B": {
+   "dM1_tum": -6.2796,
+   "dM1_tavan": -7.5026,
+   "ci_tavan": [
+    -8.716,
+    -6.404
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 2281,
+   "taban_isaretci": 1822,
+   "taban_tur": 2,
+   "taban_markdown": 591,
+   "hizali_n": 6528,
+   "hizali_atilan": 1968,
+   "hizali_isaretci": 1258,
+   "hizali_tur": 2,
+   "hizali_markdown": 964,
+   "ikinci_sahis_payi_atilan_hizali": 0.3562
+  },
+  "OLMo2-32B": {
+   "dM1_tum": -4.7733,
+   "dM1_tavan": -5.4541,
+   "ci_tavan": [
+    -6.385,
+    -4.548
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 2098,
+   "taban_isaretci": 1728,
+   "taban_tur": 2,
+   "taban_markdown": 455,
+   "hizali_n": 6528,
+   "hizali_atilan": 1647,
+   "hizali_isaretci": 1335,
+   "hizali_tur": 4,
+   "hizali_markdown": 413,
+   "ikinci_sahis_payi_atilan_hizali": 0.3038
+  },
+  "OLMo-3-7B": {
+   "dM1_tum": -4.7032,
+   "dM1_tavan": -5.2071,
+   "ci_tavan": [
+    -6.156,
+    -4.303
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 1839,
+   "taban_isaretci": 1279,
+   "taban_tur": 1,
+   "taban_markdown": 631,
+   "hizali_n": 6528,
+   "hizali_atilan": 1048,
+   "hizali_isaretci": 540,
+   "hizali_tur": 4,
+   "hizali_markdown": 554,
+   "ikinci_sahis_payi_atilan_hizali": 0.164
+  },
+  "Qwen2.5-1.5B": {
+   "dM1_tum": -1.6075,
+   "dM1_tavan": -1.9536,
+   "ci_tavan": [
+    -3.383,
+    -0.633
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 2042,
+   "taban_isaretci": 1423,
+   "taban_tur": 42,
+   "taban_markdown": 763,
+   "hizali_n": 6528,
+   "hizali_atilan": 3214,
+   "hizali_isaretci": 723,
+   "hizali_tur": 267,
+   "hizali_markdown": 2832,
+   "ikinci_sahis_payi_atilan_hizali": 0.5045
+  },
+  "Qwen2.5-3B": {
+   "dM1_tum": -3.4625,
+   "dM1_tavan": -4.8832,
+   "ci_tavan": [
+    -6.321,
+    -3.498
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 1866,
+   "taban_isaretci": 1320,
+   "taban_tur": 11,
+   "taban_markdown": 658,
+   "hizali_n": 6528,
+   "hizali_atilan": 3783,
+   "hizali_isaretci": 2125,
+   "hizali_tur": 11,
+   "hizali_markdown": 3374,
+   "ikinci_sahis_payi_atilan_hizali": 0.6528
+  },
+  "Qwen2.5-7B": {
+   "dM1_tum": -3.9045,
+   "dM1_tavan": -5.4342,
+   "ci_tavan": [
+    -7.164,
+    -3.942
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 2064,
+   "taban_isaretci": 1381,
+   "taban_tur": 6,
+   "taban_markdown": 834,
+   "hizali_n": 6528,
+   "hizali_atilan": 4211,
+   "hizali_isaretci": 1962,
+   "hizali_tur": 9,
+   "hizali_markdown": 3868,
+   "ikinci_sahis_payi_atilan_hizali": 0.6769
+  },
+  "Qwen2.5-14B": {
+   "dM1_tum": -3.4919,
+   "dM1_tavan": -5.9334,
+   "ci_tavan": [
+    -7.501,
+    -4.502
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 2405,
+   "taban_isaretci": 1850,
+   "taban_tur": 9,
+   "taban_markdown": 835,
+   "hizali_n": 6528,
+   "hizali_atilan": 4962,
+   "hizali_isaretci": 2871,
+   "hizali_tur": 2,
+   "hizali_markdown": 4695,
+   "ikinci_sahis_payi_atilan_hizali": 0.8146
+  },
+  "Qwen2.5-32B": {
+   "dM1_tum": -2.1777,
+   "dM1_tavan": -3.7449,
+   "ci_tavan": [
+    -4.757,
+    -2.734
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 2249,
+   "taban_isaretci": 1751,
+   "taban_tur": 22,
+   "taban_markdown": 672,
+   "hizali_n": 6528,
+   "hizali_atilan": 4706,
+   "hizali_isaretci": 2184,
+   "hizali_tur": 1,
+   "hizali_markdown": 4463,
+   "ikinci_sahis_payi_atilan_hizali": 0.7461
+  },
+  "Qwen2.5-72B": {
+   "dM1_tum": -3.6919,
+   "dM1_tavan": -5.9154,
+   "ci_tavan": [
+    -8.066,
+    -4.164
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 2310,
+   "taban_isaretci": 1677,
+   "taban_tur": 3,
+   "taban_markdown": 793,
+   "hizali_n": 6528,
+   "hizali_atilan": 5460,
+   "hizali_isaretci": 3189,
+   "hizali_tur": 31,
+   "hizali_markdown": 5234,
+   "ikinci_sahis_payi_atilan_hizali": 0.8733
+  },
+  "Gemma-3-4B": {
+   "dM1_tum": -3.6314,
+   "dM1_tavan": -3.7008,
+   "ci_tavan": [
+    -5.016,
+    -2.374
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 1694,
+   "taban_isaretci": 926,
+   "taban_tur": 0,
+   "taban_markdown": 837,
+   "hizali_n": 6528,
+   "hizali_atilan": 4907,
+   "hizali_isaretci": 2899,
+   "hizali_tur": 8,
+   "hizali_markdown": 4141,
+   "ikinci_sahis_payi_atilan_hizali": 0.7707
+  },
+  "Gemma-3-12B": {
+   "dM1_tum": -2.798,
+   "dM1_tavan": -3.5464,
+   "ci_tavan": [
+    -5.504,
+    -1.744
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 1822,
+   "taban_isaretci": 1243,
+   "taban_tur": 0,
+   "taban_markdown": 677,
+   "hizali_n": 6528,
+   "hizali_atilan": 4995,
+   "hizali_isaretci": 3004,
+   "hizali_tur": 5,
+   "hizali_markdown": 4071,
+   "ikinci_sahis_payi_atilan_hizali": 0.7721
+  },
+  "Gemma-3-27B": {
+   "dM1_tum": -3.0669,
+   "dM1_tavan": -4.7682,
+   "ci_tavan": [
+    -7.06,
+    -2.796
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 1863,
+   "taban_isaretci": 1275,
+   "taban_tur": 0,
+   "taban_markdown": 675,
+   "hizali_n": 6528,
+   "hizali_atilan": 4931,
+   "hizali_isaretci": 3025,
+   "hizali_tur": 8,
+   "hizali_markdown": 4029,
+   "ikinci_sahis_payi_atilan_hizali": 0.8086
+  },
+  "Llama-3.1-8B": {
+   "dM1_tum": -4.7667,
+   "dM1_tavan": -5.4564,
+   "ci_tavan": [
+    -6.647,
+    -4.391
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 1768,
+   "taban_isaretci": 1362,
+   "taban_tur": 0,
+   "taban_markdown": 444,
+   "hizali_n": 6528,
+   "hizali_atilan": 1747,
+   "hizali_isaretci": 1286,
+   "hizali_tur": 1,
+   "hizali_markdown": 550,
+   "ikinci_sahis_payi_atilan_hizali": 0.2688
+  },
+  "Llama-3.1-70B": {
+   "dM1_tum": -3.7798,
+   "dM1_tavan": -3.5844,
+   "ci_tavan": [
+    -4.627,
+    -2.577
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 2089,
+   "taban_isaretci": 1644,
+   "taban_tur": 0,
+   "taban_markdown": 501,
+   "hizali_n": 6528,
+   "hizali_atilan": 2182,
+   "hizali_isaretci": 1738,
+   "hizali_tur": 0,
+   "hizali_markdown": 574,
+   "ikinci_sahis_payi_atilan_hizali": 0.292
+  },
+  "Mistral-7B-v0.3": {
+   "dM1_tum": -9.8563,
+   "dM1_tavan": -8.3379,
+   "ci_tavan": [
+    -10.063,
+    -6.803
+   ],
+   "ayrik_asagi": true,
+   "n_istem": 34,
+   "taban_n": 6528,
+   "taban_atilan": 2915,
+   "taban_isaretci": 825,
+   "taban_tur": 0,
+   "taban_markdown": 2319,
+   "hizali_n": 6528,
+   "hizali_atilan": 3407,
+   "hizali_isaretci": 356,
+   "hizali_tur": 0,
+   "hizali_markdown": 3094,
+   "ikinci_sahis_payi_atilan_hizali": 0.406
+  }
+ },
+ "sure_sn": 15.3
+}

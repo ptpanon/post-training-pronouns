@@ -1,0 +1,13 @@
+{
+ "table": "KELIME_LIM",
+ "ciktilar": [
+  "KELIME_LIM.tex"
+ ],
+ "note": "v100 A: Limitations sentence (LIMITATIONS / OKUNAMADI branch only)",
+ "sources": [
+  {
+   "yol": "results/v100_kelime_payda_2026-09-22.json",
+   "sha256_16": "fe1b28cb05ef6830"
+  }
+ ]
+}

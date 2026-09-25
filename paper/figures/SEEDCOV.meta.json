@@ -1,0 +1,21 @@
+{
+ "table": "SEEDCOV",
+ "sources": [
+  {
+   "yol": "results/four_seed_reading_2026-09-01.json",
+   "sha256_16": "569fe7b88269bc45"
+  },
+  {
+   "yol": "results/SEED_UC_AILE_OKUMA_2026-09-15.json",
+   "sha256_16": "52af3dd364ea0f1b"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "hal_m4": 16,
+  "hal_tutan": 16,
+  "n_bekleyen": 0,
+  "hal_kismi": 0
+ },
+ "note": "renders a counter; computes no new statistic"
+}

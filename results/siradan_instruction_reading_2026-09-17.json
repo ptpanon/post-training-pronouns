@@ -1,0 +1,2043 @@
+{
+ "sinif": "BETIM · bar yok · prediction yok",
+ "prereg": "preregistration/prereg_siradan_instruction_2026-09-17.md",
+ "alet_sha256_16": "6052c120b2df054c",
+ "secim_karti": {
+  "yol": "results/siradan_instruction_secim_2026-09-17.json",
+  "sha256_16": "fb550b75fd100af4"
+ },
+ "motor": "",
+ "n_aile": 16,
+ "n_okunan": 16,
+ "bacak_eksik": [],
+ "aile": {
+  "Qwen2.5-1.5B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1195,
+   "taban_kesilen": 388,
+   "taban_kesilen_pay": 0.3233,
+   "M1": {
+    "taban": 10.8315,
+    "gozlenen": -5.2022,
+    "ci": [
+     -6.345673511699597,
+     -4.075755396038659
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.4803,
+    "z": -4.427,
+    "plasebo_ort": -0.0649,
+    "plasebo_sd": 1.1605,
+    "plasebo_p95": 2.2309,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": -0.6414,
+    "gozlenen": 4.3816,
+    "ci": [
+     3.4578950101659993,
+     5.288304557665638
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": -6.8311,
+    "z": 10.3222,
+    "plasebo_ort": 0.0476,
+    "plasebo_sd": 0.4199,
+    "plasebo_p95": 0.7788,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 15,
+      "pay": 0.0126,
+      "M1": 10.9514
+     },
+     "ASISTAN": {
+      "n": 53,
+      "pay": 0.0444,
+      "M1": 8.6363
+     },
+     "META": {
+      "n": 19,
+      "pay": 0.0159,
+      "M1": 5.2632
+     },
+     "DEVAM": {
+      "n": 1108,
+      "pay": 0.9272,
+      "M1": 11.0019
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 99,
+      "pay": 0.0828,
+      "M1": 17.3669
+     },
+     "ASISTAN": {
+      "n": 32,
+      "pay": 0.0268,
+      "M1": 7.9953
+     },
+     "META": {
+      "n": 27,
+      "pay": 0.0226,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 1037,
+      "pay": 0.8678,
+      "M1": 4.6863
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 300,
+     "M1_taban": 9.9001,
+     "M1_hizali": 4.2023,
+     "S1_taban": -1.6761,
+     "S1_hizali": 2.3624
+    },
+    "NASIL": {
+     "n": 300,
+     "M1_taban": 16.0827,
+     "M1_hizali": 7.9628,
+     "S1_taban": -3.1121,
+     "S1_hizali": 1.6362
+    },
+    "SINIFLAMA": {
+     "n": 295,
+     "M1_taban": 11.7208,
+     "M1_hizali": 1.9548,
+     "S1_taban": 3.0593,
+     "S1_hizali": 2.5831
+    },
+    "OZET": {
+     "n": 300,
+     "M1_taban": 4.5532,
+     "M1_hizali": 5.9304,
+     "S1_taban": 1.2443,
+     "S1_hizali": 9.9077
+    }
+   }
+  },
+  "Qwen2.5-3B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1196,
+   "taban_kesilen": 404,
+   "taban_kesilen_pay": 0.3367,
+   "M1": {
+    "taban": 9.0884,
+    "gozlenen": -4.5713,
+    "ci": [
+     -5.510905772566842,
+     -3.6125159846290513
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.503,
+    "z": -4.7059,
+    "plasebo_ort": -0.093,
+    "plasebo_sd": 0.9516,
+    "plasebo_p95": 1.8653,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": 0.7189,
+    "gozlenen": 1.7202,
+    "ci": [
+     0.9567808238437873,
+     2.515658281949619
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 2.3929,
+    "z": 3.8017,
+    "plasebo_ort": -0.0041,
+    "plasebo_sd": 0.4536,
+    "plasebo_p95": 0.8229,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 10,
+      "pay": 0.0084,
+      "M1": 18.6283
+     },
+     "ASISTAN": {
+      "n": 143,
+      "pay": 0.1196,
+      "M1": 10.1925
+     },
+     "META": {
+      "n": 30,
+      "pay": 0.0251,
+      "M1": 3.6615
+     },
+     "DEVAM": {
+      "n": 1013,
+      "pay": 0.847,
+      "M1": 8.9386
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 46,
+      "pay": 0.0385,
+      "M1": 12.0822
+     },
+     "ASISTAN": {
+      "n": 105,
+      "pay": 0.0878,
+      "M1": 4.8336
+     },
+     "META": {
+      "n": 41,
+      "pay": 0.0343,
+      "M1": 1.2826
+     },
+     "DEVAM": {
+      "n": 1004,
+      "pay": 0.8395,
+      "M1": 4.1601
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 300,
+     "M1_taban": 7.553,
+     "M1_hizali": 3.3438,
+     "S1_taban": -0.2888,
+     "S1_hizali": 1.4861
+    },
+    "NASIL": {
+     "n": 300,
+     "M1_taban": 13.1057,
+     "M1_hizali": 8.0662,
+     "S1_taban": -1.9496,
+     "S1_hizali": 1.1403
+    },
+    "SINIFLAMA": {
+     "n": 297,
+     "M1_taban": 9.3482,
+     "M1_hizali": 2.3466,
+     "S1_taban": 5.8061,
+     "S1_hizali": 3.5918
+    },
+    "OZET": {
+     "n": 299,
+     "M1_taban": 5.3541,
+     "M1_hizali": 2.4101,
+     "S1_taban": 1.6032,
+     "S1_hizali": 4.9117
+    }
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1189,
+   "taban_kesilen": 300,
+   "taban_kesilen_pay": 0.25,
+   "M1": {
+    "taban": 13.3923,
+    "gozlenen": -9.963,
+    "ci": [
+     -10.974031662429354,
+     -9.049358047406681
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.7439,
+    "z": -9.7646,
+    "plasebo_ort": 0.0442,
+    "plasebo_sd": 1.0249,
+    "plasebo_p95": 2.0286,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": 0.2217,
+    "gozlenen": 0.7998,
+    "ci": [
+     -0.1830120545423431,
+     1.6734320465770147
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "goreli": 3.6074,
+    "z": 1.1032,
+    "plasebo_ort": 0.0752,
+    "plasebo_sd": 0.6568,
+    "plasebo_p95": 1.4249,
+    "plasebo_ustu": false
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "null",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 4,
+      "pay": 0.0034,
+      "M1": 28.2258
+     },
+     "ASISTAN": {
+      "n": 58,
+      "pay": 0.0488,
+      "M1": 12.9776
+     },
+     "META": {
+      "n": 12,
+      "pay": 0.0101,
+      "M1": 3.8948
+     },
+     "DEVAM": {
+      "n": 1115,
+      "pay": 0.9378,
+      "M1": 13.4311
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 1,
+      "pay": 0.0008,
+      "M1": 39.4737
+     },
+     "ASISTAN": {
+      "n": 4,
+      "pay": 0.0034,
+      "M1": 28.777
+     },
+     "META": {
+      "n": 30,
+      "pay": 0.0252,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 1154,
+      "pay": 0.9706,
+      "M1": 3.3555
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 297,
+     "M1_taban": 11.2862,
+     "M1_hizali": 2.8758,
+     "S1_taban": -1.0055,
+     "S1_hizali": 0.7446
+    },
+    "NASIL": {
+     "n": 299,
+     "M1_taban": 16.933,
+     "M1_hizali": 6.5255,
+     "S1_taban": -3.1811,
+     "S1_hizali": 1.5001
+    },
+    "SINIFLAMA": {
+     "n": 295,
+     "M1_taban": 17.042,
+     "M1_hizali": 2.1581,
+     "S1_taban": 5.8478,
+     "S1_hizali": 1.0116
+    },
+    "OZET": {
+     "n": 298,
+     "M1_taban": 8.3528,
+     "M1_hizali": 0.6085,
+     "S1_taban": 0.7997,
+     "S1_hizali": 0.7437
+    }
+   }
+  },
+  "Qwen2.5-7B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1196,
+   "taban_kesilen": 458,
+   "taban_kesilen_pay": 0.3817,
+   "M1": {
+    "taban": 12.0993,
+    "gozlenen": -8.2815,
+    "ci": [
+     -9.249262335603415,
+     -7.407545170380273
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.6845,
+    "z": -7.6438,
+    "plasebo_ort": -0.0705,
+    "plasebo_sd": 1.0742,
+    "plasebo_p95": 2.0538,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": -0.8263,
+    "gozlenen": 2.2797,
+    "ci": [
+     1.7707219050588445,
+     2.816184035408254
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": -2.7589,
+    "z": 4.6236,
+    "plasebo_ort": -0.0206,
+    "plasebo_sd": 0.4975,
+    "plasebo_p95": 0.935,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 13,
+      "pay": 0.0109,
+      "M1": 16.415
+     },
+     "ASISTAN": {
+      "n": 68,
+      "pay": 0.0569,
+      "M1": 10.8312
+     },
+     "META": {
+      "n": 15,
+      "pay": 0.0125,
+      "M1": 3.2609
+     },
+     "DEVAM": {
+      "n": 1100,
+      "pay": 0.9197,
+      "M1": 12.1887
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 3,
+      "pay": 0.0025,
+      "M1": 11.6822
+     },
+     "ASISTAN": {
+      "n": 122,
+      "pay": 0.102,
+      "M1": 4.1348
+     },
+     "META": {
+      "n": 39,
+      "pay": 0.0326,
+      "M1": 0.466
+     },
+     "DEVAM": {
+      "n": 1032,
+      "pay": 0.8629,
+      "M1": 3.8154
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 299,
+     "M1_taban": 10.6774,
+     "M1_hizali": 2.8764,
+     "S1_taban": -1.9474,
+     "S1_hizali": 1.0842
+    },
+    "NASIL": {
+     "n": 300,
+     "M1_taban": 14.5042,
+     "M1_hizali": 7.3958,
+     "S1_taban": -3.5605,
+     "S1_hizali": 1.0988
+    },
+    "SINIFLAMA": {
+     "n": 298,
+     "M1_taban": 17.2735,
+     "M1_hizali": 2.3407,
+     "S1_taban": 2.2399,
+     "S1_hizali": 2.6067
+    },
+    "OZET": {
+     "n": 299,
+     "M1_taban": 6.3949,
+     "M1_hizali": 0.7696,
+     "S1_taban": 2.1212,
+     "S1_hizali": 1.8163
+    }
+   }
+  },
+  "OLMo-3-7B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1196,
+   "taban_kesilen": 509,
+   "taban_kesilen_pay": 0.4242,
+   "M1": {
+    "taban": 15.6353,
+    "gozlenen": -11.5557,
+    "ci": [
+     -12.832965520948168,
+     -10.389027431409728
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.7391,
+    "z": -11.4563,
+    "plasebo_ort": -0.0282,
+    "plasebo_sd": 1.0062,
+    "plasebo_p95": 1.97,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": 0.1957,
+    "gozlenen": 1.8921,
+    "ci": [
+     1.2350037339810778,
+     2.4827560221421585
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 9.6692,
+    "z": 3.1104,
+    "plasebo_ort": 0.0428,
+    "plasebo_sd": 0.5946,
+    "plasebo_p95": 1.1756,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 9,
+      "pay": 0.0075,
+      "M1": 13.6319
+     },
+     "ASISTAN": {
+      "n": 109,
+      "pay": 0.0911,
+      "M1": 9.1357
+     },
+     "META": {
+      "n": 5,
+      "pay": 0.0042,
+      "M1": 7.4627
+     },
+     "DEVAM": {
+      "n": 1073,
+      "pay": 0.8972,
+      "M1": 16.2526
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 5,
+      "pay": 0.0042,
+      "M1": 9.1743
+     },
+     "ASISTAN": {
+      "n": 296,
+      "pay": 0.2475,
+      "M1": 4.6289
+     },
+     "META": {
+      "n": 25,
+      "pay": 0.0209,
+      "M1": 8.1663
+     },
+     "DEVAM": {
+      "n": 870,
+      "pay": 0.7274,
+      "M1": 3.7305
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 300,
+     "M1_taban": 13.2002,
+     "M1_hizali": 3.9628,
+     "S1_taban": -1.3871,
+     "S1_hizali": 2.1871
+    },
+    "NASIL": {
+     "n": 300,
+     "M1_taban": 17.6234,
+     "M1_hizali": 5.3551,
+     "S1_taban": -2.366,
+     "S1_hizali": 1.1044
+    },
+    "SINIFLAMA": {
+     "n": 297,
+     "M1_taban": 21.1243,
+     "M1_hizali": 4.2042,
+     "S1_taban": 3.6313,
+     "S1_hizali": 2.8133
+    },
+    "OZET": {
+     "n": 299,
+     "M1_taban": 11.7172,
+     "M1_hizali": 2.1096,
+     "S1_taban": 2.5701,
+     "S1_hizali": 2.7358
+    }
+   }
+  },
+  "Llama-3.1-8B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1187,
+   "taban_kesilen": 406,
+   "taban_kesilen_pay": 0.3383,
+   "M1": {
+    "taban": 13.5497,
+    "gozlenen": -9.6854,
+    "ci": [
+     -10.762879514942417,
+     -8.65472577867371
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.7148,
+    "z": -9.2225,
+    "plasebo_ort": -0.027,
+    "plasebo_sd": 1.0473,
+    "plasebo_p95": 1.8128,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": 0.1649,
+    "gozlenen": 2.0917,
+    "ci": [
+     1.2502438420812136,
+     2.945708609723466
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 12.6881,
+    "z": 4.2292,
+    "plasebo_ort": -0.0061,
+    "plasebo_sd": 0.496,
+    "plasebo_p95": 0.9823,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 3,
+      "pay": 0.0025,
+      "M1": 37.8151
+     },
+     "ASISTAN": {
+      "n": 187,
+      "pay": 0.1575,
+      "M1": 9.5812
+     },
+     "META": {
+      "n": 2,
+      "pay": 0.0017,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 995,
+      "pay": 0.8382,
+      "M1": 14.244
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 2,
+      "pay": 0.0017,
+      "M1": 50.8475
+     },
+     "ASISTAN": {
+      "n": 80,
+      "pay": 0.0674,
+      "M1": 3.4611
+     },
+     "META": {
+      "n": 31,
+      "pay": 0.0261,
+      "M1": 1.3908
+     },
+     "DEVAM": {
+      "n": 1074,
+      "pay": 0.9048,
+      "M1": 3.894
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 297,
+     "M1_taban": 9.9075,
+     "M1_hizali": 2.7495,
+     "S1_taban": -2.0763,
+     "S1_hizali": 1.4856
+    },
+    "NASIL": {
+     "n": 298,
+     "M1_taban": 16.4639,
+     "M1_hizali": 7.2251,
+     "S1_taban": -3.398,
+     "S1_hizali": 1.1132
+    },
+    "SINIFLAMA": {
+     "n": 293,
+     "M1_taban": 19.3631,
+     "M1_hizali": 0.4236,
+     "S1_taban": 6.6509,
+     "S1_hizali": 3.9337
+    },
+    "OZET": {
+     "n": 299,
+     "M1_taban": 9.5522,
+     "M1_hizali": 2.2409,
+     "S1_taban": 1.8782,
+     "S1_hizali": 4.1442
+    }
+   }
+  },
+  "Tulu3-8B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1190,
+   "taban_kesilen": 406,
+   "taban_kesilen_pay": 0.3383,
+   "M1": {
+    "taban": 13.5603,
+    "gozlenen": -10.8546,
+    "ci": [
+     -11.868672733699487,
+     -9.889057849604798
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.8005,
+    "z": -11.117,
+    "plasebo_ort": 0.1047,
+    "plasebo_sd": 0.9858,
+    "plasebo_p95": 1.9474,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": 0.1517,
+    "gozlenen": 0.8496,
+    "ci": [
+     0.1604797465489442,
+     1.530947571783527
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 5.5998,
+    "z": 1.6459,
+    "plasebo_ort": -0.0037,
+    "plasebo_sd": 0.5185,
+    "plasebo_p95": 1.0304,
+    "plasebo_ustu": false
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 3,
+      "pay": 0.0025,
+      "M1": 37.8151
+     },
+     "ASISTAN": {
+      "n": 187,
+      "pay": 0.1571,
+      "M1": 9.5812
+     },
+     "META": {
+      "n": 2,
+      "pay": 0.0017,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 998,
+      "pay": 0.8387,
+      "M1": 14.2542
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 4,
+      "pay": 0.0034,
+      "M1": 4.1068
+     },
+     "ASISTAN": {
+      "n": 29,
+      "pay": 0.0244,
+      "M1": 8.8727
+     },
+     "META": {
+      "n": 11,
+      "pay": 0.0092,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 1146,
+      "pay": 0.963,
+      "M1": 2.5386
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 298,
+     "M1_taban": 10.0072,
+     "M1_hizali": 1.8508,
+     "S1_taban": -2.0914,
+     "S1_hizali": 0.9812
+    },
+    "NASIL": {
+     "n": 299,
+     "M1_taban": 16.4328,
+     "M1_hizali": 5.6233,
+     "S1_taban": -3.4089,
+     "S1_hizali": 0.9688
+    },
+    "SINIFLAMA": {
+     "n": 293,
+     "M1_taban": 19.3631,
+     "M1_hizali": 1.3191,
+     "S1_taban": 6.6509,
+     "S1_hizali": 2.0101
+    },
+    "OZET": {
+     "n": 300,
+     "M1_taban": 9.5378,
+     "M1_hizali": 0.3071,
+     "S1_taban": 1.8702,
+     "S1_hizali": 0.5834
+    }
+   }
+  },
+  "Gemma-3-4B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1190,
+   "taban_kesilen": 465,
+   "taban_kesilen_pay": 0.3875,
+   "M1": {
+    "taban": 10.2119,
+    "gozlenen": -3.9716,
+    "ci": [
+     -5.1728413903031045,
+     -2.700071687921428
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.3889,
+    "z": -3.7173,
+    "plasebo_ort": 0.0026,
+    "plasebo_sd": 1.0691,
+    "plasebo_p95": 2.0934,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": 1.6766,
+    "gozlenen": 1.1849,
+    "ci": [
+     0.4039662037318818,
+     1.8817655430071938
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 0.7068,
+    "z": 2.1737,
+    "plasebo_ort": -0.0474,
+    "plasebo_sd": 0.567,
+    "plasebo_p95": 1.2412,
+    "plasebo_ustu": false
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 15,
+      "pay": 0.0126,
+      "M1": 13.1332
+     },
+     "ASISTAN": {
+      "n": 57,
+      "pay": 0.0479,
+      "M1": 10.4274
+     },
+     "META": {
+      "n": 27,
+      "pay": 0.0227,
+      "M1": 2.642
+     },
+     "DEVAM": {
+      "n": 1091,
+      "pay": 0.9168,
+      "M1": 10.3049
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 628,
+      "pay": 0.5277,
+      "M1": 7.3593
+     },
+     "META": {
+      "n": 4,
+      "pay": 0.0034,
+      "M1": 4.7022
+     },
+     "DEVAM": {
+      "n": 558,
+      "pay": 0.4689,
+      "M1": 4.4965
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 300,
+     "M1_taban": 8.5097,
+     "M1_hizali": 6.3564,
+     "S1_taban": 0.9093,
+     "S1_hizali": 2.2526
+    },
+    "NASIL": {
+     "n": 299,
+     "M1_taban": 15.2693,
+     "M1_hizali": 7.443,
+     "S1_taban": -0.7953,
+     "S1_hizali": 1.6247
+    },
+    "SINIFLAMA": {
+     "n": 294,
+     "M1_taban": 14.3413,
+     "M1_hizali": 6.3702,
+     "S1_taban": 6.9546,
+     "S1_hizali": 5.08
+    },
+    "OZET": {
+     "n": 297,
+     "M1_taban": 3.0621,
+     "M1_hizali": 4.3638,
+     "S1_taban": 2.2456,
+     "S1_hizali": 3.7107
+    }
+   }
+  },
+  "OLMo2-13B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1197,
+   "taban_kesilen": 343,
+   "taban_kesilen_pay": 0.2858,
+   "M1": {
+    "taban": 15.7145,
+    "gozlenen": -13.0099,
+    "ci": [
+     -14.021131076990097,
+     -11.97970137296735
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.8279,
+    "z": -12.4803,
+    "plasebo_ort": -0.0983,
+    "plasebo_sd": 1.0346,
+    "plasebo_p95": 1.9003,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": -0.5061,
+    "gozlenen": 1.5533,
+    "ci": [
+     0.9155748508738553,
+     2.1564482383941277
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": -3.069,
+    "z": 3.1587,
+    "plasebo_ort": -0.0121,
+    "plasebo_sd": 0.4956,
+    "plasebo_p95": 0.9081,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 2,
+      "pay": 0.0017,
+      "M1": 13.5135
+     },
+     "ASISTAN": {
+      "n": 36,
+      "pay": 0.0301,
+      "M1": 7.7382
+     },
+     "META": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "DEVAM": {
+      "n": 1159,
+      "pay": 0.9683,
+      "M1": 15.9477
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 9,
+      "pay": 0.0075,
+      "M1": 3.3417
+     },
+     "ASISTAN": {
+      "n": 15,
+      "pay": 0.0125,
+      "M1": 8.8959
+     },
+     "META": {
+      "n": 24,
+      "pay": 0.0201,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 1149,
+      "pay": 0.9599,
+      "M1": 2.6599
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 300,
+     "M1_taban": 13.1737,
+     "M1_hizali": 1.6213,
+     "S1_taban": -1.6099,
+     "S1_hizali": 1.0078
+    },
+    "NASIL": {
+     "n": 298,
+     "M1_taban": 17.7428,
+     "M1_hizali": 6.2634,
+     "S1_taban": -3.1465,
+     "S1_hizali": 0.8705
+    },
+    "SINIFLAMA": {
+     "n": 299,
+     "M1_taban": 20.9059,
+     "M1_hizali": 1.1308,
+     "S1_taban": 3.7288,
+     "S1_hizali": 1.1651
+    },
+    "OZET": {
+     "n": 300,
+     "M1_taban": 11.6934,
+     "M1_hizali": 0.5632,
+     "S1_taban": 0.3204,
+     "S1_hizali": 1.245
+    }
+   }
+  },
+  "Gemma-3-12B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1195,
+   "taban_kesilen": 439,
+   "taban_kesilen_pay": 0.3658,
+   "M1": {
+    "taban": 10.1413,
+    "gozlenen": -5.5058,
+    "ci": [
+     -6.896751423418968,
+     -4.200151775957142
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.5429,
+    "z": -5.0799,
+    "plasebo_ort": -0.0156,
+    "plasebo_sd": 1.0808,
+    "plasebo_p95": 1.8578,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": 1.5362,
+    "gozlenen": 4.021,
+    "ci": [
+     3.089314509682442,
+     4.9812759764677645
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": 2.6175,
+    "z": 7.0891,
+    "plasebo_ort": -0.0516,
+    "plasebo_sd": 0.5745,
+    "plasebo_p95": 1.1333,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 12,
+      "pay": 0.01,
+      "M1": 17.9426
+     },
+     "ASISTAN": {
+      "n": 155,
+      "pay": 0.1297,
+      "M1": 10.5983
+     },
+     "META": {
+      "n": 16,
+      "pay": 0.0134,
+      "M1": 5.3846
+     },
+     "DEVAM": {
+      "n": 1012,
+      "pay": 0.8469,
+      "M1": 10.0697
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 766,
+      "pay": 0.641,
+      "M1": 5.0793
+     },
+     "META": {
+      "n": 14,
+      "pay": 0.0117,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 415,
+      "pay": 0.3473,
+      "M1": 3.4511
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 298,
+     "M1_taban": 8.8686,
+     "M1_hizali": 5.6164,
+     "S1_taban": 1.1115,
+     "S1_hizali": 5.6164
+    },
+    "NASIL": {
+     "n": 299,
+     "M1_taban": 14.2458,
+     "M1_hizali": 5.2308,
+     "S1_taban": -1.3728,
+     "S1_hizali": 7.1756
+    },
+    "SINIFLAMA": {
+     "n": 298,
+     "M1_taban": 11.7127,
+     "M1_hizali": 3.4421,
+     "S1_taban": 5.5057,
+     "S1_hizali": 4.4545
+    },
+    "OZET": {
+     "n": 300,
+     "M1_taban": 5.1111,
+     "M1_hizali": 3.4127,
+     "S1_taban": 2.541,
+     "S1_hizali": 4.089
+    }
+   }
+  },
+  "Qwen2.5-14B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1199,
+   "taban_kesilen": 457,
+   "taban_kesilen_pay": 0.3808,
+   "M1": {
+    "taban": 12.9281,
+    "gozlenen": -8.5086,
+    "ci": [
+     -9.512317005262414,
+     -7.579332033899226
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.6582,
+    "z": -8.6757,
+    "plasebo_ort": -0.0241,
+    "plasebo_sd": 0.978,
+    "plasebo_p95": 1.9496,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": -0.719,
+    "gozlenen": 2.0525,
+    "ci": [
+     1.4116574689967145,
+     2.715746754674735
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": -2.8548,
+    "z": 3.8014,
+    "plasebo_ort": 0.0007,
+    "plasebo_sd": 0.5397,
+    "plasebo_p95": 1.0576,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 17,
+      "pay": 0.0142,
+      "M1": 16.835
+     },
+     "ASISTAN": {
+      "n": 103,
+      "pay": 0.0859,
+      "M1": 7.4706
+     },
+     "META": {
+      "n": 13,
+      "pay": 0.0108,
+      "M1": 5.102
+     },
+     "DEVAM": {
+      "n": 1066,
+      "pay": 0.8891,
+      "M1": 13.4675
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 48,
+      "pay": 0.04,
+      "M1": 4.1179
+     },
+     "META": {
+      "n": 46,
+      "pay": 0.0384,
+      "M1": 7.483
+     },
+     "DEVAM": {
+      "n": 1105,
+      "pay": 0.9216,
+      "M1": 4.3633
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 300,
+     "M1_taban": 10.329,
+     "M1_hizali": 3.0212,
+     "S1_taban": -2.5429,
+     "S1_hizali": 1.0663
+    },
+    "NASIL": {
+     "n": 300,
+     "M1_taban": 14.1773,
+     "M1_hizali": 7.8148,
+     "S1_taban": -3.1067,
+     "S1_hizali": 0.9927
+    },
+    "SINIFLAMA": {
+     "n": 299,
+     "M1_taban": 18.2224,
+     "M1_hizali": 2.5578,
+     "S1_taban": 1.8081,
+     "S1_hizali": 2.6644
+    },
+    "OZET": {
+     "n": 300,
+     "M1_taban": 10.0741,
+     "M1_hizali": 2.4608,
+     "S1_taban": 3.0128,
+     "S1_hizali": 1.4328
+    }
+   }
+  },
+  "Gemma-3-27B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1198,
+   "taban_kesilen": 515,
+   "taban_kesilen_pay": 0.4292,
+   "M1": {
+    "taban": 11.7001,
+    "gozlenen": -7.8993,
+    "ci": [
+     -9.281718424451787,
+     -6.503023486877325
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.6751,
+    "z": -7.5739,
+    "plasebo_ort": -0.0062,
+    "plasebo_sd": 1.0421,
+    "plasebo_p95": 2.0524,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": -0.7129,
+    "gozlenen": 5.0585,
+    "ci": [
+     4.163678001432027,
+     5.958904537299429
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": -7.0956,
+    "z": 10.5464,
+    "plasebo_ort": -0.0553,
+    "plasebo_sd": 0.4849,
+    "plasebo_p95": 0.9487,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 7,
+      "pay": 0.0058,
+      "M1": 27.4914
+     },
+     "ASISTAN": {
+      "n": 153,
+      "pay": 0.1277,
+      "M1": 8.2108
+     },
+     "META": {
+      "n": 12,
+      "pay": 0.01,
+      "M1": 6.7476
+     },
+     "DEVAM": {
+      "n": 1026,
+      "pay": 0.8564,
+      "M1": 12.2031
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 365,
+      "pay": 0.3047,
+      "M1": 6.0694
+     },
+     "META": {
+      "n": 31,
+      "pay": 0.0259,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 802,
+      "pay": 0.6694,
+      "M1": 2.8237
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 299,
+     "M1_taban": 10.1823,
+     "M1_hizali": 4.473,
+     "S1_taban": -1.1624,
+     "S1_hizali": 5.1959
+    },
+    "NASIL": {
+     "n": 300,
+     "M1_taban": 15.1977,
+     "M1_hizali": 5.7556,
+     "S1_taban": -3.2278,
+     "S1_hizali": 6.0679
+    },
+    "SINIFLAMA": {
+     "n": 299,
+     "M1_taban": 14.3334,
+     "M1_hizali": 1.7641,
+     "S1_taban": 3.2134,
+     "S1_hizali": 1.8659
+    },
+    "OZET": {
+     "n": 300,
+     "M1_taban": 6.8874,
+     "M1_hizali": 2.1025,
+     "S1_taban": 0.5032,
+     "S1_hizali": 3.1094
+    }
+   }
+  },
+  "OLMo2-32B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1195,
+   "taban_kesilen": 331,
+   "taban_kesilen_pay": 0.2758,
+   "M1": {
+    "taban": 13.2727,
+    "gozlenen": -10.3736,
+    "ci": [
+     -11.304824146553507,
+     -9.488507832134609
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.7816,
+    "z": -11.1102,
+    "plasebo_ort": -0.0782,
+    "plasebo_sd": 0.9267,
+    "plasebo_p95": 1.6027,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": -2.4121,
+    "gozlenen": 3.7631,
+    "ci": [
+     3.2116761591124146,
+     4.306675216099451
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": -1.5601,
+    "z": 9.7905,
+    "plasebo_ort": 0.0403,
+    "plasebo_sd": 0.3802,
+    "plasebo_p95": 0.7109,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 154,
+      "pay": 0.1289,
+      "M1": 8.2708
+     },
+     "META": {
+      "n": 3,
+      "pay": 0.0025,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 1038,
+      "pay": 0.8686,
+      "M1": 14.0423
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 9,
+      "pay": 0.0075,
+      "M1": 3.9062
+     },
+     "ASISTAN": {
+      "n": 12,
+      "pay": 0.01,
+      "M1": 11.3935
+     },
+     "META": {
+      "n": 24,
+      "pay": 0.0201,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 1150,
+      "pay": 0.9623,
+      "M1": 2.8601
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 299,
+     "M1_taban": 10.5121,
+     "M1_hizali": 1.7966,
+     "S1_taban": -2.7605,
+     "S1_hizali": 1.1433
+    },
+    "NASIL": {
+     "n": 299,
+     "M1_taban": 15.5997,
+     "M1_hizali": 6.2422,
+     "S1_taban": -4.3107,
+     "S1_hizali": 0.6265
+    },
+    "SINIFLAMA": {
+     "n": 297,
+     "M1_taban": 17.5795,
+     "M1_hizali": 1.1454,
+     "S1_taban": 0.1251,
+     "S1_hizali": 2.7948
+    },
+    "OZET": {
+     "n": 300,
+     "M1_taban": 9.9603,
+     "M1_hizali": 0.9471,
+     "S1_taban": -1.7689,
+     "S1_hizali": 1.6498
+    }
+   }
+  },
+  "Qwen2.5-32B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1197,
+   "taban_kesilen": 426,
+   "taban_kesilen_pay": 0.355,
+   "M1": {
+    "taban": 12.5762,
+    "gozlenen": -8.6669,
+    "ci": [
+     -9.583139594102494,
+     -7.807660561742116
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.6891,
+    "z": -9.1238,
+    "plasebo_ort": 0.0181,
+    "plasebo_sd": 0.9519,
+    "plasebo_p95": 1.7981,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": -2.3825,
+    "gozlenen": 3.5933,
+    "ci": [
+     3.060587398759043,
+     4.092566535712499
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": -1.5082,
+    "z": 8.0977,
+    "plasebo_ort": 0.0306,
+    "plasebo_sd": 0.44,
+    "plasebo_p95": 0.8697,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 9,
+      "pay": 0.0075,
+      "M1": 20.8044
+     },
+     "ASISTAN": {
+      "n": 69,
+      "pay": 0.0576,
+      "M1": 8.7428
+     },
+     "META": {
+      "n": 21,
+      "pay": 0.0175,
+      "M1": 6.0698
+     },
+     "DEVAM": {
+      "n": 1098,
+      "pay": 0.9173,
+      "M1": 12.8378
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 1,
+      "pay": 0.0008,
+      "M1": 0.0
+     },
+     "ASISTAN": {
+      "n": 35,
+      "pay": 0.0292,
+      "M1": 3.0111
+     },
+     "META": {
+      "n": 33,
+      "pay": 0.0276,
+      "M1": 0.5094
+     },
+     "DEVAM": {
+      "n": 1128,
+      "pay": 0.9424,
+      "M1": 3.9827
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 300,
+     "M1_taban": 10.0693,
+     "M1_hizali": 2.9293,
+     "S1_taban": -3.4536,
+     "S1_hizali": 0.9986
+    },
+    "NASIL": {
+     "n": 300,
+     "M1_taban": 15.5649,
+     "M1_hizali": 7.1348,
+     "S1_taban": -4.7266,
+     "S1_hizali": 0.868
+    },
+    "SINIFLAMA": {
+     "n": 297,
+     "M1_taban": 16.4098,
+     "M1_hizali": 1.8789,
+     "S1_taban": 0.0322,
+     "S1_hizali": 2.0766
+    },
+    "OZET": {
+     "n": 300,
+     "M1_taban": 8.1778,
+     "M1_hizali": 1.8123,
+     "S1_taban": 0.0615,
+     "S1_hizali": 1.4686
+    }
+   }
+  },
+  "Qwen2.5-72B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1199,
+   "taban_kesilen": 442,
+   "taban_kesilen_pay": 0.3683,
+   "M1": {
+    "taban": 13.1874,
+    "gozlenen": -9.2202,
+    "ci": [
+     -10.216105614154339,
+     -8.196313608282946
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.6992,
+    "z": -9.0143,
+    "plasebo_ort": -0.065,
+    "plasebo_sd": 1.0156,
+    "plasebo_p95": 2.0086,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": -0.6391,
+    "gozlenen": 1.4823,
+    "ci": [
+     0.8195054289047301,
+     2.1554696029053617
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": -2.3194,
+    "z": 2.8315,
+    "plasebo_ort": 0.0192,
+    "plasebo_sd": 0.5167,
+    "plasebo_p95": 1.0828,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 14,
+      "pay": 0.0117,
+      "M1": 24.3493
+     },
+     "ASISTAN": {
+      "n": 97,
+      "pay": 0.0809,
+      "M1": 7.0882
+     },
+     "META": {
+      "n": 13,
+      "pay": 0.0108,
+      "M1": 10.4167
+     },
+     "DEVAM": {
+      "n": 1075,
+      "pay": 0.8966,
+      "M1": 13.6603
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 105,
+      "pay": 0.0876,
+      "M1": 5.3658
+     },
+     "META": {
+      "n": 38,
+      "pay": 0.0317,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 1056,
+      "pay": 0.8807,
+      "M1": 3.902
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 300,
+     "M1_taban": 10.0247,
+     "M1_hizali": 2.5382,
+     "S1_taban": -2.6451,
+     "S1_hizali": 0.4814
+    },
+    "NASIL": {
+     "n": 300,
+     "M1_taban": 14.76,
+     "M1_hizali": 7.9683,
+     "S1_taban": -3.2192,
+     "S1_hizali": 0.7205
+    },
+    "SINIFLAMA": {
+     "n": 299,
+     "M1_taban": 19.266,
+     "M1_hizali": 2.9048,
+     "S1_taban": 1.6802,
+     "S1_hizali": 2.9048
+    },
+    "OZET": {
+     "n": 300,
+     "M1_taban": 10.3712,
+     "M1_hizali": 0.777,
+     "S1_taban": 3.813,
+     "S1_hizali": 0.2797
+    }
+   }
+  },
+  "Llama-3.1-70B": {
+   "hal": "OKUNDU",
+   "n_cift": 1200,
+   "n_tutulan": 1194,
+   "taban_kesilen": 509,
+   "taban_kesilen_pay": 0.4242,
+   "M1": {
+    "taban": 12.6691,
+    "gozlenen": -8.8938,
+    "ci": [
+     -9.985140978273124,
+     -7.716061133146153
+    ],
+    "ayrik": true,
+    "yon": "asagi",
+    "goreli": -0.702,
+    "z": -9.5814,
+    "plasebo_ort": 0.0716,
+    "plasebo_sd": 0.9357,
+    "plasebo_p95": 1.878,
+    "plasebo_ustu": true
+   },
+   "SAHIS1": {
+    "taban": -1.1269,
+    "gozlenen": 3.0321,
+    "ci": [
+     2.3129816442642745,
+     3.752127382780035
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "goreli": -2.6907,
+    "z": 6.6602,
+    "plasebo_ort": 0.0405,
+    "plasebo_sd": 0.4492,
+    "plasebo_p95": 0.8131,
+    "plasebo_ustu": true
+   },
+   "M1_sinif3": "asagi",
+   "S1_sinif3": "yukari",
+   "kip": {
+    "taban": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 61,
+      "pay": 0.0511,
+      "M1": 7.7882
+     },
+     "META": {
+      "n": 4,
+      "pay": 0.0034,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 1129,
+      "pay": 0.9456,
+      "M1": 12.9612
+     }
+    },
+    "hizali": {
+     "RET": {
+      "n": 2,
+      "pay": 0.0017,
+      "M1": 0.0
+     },
+     "ASISTAN": {
+      "n": 101,
+      "pay": 0.0846,
+      "M1": 3.6475
+     },
+     "META": {
+      "n": 20,
+      "pay": 0.0168,
+      "M1": 0.0
+     },
+     "DEVAM": {
+      "n": 1071,
+      "pay": 0.897,
+      "M1": 3.8307
+     }
+    }
+   },
+   "sinif": {
+    "ACIKLAMA": {
+     "n": 299,
+     "M1_taban": 10.265,
+     "M1_hizali": 3.3922,
+     "S1_taban": -2.309,
+     "S1_hizali": 0.9031
+    },
+    "NASIL": {
+     "n": 299,
+     "M1_taban": 13.4142,
+     "M1_hizali": 6.917,
+     "S1_taban": -3.4859,
+     "S1_hizali": 0.8334
+    },
+    "SINIFLAMA": {
+     "n": 296,
+     "M1_taban": 20.1443,
+     "M1_hizali": 0.7804,
+     "S1_taban": 5.3718,
+     "S1_hizali": 5.6426
+    },
+    "OZET": {
+     "n": 300,
+     "M1_taban": 9.1267,
+     "M1_hizali": 1.2228,
+     "S1_taban": -1.435,
+     "S1_hizali": 2.9652
+    }
+   }
+  }
+ },
+ "bant": {
+  "taban": {
+   "min": 9.0884,
+   "min_aile": "Qwen2.5-3B",
+   "max": 15.7145,
+   "max_aile": "OLMo2-13B",
+   "oran": 1.729,
+   "n": 16
+  },
+  "hizali": {
+   "min": 2.7046,
+   "min_aile": "OLMo2-13B",
+   "max": 6.2403,
+   "max_aile": "Gemma-3-4B",
+   "oran": 2.307,
+   "n": 16
+  },
+  "kip_ici": {
+   "taban": {
+    "RET": {
+     "n": 0,
+     "hal": "BANT-KURULAMADI"
+    },
+    "ASISTAN": {
+     "min": 7.0882,
+     "min_aile": "Qwen2.5-72B",
+     "max": 10.5983,
+     "max_aile": "Gemma-3-12B",
+     "oran": 1.495,
+     "n": 9
+    },
+    "META": {
+     "n": 0,
+     "hal": "BANT-KURULAMADI"
+    },
+    "DEVAM": {
+     "min": 8.9386,
+     "min_aile": "Qwen2.5-3B",
+     "max": 16.2526,
+     "max_aile": "OLMo-3-7B",
+     "oran": 1.818,
+     "n": 16
+    }
+   },
+   "hizali": {
+    "RET": {
+     "n": 1,
+     "hal": "BANT-KURULAMADI"
+    },
+    "ASISTAN": {
+     "min": 3.4611,
+     "min_aile": "Llama-3.1-8B",
+     "max": 7.3593,
+     "max_aile": "Gemma-3-4B",
+     "oran": 2.126,
+     "n": 9
+    },
+    "META": {
+     "n": 0,
+     "hal": "BANT-KURULAMADI"
+    },
+    "DEVAM": {
+     "min": 2.5386,
+     "min_aile": "Tulu3-8B",
+     "max": 4.6863,
+     "max_aile": "Qwen2.5-1.5B",
+     "oran": 1.846,
+     "n": 16
+    }
+   }
+  },
+  "sinif_hizali": {
+   "ACIKLAMA": {
+    "min": 1.6213,
+    "min_aile": "OLMo2-13B",
+    "max": 6.3564,
+    "max_aile": "Gemma-3-4B",
+    "oran": 3.921,
+    "n": 16
+   },
+   "NASIL": {
+    "min": 5.2308,
+    "min_aile": "Gemma-3-12B",
+    "max": 8.0662,
+    "max_aile": "Qwen2.5-3B",
+    "oran": 1.542,
+    "n": 16
+   },
+   "SINIFLAMA": {
+    "min": 0.4236,
+    "min_aile": "Llama-3.1-8B",
+    "max": 6.3702,
+    "max_aile": "Gemma-3-4B",
+    "oran": 15.038,
+    "n": 16
+   },
+   "OZET": {
+    "min": 0.3071,
+    "min_aile": "Tulu3-8B",
+    "max": 5.9304,
+    "max_aile": "Qwen2.5-1.5B",
+    "oran": 19.311,
+    "n": 16
+   }
+  }
+ },
+ "sayim": {
+  "M1": {
+   "asagi": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [],
+   "null": []
+  },
+  "SAHIS1": {
+   "asagi": [],
+   "yukari": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "null": [
+    "Mistral-7B-v0.3"
+   ]
+  }
+ },
+ "bant_esik_satir": 80,
+ "damga_utc": "2026-09-17T20:30:30Z",
+ "sure_dk": 7.9
+}

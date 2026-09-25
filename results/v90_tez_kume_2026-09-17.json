@@ -1,0 +1,552 @@
+{
+ "sinif": "BETIM · card · bar yok",
+ "rule": "preregistration/rule_v90_readings_2026-09-17.md @ fc97c65d",
+ "soru": "(i) tez-kümeli CI n=17 · Tablo 1 dört-seed nesnesi",
+ "kaynak": {
+  "card": "results/four_seed_level_2026-09-16.json"
+ },
+ "alet": {
+  "hal": "ESDEGER",
+  "red_kapi": [],
+  "red_esleme": 0,
+  "kapi": ""
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "dM1": -2.3274403250258153,
+   "ci_istem": [
+    -3.8190620952343486,
+    -0.9296735069487608
+   ],
+   "ci_tez": [
+    -4.416289687757325,
+    -0.6200643764551805
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.3138507318444925,
+   "d1st": -16.638895015546936,
+   "ci1_istem": [
+    -17.74679069636367,
+    -15.319778636239793
+   ],
+   "ci1_tez": [
+    -18.067919181337377,
+    -14.88626132348705
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.3109361548405039,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Gemma-3-27B": {
+   "dM1": -2.593146481752063,
+   "ci_istem": [
+    -4.33298521273978,
+    -1.00283336910352
+   ],
+   "ci_tez": [
+    -5.142518127419218,
+    -0.5563219562405299
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.3771732901437095,
+   "d1st": -16.288886537752767,
+   "ci1_istem": [
+    -17.37788106280293,
+    -15.083503560513492
+   ],
+   "ci1_tez": [
+    -17.59477668829918,
+    -14.81966217565568
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.2095282968362266,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Gemma-3-4B": {
+   "dM1": -3.0214250150794744,
+   "ci_istem": [
+    -4.474422867893128,
+    -1.7738507077264831
+   ],
+   "ci_tez": [
+    -4.931850765530938,
+    -1.257222802179117
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.3606849754109405,
+   "d1st": -10.097847982713972,
+   "ci1_istem": [
+    -10.885751679482269,
+    -9.275454455452762
+   ],
+   "ci1_tez": [
+    -11.038467243902602,
+    -9.193753838596177
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.1455732381444028,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Llama-3.1-70B": {
+   "dM1": -3.8594940468905516,
+   "ci_istem": [
+    -4.343492179367494,
+    -3.379577931483271
+   ],
+   "ci_tez": [
+    -4.452181835454306,
+    -3.2354856449370955
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.2622452600818386,
+   "d1st": -8.835303909426571,
+   "ci1_istem": [
+    -9.901160000107655,
+    -7.6733434105616105
+   ],
+   "ci1_tez": [
+    -10.276628313293903,
+    -7.172964937154605
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.3931413343015469,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Llama-3.1-8B": {
+   "dM1": -4.685319225426129,
+   "ci_istem": [
+    -5.827104168799619,
+    -3.6207148765319697
+   ],
+   "ci_tez": [
+    -6.32039195101849,
+    -3.339862055089215
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.3508631076005588,
+   "d1st": -6.364460174041632,
+   "ci1_istem": [
+    -7.247024154098542,
+    -5.449880835517252
+   ],
+   "ci1_tez": [
+    -7.513793696879598,
+    -5.155832023426271
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.31206100764115,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Mistral-7B-v0.3": {
+   "dM1": -9.514440104066146,
+   "ci_istem": [
+    -10.997112842186723,
+    -8.218850529582387
+   ],
+   "ci_tez": [
+    -11.849951603871522,
+    -7.776277178642806
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.466267028403831,
+   "d1st": -15.157120707843948,
+   "ci1_istem": [
+    -16.07688296423626,
+    -14.130046709893973
+   ],
+   "ci1_tez": [
+    -16.342550213312123,
+    -13.846127750915755
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.282297089356266,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "OLMo-3-7B": {
+   "dM1": -4.540307855498934,
+   "ci_istem": [
+    -5.405260630999183,
+    -3.7016649607630385
+   ],
+   "ci_tez": [
+    -5.617032534550255,
+    -3.4512866889314924
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.2712792615389525,
+   "d1st": -8.456989375254064,
+   "ci1_istem": [
+    -9.454830277146373,
+    -7.414999014930681
+   ],
+   "ci1_tez": [
+    -9.719495164301593,
+    -7.2044886238474355
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.2329483261876883,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "OLMo2-13B": {
+   "dM1": -6.758588699057646,
+   "ci_istem": [
+    -7.800524933824994,
+    -5.855867764056928
+   ],
+   "ci_tez": [
+    -8.346987083670815,
+    -5.618226021389251
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.403209318692927,
+   "d1st": -12.68751363532322,
+   "ci1_istem": [
+    -13.410767059822755,
+    -11.905725435814709
+   ],
+   "ci1_tez": [
+    -13.561215046500955,
+    -11.841307083014904
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.142764383423363,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "OLMo2-32B": {
+   "dM1": -5.1742977116514535,
+   "ci_istem": [
+    -5.886308976691494,
+    -4.565583697272064
+   ],
+   "ci_tez": [
+    -6.227752875361444,
+    -4.356608915759716
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.4167548609535616,
+   "d1st": -10.138801468005877,
+   "ci1_istem": [
+    -10.683043604256564,
+    -9.55632452992835
+   ],
+   "ci1_tez": [
+    -10.817726249739575,
+    -9.404219876635036
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.254533099963109,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Qwen2.5-1.5B": {
+   "dM1": -1.7692349263514675,
+   "ci_istem": [
+    -3.0651789803907183,
+    -0.6636160465020298
+   ],
+   "ci_tez": [
+    -3.821204498161374,
+    -0.3424240790973467
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.4485485139592298,
+   "d1st": -5.544531899280228,
+   "ci1_istem": [
+    -6.472703086792546,
+    -4.735513485217312
+   ],
+   "ci1_tez": [
+    -6.779796619897474,
+    -4.46590877402482
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.3319719642429857,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Qwen2.5-14B": {
+   "dM1": -3.4422500085281733,
+   "ci_istem": [
+    -5.024300201099999,
+    -2.0502050048386984
+   ],
+   "ci_tez": [
+    -5.8423726563119756,
+    -1.7638388515532712
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.3713528100532155,
+   "d1st": -13.78759553149539,
+   "ci1_istem": [
+    -14.855824064747244,
+    -12.845216129445276
+   ],
+   "ci1_tez": [
+    -15.183782134224087,
+    -12.549193932111447
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.3103440784525495,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Qwen2.5-32B": {
+   "dM1": -2.767068449011882,
+   "ci_istem": [
+    -4.372682981325102,
+    -1.3823341586880247
+   ],
+   "ci_tez": [
+    -5.278447092592832,
+    -0.9668420093173786
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.4418401795256812,
+   "d1st": -15.713886842484326,
+   "ci1_istem": [
+    -16.828595297619586,
+    -14.689191464453318
+   ],
+   "ci1_tez": [
+    -17.090477698968545,
+    -14.35758709616522
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.2774075471103135,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Qwen2.5-3B": {
+   "dM1": -3.059724326307646,
+   "ci_istem": [
+    -4.757709306184899,
+    -1.4743025428110936
+   ],
+   "ci_tez": [
+    -5.6427142018616365,
+    -1.1114051461674166
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.380063264241484,
+   "d1st": -8.557811850202988,
+   "ci1_istem": [
+    -9.486570965570452,
+    -7.687484842039727
+   ],
+   "ci1_tez": [
+    -9.88253923507822,
+    -7.48321931087589
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.3336326109245058,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Qwen2.5-72B": {
+   "dM1": -4.143048534943247,
+   "ci_istem": [
+    -6.708153646335485,
+    -1.9608523480662088
+   ],
+   "ci_tez": [
+    -8.123736566588834,
+    -1.5058768339126898
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.3940256404388778,
+   "d1st": -14.281237191685223,
+   "ci1_istem": [
+    -15.450260033851867,
+    -13.173982091088353
+   ],
+   "ci1_tez": [
+    -15.78318538565216,
+    -12.749247472972872
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.3328503763454906,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Qwen2.5-7B": {
+   "dM1": -3.6243265793535375,
+   "ci_istem": [
+    -5.0269181389604904,
+    -2.3098793314174757
+   ],
+   "ci_tez": [
+    -5.772827844131498,
+    -1.910824094485566
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.4214017624350002,
+   "d1st": -9.641510571066547,
+   "ci1_istem": [
+    -10.649071752935596,
+    -8.638715739576599
+   ],
+   "ci1_tez": [
+    -10.91882645050428,
+    -8.458504794193384
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.2238238600336637,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  },
+  "Tulu3-8B": {
+   "dM1": -9.037112981721922,
+   "ci_istem": [
+    -10.362322730271472,
+    -7.734721405767512
+   ],
+   "ci_tez": [
+    -11.035082262937754,
+    -7.339730948594913
+   ],
+   "sinif_istem": "asagi",
+   "sinif_tez": "asagi",
+   "genislik_orani": 1.4063592067340929,
+   "d1st": -17.28084635038028,
+   "ci1_istem": [
+    -18.64432168041528,
+    -15.939425093928875
+   ],
+   "ci1_tez": [
+    -18.881687813692544,
+    -15.672323008599319
+   ],
+   "sinif1_istem": "asagi",
+   "sinif1_tez": "asagi",
+   "genislik_orani_1st": 1.1865018504319644,
+   "n_kume_istem": 34,
+   "n_kume_tez": 17,
+   "n_satir": 26112,
+   "card_plasebo_ustu": true,
+   "kapi_sapma": 0.0,
+   "kapi_sira_ozdes": true
+  }
+ },
+ "sayim": {
+  "dM1_tez": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  },
+  "dM1_istem": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  },
+  "d1st_tez": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  },
+  "d1st_istem": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  }
+ },
+ "SERH": "",
+ "damga_utc": "2026-09-17T14:25:30Z"
+}

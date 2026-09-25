@@ -1,0 +1,24 @@
+\paragraph*{Prose lines alone, for both persons (\S\ref{sec:deperson}).}
+\vekalet{A rule committed before each count drops every line that opens as a heading, a bulleted or numbered item, or consists of bold text alone, and reads what remains with the canonical counters; the first person is counted directly, with a capitalised \emph{US} not counted. Bold marks a prompt-clustered $95\%$ interval that excludes zero. The drop is line-level, so a sentence that runs from a prose line into a list line is not seen by this rule. The sentence column classifies whole sentences instead, each generation parsed once: a sentence touching any list line is dropped whole. By sentence the fall holds in $13$ of $16$ models; it holds by neither unit in Gemma-3-12B, Gemma-3-27B and Qwen2.5-1.5B.}
+\begin{center}\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}\toprule
+model & lines dropped, base & aligned & $\Delta M_1$, all lines & $\Delta M_1$, prose lines & prose sentences & $\Delta$1st, prose \\ \midrule
+Gemma-3-12B & 0.128 & 0.445 & $-$2.80 & $+$0.69 & $+$0.36 & \textbf{$-$14.02} \\
+Gemma-3-27B & 0.137 & 0.455 & $-$3.07 & $-$0.35 & $-$0.59 & \textbf{$-$12.53} \\
+Gemma-3-4B & 0.160 & 0.432 & $-$3.63 & $-$1.16 & \textbf{$-$1.36} & \textbf{$-$6.11} \\
+Llama-3.1-70B & 0.059 & 0.085 & $-$3.78 & \textbf{$-$3.92} & \textbf{$-$3.92} & \textbf{$-$9.27} \\
+Llama-3.1-8B & 0.051 & 0.075 & $-$4.77 & \textbf{$-$4.92} & \textbf{$-$4.92} & \textbf{$-$6.40} \\
+Mistral-7B-v0.3 & 0.307 & 0.635 & $-$9.86 & \textbf{$-$8.68} & \textbf{$-$8.62} & \textbf{$-$13.91} \\
+OLMo-3-7B & 0.055 & 0.078 & $-$4.70 & \textbf{$-$4.71} & \textbf{$-$4.70} & \textbf{$-$7.87} \\
+OLMo-2-13B & 0.090 & 0.120 & $-$6.28 & \textbf{$-$6.27} & \textbf{$-$6.26} & \textbf{$-$12.55} \\
+OLMo-2-32B & 0.072 & 0.061 & $-$4.77 & \textbf{$-$4.77} & \textbf{$-$4.79} & \textbf{$-$10.66} \\
+Qwen2.5-1.5B & 0.113 & 0.240 & $-$1.61 & $-$1.13 & $-$1.15 & \textbf{$-$4.61} \\
+Qwen2.5-14B & 0.127 & 0.480 & $-$3.49 & \textbf{$-$1.67} & \textbf{$-$2.26} & \textbf{$-$12.57} \\
+Qwen2.5-32B & 0.103 & 0.455 & $-$2.18 & $-$0.34 & \textbf{$-$0.99} & \textbf{$-$14.07} \\
+Qwen2.5-3B & 0.099 & 0.388 & $-$3.46 & \textbf{$-$2.69} & \textbf{$-$3.07} & \textbf{$-$7.09} \\
+Qwen2.5-72B & 0.123 & 0.549 & $-$3.69 & $-$1.28 & \textbf{$-$2.05} & \textbf{$-$11.66} \\
+Qwen2.5-7B & 0.121 & 0.438 & $-$3.90 & \textbf{$-$2.80} & \textbf{$-$3.10} & \textbf{$-$8.12} \\
+T\"ulu-3-8B & 0.051 & 0.100 & $-$8.71 & \textbf{$-$9.04} & \textbf{$-$9.03} & \textbf{$-$17.48} \\
+\midrule
+negative, interval excluding zero & & & $16$ & $10$ & $13$ & $16$ \\
+\bottomrule\end{tabular}\end{center}

@@ -1,0 +1,1 @@
+{"table": "CARD_DENETIMI", "damga_utc": "2026-09-25T23:44:33Z", "sources": [{"yol": "results/model_card_audit_2026-09-16.json", "sha256_16": "09c0f6dc7a02727e"}, {"yol": "results/CARD_DENETIMI_HAM_2026-09-16.json", "sha256_16": "482aecd54724d5ea"}], "note": "renders the committed card audit; no statistic computed here"}

@@ -1,0 +1,185 @@
+{
+ "SINIF": "★ DÖKÜM — verdict YOK, tablo var",
+ "uzay": "AGIRLIK (D2V2-N/GK mühürlü yonler.pt)",
+ "aktivasyon_uzayi": "AYRI TABLO — diske yazilmamis, GPU-dk ister",
+ "G1_orani": 3.45,
+ "hucre": {
+  "zephyr": {
+   "cos": {
+    "dikkat": 0.432788673,
+    "TÜM": -7.617e-06,
+    "GÖVDE": 0.358167739,
+    "mlp": 0.34253466,
+    "diger": -1.2256e-05,
+    "_lm_head_payi": 0.99999533
+   },
+   "norm_payi": {
+    "dikkat": 7.4e-07,
+    "TÜM": 1.0,
+    "GÖVDE": 4.67e-06,
+    "mlp": 3.93e-06,
+    "diger": 0.99999533
+   },
+   "en_agir_tensor": [
+    {
+     "ad": "lm_head.weight",
+     "norm_payi": 0.99999533
+    },
+    {
+     "ad": "model.layers.26.mlp.up_proj.weight",
+     "norm_payi": 1e-07
+    },
+    {
+     "ad": "model.layers.24.mlp.up_proj.weight",
+     "norm_payi": 9e-08
+    },
+    {
+     "ad": "model.layers.25.mlp.up_proj.weight",
+     "norm_payi": 9e-08
+    },
+    {
+     "ad": "model.layers.27.mlp.up_proj.weight",
+     "norm_payi": 8e-08
+    }
+   ],
+   "d_boyut": 7110660096,
+   "izotropik_taban": 1.1859e-05,
+   "izotropik_x_G1": 4.0913e-05,
+   "HAL": "OK",
+   "sn": 167.4
+  },
+  "tulu3": {
+   "cos": {
+    "dikkat": 0.508357475,
+    "TÜM": 8.5e-08,
+    "GÖVDE": 0.434233199,
+    "mlp": 0.417199715,
+    "diger": -8.53e-07,
+    "_lm_head_payi": 0.99999897
+   },
+   "norm_payi": {
+    "dikkat": 1.8e-07,
+    "TÜM": 1.0,
+    "GÖVDE": 1.03e-06,
+    "mlp": 8.5e-07,
+    "diger": 0.99999897
+   },
+   "en_agir_tensor": [
+    {
+     "ad": "lm_head.weight",
+     "norm_payi": 0.99999897
+    },
+    {
+     "ad": "model.layers.17.mlp.up_proj.weight",
+     "norm_payi": 1e-08
+    },
+    {
+     "ad": "model.layers.30.mlp.down_proj.weight",
+     "norm_payi": 1e-08
+    },
+    {
+     "ad": "model.layers.17.mlp.down_proj.weight",
+     "norm_payi": 1e-08
+    },
+    {
+     "ad": "model.layers.21.mlp.up_proj.weight",
+     "norm_payi": 1e-08
+    }
+   ],
+   "d_boyut": 7504957440,
+   "izotropik_taban": 1.1543e-05,
+   "izotropik_x_G1": 3.9824e-05,
+   "HAL": "OK",
+   "sn": 208.7
+  },
+  "olmo": {
+   "cos": {
+    "dikkat": 0.49040118,
+    "TÜM": 4.8e-08,
+    "GÖVDE": 0.436524395,
+    "diger": -3.05e-07,
+    "mlp": 0.415120111,
+    "_lm_head_payi": 0.99999963
+   },
+   "norm_payi": {
+    "dikkat": 1e-07,
+    "TÜM": 1.0,
+    "GÖVDE": 3.7e-07,
+    "diger": 0.99999963,
+    "mlp": 2.7e-07
+   },
+   "en_agir_tensor": [
+    {
+     "ad": "lm_head.weight",
+     "norm_payi": 0.99999963
+    },
+    {
+     "ad": "model.layers.39.mlp.down_proj.weight",
+     "norm_payi": 0.0
+    },
+    {
+     "ad": "model.layers.38.mlp.down_proj.weight",
+     "norm_payi": 0.0
+    },
+    {
+     "ad": "model.layers.25.mlp.up_proj.weight",
+     "norm_payi": 0.0
+    },
+    {
+     "ad": "model.layers.37.mlp.down_proj.weight",
+     "norm_payi": 0.0
+    }
+   ],
+   "d_boyut": 13202396160,
+   "izotropik_taban": 8.703e-06,
+   "izotropik_x_G1": 3.0026e-05,
+   "HAL": "OK",
+   "sn": 301.2
+  },
+  "olmo2": {
+   "cos": {
+    "dikkat": 0.49040118,
+    "TÜM": 4.8e-08,
+    "GÖVDE": 0.436524395,
+    "diger": -3.05e-07,
+    "mlp": 0.415120111,
+    "_lm_head_payi": 0.99999963
+   },
+   "norm_payi": {
+    "dikkat": 1e-07,
+    "TÜM": 1.0,
+    "GÖVDE": 3.7e-07,
+    "diger": 0.99999963,
+    "mlp": 2.7e-07
+   },
+   "en_agir_tensor": [
+    {
+     "ad": "lm_head.weight",
+     "norm_payi": 0.99999963
+    },
+    {
+     "ad": "model.layers.39.mlp.down_proj.weight",
+     "norm_payi": 0.0
+    },
+    {
+     "ad": "model.layers.38.mlp.down_proj.weight",
+     "norm_payi": 0.0
+    },
+    {
+     "ad": "model.layers.25.mlp.up_proj.weight",
+     "norm_payi": 0.0
+    },
+    {
+     "ad": "model.layers.37.mlp.down_proj.weight",
+     "norm_payi": 0.0
+    }
+   ],
+   "d_boyut": 13202396160,
+   "izotropik_taban": 8.703e-06,
+   "izotropik_x_G1": 3.0026e-05,
+   "HAL": "OK",
+   "sn": 313.3
+  }
+ },
+ "sn": 990.5
+}

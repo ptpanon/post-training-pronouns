@@ -1,0 +1,153 @@
+{
+ "damga_utc": "2026-09-12T17:36:58Z",
+ "SINIF": "VERDICT",
+ "alet": "scripts/v61_ladder_verdict.py",
+ "prereg": "prereg_v61_ladder_2026-09-11.md @ 06e13a49",
+ "notice": "prerun_notice_v61_2026-09-11.md @ d6e7863c",
+ "prediction": "prediction_v61_2026-09-11.md @ b4503313",
+ "kok": {
+  "ciplak": "<data>/c1_panel_v61",
+  "template": "<data>/c1_panel_v61_template"
+ },
+ "n_bootstrap": 1000,
+ "plasebo_n": 200,
+ "d_shelf": 0.6,
+ "seed": 20260911,
+ "kume_birimi": "istem_i",
+ "uzay": [
+  "AYNI-ADIM",
+  "FARKLI-ADIM",
+  "ÖLCÜLEMEZ"
+ ],
+ "sayim": {
+  "FARKLI-ADIM": 2
+ },
+ "olculemez_nedenleri": {},
+ "n_dshelf_reddi": 0,
+ "n_merkezlenmemis_plasebo": 0,
+ "SERH_DIZE_KAPISI": "",
+ "merdiven": {
+  "SmolLM2-1.7B": {
+   "ciplak": {
+    "hal": "ÖLCÜLDÜ",
+    "VERDICT": "FARKLI-ADIM",
+    "neden": "SFT adimi negatif-ayrik ve mutlak degerce büyük",
+    "adim": {
+     "sft": {
+      "dM1": -3.3356,
+      "ci": [
+       -4.3719,
+       -2.3253
+      ],
+      "ayrik": true,
+      "plasebo_p95": 1.1293,
+      "plasebo_n": 200,
+      "plasebo_merkez_sd": 0.047,
+      "red_merkezlenmedi": 0
+     },
+     "pref": {
+      "dM1": 0.074,
+      "ci": [
+       -0.4417,
+       0.6036
+      ],
+      "ayrik": false,
+      "plasebo_p95": 1.0975,
+      "plasebo_n": 200,
+      "plasebo_merkez_sd": 0.072,
+      "red_merkezlenmedi": 0
+     }
+    },
+    "raf": [],
+    "M1": {
+     "taban": 14.2921,
+     "sft": 10.9566,
+     "dpo": 11.0306
+    },
+    "distinct4": {
+     "taban": 0.7285,
+     "sft": 0.7446,
+     "dpo": 0.7448
+    },
+    "depo": {
+     "taban": "HuggingFaceTB/SmolLM2-1.7B",
+     "sft": "HuggingFaceTB/SmolLM2-1.7B-sft-only",
+     "dpo": "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+    },
+    "n_satir": {
+     "taban": 6528,
+     "sft": 6528,
+     "dpo": 6528
+    }
+   },
+   "template": {
+    "hal": "BEKLIYOR",
+    "eksik": [
+     "taban(taban)",
+     "sft(sft)",
+     "dpo(dpo)"
+    ]
+   }
+  },
+  "NeuralHermes-2.5": {
+   "ciplak": {
+    "hal": "ÖLCÜLDÜ",
+    "VERDICT": "FARKLI-ADIM",
+    "neden": "SFT adimi negatif-ayrik ve mutlak degerce büyük",
+    "adim": {
+     "sft": {
+      "dM1": -5.4761,
+      "ci": [
+       -6.531,
+       -4.3746
+      ],
+      "ayrik": true,
+      "plasebo_p95": 1.1038,
+      "plasebo_n": 200,
+      "plasebo_merkez_sd": 0.016,
+      "red_merkezlenmedi": 0
+     },
+     "pref": {
+      "dM1": 0.1497,
+      "ci": [
+       -0.3448,
+       0.5678
+      ],
+      "ayrik": false,
+      "plasebo_p95": 0.8907,
+      "plasebo_n": 200,
+      "plasebo_merkez_sd": 0.099,
+      "red_merkezlenmedi": 0
+     }
+    },
+    "raf": [],
+    "M1": {
+     "taban": 13.4362,
+     "sft": 7.9601,
+     "dpo": 8.1098
+    },
+    "distinct4": {
+     "taban": 0.7532,
+     "sft": 0.7528,
+     "dpo": 0.7968
+    },
+    "depo": {
+     "taban": "mistralai/Mistral-7B-v0.1",
+     "sft": "teknium/OpenHermes-2.5-Mistral-7B",
+     "dpo": "mlabonne/NeuralHermes-2.5-Mistral-7B"
+    },
+    "n_satir": {
+     "taban": 6528,
+     "sft": 6528,
+     "dpo": 6528
+    }
+   },
+   "template": {
+    "hal": "BEKLIYOR",
+    "eksik": [
+     "taban(taban)"
+    ]
+   }
+  }
+ }
+}

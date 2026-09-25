@@ -1,0 +1,104 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-09T11:48:28Z",
+  "alet": "scripts/v27_system_line_test.py",
+  "borc": "D-0910-V27 §2 · Limitations 'obvious next candidate'",
+  "n_perm": 200,
+  "seed": 20260910,
+  "null": "",
+  "serh": ""
+ },
+ "sistem_VAR": [
+  {
+   "aile": "Llama-3.1-70B",
+   "dM1": 14.76,
+   "ayrik": true
+  },
+  {
+   "aile": "Llama-3.1-8B",
+   "dM1": 7.505,
+   "ayrik": true
+  },
+  {
+   "aile": "OLMo-3-7B",
+   "dM1": 9.918,
+   "ayrik": true
+  },
+  {
+   "aile": "Qwen2.5-1.5B",
+   "dM1": 1.425,
+   "ayrik": true
+  },
+  {
+   "aile": "Qwen2.5-14B",
+   "dM1": -5.101,
+   "ayrik": true
+  },
+  {
+   "aile": "Qwen2.5-32B",
+   "dM1": -7.297,
+   "ayrik": true
+  },
+  {
+   "aile": "Qwen2.5-3B",
+   "dM1": -2.896,
+   "ayrik": true
+  },
+  {
+   "aile": "Qwen2.5-72B",
+   "dM1": -0.171,
+   "ayrik": false
+  },
+  {
+   "aile": "Qwen2.5-7B",
+   "dM1": -7.234,
+   "ayrik": true
+  }
+ ],
+ "sistem_YOK": [
+  {
+   "aile": "Gemma-3-12B",
+   "dM1": 24.613,
+   "ayrik": true
+  },
+  {
+   "aile": "Gemma-3-27B",
+   "dM1": 32.267,
+   "ayrik": true
+  },
+  {
+   "aile": "Gemma-3-4B",
+   "dM1": 26.355,
+   "ayrik": true
+  },
+  {
+   "aile": "Mistral-7B-v0.3",
+   "dM1": -0.113,
+   "ayrik": false
+  },
+  {
+   "aile": "OLMo2-13B",
+   "dM1": -14.546,
+   "ayrik": true
+  },
+  {
+   "aile": "OLMo2-32B",
+   "dM1": -12.654,
+   "ayrik": true
+  },
+  {
+   "aile": "Tulu3-8B",
+   "dM1": -18.413,
+   "ayrik": true
+  }
+ ],
+ "ortalama_VAR": 1.212,
+ "ortalama_YOK": 5.359,
+ "fark": -4.146,
+ "null_ort": 0.762,
+ "null_sd": 8.17,
+ "frac_null_asan": 0.605,
+ "yukari_VAR": "4/9",
+ "yukari_YOK": "3/7",
+ "VERDICT": "SIRALAMIYOR"
+}

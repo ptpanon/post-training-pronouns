@@ -1,0 +1,13 @@
+{
+ "table": "H6_ELICIT_SINIF",
+ "ciktilar": [
+  "H6_ELICIT_SINIF.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/reviewer6_d_elicit_sinif_2026-09-17.json",
+   "sha256_16": "c9d870b34568129c"
+  }
+ ],
+ "note": "renders the rule-first per-class reading of ELICIT-99; computes no new statistic"
+}

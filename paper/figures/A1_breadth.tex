@@ -1,0 +1,38 @@
+\begin{table}[t]
+\centering
+\small
+\caption{\textbf{Breadth, and where the second protocol reaches.} \textbf{Carried from a separate instrument study; not a contribution here. $\Delta U$ is defined in Appendix~\ref{app:D7}.} Dominance shift for every base$\rightarrow$aligned pair we ran, in null-sd, under the raw-continuation prompt. The right-hand block repeats the read under each aligned model's own chat template. Outcomes: $+$/$-$ CI-disjoint, (c) contingent, $\sim$ null. \textbf{The 24 rows are not one kind of object}: 15 are end-to-end pairs and 9 are checkpoint sequence stages. The template run now covers 16 of the 24, and the eight that stay empty are \emph{named, not blank}. \textsc{vram}: the 70B/72B pairs were produced across two cards (measured peak 67.2 and 70.8\,GiB) and one card was available. \textsc{protocol}: for the six intermediate stages the \emph{base} checkpoint is itself an instruction-tuned checkpoint that carries a chat template, so a raw-continuation-base vs.\ chat-template-aligned contrast would not isolate the template, so those cells need a chat-template-on-both-checkpoints protocol we have not pre-registered. \textbf{Caveat on the template column.} The template also suppresses degenerate generation on the aligned outputs only (17--21\% falling to 1.4--4.6\% on the three stages measured here, while the raw-continuation base outputs stay at 19--28\%), so $\Delta U$ under template mixes a register change with a degeneracy change, and the design does not separate them. The three end-to-end composites and the nine stages are compared across protocols in Table~\ref{tab:template}, whose panel outcome is \textsc{template-dependent} (same 3 / changed 6).}
+\label{tab:breadth}
+\begin{tabular}{lrcrcc}
+\toprule
+& \multicolumn{2}{c}{raw-continuation protocol} & \multicolumn{2}{c}{chat template} & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Pair & $\Delta U_{\mathrm{DOM}}$ & outcome & $\Delta U$ & outcome & name \\
+\midrule
+Qwen2.5-7B & -0.008 & (c) & -0.098 & $-$ & \textbf{changed} \\
+Mistral-7B-v0.3 & +0.059 & $+$ & -0.004 & $\sim$ & \textbf{changed} \\
+OLMo-3-7B & +0.026 & $+$ & +0.021 & $+$ & same \\
+Llama-3.1-8B & +0.033 & $+$ & +0.003 & $\sim$ & \textbf{changed} \\
+Gemma-3-4B & +0.006 & $\sim$ & -0.086 & $-$ & \textbf{changed} \\
+Gemma-3-12B & +0.088 & $+$ & +0.008 & $\sim$ & \textbf{changed} \\
+Qwen2.5-32B & +0.060 & $+$ & +0.022 & $\sim$ & \textbf{changed} \\
+Qwen2.5-72B & -0.006 & $\sim$ & --- & --- & \textsc{vram} \\
+Gemma-4-26B-A4B & +0.015 & (c) & -0.107 & $-$ & \textbf{changed} \\
+Qwen2.5-1.5B & +0.000 & $\sim$ & -0.044 & $-$ & \textbf{changed} \\
+Qwen2.5-3B & -0.016 & (c) & -0.039 & $-$ & \textbf{changed} \\
+Qwen2.5-14B & +0.042 & $+$ & +0.026 & $+$ & same \\
+OLMo2-13B base$\rightarrow$SFT & -0.001 & $\sim$ & +0.042 & $+$ & \textbf{changed} \\
+OLMo2-13B SFT$\rightarrow$DPO & +0.052 & $+$ & --- & --- & \textsc{protocol} \\
+OLMo2-13B DPO$\rightarrow$Instruct & -0.011 & $\sim$ & --- & --- & \textsc{protocol} \\
+Mistral-Small-24B & +0.026 & $+$ & +0.045 & $+$ & same \\
+Gemma-3-27B & +0.031 & $+$ & -0.051 & $-$ & \textbf{changed} \\
+OLMo2-32B base$\rightarrow$SFT & -0.020 & $-$ & +0.045 & $+$ & \textbf{changed} \\
+OLMo2-32B SFT$\rightarrow$DPO & +0.000 & $\sim$ & --- & --- & \textsc{protocol} \\
+OLMo2-32B DPO$\rightarrow$Instruct & +0.003 & $\sim$ & --- & --- & \textsc{protocol} \\
+Llama-3.1-70B & +0.004 & $\sim$ & --- & --- & \textsc{vram} \\
+Tulu3-8B base$\rightarrow$SFT & -0.001 & $\sim$ & +0.109 & $+$ & \textbf{changed} \\
+Tulu3-8B SFT$\rightarrow$DPO & +0.052 & $+$ & --- & --- & \textsc{protocol} \\
+Tulu3-8B DPO$\rightarrow$RL & +0.010 & $\sim$ & --- & --- & \textsc{protocol} \\
+\bottomrule
+\end{tabular}
+\end{table}

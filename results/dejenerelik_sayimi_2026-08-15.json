@@ -1,0 +1,1977 @@
+{
+ "sinif": "ÖLCÜM — verdict YOK",
+ "desen": "<data>/onek_korpus/*/*.jsonl",
+ "bar": {
+  "kelime_medyan": 5,
+  "en_sik_karakter": 0.5
+ },
+ "n_dosya": 255,
+ "n_olculen": 245,
+ "red_dejenere": 2,
+ "dejenere": [
+  "<data>/onek_korpus/b3_yon/uretim_yg12.jsonl",
+  "<data>/onek_korpus/yazar_batarya/uretim_yg12_ham_b3.jsonl"
+ ],
+ "hepsi": {
+  "<data>/onek_korpus/a3_harman/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 272,
+   "kelime_medyan": 119.0,
+   "kelime_ort": 97.5,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/adim4_harman2/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 118.0,
+   "kelime_ort": 99.4,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/ayirici/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 34,
+   "kelime_medyan": 131.0,
+   "kelime_ort": 129.91,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/b3_yon/uretim_g312i.jsonl": {
+   "alan": "metin",
+   "n_satir": 238,
+   "kelime_medyan": 113.0,
+   "kelime_ort": 113.64,
+   "en_sik_karakter_payi": 0.154,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/b3_yon/uretim_g34b.jsonl": {
+   "alan": "metin",
+   "n_satir": 238,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 118.77,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/b3_yon/uretim_g34i.jsonl": {
+   "alan": "metin",
+   "n_satir": 238,
+   "kelime_medyan": 117.0,
+   "kelime_ort": 117.7,
+   "en_sik_karakter_payi": 0.154,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/b3_yon/uretim_mn3b.jsonl": {
+   "alan": "metin",
+   "n_satir": 238,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 135.09,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/b3_yon/uretim_mn3i.jsonl": {
+   "alan": "metin",
+   "n_satir": 238,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 134.27,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/b3_yon/uretim_q25b.jsonl": {
+   "alan": "metin",
+   "n_satir": 238,
+   "kelime_medyan": 135.0,
+   "kelime_ort": 128.96,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/b3_yon/uretim_q25i.jsonl": {
+   "alan": "metin",
+   "n_satir": 238,
+   "kelime_medyan": 131.0,
+   "kelime_ort": 129.13,
+   "en_sik_karakter_payi": 0.154,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/b3_yon/uretim_yg12.jsonl": {
+   "alan": "metin",
+   "n_satir": 238,
+   "kelime_medyan": 1.0,
+   "kelime_ort": 8.19,
+   "en_sik_karakter_payi": 0.632,
+   "DEJENERE": true
+  },
+  "<data>/onek_korpus/capraz/uretim_g312b.jsonl": {
+   "alan": "metin",
+   "n_satir": 306,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 123.35,
+   "en_sik_karakter_payi": 0.181,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/capraz/uretim_m7b.jsonl": {
+   "alan": "metin",
+   "n_satir": 374,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 123.32,
+   "en_sik_karakter_payi": 0.178,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/capraz/uretim_m7i.jsonl": {
+   "alan": "metin",
+   "n_satir": 374,
+   "kelime_medyan": 125.0,
+   "kelime_ort": 122.97,
+   "en_sik_karakter_payi": 0.163,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/capraz/uretim_mn8b.jsonl": {
+   "alan": "metin",
+   "n_satir": 374,
+   "kelime_medyan": 139.0,
+   "kelime_ort": 136.07,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/capraz/uretim_mn8i.jsonl": {
+   "alan": "metin",
+   "n_satir": 374,
+   "kelime_medyan": 138.5,
+   "kelime_ort": 136.57,
+   "en_sik_karakter_payi": 0.171,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/capraz/uretim_yg12b.jsonl": {
+   "alan": "metin",
+   "n_satir": 306,
+   "kelime_medyan": 132.0,
+   "kelime_ort": 113.42,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/capraz/uretim_yq9.jsonl": {
+   "alan": "metin",
+   "n_satir": 374,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 124.59,
+   "en_sik_karakter_payi": 0.166,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/capraz/uretim_yq9b.jsonl": {
+   "alan": "metin",
+   "n_satir": 374,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 129.95,
+   "en_sik_karakter_payi": 0.17,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/d_altin/altin_dom2_2026-08-12.jsonl": {
+   "alan": "metin",
+   "n_satir": 180,
+   "kelime_medyan": 29.0,
+   "kelime_ort": 30.37,
+   "en_sik_karakter_payi": 0.167,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/dejenerelik_altin/ALTIN_ADAY_DEJENERELIK_v1_2026-08-11.jsonl": {
+   "alan": "metin",
+   "n_satir": 148,
+   "kelime_medyan": 110.5,
+   "kelime_ort": 87.97,
+   "en_sik_karakter_payi": 0.243,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/dejenerelik_altin/ALTIN_DEJENERELIK_v1_2026-08-12.jsonl": {
+   "alan": "metin",
+   "n_satir": 148,
+   "kelime_medyan": 110.5,
+   "kelime_ort": 87.97,
+   "en_sik_karakter_payi": 0.243,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_g312b_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 125.65,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_g312b_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 129.0,
+   "kelime_ort": 106.15,
+   "en_sik_karakter_payi": 0.171,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_g312i_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 112.0,
+   "kelime_ort": 111.7,
+   "en_sik_karakter_payi": 0.149,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_g312i_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 120.0,
+   "kelime_ort": 116.67,
+   "en_sik_karakter_payi": 0.156,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_g34i_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 113.0,
+   "kelime_ort": 112.42,
+   "en_sik_karakter_payi": 0.148,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_g34i_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 116.0,
+   "kelime_ort": 114.15,
+   "en_sik_karakter_payi": 0.157,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_mn3b_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 134.95,
+   "en_sik_karakter_payi": 0.18,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_mn3b_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 129.0,
+   "kelime_ort": 127.74,
+   "en_sik_karakter_payi": 0.172,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_mn3i_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 136.0,
+   "kelime_ort": 134.07,
+   "en_sik_karakter_payi": 0.168,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_mn3i_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 132.0,
+   "kelime_ort": 128.29,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_mn8b_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 133.54,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_mn8b_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 129.0,
+   "kelime_ort": 127.3,
+   "en_sik_karakter_payi": 0.172,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_mn8i_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 134.73,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_mn8i_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 131.0,
+   "kelime_ort": 129.32,
+   "en_sik_karakter_payi": 0.171,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_q25i_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 134.5,
+   "kelime_ort": 133.19,
+   "en_sik_karakter_payi": 0.163,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_q25i_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 127.14,
+   "en_sik_karakter_payi": 0.157,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_yg12_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 26.5,
+   "kelime_ort": 43.75,
+   "en_sik_karakter_payi": 0.419,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_yg12_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 15.0,
+   "kelime_ort": 29.69,
+   "en_sik_karakter_payi": 0.444,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_yg12b_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 129.0,
+   "kelime_ort": 125.03,
+   "en_sik_karakter_payi": 0.172,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_yg12b_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 116.0,
+   "kelime_ort": 89.04,
+   "en_sik_karakter_payi": 0.167,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_yq9_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 121.83,
+   "en_sik_karakter_payi": 0.164,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_yq9_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 120.0,
+   "kelime_ort": 118.64,
+   "en_sik_karakter_payi": 0.16,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_yq9b_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 127.84,
+   "en_sik_karakter_payi": 0.169,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/direnc/uretim_yq9b_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 129.0,
+   "kelime_ort": 125.46,
+   "en_sik_karakter_payi": 0.163,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/dominance/dom__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1872,
+   "kelime_medyan": 131.0,
+   "kelime_ort": 109.33,
+   "en_sik_karakter_payi": 0.18,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/dominance/dom__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1872,
+   "kelime_medyan": 126.0,
+   "kelime_ort": 115.09,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/dominance_tam/domtam__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 3264,
+   "kelime_medyan": 129.0,
+   "kelime_ort": 103.53,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/dominance_tam/domtam__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 3264,
+   "kelime_medyan": 124.0,
+   "kelime_ort": 111.15,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/doz_cevap/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 1156,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 124.12,
+   "en_sik_karakter_payi": 0.178,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/g3_olmo/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 1632,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 121.84,
+   "en_sik_karakter_payi": 0.167,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/gece_doz/uretim_g312b.jsonl": {
+   "alan": "metin",
+   "n_satir": 884,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 122.7,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/gece_doz/uretim_m7b.jsonl": {
+   "alan": "metin",
+   "n_satir": 238,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 124.81,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/gece_doz/uretim_m7i.jsonl": {
+   "alan": "metin",
+   "n_satir": 1802,
+   "kelime_medyan": 125.0,
+   "kelime_ort": 122.86,
+   "en_sik_karakter_payi": 0.161,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/gece_doz/uretim_mn8i.jsonl": {
+   "alan": "metin",
+   "n_satir": 918,
+   "kelime_medyan": 139.0,
+   "kelime_ort": 136.76,
+   "en_sik_karakter_payi": 0.171,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/gece_doz/uretim_yg12b.jsonl": {
+   "alan": "metin",
+   "n_satir": 884,
+   "kelime_medyan": 132.0,
+   "kelime_ort": 113.48,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/gece_doz/uretim_yq9.jsonl": {
+   "alan": "metin",
+   "n_satir": 884,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 124.46,
+   "en_sik_karakter_payi": 0.162,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/gece_doz/uretim_yq9b.jsonl": {
+   "alan": "metin",
+   "n_satir": 102,
+   "kelime_medyan": 133.5,
+   "kelime_ort": 130.2,
+   "en_sik_karakter_payi": 0.166,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/ikinci_aile/uretim_q25i.jsonl": {
+   "alan": "metin",
+   "n_satir": 544,
+   "kelime_medyan": 126.0,
+   "kelime_ort": 125.81,
+   "en_sik_karakter_payi": 0.144,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kafa_atlasi/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 578,
+   "kelime_medyan": 51.0,
+   "kelime_ort": 49.19,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kafa_atlasi/uretim_wololo.jsonl": {
+   "alan": "metin",
+   "n_satir": 1666,
+   "kelime_medyan": 51.0,
+   "kelime_ort": 49.14,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kirilma/uretim_g312b.jsonl": {
+   "alan": "metin",
+   "n_satir": 272,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 122.11,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kirilma/uretim_yg12b.jsonl": {
+   "alan": "metin",
+   "n_satir": 272,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 114.45,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_B3YON_2026-08-09.jsonl": {
+   "alan": "metin",
+   "n_satir": 336,
+   "kelime_medyan": 126.5,
+   "kelime_ort": 110.41,
+   "en_sik_karakter_payi": 0.238,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_DIRENC_2026-08-09.jsonl": {
+   "alan": "metin",
+   "n_satir": 56,
+   "kelime_medyan": 125.0,
+   "kelime_ort": 120.41,
+   "en_sik_karakter_payi": 0.17,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_GECE_2026-08-09.jsonl": {
+   "alan": "metin",
+   "n_satir": 966,
+   "kelime_medyan": 129.0,
+   "kelime_ort": 122.71,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_KIRILMA_2026-08-09.jsonl": {
+   "alan": "metin",
+   "n_satir": 128,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 117.93,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_KIRILMA_v2_2026-08-11.jsonl": {
+   "alan": "metin",
+   "n_satir": 128,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 117.93,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_KP-4154_B3YON-2_2026-08-11.jsonl": {
+   "alan": "metin",
+   "n_satir": 1904,
+   "kelime_medyan": 126.0,
+   "kelime_ort": 110.72,
+   "en_sik_karakter_payi": 0.154,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_KP-963b_SAYIDAN-2_2026-08-11.jsonl": {
+   "alan": "metin",
+   "n_satir": 1156,
+   "kelime_medyan": 132.0,
+   "kelime_ort": 127.98,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_KP-bdda_DIRENC-2_2026-08-11.jsonl": {
+   "alan": "metin",
+   "n_satir": 792,
+   "kelime_medyan": 125.5,
+   "kelime_ort": 115.03,
+   "en_sik_karakter_payi": 0.159,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_OTOPSI_2026-08-09.jsonl": {
+   "alan": "metin",
+   "n_satir": 276,
+   "kelime_medyan": 126.0,
+   "kelime_ort": 123.57,
+   "en_sik_karakter_payi": 0.171,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_SAYIDAN_2026-08-09.jsonl": {
+   "alan": "metin",
+   "n_satir": 80,
+   "kelime_medyan": 132.0,
+   "kelime_ort": 126.72,
+   "en_sik_karakter_payi": 0.167,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/kor_paket/KOR_PAKET_SHOT_2026-08-09.jsonl": {
+   "alan": "metin",
+   "n_satir": 160,
+   "kelime_medyan": 127.5,
+   "kelime_ort": 112.54,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/m7_otopsi/uretim_m7b.jsonl": {
+   "alan": "metin",
+   "n_satir": 782,
+   "kelime_medyan": 126.0,
+   "kelime_ort": 122.83,
+   "en_sik_karakter_payi": 0.181,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/m7_otopsi/uretim_m7i.jsonl": {
+   "alan": "metin",
+   "n_satir": 510,
+   "kelime_medyan": 124.0,
+   "kelime_ort": 122.03,
+   "en_sik_karakter_payi": 0.163,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/m7_otopsi/uretim_yq9b.jsonl": {
+   "alan": "metin",
+   "n_satir": 374,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 128.71,
+   "en_sik_karakter_payi": 0.169,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_base__B1.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 121.18,
+   "en_sik_karakter_payi": 0.17,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_base__B3.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 123.35,
+   "en_sik_karakter_payi": 0.172,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_base__B4.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 124.0,
+   "kelime_ort": 95.75,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_it_ham__B0.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 18.0,
+   "kelime_ort": 34.9,
+   "en_sik_karakter_payi": 0.459,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_it_ham__B1.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 62.5,
+   "kelime_ort": 59.95,
+   "en_sik_karakter_payi": 0.386,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_it_ham__B2.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 24.0,
+   "kelime_ort": 41.15,
+   "en_sik_karakter_payi": 0.446,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_it_ham__B3.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 72.5,
+   "kelime_ort": 63.05,
+   "en_sik_karakter_payi": 0.365,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_it_ham__B4.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 44.0,
+   "kelime_ort": 52.6,
+   "en_sik_karakter_payi": 0.265,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_it_sohbet__B0.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 133.24,
+   "en_sik_karakter_payi": 0.158,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_it_sohbet__B1.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 131.0,
+   "kelime_ort": 130.44,
+   "en_sik_karakter_payi": 0.16,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_it_sohbet__B2.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 135.0,
+   "kelime_ort": 134.32,
+   "en_sik_karakter_payi": 0.155,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_it_sohbet__B3.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 127.5,
+   "kelime_ort": 127.46,
+   "en_sik_karakter_payi": 0.164,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/gemma_it_sohbet__B4.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 63.0,
+   "kelime_ort": 65.01,
+   "en_sik_karakter_payi": 0.164,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/mistral_base__B1.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 118.0,
+   "kelime_ort": 116.65,
+   "en_sik_karakter_payi": 0.172,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/mistral_base__B3.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 119.0,
+   "kelime_ort": 116.98,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/mistral_base__B4.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 118.0,
+   "kelime_ort": 94.75,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/mistral_it_ham__B0.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 114.0,
+   "kelime_ort": 113.77,
+   "en_sik_karakter_payi": 0.159,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/mistral_it_ham__B1.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 116.0,
+   "kelime_ort": 115.45,
+   "en_sik_karakter_payi": 0.158,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/mistral_it_ham__B2.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 113.0,
+   "kelime_ort": 113.46,
+   "en_sik_karakter_payi": 0.158,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/mistral_it_ham__B3.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 117.0,
+   "kelime_ort": 114.86,
+   "en_sik_karakter_payi": 0.161,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/merdiven/mistral_it_ham__B4.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 90.0,
+   "kelime_ort": 81.7,
+   "en_sik_karakter_payi": 0.17,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/muhurlu/ana__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 117.71,
+   "en_sik_karakter_payi": 0.168,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/muhurlu/ana__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 121.39,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/muhurlu/kapi160__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 117.7,
+   "en_sik_karakter_payi": 0.168,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/muhurlu/kapi160__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 121.38,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/muhurlu/plasebo__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 116.95,
+   "en_sik_karakter_payi": 0.166,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/muhurlu/plasebo__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 120.12,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/onarim/P1__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 129.0,
+   "kelime_ort": 114.96,
+   "en_sik_karakter_payi": 0.169,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/onarim/P1__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 124.0,
+   "kelime_ort": 121.39,
+   "en_sik_karakter_payi": 0.172,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/onarim/P2__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 113.23,
+   "en_sik_karakter_payi": 0.166,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/onarim/P2__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 122.0,
+   "kelime_ort": 119.57,
+   "en_sik_karakter_payi": 0.171,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/onarim/P3__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 116.9,
+   "en_sik_karakter_payi": 0.166,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/onarim/P3__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 120.13,
+   "en_sik_karakter_payi": 0.172,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/onarim/ana__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 117.47,
+   "en_sik_karakter_payi": 0.168,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/onarim/ana__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 121.39,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/onarim/kapi160__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 117.47,
+   "en_sik_karakter_payi": 0.168,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/onarim/kapi160__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 121.38,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/s3_esitlik/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 1632,
+   "kelime_medyan": 105.0,
+   "kelime_ort": 91.57,
+   "en_sik_karakter_payi": 0.162,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_mn8i_H1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 130.45,
+   "en_sik_karakter_payi": 0.178,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_mn8i_H2.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 120.43,
+   "en_sik_karakter_payi": 0.178,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_mn8i_H3.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 131.0,
+   "kelime_ort": 128.64,
+   "en_sik_karakter_payi": 0.178,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_mn8i_k3.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 131.43,
+   "en_sik_karakter_payi": 0.18,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_mn8i_k4.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 129.78,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_mn8i_sakin.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 138.0,
+   "kelime_ort": 135.94,
+   "en_sik_karakter_payi": 0.17,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_q25b_H1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 138.0,
+   "kelime_ort": 127.3,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_q25b_H2.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 110.86,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_q25b_H3.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 135.0,
+   "kelime_ort": 116.21,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_q25i_H1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 132.0,
+   "kelime_ort": 130.5,
+   "en_sik_karakter_payi": 0.161,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_q25i_H1p.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 132.5,
+   "kelime_ort": 130.93,
+   "en_sik_karakter_payi": 0.163,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_q25i_H2.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 135.0,
+   "kelime_ort": 126.59,
+   "en_sik_karakter_payi": 0.148,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_q25i_H3.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 127.74,
+   "en_sik_karakter_payi": 0.151,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_q25i_k3.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 131.09,
+   "en_sik_karakter_payi": 0.163,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_q25i_k4.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 132.37,
+   "en_sik_karakter_payi": 0.164,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan/uretim_q25i_sakin.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 131.0,
+   "kelime_ort": 129.11,
+   "en_sik_karakter_payi": 0.15,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/sayidan2_konum/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 612,
+   "kelime_medyan": 131.5,
+   "kelime_ort": 128.94,
+   "en_sik_karakter_payi": 0.154,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/seritA_102/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 19720,
+   "kelime_medyan": 109.0,
+   "kelime_ort": 95.04,
+   "en_sik_karakter_payi": 0.17,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/seritD_150/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 25500,
+   "kelime_medyan": 101.0,
+   "kelime_ort": 88.83,
+   "en_sik_karakter_payi": 0.17,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_g34b_H1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 99.53,
+   "en_sik_karakter_payi": 0.178,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_g34b_H2.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 129.0,
+   "kelime_ort": 104.85,
+   "en_sik_karakter_payi": 0.181,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_g34b_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 125.22,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_g34b_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 132.0,
+   "kelime_ort": 112.84,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_g34b_k2.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 132.0,
+   "kelime_ort": 109.76,
+   "en_sik_karakter_payi": 0.178,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_g34b_k3.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 104.74,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_g34b_k4.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 109.14,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_g34b_k5.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 109.36,
+   "en_sik_karakter_payi": 0.182,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_g34b_sakin.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 120.08,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7b_H1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 115.0,
+   "kelime_ort": 88.72,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7b_H2.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 110.0,
+   "kelime_ort": 88.49,
+   "en_sik_karakter_payi": 0.181,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7b_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 122.0,
+   "kelime_ort": 118.89,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7b_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 117.0,
+   "kelime_ort": 107.07,
+   "en_sik_karakter_payi": 0.168,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7b_k2.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 120.0,
+   "kelime_ort": 98.73,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7b_k3.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 114.0,
+   "kelime_ort": 89.02,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7b_k4.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 113.0,
+   "kelime_ort": 89.05,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7b_k5.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 102.0,
+   "kelime_ort": 82.39,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7b_sakin.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 126.48,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7i_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 113.0,
+   "kelime_ort": 112.78,
+   "en_sik_karakter_payi": 0.157,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7i_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 114.0,
+   "kelime_ort": 97.28,
+   "en_sik_karakter_payi": 0.164,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7i_k2.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 112.0,
+   "kelime_ort": 86.82,
+   "en_sik_karakter_payi": 0.171,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7i_k3.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 63.0,
+   "kelime_ort": 71.52,
+   "en_sik_karakter_payi": 0.172,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7i_k4.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 57.0,
+   "kelime_ort": 68.59,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7i_k5.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 46.0,
+   "kelime_ort": 61.76,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_m7i_sakin.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 124.0,
+   "kelime_ort": 121.59,
+   "en_sik_karakter_payi": 0.158,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_q25b_k0.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 133.1,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_q25b_k1.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 119.66,
+   "en_sik_karakter_payi": 0.17,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_q25b_k2.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 138.0,
+   "kelime_ort": 125.34,
+   "en_sik_karakter_payi": 0.181,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_q25b_k3.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 138.0,
+   "kelime_ort": 128.89,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_q25b_k4.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 138.0,
+   "kelime_ort": 132.78,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_q25b_k5.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 136.0,
+   "kelime_ort": 131.67,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/shot_merdiveni/uretim_q25b_sakin.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 121.02,
+   "en_sik_karakter_payi": 0.165,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/soy_transferi/uretim_m7i.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 121.26,
+   "en_sik_karakter_payi": 0.161,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/soy_transferi/uretim_mn8i.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 133.99,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/soy_transferi/uretim_yq9.jsonl": {
+   "alan": "metin",
+   "n_satir": 408,
+   "kelime_medyan": 126.0,
+   "kelime_ort": 122.23,
+   "en_sik_karakter_payi": 0.163,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/steering_prereg_asil/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 64560,
+   "kelime_medyan": 120.0,
+   "kelime_ort": 110.06,
+   "en_sik_karakter_payi": 0.167,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/steering_prereg_prova/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 352,
+   "kelime_medyan": 119.0,
+   "kelime_ort": 109.49,
+   "en_sik_karakter_payi": 0.169,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/steering_pilot/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 2400,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 112.93,
+   "en_sik_karakter_payi": 0.174,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/t1_rol/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 340,
+   "kelime_medyan": 119.0,
+   "kelime_ort": 106.07,
+   "en_sik_karakter_payi": 0.184,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/taraf2/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 680,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 124.68,
+   "en_sik_karakter_payi": 0.17,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/taraf_dumen/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 680,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 124.92,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/ton_dengeli/ton__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 128.0,
+   "kelime_ort": 103.89,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/ton_dengeli/ton__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 1632,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 109.42,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/ton_dumen/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 1496,
+   "kelime_medyan": 126.0,
+   "kelime_ort": 114.68,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/ton_tamir/uretim.jsonl": {
+   "alan": "metin",
+   "n_satir": 952,
+   "kelime_medyan": 126.0,
+   "kelime_ort": 113.41,
+   "en_sik_karakter_payi": 0.183,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/uretim_pilot/ana__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 116.95,
+   "en_sik_karakter_payi": 0.171,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/uretim_pilot/ana__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 121.16,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/uretim_pilot/kapi160__gemma.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 117.01,
+   "en_sik_karakter_payi": 0.171,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/uretim_pilot/kapi160__mistral.jsonl": {
+   "alan": "metin_160",
+   "n_satir": 816,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 121.18,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/wololo_toplam/uretim_birlesik.jsonl": {
+   "alan": "metin",
+   "n_satir": 170,
+   "kelime_medyan": 47.0,
+   "kelime_ort": 46.63,
+   "en_sik_karakter_payi": 0.157,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g312b_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 117.57,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g312b_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 132.0,
+   "kelime_ort": 125.44,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g312i.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 116.0,
+   "kelime_ort": 116.52,
+   "en_sik_karakter_payi": 0.146,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g312i_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 116.0,
+   "kelime_ort": 115.52,
+   "en_sik_karakter_payi": 0.153,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g312i_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 114.0,
+   "kelime_ort": 113.65,
+   "en_sik_karakter_payi": 0.152,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g312i_sargi.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 125.18,
+   "en_sik_karakter_payi": 0.157,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g312i_sargi_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 123.2,
+   "en_sik_karakter_payi": 0.156,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g34b_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 113.81,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g34b_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 123.05,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g34i.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 118.0,
+   "kelime_ort": 118.07,
+   "en_sik_karakter_payi": 0.147,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g34i_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 119.0,
+   "kelime_ort": 116.36,
+   "en_sik_karakter_payi": 0.154,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g34i_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 114.0,
+   "kelime_ort": 113.93,
+   "en_sik_karakter_payi": 0.15,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g34i_sargi.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 121.0,
+   "kelime_ort": 109.96,
+   "en_sik_karakter_payi": 0.15,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_g34i_sargi_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 126.4,
+   "en_sik_karakter_payi": 0.152,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_m7abl_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 120.0,
+   "kelime_ort": 101.69,
+   "en_sik_karakter_payi": 0.164,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_m7b_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 124.0,
+   "kelime_ort": 112.17,
+   "en_sik_karakter_payi": 0.175,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_m7b_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 124.0,
+   "kelime_ort": 121.21,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_m7i.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 116.0,
+   "kelime_ort": 115.25,
+   "en_sik_karakter_payi": 0.15,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_m7i_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 119.0,
+   "kelime_ort": 101.3,
+   "en_sik_karakter_payi": 0.164,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_m7i_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 119.0,
+   "kelime_ort": 118.46,
+   "en_sik_karakter_payi": 0.158,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_m7i_sargi.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 116.0,
+   "kelime_ort": 114.01,
+   "en_sik_karakter_payi": 0.15,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_m7i_sargi_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 115.0,
+   "kelime_ort": 113.31,
+   "en_sik_karakter_payi": 0.149,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn3b_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 131.86,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn3b_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 134.65,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn3i.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 111.0,
+   "kelime_ort": 110.69,
+   "en_sik_karakter_payi": 0.139,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn3i_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 128.02,
+   "en_sik_karakter_payi": 0.168,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn3i_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 133.0,
+   "kelime_ort": 130.9,
+   "en_sik_karakter_payi": 0.166,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn3i_sargi.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 127.0,
+   "kelime_ort": 124.11,
+   "en_sik_karakter_payi": 0.143,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn3i_sargi_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 126.0,
+   "kelime_ort": 125.17,
+   "en_sik_karakter_payi": 0.142,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn8b_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 132.66,
+   "en_sik_karakter_payi": 0.18,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn8b_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 137.0,
+   "kelime_ort": 133.85,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn8i.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 107.0,
+   "kelime_ort": 107.4,
+   "en_sik_karakter_payi": 0.139,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn8i_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 135.0,
+   "kelime_ort": 133.32,
+   "en_sik_karakter_payi": 0.174,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn8i_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 136.0,
+   "kelime_ort": 134.09,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn8i_sargi.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 125.0,
+   "kelime_ort": 124.45,
+   "en_sik_karakter_payi": 0.148,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_mn8i_sargi_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 123.02,
+   "en_sik_karakter_payi": 0.146,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_q25b_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 136.0,
+   "kelime_ort": 122.02,
+   "en_sik_karakter_payi": 0.173,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_q25b_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 122.94,
+   "en_sik_karakter_payi": 0.174,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_q25i.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 126.0,
+   "kelime_ort": 125.94,
+   "en_sik_karakter_payi": 0.146,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_q25i_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 131.0,
+   "kelime_ort": 129.68,
+   "en_sik_karakter_payi": 0.156,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_q25i_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 129.08,
+   "en_sik_karakter_payi": 0.154,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_q25i_sargi.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 115.0,
+   "kelime_ort": 111.22,
+   "en_sik_karakter_payi": 0.144,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_q25i_sargi_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 132.0,
+   "kelime_ort": 125.84,
+   "en_sik_karakter_payi": 0.146,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yg12.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 124.0,
+   "kelime_ort": 122.9,
+   "en_sik_karakter_payi": 0.147,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yg12_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 14.0,
+   "kelime_ort": 28.48,
+   "en_sik_karakter_payi": 0.442,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yg12_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 13.0,
+   "kelime_ort": 34.56,
+   "en_sik_karakter_payi": 0.506,
+   "DEJENERE": true
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yg12_sargi.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 112.0,
+   "kelime_ort": 108.13,
+   "en_sik_karakter_payi": 0.157,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yg12_sargi_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 129.19,
+   "en_sik_karakter_payi": 0.156,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yg12b_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 106.08,
+   "en_sik_karakter_payi": 0.178,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yg12b_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 130.0,
+   "kelime_ort": 119.15,
+   "en_sik_karakter_payi": 0.174,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yq4.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 96.0,
+   "kelime_ort": 95.04,
+   "en_sik_karakter_payi": 0.177,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yq4_sargi.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 89.0,
+   "kelime_ort": 88.88,
+   "en_sik_karakter_payi": 0.17,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yq4_sargi_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 88.0,
+   "kelime_ort": 88.69,
+   "en_sik_karakter_payi": 0.172,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yq9.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 94.0,
+   "kelime_ort": 93.45,
+   "en_sik_karakter_payi": 0.179,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yq9_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 125.0,
+   "kelime_ort": 121.94,
+   "en_sik_karakter_payi": 0.163,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yq9_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 123.0,
+   "kelime_ort": 121.86,
+   "en_sik_karakter_payi": 0.159,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yq9_sargi.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 87.0,
+   "kelime_ort": 85.75,
+   "en_sik_karakter_payi": 0.176,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yq9_sargi_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 88.0,
+   "kelime_ort": 87.41,
+   "en_sik_karakter_payi": 0.171,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yq9b_ham.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 134.0,
+   "kelime_ort": 129.33,
+   "en_sik_karakter_payi": 0.166,
+   "DEJENERE": false
+  },
+  "<data>/onek_korpus/yazar_batarya/uretim_yq9b_ham_b3.jsonl": {
+   "alan": "metin",
+   "n_satir": 816,
+   "kelime_medyan": 131.0,
+   "kelime_ort": 128.49,
+   "en_sik_karakter_payi": 0.166,
+   "DEJENERE": false
+  }
+ }
+}

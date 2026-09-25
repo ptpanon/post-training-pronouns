@@ -1,0 +1,272 @@
+{
+ "damga_utc": "2026-09-10T11:33:41Z",
+ "SINIF": "KESIF/BETIM — bar YOK · ad YOK · prediction YOK (§10)",
+ "alet": "scripts/turn_marker.py",
+ "borc": "D-0910-V32 §B/1.6",
+ "kok": "<data>/c1_panel_template",
+ "isaret_kaynagi": "",
+ "sinir": "",
+ "aile": {
+  "Qwen2.5-1.5B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 0,
+   "pay_isaretli": 0.0,
+   "M1_taban": 16.3802,
+   "M1_taban_kesik": 16.3802,
+   "M1_hizali": 14.6062,
+   "dM1": -1.774,
+   "dM1_kesik": -1.774,
+   "pay_you_isaretten_sonra": 0.0,
+   "isaretler": [
+    "<|im_end|>",
+    "<|im_start|>"
+   ]
+  },
+  "Qwen2.5-3B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 0,
+   "pay_isaretli": 0.0,
+   "M1_taban": 14.3587,
+   "M1_taban_kesik": 14.3587,
+   "M1_hizali": 10.7095,
+   "dM1": -3.6492,
+   "dM1_kesik": -3.6492,
+   "pay_you_isaretten_sonra": 0.0,
+   "isaretler": [
+    "<|im_end|>",
+    "<|im_start|>"
+   ]
+  },
+  "Mistral-7B-v0.3": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 0,
+   "pay_isaretli": 0.0,
+   "M1_taban": 13.4605,
+   "M1_taban_kesik": 13.4605,
+   "M1_hizali": 13.4097,
+   "dM1": -0.0507,
+   "dM1_kesik": -0.0507,
+   "pay_you_isaretten_sonra": 0.0,
+   "isaretler": [
+    "[/INST]",
+    "[INST]"
+   ]
+  },
+  "Qwen2.5-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 0,
+   "pay_isaretli": 0.0,
+   "M1_taban": 20.4219,
+   "M1_taban_kesik": 20.4219,
+   "M1_hizali": 8.4419,
+   "dM1": -11.9801,
+   "dM1_kesik": -11.9801,
+   "pay_you_isaretten_sonra": 0.0,
+   "isaretler": [
+    "<|im_end|>",
+    "<|im_start|>"
+   ]
+  },
+  "OLMo-3-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 3,
+   "pay_isaretli": 0.0005,
+   "M1_taban": 19.7191,
+   "M1_taban_kesik": 19.7183,
+   "M1_hizali": 27.018,
+   "dM1": 7.2989,
+   "dM1_kesik": 7.2997,
+   "pay_you_isaretten_sonra": 0.0003,
+   "isaretler": [
+    "<|im_end|>",
+    "<|im_start|>"
+   ]
+  },
+  "Llama-3.1-8B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 0,
+   "pay_isaretli": 0.0,
+   "M1_taban": 11.4681,
+   "M1_taban_kesik": 11.4681,
+   "M1_hizali": 19.8987,
+   "dM1": 8.4305,
+   "dM1_kesik": 8.4305,
+   "pay_you_isaretten_sonra": 0.0,
+   "isaretler": [
+    "<|begin_of_text|>",
+    "<|end_header_id|>",
+    "<|eot_id|>",
+    "<|start_header_id|>"
+   ]
+  },
+  "Tulu3-8B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 4429,
+   "pay_isaretli": 0.6785,
+   "M1_taban": 19.1159,
+   "M1_taban_kesik": 17.8127,
+   "M1_hizali": 1.942,
+   "dM1": -17.174,
+   "dM1_kesik": -15.8708,
+   "pay_you_isaretten_sonra": 0.5525,
+   "isaretler": [
+    "<|assistant|>",
+    "<|user|>"
+   ]
+  },
+  "Gemma-3-4B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 0,
+   "pay_isaretli": 0.0,
+   "M1_taban": 12.1598,
+   "M1_taban_kesik": 12.1598,
+   "M1_hizali": 38.8823,
+   "dM1": 26.7224,
+   "dM1_kesik": 26.7224,
+   "pay_you_isaretten_sonra": 0.0,
+   "isaretler": [
+    "<end_of_turn>",
+    "<start_of_turn>"
+   ]
+  },
+  "OLMo2-13B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 5212,
+   "pay_isaretli": 0.7984,
+   "M1_taban": 17.7205,
+   "M1_taban_kesik": 16.7017,
+   "M1_hizali": 4.1458,
+   "dM1": -13.5747,
+   "dM1_kesik": -12.5559,
+   "pay_you_isaretten_sonra": 0.607,
+   "isaretler": [
+    "<|assistant|>",
+    "<|endoftext|>",
+    "<|user|>"
+   ]
+  },
+  "Gemma-3-12B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 9,
+   "pay_isaretli": 0.0014,
+   "M1_taban": 10.6609,
+   "M1_taban_kesik": 10.6592,
+   "M1_hizali": 35.4994,
+   "dM1": 24.8385,
+   "dM1_kesik": 24.8403,
+   "pay_you_isaretten_sonra": 0.0008,
+   "isaretler": [
+    "<end_of_turn>",
+    "<start_of_turn>"
+   ]
+  },
+  "Qwen2.5-14B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 1,
+   "pay_isaretli": 0.0002,
+   "M1_taban": 19.372,
+   "M1_taban_kesik": 19.3714,
+   "M1_hizali": 10.8522,
+   "dM1": -8.5198,
+   "dM1_kesik": -8.5192,
+   "pay_you_isaretten_sonra": 0.0001,
+   "isaretler": [
+    "<|im_end|>",
+    "<|im_start|>"
+   ]
+  },
+  "Gemma-3-27B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 0,
+   "pay_isaretli": 0.0,
+   "M1_taban": 8.3199,
+   "M1_taban_kesik": 8.3199,
+   "M1_hizali": 41.0964,
+   "dM1": 32.7764,
+   "dM1_kesik": 32.7764,
+   "pay_you_isaretten_sonra": 0.0,
+   "isaretler": [
+    "<end_of_turn>",
+    "<start_of_turn>"
+   ]
+  },
+  "OLMo2-32B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 3551,
+   "pay_isaretli": 0.544,
+   "M1_taban": 16.6628,
+   "M1_taban_kesik": 14.025,
+   "M1_hizali": 4.7858,
+   "dM1": -11.877,
+   "dM1_kesik": -9.2391,
+   "pay_you_isaretten_sonra": 0.4703,
+   "isaretler": [
+    "<|assistant|>",
+    "<|user|>"
+   ]
+  },
+  "Qwen2.5-32B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 0,
+   "pay_isaretli": 0.0,
+   "M1_taban": 20.2606,
+   "M1_taban_kesik": 20.2606,
+   "M1_hizali": 11.8372,
+   "dM1": -8.4234,
+   "dM1_kesik": -8.4234,
+   "pay_you_isaretten_sonra": 0.0,
+   "isaretler": [
+    "<|im_end|>",
+    "<|im_start|>"
+   ]
+  },
+  "Qwen2.5-72B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 0,
+   "pay_isaretli": 0.0,
+   "M1_taban": 11.1315,
+   "M1_taban_kesik": 11.1315,
+   "M1_hizali": 9.9018,
+   "dM1": -1.2297,
+   "dM1_kesik": -1.2297,
+   "pay_you_isaretten_sonra": 0.0,
+   "isaretler": [
+    "<|im_end|>",
+    "<|im_start|>"
+   ]
+  },
+  "Llama-3.1-70B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "n_isaretli": 0,
+   "pay_isaretli": 0.0,
+   "M1_taban": 8.7134,
+   "M1_taban_kesik": 8.7134,
+   "M1_hizali": 23.3451,
+   "dM1": 14.6317,
+   "dM1_kesik": 14.6317,
+   "pay_you_isaretten_sonra": 0.0,
+   "isaretler": [
+    "<|begin_of_text|>",
+    "<|end_header_id|>",
+    "<|eot_id|>",
+    "<|start_header_id|>"
+   ]
+  }
+ }
+}

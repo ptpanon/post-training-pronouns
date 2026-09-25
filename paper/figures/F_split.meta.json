@@ -1,0 +1,19 @@
+{
+ "figure": "F_split",
+ "caption_draft": "Second-person and first-person density for the sixteen models, base (open) and aligned (filled), raw continuation and through each aligned checkpoint's own template, on the same filtered cells; one row order in all three panels, taken from Table 1 (T1_families.meta.json «sira»).",
+ "sources": [
+  {
+   "yol": "results/template_filtered_2026-09-07.json",
+   "sha256_16": "84812c8ac68df5ab"
+  },
+  {
+   "yol": "results/template_filtered_first_person_2026-09-15.json",
+   "sha256_16": "1a0a578aeaea57ff"
+  },
+  {
+   "yol": "paper/figures/BANT.meta.json",
+   "sha256_16": "a730f153725070cc"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

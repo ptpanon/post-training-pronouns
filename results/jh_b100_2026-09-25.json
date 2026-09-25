@@ -1,0 +1,867 @@
+{
+ "prereg": "prereg_jh_b100_2026-09-25.md@550b5754",
+ "notice": "prerun_notice_jh_b100_2026-09-25.md@3fb0e1bd",
+ "girdi_sha": {
+  "<data>/v96_c2/insan/INSAN_PAKETI_V96_C2_B_100_DOLU_2026-09-21.md": "5985fe6d4258148351a1dabe9e8d4277f82c6d5de60d696b286683b81f9dc0fa",
+  "<data>/v96_c2/anahtar/ANAHTAR_V96_C2_B.jsonl": "fb4eee2ad772a042e8d6a9c68ea75e2b6ff140865bc41215d17d45f5b85db6ad",
+  "<data>/v96_c2/B_orneklem.jsonl": "97473f638c3e05db7011b17740cf3e7e6e3dfaebd123985a8f8fd6a239819f15",
+  "<repo>/scripts/generic_vs_addressed_you.py": "34b5b152880ab21765c750ea6e4cb856d6f34007d9ebb4069a941038ec1c3153",
+  "<repo>/scripts/v99_c2b_uyum.py": "76a829b227cca9658859ce3cf235f367943c390921060ada5dd6b5b790bfefec"
+ },
+ "n": 100,
+ "mukerrer": [],
+ "sema_disi": [],
+ "ozet": {
+  "jenerik": [
+   5,
+   8
+  ],
+  "hitap": [
+   6,
+   9
+  ],
+  "belirsiz": 83,
+  "belirsiz_cozulen": 78
+ },
+ "aralik95_aile_kumeli": {
+  "jenerik": [
+   0.25,
+   1.0
+  ],
+  "hitap": [
+   0.308,
+   1.0
+  ],
+  "n_cekim": 2000,
+  "seed": 20260925,
+  "n_aile": 16
+ },
+ "kirilim_bicim": {
+  "cip": {
+   "jenerik": [
+    4,
+    4
+   ],
+   "hitap": [
+    4,
+    6
+   ],
+   "belirsiz": 34,
+   "belirsiz_cozulen": 32
+  },
+  "sbl": {
+   "jenerik": [
+    1,
+    4
+   ],
+   "hitap": [
+    2,
+    3
+   ],
+   "belirsiz": 49,
+   "belirsiz_cozulen": 46
+  }
+ },
+ "hucreler": [
+  {
+   "h": 1,
+   "kimlik": "B|OLMo-3-7B|cip|hizali|293|5",
+   "aile": "OLMo-3-7B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 2,
+   "kimlik": "B|Gemma-3-4B|cip|hizali|2622|3",
+   "aile": "Gemma-3-4B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 3,
+   "kimlik": "B|Qwen2.5-14B|sbl|hizali|4297|0",
+   "aile": "Qwen2.5-14B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 4,
+   "kimlik": "B|Llama-3.1-70B|cip|hizali|790|12",
+   "aile": "Llama-3.1-70B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 5,
+   "kimlik": "B|Qwen2.5-72B|cip|hizali|3357|7",
+   "aile": "Qwen2.5-72B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 6,
+   "kimlik": "B|Llama-3.1-70B|cip|taban|252|9",
+   "aile": "Llama-3.1-70B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 7,
+   "kimlik": "B|OLMo2-13B|cip|hizali|6513|8",
+   "aile": "OLMo2-13B",
+   "bicim": "cip",
+   "sahip": "UNDETERMINED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 8,
+   "kimlik": "B|Tulu3-8B|cip|taban|2188|8",
+   "aile": "Tulu3-8B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 9,
+   "kimlik": "B|Gemma-3-12B|cip|taban|5587|0",
+   "aile": "Gemma-3-12B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 10,
+   "kimlik": "B|Qwen2.5-72B|sbl|taban|3207|0",
+   "aile": "Qwen2.5-72B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "JENERIK"
+  },
+  {
+   "h": 11,
+   "kimlik": "B|Qwen2.5-1.5B|sbl|taban|3427|1",
+   "aile": "Qwen2.5-1.5B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 12,
+   "kimlik": "B|OLMo2-13B|cip|taban|3569|4",
+   "aile": "OLMo2-13B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "HITAP"
+  },
+  {
+   "h": 13,
+   "kimlik": "B|Qwen2.5-1.5B|sbl|taban|5200|0",
+   "aile": "Qwen2.5-1.5B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 14,
+   "kimlik": "B|Qwen2.5-3B|sbl|hizali|5310|0",
+   "aile": "Qwen2.5-3B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 15,
+   "kimlik": "B|Qwen2.5-32B|cip|taban|5973|2",
+   "aile": "Qwen2.5-32B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 16,
+   "kimlik": "B|OLMo2-13B|sbl|hizali|3065|0",
+   "aile": "OLMo2-13B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 17,
+   "kimlik": "B|Qwen2.5-32B|cip|hizali|3199|0",
+   "aile": "Qwen2.5-32B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 18,
+   "kimlik": "B|Gemma-3-27B|sbl|taban|3450|4",
+   "aile": "Gemma-3-27B",
+   "bicim": "sbl",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 19,
+   "kimlik": "B|Qwen2.5-14B|cip|taban|2869|4",
+   "aile": "Qwen2.5-14B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "JENERIK"
+  },
+  {
+   "h": 20,
+   "kimlik": "B|Qwen2.5-3B|sbl|taban|4432|11",
+   "aile": "Qwen2.5-3B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 21,
+   "kimlik": "B|Gemma-3-4B|sbl|hizali|4982|6",
+   "aile": "Gemma-3-4B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 22,
+   "kimlik": "B|Qwen2.5-3B|sbl|taban|3750|7",
+   "aile": "Qwen2.5-3B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 23,
+   "kimlik": "B|Mistral-7B-v0.3|sbl|hizali|4089|6",
+   "aile": "Mistral-7B-v0.3",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 24,
+   "kimlik": "B|Qwen2.5-32B|cip|hizali|4360|8",
+   "aile": "Qwen2.5-32B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 25,
+   "kimlik": "B|Mistral-7B-v0.3|sbl|hizali|1910|0",
+   "aile": "Mistral-7B-v0.3",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 26,
+   "kimlik": "B|Qwen2.5-1.5B|sbl|hizali|5374|1",
+   "aile": "Qwen2.5-1.5B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 27,
+   "kimlik": "B|Llama-3.1-8B|sbl|hizali|3325|2",
+   "aile": "Llama-3.1-8B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 28,
+   "kimlik": "B|Qwen2.5-32B|cip|hizali|4144|1",
+   "aile": "Qwen2.5-32B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 29,
+   "kimlik": "B|OLMo2-13B|sbl|hizali|91|6",
+   "aile": "OLMo2-13B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 30,
+   "kimlik": "B|Gemma-3-4B|sbl|taban|2797|6",
+   "aile": "Gemma-3-4B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 31,
+   "kimlik": "B|Llama-3.1-8B|cip|hizali|1906|13",
+   "aile": "Llama-3.1-8B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 32,
+   "kimlik": "B|Qwen2.5-7B|sbl|hizali|4720|3",
+   "aile": "Qwen2.5-7B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 33,
+   "kimlik": "B|Gemma-3-12B|sbl|taban|3874|5",
+   "aile": "Gemma-3-12B",
+   "bicim": "sbl",
+   "sahip": "UNDETERMINED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 34,
+   "kimlik": "B|OLMo2-32B|sbl|hizali|6226|0",
+   "aile": "OLMo2-32B",
+   "bicim": "sbl",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 35,
+   "kimlik": "B|Qwen2.5-3B|sbl|taban|1978|5",
+   "aile": "Qwen2.5-3B",
+   "bicim": "sbl",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 36,
+   "kimlik": "B|OLMo-3-7B|cip|taban|1802|3",
+   "aile": "OLMo-3-7B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 37,
+   "kimlik": "B|Gemma-3-27B|cip|taban|1111|2",
+   "aile": "Gemma-3-27B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 38,
+   "kimlik": "B|Qwen2.5-7B|cip|hizali|1229|4",
+   "aile": "Qwen2.5-7B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 39,
+   "kimlik": "B|Qwen2.5-1.5B|cip|taban|3921|1",
+   "aile": "Qwen2.5-1.5B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "HITAP"
+  },
+  {
+   "h": 40,
+   "kimlik": "B|Gemma-3-12B|sbl|taban|316|0",
+   "aile": "Gemma-3-12B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 41,
+   "kimlik": "B|Llama-3.1-8B|cip|taban|1089|2",
+   "aile": "Llama-3.1-8B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 42,
+   "kimlik": "B|Qwen2.5-72B|cip|taban|3425|12",
+   "aile": "Qwen2.5-72B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 43,
+   "kimlik": "B|Gemma-3-12B|sbl|hizali|4428|1",
+   "aile": "Gemma-3-12B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 44,
+   "kimlik": "B|Mistral-7B-v0.3|sbl|taban|6041|7",
+   "aile": "Mistral-7B-v0.3",
+   "bicim": "sbl",
+   "sahip": "UNDETERMINED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 45,
+   "kimlik": "B|Gemma-3-4B|sbl|taban|2757|1",
+   "aile": "Gemma-3-4B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 46,
+   "kimlik": "B|Qwen2.5-1.5B|cip|hizali|2945|10",
+   "aile": "Qwen2.5-1.5B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 47,
+   "kimlik": "B|Qwen2.5-72B|sbl|taban|265|0",
+   "aile": "Qwen2.5-72B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 48,
+   "kimlik": "B|Tulu3-8B|sbl|hizali|254|2",
+   "aile": "Tulu3-8B",
+   "bicim": "sbl",
+   "sahip": "GENERIC",
+   "alet": "JENERIK"
+  },
+  {
+   "h": 49,
+   "kimlik": "B|Qwen2.5-72B|cip|taban|2132|6",
+   "aile": "Qwen2.5-72B",
+   "bicim": "cip",
+   "sahip": "UNDETERMINED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 50,
+   "kimlik": "B|Llama-3.1-70B|sbl|taban|5027|4",
+   "aile": "Llama-3.1-70B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "JENERIK"
+  },
+  {
+   "h": 51,
+   "kimlik": "B|OLMo2-32B|sbl|hizali|5492|0",
+   "aile": "OLMo2-32B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "HITAP"
+  },
+  {
+   "h": 52,
+   "kimlik": "B|Qwen2.5-1.5B|cip|taban|4205|13",
+   "aile": "Qwen2.5-1.5B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 53,
+   "kimlik": "B|Tulu3-8B|sbl|hizali|684|9",
+   "aile": "Tulu3-8B",
+   "bicim": "sbl",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 54,
+   "kimlik": "B|OLMo2-32B|sbl|taban|1261|7",
+   "aile": "OLMo2-32B",
+   "bicim": "sbl",
+   "sahip": "UNDETERMINED",
+   "alet": "HITAP"
+  },
+  {
+   "h": 55,
+   "kimlik": "B|Qwen2.5-14B|cip|hizali|3268|6",
+   "aile": "Qwen2.5-14B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 56,
+   "kimlik": "B|Llama-3.1-70B|sbl|hizali|2485|1",
+   "aile": "Llama-3.1-70B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 57,
+   "kimlik": "B|OLMo2-32B|sbl|taban|2828|0",
+   "aile": "OLMo2-32B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 58,
+   "kimlik": "B|Mistral-7B-v0.3|sbl|hizali|4164|0",
+   "aile": "Mistral-7B-v0.3",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 59,
+   "kimlik": "B|Qwen2.5-32B|sbl|hizali|1739|6",
+   "aile": "Qwen2.5-32B",
+   "bicim": "sbl",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 60,
+   "kimlik": "B|Gemma-3-27B|sbl|hizali|4755|0",
+   "aile": "Gemma-3-27B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 61,
+   "kimlik": "B|Qwen2.5-14B|sbl|hizali|1880|1",
+   "aile": "Qwen2.5-14B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 62,
+   "kimlik": "B|Qwen2.5-7B|cip|hizali|1195|0",
+   "aile": "Qwen2.5-7B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 63,
+   "kimlik": "B|Qwen2.5-7B|cip|taban|375|12",
+   "aile": "Qwen2.5-7B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "JENERIK"
+  },
+  {
+   "h": 64,
+   "kimlik": "B|OLMo2-32B|sbl|taban|444|3",
+   "aile": "OLMo2-32B",
+   "bicim": "sbl",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 65,
+   "kimlik": "B|OLMo-3-7B|sbl|taban|1837|0",
+   "aile": "OLMo-3-7B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 66,
+   "kimlik": "B|Gemma-3-4B|sbl|hizali|4694|1",
+   "aile": "Gemma-3-4B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 67,
+   "kimlik": "B|Mistral-7B-v0.3|cip|taban|3948|6",
+   "aile": "Mistral-7B-v0.3",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 68,
+   "kimlik": "B|OLMo-3-7B|cip|hizali|2293|3",
+   "aile": "OLMo-3-7B",
+   "bicim": "cip",
+   "sahip": "UNDETERMINED",
+   "alet": "HITAP"
+  },
+  {
+   "h": 69,
+   "kimlik": "B|Qwen2.5-7B|sbl|taban|6367|6",
+   "aile": "Qwen2.5-7B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 70,
+   "kimlik": "B|Tulu3-8B|cip|hizali|1025|8",
+   "aile": "Tulu3-8B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 71,
+   "kimlik": "B|OLMo-3-7B|cip|hizali|1408|1",
+   "aile": "OLMo-3-7B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 72,
+   "kimlik": "B|Gemma-3-12B|cip|taban|1680|2",
+   "aile": "Gemma-3-12B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 73,
+   "kimlik": "B|OLMo-3-7B|cip|hizali|3276|6",
+   "aile": "OLMo-3-7B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 74,
+   "kimlik": "B|Tulu3-8B|sbl|hizali|1244|0",
+   "aile": "Tulu3-8B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 75,
+   "kimlik": "B|Mistral-7B-v0.3|cip|taban|597|5",
+   "aile": "Mistral-7B-v0.3",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 76,
+   "kimlik": "B|OLMo2-13B|sbl|hizali|4341|7",
+   "aile": "OLMo2-13B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 77,
+   "kimlik": "B|Qwen2.5-3B|sbl|hizali|4815|1",
+   "aile": "Qwen2.5-3B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "HITAP"
+  },
+  {
+   "h": 78,
+   "kimlik": "B|Qwen2.5-3B|sbl|hizali|3463|0",
+   "aile": "Qwen2.5-3B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 79,
+   "kimlik": "B|OLMo-3-7B|sbl|taban|4025|6",
+   "aile": "OLMo-3-7B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 80,
+   "kimlik": "B|Llama-3.1-8B|cip|hizali|5003|3",
+   "aile": "Llama-3.1-8B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 81,
+   "kimlik": "B|Llama-3.1-70B|cip|taban|888|4",
+   "aile": "Llama-3.1-70B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "HITAP"
+  },
+  {
+   "h": 82,
+   "kimlik": "B|Gemma-3-4B|sbl|hizali|4895|0",
+   "aile": "Gemma-3-4B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 83,
+   "kimlik": "B|Gemma-3-12B|cip|hizali|4596|11",
+   "aile": "Gemma-3-12B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 84,
+   "kimlik": "B|Gemma-3-4B|sbl|taban|4391|0",
+   "aile": "Gemma-3-4B",
+   "bicim": "sbl",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 85,
+   "kimlik": "B|Gemma-3-12B|cip|hizali|1815|7",
+   "aile": "Gemma-3-12B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "HITAP"
+  },
+  {
+   "h": 86,
+   "kimlik": "B|Llama-3.1-70B|sbl|taban|1282|1",
+   "aile": "Llama-3.1-70B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 87,
+   "kimlik": "B|Qwen2.5-14B|sbl|taban|1733|7",
+   "aile": "Qwen2.5-14B",
+   "bicim": "sbl",
+   "sahip": "UNDETERMINED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 88,
+   "kimlik": "B|Gemma-3-27B|sbl|hizali|3814|6",
+   "aile": "Gemma-3-27B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 89,
+   "kimlik": "B|Qwen2.5-7B|cip|taban|5|0",
+   "aile": "Qwen2.5-7B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 90,
+   "kimlik": "B|Gemma-3-27B|cip|hizali|3506|0",
+   "aile": "Gemma-3-27B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "JENERIK"
+  },
+  {
+   "h": 91,
+   "kimlik": "B|Qwen2.5-14B|sbl|hizali|1560|0",
+   "aile": "Qwen2.5-14B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 92,
+   "kimlik": "B|Qwen2.5-72B|sbl|hizali|6331|4",
+   "aile": "Qwen2.5-72B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "JENERIK"
+  },
+  {
+   "h": 93,
+   "kimlik": "B|OLMo2-13B|cip|hizali|3249|6",
+   "aile": "OLMo2-13B",
+   "bicim": "cip",
+   "sahip": "ADDRESSED",
+   "alet": "HITAP"
+  },
+  {
+   "h": 94,
+   "kimlik": "B|Llama-3.1-8B|cip|taban|3958|0",
+   "aile": "Llama-3.1-8B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "JENERIK"
+  },
+  {
+   "h": 95,
+   "kimlik": "B|Qwen2.5-32B|sbl|taban|3974|9",
+   "aile": "Qwen2.5-32B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 96,
+   "kimlik": "B|Llama-3.1-8B|sbl|hizali|2595|2",
+   "aile": "Llama-3.1-8B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 97,
+   "kimlik": "B|OLMo2-32B|cip|hizali|5540|0",
+   "aile": "OLMo2-32B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 98,
+   "kimlik": "B|Gemma-3-27B|sbl|taban|1111|4",
+   "aile": "Gemma-3-27B",
+   "bicim": "sbl",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 99,
+   "kimlik": "B|Tulu3-8B|cip|hizali|515|5",
+   "aile": "Tulu3-8B",
+   "bicim": "cip",
+   "sahip": "GENERIC",
+   "alet": "BELIRSIZ"
+  },
+  {
+   "h": 100,
+   "kimlik": "B|OLMo2-32B|sbl|hizali|3167|0",
+   "aile": "OLMo2-32B",
+   "bicim": "sbl",
+   "sahip": "ADDRESSED",
+   "alet": "BELIRSIZ"
+  }
+ ]
+}

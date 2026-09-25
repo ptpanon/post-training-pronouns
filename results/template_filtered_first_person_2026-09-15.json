@@ -1,0 +1,799 @@
+{
+ "_kunye": {
+  "alet": "scripts/template_filtered_first_person.py",
+  "damga_utc": "2026-09-15T08:58:37Z",
+  "sinif": "BETIMSEL",
+  "olcu_birinci_sahis": "muhatap9_kos.sahis1_1k = 1000·(m5_yakin − m1_sahis2)/n_jeton (türetilmis; cümle basi hitap yanliligi adiyla)",
+  "suzgec": "template_filtered: hücre dört bacakta da dejenere degilse (ayni rule)",
+  "aralik": "",
+  "kanonik_card": "<repo>/results/template_filtered_2026-09-07.json",
+  "esdeger_alan": 32,
+  "esdeger_fark": 0,
+  "sure_dk": 15.9
+ },
+ "sayim": {
+  "sbl_1": {
+   "yukari": [],
+   "asagi": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "null": []
+  },
+  "sbl_2": {
+   "yukari": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "OLMo-3-7B",
+    "Qwen2.5-1.5B"
+   ],
+   "asagi": [
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "null": [
+    "Mistral-7B-v0.3",
+    "Qwen2.5-72B"
+   ]
+  },
+  "cip_1": {
+   "yukari": [],
+   "asagi": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "null": []
+  },
+  "cip_2": {
+   "yukari": [],
+   "asagi": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "null": []
+  }
+ },
+ "capraz_sablonlu": {
+  "Gemma-3-12B": {
+   "sablonlu_2": "yukari",
+   "sablonlu_1": "asagi"
+  },
+  "Gemma-3-27B": {
+   "sablonlu_2": "yukari",
+   "sablonlu_1": "asagi"
+  },
+  "Gemma-3-4B": {
+   "sablonlu_2": "yukari",
+   "sablonlu_1": "asagi"
+  },
+  "Llama-3.1-70B": {
+   "sablonlu_2": "yukari",
+   "sablonlu_1": "asagi"
+  },
+  "Llama-3.1-8B": {
+   "sablonlu_2": "yukari",
+   "sablonlu_1": "asagi"
+  },
+  "Mistral-7B-v0.3": {
+   "sablonlu_2": "null",
+   "sablonlu_1": "asagi"
+  },
+  "OLMo-3-7B": {
+   "sablonlu_2": "yukari",
+   "sablonlu_1": "asagi"
+  },
+  "OLMo2-13B": {
+   "sablonlu_2": "asagi",
+   "sablonlu_1": "asagi"
+  },
+  "OLMo2-32B": {
+   "sablonlu_2": "asagi",
+   "sablonlu_1": "asagi"
+  },
+  "Qwen2.5-1.5B": {
+   "sablonlu_2": "yukari",
+   "sablonlu_1": "asagi"
+  },
+  "Qwen2.5-14B": {
+   "sablonlu_2": "asagi",
+   "sablonlu_1": "asagi"
+  },
+  "Qwen2.5-32B": {
+   "sablonlu_2": "asagi",
+   "sablonlu_1": "asagi"
+  },
+  "Qwen2.5-3B": {
+   "sablonlu_2": "asagi",
+   "sablonlu_1": "asagi"
+  },
+  "Qwen2.5-72B": {
+   "sablonlu_2": "null",
+   "sablonlu_1": "asagi"
+  },
+  "Qwen2.5-7B": {
+   "sablonlu_2": "asagi",
+   "sablonlu_1": "asagi"
+  },
+  "Tulu3-8B": {
+   "sablonlu_2": "asagi",
+   "sablonlu_1": "asagi"
+  }
+ },
+ "uyum_sablonlu_1_2": 7,
+ "aileler": [
+  {
+   "aile": "Gemma-3-12B",
+   "tutulan_oran": 0.4672,
+   "sbl": {
+    "d2": 24.6134,
+    "ci2": [
+     22.3864,
+     26.6087
+    ],
+    "esdeger_card": true,
+    "d1": -15.3301,
+    "ci1": [
+     -16.8505,
+     -14.0027
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 26.3413,
+    "S1_hizali": 11.0112
+   },
+   "cip": {
+    "d2": -3.2757,
+    "ci2": [
+     -5.0477,
+     -1.6725
+    ],
+    "esdeger_card": true,
+    "d1": -16.4528,
+    "ci1": [
+     -17.9952,
+     -14.838
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 26.7889,
+    "S1_hizali": 10.336
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Gemma-3-27B",
+   "tutulan_oran": 0.4358,
+   "sbl": {
+    "d2": 32.2671,
+    "ci2": [
+     30.4194,
+     33.9
+    ],
+    "esdeger_card": true,
+    "d1": -17.2514,
+    "ci1": [
+     -18.4859,
+     -15.9952
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 30.7182,
+    "S1_hizali": 13.4668
+   },
+   "cip": {
+    "d2": -2.8103,
+    "ci2": [
+     -5.2469,
+     -0.61
+    ],
+    "esdeger_card": true,
+    "d1": -15.1628,
+    "ci1": [
+     -16.7152,
+     -13.4665
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 28.4642,
+    "S1_hizali": 13.3014
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Gemma-3-4B",
+   "tutulan_oran": 0.4145,
+   "sbl": {
+    "d2": 26.3549,
+    "ci2": [
+     24.6053,
+     27.8856
+    ],
+    "esdeger_card": true,
+    "d1": -20.8116,
+    "ci1": [
+     -21.9444,
+     -19.5776
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 27.2086,
+    "S1_hizali": 6.3971
+   },
+   "cip": {
+    "d2": -3.1733,
+    "ci2": [
+     -5.0407,
+     -1.4392
+    ],
+    "esdeger_card": true,
+    "d1": -10.9301,
+    "ci1": [
+     -12.5777,
+     -9.1273
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 25.0754,
+    "S1_hizali": 14.1453
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Llama-3.1-70B",
+   "tutulan_oran": 0.3713,
+   "sbl": {
+    "d2": 14.7602,
+    "ci2": [
+     13.5109,
+     16.0792
+    ],
+    "esdeger_card": true,
+    "d1": -17.1438,
+    "ci1": [
+     -18.4153,
+     -15.7452
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 22.4056,
+    "S1_hizali": 5.2617
+   },
+   "cip": {
+    "d2": -4.3065,
+    "ci2": [
+     -5.1243,
+     -3.5108
+    ],
+    "esdeger_card": true,
+    "d1": -8.097,
+    "ci1": [
+     -9.7578,
+     -6.4951
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 27.865,
+    "S1_hizali": 19.768
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Llama-3.1-8B",
+   "tutulan_oran": 0.4128,
+   "sbl": {
+    "d2": 7.5054,
+    "ci2": [
+     6.2642,
+     8.6175
+    ],
+    "esdeger_card": true,
+    "d1": -20.8159,
+    "ci1": [
+     -22.4196,
+     -19.0627
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 26.9896,
+    "S1_hizali": 6.1738
+   },
+   "cip": {
+    "d2": -5.4409,
+    "ci2": [
+     -6.7596,
+     -4.2166
+    ],
+    "esdeger_card": true,
+    "d1": -7.8732,
+    "ci1": [
+     -9.3969,
+     -6.4402
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 24.7922,
+    "S1_hizali": 16.919
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Mistral-7B-v0.3",
+   "tutulan_oran": 0.6195,
+   "sbl": {
+    "d2": -0.1126,
+    "ci2": [
+     -2.6192,
+     1.8495
+    ],
+    "esdeger_card": true,
+    "d1": -16.3495,
+    "ci1": [
+     -18.124,
+     -14.5357
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 23.6801,
+    "S1_hizali": 7.3306
+   },
+   "cip": {
+    "d2": -9.9918,
+    "ci2": [
+     -11.5024,
+     -8.7014
+    ],
+    "esdeger_card": true,
+    "d1": -15.5926,
+    "ci1": [
+     -17.0247,
+     -14.12
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 22.8418,
+    "S1_hizali": 7.2491
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "OLMo-3-7B",
+   "tutulan_oran": 0.6706,
+   "sbl": {
+    "d2": 9.9182,
+    "ci2": [
+     8.63,
+     11.1988
+    ],
+    "esdeger_card": true,
+    "d1": -16.534,
+    "ci1": [
+     -17.6267,
+     -15.5143
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 22.9138,
+    "S1_hizali": 6.3798
+   },
+   "cip": {
+    "d2": -4.5248,
+    "ci2": [
+     -5.4272,
+     -3.5282
+    ],
+    "esdeger_card": true,
+    "d1": -8.0967,
+    "ci1": [
+     -9.2286,
+     -6.9451
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 24.9665,
+    "S1_hizali": 16.8698
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "OLMo2-13B",
+   "tutulan_oran": 0.4586,
+   "sbl": {
+    "d2": -14.5455,
+    "ci2": [
+     -16.316,
+     -12.9526
+    ],
+    "esdeger_card": true,
+    "d1": -28.3784,
+    "ci1": [
+     -29.5973,
+     -27.0156
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 29.841,
+    "S1_hizali": 1.4626
+   },
+   "cip": {
+    "d2": -6.5648,
+    "ci2": [
+     -7.6772,
+     -5.5462
+    ],
+    "esdeger_card": true,
+    "d1": -12.8246,
+    "ci1": [
+     -13.8681,
+     -11.7455
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 24.5945,
+    "S1_hizali": 11.7699
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "OLMo2-32B",
+   "tutulan_oran": 0.5127,
+   "sbl": {
+    "d2": -12.6538,
+    "ci2": [
+     -14.6705,
+     -10.9746
+    ],
+    "esdeger_card": true,
+    "d1": -26.7574,
+    "ci1": [
+     -28.149,
+     -25.4817
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 29.9208,
+    "S1_hizali": 3.1634
+   },
+   "cip": {
+    "d2": -4.7525,
+    "ci2": [
+     -5.5659,
+     -3.9419
+    ],
+    "esdeger_card": true,
+    "d1": -10.7867,
+    "ci1": [
+     -12.2942,
+     -9.1413
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 27.8687,
+    "S1_hizali": 17.0821
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Qwen2.5-1.5B",
+   "tutulan_oran": 0.2793,
+   "sbl": {
+    "d2": 1.4252,
+    "ci2": [
+     0.0472,
+     2.9165
+    ],
+    "esdeger_card": true,
+    "d1": -12.835,
+    "ci1": [
+     -14.53,
+     -11.1723
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 29.9833,
+    "S1_hizali": 17.1483
+   },
+   "cip": {
+    "d2": -2.3115,
+    "ci2": [
+     -4.0199,
+     -0.9654
+    ],
+    "esdeger_card": true,
+    "d1": -6.4245,
+    "ci1": [
+     -8.0015,
+     -4.7961
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 22.1177,
+    "S1_hizali": 15.6932
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Qwen2.5-14B",
+   "tutulan_oran": 0.4809,
+   "sbl": {
+    "d2": -5.101,
+    "ci2": [
+     -6.747,
+     -3.688
+    ],
+    "esdeger_card": true,
+    "d1": -14.9262,
+    "ci1": [
+     -16.0344,
+     -13.7298
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 15.8489,
+    "S1_hizali": 0.9226
+   },
+   "cip": {
+    "d2": -3.9019,
+    "ci2": [
+     -5.8649,
+     -2.2371
+    ],
+    "esdeger_card": true,
+    "d1": -13.0085,
+    "ci1": [
+     -14.2346,
+     -11.6644
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 17.9375,
+    "S1_hizali": 4.929
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Qwen2.5-32B",
+   "tutulan_oran": 0.536,
+   "sbl": {
+    "d2": -7.2969,
+    "ci2": [
+     -9.0844,
+     -5.6363
+    ],
+    "esdeger_card": true,
+    "d1": -15.6023,
+    "ci1": [
+     -16.8372,
+     -14.4871
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 16.8766,
+    "S1_hizali": 1.2743
+   },
+   "cip": {
+    "d2": -2.4639,
+    "ci2": [
+     -3.8751,
+     -1.2595
+    ],
+    "esdeger_card": true,
+    "d1": -14.8273,
+    "ci1": [
+     -15.8688,
+     -13.7128
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 20.2508,
+    "S1_hizali": 5.4236
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Qwen2.5-3B",
+   "tutulan_oran": 0.5312,
+   "sbl": {
+    "d2": -2.8958,
+    "ci2": [
+     -3.9903,
+     -1.8882
+    ],
+    "esdeger_card": true,
+    "d1": -8.4171,
+    "ci1": [
+     -9.3974,
+     -7.354
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 12.365,
+    "S1_hizali": 3.948
+   },
+   "cip": {
+    "d2": -3.2656,
+    "ci2": [
+     -4.8038,
+     -1.8398
+    ],
+    "esdeger_card": true,
+    "d1": -8.6928,
+    "ci1": [
+     -9.6822,
+     -7.6528
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 18.0287,
+    "S1_hizali": 9.3359
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Qwen2.5-72B",
+   "tutulan_oran": 0.5797,
+   "sbl": {
+    "d2": -0.1712,
+    "ci2": [
+     -1.4601,
+     1.1043
+    ],
+    "esdeger_card": true,
+    "d1": -9.6776,
+    "ci1": [
+     -10.7054,
+     -8.6705
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 11.2733,
+    "S1_hizali": 1.5957
+   },
+   "cip": {
+    "d2": -3.8672,
+    "ci2": [
+     -6.1254,
+     -2.0289
+    ],
+    "esdeger_card": true,
+    "d1": -13.1869,
+    "ci1": [
+     -14.5211,
+     -11.9627
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 20.2795,
+    "S1_hizali": 7.0926
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Qwen2.5-7B",
+   "tutulan_oran": 0.4697,
+   "sbl": {
+    "d2": -7.234,
+    "ci2": [
+     -8.5315,
+     -5.9734
+    ],
+    "esdeger_card": true,
+    "d1": -10.6922,
+    "ci1": [
+     -12.001,
+     -9.5414
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 12.6925,
+    "S1_hizali": 2.0003
+   },
+   "cip": {
+    "d2": -4.2836,
+    "ci2": [
+     -6.1317,
+     -2.5216
+    ],
+    "esdeger_card": true,
+    "d1": -10.0249,
+    "ci1": [
+     -11.0556,
+     -9.0121
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 18.7479,
+    "S1_hizali": 8.723
+   },
+   "hal": "ÖLCÜLDÜ"
+  },
+  {
+   "aile": "Tulu3-8B",
+   "tutulan_oran": 0.4559,
+   "sbl": {
+    "d2": -18.4125,
+    "ci2": [
+     -19.8822,
+     -16.9563
+    ],
+    "esdeger_card": true,
+    "d1": -30.6272,
+    "ci1": [
+     -32.3954,
+     -28.9128
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 33.4257,
+    "S1_hizali": 2.7985
+   },
+   "cip": {
+    "d2": -9.2906,
+    "ci2": [
+     -10.8276,
+     -7.846
+    ],
+    "esdeger_card": true,
+    "d1": -17.9653,
+    "ci1": [
+     -19.5232,
+     -16.5302
+    ],
+    "ayrik1": true,
+    "n_istem": 34,
+    "S1_taban": 24.1648,
+    "S1_hizali": 6.1995
+   },
+   "hal": "ÖLCÜLDÜ"
+  }
+ ]
+}

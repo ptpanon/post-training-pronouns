@@ -1,0 +1,183 @@
+{
+ "_kunye": {
+  "alet": "scripts/task_vector_angle_ladder.py",
+  "damga_utc": "2026-09-12T23:42:14Z",
+  "prereg": "preregistration/prereg_task_vector_angle_2026-09-12.md",
+  "notice": "preregistration/prerun_notice_task_vector_angle_2026-09-12.md",
+  "prediction": "preregistration/prediction_task_vector_angle_2026-09-12.md",
+  "kirpma": "lm_head.weight + model.embed_tokens.weight ALTI merdivende de dislandi (ücünde sekil cakisiyor); emsal p11.tex §Ek",
+  "isaret": "CEVRIM YOK — Δ'lar dogrudan kuruldu; prova sayiyla gösterir",
+  "taban": "T1",
+  "seed": 20260912,
+  "prova": {
+   "isaret_cevrimi_sifir": true,
+   "kapali_form_sn": 4880.7168,
+   "ampirik_var": 4970.3005,
+   "kapali_form_ampirige_uyuyor": true,
+   "dejenere_sabit_vektor": true
+  },
+  "sure_dk": 104.9
+ },
+ "merdiven": {
+  "Tulu3-8B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_ortak": 291,
+   "n_sekil_cakismasi": 2,
+   "cakisan": [
+    "lm_head.weight",
+    "model.embed_tokens.weight"
+   ],
+   "n_kullanilan": 289,
+   "T": 235,
+   "COS": 0.0016013191570821328,
+   "COS_perm": -1.6034569130896778e-05,
+   "null_sd_kapali": 1.1935233301663241e-05,
+   "z": 134.16739468837866,
+   "ustun": 222,
+   "ustun_null_merkez": 117.5,
+   "ustun_null_sd": 7.664854858377946,
+   "ustun_z": 13.633656726816943,
+   "norm_sft": 30.297745098276465,
+   "norm_dpo": 1.0077144842642796,
+   "grup_cos": {
+    "norm": 0.009780583361949608,
+    "mlp": 0.0016276528469077712,
+    "attention": 0.0014970274572320716
+   },
+   "sure_sn": 419.0,
+   "tarif": "AI2"
+  },
+  "Tulu3-70B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_ortak": 723,
+   "n_sekil_cakismasi": 2,
+   "cakisan": [
+    "lm_head.weight",
+    "model.embed_tokens.weight"
+   ],
+   "n_kullanilan": 721,
+   "T": 645,
+   "COS": -7.593449174110168e-05,
+   "COS_perm": -3.2040375442639282e-06,
+   "null_sd_kapali": 3.8185197336870634e-06,
+   "z": -19.885845049118366,
+   "ustun": 578,
+   "ustun_null_merkez": 322.5,
+   "ustun_null_sd": 12.698425099200294,
+   "ustun_z": 20.12060535098093,
+   "norm_sft": 39.247559770688426,
+   "norm_dpo": 1.14776283325919,
+   "grup_cos": {
+    "norm": 0.001756232074990097,
+    "mlp": -0.00012620676514774477,
+    "attention": 0.00011873395666678036
+   },
+   "sure_sn": 4628.3,
+   "tarif": "AI2"
+  },
+  "OLMo3-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_ortak": 355,
+   "n_sekil_cakismasi": 0,
+   "cakisan": [],
+   "n_kullanilan": 353,
+   "T": 352,
+   "COS": -0.000767473098384952,
+   "COS_perm": -1.9807989056637275e-05,
+   "null_sd_kapali": 1.2280970009461598e-05,
+   "z": -62.49287294030272,
+   "ustun": 262,
+   "ustun_null_merkez": 176.0,
+   "ustun_null_sd": 9.38083151964686,
+   "ustun_z": 9.167630803291248,
+   "norm_sft": 462.04307582509813,
+   "norm_dpo": 2.7532954753327874,
+   "grup_cos": {
+    "mlp": -0.0008574055031023998,
+    "norm": 0.000945004642067704,
+    "diger": 0.0023269096709949526,
+    "attention": -0.0006202018692229751
+   },
+   "sure_sn": 375.9,
+   "tarif": "AI2"
+  },
+  "Zephyr-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_ortak": 291,
+   "n_sekil_cakismasi": 0,
+   "cakisan": [],
+   "n_kullanilan": 289,
+   "T": 239,
+   "COS": -0.0003733725520774707,
+   "COS_perm": -8.156231037769112e-06,
+   "null_sd_kapali": 1.1986153216468308e-05,
+   "z": -31.15032365550589,
+   "ustun": 212,
+   "ustun_null_merkez": 119.5,
+   "ustun_null_sd": 7.729812416870153,
+   "ustun_z": 11.966655206033291,
+   "norm_sft": 10.715600294375461,
+   "norm_dpo": 1.7749525109893491,
+   "grup_cos": {
+    "norm": 0.12912055849307175,
+    "mlp": -0.0005494932740789964,
+    "attention": 0.0003707871174421491
+   },
+   "sure_sn": 398.0,
+   "tarif": "Zephyr"
+  },
+  "SmolLM2-1.7B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_ortak": 218,
+   "n_sekil_cakismasi": 0,
+   "cakisan": [],
+   "n_kullanilan": 217,
+   "T": 192,
+   "COS": -0.000588537894072244,
+   "COS_perm": -1.3295006481331594e-05,
+   "null_sd_kapali": 2.494636925247824e-05,
+   "z": -23.592126297648587,
+   "ustun": 129,
+   "ustun_null_merkez": 96.0,
+   "ustun_null_sd": 6.928203230275509,
+   "ustun_z": 4.763139720814412,
+   "norm_sft": 282.5578832608037,
+   "norm_dpo": 0.7433397848887442,
+   "grup_cos": {
+    "norm": 0.0017870644315696098,
+    "mlp": -0.0006686510336321715,
+    "attention": -0.0003514061915694878
+   },
+   "sure_sn": 77.1,
+   "tarif": "DISARI"
+  },
+  "NeuralHermes-2.5": {
+   "hal": "ÖLCÜLDÜ",
+   "n_ortak": 291,
+   "n_sekil_cakismasi": 2,
+   "cakisan": [
+    "lm_head.weight",
+    "model.embed_tokens.weight"
+   ],
+   "n_kullanilan": 289,
+   "T": 230,
+   "COS": 0.00021796028865997646,
+   "COS_perm": 8.367216929880153e-06,
+   "null_sd_kapali": 1.1949675271315188e-05,
+   "z": 18.239850348333995,
+   "ustun": 180,
+   "ustun_null_merkez": 115.0,
+   "ustun_null_sd": 7.582875444051551,
+   "ustun_z": 8.57194615414523,
+   "norm_sft": 6.7007593301711355,
+   "norm_dpo": 0.7409718478922039,
+   "grup_cos": {
+    "norm": 0.00021397541899425282,
+    "mlp": 0.00018925320045188492,
+    "attention": 0.0003365140533039965
+   },
+   "sure_sn": 387.1,
+   "tarif": "DISARI"
+  }
+ }
+}

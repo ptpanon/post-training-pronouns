@@ -1,0 +1,62 @@
+\paragraph*{Raw continuation with the genre fixed by a header.}
+\vekalet{The debate stubs leave the genre of the continuation open, so a model that answers in a less personal genre and a model that uses fewer persons within a genre are not separated. To separate them we re-ran raw continuation with a one-line bracketed header in front of the same 34 stubs: \texttt{[Personal blog post]}, \texttt{[Reply in a discussion forum]}, \texttt{[How-to guide]} and \texttt{[News report]}. None of the four contains a first- or second-person form. Both checkpoints read the identical plain string, with no chat template, at the panel's own decoding settings and 12 samples per prompt, so each checkpoint has 1,632 generations. The design, the single reading path and the genre rule below were committed before any of these generations existed. The reading is descriptive: there is no bar and no outcome name. \textbf{With the genre fixed, both forms still fall}: ``you'' in 15 of 16 models across the four genres together and ``I'' in 15 of 16, with 14 and 14 of those above their paired placebo (Table~\ref{tab:tur}). Genre by genre the counts are 15/0/1 for ``you'' and 16/0/0 for ``I'' on blog, 12/0/4 for ``you'' and 13/0/3 for ``I'' on forum, 12/0/4 for ``you'' and 15/0/1 for ``I'' on how-to, 15/0/1 for ``you'' and 14/0/2 for ``I'' on news (down / up / unclear); each genre carries a quarter of the data, so an interval covering zero there is a loss of power and not a result. On prose lines alone, across the four genres together, ``you'' falls in 14 models per token and 13 per sentence, and ``I'' in 13 and 13, with no model rising in either. \textbf{The header fixes the request, not the realised genre.} Each generation is classified by a rule fixed before counting: forum cues, then how-to cues, then news cues, none of which contains a person, with blog as the residual class. A cue class is entered only when its cue fires, so those three shares are lower bounds on the genre a reader would name, and blog's is an upper bound. Asking for a genre moves the class a generation lands in by at most 9 percentage points (aligned how-to: $52\%$ of how-to requests against $44\%$ of the others), and by three points or fewer in the other three, where the cue rule fires rarely. The two checkpoints also still differ from each other: pooled over the four requests the base generations are classified blog in $65\%$ and how-to in $27\%$, the aligned ones in $49\%$ and $46\%$. The header narrows the genre difference between the checkpoints without closing it, so what this prompt set adds is that the fall survives when the same genre is requested of both checkpoints, not that genre is held constant.}
+\begin{table}[tb]\centering\scriptsize\setlength{\tabcolsep}{2.8pt}
+\caption{\textbf{Raw continuation with the genre fixed by a one-line header.} Aligned minus base, per 1,000 tokens, first person counted directly. \emph{all} pools the four genres. \textbf{Bold}: prompt-clustered $95\%$ interval excludes zero. The middle block reads the pooled panel on prose lines only, per token and per sentence. The lower block is the genre a generation was classified into, summed over the 16 models, against the genre its header requested; blog is the residual class, so its diagonal is an upper bound.}\label{tab:tur}
+\begin{tabular}{lrrrrrrrrrr}\toprule
+ & \multicolumn{2}{c}{all} & \multicolumn{2}{c}{blog} & \multicolumn{2}{c}{forum} & \multicolumn{2}{c}{how-to} & \multicolumn{2}{c}{news} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}
+model & $\Delta M_1$ & $\Delta$1st & $\Delta M_1$ & $\Delta$1st & $\Delta M_1$ & $\Delta$1st & $\Delta M_1$ & $\Delta$1st & $\Delta M_1$ & $\Delta$1st \\ \midrule
+Qwen2.5-1.5B & $\mathbf{-2.88}$ & $-0.68$ & $\mathbf{-3.05}$ & $\mathbf{-4.18}$ & $\mathbf{-2.09}$ & $+0.83$ & $-3.63$ & $+0.85$ & $-2.71$ & $-0.51$ \\
+Qwen2.5-3B & $\mathbf{-1.99}$ & $\mathbf{-2.32}$ & $\mathbf{-5.02}$ & $\mathbf{-4.45}$ & $+0.01$ & $+0.26$ & $-0.91$ & $\mathbf{-2.34}$ & $\mathbf{-2.26}$ & $-2.89$ \\
+Mistral-7B-v0.3 & $\mathbf{-10.87}$ & $\mathbf{-7.77}$ & $\mathbf{-12.19}$ & $\mathbf{-11.59}$ & $\mathbf{-9.35}$ & $\mathbf{-8.82}$ & $\mathbf{-10.54}$ & $\mathbf{-5.64}$ & $\mathbf{-11.45}$ & $\mathbf{-4.69}$ \\
+Qwen2.5-7B & $\mathbf{-4.99}$ & $\mathbf{-5.16}$ & $\mathbf{-3.26}$ & $\mathbf{-6.88}$ & $\mathbf{-2.19}$ & $\mathbf{-3.16}$ & $\mathbf{-10.33}$ & $\mathbf{-7.06}$ & $\mathbf{-4.20}$ & $\mathbf{-3.58}$ \\
+OLMo-3-7B & $\mathbf{-10.10}$ & $\mathbf{-9.22}$ & $\mathbf{-10.03}$ & $\mathbf{-8.19}$ & $\mathbf{-9.10}$ & $\mathbf{-8.46}$ & $\mathbf{-9.79}$ & $\mathbf{-9.84}$ & $\mathbf{-11.10}$ & $\mathbf{-9.99}$ \\
+Llama-3.1-8B & $\mathbf{-7.04}$ & $\mathbf{-6.71}$ & $\mathbf{-7.57}$ & $\mathbf{-8.54}$ & $\mathbf{-6.66}$ & $\mathbf{-5.95}$ & $\mathbf{-8.07}$ & $\mathbf{-7.29}$ & $\mathbf{-5.91}$ & $\mathbf{-5.12}$ \\
+T\"ulu-3-8B & $\mathbf{-8.77}$ & $\mathbf{-10.39}$ & $\mathbf{-8.43}$ & $\mathbf{-13.36}$ & $\mathbf{-8.47}$ & $\mathbf{-10.14}$ & $\mathbf{-10.88}$ & $\mathbf{-8.15}$ & $\mathbf{-7.41}$ & $\mathbf{-9.84}$ \\
+Gemma-3-4B & $\mathbf{-7.57}$ & $\mathbf{-7.17}$ & $\mathbf{-8.44}$ & $\mathbf{-3.55}$ & $\mathbf{-6.67}$ & $\mathbf{-7.26}$ & $\mathbf{-7.29}$ & $\mathbf{-10.22}$ & $\mathbf{-7.89}$ & $\mathbf{-7.61}$ \\
+OLMo-2-13B & $\mathbf{-7.57}$ & $\mathbf{-8.17}$ & $\mathbf{-8.80}$ & $\mathbf{-10.39}$ & $\mathbf{-6.82}$ & $\mathbf{-6.72}$ & $\mathbf{-7.33}$ & $\mathbf{-8.26}$ & $\mathbf{-7.44}$ & $\mathbf{-7.49}$ \\
+Gemma-3-12B & $\mathbf{-8.00}$ & $\mathbf{-9.21}$ & $\mathbf{-7.61}$ & $\mathbf{-10.00}$ & $\mathbf{-6.80}$ & $\mathbf{-7.54}$ & $\mathbf{-9.16}$ & $\mathbf{-9.60}$ & $\mathbf{-8.48}$ & $\mathbf{-9.69}$ \\
+Qwen2.5-14B & $\mathbf{-2.36}$ & $\mathbf{-4.63}$ & $\mathbf{-3.18}$ & $\mathbf{-4.47}$ & $+1.20$ & $\mathbf{-2.42}$ & $\mathbf{-3.10}$ & $\mathbf{-5.95}$ & $\mathbf{-4.50}$ & $\mathbf{-5.87}$ \\
+Gemma-3-27B & $\mathbf{-9.19}$ & $\mathbf{-6.88}$ & $\mathbf{-8.54}$ & $\mathbf{-6.42}$ & $\mathbf{-9.57}$ & $\mathbf{-6.79}$ & $\mathbf{-10.35}$ & $\mathbf{-6.68}$ & $\mathbf{-8.37}$ & $\mathbf{-7.60}$ \\
+OLMo-2-32B & $\mathbf{-7.92}$ & $\mathbf{-9.58}$ & $\mathbf{-7.44}$ & $\mathbf{-9.83}$ & $\mathbf{-9.31}$ & $\mathbf{-10.67}$ & $\mathbf{-8.48}$ & $\mathbf{-10.03}$ & $\mathbf{-6.27}$ & $\mathbf{-7.69}$ \\
+Qwen2.5-32B & $-2.54$ & $\mathbf{-4.60}$ & $-1.68$ & $\mathbf{-5.92}$ & $-0.76$ & $\mathbf{-3.87}$ & $-3.27$ & $\mathbf{-3.86}$ & $\mathbf{-4.46}$ & $\mathbf{-4.72}$ \\
+Qwen2.5-72B & $\mathbf{-2.06}$ & $\mathbf{-4.40}$ & $\mathbf{-3.36}$ & $\mathbf{-6.28}$ & $+1.24$ & $-1.56$ & $-1.69$ & $\mathbf{-4.76}$ & $\mathbf{-4.60}$ & $\mathbf{-5.17}$ \\
+Llama-3.1-70B & $\mathbf{-4.36}$ & $\mathbf{-4.10}$ & $\mathbf{-5.61}$ & $\mathbf{-4.91}$ & $\mathbf{-5.64}$ & $\mathbf{-3.64}$ & $\mathbf{-2.63}$ & $\mathbf{-4.48}$ & $\mathbf{-3.19}$ & $\mathbf{-3.02}$ \\
+\midrule down / up / unclear & 15/0/1 & 15/0/1 & 15/0/1 & 16/0/0 & 12/0/4 & 13/0/3 & 12/0/4 & 15/0/1 & 15/0/1 & 14/0/2 \\
+down, above placebo & $14$ & $14$ & $11$ & $13$ & $10$ & $10$ & $10$ & $14$ & $13$ & $13$ \\
+\bottomrule\end{tabular}
+\\[6pt]
+\begin{tabular}{lrrrr}\toprule
+ & \multicolumn{2}{c}{prose, per token} & \multicolumn{2}{c}{prose, per sentence} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+model & $\Delta M_1$ & $\Delta$1st & $\Delta M_1$ & $\Delta$1st \\ \midrule
+Qwen2.5-1.5B & $\mathbf{-2.30}$ & $-1.18$ & $-0.023$ & $+0.018$ \\
+Qwen2.5-3B & $\mathbf{-2.05}$ & $\mathbf{-2.54}$ & $\mathbf{-0.032}$ & $\mathbf{-0.035}$ \\
+Mistral-7B-v0.3 & $\mathbf{-12.10}$ & $-0.11$ & $\mathbf{-0.215}$ & $-0.025$ \\
+Qwen2.5-7B & $\mathbf{-5.21}$ & $\mathbf{-4.97}$ & $\mathbf{-0.090}$ & $\mathbf{-0.081}$ \\
+OLMo-3-7B & $\mathbf{-9.78}$ & $\mathbf{-9.41}$ & $\mathbf{-0.142}$ & $\mathbf{-0.137}$ \\
+Llama-3.1-8B & $\mathbf{-7.96}$ & $\mathbf{-6.50}$ & $\mathbf{-0.145}$ & $\mathbf{-0.113}$ \\
+T\"ulu-3-8B & $\mathbf{-10.28}$ & $\mathbf{-11.72}$ & $\mathbf{-0.191}$ & $\mathbf{-0.214}$ \\
+Gemma-3-4B & $\mathbf{-5.66}$ & $-2.76$ & $\mathbf{-0.116}$ & $\mathbf{-0.070}$ \\
+OLMo-2-13B & $\mathbf{-7.70}$ & $\mathbf{-8.31}$ & $\mathbf{-0.126}$ & $\mathbf{-0.133}$ \\
+Gemma-3-12B & $\mathbf{-7.41}$ & $\mathbf{-6.91}$ & $\mathbf{-0.145}$ & $\mathbf{-0.145}$ \\
+Qwen2.5-14B & $\mathbf{-2.73}$ & $\mathbf{-5.36}$ & $\mathbf{-0.043}$ & $\mathbf{-0.093}$ \\
+Gemma-3-27B & $\mathbf{-8.85}$ & $\mathbf{-3.84}$ & $\mathbf{-0.162}$ & $\mathbf{-0.079}$ \\
+OLMo-2-32B & $\mathbf{-8.55}$ & $\mathbf{-9.72}$ & $\mathbf{-0.143}$ & $\mathbf{-0.161}$ \\
+Qwen2.5-32B & $-1.15$ & $\mathbf{-4.40}$ & $+0.000$ & $\mathbf{-0.070}$ \\
+Qwen2.5-72B & $-1.10$ & $\mathbf{-4.58}$ & $-0.008$ & $\mathbf{-0.075}$ \\
+Llama-3.1-70B & $\mathbf{-5.99}$ & $\mathbf{-3.59}$ & $\mathbf{-0.108}$ & $-0.057$ \\
+\midrule down / up / unclear & 14/0/2 & 13/0/3 & 13/0/3 & 13/0/3 \\
+\bottomrule\end{tabular}
+\\[6pt]
+\begin{tabular}{lrrrrrrrr}\toprule
+ & \multicolumn{4}{c}{base outputs, classified as} & \multicolumn{4}{c}{aligned outputs, classified as} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+header asks for & blog & forum & how-to & news & blog & forum & how-to & news \\ \midrule
+blog & $4{,}444$ & $40$ & $1{,}607$ & $437$ & $3{,}309$ & $6$ & $2{,}922$ & $291$ \\
+forum & $4{,}069$ & $43$ & $1{,}936$ & $480$ & $3{,}286$ & $10$ & $2{,}937$ & $295$ \\
+how-to & $4{,}176$ & $38$ & $1{,}906$ & $408$ & $2{,}780$ & $8$ & $3{,}409$ & $331$ \\
+news & $4{,}294$ & $26$ & $1{,}646$ & $562$ & $3{,}352$ & $5$ & $2{,}688$ & $483$ \\
+\midrule matches the request & \multicolumn{4}{c}{blog $68\%$, forum $1\%$, how-to $29\%$, news $9\%$} & \multicolumn{4}{c}{blog $51\%$, forum $0\%$, how-to $52\%$, news $7\%$} \\
+\bottomrule\end{tabular}
+\end{table}

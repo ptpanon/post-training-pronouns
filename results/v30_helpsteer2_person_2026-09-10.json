@@ -1,0 +1,43 @@
+{
+ "n_cift": 7118,
+ "chosen": {
+  "M1": 14.697364265041132,
+  "sahis1": 8.074389542179297,
+  "m2": 0.0157114889641945,
+  "n_jeton": 2095886
+ },
+ "rejected": {
+  "M1": 15.177510245347108,
+  "sahis1": 8.765102821502564,
+  "m2": 0.016720896601590745,
+  "n_jeton": 1847668
+ },
+ "ci_cift_bootstrap": [
+  -2.519017664420597,
+  -1.2898714877155033
+ ],
+ "n_bootstrap": 2000,
+ "ayrik": true,
+ "havuz_dM1": -0.48014598030597533,
+ "havuz_dSahis1": -0.6907132793232673,
+ "medyan_dM1": 0.0,
+ "medyan_dSahis1": 0.0,
+ "ort_dM1": -1.8950364232701546,
+ "sem_dM1": 0.31460309899777394,
+ "uzunluk_orani": 1.1343417756869743,
+ "jeton_ort": {
+  "chosen": 294.44886203989887,
+  "rejected": 259.5768474290531
+ },
+ "VERDICT": "VERI-YÖNÜ-DESTEKLER",
+ "_kunye": {
+  "damga_utc": "2026-09-09T16:30:32Z",
+  "alet": "scripts/v30_helpsteer2_person.py",
+  "borc": "D-0910-V30 §5",
+  "on_kayit": "HAFTA-1 §2 (korpustan bagimsiz rule) — yeni bar YAZILMADI",
+  "zemin": "nvidia/HelpSteer2 · preference · INSAN ETIKETLI",
+  "kaynak_yol": "<repo>/.hf/hub/datasets--nvidia--HelpSteer2/snapshots/990b2711a36180dd19d9c94b8627844866f8982a/preference/preference.jsonl.gz",
+  "snapshot": "990b2711a36180dd19d9c94b8627844866f8982a",
+  "sure_sn": 54.7
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "table": "KOL_YOUFREE",
+ "sources": [
+  {
+   "yol": "results/KOL_TABLOSU_2026-09-10.json",
+   "sha256_16": "785ae3d0785c37b1"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "n_you_free_kol": 9,
+  "n_you_tasiyan": 7,
+  "hal_yf_asagi_ayrik": 14,
+  "hal_tum_panel_asagi": 16
+ }
+}

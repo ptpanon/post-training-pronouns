@@ -1,0 +1,729 @@
+{
+ "damga_utc": "2026-09-11T23:09:30Z",
+ "SINIF": "KESIF/BETIM",
+ "alet": "scripts/second_speaker_bare.py",
+ "borc": "D-0911-V33 §B/1 · HAKEM-ASSISTANT W2",
+ "kok": "<data>/c1_panel",
+ "n_bootstrap": 500,
+ "seed": 20260911,
+ "kume_birimi": "istem_i",
+ "sinirlar": [
+  "düz kesme isareti tirnagi sayilmaz ⇒ ALINTI alt sinir",
+  "konusma fiili listesi ELLE yazildi ⇒ ERRATA-2 sinifi",
+  "",
+  ""
+ ],
+ "sayim": {
+  "tam": 16,
+  "kesik": 16,
+  "tavan": 15,
+  "payda": 16,
+  "olculen": 16
+ },
+ "aile": {
+  "Qwen2.5-1.5B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1813,
+    "n_konusmaci": 56,
+    "n_aktarilan": 931
+   },
+   "tespit_hizali": {
+    "n_alinti": 3921,
+    "n_konusmaci": 22,
+    "n_aktarilan": 2055
+   },
+   "pay_you_araliklarda_taban": 0.0217,
+   "pay_you_araliklarda_hizali": 0.0272,
+   "M1_taban": 10.0918,
+   "M1_hizali": 8.4843,
+   "M1_taban_kesik": 10.1867,
+   "M1_hizali_kesik": 8.75,
+   "M1_taban_tavan": 10.4639,
+   "M1_hizali_tavan": 8.8813,
+   "dM1": -1.6075,
+   "dM1_kesik": -1.4367,
+   "dM1_tavan": -1.5826,
+   "pay_jeton_kesildi_taban": 0.0308,
+   "pay_jeton_tavan_kesildi_taban": 0.1014,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -2.9128,
+    -0.3891
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -2.752,
+    -0.2201
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -2.6067,
+    -0.5568
+   ],
+   "ayrik_tavan": true
+  },
+  "Qwen2.5-3B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1832,
+    "n_konusmaci": 61,
+    "n_aktarilan": 842
+   },
+   "tespit_hizali": {
+    "n_alinti": 2603,
+    "n_konusmaci": 61,
+    "n_aktarilan": 1602
+   },
+   "pay_you_araliklarda_taban": 0.0221,
+   "pay_you_araliklarda_hizali": 0.0234,
+   "M1_taban": 10.4857,
+   "M1_hizali": 7.0232,
+   "M1_taban_kesik": 10.5896,
+   "M1_hizali_kesik": 7.2429,
+   "M1_taban_tavan": 10.6511,
+   "M1_hizali_tavan": 7.5795,
+   "dM1": -3.4625,
+   "dM1_kesik": -3.3467,
+   "dM1_tavan": -3.0716,
+   "pay_jeton_kesildi_taban": 0.0317,
+   "pay_jeton_tavan_kesildi_taban": 0.0872,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -5.2899,
+    -1.9795
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -5.2036,
+    -1.8096
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -4.4924,
+    -1.7672
+   ],
+   "ayrik_tavan": true
+  },
+  "Mistral-7B-v0.3": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1883,
+    "n_konusmaci": 56,
+    "n_aktarilan": 770
+   },
+   "tespit_hizali": {
+    "n_alinti": 682,
+    "n_konusmaci": 34,
+    "n_aktarilan": 862
+   },
+   "pay_you_araliklarda_taban": 0.0311,
+   "pay_you_araliklarda_hizali": 0.0179,
+   "M1_taban": 13.6069,
+   "M1_hizali": 3.7506,
+   "M1_taban_kesik": 13.6791,
+   "M1_hizali_kesik": 3.7762,
+   "M1_taban_tavan": 14.5485,
+   "M1_hizali_tavan": 5.2723,
+   "dM1": -9.8563,
+   "dM1_kesik": -9.903,
+   "dM1_tavan": -9.2762,
+   "pay_jeton_kesildi_taban": 0.0362,
+   "pay_jeton_tavan_kesildi_taban": 0.5586,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -11.4866,
+    -8.3306
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -11.6179,
+    -8.3458
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -11.7988,
+    -6.998
+   ],
+   "ayrik_tavan": true
+  },
+  "Qwen2.5-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1658,
+    "n_konusmaci": 29,
+    "n_aktarilan": 837
+   },
+   "tespit_hizali": {
+    "n_alinti": 2182,
+    "n_konusmaci": 64,
+    "n_aktarilan": 1600
+   },
+   "pay_you_araliklarda_taban": 0.0202,
+   "pay_you_araliklarda_hizali": 0.0221,
+   "M1_taban": 10.3781,
+   "M1_hizali": 6.4736,
+   "M1_taban_kesik": 10.476,
+   "M1_hizali_kesik": 6.6496,
+   "M1_taban_tavan": 10.635,
+   "M1_hizali_tavan": 7.817,
+   "dM1": -3.9045,
+   "dM1_kesik": -3.8264,
+   "dM1_tavan": -2.818,
+   "pay_jeton_kesildi_taban": 0.0293,
+   "pay_jeton_tavan_kesildi_taban": 0.0848,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -5.608,
+    -2.4009
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -5.5344,
+    -2.3189
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -4.1165,
+    -1.6409
+   ],
+   "ayrik_tavan": true
+  },
+  "OLMo-3-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 2911,
+    "n_konusmaci": 123,
+    "n_aktarilan": 879
+   },
+   "tespit_hizali": {
+    "n_alinti": 3183,
+    "n_konusmaci": 355,
+    "n_aktarilan": 847
+   },
+   "pay_you_araliklarda_taban": 0.0316,
+   "pay_you_araliklarda_hizali": 0.0585,
+   "M1_taban": 14.2388,
+   "M1_hizali": 9.5356,
+   "M1_taban_kesik": 14.3734,
+   "M1_hizali_kesik": 9.7666,
+   "M1_taban_tavan": 14.4437,
+   "M1_hizali_tavan": 9.9217,
+   "dM1": -4.7032,
+   "dM1_kesik": -4.6068,
+   "dM1_tavan": -4.522,
+   "pay_jeton_kesildi_taban": 0.0406,
+   "pay_jeton_tavan_kesildi_taban": 0.0555,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -5.6032,
+    -3.6776
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -5.5027,
+    -3.5784
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -5.4039,
+    -3.4759
+   ],
+   "ayrik_tavan": true
+  },
+  "Llama-3.1-8B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1839,
+    "n_konusmaci": 173,
+    "n_aktarilan": 873
+   },
+   "tespit_hizali": {
+    "n_alinti": 1700,
+    "n_konusmaci": 281,
+    "n_aktarilan": 1214
+   },
+   "pay_you_araliklarda_taban": 0.0405,
+   "pay_you_araliklarda_hizali": 0.0517,
+   "M1_taban": 11.61,
+   "M1_hizali": 6.8434,
+   "M1_taban_kesik": 11.7044,
+   "M1_hizali_kesik": 6.9021,
+   "M1_taban_tavan": 11.7044,
+   "M1_hizali_tavan": 6.9012,
+   "dM1": -4.7667,
+   "dM1_kesik": -4.8023,
+   "dM1_tavan": -4.8033,
+   "pay_jeton_kesildi_taban": 0.0483,
+   "pay_jeton_tavan_kesildi_taban": 0.0483,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -5.7922,
+    -3.8685
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -5.8046,
+    -3.8974
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -5.7933,
+    -3.9153
+   ],
+   "ayrik_tavan": true
+  },
+  "Tulu3-8B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1839,
+    "n_konusmaci": 173,
+    "n_aktarilan": 873
+   },
+   "tespit_hizali": {
+    "n_alinti": 848,
+    "n_konusmaci": 175,
+    "n_aktarilan": 1059
+   },
+   "pay_you_araliklarda_taban": 0.0405,
+   "pay_you_araliklarda_hizali": 0.0407,
+   "M1_taban": 11.61,
+   "M1_hizali": 2.8954,
+   "M1_taban_kesik": 11.7044,
+   "M1_hizali_kesik": 2.9223,
+   "M1_taban_tavan": 11.7044,
+   "M1_hizali_tavan": 3.1586,
+   "dM1": -8.7147,
+   "dM1_kesik": -8.7821,
+   "dM1_tavan": -8.5459,
+   "pay_jeton_kesildi_taban": 0.0483,
+   "pay_jeton_tavan_kesildi_taban": 0.0483,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -9.9234,
+    -7.5535
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -10.0058,
+    -7.6264
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -9.6579,
+    -7.4913
+   ],
+   "ayrik_tavan": true
+  },
+  "Gemma-3-4B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 2233,
+    "n_konusmaci": 64,
+    "n_aktarilan": 1094
+   },
+   "tespit_hizali": {
+    "n_alinti": 3870,
+    "n_konusmaci": 330,
+    "n_aktarilan": 725
+   },
+   "pay_you_araliklarda_taban": 0.0313,
+   "pay_you_araliklarda_hizali": 0.0236,
+   "M1_taban": 11.5402,
+   "M1_hizali": 7.9088,
+   "M1_taban_kesik": 11.6604,
+   "M1_hizali_kesik": 8.2697,
+   "M1_taban_tavan": 11.677,
+   "M1_hizali_tavan": 5.843,
+   "dM1": -3.6314,
+   "dM1_kesik": -3.3907,
+   "dM1_tavan": -5.834,
+   "pay_jeton_kesildi_taban": 0.0413,
+   "pay_jeton_tavan_kesildi_taban": 0.3266,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -5.3747,
+    -2.0829
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -5.1679,
+    -1.8007
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -7.1579,
+    -4.5026
+   ],
+   "ayrik_tavan": true
+  },
+  "OLMo2-13B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 2581,
+    "n_konusmaci": 453,
+    "n_aktarilan": 947
+   },
+   "tespit_hizali": {
+    "n_alinti": 2679,
+    "n_konusmaci": 427,
+    "n_aktarilan": 1154
+   },
+   "pay_you_araliklarda_taban": 0.0405,
+   "pay_you_araliklarda_hizali": 0.0406,
+   "M1_taban": 11.8651,
+   "M1_hizali": 5.5856,
+   "M1_taban_kesik": 12.0169,
+   "M1_hizali_kesik": 5.6743,
+   "M1_taban_tavan": 11.2918,
+   "M1_hizali_tavan": 4.9685,
+   "dM1": -6.2796,
+   "dM1_kesik": -6.3426,
+   "dM1_tavan": -6.3233,
+   "pay_jeton_kesildi_taban": 0.0527,
+   "pay_jeton_tavan_kesildi_taban": 0.2347,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "azaldi",
+   "ci": [
+    -7.2757,
+    -5.3718
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -7.4178,
+    -5.4148
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -7.2811,
+    -5.3593
+   ],
+   "ayrik_tavan": true
+  },
+  "Gemma-3-12B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 2317,
+    "n_konusmaci": 109,
+    "n_aktarilan": 871
+   },
+   "tespit_hizali": {
+    "n_alinti": 4148,
+    "n_konusmaci": 91,
+    "n_aktarilan": 559
+   },
+   "pay_you_araliklarda_taban": 0.0403,
+   "pay_you_araliklarda_hizali": 0.0083,
+   "M1_taban": 12.5965,
+   "M1_hizali": 9.7984,
+   "M1_taban_kesik": 12.6932,
+   "M1_hizali_kesik": 10.1259,
+   "M1_taban_tavan": 12.5278,
+   "M1_hizali_tavan": 6.5982,
+   "dM1": -2.798,
+   "dM1_kesik": -2.5673,
+   "dM1_tavan": -5.9296,
+   "pay_jeton_kesildi_taban": 0.0476,
+   "pay_jeton_tavan_kesildi_taban": 0.3381,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "azaldi",
+   "ci": [
+    -4.258,
+    -1.2983
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -4.0511,
+    -1.0168
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -7.2722,
+    -4.3983
+   ],
+   "ayrik_tavan": true
+  },
+  "Qwen2.5-14B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1881,
+    "n_konusmaci": 212,
+    "n_aktarilan": 957
+   },
+   "tespit_hizali": {
+    "n_alinti": 2187,
+    "n_konusmaci": 62,
+    "n_aktarilan": 1928
+   },
+   "pay_you_araliklarda_taban": 0.0422,
+   "pay_you_araliklarda_hizali": 0.0118,
+   "M1_taban": 10.6921,
+   "M1_hizali": 7.2002,
+   "M1_taban_kesik": 10.8117,
+   "M1_hizali_kesik": 7.509,
+   "M1_taban_tavan": 11.036,
+   "M1_hizali_tavan": 8.7398,
+   "dM1": -3.4919,
+   "dM1_kesik": -3.3028,
+   "dM1_tavan": -2.2963,
+   "pay_jeton_kesildi_taban": 0.0528,
+   "pay_jeton_tavan_kesildi_taban": 0.1472,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -5.1508,
+    -2.0428
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -4.9867,
+    -1.8256
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -3.4604,
+    -1.0751
+   ],
+   "ayrik_tavan": true
+  },
+  "Gemma-3-27B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1992,
+    "n_konusmaci": 185,
+    "n_aktarilan": 883
+   },
+   "tespit_hizali": {
+    "n_alinti": 4958,
+    "n_konusmaci": 106,
+    "n_aktarilan": 593
+   },
+   "pay_you_araliklarda_taban": 0.0464,
+   "pay_you_araliklarda_hizali": 0.011,
+   "M1_taban": 11.9616,
+   "M1_hizali": 8.8946,
+   "M1_taban_kesik": 12.0014,
+   "M1_hizali_kesik": 9.2141,
+   "M1_taban_tavan": 11.6607,
+   "M1_hizali_tavan": 6.8819,
+   "dM1": -3.0669,
+   "dM1_kesik": -2.7873,
+   "dM1_tavan": -4.7788,
+   "pay_jeton_kesildi_taban": 0.0495,
+   "pay_jeton_tavan_kesildi_taban": 0.341,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "azaldi",
+   "ci": [
+    -5.3049,
+    -1.0057
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -5.0477,
+    -0.6502
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -6.8858,
+    -2.7846
+   ],
+   "ayrik_tavan": true
+  },
+  "OLMo2-32B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 2398,
+    "n_konusmaci": 299,
+    "n_aktarilan": 920
+   },
+   "tespit_hizali": {
+    "n_alinti": 2206,
+    "n_konusmaci": 299,
+    "n_aktarilan": 853
+   },
+   "pay_you_araliklarda_taban": 0.0469,
+   "pay_you_araliklarda_hizali": 0.063,
+   "M1_taban": 13.7242,
+   "M1_hizali": 8.9508,
+   "M1_taban_kesik": 13.8212,
+   "M1_hizali_kesik": 8.992,
+   "M1_taban_tavan": 12.7782,
+   "M1_hizali_tavan": 8.9749,
+   "dM1": -4.7733,
+   "dM1_kesik": -4.8292,
+   "dM1_tavan": -3.8033,
+   "pay_jeton_kesildi_taban": 0.0536,
+   "pay_jeton_tavan_kesildi_taban": 0.25,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "azaldi",
+   "ci": [
+    -5.5469,
+    -4.0232
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -5.6111,
+    -4.1099
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -4.6736,
+    -2.9609
+   ],
+   "ayrik_tavan": true
+  },
+  "Qwen2.5-32B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1668,
+    "n_konusmaci": 311,
+    "n_aktarilan": 977
+   },
+   "tespit_hizali": {
+    "n_alinti": 2271,
+    "n_konusmaci": 219,
+    "n_aktarilan": 1845
+   },
+   "pay_you_araliklarda_taban": 0.0587,
+   "pay_you_araliklarda_hizali": 0.0297,
+   "M1_taban": 10.2189,
+   "M1_hizali": 8.0412,
+   "M1_taban_kesik": 10.3084,
+   "M1_hizali_kesik": 8.278,
+   "M1_taban_tavan": 10.3662,
+   "M1_hizali_tavan": 10.0455,
+   "dM1": -2.1777,
+   "dM1_kesik": -2.0304,
+   "dM1_tavan": -0.3207,
+   "pay_jeton_kesildi_taban": 0.0669,
+   "pay_jeton_tavan_kesildi_taban": 0.1606,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -3.4165,
+    -1.0011
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -3.3497,
+    -0.7604
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -1.1157,
+    0.5857
+   ],
+   "ayrik_tavan": false
+  },
+  "Qwen2.5-72B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1455,
+    "n_konusmaci": 180,
+    "n_aktarilan": 708
+   },
+   "tespit_hizali": {
+    "n_alinti": 1701,
+    "n_konusmaci": 121,
+    "n_aktarilan": 1367
+   },
+   "pay_you_araliklarda_taban": 0.0431,
+   "pay_you_araliklarda_hizali": 0.0214,
+   "M1_taban": 10.2926,
+   "M1_hizali": 6.6007,
+   "M1_taban_kesik": 10.3554,
+   "M1_hizali_kesik": 6.7549,
+   "M1_taban_tavan": 10.4469,
+   "M1_hizali_tavan": 7.4687,
+   "dM1": -3.6919,
+   "dM1_kesik": -3.6005,
+   "dM1_tavan": -2.9782,
+   "pay_jeton_kesildi_taban": 0.0489,
+   "pay_jeton_tavan_kesildi_taban": 0.0997,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -5.8287,
+    -1.9479
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -5.8804,
+    -1.8049
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -4.774,
+    -1.4203
+   ],
+   "ayrik_tavan": true
+  },
+  "Llama-3.1-70B": {
+   "hal": "ÖLCÜLDÜ",
+   "n_satir": 6528,
+   "tespit_taban": {
+    "n_alinti": 1991,
+    "n_konusmaci": 248,
+    "n_aktarilan": 757
+   },
+   "tespit_hizali": {
+    "n_alinti": 1546,
+    "n_konusmaci": 153,
+    "n_aktarilan": 1046
+   },
+   "pay_you_araliklarda_taban": 0.0484,
+   "pay_you_araliklarda_hizali": 0.0324,
+   "M1_taban": 11.518,
+   "M1_hizali": 7.7382,
+   "M1_taban_kesik": 11.5668,
+   "M1_hizali_kesik": 7.8119,
+   "M1_taban_tavan": 11.5548,
+   "M1_hizali_tavan": 7.7839,
+   "dM1": -3.7798,
+   "dM1_kesik": -3.7549,
+   "dM1_tavan": -3.7709,
+   "pay_jeton_kesildi_taban": 0.0524,
+   "pay_jeton_tavan_kesildi_taban": 0.0528,
+   "M1_yon_kesik": "artti",
+   "M1_yon_tavan": "artti",
+   "ci": [
+    -4.3936,
+    -3.0763
+   ],
+   "ayrik": true,
+   "ci_kesik": [
+    -4.3913,
+    -3.0301
+   ],
+   "ayrik_kesik": true,
+   "ci_tavan": [
+    -4.4017,
+    -3.0846
+   ],
+   "ayrik_tavan": true
+  }
+ }
+}

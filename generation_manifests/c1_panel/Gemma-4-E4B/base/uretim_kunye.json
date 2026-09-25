@@ -1,0 +1,63 @@
+{
+ "damga_utc": "2026-08-16T10:15:40Z",
+ "HALKA": "üretim",
+ "cift": "Gemma-4-E4B",
+ "zemin": "base",
+ "model": "<repo>/.hf/hub/models--google--gemma-4-E4B/snapshots/411aa17b749aa952df1359d2dcea73917a544d9a",
+ "kimlik": {
+  "yol": true,
+  "agirlik_izi": "51317a8cb076bcc4",
+  "n_agirlik_dosyasi": 1,
+  "ayirt_edici_alanlar": [
+   "eos"
+  ],
+  "config_ayirt_edici_VAR": true,
+  "imza": {
+   "eos": null,
+   "tip": "gemma4",
+   "L": 42,
+   "d": 2560,
+   "orn": true,
+   "template": false
+  }
+ },
+ "cevre": {
+  "dev": "cuda:0",
+  "torch_index": 0,
+  "gpu_adi": "NVIDIA H100 NVL",
+  "gpu_uuid": "b0d35e5b-f48b-72f4-9220-4c527f22df0f",
+  "fiziksel_gpu": 1,
+  "cvd_once": "1",
+  "cvd_kilitten_sonra": "1",
+  "smi_card_sayisi": 2,
+  "smi_kullanilan": "17167 MiB"
+ },
+ "TAM": true,
+ "n_kol": 16,
+ "n_satir": 6528,
+ "kol_satir": {
+  "ARO+x1": 408,
+  "ARO-x1": 408,
+  "DOM+x1": 408,
+  "DOM-x1": 408,
+  "ARO+x4": 408,
+  "ARO-x4": 408,
+  "DOM+x4": 408,
+  "DOM-x4": 408,
+  "DOM+x2_ARO+x2": 408,
+  "DOM-x2_ARO+x2": 408,
+  "DOM+x2_ARO-x2": 408,
+  "DOM-x2_ARO-x2": 408,
+  "TON+x1": 408,
+  "TON-x1": 408,
+  "TON+x4": 408,
+  "TON-x4": 408
+ },
+ "atlanan_kol": 0,
+ "n_cekim": 12,
+ "yigin": 17,
+ "red_bos_metin": 145,
+ "bos_orani": 0.022212,
+ "yukleme_sn": 2610.0,
+ "saniye": 2612.3
+}

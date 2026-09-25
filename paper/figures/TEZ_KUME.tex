@@ -1,0 +1,24 @@
+\paragraph*{Intervals clustered on the thesis.}
+\vekalet{The $34$ prompts are $17$ theses, each in two stances, so prompt-clustered intervals treat the two stances of a thesis as independent. We resampled theses instead ($1000$ draws on four pooled sampling seeds; with prompts as the unit the loop reproduces the second-person intervals of Table~\ref{tab:families} exactly; the first-person column here is the derived measure, which that table replaces with the direct count on the same seeds). Resampled by thesis, $\Delta M_1$ stays negative with an interval excluding zero in $16$ of $16$ models ($16$ of $16$ by prompt) and $\Delta$1st in $16$ of $16$ ($16$ by prompt); the intervals widen by a median factor of $1.39$ and $1.28$. With $17$ clusters a percentile interval is coarse, and the thesis absorbs the dependence between two stances, not the scaffold and prefix conditions that every prompt shares.}
+\begin{center}\scriptsize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}\toprule
+ & \multicolumn{3}{c}{$\Delta M_1$ (four seeds pooled)} & \multicolumn{3}{c}{$\Delta$1st, derived (four seeds pooled)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+model & shift & by prompt & by thesis & shift & by prompt & by thesis \\ \midrule
+Mistral-7B-v0.3 & $-9.51$ & $[-11.00,-8.22]$ & $[-11.85,-7.78]$ & $-15.16$ & $[-16.08,-14.13]$ & $[-16.34,-13.85]$ \\
+T\"ulu-3-8B & $-9.04$ & $[-10.36,-7.73]$ & $[-11.04,-7.34]$ & $-17.28$ & $[-18.64,-15.94]$ & $[-18.88,-15.67]$ \\
+OLMo-2-13B & $-6.76$ & $[-7.80,-5.86]$ & $[-8.35,-5.62]$ & $-12.69$ & $[-13.41,-11.91]$ & $[-13.56,-11.84]$ \\
+OLMo-2-32B & $-5.17$ & $[-5.89,-4.57]$ & $[-6.23,-4.36]$ & $-10.14$ & $[-10.68,-9.56]$ & $[-10.82,-9.40]$ \\
+Llama-3.1-8B & $-4.69$ & $[-5.83,-3.62]$ & $[-6.32,-3.34]$ & $-6.36$ & $[-7.25,-5.45]$ & $[-7.51,-5.16]$ \\
+OLMo-3-7B & $-4.54$ & $[-5.41,-3.70]$ & $[-5.62,-3.45]$ & $-8.46$ & $[-9.45,-7.41]$ & $[-9.72,-7.20]$ \\
+Qwen2.5-72B & $-4.14$ & $[-6.71,-1.96]$ & $[-8.12,-1.51]$ & $-14.28$ & $[-15.45,-13.17]$ & $[-15.78,-12.75]$ \\
+Llama-3.1-70B & $-3.86$ & $[-4.34,-3.38]$ & $[-4.45,-3.24]$ & $-8.84$ & $[-9.90,-7.67]$ & $[-10.28,-7.17]$ \\
+Qwen2.5-7B & $-3.62$ & $[-5.03,-2.31]$ & $[-5.77,-1.91]$ & $-9.64$ & $[-10.65,-8.64]$ & $[-10.92,-8.46]$ \\
+Qwen2.5-14B & $-3.44$ & $[-5.02,-2.05]$ & $[-5.84,-1.76]$ & $-13.79$ & $[-14.86,-12.85]$ & $[-15.18,-12.55]$ \\
+Qwen2.5-3B & $-3.06$ & $[-4.76,-1.47]$ & $[-5.64,-1.11]$ & $-8.56$ & $[-9.49,-7.69]$ & $[-9.88,-7.48]$ \\
+Gemma-3-4B & $-3.02$ & $[-4.47,-1.77]$ & $[-4.93,-1.26]$ & $-10.10$ & $[-10.89,-9.28]$ & $[-11.04,-9.19]$ \\
+Qwen2.5-32B & $-2.77$ & $[-4.37,-1.38]$ & $[-5.28,-0.97]$ & $-15.71$ & $[-16.83,-14.69]$ & $[-17.09,-14.36]$ \\
+Gemma-3-27B & $-2.59$ & $[-4.33,-1.00]$ & $[-5.14,-0.56]$ & $-16.29$ & $[-17.38,-15.08]$ & $[-17.59,-14.82]$ \\
+Gemma-3-12B & $-2.33$ & $[-3.82,-0.93]$ & $[-4.42,-0.62]$ & $-16.64$ & $[-17.75,-15.32]$ & $[-18.07,-14.89]$ \\
+Qwen2.5-1.5B & $-1.77$ & $[-3.07,-0.66]$ & $[-3.82,-0.34]$ & $-5.54$ & $[-6.47,-4.74]$ & $[-6.78,-4.47]$ \\
+\bottomrule\end{tabular}\end{center}

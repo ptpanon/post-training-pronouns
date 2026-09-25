@@ -1,0 +1,586 @@
+{
+ "_kunye": {
+  "alet": "scripts/capability_verdict.py",
+  "damga_utc": "2026-09-13T08:58:18Z",
+  "prereg": "preregistration/prereg_capability_2026-09-12.md @ d50b7555",
+  "prediction": "preregistration/prediction_capability_2026-09-12.md @ 649f4c36",
+  "motor": "muhatap_kos + basamak_kuvvet_ci.kume_boot (ITHAL, edit yok)",
+  "d_shelf": 0.6,
+  "d_shelf_olcusu": "METIN BASINA (W-1101)",
+  "bar_aile": 12,
+  "bar_geri": 0.5,
+  "bar_dejenere": 4,
+  "atlanan_aile": [
+   "Llama-3.1-70B",
+   "Qwen2.5-72B"
+  ],
+  "atlanan_sebep": "ATLANDI-CIFT-CARD-GEREK (tek kartta sigmaz)",
+  "sure_dk": 12.4
+ },
+ "PANEL": {
+  "kayit": {
+   "VERDICT": "YETENEK SAGLAM",
+   "n_olculen": 14,
+   "n_dejenere": 0,
+   "dejenere_aile": [],
+   "medyan_geri_kazanim": 1.4556,
+   "min": 0.0513,
+   "maks": 7.0496,
+   "n_gk_ge_1": 9,
+   "n_ayrik_poz": 13
+  },
+  "acik": {
+   "VERDICT": "YETENEK SAGLAM",
+   "n_olculen": 14,
+   "n_dejenere": 0,
+   "dejenere_aile": [],
+   "medyan_geri_kazanim": 2.8904,
+   "min": 0.2729,
+   "maks": 6.6503,
+   "n_gk_ge_1": 12,
+   "n_ayrik_poz": 14
+  }
+ },
+ "PREDICTION": {
+  "F-YET-1": [
+   "TUTTU",
+   "acik paneli = YETENEK SAGLAM"
+  ],
+  "F-YET-2": [
+   "TUTTU",
+   "kayit paneli = YETENEK SAGLAM"
+  ],
+  "F-YET-3": [
+   "DÜSTÜ",
+   "acik ≥ kayit: 11/14 (bar 12)"
+  ],
+  "F-YET-4": [
+   "TUTTU",
+   ""
+  ],
+  "F-YET-5": [
+   "TUTTU",
+   "dejenere hücre: kayit 0 · acik 0 (bar ≤4)"
+  ]
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "tarif_taban": 12.5965,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 9.7984,
+   "M1_taban": 12.5965,
+   "payda": 2.798,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 25.9771,
+    "dM1": 16.1787,
+    "ci": [
+     15.2791,
+     17.062
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 5.7822,
+    "d4_metin": 0.9993,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 28.4063,
+    "dM1": 18.6079,
+    "ci": [
+     16.6372,
+     20.761
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 6.6503,
+    "d4_metin": 0.998,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "Gemma-3-27B": {
+   "tarif_taban": 11.9616,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 8.8946,
+   "M1_taban": 11.9616,
+   "payda": 3.0669,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 14.0471,
+    "dM1": 5.1525,
+    "ci": [
+     4.5271,
+     5.7454
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 1.68,
+    "d4_metin": 0.9974,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 28.1081,
+    "dM1": 19.2135,
+    "ci": [
+     17.8934,
+     20.5059
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 6.2647,
+    "d4_metin": 0.995,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "Gemma-3-4B": {
+   "tarif_taban": 11.5402,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 7.9088,
+   "M1_taban": 11.5402,
+   "payda": 3.6314,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 14.3525,
+    "dM1": 6.4437,
+    "ci": [
+     5.3668,
+     7.5661
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 1.7744,
+    "d4_metin": 0.9981,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 25.4994,
+    "dM1": 17.5907,
+    "ci": [
+     15.7068,
+     19.4617
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 4.844,
+    "d4_metin": 0.9967,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "Llama-3.1-8B": {
+   "tarif_taban": 11.61,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 6.8434,
+   "M1_taban": 11.61,
+   "payda": 4.7667,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 12.5333,
+    "dM1": 5.69,
+    "ci": [
+     4.2988,
+     6.7733
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 1.1937,
+    "d4_metin": 0.9851,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 22.2373,
+    "dM1": 15.3939,
+    "ci": [
+     14.0559,
+     16.5844
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 3.2295,
+    "d4_metin": 0.9806,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "tarif_taban": 13.6069,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 3.7506,
+   "M1_taban": 13.6069,
+   "payda": 9.8563,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 6.7548,
+    "dM1": 3.0042,
+    "ci": [
+     2.2669,
+     3.689
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 0.3048,
+    "d4_metin": 0.99,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 16.6471,
+    "dM1": 12.8965,
+    "ci": [
+     11.3779,
+     14.4809
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 1.3084,
+    "d4_metin": 0.9801,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "OLMo-3-7B": {
+   "tarif_taban": 14.2388,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 9.5356,
+   "M1_taban": 14.2388,
+   "payda": 4.7032,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 9.777,
+    "dM1": 0.2413,
+    "ci": [
+     -0.5551,
+     0.9877
+    ],
+    "ayrik": false,
+    "n_istem": 34,
+    "geri_kazanim": 0.0513,
+    "d4_metin": 0.9982,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 10.8193,
+    "dM1": 1.2837,
+    "ci": [
+     0.6744,
+     1.9181
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 0.2729,
+    "d4_metin": 0.9968,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "OLMo2-13B": {
+   "tarif_taban": 11.8651,
+   "hizali_ad": "instruct",
+   "taban_ad": "taban",
+   "M1_hizali": 5.5856,
+   "M1_taban": 11.8651,
+   "payda": 6.2796,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 9.5967,
+    "dM1": 4.0111,
+    "ci": [
+     2.5313,
+     5.5174
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 0.6388,
+    "d4_metin": 0.997,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 9.0374,
+    "dM1": 3.4519,
+    "ci": [
+     2.5348,
+     4.5432
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 0.5497,
+    "d4_metin": 0.9903,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "OLMo2-32B": {
+   "tarif_taban": 13.7242,
+   "hizali_ad": "instruct",
+   "taban_ad": "taban",
+   "M1_hizali": 8.9508,
+   "M1_taban": 13.7242,
+   "payda": 4.7733,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 13.3874,
+    "dM1": 4.4365,
+    "ci": [
+     3.0983,
+     6.0082
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 0.9294,
+    "d4_metin": 0.999,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 26.1994,
+    "dM1": 17.2486,
+    "ci": [
+     15.6045,
+     18.9734
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 3.6135,
+    "d4_metin": 0.9791,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "Qwen2.5-1.5B": {
+   "tarif_taban": 10.0918,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 8.4843,
+   "M1_taban": 10.0918,
+   "payda": 1.6075,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 19.8165,
+    "dM1": 11.3322,
+    "ci": [
+     10.2685,
+     12.3159
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 7.0496,
+    "d4_metin": 0.999,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 12.882,
+    "dM1": 4.3977,
+    "ci": [
+     3.8135,
+     4.9256
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 2.7357,
+    "d4_metin": 0.9974,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "Qwen2.5-14B": {
+   "tarif_taban": 10.6921,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 7.2002,
+   "M1_taban": 10.6921,
+   "payda": 3.4919,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 17.8171,
+    "dM1": 10.6169,
+    "ci": [
+     9.7555,
+     11.6953
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 3.0404,
+    "d4_metin": 0.9994,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 14.7702,
+    "dM1": 7.57,
+    "ci": [
+     6.4606,
+     8.7485
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 2.1679,
+    "d4_metin": 0.9941,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "Qwen2.5-32B": {
+   "tarif_taban": 10.2189,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 8.0412,
+   "M1_taban": 10.2189,
+   "payda": 2.1777,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 18.1599,
+    "dM1": 10.1187,
+    "ci": [
+     9.3928,
+     10.8563
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 4.6465,
+    "d4_metin": 0.9993,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 19.6467,
+    "dM1": 11.6055,
+    "ci": [
+     10.5211,
+     12.6219
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 5.3292,
+    "d4_metin": 0.9894,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "Qwen2.5-3B": {
+   "tarif_taban": 10.4857,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 7.0232,
+   "M1_taban": 10.4857,
+   "payda": 3.4625,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 11.2862,
+    "dM1": 4.263,
+    "ci": [
+     3.5908,
+     4.937
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 1.2312,
+    "d4_metin": 0.9957,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 13.4829,
+    "dM1": 6.4597,
+    "ci": [
+     5.613,
+     7.4241
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 1.8656,
+    "d4_metin": 0.9901,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "Qwen2.5-7B": {
+   "tarif_taban": 10.3781,
+   "hizali_ad": "instruct",
+   "taban_ad": "base",
+   "M1_hizali": 6.4736,
+   "M1_taban": 10.3781,
+   "payda": 3.9045,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 14.0835,
+    "dM1": 7.6099,
+    "ci": [
+     6.6531,
+     8.679
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 1.949,
+    "d4_metin": 0.999,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 18.3632,
+    "dM1": 11.8896,
+    "ci": [
+     10.4276,
+     13.5064
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 3.0451,
+    "d4_metin": 0.9943,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  },
+  "Tulu3-8B": {
+   "tarif_taban": 11.61,
+   "hizali_ad": "rl",
+   "taban_ad": "taban",
+   "M1_hizali": 2.8954,
+   "M1_taban": 11.61,
+   "payda": 8.7147,
+   "n_ref": 6528,
+   "kayit": {
+    "M1": 11.0174,
+    "dM1": 8.122,
+    "ci": [
+     6.7485,
+     9.6385
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 0.932,
+    "d4_metin": 0.9979,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   },
+   "acik": {
+    "M1": 16.4504,
+    "dM1": 13.555,
+    "ci": [
+     11.9435,
+     15.2152
+    ],
+    "ayrik": true,
+    "n_istem": 34,
+    "geri_kazanim": 1.5554,
+    "d4_metin": 0.9957,
+    "dejenere": false,
+    "hal": "ÖLCÜLDÜ"
+   }
+  }
+ }
+}

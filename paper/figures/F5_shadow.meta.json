@@ -1,0 +1,11 @@
+{
+ "figure": "F5_shadow",
+ "caption_draft": "Identical text is scored under a real and a matched pseudo-neutral context; under the two-sided empirical bar the interpersonal-command effect replicates across both substrates (3/6 and 3/6), while the procedural command separates only on Reddit CMV and the dominant assertion is silent on SCOTUS but reading-facilitating on CMV. The panel is now sixteen models; the dashed rule separates the six on which the effect was originally established from the ten added afterwards, so the reader can see the replication rather than take it on trust.",
+ "sources": [
+  {
+   "yol": "results/shadow_reading_16_scorecard_2026-08-25.json",
+   "sha256_16": "6690ed606e922449"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

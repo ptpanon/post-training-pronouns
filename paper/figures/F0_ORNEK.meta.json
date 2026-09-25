@@ -1,0 +1,37 @@
+{
+ "table": "F0_ORNEK",
+ "damga_utc": "2026-09-25T23:36:46Z",
+ "sources": [
+  {
+   "yol": "paper/figures/ORNEK_CIFT.meta.json",
+   "sha256_16": "3ea0c997d6b30d2c"
+  }
+ ],
+ "secim": {
+  "aile": "Gemma-3-27B",
+  "istem_i": 7,
+  "kol": "ARO-x1",
+  "cekim": 0
+ },
+ "n_parca": 20,
+ "oran_kapsami": "all generations of the prompt (n_uretim per leg)",
+ "oran": {
+  "taban": {
+   "n_uretim": 192,
+   "n_jeton": 24727.0,
+   "iwe": 611.0,
+   "you": 196.0,
+   "iwe_1k": 24.7098313584341,
+   "you_1k": 7.926558013507502
+  },
+  "hizali": {
+   "n_uretim": 192,
+   "n_jeton": 28725.0,
+   "iwe": 230.0,
+   "you": 176.0,
+   "iwe_1k": 8.006962576153176,
+   "you_1k": 6.127067014795474
+  }
+ },
+ "note": "example pair identical to Appendix G (two sha checks); rates from the whole output, with the paper's counters"
+}

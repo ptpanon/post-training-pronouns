@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\small
+\caption{A cross-family blind judge does not recover human preference on any of three preference substrates. \emph{Decisive} excludes ties, and \emph{share} is the fraction of decisive pairs on which the judge picked the human-chosen response ($H_0=0.5$). MDE is the pre-registered one-sided 95\% detectable difference at that denominator. The tie rate rises monotonically with the median length gap between chosen and rejected responses, so the two cannot be separated by this material.}
+\label{tab:blind-panel}
+\begin{tabular}{lrrrrrl}
+\toprule
+Substrate & $n$ & decisive & tie rate & share & MDE & $\Delta$ length (median words) \\
+\midrule
+Anthropic hh-rlhf & 272 & 193 & 0.283 & 0.487 & 5.9\,pp & $+10.5$ \\
+OpenAssistant oasst1 & 270 & 111 & 0.570 & 0.477 & 7.8\,pp & $+50.0$ \\
+AI2 Tülu-3 preference mix & 272 & 95 & 0.647 & 0.516 & 8.4\,pp & $+229.0$ \\
+\midrule
+\multicolumn{7}{l}{\emph{Outcome on every row: no direction (share indistinguishable from chance).}} \\
+\bottomrule
+\end{tabular}
+\end{table}

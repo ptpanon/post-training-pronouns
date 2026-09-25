@@ -1,0 +1,524 @@
+{
+ "sinif": "BETIM · card · rule sayimdan önce",
+ "rule": "preregistration/rule_v87_readings_2026-09-16.md @ 7ee8f32b",
+ "ham": "results/CARD_DENETIMI_HAM_2026-09-16.json",
+ "sinir": "yokluk BU KÜMEDE yokluktur; yayimlanmamis ic degerlendirme görünmez",
+ "sayim": {
+  "card_yuva": 32,
+  "card_okunan": 27,
+  "card_yok": 5,
+  "amac": 6,
+  "isabet": 47
+ },
+ "ozet_baglanisi": {
+  "no_objective_names_it": {
+   "hal": "KALIR",
+   "amac_kisi": [],
+   "amac_yakin": [
+    "Touvron 2023 (Llama 2)",
+    "Llama-3.1-70B · base",
+    "Llama-3.1-70B · instruct",
+    "Llama-3.1-8B · base",
+    "Llama-3.1-8B · instruct",
+    "Tulu3-8B · taban"
+   ],
+   "serh": "rule KISI'ye bagliydi; TON adlandiranlar ADIYLA sahibe gider (özet «interpersonal register» diyor)"
+  },
+  "no_card_reports_it": {
+   "hal": "KALIR",
+   "okunan": 27,
+   "card_yok": [
+    "Mistral-7B-v0.3 · base",
+    "Qwen2.5-14B · base",
+    "Qwen2.5-32B · instruct",
+    "Qwen2.5-72B · instruct",
+    "Qwen2.5-7B · base"
+   ],
+   "serh": ""
+  },
+  "nothing_audits_it": {
+   "hal": "TABLO DOGRULAYAMAZ — sahibe",
+   "en_yakin": ""
+  }
+ },
+ "satir": [
+  {
+   "tur": "card",
+   "ad": "Gemma-3-12B · base",
+   "depo": "google/gemma-3-12b-pt",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Gemma-3-12B · instruct",
+   "depo": "google/gemma-3-12b-it",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Gemma-3-27B · base",
+   "depo": "google/gemma-3-27b-pt",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Gemma-3-27B · instruct",
+   "depo": "google/gemma-3-27b-it",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Gemma-3-4B · base",
+   "depo": "google/gemma-3-4b-pt",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Gemma-3-4B · instruct",
+   "depo": "google/gemma-3-4b-it",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Llama-3.1-70B · base",
+   "depo": "meta-llama/Llama-3.1-70B",
+   "arxiv": null,
+   "adi_geciyor": "EVET",
+   "metrik": "HAYIR",
+   "amac": "YAKIN",
+   "n_isabet": 3,
+   "etiket_sayim": {
+    "AMAC-YAKIN": 3
+   },
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Llama-3.1-70B · instruct",
+   "depo": "meta-llama/Llama-3.1-70B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "EVET",
+   "metrik": "HAYIR",
+   "amac": "YAKIN",
+   "n_isabet": 3,
+   "etiket_sayim": {
+    "AMAC-YAKIN": 3
+   },
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Llama-3.1-8B · base",
+   "depo": "meta-llama/Llama-3.1-8B",
+   "arxiv": null,
+   "adi_geciyor": "EVET",
+   "metrik": "HAYIR",
+   "amac": "YAKIN",
+   "n_isabet": 3,
+   "etiket_sayim": {
+    "AMAC-YAKIN": 3
+   },
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Llama-3.1-8B · instruct",
+   "depo": "meta-llama/Llama-3.1-8B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "EVET",
+   "metrik": "HAYIR",
+   "amac": "YAKIN",
+   "n_isabet": 3,
+   "etiket_sayim": {
+    "AMAC-YAKIN": 3
+   },
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Mistral-7B-v0.3 · base",
+   "depo": "mistralai/Mistral-7B-v0.3",
+   "arxiv": null,
+   "adi_geciyor": "CARD-YOK",
+   "metrik": "CARD-YOK",
+   "amac": "CARD-YOK",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Mistral-7B-v0.3 · instruct",
+   "depo": "mistralai/Mistral-7B-Instruct-v0.3",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "OLMo-3-7B · base",
+   "depo": "allenai/Olmo-3-1025-7B",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "OLMo-3-7B · instruct",
+   "depo": "allenai/Olmo-3-7B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "OLMo2-13B · taban",
+   "depo": "allenai/OLMo-2-1124-13B",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "OLMo2-13B · instruct",
+   "depo": "allenai/OLMo-2-1124-13B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "OLMo2-32B · taban",
+   "depo": "allenai/OLMo-2-0325-32B",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "OLMo2-32B · instruct",
+   "depo": "allenai/OLMo-2-0325-32B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-1.5B · base",
+   "depo": "Qwen/Qwen2.5-1.5B",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-1.5B · instruct",
+   "depo": "Qwen/Qwen2.5-1.5B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-14B · base",
+   "depo": "Qwen/Qwen2.5-14B",
+   "arxiv": null,
+   "adi_geciyor": "CARD-YOK",
+   "metrik": "CARD-YOK",
+   "amac": "CARD-YOK",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-14B · instruct",
+   "depo": "Qwen/Qwen2.5-14B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-32B · base",
+   "depo": "Qwen/Qwen2.5-32B",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-32B · instruct",
+   "depo": "Qwen/Qwen2.5-32B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "CARD-YOK",
+   "metrik": "CARD-YOK",
+   "amac": "CARD-YOK",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-3B · base",
+   "depo": "Qwen/Qwen2.5-3B",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-3B · instruct",
+   "depo": "Qwen/Qwen2.5-3B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-72B · base",
+   "depo": "Qwen/Qwen2.5-72B",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-72B · instruct",
+   "depo": "Qwen/Qwen2.5-72B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "CARD-YOK",
+   "metrik": "CARD-YOK",
+   "amac": "CARD-YOK",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-7B · base",
+   "depo": "Qwen/Qwen2.5-7B",
+   "arxiv": null,
+   "adi_geciyor": "CARD-YOK",
+   "metrik": "CARD-YOK",
+   "amac": "CARD-YOK",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Qwen2.5-7B · instruct",
+   "depo": "Qwen/Qwen2.5-7B-Instruct",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "ad": "Tulu3-8B · taban",
+   "depo": "meta-llama/Llama-3.1-8B",
+   "arxiv": null,
+   "adi_geciyor": "EVET",
+   "metrik": "HAYIR",
+   "amac": "YAKIN",
+   "n_isabet": 3,
+   "etiket_sayim": {
+    "AMAC-YAKIN": 3
+   },
+   "yinelenen_sha": "Llama-3.1-8B/base"
+  },
+  {
+   "tur": "card",
+   "ad": "Tulu3-8B · rl",
+   "depo": "allenai/Llama-3.1-Tulu-3-8B",
+   "arxiv": null,
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "amac",
+   "ad": "Ouyang 2022 (InstructGPT)",
+   "depo": null,
+   "arxiv": "2203.02155",
+   "adi_geciyor": "EVET",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 7,
+   "etiket_sayim": {
+    "ILGISIZ": 5,
+    "ANILIR": 2
+   },
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "amac",
+   "ad": "Touvron 2023 (Llama 2)",
+   "depo": null,
+   "arxiv": "2307.09288",
+   "adi_geciyor": "EVET",
+   "metrik": "EVET",
+   "amac": "YAKIN",
+   "n_isabet": 22,
+   "etiket_sayim": {
+    "ANILIR": 1,
+    "METRIK": 20,
+    "AMAC-YAKIN": 1
+   },
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "amac",
+   "ad": "Lambert 2024 (Tulu 3)",
+   "depo": null,
+   "arxiv": "2411.15124",
+   "adi_geciyor": "EVET",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 2,
+   "etiket_sayim": {
+    "ANILIR": 2
+   },
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "amac",
+   "ad": "OLMo 2025 (OLMo 2)",
+   "depo": null,
+   "arxiv": "2501.00656",
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "amac",
+   "ad": "Gemma Team 2025 (Gemma 3)",
+   "depo": null,
+   "arxiv": "2503.19786",
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 0,
+   "etiket_sayim": {},
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "amac",
+   "ad": "Qwen 2024 (Qwen2.5)",
+   "depo": null,
+   "arxiv": "2412.15115",
+   "adi_geciyor": "HAYIR",
+   "metrik": "HAYIR",
+   "amac": "HAYIR",
+   "n_isabet": 1,
+   "etiket_sayim": {
+    "ILGISIZ": 1
+   },
+   "yinelenen_sha": null
+  }
+ ],
+ "damga_utc": "2026-09-16T13:40:12Z"
+}

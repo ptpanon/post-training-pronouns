@@ -1,0 +1,307 @@
+{
+ "rule": "b43fee3e",
+ "alet": "3213d7cce330cf91",
+ "damga_utc": "2026-09-21T18:59:35Z",
+ "paket": "<data>/v96_c2/insan/INSAN_PAKETI_V96_C2_A_100_DOLU_SAHIP_2026-09-21.md",
+ "paket_sha256": "b280aa62f6e6dcc15ea7c64cb69ad98727b95b18162384124c2871e37f8098c5",
+ "N": 100,
+ "X": 70,
+ "ham_uyum": 0.7,
+ "ham_uyum_ci": [
+  0.6039603960396039,
+  0.7835051546391752
+ ],
+ "kappa": 0.3093922651933699,
+ "kappa_ci": [
+  0.15908068473942513,
+  0.42858794172690895
+ ],
+ "p_e": 0.5656000000000001,
+ "matris": {
+  "satir_insan": [
+   "REPLY",
+   "CONTINUE",
+   "OTHER"
+  ],
+  "sutun_yargic": [
+   "REPLY",
+   "CONTINUE",
+   "OTHER"
+  ],
+  "M": [
+   [
+    62,
+    3,
+    3
+   ],
+   [
+    16,
+    6,
+    6
+   ],
+   [
+    0,
+    2,
+    2
+   ]
+  ]
+ },
+ "sinif": {
+  "REPLY": {
+   "insan_n": 68,
+   "yargic_n": 78,
+   "ortak": 62,
+   "insan_sinifi_yargicta": 0.9117647058823529,
+   "yargic_sinifi_insanda": 0.7948717948717948
+  },
+  "CONTINUE": {
+   "insan_n": 28,
+   "yargic_n": 11,
+   "ortak": 6,
+   "insan_sinifi_yargicta": 0.21428571428571427,
+   "yargic_sinifi_insanda": 0.5454545454545454
+  },
+  "OTHER": {
+   "insan_n": 4,
+   "yargic_n": 11,
+   "ortak": 2,
+   "insan_sinifi_yargicta": 0.5,
+   "yargic_sinifi_insanda": 0.18181818181818182
+  }
+ },
+ "katman": {
+  "hizali": {
+   "n": 49,
+   "uyum": 44
+  },
+  "taban": {
+   "n": 51,
+   "uyum": 26
+  }
+ },
+ "verdict": "GIRMEZ",
+ "kil_payi": false,
+ "cumle_N_yuzde": {
+  "deger": 0.9361656942953244,
+  "n_model": 16,
+  "kaynak": "V96_Q2_YARGIC aile.*.hizali.pay_REPLY"
+ },
+ "ayrisan": [
+  {
+   "hucre": 2,
+   "insan": "CONTINUE",
+   "yargic": "OTHER",
+   "aile": "OLMo2-13B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 3,
+   "insan": "REPLY",
+   "yargic": "CONTINUE",
+   "aile": "Qwen2.5-3B",
+   "bacak": "hizali"
+  },
+  {
+   "hucre": 5,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "OLMo2-32B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 6,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "OLMo-3-7B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 8,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "Gemma-3-12B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 14,
+   "insan": "CONTINUE",
+   "yargic": "OTHER",
+   "aile": "Gemma-3-27B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 16,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "Llama-3.1-70B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 21,
+   "insan": "OTHER",
+   "yargic": "CONTINUE",
+   "aile": "Qwen2.5-1.5B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 23,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "Qwen2.5-3B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 27,
+   "insan": "CONTINUE",
+   "yargic": "OTHER",
+   "aile": "Llama-3.1-8B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 34,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "Gemma-3-27B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 37,
+   "insan": "CONTINUE",
+   "yargic": "OTHER",
+   "aile": "Tulu3-8B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 38,
+   "insan": "REPLY",
+   "yargic": "OTHER",
+   "aile": "Mistral-7B-v0.3",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 39,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "Tulu3-8B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 41,
+   "insan": "REPLY",
+   "yargic": "OTHER",
+   "aile": "Gemma-3-4B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 42,
+   "insan": "CONTINUE",
+   "yargic": "OTHER",
+   "aile": "Llama-3.1-8B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 44,
+   "insan": "OTHER",
+   "yargic": "CONTINUE",
+   "aile": "Qwen2.5-72B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 45,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "OLMo2-32B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 49,
+   "insan": "REPLY",
+   "yargic": "CONTINUE",
+   "aile": "Gemma-3-27B",
+   "bacak": "hizali"
+  },
+  {
+   "hucre": 50,
+   "insan": "REPLY",
+   "yargic": "OTHER",
+   "aile": "OLMo-3-7B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 53,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "Llama-3.1-70B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 55,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "OLMo2-13B",
+   "bacak": "hizali"
+  },
+  {
+   "hucre": 65,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "Tulu3-8B",
+   "bacak": "hizali"
+  },
+  {
+   "hucre": 66,
+   "insan": "REPLY",
+   "yargic": "CONTINUE",
+   "aile": "OLMo-3-7B",
+   "bacak": "hizali"
+  },
+  {
+   "hucre": 67,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "Tulu3-8B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 80,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "Qwen2.5-7B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 87,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "OLMo2-13B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 88,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "Gemma-3-12B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 97,
+   "insan": "CONTINUE",
+   "yargic": "REPLY",
+   "aile": "OLMo2-13B",
+   "bacak": "taban"
+  },
+  {
+   "hucre": 99,
+   "insan": "CONTINUE",
+   "yargic": "OTHER",
+   "aile": "Mistral-7B-v0.3",
+   "bacak": "taban"
+  }
+ ],
+ "n_aile": 16,
+ "bootstrap": {
+  "cekim": 1000,
+  "seed": 20260921,
+  "kume": "aile"
+ }
+}

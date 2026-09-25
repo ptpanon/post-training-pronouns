@@ -1,0 +1,36 @@
+{
+ "table": "HAKEM_TABLOLARI",
+ "damga_utc": "2026-09-25T23:44:39Z",
+ "sources": [
+  {
+   "yol": "results/reviewer_q2_prose_2026-09-15.json",
+   "sha256_16": "e94aefe1329821a1"
+  },
+  {
+   "yol": "results/reviewer_task1_prose_first_person_2026-09-15.json",
+   "sha256_16": "8581d77201b2af85"
+  },
+  {
+   "yol": "results/reviewer_q4_protocol_sign_2026-09-15.json",
+   "sha256_16": "06271eb6da4341ed"
+  },
+  {
+   "yol": "results/reviewer_q5_band_three_substrates_2026-09-15.json",
+   "sha256_16": "dc671cf0d0ee5e57"
+  },
+  {
+   "yol": "results/reviewer_v87_sentence_prose_2026-09-16.json",
+   "sha256_16": "8a0bd8c230424a19"
+  },
+  {
+   "yol": "results/reviewer_v87_sentence_prose_ten_families_2026-09-16.json",
+   "sha256_16": "348d61b0a02e860e"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "q2_asagi": 10,
+  "is1_asagi": 16
+ },
+ "note": "renders four cards; computes no new statistic"
+}

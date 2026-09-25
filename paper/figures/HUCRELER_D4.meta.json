@@ -1,0 +1,119 @@
+{
+ "table": "HUCRELER_D4",
+ "ciktilar": [
+  "HUCRELER_D4.tex",
+  "HUCRELER_CUMLE.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/siradan_instruction_reading_2026-09-17.json",
+   "sha256_16": "8f349a74877b2230"
+  },
+  {
+   "yol": "results/v91_konusan_sayimi_2026-09-17.json",
+   "sha256_16": "92e81bd77a7deabd"
+  },
+  {
+   "yol": "results/v96_q4_urial_ozdes_2026-09-19.json",
+   "sha256_16": "c3476865581b2f53"
+  },
+  {
+   "yol": "results/v96_k3_impersonal_ozdes_2026-09-19.json",
+   "sha256_16": "1ee38ad0d88a6253"
+  },
+  {
+   "yol": "results/v97_d4_kod_citi_2026-09-19.json",
+   "sha256_16": "35f9e771bbcc040b"
+  }
+ ],
+ "payda": {
+  "n_model": 16,
+  "sayim": {
+   "B1": {
+    "M1": {
+     "d": 16,
+     "u": 0,
+     "n": 0
+    },
+    "IS1": {
+     "d": 12,
+     "u": 2,
+     "n": 2
+    },
+    "M1_plasebo": 16,
+    "IS1_plasebo": 12
+   },
+   "K1": {
+    "M1": {
+     "d": 11,
+     "u": 3,
+     "n": 2
+    },
+    "IS1": {
+     "d": 9,
+     "u": 1,
+     "n": 6
+    },
+    "M1_plasebo": 11,
+    "IS1_plasebo": 7
+   },
+   "K2": {
+    "M1": {
+     "d": 16,
+     "u": 0,
+     "n": 0
+    },
+    "IS1": {
+     "d": 12,
+     "u": 2,
+     "n": 2
+    },
+    "M1_plasebo": 16,
+    "IS1_plasebo": 12
+   },
+   "K3": {
+    "M1": {
+     "d": 6,
+     "u": 7,
+     "n": 3
+    },
+    "IS1": {
+     "d": 10,
+     "u": 1,
+     "n": 5
+    },
+    "M1_plasebo": 6,
+    "IS1_plasebo": 9
+   }
+  },
+  "K3_duzyazi": [
+   {
+    "d": 7,
+    "u": 8,
+    "n": 1
+   },
+   {
+    "d": 7,
+    "u": 1,
+    "n": 8
+   },
+   {
+    "d": 5,
+    "u": 8,
+    "n": 3
+   },
+   {
+    "d": 8,
+    "u": 1,
+    "n": 7
+   }
+  ],
+  "atilan_ortanca": {
+   "taban": 0.4438,
+   "hizali": 0.5409
+  },
+  "bant_hizali": 2.307,
+  "r2_basildi": true
+ },
+ "note": "renders four descriptive cell cards; no statistic computed here"
+}

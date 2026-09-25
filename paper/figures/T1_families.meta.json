@@ -1,0 +1,87 @@
+{
+ "table": "T1_families",
+ "sources": [
+  {
+   "yol": "results/PREREG9_A_OLCUM_2026-08-31.json",
+   "sha256_16": "8b3c5fba7156b393"
+  },
+  {
+   "yol": "results/P11_2X2_ELICIT_2026-09-03.json",
+   "sha256_16": "a7ce907d70af38ce"
+  },
+  {
+   "yol": "results/four_seed_reading_2026-09-01.json",
+   "sha256_16": "569fe7b88269bc45"
+  },
+  {
+   "yol": "results/SEED_UC_AILE_OKUMA_2026-09-15.json",
+   "sha256_16": "52af3dd364ea0f1b"
+  },
+  {
+   "yol": "results/substrate_protocol_2026-09-06.json",
+   "sha256_16": "5211f3187a5cf5c4"
+  },
+  {
+   "yol": "results/v27_urial_prefix_density_2026-09-09.json",
+   "sha256_16": "3b75988ba21810cb"
+  },
+  {
+   "yol": "results/URIAL_VERDICT_2048_16_K2048_2026-09-11.json",
+   "sha256_16": "1ffad87e9423fc5b"
+  },
+  {
+   "yol": "results/v97_generation_tavani_2026-09-19.json",
+   "sha256_16": "2b76e3599f7d7500"
+  },
+  {
+   "yol": "results/four_seed_level_2026-09-16.json",
+   "sha256_16": "1d78bfcb02cdbf72"
+  },
+  {
+   "yol": "results/v90_tez_kume_2026-09-17.json",
+   "sha256_16": "20a45b23cd9cbbb2"
+  },
+  {
+   "yol": "results/v97_t1_dogrudan_birinci_2026-09-19.json",
+   "sha256_16": "6a8d2ac4f0244a74"
+  },
+  {
+   "yol": "results/v104_base_birinci_2026-09-23.json",
+   "sha256_16": "387fe01d054db1f2"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "A_ayrik": 16,
+  "B_olculen": 15,
+  "B_ayrik": 12,
+  "s1_olcu": "dogrudan",
+  "s1_dusen": 16,
+  "s1_daha_cok": 16,
+  "U_olculen": 16,
+  "U_ayrik": 10,
+  "U_asagi": 10,
+  "U_ters": 5,
+  "U_bicim": 1,
+  "kesik_doygun": 4
+ },
+ "sira": [
+  "Mistral-7B-v0.3",
+  "Tulu3-8B",
+  "OLMo2-13B",
+  "OLMo2-32B",
+  "Llama-3.1-8B",
+  "OLMo-3-7B",
+  "Qwen2.5-72B",
+  "Llama-3.1-70B",
+  "Qwen2.5-7B",
+  "Qwen2.5-14B",
+  "Qwen2.5-3B",
+  "Gemma-3-4B",
+  "Qwen2.5-32B",
+  "Gemma-3-27B",
+  "Gemma-3-12B",
+  "Qwen2.5-1.5B"
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

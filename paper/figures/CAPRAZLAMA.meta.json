@@ -1,0 +1,197 @@
+{
+ "table": "CAPRAZLAMA",
+ "damga_utc": "2026-09-25T23:44:40Z",
+ "sources": [
+  {
+   "yol": "results/dilution_2026-09-03.json",
+   "sha256_16": "0f45d0a431dbc118"
+  },
+  {
+   "yol": "results/KOL_TABLOSU_2026-09-10.json",
+   "sha256_16": "785ae3d0785c37b1"
+  },
+  {
+   "yol": "results/four_seed_reading_2026-09-01.json",
+   "sha256_16": "569fe7b88269bc45"
+  },
+  {
+   "yol": "results/SEED_UC_AILE_OKUMA_2026-09-15.json",
+   "sha256_16": "52af3dd364ea0f1b"
+  }
+ ],
+ "sayim": {
+  "cumle": 12,
+  "you_free": 14,
+  "seed": 16,
+  "ucu_birden": 11,
+  "olculmedi": 0,
+  "payda": 16
+ },
+ "gecen": [
+  "Gemma-3-12B",
+  "Gemma-3-4B",
+  "Llama-3.1-70B",
+  "Llama-3.1-8B",
+  "Mistral-7B-v0.3",
+  "OLMo-3-7B",
+  "OLMo2-13B",
+  "OLMo2-32B",
+  "Qwen2.5-3B",
+  "Qwen2.5-7B",
+  "Tulu3-8B"
+ ],
+ "dusen": [
+  "Gemma-3-27B",
+  "Qwen2.5-1.5B",
+  "Qwen2.5-14B",
+  "Qwen2.5-32B",
+  "Qwen2.5-72B"
+ ],
+ "olculmedi": [],
+ "aile": {
+  "Gemma-3-12B": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.29821635751906017,
+   "dM1_yf": -1.8771,
+   "m4_ort": -2.329415563529859,
+   "seed_hal": "m=4"
+  },
+  "Gemma-3-27B": {
+   "cumle": true,
+   "you_free": false,
+   "seed": true,
+   "dlog_cumle": -0.2660211075928334,
+   "dM1_yf": -1.5279,
+   "m4_ort": -2.5934629274829697,
+   "seed_hal": "m=4"
+  },
+  "Gemma-3-4B": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.4261474813491437,
+   "dM1_yf": -2.6495,
+   "m4_ort": -3.0212185126625344,
+   "seed_hal": "m=4"
+  },
+  "Llama-3.1-70B": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.312988124350853,
+   "dM1_yf": -3.2234,
+   "m4_ort": -3.8593007457631763,
+   "seed_hal": "m=4"
+  },
+  "Llama-3.1-8B": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.4483712576341021,
+   "dM1_yf": -4.658,
+   "m4_ort": -4.685482087803068,
+   "seed_hal": "m=4"
+  },
+  "Mistral-7B-v0.3": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -1.1796268815264426,
+   "dM1_yf": -8.4234,
+   "m4_ort": -9.511663879912446,
+   "seed_hal": "m=4"
+  },
+  "OLMo-3-7B": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.18596648096112278,
+   "dM1_yf": -4.0844,
+   "m4_ort": -4.540174410764613,
+   "seed_hal": "m=4"
+  },
+  "OLMo2-13B": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.6209364420110572,
+   "dM1_yf": -5.6153,
+   "m4_ort": -6.757050764254488,
+   "seed_hal": "m=4"
+  },
+  "OLMo2-32B": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.33230584006975916,
+   "dM1_yf": -4.7603,
+   "m4_ort": -5.174615972193925,
+   "seed_hal": "m=4"
+  },
+  "Qwen2.5-1.5B": {
+   "cumle": false,
+   "you_free": false,
+   "seed": true,
+   "dlog_cumle": 0.008701029584433417,
+   "dM1_yf": 1.0797,
+   "m4_ort": -1.7690001609810988,
+   "seed_hal": "m=4"
+  },
+  "Qwen2.5-14B": {
+   "cumle": false,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.10021618018143807,
+   "dM1_yf": -1.849,
+   "m4_ort": -3.4416953235166923,
+   "seed_hal": "m=4"
+  },
+  "Qwen2.5-32B": {
+   "cumle": false,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": 0.05037356004669924,
+   "dM1_yf": -1.468,
+   "m4_ort": -2.766833399514789,
+   "seed_hal": "m=4"
+  },
+  "Qwen2.5-3B": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.19351343947872812,
+   "dM1_yf": -2.6583,
+   "m4_ort": -3.059785538498293,
+   "seed_hal": "m=4"
+  },
+  "Qwen2.5-72B": {
+   "cumle": false,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.15966228160742246,
+   "dM1_yf": -2.4781,
+   "m4_ort": -4.142424976715679,
+   "seed_hal": "m=4"
+  },
+  "Qwen2.5-7B": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -0.27291479213012537,
+   "dM1_yf": -3.0716,
+   "m4_ort": -3.6246114977744117,
+   "seed_hal": "m=4"
+  },
+  "Tulu3-8B": {
+   "cumle": true,
+   "you_free": true,
+   "seed": true,
+   "dlog_cumle": -1.1134695805517085,
+   "dM1_yf": -7.3684,
+   "m4_ort": -9.037311981789244,
+   "seed_hal": "m=4"
+  }
+ }
+}

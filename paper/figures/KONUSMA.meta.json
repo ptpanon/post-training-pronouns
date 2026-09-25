@@ -1,0 +1,25 @@
+{
+ "table": "KONUSMA",
+ "damga_utc": "2026-09-25T23:44:40Z",
+ "sources": [
+  {
+   "yol": "results/second_speaker_bare_2026-09-11.json",
+   "sha256_16": "2b5b73a62675cae6"
+  }
+ ],
+ "sayim": {
+  "tam": 16,
+  "kesik": 16,
+  "tavan": 15,
+  "payda": 16,
+  "olculen": 16
+ },
+ "pay_bandi": [
+  0.0202,
+  0.0587
+ ],
+ "medyan": 0.0405,
+ "tavan_dusen": [
+  "Qwen2.5-32B"
+ ]
+}

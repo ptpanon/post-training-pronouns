@@ -1,0 +1,38 @@
+{
+ "table": "SIRADAN_TALIMAT",
+ "ciktilar": [
+  "SIRADAN_TALIMAT.tex",
+  "SIRADAN_TALIMAT_CUMLE.tex",
+  "SIRADAN_TALIMAT_BIRINCI.tex",
+  "SIRADAN_TALIMAT_SAPMA.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/siradan_instruction_reading_2026-09-17.json",
+   "sha256_16": "8f349a74877b2230"
+  },
+  {
+   "yol": "results/siradan_instruction_secim_2026-09-17.json",
+   "sha256_16": "7e225a5c82271d10"
+  },
+  {
+   "yol": "results/v91_konusan_sayimi_2026-09-17.json",
+   "sha256_16": "92e81bd77a7deabd"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "n_istem": 300,
+  "M1_ayrik": 16,
+  "plasebo_ustu": 16,
+  "IS1_asagi": 12,
+  "IS1_yukari": 2,
+  "IS1_null": 2,
+  "IS1_plasebo_ustu": 14,
+  "bilesik_d1st_yukari": 15,
+  "bant_taban": 1.729,
+  "bant_hizali": 2.307,
+  "kesilen_ortanca": 0.3604
+ },
+ "note": "renders the descriptive ordinary-instruction card; no statistic computed here"
+}

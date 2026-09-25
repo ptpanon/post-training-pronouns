@@ -1,0 +1,101 @@
+{
+ "_taban": {
+  "n_yanit": 580,
+  "n_cumle": 9108,
+  "sayac_duzeltme_orani": 0.10344827586206896,
+  "sayac_kisisiz_pay_ort": 0.9166666666666666
+ },
+ "claude": {
+  "A_duzeltme_tespiti": {
+   "her_ikisi_EVET": 56,
+   "rubrik_EVET_sayac_HAYIR": 200,
+   "rubrik_HAYIR_sayac_EVET": 4,
+   "her_ikisi_HAYIR": 320,
+   "n": 580,
+   "uyum": 0.6482758620689655,
+   "kappa": 0.2244362873623491
+  },
+  "B_kisisizlik": {
+   "her_ikisi_EVET": 45,
+   "rubrik_EVET_sayac_HAYIR": 5,
+   "rubrik_HAYIR_sayac_EVET": 6,
+   "her_ikisi_HAYIR": 0,
+   "n": 56,
+   "uyum": 0.8035714285714286,
+   "kappa": -0.1079136690647488
+  },
+  "B_kirilim": {
+   "KISISIZ→sayac_kisisiz": 45,
+   "YUMUSAK→sayac_kisisiz": 3,
+   "DOGRUDAN→sayac_kisisiz": 3,
+   "KISISIZ→sayac_kisili": 5
+  },
+  "payda": {
+   "n_kol": 580,
+   "n_eslesen": 580,
+   "n_B_kesisim": 56,
+   "red_Q2_yok": 0
+  }
+ },
+ "qwen": {
+  "A_duzeltme_tespiti": {
+   "her_ikisi_EVET": 36,
+   "rubrik_EVET_sayac_HAYIR": 30,
+   "rubrik_HAYIR_sayac_EVET": 24,
+   "her_ikisi_HAYIR": 490,
+   "n": 580,
+   "uyum": 0.906896551724138,
+   "kappa": 0.519337016574586
+  },
+  "B_kisisizlik": {
+   "her_ikisi_EVET": 29,
+   "rubrik_EVET_sayac_HAYIR": 3,
+   "rubrik_HAYIR_sayac_EVET": 4,
+   "her_ikisi_HAYIR": 0,
+   "n": 36,
+   "uyum": 0.8055555555555556,
+   "kappa": -0.10526315789473667
+  },
+  "B_kirilim": {
+   "KISISIZ→sayac_kisisiz": 29,
+   "YUMUSAK→sayac_kisisiz": 4,
+   "KISISIZ→sayac_kisili": 3
+  },
+  "payda": {
+   "n_kol": 580,
+   "n_eslesen": 580,
+   "n_B_kesisim": 36,
+   "red_Q2_yok": 0
+  }
+ },
+ "insan": {
+  "A_duzeltme_tespiti": {
+   "her_ikisi_EVET": 2,
+   "rubrik_EVET_sayac_HAYIR": 5,
+   "rubrik_HAYIR_sayac_EVET": 0,
+   "her_ikisi_HAYIR": 5,
+   "n": 12,
+   "uyum": 0.5833333333333334,
+   "kappa": 0.2500000000000001
+  },
+  "B_kisisizlik": "ÖLCÜLEMEZ",
+  "tabaka": {
+   "ANLASMAZLIK": 10,
+   "ANLASMA-EVET": 1,
+   "ANLASMA-HAYIR": 1
+  },
+  "SERH": ""
+ },
+ "_kunye": {
+  "damga_utc": "2026-09-01T16:04:28Z",
+  "SINIF": "DOGRULAMA/BETIM",
+  "kutu": "KP-ac9d",
+  "rubrik": "ELICIT_Q1Q6_v2",
+  "esleme": {
+   "A": "Q1==EVET ↔ duzeltme≥1",
+   "B": "Q2==KISISIZ ↔ (duzeltme_kisisiz/duzeltme) ≥ 0.50"
+  },
+  "ayrisma_sinifi_onceden": "yalin ret 2. kisi tasimaz ⇒ sayac kisisiz der, rubrik DOGRUDAN; ters yön: 'you might' ⇒ YUMUSAK ama kisili",
+  "sayac": "muhatap_olcu.topla (ITHAL, K-5a)"
+ }
+}

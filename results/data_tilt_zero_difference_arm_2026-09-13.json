@@ -1,0 +1,167 @@
+{
+ "damga_utc": "2026-09-13T22:33:17Z",
+ "SINIF": "KOL INSASI + ÖLCÜM — egitim YOK · verdict YOK · prediction YOK",
+ "etiket": "KK3_FARKSIZ",
+ "seed_kol": 20260913,
+ "n_kol": 37426,
+ "adim": 2297,
+ "adim_kk3": 2302,
+ "havuz": "allenai/llama-3.1-tulu-3-8b-preference-mixture",
+ "n_gecerli": 269665,
+ "n_sifir": 158802,
+ "n_panel_kesisimi_dusen": 0,
+ "n_aday": 158802,
+ "sd_havuz": 15.526048496306673,
+ "kaynak_hedef": {
+  "allenai/tulu-3-sft-reused-if": 9036,
+  "allenai/tulu-3-sft-reused-on-policy-8b": 2659,
+  "allenai/tulu-3-wildchat-reused-on-policy-8b": 2434,
+  "allenai/tulu-3-sft-reused-off-policy-8b": 13323,
+  "allenai/tulu-3-wildchat-if": 1529,
+  "allenai/tulu-3-ultrafeedback-cleaned-on-policy-8b": 5675,
+  "allenai/tulu-3-persona-if": 2770
+ },
+ "kaynak_secilen": {
+  "allenai/tulu-3-sft-reused-if": 9036,
+  "allenai/tulu-3-sft-reused-on-policy-8b": 2659,
+  "allenai/tulu-3-wildchat-reused-on-policy-8b": 2434,
+  "allenai/tulu-3-sft-reused-off-policy-8b": 13323,
+  "allenai/tulu-3-wildchat-if": 1529,
+  "allenai/tulu-3-ultrafeedback-cleaned-on-policy-8b": 5675,
+  "allenai/tulu-3-persona-if": 2770
+ },
+ "kaynak_aday": {
+  "allenai/tulu-3-sft-reused-if": 43017,
+  "allenai/tulu-3-sft-reused-on-policy-8b": 11432,
+  "allenai/tulu-3-wildchat-reused-on-policy-8b": 8413,
+  "allenai/tulu-3-sft-reused-off-policy-8b": 56366,
+  "allenai/tulu-3-wildchat-if": 4258,
+  "allenai/tulu-3-ultrafeedback-cleaned-on-policy-8b": 22885,
+  "allenai/tulu-3-persona-if": 12431
+ },
+ "kk3_yeniden_kurulum_sapma": {
+  "KK3_NOTR": 0.0,
+  "KK3_TABAN": 0.0,
+  "KK3_UCKAT": 0.0
+ },
+ "olcum": {
+  "KK3_FARKSIZ": {
+   "n": 37426,
+   "dM1_ort": 0.0,
+   "dM1_sd": 0.0,
+   "dM1_maks_mutlak": 0.0,
+   "pay_kisili": 0.0007214236092555977,
+   "duzey_M1_ort": 0.053348118653580294,
+   "d_red": -0.0016566023619943348,
+   "red_secilen": 0.004515577406081334,
+   "d_kod": 0.016646181798749535,
+   "kod_secilen": 0.07756639769144445,
+   "d_jeton": 5.011115267461124,
+   "jeton_secilen": 299.3210602255117,
+   "jeton_reddedilen": 294.30994495805055
+  },
+  "KK3_NOTR": {
+   "n": 37426,
+   "dM1_ort": 0.010183560996710023,
+   "dM1_sd": 11.822927436090547,
+   "dM1_maks_mutlak": 222.22222222222223,
+   "pay_kisili": 0.40316892000213755,
+   "duzey_M1_ort": 5.231111482957715,
+   "d_red": -0.003954470154438089,
+   "red_secilen": 0.031074653983861486,
+   "d_kod": 0.024421525142948763,
+   "kod_secilen": 0.1529685245551221,
+   "d_jeton": -7.285149361406509,
+   "jeton_secilen": 347.1507240955485,
+   "jeton_reddedilen": 354.43587345695505
+  },
+  "KK3_TABAN": {
+   "n": 37426,
+   "dM1_ort": -1.0035874114647365,
+   "dM1_sd": 15.27563928699774,
+   "dM1_maks_mutlak": 333.3333333333333,
+   "pay_kisili": 0.40856623737508685,
+   "duzey_M1_ort": 5.790864912736409,
+   "d_red": -0.004435419227275153,
+   "red_secilen": 0.031368567306150806,
+   "d_kod": 0.024955913001656588,
+   "kod_secilen": 0.15026986586864746,
+   "d_jeton": -4.305082028536312,
+   "jeton_secilen": 346.3286752524983,
+   "jeton_reddedilen": 350.63375728103455
+  },
+  "KK3_UCKAT": {
+   "n": 37426,
+   "dM1_ort": -2.9498230284102203,
+   "dM1_sd": 12.584150230579494,
+   "dM1_maks_mutlak": 333.3333333333333,
+   "pay_kisili": 0.36907497461657673,
+   "duzey_M1_ort": 4.746236449621807,
+   "d_red": -0.00929834874151659,
+   "red_secilen": 0.023994014855982473,
+   "d_kod": 0.02468871907230269,
+   "kod_secilen": 0.15107144765670924,
+   "d_jeton": -1.2699460268262706,
+   "jeton_secilen": 351.0737989632876,
+   "jeton_reddedilen": 352.3437449901138
+  }
+ },
+ "paket_tavan": {
+  "d_red": 0.0386,
+  "d_jeton": 23.72
+ },
+ "kk3_kollariyla_ortak_cift": {
+  "KK3_NOTR": 5246,
+  "KK3_TABAN": 5245,
+  "KK3_UCKAT": 5577
+ },
+ "boru": {
+  "oran_sessiz_dusen": 0.0177,
+  "adim": 2297,
+  "tam": {
+   "template": {
+    "template_var": true,
+    "ilk_80": "<|user|>\nEdit the sentence to make it grammatically correct:\n\nMy teacher says I'",
+    "n_bos_bas": 1,
+    "HAL": "TEK-BOS"
+   },
+   "kesme": {
+    "max_length": 1536,
+    "truncation_mode": "keep_start",
+    "istem_jeton_ort": 246.0,
+    "istem_jeton_p50": 105,
+    "istem_jeton_p95": 849,
+    "chosen_jeton_ort": 399.4,
+    "rejected_jeton_ort": 411.1,
+    "cevaba_kalan_jeton_ort": 1306.6,
+    "oran_SESSIZ_DUSEN": 0.0177,
+    "oran_cevap_KISMEN_kesilen": 0.018,
+    "esik": 0.1,
+    "HAL": "KABUL"
+   },
+   "dolgu": {
+    "pad_token": "<pad>",
+    "pad_token_id": 128256,
+    "eos_token": "<|end_of_text|>",
+    "padding_side": "right",
+    "pad_eos_ayni": false
+   },
+   "ozdes_cift": {
+    "n": 0,
+    "oran": 0.0
+   }
+  }
+ },
+ "kapilar": {
+  "G0_kk3_yeniden_kurulum": true,
+  "G1_notrluk": true,
+  "G2_paket": true,
+  "G3_kaynak_ve_N": true,
+  "G4_panel_kesisimi_0": true,
+  "G5_adim": true
+ },
+ "GECTI": true,
+ "kol_yolu": "<data>/uc_kol/KK3_FARKSIZ.jsonl",
+ "kol_sha256": "b73eca2bbd13e1944038123bf663847965ebb3f6c754d35d3abb641a77c36605",
+ "sure_sn": 94.7
+}

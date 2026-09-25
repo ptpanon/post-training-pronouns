@@ -1,0 +1,75 @@
+{
+ "damga_utc": "2026-09-03T22:39:43Z",
+ "SINIF": "KESIF (bar yok · ad yok · prediction yok)",
+ "etiket": "DIAL_RASTGELE",
+ "kol": "RASTGELE",
+ "seed": 20260830,
+ "n_cift": 7537,
+ "adim": 458,
+ "max_length": 1536,
+ "birikim": 8,
+ "optim": "adamw_torch",
+ "fsdp": "full_shard auto_wrap",
+ "n_card": 2,
+ "boru": {
+  "template": {
+   "template_var": true,
+   "ilk_80": "<|user|>\nYou need to complete the following task:\n\nCreate a linked list with the",
+   "n_bos_bas": 1,
+   "HAL": "TEK-BOS"
+  },
+  "kesme": {
+   "max_length": 1536,
+   "truncation_mode": "keep_start",
+   "istem_jeton_ort": 220.1,
+   "istem_jeton_p50": 109,
+   "istem_jeton_p95": 737,
+   "chosen_jeton_ort": 721.4,
+   "rejected_jeton_ort": 708.5,
+   "cevaba_kalan_jeton_ort": 1328.2,
+   "oran_SESSIZ_DUSEN": 0.0166,
+   "oran_cevap_KISMEN_kesilen": 0.0313,
+   "esik": 0.1,
+   "HAL": "KABUL"
+  },
+  "dolgu": {
+   "pad_token": "<pad>",
+   "pad_token_id": 128256,
+   "eos_token": "<|end_of_text|>",
+   "padding_side": "right",
+   "pad_eos_ayni": false
+  },
+  "ozdes_cift": {
+   "n": 0,
+   "oran": 0.0
+  }
+ },
+ "saniye": 2220.2,
+ "saniye_basina_adim": 4.85,
+ "tahsis_tepe_mib": 76647.2,
+ "card_tepe_mib": 89421,
+ "card_son": 89421,
+ "kapi_mib": 93272,
+ "gozcu_ihlal": false,
+ "dur_istendi": false,
+ "egitim": {
+  "train_runtime": 2219.7968,
+  "train_samples_per_second": 3.301,
+  "train_steps_per_second": 0.206,
+  "total_flos": 6.252842936728289e+17,
+  "train_loss": 0.7278443423941666,
+  "entropy": 0.8494466145833334,
+  "num_tokens": 11747166.0,
+  "logits/chosen": -0.8626049510133403,
+  "logits/rejected": -1.01267724357299,
+  "mean_token_accuracy": 0.7547880361477534,
+  "rewards/chosen": -0.005729166946063439,
+  "rewards/rejected": 0.001041665595645706,
+  "rewards/accuracies": 0.3958333333333333,
+  "rewards/margins": -0.006770831998437643,
+  "logps/chosen": -519.7916666666666,
+  "logps/rejected": -616.0833333333334,
+  "epoch": 0.9886670264436049
+ },
+ "ckpt": "<data>/dial_ckpt/DIAL_RASTGELE_t20260830"
+}

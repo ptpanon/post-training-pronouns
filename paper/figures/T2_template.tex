@@ -1,0 +1,35 @@
+\begin{table}[t]
+\centering
+\small
+\caption{\textbf{The chat template is not a nuisance parameter.} \textbf{Carried from a separate instrument study; not a contribution here. $\\Delta U$ is defined in Appendix~\\ref{app:D7}.} $\Delta U_{\mathrm{DOM}}$ \emph{outcome} under a raw-continuation prefix and under the aligned model's own chat template; the base checkpoint is untouched in every row. Outcomes: $+$/$-$ CI-disjoint positive/negative, (c) contingent, $\sim$ null. \emph{Top:} nine end-to-end pairs, same 3 / changed 6, so the panel outcome is \textsc{template-dependent}. \emph{Bottom:} nine checkpoint sequence steps, each checkpoint in its own template; the \textsc{sft}$\rightarrow$\textsc{dpo} name survives on 2 of 3 checkpoint sequences but not on T\"u3, the checkpoint sequence on which it was first observed. $\dagger$: the base side is itself a checkpoint with a template, so format and content are not separable there.}
+\label{tab:template}
+\begin{tabular}{lccrrc}
+\toprule
+& \multicolumn{2}{c}{outcome} & \multicolumn{2}{c}{$\Delta U_{\mathrm{DOM}}$} & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Pair / step & raw-continuation & template & raw-continuation & template & name \\
+\midrule
+\multicolumn{6}{l}{\emph{(a) end-to-end pairs: base side is a true base model}}\\
+\quad Qwen2.5-7B & (c) & $-$ & -0.008 & -0.098 & \textbf{changed} \\
+\quad Mistral-7B-v0.3 & $+$ & $\sim$ & +0.059 & -0.004 & \textbf{changed} \\
+\quad OLMo-3-7B & $+$ & $+$ & +0.026 & +0.021 & same \\
+\quad Llama-3.1-8B & $+$ & $\sim$ & +0.033 & +0.003 & \textbf{changed} \\
+\quad Gemma-3-4B & $\sim$ & $-$ & +0.006 & -0.086 & \textbf{changed} \\
+\quad Gemma-3-12B & $+$ & $\sim$ & +0.088 & +0.008 & \textbf{changed} \\
+\quad OLMo2-13B & $+$ & $+$ & +0.040 & +0.092 & same \\
+\quad OLMo2-32B & $-$ & $\sim$ & -0.017 & +0.030 & \textbf{changed} \\
+\quad Tulu3-8B & $+$ & $+$ & +0.062 & +0.088 & same \\
+\midrule
+\multicolumn{6}{l}{\emph{(b) checkpoint sequence steps: each checkpoint in its own template}}\\
+\quad OLMo2-13B base$\to$SFT$^\dagger$ & $\sim$ & $+$ & -0.001 & +0.042 & \textbf{changed} \\
+\quad OLMo2-13B SFT$\to$DPO & $+$ & $+$ & +0.052 & +0.053 & same \\
+\quad OLMo2-13B DPO$\to$Inst & $\sim$ & $\sim$ & -0.011 & -0.003 & same \\
+\quad OLMo2-32B base$\to$SFT$^\dagger$ & $-$ & $+$ & -0.020 & +0.045 & \textbf{changed} \\
+\quad OLMo2-32B SFT$\to$DPO & $\sim$ & $\sim$ & +0.000 & +0.003 & same \\
+\quad OLMo2-32B DPO$\to$Inst & $\sim$ & $-$ & +0.003 & -0.018 & \textbf{changed} \\
+\quad Tulu3-8B base$\to$SFT$^\dagger$ & $\sim$ & $+$ & -0.001 & +0.111 & \textbf{changed} \\
+\quad Tulu3-8B SFT$\to$DPO & $+$ & $\sim$ & +0.053 & -0.006 & \textbf{changed} \\
+\quad Tulu3-8B DPO$\to$RL & $\sim$ & $\sim$ & +0.010 & -0.017 & same \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,120 @@
+{
+ "sinif": "BETIM · card · bar yok · verdict adi yok",
+ "prereg": "preregistration/prereg_qwen_base_own_template_2026-09-24.md",
+ "nesne": {
+  "taban": "",
+  "hizali": ""
+ },
+ "motor": "v96_k3_oku.cift(duzyazi=False) — ITHAL",
+ "aile": {
+  "Qwen2.5-1.5B": {
+   "d2nd": {
+    "taban": 11.118652340026387,
+    "delta": 3.03872786384715,
+    "ci": [
+     1.575274570332556,
+     4.448294524560158
+    ],
+    "ayrik": true
+   },
+   "d1st": {
+    "taban": 24.807253814887403,
+    "delta": -10.359403745749523,
+    "ci": [
+     -12.158149161598121,
+     -8.430593312676313
+    ],
+    "ayrik": true
+   },
+   "n_cift": 6528,
+   "n_tutulan": 2594,
+   "n_bos_tutulan": 0
+  },
+  "Qwen2.5-3B": {
+   "d2nd": {
+    "taban": 14.938036976825245,
+    "delta": -4.230746487400818,
+    "ci": [
+     -5.09907903777735,
+     -3.41446555640574
+    ],
+    "ayrik": true
+   },
+   "d1st": {
+    "taban": 9.501166497480009,
+    "delta": -5.885482714968013,
+    "ci": [
+     -6.520728789480027,
+     -5.270061853130418
+    ],
+    "ayrik": true
+   },
+   "n_cift": 6528,
+   "n_tutulan": 6249,
+   "n_bos_tutulan": 0
+  },
+  "Qwen2.5-7B": {
+   "d2nd": {
+    "taban": 14.824184754081577,
+    "delta": -6.38331971414603,
+    "ci": [
+     -7.5599421375198865,
+     -5.233123411832606
+    ],
+    "ayrik": true
+   },
+   "d1st": {
+    "taban": 10.557598269518143,
+    "delta": -8.80610112767511,
+    "ci": [
+     -9.497386795084008,
+     -8.073881661873298
+    ],
+    "ayrik": true
+   },
+   "n_cift": 6528,
+   "n_tutulan": 6236,
+   "n_bos_tutulan": 0
+  },
+  "Qwen2.5-14B": {
+   "d2nd": {
+    "taban": 11.501664918443636,
+    "delta": -0.6426200422603543,
+    "ci": [
+     -2.0213523465187193,
+     0.6987274800452157
+    ],
+    "ayrik": false
+   },
+   "d1st": {
+    "taban": 10.14438679610557,
+    "delta": -9.346679785726526,
+    "ci": [
+     -10.478248114890597,
+     -8.150127369590829
+    ],
+    "ayrik": true
+   },
+   "n_cift": 6528,
+   "n_tutulan": 6373,
+   "n_bos_tutulan": 0
+  }
+ },
+ "sayim": {
+  "d2nd": {
+   "asagi_ayrik": 2,
+   "yukari_ayrik": 1,
+   "belirsiz": 1
+  },
+  "d1st": {
+   "asagi_ayrik": 4,
+   "yukari_ayrik": 0,
+   "belirsiz": 0
+  }
+ },
+ "okunmayan": {
+  "Qwen2.5-32B": ""
+ },
+ "damga_utc": "2026-09-24T21:21:03Z",
+ "sure_dk": 4.0
+}

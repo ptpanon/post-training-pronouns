@@ -1,0 +1,22 @@
+{
+ "table": "T8_m3",
+ "sources": [
+  {
+   "yol": "results/v20_panel_2026-09-06.json",
+   "sha256_16": "2f947cefe0a894e7"
+  },
+  {
+   "yol": "results/v97_elicited_impersonal_correction_b15_2026-09-19.json",
+   "sha256_16": "0ec7315b45bca9a6"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "notr_ayrik": 9,
+  "notr_yukari": 8,
+  "elicit_olculen": 15,
+  "elicit_ayrik": 3,
+  "elicit_yukari": 2
+ },
+ "note": "renders measured differences; computes no new statistic"
+}

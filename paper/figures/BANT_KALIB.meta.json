@@ -1,0 +1,40 @@
+{
+ "table": "BANT_KALIB",
+ "ciktilar": [
+  "BANT_KALIB.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/spread_calibration_2026-09-14.json",
+   "sha256_16": "38dc543ddba7ddc7"
+  },
+  {
+   "yol": "results/rebuttal_materials_v78_band_no_system_line_2026-09-15.json",
+   "sha256_16": "8058732c31dabb09"
+  }
+ ],
+ "payda": {
+  "M1": [
+   2.458733231018863,
+   20.516801659375126
+  ],
+  "listekod": [
+   18.762270257830636,
+   4.182412397567009
+  ],
+  "listekod_min_taban": 0.011866081208866975,
+  "uzunluk": [
+   1.4376289375420959,
+   1.3013966885391253
+  ],
+  "satirsiz_bant": {
+   "tum": 19.79338132263662,
+   "temiz": 18.64740351124706
+  },
+  "red_sifir_aile": {
+   "hizali": 8,
+   "taban": 1
+  }
+ },
+ "note": "renders the descriptive spread calibration as an Appendix E paragraph; no statistic computed here"
+}

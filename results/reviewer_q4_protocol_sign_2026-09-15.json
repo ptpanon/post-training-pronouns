@@ -1,0 +1,727 @@
+{
+ "sinif": "BETIM · card · kâgida girmez",
+ "rule": "preregistration/rule_reviewer_readings_2026-09-15.md @ 25315d8e",
+ "soru": "Q4 · aile × protokol (ciplak / template / URIAL) isaret tablosu; sablonda yükselenler ∩ URIAL'de yükselenler",
+ "kaynak": [
+  "PREREG9_A_OLCUM_2026-08-31.json",
+  "template_filtered_2026-09-07.json",
+  "URIAL_VERDICT_2048_16_K2048_2026-09-11.json"
+ ],
+ "sayim": {
+  "ciplak": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  },
+  "template": {
+   "asagi": 7,
+   "yukari": 7,
+   "null": 2
+  },
+  "urial_i": {
+   "asagi": 11,
+   "yukari": 5,
+   "null": 0
+  },
+  "urial_ii": {
+   "asagi": 10,
+   "yukari": 5,
+   "null": 1
+  }
+ },
+ "sayim_adlar": {
+  "ciplak": {
+   "asagi": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [],
+   "null": []
+  },
+  "template": {
+   "asagi": [
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "OLMo-3-7B",
+    "Qwen2.5-1.5B"
+   ],
+   "null": [
+    "Mistral-7B-v0.3",
+    "Qwen2.5-72B"
+   ]
+  },
+  "urial_i": {
+   "asagi": [
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "OLMo-3-7B"
+   ],
+   "null": []
+  },
+  "urial_ii": {
+   "asagi": [
+    "Mistral-7B-v0.3",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "OLMo-3-7B"
+   ],
+   "null": [
+    "Llama-3.1-8B"
+   ]
+  }
+ },
+ "urial_i_TERS_adi": [
+  "Gemma-3-12B",
+  "Gemma-3-27B",
+  "Gemma-3-4B",
+  "Llama-3.1-70B",
+  "OLMo-3-7B"
+ ],
+ "kesisim_template_yukari_urial_i_yukari": [
+  "Gemma-3-12B",
+  "Gemma-3-27B",
+  "Gemma-3-4B",
+  "Llama-3.1-70B",
+  "OLMo-3-7B"
+ ],
+ "kesisim_template_yukari_urial_i_TERS": [
+  "Gemma-3-12B",
+  "Gemma-3-27B",
+  "Gemma-3-4B",
+  "Llama-3.1-70B",
+  "OLMo-3-7B"
+ ],
+ "tablo": {
+  "Gemma-3-12B": {
+   "ciplak": {
+    "d": -2.798,
+    "ci": [
+     -4.586,
+     -1.3463
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": 24.6134,
+    "ci": [
+     22.3864,
+     26.6087
+    ],
+    "sinif": "yukari"
+   },
+   "urial_i": {
+    "d": 11.3387,
+    "ci": [
+     9.6994,
+     12.9403
+    ],
+    "sinif": "yukari",
+    "AD": "TERS"
+   },
+   "urial_ii": {
+    "d": 22.1687,
+    "ci": [
+     20.7894,
+     23.4212
+    ],
+    "sinif": "yukari",
+    "AD": "TERS"
+   }
+  },
+  "Gemma-3-27B": {
+   "ciplak": {
+    "d": -3.0669,
+    "ci": [
+     -5.5392,
+     -1.0882
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": 32.2671,
+    "ci": [
+     30.4194,
+     33.9
+    ],
+    "sinif": "yukari"
+   },
+   "urial_i": {
+    "d": 16.6667,
+    "ci": [
+     15.1927,
+     18.258
+    ],
+    "sinif": "yukari",
+    "AD": "TERS"
+   },
+   "urial_ii": {
+    "d": 26.7864,
+    "ci": [
+     25.2649,
+     28.3334
+    ],
+    "sinif": "yukari",
+    "AD": "TERS"
+   }
+  },
+  "Gemma-3-4B": {
+   "ciplak": {
+    "d": -3.6314,
+    "ci": [
+     -5.3924,
+     -1.9067
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": 26.3549,
+    "ci": [
+     24.6053,
+     27.8856
+    ],
+    "sinif": "yukari"
+   },
+   "urial_i": {
+    "d": 15.7476,
+    "ci": [
+     14.1719,
+     17.2797
+    ],
+    "sinif": "yukari",
+    "AD": "TERS"
+   },
+   "urial_ii": {
+    "d": 22.4115,
+    "ci": [
+     21.017,
+     23.8118
+    ],
+    "sinif": "yukari",
+    "AD": "TERS"
+   }
+  },
+  "Llama-3.1-70B": {
+   "ciplak": {
+    "d": -3.7798,
+    "ci": [
+     -4.3989,
+     -3.1411
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": 14.7602,
+    "ci": [
+     13.5109,
+     16.0792
+    ],
+    "sinif": "yukari"
+   },
+   "urial_i": {
+    "d": 1.8448,
+    "ci": [
+     0.9687,
+     2.7452
+    ],
+    "sinif": "yukari",
+    "AD": "TERS"
+   },
+   "urial_ii": {
+    "d": 7.0366,
+    "ci": [
+     6.2676,
+     7.8006
+    ],
+    "sinif": "yukari",
+    "AD": "TERS"
+   }
+  },
+  "Llama-3.1-8B": {
+   "ciplak": {
+    "d": -4.7667,
+    "ci": [
+     -5.8098,
+     -3.8213
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": 7.5054,
+    "ci": [
+     6.2642,
+     8.6175
+    ],
+    "sinif": "yukari"
+   },
+   "urial_i": {
+    "d": -10.0542,
+    "ci": [
+     -11.0828,
+     -9.1067
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": 0.4482,
+    "ci": [
+     -0.7214,
+     1.4877
+    ],
+    "sinif": "null",
+    "AD": "BICIM-ÖZELLIGI"
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "ciplak": {
+    "d": -9.8563,
+    "ci": [
+     -11.6775,
+     -8.2615
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": -0.1126,
+    "ci": [
+     -2.6192,
+     1.8495
+    ],
+    "sinif": "null"
+   },
+   "urial_i": {
+    "d": -16.7301,
+    "ci": [
+     -17.926,
+     -15.5378
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": -2.0242,
+    "ci": [
+     -3.18,
+     -0.808
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   }
+  },
+  "OLMo-3-7B": {
+   "ciplak": {
+    "d": -4.7032,
+    "ci": [
+     -5.7295,
+     -3.6889
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": 9.9182,
+    "ci": [
+     8.63,
+     11.1988
+    ],
+    "sinif": "yukari"
+   },
+   "urial_i": {
+    "d": 5.7576,
+    "ci": [
+     4.5929,
+     6.9958
+    ],
+    "sinif": "yukari",
+    "AD": "TERS"
+   },
+   "urial_ii": {
+    "d": 2.3685,
+    "ci": [
+     1.6841,
+     3.0813
+    ],
+    "sinif": "yukari",
+    "AD": "TERS"
+   }
+  },
+  "OLMo2-13B": {
+   "ciplak": {
+    "d": -6.2796,
+    "ci": [
+     -7.4626,
+     -5.402
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": -14.5455,
+    "ci": [
+     -16.316,
+     -12.9526
+    ],
+    "sinif": "asagi"
+   },
+   "urial_i": {
+    "d": -22.0,
+    "ci": [
+     -22.6724,
+     -21.4124
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": -9.8482,
+    "ci": [
+     -10.5817,
+     -9.1858
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   }
+  },
+  "OLMo2-32B": {
+   "ciplak": {
+    "d": -4.7733,
+    "ci": [
+     -5.554,
+     -4.022
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": -12.6538,
+    "ci": [
+     -14.6705,
+     -10.9746
+    ],
+    "sinif": "asagi"
+   },
+   "urial_i": {
+    "d": -27.5825,
+    "ci": [
+     -28.7008,
+     -26.2671
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": -14.4095,
+    "ci": [
+     -15.5066,
+     -13.3161
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   }
+  },
+  "Qwen2.5-1.5B": {
+   "ciplak": {
+    "d": -1.6075,
+    "ci": [
+     -3.0573,
+     -0.4314
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": 1.4252,
+    "ci": [
+     0.0472,
+     2.9165
+    ],
+    "sinif": "yukari"
+   },
+   "urial_i": {
+    "d": -8.6519,
+    "ci": [
+     -9.5511,
+     -7.8321
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": -6.7829,
+    "ci": [
+     -7.6669,
+     -5.9271
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   }
+  },
+  "Qwen2.5-14B": {
+   "ciplak": {
+    "d": -3.4919,
+    "ci": [
+     -5.3101,
+     -2.0648
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": -5.101,
+    "ci": [
+     -6.747,
+     -3.688
+    ],
+    "sinif": "asagi"
+   },
+   "urial_i": {
+    "d": -15.8118,
+    "ci": [
+     -16.6755,
+     -14.9937
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": -11.6347,
+    "ci": [
+     -12.3906,
+     -10.8853
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   }
+  },
+  "Qwen2.5-32B": {
+   "ciplak": {
+    "d": -2.1777,
+    "ci": [
+     -3.4458,
+     -1.0349
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": -7.2969,
+    "ci": [
+     -9.0844,
+     -5.6363
+    ],
+    "sinif": "asagi"
+   },
+   "urial_i": {
+    "d": -15.558,
+    "ci": [
+     -16.5818,
+     -14.7201
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": -11.2909,
+    "ci": [
+     -12.257,
+     -10.531
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   }
+  },
+  "Qwen2.5-3B": {
+   "ciplak": {
+    "d": -3.4625,
+    "ci": [
+     -5.2419,
+     -1.8378
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": -2.8958,
+    "ci": [
+     -3.9903,
+     -1.8882
+    ],
+    "sinif": "asagi"
+   },
+   "urial_i": {
+    "d": -10.7278,
+    "ci": [
+     -11.4496,
+     -10.0523
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": -7.0896,
+    "ci": [
+     -7.7296,
+     -6.4896
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   }
+  },
+  "Qwen2.5-72B": {
+   "ciplak": {
+    "d": -3.6919,
+    "ci": [
+     -6.1165,
+     -1.9103
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": -0.1712,
+    "ci": [
+     -1.4601,
+     1.1043
+    ],
+    "sinif": "null"
+   },
+   "urial_i": {
+    "d": -12.2242,
+    "ci": [
+     -13.2532,
+     -11.2507
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": -9.0365,
+    "ci": [
+     -10.0668,
+     -8.1395
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   }
+  },
+  "Qwen2.5-7B": {
+   "ciplak": {
+    "d": -3.9045,
+    "ci": [
+     -5.7618,
+     -2.3555
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": -7.234,
+    "ci": [
+     -8.5315,
+     -5.9734
+    ],
+    "sinif": "asagi"
+   },
+   "urial_i": {
+    "d": -15.3308,
+    "ci": [
+     -16.0637,
+     -14.6151
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": -12.7033,
+    "ci": [
+     -13.514,
+     -11.9901
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   }
+  },
+  "Tulu3-8B": {
+   "ciplak": {
+    "d": -8.7147,
+    "ci": [
+     -10.0346,
+     -7.534
+    ],
+    "sinif": "asagi"
+   },
+   "template": {
+    "d": -18.4125,
+    "ci": [
+     -19.8822,
+     -16.9563
+    ],
+    "sinif": "asagi"
+   },
+   "urial_i": {
+    "d": -28.0084,
+    "ci": [
+     -28.6222,
+     -27.4339
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   },
+   "urial_ii": {
+    "d": -16.4941,
+    "ci": [
+     -17.1632,
+     -15.8767
+    ],
+    "sinif": "asagi",
+    "AD": "AGIRLIK-ÖZELLIGI"
+   }
+  }
+ },
+ "damga_utc": "2026-09-15T19:34:14Z"
+}

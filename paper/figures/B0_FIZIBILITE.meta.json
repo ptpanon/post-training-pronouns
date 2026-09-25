@@ -1,0 +1,15 @@
+{
+ "table": "B0_FIZIBILITE",
+ "sources": [
+  {
+   "yol": "results/b0b_kod_ikili_2026-09-24.json"
+  }
+ ],
+ "ciktilar": [
+  "B0_D7.tex",
+  "B0_LIMIT.tex"
+ ],
+ "en_iyi": 3348,
+ "en_dusuk": 1674,
+ "n_istenen": 7537
+}

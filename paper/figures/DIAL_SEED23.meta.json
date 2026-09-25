@@ -1,0 +1,16 @@
+{
+ "table": "DIAL_SEED23",
+ "damga_utc": "2026-09-25T23:44:37Z",
+ "sources": [
+  {
+   "yol": "results/person_dial_seeds_2_3_verdict_2026-09-15.json",
+   "sha256_16": "cf19f2772e43c9fd"
+  }
+ ],
+ "verdict": {
+  "genel": "KADRAN-TOHUMDA-TUTTU",
+  "asagi": "ISARET-TUTTU",
+  "yukari": "ISARET-TUTTU"
+ },
+ "note": "renders the sealed verdict card; computes no new statistic"
+}

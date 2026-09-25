@@ -1,0 +1,170 @@
+{
+ "sinif": "BETIM · mühürsüz · kit (kâgida girmez)",
+ "soru": "Assistant Q4 — satirsiz hizali bacakta bant nereye iniyor",
+ "kok": "<data>/c1_panel_msistem/satirsiz/*/instruct",
+ "kaynak_card": {
+  "yol": "results/MSISTEM2_KARNE_2026-09-13.json"
+ },
+ "kanonik": "",
+ "suzgec": "YOK",
+ "yanki": "yanki.yanki_mi (istemin son 200 karakterinden 40 karakterlik pencere, adim 10)",
+ "tur": "p11_q2_kip_exit.TUR",
+ "n_aile": 16,
+ "bant_tum": {
+  "min": 2.0528891931663478,
+  "max": 40.633618613461344,
+  "oran": 19.79338132263662
+ },
+ "bant_temiz": {
+  "min": 2.1352043145116832,
+  "max": 39.81601643165504,
+  "oran": 18.64740351124706
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 35.40957935093687,
+   "M1_temiz": 37.82848350315893,
+   "yanki": 2998,
+   "tur": 0,
+   "atilan": 2998
+  },
+  "Gemma-3-27B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 40.633618613461344,
+   "M1_temiz": 39.81601643165504,
+   "yanki": 1737,
+   "tur": 0,
+   "atilan": 1737
+  },
+  "Gemma-3-4B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 36.17663827543405,
+   "M1_temiz": 36.41278315671638,
+   "yanki": 1589,
+   "tur": 5,
+   "atilan": 1593
+  },
+  "Llama-3.1-70B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 23.345080242375072,
+   "M1_temiz": 24.31119535064707,
+   "yanki": 1259,
+   "tur": 0,
+   "atilan": 1259
+  },
+  "Llama-3.1-8B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 19.89865257229715,
+   "M1_temiz": 19.568312572727926,
+   "yanki": 781,
+   "tur": 0,
+   "atilan": 781
+  },
+  "Mistral-7B-v0.3": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 12.664841064103443,
+   "M1_temiz": 13.264044617146556,
+   "yanki": 821,
+   "tur": 0,
+   "atilan": 821
+  },
+  "OLMo-3-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 25.705586873941364,
+   "M1_temiz": 25.119642122352783,
+   "yanki": 2562,
+   "tur": 3,
+   "atilan": 2563
+  },
+  "OLMo2-13B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 3.958454210510459,
+   "M1_temiz": 5.474939356904007,
+   "yanki": 2452,
+   "tur": 0,
+   "atilan": 2452
+  },
+  "OLMo2-32B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 4.361621370832832,
+   "M1_temiz": 4.875062457517634,
+   "yanki": 2136,
+   "tur": 1,
+   "atilan": 2136
+  },
+  "Qwen2.5-1.5B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 10.841160903023209,
+   "M1_temiz": 11.237470924594872,
+   "yanki": 469,
+   "tur": 4,
+   "atilan": 473
+  },
+  "Qwen2.5-14B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 14.56195418008293,
+   "M1_temiz": 14.951217307250992,
+   "yanki": 1099,
+   "tur": 0,
+   "atilan": 1099
+  },
+  "Qwen2.5-32B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 14.537208011608369,
+   "M1_temiz": 14.565349314306232,
+   "yanki": 596,
+   "tur": 0,
+   "atilan": 596
+  },
+  "Qwen2.5-3B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 10.931074919571977,
+   "M1_temiz": 11.391763046115516,
+   "yanki": 730,
+   "tur": 3,
+   "atilan": 733
+  },
+  "Qwen2.5-72B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 7.866104614877243,
+   "M1_temiz": 9.105994234537379,
+   "yanki": 1663,
+   "tur": 0,
+   "atilan": 1663
+  },
+  "Qwen2.5-7B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 9.438233485504776,
+   "M1_temiz": 10.471514618744836,
+   "yanki": 1644,
+   "tur": 0,
+   "atilan": 1644
+  },
+  "Tulu3-8B": {
+   "hal": "ÖLCÜLDÜ",
+   "n": 6528,
+   "M1_tum": 2.0528891931663478,
+   "M1_temiz": 2.1352043145116832,
+   "yanki": 1104,
+   "tur": 5,
+   "atilan": 1109
+  }
+ },
+ "sure_sn": 233.9
+}

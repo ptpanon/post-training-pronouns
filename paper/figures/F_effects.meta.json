@@ -1,0 +1,19 @@
+{
+ "figure": "F_effects",
+ "caption_draft": "Second-person change, aligned minus base, with prompt-clustered 95% intervals, sixteen models, under three prompt formats: (a) raw continuation, pooled seeds, all cells (Table 1); (b) own chat template, filtered cells, first seed (Figure A1, Table A5); (c) in-context assistant prompt vs own template, 2,048-token window (Table A5, task). One shared x-axis. Rows follow Table 1.",
+ "sources": [
+  {
+   "yol": "results/four_seed_level_2026-09-16.json",
+   "sha256_16": "1d78bfcb02cdbf72"
+  },
+  {
+   "yol": "results/template_filtered_2026-09-07.json",
+   "sha256_16": "84812c8ac68df5ab"
+  },
+  {
+   "yol": "results/URIAL_VERDICT_2048_16_K2048_2026-09-11.json",
+   "sha256_16": "1ffad87e9423fc5b"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

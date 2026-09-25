@@ -1,0 +1,26 @@
+\begin{table}[tb]\centering\small
+\caption{\textbf{What the degeneracy filter removes, and what survives it.} The pre-registered filter drops any generation whose distinct-4 ratio falls below $0.60$. Columns give the checkpoint that loses most and the one that loses least, with the percentage of that checkpoint's generations dropped, then the register shift before and after the filter with its prompt-clustered interval and the surviving pair count. \textbf{The filter is asymmetric and the asymmetry runs against the effect}: it removes far more of the base outputs (up to 7.3\%) than of the aligned outputs, and base outputs with their repetitive generations removed carry \emph{more} second person, not less. The shift still excludes zero in 16 of 16 models after filtering.}
+\label{tab:degen}
+\begin{tabular}{lrlrl@{\hspace{8pt}}rrlr}
+\toprule
+model & \multicolumn{2}{c}{checkpoint dropped most} & \multicolumn{2}{c}{checkpoint dropped least} & raw & filtered & $95\%$ CI & pairs \\
+\midrule
+Gemma-3-12B & 2.83\% & base & 0.03\% & instruct & -2.80 & \textbf{-2.97} & $[-4.45{,}-1.58]$ & 6{,}188 \\
+Gemma-3-27B & 4.89\% & base & 0.02\% & instruct & -3.07 & \textbf{-3.29} & $[-5.55{,}-1.32]$ & 6{,}054 \\
+Gemma-3-4B & 2.48\% & base & 0.15\% & instruct & -3.63 & \textbf{-3.72} & $[-5.39{,}-2.07]$ & 6{,}252 \\
+Llama-3.1-70B & 7.32\% & base & 1.59\% & instruct & -3.78 & \textbf{-4.15} & $[-4.80{,}-3.50]$ & 5{,}962 \\
+Llama-3.1-8B & 6.87\% & base & 0.60\% & instruct & -4.77 & \textbf{-4.93} & $[-5.93{,}-3.99]$ & 6{,}017 \\
+Mistral-7B-v0.3 & 2.85\% & base & 0.17\% & instruct & -9.86 & \textbf{-9.87} & $[-11.47{,}-8.49]$ & 6{,}128 \\
+OLMo-3-7B & 1.73\% & base & 0.02\% & instruct & -4.70 & \textbf{-4.82} & $[-5.80{,}-3.86]$ & 6{,}415 \\
+OLMo-2-13B & 4.25\% & base & 0.09\% & instruct & -6.28 & \textbf{-6.29} & $[-7.28{,}-5.47]$ & 6{,}233 \\
+OLMo-2-32B & 3.59\% & SFT & 0.17\% & instruct & -4.77 & \textbf{-4.74} & $[-5.43{,}-4.03]$ & 6{,}285 \\
+Qwen2.5-1.5B & 3.03\% & base & 0.02\% & instruct & -1.61 & \textbf{-1.74} & $[-3.00{,}-0.56]$ & 6{,}311 \\
+Qwen2.5-14B & 6.11\% & base & 0.00\% & instruct & -3.49 & \textbf{-3.57} & $[-5.08{,}-2.26]$ & 6{,}115 \\
+Qwen2.5-32B & 4.75\% & base & 0.00\% & instruct & -2.18 & \textbf{-2.37} & $[-3.57{,}-1.28]$ & 6{,}194 \\
+Qwen2.5-3B & 5.35\% & base & 0.02\% & instruct & -3.46 & \textbf{-3.44} & $[-5.03{,}-1.97]$ & 6{,}179 \\
+Qwen2.5-72B & 3.96\% & base & 0.00\% & instruct & -3.69 & \textbf{-3.83} & $[-5.88{,}-2.13]$ & 6{,}163 \\
+Qwen2.5-7B & 3.50\% & base & 0.03\% & instruct & -3.90 & \textbf{-4.02} & $[-5.72{,}-2.56]$ & 6{,}264 \\
+T\"ulu-3-8B & 6.87\% & base & 0.05\% & RL & -8.71 & \textbf{-8.92} & $[-10.09{,}-7.76]$ & 6{,}017 \\
+\bottomrule
+\end{tabular}
+\end{table}

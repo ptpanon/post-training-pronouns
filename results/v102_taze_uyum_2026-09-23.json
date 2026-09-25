@@ -1,0 +1,288 @@
+{
+ "sinif": "BETIM",
+ "rule": "63a4796c",
+ "alet": "212f4551e371ace0",
+ "paket": {
+  "yol": "INSAN_PAKETI_V99_TAZE_B_30.md",
+  "sha256": "6366070949359a74b2445ca3a67084a65481db0b45ee050291b35004074c9ad3",
+  "n_hucre": 30,
+  "kunye_sha256_kurulus": "bca2a287f713c970911481eab83027c357859238a3acada021f912814c773aa4",
+  "anahtar": "v96_c2/anahtar/ANAHTAR_V99_TAZE_B.jsonl"
+ },
+ "izinli_etiket": [
+  "ADDRESSED",
+  "GENERIC",
+  "UNDETERMINED"
+ ],
+ "sema_eslemesi": {
+  "OTHER": "UNDETERMINED"
+ },
+ "sema_disi": [],
+ "insan_marjinal": {
+  "ADDRESSED": 20,
+  "GENERIC": 9,
+  "UNDETERMINED": 1
+ },
+ "ham_dize": {
+  "1": "A",
+  "2": "G",
+  "3": "A",
+  "4": "A",
+  "5": "U",
+  "6": "A",
+  "7": "A",
+  "8": "G",
+  "9": "G",
+  "10": "A",
+  "11": "A",
+  "12": "G",
+  "13": "A",
+  "14": "A",
+  "15": "A",
+  "16": "A",
+  "17": "G",
+  "18": "A",
+  "19": "A",
+  "20": "A",
+  "21": "G",
+  "22": "G",
+  "23": "A",
+  "24": "A",
+  "25": "A",
+  "26": "G",
+  "27": "A",
+  "28": "A",
+  "29": "G",
+  "30": "A"
+ },
+ "sonnet": {
+  "uyan": 28,
+  "uymayan": 2,
+  "okunamayan": 0,
+  "Y": "28/30",
+  "ham_uyum": 0.9333333333333333,
+  "p_o": 0.9333333333333333,
+  "kappa": 0.8591549295774649
+ },
+ "qwen": {
+  "uyan": 23,
+  "uymayan": 7,
+  "okunamayan": 0,
+  "Y": "23/30",
+  "ham_uyum": 0.7666666666666667,
+  "p_o": 0.7666666666666667,
+  "kappa": 0.5394736842105264
+ },
+ "yargiclar_arasi": {
+  "uyan": 25,
+  "n": 30
+ },
+ "kesisim_OLCULEMEZ_DOGAR": {
+  "tablo": {
+   "ADDRESSED": {
+    "ADDRESSED": 19,
+    "UNDETERMINED": 1
+   },
+   "GENERIC": {
+    "GENERIC": 8,
+    "ADDRESSED": 1
+   },
+   "UNDETERMINED": {
+    "UNDETERMINED": 1
+   }
+  },
+  "serh": ""
+ },
+ "oncul_duyarliligi": {
+  "madde": "direktif h=11'i UNDETERMINED diyor; diskte ADDRESSED (rule §5)",
+  "diskteki": "ADDRESSED",
+  "sonnet_Y_diskle": "28/30",
+  "sonnet_Y_h11_undetermined": "29/30",
+  "kanonik": "diskteki"
+ },
+ "kagida_giren": "on 30 fresh items labelled after the judge was chosen: 28/30",
+ "MDE": "n=30'da ham uyumun binom sd'si p≈0,80'de ≈0,073 ⇒ %95 aralik ≈ ±0,14; ölcüm betimseldir, bar tasimaz",
+ "cift": [
+  {
+   "hucre": 1,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 2,
+   "insan": "GENERIC",
+   "sonnet": "GENERIC",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 3,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 4,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 5,
+   "insan": "UNDETERMINED",
+   "sonnet": "UNDETERMINED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 6,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 7,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 8,
+   "insan": "GENERIC",
+   "sonnet": "GENERIC",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 9,
+   "insan": "GENERIC",
+   "sonnet": "GENERIC",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 10,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 11,
+   "insan": "ADDRESSED",
+   "sonnet": "UNDETERMINED",
+   "hal": "uymaz"
+  },
+  {
+   "hucre": 12,
+   "insan": "GENERIC",
+   "sonnet": "GENERIC",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 13,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 14,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 15,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 16,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 17,
+   "insan": "GENERIC",
+   "sonnet": "ADDRESSED",
+   "hal": "uymaz"
+  },
+  {
+   "hucre": 18,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 19,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 20,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 21,
+   "insan": "GENERIC",
+   "sonnet": "GENERIC",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 22,
+   "insan": "GENERIC",
+   "sonnet": "GENERIC",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 23,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 24,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 25,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 26,
+   "insan": "GENERIC",
+   "sonnet": "GENERIC",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 27,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 28,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 29,
+   "insan": "GENERIC",
+   "sonnet": "GENERIC",
+   "hal": "uyar"
+  },
+  {
+   "hucre": 30,
+   "insan": "ADDRESSED",
+   "sonnet": "ADDRESSED",
+   "hal": "uyar"
+  }
+ ],
+ "damga_utc": "2026-09-23T07:21:06Z"
+}

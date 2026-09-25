@@ -1,0 +1,47 @@
+{
+ "damga_utc": "2026-09-05T20:33:14Z",
+ "SINIF": "ÖLCÜM",
+ "kutu": "KP-e799",
+ "n_madde_etiket": 600,
+ "n_yargi": 1800,
+ "n_eslesen": 597,
+ "n_sozluksuz": 3,
+ "n_dejenere": 302,
+ "sozluk": {
+  "yol": "unreleased/Ratings_Warriner_et_al.csv",
+  "n_kelime": 13905
+ },
+ "etiket_kaynagi": "<data>/teslim_annotator/KP-e799/SONUC/ETIKETLER_KP-e799.csv",
+ "dejenerelik": "dejenerelik_olcer.bayrakla — f_bos·f_kisa·f_yin4·f_uzun·f_islev·f_latin·f_jetonsuz(ERRATA-1)",
+ "cokluk_kurali": "madde basina 3 gecisin COGUNLUK etiketi",
+ "tam_kume": {
+  "ad": "TAM KÜME",
+  "n": 597,
+  "n_dom": 161,
+  "n_sub": 157,
+  "D_dom": 5.6102,
+  "D_sub": 5.8157,
+  "delta": -0.2055,
+  "z": -5.24,
+  "tabaka_negatif": 14,
+  "tabaka_toplam": 18
+ },
+ "intact_only": {
+  "ad": "INTACT-ONLY (ERRATA-1 esikleri)",
+  "n": 295,
+  "n_dom": 117,
+  "n_sub": 51,
+  "D_dom": 5.5956,
+  "D_sub": 5.7414,
+  "delta": -0.1458,
+  "z": -2.79,
+  "tabaka_negatif": 9,
+  "tabaka_toplam": 11
+ },
+ "eski_verdict": {
+  "kaynak": "verdict_e799_opening_2026-08-25.md",
+  "delta": -0.1975,
+  "z": -8.72,
+  "tabaka": "9 tabakanin 8'i negatif"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "table": "T12_scorer",
+ "damga_utc": "2026-09-25T23:44:40Z",
+ "sources": [
+  {
+   "yol": "results/judge_signature5_2026-09-10.json",
+   "sha256_16": "89e3ee68e52ac601",
+   "rol": "ana fit"
+  },
+  {
+   "yol": "results/ultrafeedback_matching_ratio_2026-09-12.json",
+   "sha256_16": "7f2fcb8e4c9501e8",
+   "rol": "esleme oranlari"
+  },
+  {
+   "yol": "results/judge_signature4_2026-09-06.json",
+   "sha256_16": "d9f9556bedbaefd1",
+   "rol": "alti kontrollü marj"
+  },
+  {
+   "yol": "results/judge_signature3_2026-09-05.json",
+   "sha256_16": "6e8ec77fec1b6ac8",
+   "rol": "ücüncü fit β"
+  },
+  {
+   "yol": "results/judge_signature2_2026-09-03.json",
+   "sha256_16": "5e3c0c16e333a64e",
+   "rol": "boyut betimi"
+  }
+ ],
+ "bagimli_degisken": "overall_score",
+ "n_yuzey": 8,
+ "yuzey": [
+  "modal_1k",
+  "hedge_1k",
+  "RED",
+  "LISTEKOD",
+  "LOG_JETON",
+  "LOG_CUMLE",
+  "SAHIS3_1k",
+  "ACIKLAMA_SORUSU"
+ ],
+ "terimler": [
+  "M1_1k",
+  "SAHIS1_1k",
+  "SAHIS3_1k",
+  "ACIKLAMA_SORUSU",
+  "modal_1k",
+  "hedge_1k",
+  "RED",
+  "LISTEKOD",
+  "LOG_JETON",
+  "LOG_CUMLE"
+ ],
+ "marj_sekiz": 1.5046704268567626,
+ "marj_alti": 1.463544853568768,
+ "beta_ilk_fit": -0.21158559379194525,
+ "n_fit": 5,
+ "n_perm": 200,
+ "esleme": {
+  "modal": 1.1413,
+  "hedge": 0.1885,
+  "kaynak": "results/ultrafeedback_matching_ratio_2026-09-12.json"
+ },
+ "serh": "v32c'de tablo IKI ayri fitten karisikti; tek karta alindi"
+}

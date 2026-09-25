@@ -1,0 +1,72 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-10T10:33:36Z",
+  "alet": "scripts/v27_human_assistant.py",
+  "borc": "D-0910-V27 §2h",
+  "SINIF": "KESIF/BETIM — bar YOK · ad YOK · prediction YOK (§10)",
+  "motor": "insan_bandi.olc (ITHAL, edit yok)",
+  "n_hedef": 6528,
+  "asgari_kelime": 40,
+  "kume": "message_tree_id",
+  "dil": "en",
+  "seed": 20260910,
+  "not_": "ham metin repoya YAZILMADI (§9)"
+ },
+ "assistant": {
+  "hal": "ÖLCÜLDÜ",
+  "payda": {
+   "n_satir_gorulen": 88838,
+   "n_uygun": 18828,
+   "red_rol": 33170,
+   "red_dil": 30342,
+   "red_kisa": 6498,
+   "n_secilen": 6528,
+   "kaynak": "2023-04-12_oasst_ready.messages.jsonl.gz"
+  },
+  "M1": 14.727147596254223,
+  "M2": 0.02906013048845001,
+  "M3": 0.8345864661654135,
+  "M4": 0.0176757415684681,
+  "M5": 0.15257696084875386,
+  "KUVVET": 0.09548580497266795,
+  "n": 6528,
+  "n_kume": 3028,
+  "M1_ci": [
+   13.977708193208409,
+   15.539074227806777
+  ],
+  "M2_ci": [
+   0.02686889468300425,
+   0.031120553493671446
+  ],
+  "M3_ci": [
+   0.7675947984911653,
+   0.8984854557947779
+  ],
+  "M4_ci": [
+   0.015083036080830748,
+   0.020203779132731532
+  ],
+  "M5_ci": [
+   0.14961481839681406,
+   0.15506667742783353
+  ],
+  "KUVVET_ci": [
+   0.08913942285511023,
+   0.10164289533233722
+  ],
+  "jeton_ort": 198.09895833333334
+ },
+ "prompter": {
+  "hal": "ÖLCÜLEMEZ",
+  "payda": {
+   "n_satir_gorulen": 88838,
+   "n_uygun": 1790,
+   "red_rol": 55668,
+   "red_dil": 17191,
+   "red_kisa": 14189,
+   "n_secilen": 1790,
+   "kaynak": "2023-04-12_oasst_ready.messages.jsonl.gz"
+  }
+ }
+}

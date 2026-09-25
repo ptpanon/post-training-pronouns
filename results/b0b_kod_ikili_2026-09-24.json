@@ -1,0 +1,50 @@
+{
+ "sinif": "SAYIM · fizibilite · prereg YOK",
+ "kod_kip_secilen": "ikili",
+ "kod_kip_tavanlar": {
+  "uclu": {
+   "n_max": 1882,
+   "n_tabaka": 20,
+   "n_atilan_tabaka": 3,
+   "n_atilan_satir": 7
+  },
+  "ikili": {
+   "n_max": 1674,
+   "n_tabaka": 16,
+   "n_atilan_tabaka": 0,
+   "n_atilan_satir": 0
+  },
+  "yonlu": {
+   "n_max": 3348,
+   "n_tabaka": 13,
+   "n_atilan_tabaka": 2,
+   "n_atilan_satir": 3
+  }
+ },
+ "havuz": {
+  "gecerli": 269665,
+  "hedef": 7537
+ },
+ "kisi_sifir": {
+  "esik_p25": 0.0,
+  "n_aday": 158802,
+  "referans": ""
+ },
+ "tabaka": {
+  "n_kutu": 4,
+  "eksen": [
+   "dRed",
+   "dBoy",
+   "dKod"
+  ],
+  "n_tabaka": 16,
+  "n_atilan_tabaka": 0,
+  "n_atilan_satir": 0
+ },
+ "fizibilite": {
+  "n_max": 1674,
+  "n_istenen": 7537,
+  "yeterli": false
+ },
+ "saglik": null
+}

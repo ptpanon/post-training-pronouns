@@ -1,0 +1,73 @@
+{
+ "table": "SOY",
+ "damga_utc": "2026-09-25T23:44:33Z",
+ "sources": [
+  {
+   "yol": "results/lineage_permutation_2026-09-11.json",
+   "sha256_16": "6a99cd89008cb6f1"
+  },
+  {
+   "yol": "results/lineage_sign_placement_2026-09-15.json",
+   "sha256_16": "4ec47d38c8101bdd"
+  }
+ ],
+ "isaret_B": {
+  "aciklama": "OLMo-3 AI2'ye katilmis (bes soy, §1'in sayimi)",
+  "uyusan": 12,
+  "n_isaretli": 14,
+  "null_ort": 9.935,
+  "frac": 0.092,
+  "uymayan": [
+   "OLMo-3-7B",
+   "Qwen2.5-1.5B"
+  ],
+  "seviye": {
+   "AI2": 4,
+   "Google": 3,
+   "Meta": 2,
+   "Mistral": 1,
+   "Qwen": 6
+  },
+  "n_seviye": 5,
+  "H": 10.3971,
+  "H_null_ort": 4.035,
+  "H_frac": 0.01
+ },
+ "VERDICT": "SIRALIYOR",
+ "okuma_A": {
+  "gozlenen": 13.7059,
+  "null_ort": 5.0148,
+  "null_sd": 2.2391,
+  "frac": 0.0
+ },
+ "okuma_B": {
+  "aciklama": "",
+  "soy": {
+   "AI2": 4,
+   "Google": 3,
+   "Meta": 2,
+   "Mistral": 1,
+   "Qwen": 6
+  },
+  "H": 10.3971,
+  "null_ort": 4.035,
+  "frac": 0.01,
+  "eta2": 0.82,
+  "frac_eta2": 0.0,
+  "VERDICT": "SIRALIYOR"
+ },
+ "isaret": {
+  "aciklama": "iddianin kendi ekseni: yukari/asagi bölünmesi",
+  "uyusan": 13,
+  "n_isaretli": 14,
+  "null_ort": 10.325,
+  "frac": 0.03,
+  "VERDICT": "ISARETI-SIRALIYOR"
+ },
+ "guc_kontrolu": {
+  "aciklama": "pozitif kontrol: EN IYI olasi etiketleme",
+  "H_en_iyi": 14.0294,
+  "frac": 0.0,
+  "guc_var": true
+ }
+}

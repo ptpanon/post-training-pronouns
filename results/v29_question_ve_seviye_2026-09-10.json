@@ -1,0 +1,1011 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-09T13:13:41Z",
+  "alet": "scripts/v29_question_ve_seviye.py",
+  "borc": "D-0910-V29 §3(c,d)",
+  "SINIF": "BETIM · bar YOK · ad YOK · prediction YOK (§10)",
+  "soru_tanimi": {
+   "cumle": "[^.!?]+[.!?]+|[^.!?]+$",
+   "teklif": "\\b(would you like|do you want|shall i|should i|can i help|let me know|any questions|would you prefer|need more|want me to|anything else)\\b"
+  },
+  "not_": "yeni SAYAC (soru orani) — karar istatistigi DEGIL"
+ },
+ "soru_oranlari": {
+  "Gemma-3-12B/base": {
+   "n_cumle": 54203,
+   "n_soru": 2203,
+   "n_aciklama_sorusu": 8,
+   "soru_payi": 0.04064,
+   "aciklama_sorusu_payi": 0.00015
+  },
+  "Gemma-3-12B/instruct": {
+   "n_cumle": 59908,
+   "n_soru": 963,
+   "n_aciklama_sorusu": 42,
+   "soru_payi": 0.01607,
+   "aciklama_sorusu_payi": 0.0007
+  },
+  "Gemma-3-27B/base": {
+   "n_cumle": 57410,
+   "n_soru": 2005,
+   "n_aciklama_sorusu": 17,
+   "soru_payi": 0.03492,
+   "aciklama_sorusu_payi": 0.0003
+  },
+  "Gemma-3-27B/instruct": {
+   "n_cumle": 58619,
+   "n_soru": 898,
+   "n_aciklama_sorusu": 18,
+   "soru_payi": 0.01532,
+   "aciklama_sorusu_payi": 0.00031
+  },
+  "Gemma-3-4B/base": {
+   "n_cumle": 56486,
+   "n_soru": 2189,
+   "n_aciklama_sorusu": 24,
+   "soru_payi": 0.03875,
+   "aciklama_sorusu_payi": 0.00042
+  },
+  "Gemma-3-4B/instruct": {
+   "n_cumle": 58879,
+   "n_soru": 1329,
+   "n_aciklama_sorusu": 124,
+   "soru_payi": 0.02257,
+   "aciklama_sorusu_payi": 0.00211
+  },
+  "Gemma-4-12B/base": {
+   "n_cumle": 51369,
+   "n_soru": 2143,
+   "n_aciklama_sorusu": 13,
+   "soru_payi": 0.04172,
+   "aciklama_sorusu_payi": 0.00025
+  },
+  "Gemma-4-12B/instruct": {
+   "n_cumle": 105542,
+   "n_soru": 125,
+   "n_aciklama_sorusu": 5,
+   "soru_payi": 0.00118,
+   "aciklama_sorusu_payi": 5e-05
+  },
+  "Gemma-4-26B-A4B/base": {
+   "n_cumle": 51322,
+   "n_soru": 1925,
+   "n_aciklama_sorusu": 7,
+   "soru_payi": 0.03751,
+   "aciklama_sorusu_payi": 0.00014
+  },
+  "Gemma-4-26B-A4B/instruct": {
+   "n_cumle": 91383,
+   "n_soru": 2613,
+   "n_aciklama_sorusu": 1,
+   "soru_payi": 0.02859,
+   "aciklama_sorusu_payi": 1e-05
+  },
+  "Gemma-4-E4B/base": {
+   "n_cumle": 51911,
+   "n_soru": 1806,
+   "n_aciklama_sorusu": 10,
+   "soru_payi": 0.03479,
+   "aciklama_sorusu_payi": 0.00019
+  },
+  "Gemma-4-E4B/instruct": {
+   "n_cumle": 81270,
+   "n_soru": 1479,
+   "n_aciklama_sorusu": 0,
+   "soru_payi": 0.0182,
+   "aciklama_sorusu_payi": 0.0
+  },
+  "Llama-3.1-70B/base": {
+   "n_cumle": 61396,
+   "n_soru": 2402,
+   "n_aciklama_sorusu": 12,
+   "soru_payi": 0.03912,
+   "aciklama_sorusu_payi": 0.0002
+  },
+  "Llama-3.1-70B/instruct": {
+   "n_cumle": 65233,
+   "n_soru": 1979,
+   "n_aciklama_sorusu": 25,
+   "soru_payi": 0.03034,
+   "aciklama_sorusu_payi": 0.00038
+  },
+  "Llama-3.1-8B/base": {
+   "n_cumle": 59876,
+   "n_soru": 1978,
+   "n_aciklama_sorusu": 14,
+   "soru_payi": 0.03303,
+   "aciklama_sorusu_payi": 0.00023
+  },
+  "Llama-3.1-8B/instruct": {
+   "n_cumle": 61842,
+   "n_soru": 1673,
+   "n_aciklama_sorusu": 25,
+   "soru_payi": 0.02705,
+   "aciklama_sorusu_payi": 0.0004
+  },
+  "Mistral-7B-v0.3/base": {
+   "n_cumle": 54405,
+   "n_soru": 2267,
+   "n_aciklama_sorusu": 9,
+   "soru_payi": 0.04167,
+   "aciklama_sorusu_payi": 0.00017
+  },
+  "Mistral-7B-v0.3/instruct": {
+   "n_cumle": 49784,
+   "n_soru": 551,
+   "n_aciklama_sorusu": 2,
+   "soru_payi": 0.01107,
+   "aciklama_sorusu_payi": 4e-05
+  },
+  "Mistral-Small-24B/base": {
+   "n_cumle": 56770,
+   "n_soru": 2210,
+   "n_aciklama_sorusu": 20,
+   "soru_payi": 0.03893,
+   "aciklama_sorusu_payi": 0.00035
+  },
+  "Mistral-Small-24B/instruct": {
+   "n_cumle": 43159,
+   "n_soru": 1158,
+   "n_aciklama_sorusu": 6,
+   "soru_payi": 0.02683,
+   "aciklama_sorusu_payi": 0.00014
+  },
+  "OLMo-3-7B/base": {
+   "n_cumle": 69811,
+   "n_soru": 4067,
+   "n_aciklama_sorusu": 25,
+   "soru_payi": 0.05826,
+   "aciklama_sorusu_payi": 0.00036
+  },
+  "OLMo-3-7B/instruct": {
+   "n_cumle": 52557,
+   "n_soru": 2613,
+   "n_aciklama_sorusu": 16,
+   "soru_payi": 0.04972,
+   "aciklama_sorusu_payi": 0.0003
+  },
+  "OLMo2-13B/dpo": {
+   "n_cumle": 51628,
+   "n_soru": 2324,
+   "n_aciklama_sorusu": 28,
+   "soru_payi": 0.04501,
+   "aciklama_sorusu_payi": 0.00054
+  },
+  "OLMo2-13B/instruct": {
+   "n_cumle": 52187,
+   "n_soru": 2237,
+   "n_aciklama_sorusu": 27,
+   "soru_payi": 0.04287,
+   "aciklama_sorusu_payi": 0.00052
+  },
+  "OLMo2-13B/sft": {
+   "n_cumle": 51600,
+   "n_soru": 2513,
+   "n_aciklama_sorusu": 24,
+   "soru_payi": 0.0487,
+   "aciklama_sorusu_payi": 0.00047
+  },
+  "OLMo2-13B/taban": {
+   "n_cumle": 61214,
+   "n_soru": 3385,
+   "n_aciklama_sorusu": 20,
+   "soru_payi": 0.0553,
+   "aciklama_sorusu_payi": 0.00033
+  },
+  "OLMo2-32B/dpo": {
+   "n_cumle": 52123,
+   "n_soru": 2374,
+   "n_aciklama_sorusu": 18,
+   "soru_payi": 0.04555,
+   "aciklama_sorusu_payi": 0.00035
+  },
+  "OLMo2-32B/instruct": {
+   "n_cumle": 54373,
+   "n_soru": 2411,
+   "n_aciklama_sorusu": 23,
+   "soru_payi": 0.04434,
+   "aciklama_sorusu_payi": 0.00042
+  },
+  "OLMo2-32B/sft": {
+   "n_cumle": 54577,
+   "n_soru": 2304,
+   "n_aciklama_sorusu": 29,
+   "soru_payi": 0.04222,
+   "aciklama_sorusu_payi": 0.00053
+  },
+  "OLMo2-32B/taban": {
+   "n_cumle": 62332,
+   "n_soru": 3106,
+   "n_aciklama_sorusu": 27,
+   "soru_payi": 0.04983,
+   "aciklama_sorusu_payi": 0.00043
+  },
+  "OLMo2-7B-RLVR/dpo": {
+   "n_cumle": 48859,
+   "n_soru": 1060,
+   "n_aciklama_sorusu": 25,
+   "soru_payi": 0.0217,
+   "aciklama_sorusu_payi": 0.00051
+  },
+  "OLMo2-7B-RLVR/step_120": {
+   "n_cumle": 47446,
+   "n_soru": 881,
+   "n_aciklama_sorusu": 18,
+   "soru_payi": 0.01857,
+   "aciklama_sorusu_payi": 0.00038
+  },
+  "OLMo2-7B-RLVR/step_180": {
+   "n_cumle": 47486,
+   "n_soru": 899,
+   "n_aciklama_sorusu": 21,
+   "soru_payi": 0.01893,
+   "aciklama_sorusu_payi": 0.00044
+  },
+  "OLMo2-7B-RLVR/step_240": {
+   "n_cumle": 48035,
+   "n_soru": 851,
+   "n_aciklama_sorusu": 18,
+   "soru_payi": 0.01772,
+   "aciklama_sorusu_payi": 0.00037
+  },
+  "OLMo2-7B-RLVR/step_300": {
+   "n_cumle": 47948,
+   "n_soru": 887,
+   "n_aciklama_sorusu": 15,
+   "soru_payi": 0.0185,
+   "aciklama_sorusu_payi": 0.00031
+  },
+  "OLMo2-7B-RLVR/step_360": {
+   "n_cumle": 47976,
+   "n_soru": 861,
+   "n_aciklama_sorusu": 18,
+   "soru_payi": 0.01795,
+   "aciklama_sorusu_payi": 0.00038
+  },
+  "OLMo2-7B-RLVR/step_60": {
+   "n_cumle": 47872,
+   "n_soru": 984,
+   "n_aciklama_sorusu": 26,
+   "soru_payi": 0.02055,
+   "aciklama_sorusu_payi": 0.00054
+  },
+  "OLMo3-7B/dpo": {
+   "n_cumle": 50363,
+   "n_soru": 2825,
+   "n_aciklama_sorusu": 28,
+   "soru_payi": 0.05609,
+   "aciklama_sorusu_payi": 0.00056
+  },
+  "OLMo3-7B/rlvr": {
+   "n_cumle": 52557,
+   "n_soru": 2613,
+   "n_aciklama_sorusu": 16,
+   "soru_payi": 0.04972,
+   "aciklama_sorusu_payi": 0.0003
+  },
+  "OLMo3-7B/sft": {
+   "n_cumle": 60124,
+   "n_soru": 3952,
+   "n_aciklama_sorusu": 27,
+   "soru_payi": 0.06573,
+   "aciklama_sorusu_payi": 0.00045
+  },
+  "OLMo3-7B/taban": {
+   "n_cumle": 69811,
+   "n_soru": 4067,
+   "n_aciklama_sorusu": 25,
+   "soru_payi": 0.05826,
+   "aciklama_sorusu_payi": 0.00036
+  },
+  "Qwen2.5-1.5B/base": {
+   "n_cumle": 63551,
+   "n_soru": 2862,
+   "n_aciklama_sorusu": 15,
+   "soru_payi": 0.04503,
+   "aciklama_sorusu_payi": 0.00024
+  },
+  "Qwen2.5-1.5B/instruct": {
+   "n_cumle": 56571,
+   "n_soru": 4867,
+   "n_aciklama_sorusu": 46,
+   "soru_payi": 0.08603,
+   "aciklama_sorusu_payi": 0.00081
+  },
+  "Qwen2.5-14B/base": {
+   "n_cumle": 62637,
+   "n_soru": 2771,
+   "n_aciklama_sorusu": 18,
+   "soru_payi": 0.04424,
+   "aciklama_sorusu_payi": 0.00029
+  },
+  "Qwen2.5-14B/instruct": {
+   "n_cumle": 54382,
+   "n_soru": 1492,
+   "n_aciklama_sorusu": 65,
+   "soru_payi": 0.02744,
+   "aciklama_sorusu_payi": 0.0012
+  },
+  "Qwen2.5-32B/base": {
+   "n_cumle": 61350,
+   "n_soru": 3127,
+   "n_aciklama_sorusu": 17,
+   "soru_payi": 0.05097,
+   "aciklama_sorusu_payi": 0.00028
+  },
+  "Qwen2.5-32B/instruct": {
+   "n_cumle": 54710,
+   "n_soru": 1813,
+   "n_aciklama_sorusu": 87,
+   "soru_payi": 0.03314,
+   "aciklama_sorusu_payi": 0.00159
+  },
+  "Qwen2.5-3B/base": {
+   "n_cumle": 64043,
+   "n_soru": 2532,
+   "n_aciklama_sorusu": 11,
+   "soru_payi": 0.03954,
+   "aciklama_sorusu_payi": 0.00017
+  },
+  "Qwen2.5-3B/instruct": {
+   "n_cumle": 55976,
+   "n_soru": 2142,
+   "n_aciklama_sorusu": 11,
+   "soru_payi": 0.03827,
+   "aciklama_sorusu_payi": 0.0002
+  },
+  "Qwen2.5-72B/base": {
+   "n_cumle": 56946,
+   "n_soru": 2330,
+   "n_aciklama_sorusu": 30,
+   "soru_payi": 0.04092,
+   "aciklama_sorusu_payi": 0.00053
+  },
+  "Qwen2.5-72B/instruct": {
+   "n_cumle": 56212,
+   "n_soru": 1708,
+   "n_aciklama_sorusu": 101,
+   "soru_payi": 0.03038,
+   "aciklama_sorusu_payi": 0.0018
+  },
+  "Qwen2.5-7B/base": {
+   "n_cumle": 60174,
+   "n_soru": 1955,
+   "n_aciklama_sorusu": 11,
+   "soru_payi": 0.03249,
+   "aciklama_sorusu_payi": 0.00018
+  },
+  "Qwen2.5-7B/instruct": {
+   "n_cumle": 56567,
+   "n_soru": 1663,
+   "n_aciklama_sorusu": 28,
+   "soru_payi": 0.0294,
+   "aciklama_sorusu_payi": 0.00049
+  },
+  "Tulu3-8B/dpo": {
+   "n_cumle": 40789,
+   "n_soru": 523,
+   "n_aciklama_sorusu": 1,
+   "soru_payi": 0.01282,
+   "aciklama_sorusu_payi": 2e-05
+  },
+  "Tulu3-8B/rl": {
+   "n_cumle": 42414,
+   "n_soru": 482,
+   "n_aciklama_sorusu": 2,
+   "soru_payi": 0.01136,
+   "aciklama_sorusu_payi": 5e-05
+  },
+  "Tulu3-8B/sft": {
+   "n_cumle": 33085,
+   "n_soru": 1104,
+   "n_aciklama_sorusu": 8,
+   "soru_payi": 0.03337,
+   "aciklama_sorusu_payi": 0.00024
+  },
+  "Tulu3-8B/taban": {
+   "n_cumle": 59876,
+   "n_soru": 1978,
+   "n_aciklama_sorusu": 14,
+   "soru_payi": 0.03303,
+   "aciklama_sorusu_payi": 0.00023
+  },
+  "Zephyr-7B/dpo": {
+   "n_cumle": 52894,
+   "n_soru": 2261,
+   "n_aciklama_sorusu": 6,
+   "soru_payi": 0.04275,
+   "aciklama_sorusu_payi": 0.00011
+  },
+  "Zephyr-7B/sft": {
+   "n_cumle": 49599,
+   "n_soru": 2605,
+   "n_aciklama_sorusu": 4,
+   "soru_payi": 0.05252,
+   "aciklama_sorusu_payi": 8e-05
+  },
+  "Zephyr-7B/taban": {
+   "n_cumle": 53629,
+   "n_soru": 2237,
+   "n_aciklama_sorusu": 8,
+   "soru_payi": 0.04171,
+   "aciklama_sorusu_payi": 0.00015
+  },
+  "miniDPO/ckpt-050": {
+   "n_cumle": 33174,
+   "n_soru": 1127,
+   "n_aciklama_sorusu": 10,
+   "soru_payi": 0.03397,
+   "aciklama_sorusu_payi": 0.0003
+  },
+  "miniDPO/ckpt-100": {
+   "n_cumle": 33311,
+   "n_soru": 1141,
+   "n_aciklama_sorusu": 16,
+   "soru_payi": 0.03425,
+   "aciklama_sorusu_payi": 0.00048
+  },
+  "miniDPO/ckpt-1114": {
+   "n_cumle": 33376,
+   "n_soru": 1087,
+   "n_aciklama_sorusu": 14,
+   "soru_payi": 0.03257,
+   "aciklama_sorusu_payi": 0.00042
+  },
+  "miniDPO/ckpt-1139": {
+   "n_cumle": 40976,
+   "n_soru": 1190,
+   "n_aciklama_sorusu": 13,
+   "soru_payi": 0.02904,
+   "aciklama_sorusu_payi": 0.00032
+  },
+  "miniDPO/ckpt-114": {
+   "n_cumle": 32590,
+   "n_soru": 1069,
+   "n_aciklama_sorusu": 11,
+   "soru_payi": 0.0328,
+   "aciklama_sorusu_payi": 0.00034
+  },
+  "miniDPO/ckpt-1207": {
+   "n_cumle": 32743,
+   "n_soru": 1047,
+   "n_aciklama_sorusu": 15,
+   "soru_payi": 0.03198,
+   "aciklama_sorusu_payi": 0.00046
+  },
+  "miniDPO/ckpt-1236": {
+   "n_cumle": 32271,
+   "n_soru": 987,
+   "n_aciklama_sorusu": 6,
+   "soru_payi": 0.03058,
+   "aciklama_sorusu_payi": 0.00019
+  },
+  "miniDPO/ckpt-1357": {
+   "n_cumle": 37427,
+   "n_soru": 1417,
+   "n_aciklama_sorusu": 13,
+   "soru_payi": 0.03786,
+   "aciklama_sorusu_payi": 0.00035
+  },
+  "miniDPO/ckpt-139": {
+   "n_cumle": 41584,
+   "n_soru": 1129,
+   "n_aciklama_sorusu": 5,
+   "soru_payi": 0.02715,
+   "aciklama_sorusu_payi": 0.00012
+  },
+  "miniDPO/ckpt-1407": {
+   "n_cumle": 31850,
+   "n_soru": 978,
+   "n_aciklama_sorusu": 7,
+   "soru_payi": 0.03071,
+   "aciklama_sorusu_payi": 0.00022
+  },
+  "miniDPO/ckpt-150": {
+   "n_cumle": 32848,
+   "n_soru": 1022,
+   "n_aciklama_sorusu": 17,
+   "soru_payi": 0.03111,
+   "aciklama_sorusu_payi": 0.00052
+  },
+  "miniDPO/ckpt-1604": {
+   "n_cumle": 39788,
+   "n_soru": 1139,
+   "n_aciklama_sorusu": 8,
+   "soru_payi": 0.02863,
+   "aciklama_sorusu_payi": 0.0002
+  },
+  "miniDPO/ckpt-1664": {
+   "n_cumle": 33187,
+   "n_soru": 1006,
+   "n_aciklama_sorusu": 16,
+   "soru_payi": 0.03031,
+   "aciklama_sorusu_payi": 0.00048
+  },
+  "miniDPO/ckpt-1682": {
+   "n_cumle": 40414,
+   "n_soru": 989,
+   "n_aciklama_sorusu": 5,
+   "soru_payi": 0.02447,
+   "aciklama_sorusu_payi": 0.00012
+  },
+  "miniDPO/ckpt-1710": {
+   "n_cumle": 32667,
+   "n_soru": 1057,
+   "n_aciklama_sorusu": 15,
+   "soru_payi": 0.03236,
+   "aciklama_sorusu_payi": 0.00046
+  },
+  "miniDPO/ckpt-1773": {
+   "n_cumle": 31844,
+   "n_soru": 214,
+   "n_aciklama_sorusu": 1,
+   "soru_payi": 0.00672,
+   "aciklama_sorusu_payi": 3e-05
+  },
+  "miniDPO/ckpt-1844": {
+   "n_cumle": 28784,
+   "n_soru": 750,
+   "n_aciklama_sorusu": 1,
+   "soru_payi": 0.02606,
+   "aciklama_sorusu_payi": 3e-05
+  },
+  "miniDPO/ckpt-1922": {
+   "n_cumle": 34006,
+   "n_soru": 1091,
+   "n_aciklama_sorusu": 20,
+   "soru_payi": 0.03208,
+   "aciklama_sorusu_payi": 0.00059
+  },
+  "miniDPO/ckpt-1951": {
+   "n_cumle": 22023,
+   "n_soru": 225,
+   "n_aciklama_sorusu": 0,
+   "soru_payi": 0.01022,
+   "aciklama_sorusu_payi": 0.0
+  },
+  "miniDPO/ckpt-1976": {
+   "n_cumle": 40062,
+   "n_soru": 535,
+   "n_aciklama_sorusu": 3,
+   "soru_payi": 0.01335,
+   "aciklama_sorusu_payi": 7e-05
+  },
+  "miniDPO/ckpt-200": {
+   "n_cumle": 33198,
+   "n_soru": 1146,
+   "n_aciklama_sorusu": 9,
+   "soru_payi": 0.03452,
+   "aciklama_sorusu_payi": 0.00027
+  },
+  "miniDPO/ckpt-207": {
+   "n_cumle": 32138,
+   "n_soru": 1033,
+   "n_aciklama_sorusu": 12,
+   "soru_payi": 0.03214,
+   "aciklama_sorusu_payi": 0.00037
+  },
+  "miniDPO/ckpt-2114": {
+   "n_cumle": 33245,
+   "n_soru": 1026,
+   "n_aciklama_sorusu": 25,
+   "soru_payi": 0.03086,
+   "aciklama_sorusu_payi": 0.00075
+  },
+  "miniDPO/ckpt-2139": {
+   "n_cumle": 41582,
+   "n_soru": 1178,
+   "n_aciklama_sorusu": 8,
+   "soru_payi": 0.02833,
+   "aciklama_sorusu_payi": 0.00019
+  },
+  "miniDPO/ckpt-2207": {
+   "n_cumle": 32387,
+   "n_soru": 1049,
+   "n_aciklama_sorusu": 40,
+   "soru_payi": 0.03239,
+   "aciklama_sorusu_payi": 0.00124
+  },
+  "miniDPO/ckpt-2236": {
+   "n_cumle": 31969,
+   "n_soru": 1056,
+   "n_aciklama_sorusu": 32,
+   "soru_payi": 0.03303,
+   "aciklama_sorusu_payi": 0.001
+  },
+  "miniDPO/ckpt-2357": {
+   "n_cumle": 37108,
+   "n_soru": 1468,
+   "n_aciklama_sorusu": 38,
+   "soru_payi": 0.03956,
+   "aciklama_sorusu_payi": 0.00102
+  },
+  "miniDPO/ckpt-236": {
+   "n_cumle": 31544,
+   "n_soru": 1037,
+   "n_aciklama_sorusu": 16,
+   "soru_payi": 0.03287,
+   "aciklama_sorusu_payi": 0.00051
+  },
+  "miniDPO/ckpt-2407": {
+   "n_cumle": 31982,
+   "n_soru": 1056,
+   "n_aciklama_sorusu": 22,
+   "soru_payi": 0.03302,
+   "aciklama_sorusu_payi": 0.00069
+  },
+  "miniDPO/ckpt-2604": {
+   "n_cumle": 40487,
+   "n_soru": 1127,
+   "n_aciklama_sorusu": 7,
+   "soru_payi": 0.02784,
+   "aciklama_sorusu_payi": 0.00017
+  },
+  "miniDPO/ckpt-2664": {
+   "n_cumle": 33130,
+   "n_soru": 1035,
+   "n_aciklama_sorusu": 35,
+   "soru_payi": 0.03124,
+   "aciklama_sorusu_payi": 0.00106
+  },
+  "miniDPO/ckpt-2682": {
+   "n_cumle": 40822,
+   "n_soru": 932,
+   "n_aciklama_sorusu": 3,
+   "soru_payi": 0.02283,
+   "aciklama_sorusu_payi": 7e-05
+  },
+  "miniDPO/ckpt-2710": {
+   "n_cumle": 32655,
+   "n_soru": 1102,
+   "n_aciklama_sorusu": 38,
+   "soru_payi": 0.03375,
+   "aciklama_sorusu_payi": 0.00116
+  },
+  "miniDPO/ckpt-2773": {
+   "n_cumle": 31952,
+   "n_soru": 226,
+   "n_aciklama_sorusu": 0,
+   "soru_payi": 0.00707,
+   "aciklama_sorusu_payi": 0.0
+  },
+  "miniDPO/ckpt-2844": {
+   "n_cumle": 28341,
+   "n_soru": 705,
+   "n_aciklama_sorusu": 3,
+   "soru_payi": 0.02488,
+   "aciklama_sorusu_payi": 0.00011
+  },
+  "miniDPO/ckpt-2922": {
+   "n_cumle": 34429,
+   "n_soru": 1097,
+   "n_aciklama_sorusu": 21,
+   "soru_payi": 0.03186,
+   "aciklama_sorusu_payi": 0.00061
+  },
+  "miniDPO/ckpt-2951": {
+   "n_cumle": 22037,
+   "n_soru": 160,
+   "n_aciklama_sorusu": 0,
+   "soru_payi": 0.00726,
+   "aciklama_sorusu_payi": 0.0
+  },
+  "miniDPO/ckpt-2976": {
+   "n_cumle": 40159,
+   "n_soru": 518,
+   "n_aciklama_sorusu": 5,
+   "soru_payi": 0.0129,
+   "aciklama_sorusu_payi": 0.00012
+  },
+  "miniDPO/ckpt-3114": {
+   "n_cumle": 33209,
+   "n_soru": 1042,
+   "n_aciklama_sorusu": 13,
+   "soru_payi": 0.03138,
+   "aciklama_sorusu_payi": 0.00039
+  },
+  "miniDPO/ckpt-3139": {
+   "n_cumle": 40964,
+   "n_soru": 1244,
+   "n_aciklama_sorusu": 8,
+   "soru_payi": 0.03037,
+   "aciklama_sorusu_payi": 0.0002
+  },
+  "miniDPO/ckpt-3207": {
+   "n_cumle": 32844,
+   "n_soru": 1024,
+   "n_aciklama_sorusu": 13,
+   "soru_payi": 0.03118,
+   "aciklama_sorusu_payi": 0.0004
+  },
+  "miniDPO/ckpt-3236": {
+   "n_cumle": 31871,
+   "n_soru": 1011,
+   "n_aciklama_sorusu": 10,
+   "soru_payi": 0.03172,
+   "aciklama_sorusu_payi": 0.00031
+  },
+  "miniDPO/ckpt-3357": {
+   "n_cumle": 36851,
+   "n_soru": 1372,
+   "n_aciklama_sorusu": 13,
+   "soru_payi": 0.03723,
+   "aciklama_sorusu_payi": 0.00035
+  },
+  "miniDPO/ckpt-3407": {
+   "n_cumle": 32112,
+   "n_soru": 896,
+   "n_aciklama_sorusu": 6,
+   "soru_payi": 0.0279,
+   "aciklama_sorusu_payi": 0.00019
+  },
+  "miniDPO/ckpt-357": {
+   "n_cumle": 36125,
+   "n_soru": 1321,
+   "n_aciklama_sorusu": 25,
+   "soru_payi": 0.03657,
+   "aciklama_sorusu_payi": 0.00069
+  },
+  "miniDPO/ckpt-3604": {
+   "n_cumle": 39910,
+   "n_soru": 1178,
+   "n_aciklama_sorusu": 17,
+   "soru_payi": 0.02952,
+   "aciklama_sorusu_payi": 0.00043
+  },
+  "miniDPO/ckpt-3664": {
+   "n_cumle": 32656,
+   "n_soru": 1017,
+   "n_aciklama_sorusu": 12,
+   "soru_payi": 0.03114,
+   "aciklama_sorusu_payi": 0.00037
+  },
+  "miniDPO/ckpt-3682": {
+   "n_cumle": 40075,
+   "n_soru": 1016,
+   "n_aciklama_sorusu": 2,
+   "soru_payi": 0.02535,
+   "aciklama_sorusu_payi": 5e-05
+  },
+  "miniDPO/ckpt-3710": {
+   "n_cumle": 32529,
+   "n_soru": 1033,
+   "n_aciklama_sorusu": 9,
+   "soru_payi": 0.03176,
+   "aciklama_sorusu_payi": 0.00028
+  },
+  "miniDPO/ckpt-3773": {
+   "n_cumle": 31199,
+   "n_soru": 240,
+   "n_aciklama_sorusu": 0,
+   "soru_payi": 0.00769,
+   "aciklama_sorusu_payi": 0.0
+  },
+  "miniDPO/ckpt-3844": {
+   "n_cumle": 28414,
+   "n_soru": 654,
+   "n_aciklama_sorusu": 0,
+   "soru_payi": 0.02302,
+   "aciklama_sorusu_payi": 0.0
+  },
+  "miniDPO/ckpt-3922": {
+   "n_cumle": 33867,
+   "n_soru": 1063,
+   "n_aciklama_sorusu": 10,
+   "soru_payi": 0.03139,
+   "aciklama_sorusu_payi": 0.0003
+  },
+  "miniDPO/ckpt-3951": {
+   "n_cumle": 22090,
+   "n_soru": 162,
+   "n_aciklama_sorusu": 1,
+   "soru_payi": 0.00733,
+   "aciklama_sorusu_payi": 5e-05
+  },
+  "miniDPO/ckpt-3976": {
+   "n_cumle": 40168,
+   "n_soru": 546,
+   "n_aciklama_sorusu": 3,
+   "soru_payi": 0.01359,
+   "aciklama_sorusu_payi": 7e-05
+  },
+  "miniDPO/ckpt-407": {
+   "n_cumle": 31250,
+   "n_soru": 923,
+   "n_aciklama_sorusu": 7,
+   "soru_payi": 0.02954,
+   "aciklama_sorusu_payi": 0.00022
+  },
+  "miniDPO/ckpt-4139": {
+   "n_cumle": 41606,
+   "n_soru": 1038,
+   "n_aciklama_sorusu": 9,
+   "soru_payi": 0.02495,
+   "aciklama_sorusu_payi": 0.00022
+  },
+  "miniDPO/ckpt-4604": {
+   "n_cumle": 40066,
+   "n_soru": 1120,
+   "n_aciklama_sorusu": 12,
+   "soru_payi": 0.02795,
+   "aciklama_sorusu_payi": 0.0003
+  },
+  "miniDPO/ckpt-4682": {
+   "n_cumle": 41235,
+   "n_soru": 1026,
+   "n_aciklama_sorusu": 4,
+   "soru_payi": 0.02488,
+   "aciklama_sorusu_payi": 0.0001
+  },
+  "miniDPO/ckpt-5139": {
+   "n_cumle": 41585,
+   "n_soru": 1091,
+   "n_aciklama_sorusu": 13,
+   "soru_payi": 0.02624,
+   "aciklama_sorusu_payi": 0.00031
+  },
+  "miniDPO/ckpt-5604": {
+   "n_cumle": 40176,
+   "n_soru": 1182,
+   "n_aciklama_sorusu": 12,
+   "soru_payi": 0.02942,
+   "aciklama_sorusu_payi": 0.0003
+  },
+  "miniDPO/ckpt-5682": {
+   "n_cumle": 40438,
+   "n_soru": 972,
+   "n_aciklama_sorusu": 1,
+   "soru_payi": 0.02404,
+   "aciklama_sorusu_payi": 2e-05
+  },
+  "miniDPO/ckpt-604": {
+   "n_cumle": 39959,
+   "n_soru": 1202,
+   "n_aciklama_sorusu": 13,
+   "soru_payi": 0.03008,
+   "aciklama_sorusu_payi": 0.00033
+  },
+  "miniDPO/ckpt-6139": {
+   "n_cumle": 41304,
+   "n_soru": 1145,
+   "n_aciklama_sorusu": 5,
+   "soru_payi": 0.02772,
+   "aciklama_sorusu_payi": 0.00012
+  },
+  "miniDPO/ckpt-6604": {
+   "n_cumle": 40164,
+   "n_soru": 1110,
+   "n_aciklama_sorusu": 13,
+   "soru_payi": 0.02764,
+   "aciklama_sorusu_payi": 0.00032
+  },
+  "miniDPO/ckpt-664": {
+   "n_cumle": 32673,
+   "n_soru": 1115,
+   "n_aciklama_sorusu": 11,
+   "soru_payi": 0.03413,
+   "aciklama_sorusu_payi": 0.00034
+  },
+  "miniDPO/ckpt-6682": {
+   "n_cumle": 40261,
+   "n_soru": 910,
+   "n_aciklama_sorusu": 3,
+   "soru_payi": 0.0226,
+   "aciklama_sorusu_payi": 7e-05
+  },
+  "miniDPO/ckpt-682": {
+   "n_cumle": 40712,
+   "n_soru": 1039,
+   "n_aciklama_sorusu": 5,
+   "soru_payi": 0.02552,
+   "aciklama_sorusu_payi": 0.00012
+  },
+  "miniDPO/ckpt-710": {
+   "n_cumle": 32272,
+   "n_soru": 1045,
+   "n_aciklama_sorusu": 12,
+   "soru_payi": 0.03238,
+   "aciklama_sorusu_payi": 0.00037
+  },
+  "miniDPO/ckpt-7139": {
+   "n_cumle": 41121,
+   "n_soru": 1119,
+   "n_aciklama_sorusu": 15,
+   "soru_payi": 0.02721,
+   "aciklama_sorusu_payi": 0.00036
+  },
+  "miniDPO/ckpt-7604": {
+   "n_cumle": 40374,
+   "n_soru": 1212,
+   "n_aciklama_sorusu": 13,
+   "soru_payi": 0.03002,
+   "aciklama_sorusu_payi": 0.00032
+  },
+  "miniDPO/ckpt-7682": {
+   "n_cumle": 40335,
+   "n_soru": 1035,
+   "n_aciklama_sorusu": 9,
+   "soru_payi": 0.02566,
+   "aciklama_sorusu_payi": 0.00022
+  },
+  "miniDPO/ckpt-773": {
+   "n_cumle": 30996,
+   "n_soru": 213,
+   "n_aciklama_sorusu": 0,
+   "soru_payi": 0.00687,
+   "aciklama_sorusu_payi": 0.0
+  },
+  "miniDPO/ckpt-830": {
+   "n_cumle": 32302,
+   "n_soru": 1022,
+   "n_aciklama_sorusu": 6,
+   "soru_payi": 0.03164,
+   "aciklama_sorusu_payi": 0.00019
+  },
+  "miniDPO/ckpt-831": {
+   "n_cumle": 32969,
+   "n_soru": 1101,
+   "n_aciklama_sorusu": 8,
+   "soru_payi": 0.0334,
+   "aciklama_sorusu_payi": 0.00024
+  },
+  "miniDPO/ckpt-832": {
+   "n_cumle": 32758,
+   "n_soru": 1095,
+   "n_aciklama_sorusu": 11,
+   "soru_payi": 0.03343,
+   "aciklama_sorusu_payi": 0.00034
+  },
+  "miniDPO/ckpt-844": {
+   "n_cumle": 27554,
+   "n_soru": 711,
+   "n_aciklama_sorusu": 1,
+   "soru_payi": 0.0258,
+   "aciklama_sorusu_payi": 4e-05
+  },
+  "miniDPO/ckpt-922": {
+   "n_cumle": 33852,
+   "n_soru": 1151,
+   "n_aciklama_sorusu": 12,
+   "soru_payi": 0.034,
+   "aciklama_sorusu_payi": 0.00035
+  },
+  "miniDPO/ckpt-951": {
+   "n_cumle": 22227,
+   "n_soru": 162,
+   "n_aciklama_sorusu": 0,
+   "soru_payi": 0.00729,
+   "aciklama_sorusu_payi": 0.0
+  },
+  "miniDPO/ckpt-976": {
+   "n_cumle": 39801,
+   "n_soru": 552,
+   "n_aciklama_sorusu": 0,
+   "soru_payi": 0.01387,
+   "aciklama_sorusu_payi": 0.0
+  }
+ },
+ "istem_tarafi": {
+  "n_istem": 4977,
+  "n_soru": 0,
+  "soru_payi": 0.0
+ },
+ "basamak_seviyeleri": {
+  "Tulu3-8B/taban": 11.61,
+  "Tulu3-8B/sft": 9.981,
+  "Tulu3-8B/dpo": 3.3592,
+  "Tulu3-8B/rl": 2.8954,
+  "OLMo2-13B/taban": 11.8651,
+  "OLMo2-13B/sft": 11.1941,
+  "OLMo2-13B/dpo": 5.8015,
+  "OLMo2-13B/instruct": 5.5856
+ },
+ "havuz_secilen": {
+  "set": "tulu3-pref (önbellek)",
+  "n_cift": 272898,
+  "M1_secilen": 5.2557,
+  "M1_reddedilen": 6.2762,
+  "jeton_secilen": 345.7,
+  "not_": ""
+ }
+}

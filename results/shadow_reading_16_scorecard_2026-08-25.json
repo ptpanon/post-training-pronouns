@@ -1,0 +1,1221 @@
+{
+ "SINIF": "F5-16 · okuma paneli 6→16",
+ "PREREG": "EK_PREREG_F5_16_PANEL_2026-08-25.md @ c8283e17",
+ "PREDICTION": "3361cf75",
+ "CAPRAZ": "f9eab4ca",
+ "SERH_PANEL_ADI": "",
+ "substrat": {
+  "SCOTUS (OKUMA-B)": {
+   "hucre": {
+    "Qwen2.5-7B": {
+     "ad": "BAGLAM-IZI-YOK",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.04663197417569355,
+       "sd_kati": 1.8706866911785216,
+       "frac_iki_tarafli": 0.1,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.01755725116956802,
+       "sd_kati": 1.447023030258163,
+       "frac_iki_tarafli": 0.16,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.0021004326713895335,
+       "sd_kati": -0.04988422841402026,
+       "frac_iki_tarafli": 0.97,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Mistral-7B-v0.3": {
+     "ad": "BAGLAM-YADIRGATIYOR",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "POZ",
+      "c_DB": "YOK"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.1847290681387351,
+       "sd_kati": 4.232429800395768,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.14715472642706814,
+       "sd_kati": 8.497654217865161,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.009544023803908461,
+       "sd_kati": -0.3268008156640678,
+       "frac_iki_tarafli": 0.81,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "OLMo-3-7B": {
+     "ad": "MUHATAP-KOLAYLASTIRIYOR",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "NEG",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -0.059672384170012735,
+       "sd_kati": -2.629901850909522,
+       "frac_iki_tarafli": 0.010000000000000009,
+       "yon": -1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.021835388758825878,
+       "sd_kati": 1.6135112374015042,
+       "frac_iki_tarafli": 0.11,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.010935053219687206,
+       "sd_kati": -0.5811222833876041,
+       "frac_iki_tarafli": 0.56,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Llama-3.1-8B": {
+     "ad": "BAGLAM-IZI-YOK",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.02080149127215874,
+       "sd_kati": 1.59710299080106,
+       "frac_iki_tarafli": 0.12,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.011365811225598453,
+       "sd_kati": 1.8022700273565337,
+       "frac_iki_tarafli": 0.09,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.0025625945294944982,
+       "sd_kati": -0.17884707176763712,
+       "frac_iki_tarafli": 0.8200000000000001,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Gemma-3-4B": {
+     "ad": "BAGLAM-YADIRGATIYOR",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "POZ",
+      "c_DB": "YOK"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.09294893126177595,
+       "sd_kati": 3.0224194379131752,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.07548153677945414,
+       "sd_kati": 5.708732658140243,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": 0.029180186176763,
+       "sd_kati": 1.6242539313381308,
+       "frac_iki_tarafli": 0.12,
+       "yon": 1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Gemma-3-12B": {
+     "ad": "BAGLAM-YADIRGATIYOR",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "POZ",
+      "c_DB": "YOK"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.11538745923255518,
+       "sd_kati": 4.190970150877222,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.09304806564850783,
+       "sd_kati": 6.99314259925381,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.008972430885030998,
+       "sd_kati": -0.40613406765165466,
+       "frac_iki_tarafli": 0.76,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Qwen2.5-1.5B": {
+     "ad": "BAGLAM-IZI-YOK",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.01601747141136386,
+       "sd_kati": 1.9183650322085992,
+       "frac_iki_tarafli": 0.06,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": -0.008240941018654557,
+       "sd_kati": -1.715570051553736,
+       "frac_iki_tarafli": 0.08000000000000007,
+       "yon": -1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.0046426093308285215,
+       "sd_kati": -0.6378249873881904,
+       "frac_iki_tarafli": 0.42999999999999994,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Zephyr-7B": {
+     "ad": "BAGLAM-IZI-YOK",
+     "ilan": "ILAN-KOLAYLASTIRIYOR",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "YOK",
+      "c_DB": "NEG"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.008171678728204432,
+       "sd_kati": 0.8230441052429305,
+       "frac_iki_tarafli": 0.37,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.0038095196845039487,
+       "sd_kati": 0.6359525666093913,
+       "frac_iki_tarafli": 0.52,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.035008138302460454,
+       "sd_kati": -3.1767038643408188,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Falcon-H1-7B": {
+     "ad": "MUHATAP-KOLAYLASTIRIYOR",
+     "ilan": "ILAN-KOLAYLASTIRIYOR",
+     "kanal": {
+      "c_KE": "NEG",
+      "c_YE": "YOK",
+      "c_DB": "NEG"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -0.04649934743235751,
+       "sd_kati": -2.534262305816796,
+       "frac_iki_tarafli": 0.010000000000000009,
+       "yon": -1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": -0.002423058303575666,
+       "sd_kati": -0.19433792212858175,
+       "frac_iki_tarafli": 0.8400000000000001,
+       "yon": -1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.04288346642043599,
+       "sd_kati": -2.7170208500131956,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Tulu-3-8B": {
+     "ad": "SÖZDIZIM-SECICI",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "POZ",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -0.00699911831113381,
+       "sd_kati": -0.561642690167752,
+       "frac_iki_tarafli": 0.56,
+       "yon": -1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.03788278745911109,
+       "sd_kati": 5.492452607422677,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.005947783888350798,
+       "sd_kati": -0.5305104215927494,
+       "frac_iki_tarafli": 0.5900000000000001,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Granite-4.1-8B": {
+     "ad": "SÖZDIZIM-SECICI",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "POZ",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.017498019470916528,
+       "sd_kati": 1.5359202314753513,
+       "frac_iki_tarafli": 0.16,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.012966322100982464,
+       "sd_kati": 2.495658614931129,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.0007489785407353378,
+       "sd_kati": -0.07523267565602434,
+       "frac_iki_tarafli": 0.95,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "OLMo-2-13B": {
+     "ad": "BAGLAM-IZI-YOK",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -0.008841313167316157,
+       "sd_kati": -0.9832323216717788,
+       "frac_iki_tarafli": 0.3799999999999999,
+       "yon": -1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": -0.007454869967919808,
+       "sd_kati": -1.3792955416128518,
+       "frac_iki_tarafli": 0.15999999999999992,
+       "yon": -1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.01553957626271788,
+       "sd_kati": -1.910199667958683,
+       "frac_iki_tarafli": 0.06000000000000005,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Qwen2.5-14B": {
+     "ad": "BAGLAM-YADIRGATIYOR",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "POZ",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.06430368855959032,
+       "sd_kati": 2.0445298779844854,
+       "frac_iki_tarafli": 0.04,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.05013852082547687,
+       "sd_kati": 4.2755839345075115,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": 0.0043544687595953825,
+       "sd_kati": 0.1988234219168691,
+       "frac_iki_tarafli": 0.84,
+       "yon": 1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Mistral-Small-24B": {
+     "ad": "BAGLAM-YADIRGATIYOR",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "POZ",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.019403755713284496,
+       "sd_kati": 2.213100284334141,
+       "frac_iki_tarafli": 0.03,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.025014572559841096,
+       "sd_kati": 5.1495192960695215,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": 0.0007160987283033838,
+       "sd_kati": 0.08822044861540773,
+       "frac_iki_tarafli": 0.99,
+       "yon": 1,
+       "n_kume": 206
+      }
+     }
+    },
+    "OLMo-2-32B": {
+     "ad": "BAGLAM-IZI-YOK",
+     "ilan": "ILAN-KOLAYLASTIRIYOR",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "YOK",
+      "c_DB": "NEG"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.002386057752419294,
+       "sd_kati": 0.2598136749471849,
+       "frac_iki_tarafli": 0.9,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": -0.0036262599280271588,
+       "sd_kati": -1.060858425995408,
+       "frac_iki_tarafli": 0.28,
+       "yon": -1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": -0.0320103312290988,
+       "sd_kati": -2.8164884560890733,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 206
+      }
+     }
+    },
+    "Gemma-3-27B": {
+     "ad": "BAGLAM-YADIRGATIYOR",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "POZ",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.13655168031289325,
+       "sd_kati": 4.208684184093726,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 164
+      },
+      "c_YE": {
+       "gozlenen": 0.10171450003114327,
+       "sd_kati": 7.888425356266514,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 630
+      },
+      "c_DB": {
+       "gozlenen": 0.008510408046561923,
+       "sd_kati": 0.6041371420044713,
+       "frac_iki_tarafli": 0.59,
+       "yon": 1,
+       "n_kume": 206
+      }
+     }
+    }
+   },
+   "P": {
+    "n_puanlanan": 16,
+    "puanlanan": [
+     "Qwen2.5-7B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "Llama-3.1-8B",
+     "Gemma-3-4B",
+     "Gemma-3-12B",
+     "Qwen2.5-1.5B",
+     "Zephyr-7B",
+     "Falcon-H1-7B",
+     "Tulu-3-8B",
+     "Granite-4.1-8B",
+     "OLMo-2-13B",
+     "Qwen2.5-14B",
+     "Mistral-Small-24B",
+     "OLMo-2-32B",
+     "Gemma-3-27B"
+    ],
+    "P1": {
+     "pay": 6,
+     "payda": 16,
+     "oran": 0.375,
+     "kanal_KAPI": 0
+    },
+    "P2": {
+     "pay": 0,
+     "payda": 16,
+     "oran": 0.0,
+     "kanal_KAPI": 0
+    },
+    "P3": {
+     "pay": 3,
+     "payda": 16,
+     "oran": 0.1875,
+     "kanal_KAPI": 0
+    },
+    "P5": {
+     "pay": 8,
+     "payda": 16,
+     "oran": 0.5,
+     "kanal_KAPI": 0
+    }
+   },
+   "KOSULMADI": [
+    "Ministral-3-8B"
+   ],
+   "panel_adi_ESKI_BAR": "SECICILIK-CÖZÜLMEDI",
+   "ilan_panel": "ILAN-KOLAYLASTIRICI-GENEL"
+  },
+  "cga-cmv": {
+   "hucre": {
+    "Qwen2.5-7B": {
+     "ad": "MUHATAP-SECICI",
+     "ilan": "ILAN-KOLAYLASTIRIYOR",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "YOK",
+      "c_DB": "NEG"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.08680536600054146,
+       "sd_kati": 3.2460819438546142,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": 0.010412633726051224,
+       "sd_kati": 0.9559468703311094,
+       "frac_iki_tarafli": 0.34,
+       "yon": 1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.05064318428702533,
+       "sd_kati": -2.708824718906588,
+       "frac_iki_tarafli": 0.010000000000000009,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Mistral-7B-v0.3": {
+     "ad": "MUHATAP-SECICI",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.09797624246079045,
+       "sd_kati": 3.165892485838544,
+       "frac_iki_tarafli": 0.01,
+       "yon": 1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": 0.0008039739396837026,
+       "sd_kati": 0.07022900145966916,
+       "frac_iki_tarafli": 0.9,
+       "yon": 1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.005684102601546017,
+       "sd_kati": -0.2700572756531511,
+       "frac_iki_tarafli": 0.75,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "OLMo-3-7B": {
+     "ad": "SÖZDIZIM-KOLAYLASTIRIYOR",
+     "ilan": "ILAN-KOLAYLASTIRIYOR",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "NEG",
+      "c_DB": "NEG"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -0.004009917670605228,
+       "sd_kati": -0.25010930932005015,
+       "frac_iki_tarafli": 0.72,
+       "yon": -1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.027149047809457674,
+       "sd_kati": -2.6038882310315214,
+       "frac_iki_tarafli": 0.010000000000000009,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.042797921069378096,
+       "sd_kati": -2.3250780957807784,
+       "frac_iki_tarafli": 0.020000000000000018,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Llama-3.1-8B": {
+     "ad": "BAGLAM-IZI-YOK",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.001679636851078322,
+       "sd_kati": 0.24719409109347973,
+       "frac_iki_tarafli": 0.86,
+       "yon": 1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.006860175494151224,
+       "sd_kati": -1.6135117992121384,
+       "frac_iki_tarafli": 0.10000000000000009,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.01490286646042278,
+       "sd_kati": -1.7243179328355083,
+       "frac_iki_tarafli": 0.10000000000000009,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Gemma-3-4B": {
+     "ad": "BAGLAM-IZI-YOK",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.02276801628892829,
+       "sd_kati": 1.2584233880444275,
+       "frac_iki_tarafli": 0.22,
+       "yon": 1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.010857574022193442,
+       "sd_kati": -1.0674479110422201,
+       "frac_iki_tarafli": 0.33000000000000007,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.03155772103770319,
+       "sd_kati": -1.7167346909391974,
+       "frac_iki_tarafli": 0.08000000000000007,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Gemma-3-12B": {
+     "ad": "MUHATAP-SECICI",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": false,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.055482245459943916,
+       "sd_kati": 2.7944216603851415,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.019007246839903666,
+       "sd_kati": -1.651811833369433,
+       "frac_iki_tarafli": 0.09000000000000008,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.043078322567829265,
+       "sd_kati": -2.1824543698112366,
+       "frac_iki_tarafli": 0.06000000000000005,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Qwen2.5-1.5B": {
+     "ad": "MUHATAP-SECICI",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.012133462088448661,
+       "sd_kati": 1.96959160392145,
+       "frac_iki_tarafli": 0.05,
+       "yon": 1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": 0.004226689833415792,
+       "sd_kati": 1.1141512186973015,
+       "frac_iki_tarafli": 0.26,
+       "yon": 1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.0028924436280221644,
+       "sd_kati": -0.5599548553743728,
+       "frac_iki_tarafli": 0.6200000000000001,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Zephyr-7B": {
+     "ad": "SÖZDIZIM-KOLAYLASTIRIYOR",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "NEG",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -0.011864050429742212,
+       "sd_kati": -1.2456403916658212,
+       "frac_iki_tarafli": 0.20999999999999996,
+       "yon": -1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.01590117656456538,
+       "sd_kati": -3.816284843820687,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.010857996881114397,
+       "sd_kati": -1.5260313233426814,
+       "frac_iki_tarafli": 0.15999999999999992,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Falcon-H1-7B": {
+     "ad": "BAGLAM-KOLAYLASTIRIYOR",
+     "ilan": "ILAN-KOLAYLASTIRIYOR",
+     "kanal": {
+      "c_KE": "NEG",
+      "c_YE": "NEG",
+      "c_DB": "NEG"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -0.039021251749257746,
+       "sd_kati": -2.6779044615856393,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.05258452537043995,
+       "sd_kati": -7.676351950839057,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.04005487866155179,
+       "sd_kati": -3.3447534675172266,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Tulu-3-8B": {
+     "ad": "BAGLAM-KOLAYLASTIRIYOR",
+     "ilan": "ILAN-KOLAYLASTIRIYOR",
+     "kanal": {
+      "c_KE": "NEG",
+      "c_YE": "NEG",
+      "c_DB": "NEG"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -0.016751016889299666,
+       "sd_kati": -2.26091004870808,
+       "frac_iki_tarafli": 0.030000000000000027,
+       "yon": -1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.02736500802506762,
+       "sd_kati": -6.445401887921335,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.0332678942119374,
+       "sd_kati": -3.528999223592199,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Granite-4.1-8B": {
+     "ad": "BAGLAM-IZI-YOK",
+     "ilan": "ILAN-KOLAYLASTIRIYOR",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "YOK",
+      "c_DB": "NEG"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.011849973382068281,
+       "sd_kati": 0.9103277997495326,
+       "frac_iki_tarafli": 0.38,
+       "yon": 1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.00721095089003652,
+       "sd_kati": -1.5716916859046008,
+       "frac_iki_tarafli": 0.1200000000000001,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.024106443034561345,
+       "sd_kati": -3.5386206829857847,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "OLMo-2-13B": {
+     "ad": "BAGLAM-KOLAYLASTIRIYOR",
+     "ilan": "ILAN-KOLAYLASTIRIYOR",
+     "kanal": {
+      "c_KE": "NEG",
+      "c_YE": "NEG",
+      "c_DB": "NEG"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -0.02656771255140545,
+       "sd_kati": -2.8579238023156814,
+       "frac_iki_tarafli": 0.010000000000000009,
+       "yon": -1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.029023268540349402,
+       "sd_kati": -7.365952658524997,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.026508051975100644,
+       "sd_kati": -4.112692516992612,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Qwen2.5-14B": {
+     "ad": "BAGLAM-IZI-YOK",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "YOK",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.011612632194486987,
+       "sd_kati": 0.4008302295426599,
+       "frac_iki_tarafli": 0.64,
+       "yon": 1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": 0.008836004512988969,
+       "sd_kati": 0.9154325300470816,
+       "frac_iki_tarafli": 0.34,
+       "yon": 1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.03419992216130629,
+       "sd_kati": -1.578731617105598,
+       "frac_iki_tarafli": 0.1200000000000001,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Mistral-Small-24B": {
+     "ad": "SÖZDIZIM-KOLAYLASTIRIYOR",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "YOK",
+      "c_YE": "NEG",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -6.722468955844367e-06,
+       "sd_kati": -0.10579384876852106,
+       "frac_iki_tarafli": 0.94,
+       "yon": -1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.012538136323643924,
+       "sd_kati": -3.2204861365224775,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.01003942493873909,
+       "sd_kati": -1.492579966668046,
+       "frac_iki_tarafli": 0.1299999999999999,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "OLMo-2-32B": {
+     "ad": "BAGLAM-KOLAYLASTIRIYOR",
+     "ilan": "ILAN-IZ-YOK",
+     "kanal": {
+      "c_KE": "NEG",
+      "c_YE": "NEG",
+      "c_DB": "YOK"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": -0.017391361776186307,
+       "sd_kati": -1.9519411952816768,
+       "frac_iki_tarafli": 0.040000000000000036,
+       "yon": -1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.02174819278927565,
+       "sd_kati": -6.049098789695569,
+       "frac_iki_tarafli": 0.0,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.012935821066565692,
+       "sd_kati": -1.9242349354380728,
+       "frac_iki_tarafli": 0.050000000000000044,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    },
+    "Gemma-3-27B": {
+     "ad": "MUHATAP-SECICI",
+     "ilan": "ILAN-KOLAYLASTIRIYOR",
+     "kanal": {
+      "c_KE": "POZ",
+      "c_YE": "YOK",
+      "c_DB": "NEG"
+     },
+     "yeni": true,
+     "sayilar": {
+      "c_KE": {
+       "gozlenen": 0.05033590579901089,
+       "sd_kati": 2.7926211584073495,
+       "frac_iki_tarafli": 0.0,
+       "yon": 1,
+       "n_kume": 119
+      },
+      "c_YE": {
+       "gozlenen": -0.0023636998632008584,
+       "sd_kati": -0.16206780473029836,
+       "frac_iki_tarafli": 0.8600000000000001,
+       "yon": -1,
+       "n_kume": 453
+      },
+      "c_DB": {
+       "gozlenen": -0.04891444028167589,
+       "sd_kati": -2.5743271241913033,
+       "frac_iki_tarafli": 0.020000000000000018,
+       "yon": -1,
+       "n_kume": 187
+      }
+     }
+    }
+   },
+   "P": {
+    "n_puanlanan": 16,
+    "puanlanan": [
+     "Qwen2.5-7B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "Llama-3.1-8B",
+     "Gemma-3-4B",
+     "Gemma-3-12B",
+     "Qwen2.5-1.5B",
+     "Zephyr-7B",
+     "Falcon-H1-7B",
+     "Tulu-3-8B",
+     "Granite-4.1-8B",
+     "OLMo-2-13B",
+     "Qwen2.5-14B",
+     "Mistral-Small-24B",
+     "OLMo-2-32B",
+     "Gemma-3-27B"
+    ],
+    "P1": {
+     "pay": 5,
+     "payda": 16,
+     "oran": 0.3125,
+     "kanal_KAPI": 0
+    },
+    "P2": {
+     "pay": 0,
+     "payda": 16,
+     "oran": 0.0,
+     "kanal_KAPI": 0
+    },
+    "P3": {
+     "pay": 7,
+     "payda": 16,
+     "oran": 0.4375,
+     "kanal_KAPI": 0
+    },
+    "P5": {
+     "pay": 0,
+     "payda": 16,
+     "oran": 0.0,
+     "kanal_KAPI": 0
+    }
+   },
+   "KOSULMADI": [
+    "Ministral-3-8B"
+   ],
+   "panel_adi_ESKI_BAR": "OKUMA-SAKINMASI-VAR",
+   "ilan_panel": "ILAN-KOLAYLASTIRICI-GENEL"
+  }
+ },
+ "P4": {
+  "P4": 6,
+  "dokum": {
+   "Falcon-H1-7B": [
+    "SCOTUS/c_KE",
+    "SCOTUS/c_DB",
+    "cga-cmv/c_KE",
+    "cga-cmv/c_YE",
+    "cga-cmv/c_DB"
+   ],
+   "Gemma-3-27B": [
+    "cga-cmv/c_DB"
+   ],
+   "Granite-4.1-8B": [
+    "cga-cmv/c_DB"
+   ],
+   "Mistral-Small-24B": [
+    "cga-cmv/c_YE"
+   ],
+   "OLMo-2-13B": [
+    "cga-cmv/c_KE",
+    "cga-cmv/c_YE",
+    "cga-cmv/c_DB"
+   ],
+   "OLMo-2-32B": [
+    "SCOTUS/c_DB",
+    "cga-cmv/c_KE",
+    "cga-cmv/c_YE"
+   ],
+   "OLMo-3-7B": [
+    "SCOTUS/c_KE",
+    "cga-cmv/c_YE",
+    "cga-cmv/c_DB"
+   ],
+   "Qwen2.5-7B": [
+    "cga-cmv/c_DB"
+   ],
+   "Tulu-3-8B": [
+    "cga-cmv/c_KE",
+    "cga-cmv/c_YE",
+    "cga-cmv/c_DB"
+   ],
+   "Zephyr-7B": [
+    "SCOTUS/c_DB",
+    "cga-cmv/c_YE"
+   ]
+  }
+ }
+}
