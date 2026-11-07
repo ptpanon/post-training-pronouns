@@ -1,0 +1,316 @@
+{
+ "_kunye": {
+  "alet": "scripts/template_filtered_first_person_echo_free.py",
+  "damga_utc": "2026-09-15T09:10:16Z",
+  "sinif": "BETIMSEL — prereg yok",
+  "hucre": "dört-bacak dejenerelik süzgeci ∩ iki sablonlu bacakta yankisiz (esli)",
+  "yanki": "yanki.yanki_mi (200/40/10)",
+  "sure_dk": 9.1
+ },
+ "sayim": {
+  "1": {
+   "yukari": [],
+   "asagi": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "null": []
+  },
+  "2": {
+   "yukari": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "OLMo-3-7B"
+   ],
+   "asagi": [
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "null": [
+    "Mistral-7B-v0.3",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-72B"
+   ]
+  }
+ },
+ "aileler": [
+  {
+   "aile": "Gemma-3-12B",
+   "tutulan_oran": 0.1757,
+   "yanki_dislanan_ek": 0.2915,
+   "d1": -20.6979,
+   "ci1": [
+    -23.3292,
+    -18.4998
+   ],
+   "d2": 23.2768,
+   "ci2": [
+    20.3428,
+    26.2806
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Gemma-3-27B",
+   "tutulan_oran": 0.2054,
+   "yanki_dislanan_ek": 0.2304,
+   "d1": -25.1137,
+   "ci1": [
+    -27.0972,
+    -23.1881
+   ],
+   "d2": 30.091,
+   "ci2": [
+    28.0322,
+    32.0288
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Gemma-3-4B",
+   "tutulan_oran": 0.2626,
+   "yanki_dislanan_ek": 0.152,
+   "d1": -23.6538,
+   "ci1": [
+    -25.7469,
+    -21.6694
+   ],
+   "d2": 24.693,
+   "ci2": [
+    22.7359,
+    26.4717
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Llama-3.1-70B",
+   "tutulan_oran": 0.1955,
+   "yanki_dislanan_ek": 0.1759,
+   "d1": -20.8797,
+   "ci1": [
+    -22.9577,
+    -18.8097
+   ],
+   "d2": 15.6239,
+   "ci2": [
+    13.911,
+    17.2818
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Llama-3.1-8B",
+   "tutulan_oran": 0.3073,
+   "yanki_dislanan_ek": 0.1055,
+   "d1": -22.4067,
+   "ci1": [
+    -24.369,
+    -20.3763
+   ],
+   "d2": 6.4013,
+   "ci2": [
+    5.2564,
+    7.5294
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Mistral-7B-v0.3",
+   "tutulan_oran": 0.4974,
+   "yanki_dislanan_ek": 0.1221,
+   "d1": -16.9088,
+   "ci1": [
+    -19.0037,
+    -14.9548
+   ],
+   "d2": -0.2482,
+   "ci2": [
+    -3.0333,
+    1.8733
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "OLMo-3-7B",
+   "tutulan_oran": 0.339,
+   "yanki_dislanan_ek": 0.3316,
+   "d1": -15.9883,
+   "ci1": [
+    -17.3375,
+    -14.6205
+   ],
+   "d2": 8.5827,
+   "ci2": [
+    6.9228,
+    10.3378
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "OLMo2-13B",
+   "tutulan_oran": 0.1808,
+   "yanki_dislanan_ek": 0.2779,
+   "d1": -30.7295,
+   "ci1": [
+    -32.7533,
+    -28.7236
+   ],
+   "d2": -15.911,
+   "ci2": [
+    -18.0184,
+    -13.8977
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "OLMo2-32B",
+   "tutulan_oran": 0.2459,
+   "yanki_dislanan_ek": 0.2669,
+   "d1": -29.0256,
+   "ci1": [
+    -30.3552,
+    -27.5401
+   ],
+   "d2": -14.538,
+   "ci2": [
+    -16.7957,
+    -12.5525
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Qwen2.5-1.5B",
+   "tutulan_oran": 0.2054,
+   "yanki_dislanan_ek": 0.0738,
+   "d1": -15.2351,
+   "ci1": [
+    -16.9276,
+    -13.2947
+   ],
+   "d2": 0.0003,
+   "ci2": [
+    -1.8188,
+    1.8667
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Qwen2.5-14B",
+   "tutulan_oran": 0.33,
+   "yanki_dislanan_ek": 0.1509,
+   "d1": -16.1191,
+   "ci1": [
+    -17.466,
+    -14.8567
+   ],
+   "d2": -6.4873,
+   "ci2": [
+    -8.2819,
+    -4.8961
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Qwen2.5-32B",
+   "tutulan_oran": 0.3503,
+   "yanki_dislanan_ek": 0.1857,
+   "d1": -16.6611,
+   "ci1": [
+    -17.9763,
+    -15.5198
+   ],
+   "d2": -9.2576,
+   "ci2": [
+    -11.0754,
+    -7.6106
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Qwen2.5-3B",
+   "tutulan_oran": 0.4228,
+   "yanki_dislanan_ek": 0.1085,
+   "d1": -8.9572,
+   "ci1": [
+    -10.018,
+    -7.9187
+   ],
+   "d2": -3.2701,
+   "ci2": [
+    -4.3381,
+    -2.2456
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Qwen2.5-72B",
+   "tutulan_oran": 0.3571,
+   "yanki_dislanan_ek": 0.2226,
+   "d1": -10.034,
+   "ci1": [
+    -11.0657,
+    -9.0015
+   ],
+   "d2": 0.1955,
+   "ci2": [
+    -1.1904,
+    1.6201
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Qwen2.5-7B",
+   "tutulan_oran": 0.3022,
+   "yanki_dislanan_ek": 0.1674,
+   "d1": -11.6773,
+   "ci1": [
+    -13.1533,
+    -10.4174
+   ],
+   "d2": -8.7773,
+   "ci2": [
+    -10.4301,
+    -7.1777
+   ],
+   "n_istem": 34
+  },
+  {
+   "aile": "Tulu3-8B",
+   "tutulan_oran": 0.3189,
+   "yanki_dislanan_ek": 0.1369,
+   "d1": -31.0325,
+   "ci1": [
+    -33.1369,
+    -28.9005
+   ],
+   "d2": -19.6694,
+   "ci2": [
+    -21.1949,
+    -17.9756
+   ],
+   "n_istem": 34
+  }
+ ]
+}

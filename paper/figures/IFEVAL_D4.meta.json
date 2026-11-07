@@ -1,0 +1,19 @@
+{
+ "table": "IFEVAL_D4",
+ "sources": [
+  {
+   "yol": "results/ifeval_kayit_2026-09-24.json"
+  },
+  {
+   "yol": "results/b1_ifeval_70b.json"
+  }
+ ],
+ "ciktilar": [
+  "IFEVAL_CUMLE.tex",
+  "IFEVAL_LIMIT.tex",
+  "IFEVAL_D4.tex"
+ ],
+ "n_model": 16,
+ "medyan_ps": -0.0352,
+ "ayrik": 8
+}

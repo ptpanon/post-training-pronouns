@@ -1,0 +1,331 @@
+{
+ "damga_utc": "2026-09-10T12:36:53Z",
+ "seed": 20260910,
+ "n": 40,
+ "tabaka": "bacak × sinif, her tabakadan 7",
+ "talimat": "her madde icin el_etiketi: HITAP | JENERIK | BELIRSIZ",
+ "madde": [
+  {
+   "i": 0,
+   "aile": "Llama-3.1-70B",
+   "bacak": "taban",
+   "cumle": "And if they do trust you then why are you hiding?",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 1,
+   "aile": "Qwen2.5-1.5B",
+   "bacak": "hizali",
+   "cumle": "By going veggie it takes less water to grow meat; fewer pesticides needed if you avoid feeding animals with your produce (which we don't have as much of in our country anyway); less methane produced from animal farming which is a significant factor in global warming because methane is 25 times more potent than CO2.",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 2,
+   "aile": "Llama-3.1-70B",
+   "bacak": "hizali",
+   "cumle": "Thank you very much.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 3,
+   "aile": "Gemma-3-27B",
+   "bacak": "taban",
+   "cumle": "If you are going to have sex with someone, you should be in a",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 4,
+   "aile": "Gemma-3-4B",
+   "bacak": "hizali",
+   "cumle": "Okay, let's break down your examples and why the \"right\" conclusions are accurate and the initial statements are problematic.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 5,
+   "aile": "Qwen2.5-7B",
+   "bacak": "taban",
+   "cumle": "If you found any of that amusing, you may enjoy the full list of 564 tweets that were selected for a story on “humor” in artificial intelligence, published by MIT Technology Review on Wednesday.",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 6,
+   "aile": "Qwen2.5-32B",
+   "bacak": "taban",
+   "cumle": "A one night stand could mean you have broken the fidelity part, but, in the end, this is a single part of the relationship.",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 7,
+   "aile": "Qwen2.5-3B",
+   "bacak": "taban",
+   "cumle": "If you are religious, you believe there is a way to test a faith, but most religions don’t offer any concrete evidence for their beliefs.",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 8,
+   "aile": "Qwen2.5-7B",
+   "bacak": "hizali",
+   "cumle": "(5) If you believe in god, you must believe in a god of war, who kills children, or a god who demands human sacrifices, or both.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 9,
+   "aile": "Gemma-3-12B",
+   "bacak": "taban",
+   "cumle": "We thank you for your great service and will be happy to do business with you again.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 10,
+   "aile": "Qwen2.5-72B",
+   "bacak": "hizali",
+   "cumle": "To address each of your points:\n\n1.",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 11,
+   "aile": "Llama-3.1-8B",
+   "bacak": "hizali",
+   "cumle": "You never have to worry about who is going to win the next election, and when, and at what time.",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 12,
+   "aile": "Qwen2.5-72B",
+   "bacak": "hizali",
+   "cumle": "It seems like you've combined two separate topics into one message.",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 13,
+   "aile": "OLMo2-32B",
+   "bacak": "taban",
+   "cumle": "If you wish to prove the existence of god scientifically, then you must use scientific methods, and scientific arguments.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 14,
+   "aile": "Llama-3.1-8B",
+   "bacak": "hizali",
+   "cumle": "It's a bit like being too lazy to show up on election day and then complaining your voice wasn't heard.",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 15,
+   "aile": "Llama-3.1-8B",
+   "bacak": "hizali",
+   "cumle": "I mean, honestly, how many times can you say no to nipples?!",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 16,
+   "aile": "Llama-3.1-8B",
+   "bacak": "taban",
+   "cumle": "You can use magic to heal yourself from sickness or injury.",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 17,
+   "aile": "Mistral-7B-v0.3",
+   "bacak": "taban",
+   "cumle": "\n\nFirst, you did not define \"best,\" so you cannot be faulted for a vague statement.",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 18,
+   "aile": "Mistral-7B-v0.3",
+   "bacak": "hizali",
+   "cumle": "This means that if you reduce methane emissions, you can make a very large impact on global warming even in the short term.",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 19,
+   "aile": "Qwen2.5-3B",
+   "bacak": "taban",
+   "cumle": "It seems like you have a lot to say about different topics.",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 20,
+   "aile": "Mistral-7B-v0.3",
+   "bacak": "taban",
+   "cumle": "You can't see that it's wrong unless you know what it is, but you can say that it's not.",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 21,
+   "aile": "Llama-3.1-70B",
+   "bacak": "hizali",
+   "cumle": "You know like a startup!",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 22,
+   "aile": "Qwen2.5-7B",
+   "bacak": "hizali",
+   "cumle": "The only reason to recognise the state they seek is to make them happy; you should not base foreign policy on such a subjective criterion.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 23,
+   "aile": "Qwen2.5-1.5B",
+   "bacak": "hizali",
+   "cumle": "If you were born with breasts or vagina, you are automatically considered female (by definition).",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 24,
+   "aile": "Qwen2.5-1.5B",
+   "bacak": "hizali",
+   "cumle": "Thank you also for agreeing to address my concerns on airline seat sizes and religious belief in a future interaction.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 25,
+   "aile": "OLMo-3-7B",
+   "bacak": "taban",
+   "cumle": "(It's better if you can't fit your legs under the seat in front of you, and there is no legroom at all.) 4.",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 26,
+   "aile": "OLMo-3-7B",
+   "bacak": "taban",
+   "cumle": "And by that I don't mean that \"that side will lose\" or \"I will win\", but that if you ask",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 27,
+   "aile": "Qwen2.5-32B",
+   "bacak": "hizali",
+   "cumle": "Your reasoning about the European Union's (EU) effectiveness in promoting a common European foreign policy is generally correct.",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 28,
+   "aile": "Qwen2.5-72B",
+   "bacak": "hizali",
+   "cumle": " \n\n- Many religious organizations provide valuable social services and support for those in need\n- Corruption and exploitation certainly occur but it is unfair to paint all religious institutions with the same brush \n- There is strong evidence of the positive impact of religion and spirituality for individuals and communities\n\nPlease let me know if you would like me to elaborate on any part of my ",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "BELIRSIZ"
+  },
+  {
+   "i": 29,
+   "aile": "Qwen2.5-3B",
+   "bacak": "hizali",
+   "cumle": "You're presenting a variety of statements with an opposing view to your initial stance, and it's important to provide clear reasoning for each.",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 30,
+   "aile": "Qwen2.5-32B",
+   "bacak": "taban",
+   "cumle": "That is literally all the logic in the world that you need to understand that this is true.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 31,
+   "aile": "OLMo-3-7B",
+   "bacak": "hizali",
+   "cumle": "if you don't deserve it?",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 32,
+   "aile": "OLMo2-13B",
+   "bacak": "taban",
+   "cumle": "If you work more, you are making more money than before, you have to pay more taxes than before, and you are spending more on fuel, water, electricity, rent, and food.",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 33,
+   "aile": "Qwen2.5-14B",
+   "bacak": "taban",
+   "cumle": " I am not sure how long you have been paying attention to the news, but there is a lot of it.",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 34,
+   "aile": "Qwen2.5-72B",
+   "bacak": "hizali",
+   "cumle": "The statement you provided makes a compelling argument that \"bullfighting as a male-dominated sport reinforces harmful gender stereotypes.\" However, there are a few issues or areas where the argument could be strengthened or clarified:\n\n1.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 35,
+   "aile": "Llama-3.1-8B",
+   "bacak": "hizali",
+   "cumle": "You know what?",
+   "alet_etiketi": "JENERIK",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 36,
+   "aile": "Qwen2.5-14B",
+   "bacak": "taban",
+   "cumle": "But you should not do it.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "HITAP"
+  },
+  {
+   "i": 37,
+   "aile": "Qwen2.5-1.5B",
+   "bacak": "taban",
+   "cumle": "For instance, if you are trying to start a new business, and you need to run marketing campaigns, you might have to hire a designer or a graphic artist who earns an average of $50,000 a year.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 38,
+   "aile": "OLMo2-13B",
+   "bacak": "taban",
+   "cumle": "If someone tells you they are",
+   "alet_etiketi": "BELIRSIZ",
+   "el_etiketi": "JENERIK"
+  },
+  {
+   "i": 39,
+   "aile": "Tulu3-8B",
+   "bacak": "taban",
+   "cumle": " If you have a choice and pick one of the options, then, necessarily, at some moment you must have picked one of them.",
+   "alet_etiketi": "HITAP",
+   "el_etiketi": "JENERIK"
+  }
+ ],
+ "el_etiketi_kim": "",
+ "el_etiketi_damga": "2026-09-10"
+}

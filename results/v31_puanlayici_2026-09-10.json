@@ -1,0 +1,190 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-09T18:54:33Z",
+  "alet": "scripts/v27_provenance_test.py",
+  "borc": "D-0910-V27 §2b",
+  "sinif_kaynagi": "depo adi DISKTEN (panel künyesi snapshot yolu); depo→tercih-verisi eslemesi MODEL KARTINDAN (BELLEK, teyitsiz — §12)",
+  "kip": "PUANLAYICI-KIMLIGI (--puanlayici)",
+  "n_perm": 200,
+  "seed": 20260910,
+  "asgari_sinif": 3,
+  "tam_sayim_damga": "2026-09-09T18:55:15Z"
+ },
+ "aileler": [
+  {
+   "aile": "Gemma-3-12B",
+   "depo": "google/gemma-3-12b-it",
+   "card": "ADLANDIRILAMAZ",
+   "kanit": "card puanlayiciyi adlandirmiyor",
+   "sinif": "ADLANDIRILAMAZ",
+   "dM1": 24.613,
+   "ayrik": true
+  },
+  {
+   "aile": "Gemma-3-27B",
+   "depo": "google/gemma-3-27b-it",
+   "card": "ADLANDIRILAMAZ",
+   "kanit": "card puanlayiciyi adlandirmiyor",
+   "sinif": "ADLANDIRILAMAZ",
+   "dM1": 32.267,
+   "ayrik": true
+  },
+  {
+   "aile": "Gemma-3-4B",
+   "depo": "google/gemma-3-4b-it",
+   "card": "ADLANDIRILAMAZ",
+   "kanit": "card puanlayiciyi adlandirmiyor",
+   "sinif": "ADLANDIRILAMAZ",
+   "dM1": 26.355,
+   "ayrik": true
+  },
+  {
+   "aile": "Llama-3.1-70B",
+   "depo": "meta-llama/Llama-3.1-70B-Instruct",
+   "card": "INSAN-RLHF",
+   "kanit": "card: «SFT and RLHF to align with human preferences»",
+   "sinif": "INSAN-RLHF",
+   "dM1": 14.76,
+   "ayrik": true
+  },
+  {
+   "aile": "Llama-3.1-8B",
+   "depo": "meta-llama/Llama-3.1-8B-Instruct",
+   "card": "INSAN-RLHF",
+   "kanit": "card: «SFT and RLHF to align with human preferences»",
+   "sinif": "INSAN-RLHF",
+   "dM1": 7.505,
+   "ayrik": true
+  },
+  {
+   "aile": "Mistral-7B-v0.3",
+   "depo": "mistralai/Mistral-7B-Instruct-v0.3",
+   "card": "ADLANDIRILAMAZ",
+   "kanit": "card puanlayiciyi adlandirmiyor",
+   "sinif": "ADLANDIRILAMAZ",
+   "dM1": -0.113,
+   "ayrik": false
+  },
+  {
+   "aile": "OLMo-3-7B",
+   "depo": "allenai/Olmo-3-7B-Instruct",
+   "card": "KURGU-DOGRULANAMADI",
+   "kanit": "",
+   "sinif": "KURGU-DOGRULANAMADI",
+   "dM1": 9.918,
+   "ayrik": true
+  },
+  {
+   "aile": "OLMo2-13B",
+   "depo": "allenai/OLMo-2-1124-13B-Instruct",
+   "card": "TULU-RM",
+   "kanit": "card: Reward Model (RM) allenai/OLMo-2-1124-13B-RM",
+   "sinif": "TULU-RM",
+   "dM1": -14.546,
+   "ayrik": true
+  },
+  {
+   "aile": "OLMo2-32B",
+   "depo": "allenai/OLMo-2-0325-32B-Instruct",
+   "card": "TULU-RM",
+   "kanit": "",
+   "sinif": "TULU-RM",
+   "dM1": -12.654,
+   "ayrik": true
+  },
+  {
+   "aile": "Qwen2.5-1.5B",
+   "depo": "Qwen/Qwen2.5-1.5B-Instruct",
+   "card": "ADLANDIRILAMAZ",
+   "kanit": "card puanlayiciyi adlandirmiyor",
+   "sinif": "ADLANDIRILAMAZ",
+   "dM1": 1.425,
+   "ayrik": true
+  },
+  {
+   "aile": "Qwen2.5-14B",
+   "depo": "Qwen/Qwen2.5-14B-Instruct",
+   "card": "ADLANDIRILAMAZ",
+   "kanit": "card puanlayiciyi adlandirmiyor",
+   "sinif": "ADLANDIRILAMAZ",
+   "dM1": -5.101,
+   "ayrik": true
+  },
+  {
+   "aile": "Qwen2.5-32B",
+   "depo": "Qwen/Qwen2.5-32B-Instruct",
+   "card": "ADLANDIRILAMAZ",
+   "kanit": "card puanlayiciyi adlandirmiyor",
+   "sinif": "ADLANDIRILAMAZ",
+   "dM1": -7.297,
+   "ayrik": true
+  },
+  {
+   "aile": "Qwen2.5-3B",
+   "depo": "Qwen/Qwen2.5-3B-Instruct",
+   "card": "ADLANDIRILAMAZ",
+   "kanit": "card puanlayiciyi adlandirmiyor",
+   "sinif": "ADLANDIRILAMAZ",
+   "dM1": -2.896,
+   "ayrik": true
+  },
+  {
+   "aile": "Qwen2.5-72B",
+   "depo": "Qwen/Qwen2.5-72B-Instruct",
+   "card": "ADLANDIRILAMAZ",
+   "kanit": "card puanlayiciyi adlandirmiyor",
+   "sinif": "ADLANDIRILAMAZ",
+   "dM1": -0.171,
+   "ayrik": false
+  },
+  {
+   "aile": "Qwen2.5-7B",
+   "depo": "Qwen/Qwen2.5-7B-Instruct",
+   "card": "ADLANDIRILAMAZ",
+   "kanit": "card puanlayiciyi adlandirmiyor",
+   "sinif": "ADLANDIRILAMAZ",
+   "dM1": -7.234,
+   "ayrik": true
+  },
+  {
+   "aile": "Tulu3-8B",
+   "depo": "allenai/Llama-3.1-Tulu-3-8B",
+   "card": "TULU-RM",
+   "kanit": "card: Reward Model (RM) allenai/Llama-3.1-Tulu-3-8B-RM",
+   "sinif": "TULU-RM",
+   "dM1": -18.413,
+   "ayrik": true
+  }
+ ],
+ "sinif_sayimi": {
+  "ADLANDIRILAMAZ": 10,
+  "INSAN-RLHF": 2,
+  "KURGU-DOGRULANAMADI": 1,
+  "TULU-RM": 3
+ },
+ "ortalama_A": -15.204,
+ "ortalama_B": 11.133,
+ "ad_A": "TULU-RM",
+ "ad_B": "INSAN-RLHF",
+ "fark": -26.337,
+ "null_sd": 13.158,
+ "MDE": 21.645,
+ "frac_null_asan": 0.075,
+ "yukari_A": "0/3",
+ "yukari_B": "2/2",
+ "asagi_A": "3/3",
+ "asagi_B": "0/2",
+ "VERDICT": "KÖKENI-IZLEMIYOR",
+ "GUC_SERHI": "|fark|=26.34 · MDE=21.64 ⇒ bu tasarim bu farki GÖREBILIRDI",
+ "TAM_SAYIM": {
+  "n_yerlesim": 10,
+  "gozlenen": 26.337,
+  "frac_tam": 0.1,
+  "null_ort": 10.796,
+  "null_sd": 8.119,
+  "MDE": 13.356,
+  "ulasilabilir_en_kucuk_frac": 0.1,
+  "VERDICT": "GÜCSÜZ-NULL-DEGIL",
+  "serh": "200"
+ }
+}

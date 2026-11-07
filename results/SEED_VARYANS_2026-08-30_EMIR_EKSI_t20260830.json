@@ -1,0 +1,64 @@
+{
+ "damga_utc": "2026-08-30T21:15:28Z",
+ "SINIF": "KESIF (bar yok · ad yok · prediction yok)",
+ "etiket": "EMIR_EKSI",
+ "kol": "EMIR_EKSI",
+ "seed": 20260830,
+ "n_cift": 1024,
+ "adim": 100,
+ "max_length": 1536,
+ "birikim": 8,
+ "optim": "adamw_torch",
+ "fsdp": "full_shard auto_wrap",
+ "n_card": 2,
+ "boru": {
+  "template": {
+   "template_var": true,
+   "ilk_80": "<|user|>\nWrite design system documentation for the Accordion component. We base ",
+   "n_bos_bas": 1,
+   "HAL": "TEK-BOS"
+  },
+  "kesme": {
+   "max_length": 1536,
+   "truncation_mode": "keep_start",
+   "istem_jeton_ort": 208.4,
+   "istem_jeton_p50": 103,
+   "istem_jeton_p95": 656,
+   "chosen_jeton_ort": 591.2,
+   "rejected_jeton_ort": 678.0,
+   "cevaba_kalan_jeton_ort": 1340.6,
+   "oran_SESSIZ_DUSEN": 0.0156,
+   "oran_cevap_KISMEN_kesilen": 0.0244,
+   "esik": 0.1,
+   "HAL": "KABUL"
+  },
+  "dolgu": {
+   "pad_token": "<pad>",
+   "pad_token_id": 128256,
+   "eos_token": "<|end_of_text|>",
+   "padding_side": "right",
+   "pad_eos_ayni": false
+  },
+  "ozdes_cift": {
+   "n": 0,
+   "oran": 0.0
+  }
+ },
+ "saniye": 474.0,
+ "saniye_basina_adim": 4.74,
+ "tahsis_tepe_mib": 76647.1,
+ "card_tepe_mib": 95085,
+ "card_son": 95085,
+ "kapi_mib": 93272,
+ "gozcu_ihlal": true,
+ "dur_istendi": true,
+ "egitim": {
+  "train_runtime": 473.7414,
+  "train_samples_per_second": 3.377,
+  "train_steps_per_second": 0.211,
+  "total_flos": 1.2121151690820813e+17,
+  "train_loss": 0.49606574177742,
+  "epoch": 1.5873015873015874
+ },
+ "ckpt": "<data>/seed_varyans/EMIR_EKSI_t20260830"
+}

@@ -1,0 +1,86 @@
+{
+ "damga_utc": "2026-09-05T19:59:48Z",
+ "SINIF": "ÜRETILMIS BLOK — App. B rastgele-etki, yeniden hesap",
+ "kaynak": {
+  "yol": "results/PREREG9_A_OLCUM_2026-08-31.json",
+  "sha256_16": "9ce1b8503a30b287",
+  "alan": ".<aile>.fark.M1.gozlenen + .ci"
+ },
+ "yontem": "DerSimonian–Laird",
+ "se_turetimi": "se=(ci[1]-ci[0])/(2·1,96) — SIMETRIK NORMAL VARSAYIMI, küme-bootstrap araligi simetrik olmayabilir",
+ "k": 20,
+ "aileler": [
+  "Tulu3-8B",
+  "OLMo2-13B",
+  "OLMo2-32B",
+  "OLMo-3-7B",
+  "Qwen2.5-1.5B",
+  "Qwen2.5-3B",
+  "Qwen2.5-7B",
+  "Qwen2.5-14B",
+  "Qwen2.5-32B",
+  "Qwen2.5-72B",
+  "Gemma-3-4B",
+  "Gemma-3-12B",
+  "Gemma-3-27B",
+  "Llama-3.1-8B",
+  "Llama-3.1-70B",
+  "Mistral-7B-v0.3",
+  "Gemma-4-12B",
+  "Gemma-4-26B-A4B",
+  "Gemma-4-E4B",
+  "Mistral-Small-24B"
+ ],
+ "ortalama": -4.8941,
+ "ci": [
+  -5.7876,
+  -4.0006
+ ],
+ "tau": 1.8919,
+ "tau2": 3.5792,
+ "I2": 91.17,
+ "Q": 215.1,
+ "eski": {
+  "ortalama": -4.44,
+  "ci": [
+   -5.39,
+   -3.5
+  ],
+  "tau": 1.79,
+  "I2": 89,
+  "Q": 142.4
+ },
+ "tutuyor": false,
+ "tab1_paydasi": {
+  "k": 16,
+  "aileler": [
+   "Mistral-7B-v0.3",
+   "Tulu3-8B",
+   "OLMo2-13B",
+   "OLMo2-32B",
+   "Llama-3.1-8B",
+   "OLMo-3-7B",
+   "Qwen2.5-7B",
+   "Llama-3.1-70B",
+   "Qwen2.5-72B",
+   "Gemma-3-4B",
+   "Qwen2.5-14B",
+   "Qwen2.5-3B",
+   "Gemma-3-27B",
+   "Gemma-3-12B",
+   "Qwen2.5-32B",
+   "Qwen2.5-1.5B"
+  ],
+  "eksik": [],
+  "ortalama": -4.4432,
+  "ci": [
+   -5.3908,
+   -3.4956
+  ],
+  "tau": 1.7876,
+  "I2": 89.47,
+  "Q": 142.45,
+  "tutuyor": true
+ },
+ "not": ""
+}

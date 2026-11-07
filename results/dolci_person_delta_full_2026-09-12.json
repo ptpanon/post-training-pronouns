@@ -1,0 +1,41 @@
+{
+ "_kunye": {
+  "alet": "scripts/v62_dolci_person.py",
+  "damga_utc": "2026-09-12T23:29:59Z",
+  "sinif": "KESIFSEL",
+  "repo": "allenai/Dolci-Think-DPO-7B",
+  "yol": "<storage>/huggingface/hub/datasets--allenai--Dolci-Think-DPO-7B/snapshots/f27fa9b8e9f315f01fbc25b4d6d7763e0f6e25cb",
+  "mb": 1391,
+  "cikarici": "mesaj",
+  "n_process": 6,
+  "sinir_kar": 1000000,
+  "atl_uzun_cift": 6,
+  "atlama_serhi": "★ aletin sinirini (spaCy nlp.max_length) asan CIFTLER düstü; ölcüm esli oldugu icin atlama cift bazindadir. W-1096.",
+  "seed": 20260829,
+  "n_havuz": 150000,
+  "n_cift": 149994
+ },
+ "ikinci_sahis": {
+  "delta": 0.16842261945619494,
+  "ci": [
+   0.14701819219847004,
+   0.1890100837184915
+  ],
+  "okuma": "KARSI"
+ },
+ "birinci_sahis": {
+  "delta": -2.6753361091377648,
+  "ci": [
+   -2.71754294899771,
+   -2.631628709738955
+  ],
+  "okuma": "DESTEKLER (secilen daha az kisi)"
+ },
+ "jeton": {
+  "secilen_ort": 2257.316032641306,
+  "reddedilen_ort": 1788.3197394562449,
+  "secilen_medyan": 1301.0,
+  "reddedilen_medyan": 767.0
+ },
+ "sinir": ""
+}

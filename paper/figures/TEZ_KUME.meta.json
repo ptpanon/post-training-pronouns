@@ -1,0 +1,20 @@
+{
+ "table": "TEZ_KUME",
+ "ciktilar": [
+  "TEZ_KUME.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/v90_tez_kume_2026-09-17.json",
+   "sha256_16": "20a45b23cd9cbbb2"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "dM1_tez_asagi": 16,
+  "d1st_tez_asagi": 16,
+  "dM1_istem_asagi": 16,
+  "d1st_istem_asagi": 16
+ },
+ "note": "renders the thesis-clustered card; computes no new statistic beyond medians of stored width ratios"
+}

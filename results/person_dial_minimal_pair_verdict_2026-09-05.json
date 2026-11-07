@@ -1,0 +1,217 @@
+{
+ "damga_utc": "2026-09-05T10:29:02Z",
+ "prereg": "prereg_person_dial_minimal_pair_2026-09-04.md (IMZALI) · gövde 3aa376d9f8f0c939…",
+ "bar": 1.1,
+ "mde_B": 1.29,
+ "null_sd_kuvvet": 0.00104,
+ "m": 4,
+ "nb": 1000,
+ "yuva": {
+  "MP_ASAGI": 773,
+  "MP_YUKARI": 951,
+  "MP_RASTGELE": 407
+ },
+ "taban_M1": 9.981037310373104,
+ "kol": {
+  "MP_ASAGI": {
+   "dA": -9.83722764890531,
+   "dB": -8.948591598700146,
+   "ciA": [
+    -13.694307272057058,
+    -6.7593289825247584
+   ],
+   "ciB": [
+    -12.748421827647517,
+    -6.263413528163598
+   ],
+   "plasebo_p95": 0.07919283262865077,
+   "plasebo_ort": 0.005397175478007877,
+   "hal_A": "GECTI",
+   "hal_B": "GECTI",
+   "bilesen_A": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "bilesen_B": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "hucre_A": "GECTI",
+   "hucre_B": "GECTI",
+   "dKUVVET": -0.012558495844420044,
+   "z_kuvvet": 12.075476773480812,
+   "kuvvet_yerinde": false,
+   "dSAHIS1": -13.12178780537153,
+   "dJETON_CUMLE": 5.50140750896962,
+   "dSAHIS1_A": -13.104984762946872,
+   "dJETON_CUMLE_A": 5.519860173662365,
+   "distinct4": 0.5142703478739299,
+   "raf": true,
+   "dU_PREREG_DOM": 0.06432125000000001,
+   "z_dU": 26.279153975527883,
+   "dU_yerinde": false
+  },
+  "MP_YUKARI": {
+   "dA": 501.1810509723547,
+   "dB": 502.0696870225599,
+   "ciA": [
+    485.9626837196292,
+    515.3257327497257
+   ],
+   "ciB": [
+    487.13521417448095,
+    516.1037380120223
+   ],
+   "plasebo_p95": 12.225693301106741,
+   "plasebo_ort": 0.6515141607264502,
+   "hal_A": "GECTI",
+   "hal_B": "GECTI",
+   "bilesen_A": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "bilesen_B": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "hucre_A": "GECTI",
+   "hucre_B": "GECTI",
+   "dKUVVET": 0.40813991096431834,
+   "z_kuvvet": 392.4422220810754,
+   "kuvvet_yerinde": false,
+   "dSAHIS1": -15.613499793645929,
+   "dJETON_CUMLE": 20.599573190374617,
+   "dSAHIS1_A": -15.596696751221266,
+   "dJETON_CUMLE_A": 20.618025855067362,
+   "distinct4": 0.150594137677158,
+   "raf": true,
+   "dU_PREREG_DOM": 0.03450050000000001,
+   "z_dU": 4.186627617517359,
+   "dU_yerinde": false
+  },
+  "MP_RASTGELE": {
+   "dA": -0.8886360502051649,
+   "dB": 0.0,
+   "ciA": [
+    -1.8655003587972707,
+    0.0011734862437328048
+   ],
+   "ciB": [
+    0.0,
+    0.0
+   ],
+   "plasebo_p95": 1.1841877042399633,
+   "plasebo_ort": -0.04457709730057598,
+   "hal_A": "GECMEZ",
+   "hal_B": "GECMEZ",
+   "bilesen_A": {
+    "bar": false,
+    "ayrik": false,
+    "plasebo": false
+   },
+   "bilesen_B": {
+    "bar": false,
+    "ayrik": false,
+    "plasebo": false
+   },
+   "hucre_A": "GECMEZ",
+   "hucre_B": "GECMEZ",
+   "dKUVVET": 0.0,
+   "z_kuvvet": 0.0,
+   "kuvvet_yerinde": true,
+   "dSAHIS1": 0.0,
+   "dJETON_CUMLE": 0.0,
+   "dSAHIS1_A": 0.016803042424660575,
+   "dJETON_CUMLE_A": 0.018452664692745202,
+   "distinct4": 0.7446093113071864,
+   "raf": false,
+   "dU_PREREG_DOM": 0.0021380000000000045,
+   "z_dU": 0.5337418910158771,
+   "dU_yerinde": true
+  }
+ },
+ "verdict": "ÖLCÜLEMEZ-DOZ",
+ "D_SHELF_uygulandi": [
+  "MP_ASAGI",
+  "MP_YUKARI"
+ ],
+ "D_SHELF_serhi": "",
+ "tam_tarama": {
+  "KIP": "izgara",
+  "turetilmis_arglar": [],
+  "n_hucre": 256,
+  "n_eksen": 8,
+  "eksen_boyu": {
+   "asagi_B": 2,
+   "yukari_B": 2,
+   "asagi_A": 2,
+   "yukari_A": 2,
+   "kuvvet_yerinde_asagi": 2,
+   "kuvvet_yerinde_yukari": 2,
+   "dU_yerinde_asagi": 2,
+   "dU_yerinde_yukari": 2
+  },
+  "ates_sayilari": {
+   "DOZ-BAGIMLI": 192,
+   "KATMAN-BIRLIKTE": 39,
+   "ÖLCÜLEMEZ-DOZ": 16,
+   "KATMAN-AYRIK": 9
+  },
+  "pay": {
+   "KATMAN-AYRIK": 0.0352,
+   "KATMAN-BIRLIKTE": 0.1523,
+   "DOZ-BAGIMLI": 0.75,
+   "ÖLCÜLEMEZ-DOZ": 0.0625
+  },
+  "ilk_ornek": {
+   "KATMAN-AYRIK": {
+    "asagi_B": true,
+    "yukari_B": true,
+    "asagi_A": true,
+    "yukari_A": true,
+    "kuvvet_yerinde_asagi": true,
+    "kuvvet_yerinde_yukari": true,
+    "dU_yerinde_asagi": true,
+    "dU_yerinde_yukari": true
+   },
+   "KATMAN-BIRLIKTE": {
+    "asagi_B": true,
+    "yukari_B": true,
+    "asagi_A": true,
+    "yukari_A": true,
+    "kuvvet_yerinde_asagi": true,
+    "kuvvet_yerinde_yukari": true,
+    "dU_yerinde_asagi": true,
+    "dU_yerinde_yukari": false
+   },
+   "DOZ-BAGIMLI": {
+    "asagi_B": true,
+    "yukari_B": true,
+    "asagi_A": true,
+    "yukari_A": false,
+    "kuvvet_yerinde_asagi": true,
+    "kuvvet_yerinde_yukari": true,
+    "dU_yerinde_asagi": true,
+    "dU_yerinde_yukari": true
+   },
+   "ÖLCÜLEMEZ-DOZ": {
+    "asagi_B": false,
+    "yukari_B": false,
+    "asagi_A": false,
+    "yukari_A": false,
+    "kuvvet_yerinde_asagi": true,
+    "kuvvet_yerinde_yukari": true,
+    "dU_yerinde_asagi": true,
+    "dU_yerinde_yukari": true
+   }
+  },
+  "DOGAMAYAN_ADLAR": [],
+  "MUHURDE_OLMAYAN_ADLAR": [],
+  "GECTI": true,
+  "_serh": "DOGAMAYAN"
+ }
+}

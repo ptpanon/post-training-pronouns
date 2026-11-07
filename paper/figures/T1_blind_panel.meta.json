@@ -1,0 +1,51 @@
+{
+ "table": "T1_blind_panel",
+ "rows": [
+  {
+   "kp": "KP-6717",
+   "kisa": "hh-rlhf",
+   "tam": "Anthropic hh-rlhf",
+   "n": 272,
+   "kesin": 193,
+   "tie": 77,
+   "tie_orani": 0.283,
+   "pay": 0.487,
+   "mde": 5.9,
+   "verdict": "no direction",
+   "d_uzunluk": 10.5
+  },
+  {
+   "kp": "KP-1fe5",
+   "kisa": "OASST",
+   "tam": "OpenAssistant oasst1",
+   "n": 270,
+   "kesin": 111,
+   "tie": 154,
+   "tie_orani": 0.57,
+   "pay": 0.4775,
+   "mde": 7.8,
+   "verdict": "no direction",
+   "d_uzunluk": 50.0
+  },
+  {
+   "kp": "KP-9358",
+   "kisa": "Tulu-3",
+   "tam": "AI2 Tülu-3 preference mix",
+   "n": 272,
+   "kesin": 95,
+   "tie": 176,
+   "tie_orani": 0.647,
+   "pay": 0.5158,
+   "mde": 8.4,
+   "verdict": "no direction",
+   "d_uzunluk": 229.0
+  }
+ ],
+ "sources": [
+  {
+   "yol": "results/blind_preference_opening_panel_2026-08-25.json",
+   "sha256_16": "db63566ae4134ef0"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

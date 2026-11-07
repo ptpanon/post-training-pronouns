@@ -1,0 +1,51 @@
+{
+ "figure": "F5_map",
+ "caption_draft": "EXPLORATORY (no bar, no verdict name): sixteen models against twenty measured axes, and the 13x13 complete block projected onto its first two principal components. Empty cells are left empty --- nothing is imputed. Colour is the training recipe recorded in our own panel, and Tülu-3-8B, whose weights descend from Llama-3.1-8B, sits with the other AI2 models rather than with Llama.",
+ "sources": [
+  {
+   "yol": "F5",
+   "sha256_16": "f6755666a8798673"
+  },
+  {
+   "yol": "plainness_2026-08-27.json",
+   "sha256_16": "b33e89ba001a79ac"
+  },
+  {
+   "yol": "exploratory_mood16_2026-08-28.json",
+   "sha256_16": "256e9fc8f3b78590"
+  },
+  {
+   "yol": "FORM",
+   "sha256_16": "ea31a7df187076b6"
+  },
+  {
+   "yol": "C1",
+   "sha256_16": "f52582a27079b066"
+  },
+  {
+   "yol": "D_DELTA_olmo32_2026-08-28.json",
+   "sha256_16": "6421b643a81ec85c"
+  },
+  {
+   "yol": "D_DELTA_olmo_2026-08-27.json",
+   "sha256_16": "252ab615e471ff78"
+  },
+  {
+   "yol": "D_DELTA_tulu3_2026-08-27.json",
+   "sha256_16": "36cd01184d12c73b"
+  },
+  {
+   "yol": "D_DELTA_zephyr_2026-08-28.json",
+   "sha256_16": "ccf7d332c6776fad"
+  },
+  {
+   "yol": "BYON",
+   "sha256_16": "da12f1b9fc95fcc5"
+  },
+  {
+   "yol": "KATMAN",
+   "sha256_16": "0e6cb2f722b2cfa4"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

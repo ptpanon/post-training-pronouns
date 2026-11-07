@@ -1,0 +1,1546 @@
+{
+ "sinif": "BETIM · card · bar yok",
+ "rule": "preregistration/rule_reviewer6_readings_2026-09-17.md @ 84f79b65",
+ "soru": "",
+ "sinif_adi": {
+  "YO": "false premise",
+  "KP": "bad plan + advice",
+  "AO": "ratify reasoning",
+  "SI": "borderline request",
+  "TK": "contested opinion"
+ },
+ "alet": {
+  "hal": "ESDEGER",
+  "red_kapi": [],
+  "kapi": ""
+ },
+ "aralik": "P2.olc · istem-kümeli · NB 1000 · seed 20260903",
+ "aile": {
+  "Tulu3-8B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -18.8225,
+    "ci_M1": [
+     -25.9763,
+     -12.6876
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -38.5945,
+    "ci_1st": [
+     -51.6264,
+     -27.6161
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -21.7926,
+    "ci_M1": [
+     -32.5778,
+     -12.2576
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -36.8025,
+    "ci_1st": [
+     -44.7768,
+     -27.8032
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -15.3444,
+    "ci_M1": [
+     -21.5525,
+     -10.2435
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -30.1415,
+    "ci_1st": [
+     -41.3117,
+     -20.7131
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -26.0523,
+    "ci_M1": [
+     -34.8377,
+     -17.3468
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -20.3435,
+    "ci_1st": [
+     -29.3846,
+     -10.4582
+    ],
+    "sinif_1st": "asagi"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -31.6629,
+    "ci_M1": [
+     -41.5242,
+     -22.9638
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -27.4423,
+    "ci_1st": [
+     -35.4121,
+     -20.3574
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "OLMo2-13B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -11.0475,
+    "ci_M1": [
+     -17.2775,
+     -6.4359
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -9.7667,
+    "ci_1st": [
+     -13.6591,
+     -6.5079
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -20.074,
+    "ci_M1": [
+     -25.153,
+     -14.9063
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -23.6083,
+    "ci_1st": [
+     -34.2743,
+     -16.1597
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -16.9272,
+    "ci_M1": [
+     -21.1555,
+     -12.81
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -19.6554,
+    "ci_1st": [
+     -23.0171,
+     -16.3725
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -17.1005,
+    "ci_M1": [
+     -22.7528,
+     -10.8016
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -1.7326,
+    "ci_1st": [
+     -11.9772,
+     8.5868
+    ],
+    "sinif_1st": "null"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -23.377,
+    "ci_M1": [
+     -32.1057,
+     -15.1642
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -21.243,
+    "ci_1st": [
+     -24.7214,
+     -17.5114
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "OLMo2-32B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -13.3348,
+    "ci_M1": [
+     -17.3313,
+     -8.7021
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -12.7892,
+    "ci_1st": [
+     -16.155,
+     -9.0913
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -10.6906,
+    "ci_M1": [
+     -17.3331,
+     -3.2082
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -27.3471,
+    "ci_1st": [
+     -38.1323,
+     -16.6475
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -13.5252,
+    "ci_M1": [
+     -18.4471,
+     -7.8812
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -22.388,
+    "ci_1st": [
+     -25.3336,
+     -19.1454
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -10.1352,
+    "ci_M1": [
+     -21.5354,
+     0.9523
+    ],
+    "sinif_M1": "null",
+    "d1st": -0.4268,
+    "ci_1st": [
+     -14.49,
+     15.3522
+    ],
+    "sinif_1st": "null"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -14.8192,
+    "ci_M1": [
+     -19.3607,
+     -10.4738
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -12.4041,
+    "ci_1st": [
+     -16.651,
+     -9.0702
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "OLMo-3-7B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -2.4456,
+    "ci_M1": [
+     -4.5472,
+     -0.1594
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -14.0175,
+    "ci_1st": [
+     -17.4042,
+     -10.9114
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -4.17,
+    "ci_M1": [
+     -10.9938,
+     3.27
+    ],
+    "sinif_M1": "null",
+    "d1st": -15.1013,
+    "ci_1st": [
+     -18.6541,
+     -10.5245
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": 8.9635,
+    "ci_M1": [
+     5.2865,
+     13.26
+    ],
+    "sinif_M1": "yukari",
+    "d1st": -16.6257,
+    "ci_1st": [
+     -19.1049,
+     -14.1926
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": 13.2032,
+    "ci_M1": [
+     5.2247,
+     20.9336
+    ],
+    "sinif_M1": "yukari",
+    "d1st": 11.2761,
+    "ci_1st": [
+     3.9369,
+     20.0282
+    ],
+    "sinif_1st": "yukari"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -4.1558,
+    "ci_M1": [
+     -6.5848,
+     -1.7774
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -11.3999,
+    "ci_1st": [
+     -14.0969,
+     -8.8555
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Qwen2.5-3B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -7.6791,
+    "ci_M1": [
+     -22.8457,
+     2.344
+    ],
+    "sinif_M1": "null",
+    "d1st": -3.1224,
+    "ci_1st": [
+     -5.8688,
+     -0.6772
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -2.8923,
+    "ci_M1": [
+     -9.2829,
+     3.3252
+    ],
+    "sinif_M1": "null",
+    "d1st": -7.2891,
+    "ci_1st": [
+     -14.6624,
+     -1.5952
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -11.3834,
+    "ci_M1": [
+     -22.9623,
+     0.5711
+    ],
+    "sinif_M1": "null",
+    "d1st": -5.6685,
+    "ci_1st": [
+     -9.3273,
+     -2.8682
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": 3.3619,
+    "ci_M1": [
+     -4.6483,
+     10.99
+    ],
+    "sinif_M1": "null",
+    "d1st": -12.9966,
+    "ci_1st": [
+     -21.4332,
+     -4.0797
+    ],
+    "sinif_1st": "asagi"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -13.6831,
+    "ci_M1": [
+     -22.9997,
+     -6.0504
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -7.3532,
+    "ci_1st": [
+     -14.3586,
+     -2.6961
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Qwen2.5-7B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": 0.2444,
+    "ci_M1": [
+     -3.6035,
+     6.0357
+    ],
+    "sinif_M1": "null",
+    "d1st": -1.9109,
+    "ci_1st": [
+     -3.3339,
+     -0.5849
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -0.3067,
+    "ci_M1": [
+     -3.9607,
+     4.001
+    ],
+    "sinif_M1": "null",
+    "d1st": -3.6117,
+    "ci_1st": [
+     -6.2667,
+     -1.042
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -0.7377,
+    "ci_M1": [
+     -6.0705,
+     6.2259
+    ],
+    "sinif_M1": "null",
+    "d1st": -7.3375,
+    "ci_1st": [
+     -10.3511,
+     -4.7836
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": 3.7337,
+    "ci_M1": [
+     -0.182,
+     8.2876
+    ],
+    "sinif_M1": "null",
+    "d1st": 9.1879,
+    "ci_1st": [
+     2.9332,
+     17.0691
+    ],
+    "sinif_1st": "yukari"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -7.1362,
+    "ci_M1": [
+     -11.1998,
+     -4.2501
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -5.5702,
+    "ci_1st": [
+     -8.0879,
+     -3.2795
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Qwen2.5-14B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -1.6559,
+    "ci_M1": [
+     -8.2833,
+     2.7068
+    ],
+    "sinif_M1": "null",
+    "d1st": -2.2237,
+    "ci_1st": [
+     -3.8544,
+     -1.0195
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -4.1331,
+    "ci_M1": [
+     -9.3268,
+     1.2385
+    ],
+    "sinif_M1": "null",
+    "d1st": -4.0344,
+    "ci_1st": [
+     -7.7192,
+     -0.5797
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -2.5586,
+    "ci_M1": [
+     -9.1446,
+     2.2408
+    ],
+    "sinif_M1": "null",
+    "d1st": -8.7872,
+    "ci_1st": [
+     -13.9142,
+     -4.8002
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": 4.5412,
+    "ci_M1": [
+     -2.8695,
+     11.594
+    ],
+    "sinif_M1": "null",
+    "d1st": -18.4157,
+    "ci_1st": [
+     -25.4835,
+     -11.2292
+    ],
+    "sinif_1st": "asagi"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -3.7303,
+    "ci_M1": [
+     -6.0766,
+     -1.8497
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -5.6407,
+    "ci_1st": [
+     -7.5213,
+     -3.9761
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Qwen2.5-32B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -3.9011,
+    "ci_M1": [
+     -6.8734,
+     -1.2756
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -6.3313,
+    "ci_1st": [
+     -10.787,
+     -2.8225
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -0.4459,
+    "ci_M1": [
+     -5.7055,
+     4.6361
+    ],
+    "sinif_M1": "null",
+    "d1st": -20.6851,
+    "ci_1st": [
+     -33.1456,
+     -11.0806
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -7.709,
+    "ci_M1": [
+     -13.4833,
+     -1.9965
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -14.599,
+    "ci_1st": [
+     -24.2435,
+     -7.6471
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -6.8698,
+    "ci_M1": [
+     -25.041,
+     4.7939
+    ],
+    "sinif_M1": "null",
+    "d1st": -0.709,
+    "ci_1st": [
+     -8.2141,
+     5.0121
+    ],
+    "sinif_1st": "null"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -8.1986,
+    "ci_M1": [
+     -11.8139,
+     -4.4674
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -9.8305,
+    "ci_1st": [
+     -16.1519,
+     -4.802
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Qwen2.5-72B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -2.5303,
+    "ci_M1": [
+     -11.2203,
+     5.4236
+    ],
+    "sinif_M1": "null",
+    "d1st": -2.1245,
+    "ci_1st": [
+     -3.6976,
+     -0.9964
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -7.5243,
+    "ci_M1": [
+     -11.3851,
+     -4.0646
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -2.9358,
+    "ci_1st": [
+     -4.9419,
+     -1.0045
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -5.9025,
+    "ci_M1": [
+     -13.4635,
+     2.1677
+    ],
+    "sinif_M1": "null",
+    "d1st": -9.2408,
+    "ci_1st": [
+     -12.5509,
+     -6.032
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": 1.2333,
+    "ci_M1": [
+     -4.8215,
+     8.1202
+    ],
+    "sinif_M1": "null",
+    "d1st": -6.7188,
+    "ci_1st": [
+     -17.0484,
+     3.0644
+    ],
+    "sinif_1st": "null"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -4.3595,
+    "ci_M1": [
+     -6.9164,
+     -2.04
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -7.4565,
+    "ci_1st": [
+     -11.1024,
+     -3.7133
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Gemma-3-4B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -8.5362,
+    "ci_M1": [
+     -12.4966,
+     -4.5461
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -27.1508,
+    "ci_1st": [
+     -49.6583,
+     -13.0721
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -20.9316,
+    "ci_M1": [
+     -26.6106,
+     -15.3519
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -33.0769,
+    "ci_1st": [
+     -39.425,
+     -26.6414
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -11.0834,
+    "ci_M1": [
+     -16.7962,
+     -6.0503
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -35.2944,
+    "ci_1st": [
+     -45.7212,
+     -26.2873
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -2.3889,
+    "ci_M1": [
+     -12.7911,
+     6.8022
+    ],
+    "sinif_M1": "null",
+    "d1st": -25.6844,
+    "ci_1st": [
+     -36.5809,
+     -13.8701
+    ],
+    "sinif_1st": "asagi"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -13.1284,
+    "ci_M1": [
+     -19.9281,
+     -6.1278
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -30.1538,
+    "ci_1st": [
+     -37.2839,
+     -23.9943
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Gemma-3-12B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -9.517,
+    "ci_M1": [
+     -16.2383,
+     -3.3052
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -16.0071,
+    "ci_1st": [
+     -20.9506,
+     -11.12
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -15.9511,
+    "ci_M1": [
+     -23.8037,
+     -8.5514
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -31.1441,
+    "ci_1st": [
+     -40.2719,
+     -23.4828
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -4.911,
+    "ci_M1": [
+     -8.8437,
+     -0.8017
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -24.7806,
+    "ci_1st": [
+     -32.2176,
+     -17.7669
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -4.4856,
+    "ci_M1": [
+     -11.2716,
+     2.9041
+    ],
+    "sinif_M1": "null",
+    "d1st": -28.3277,
+    "ci_1st": [
+     -35.2063,
+     -21.3594
+    ],
+    "sinif_1st": "asagi"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -11.4481,
+    "ci_M1": [
+     -16.6617,
+     -6.6125
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -22.1998,
+    "ci_1st": [
+     -28.7668,
+     -15.0834
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Gemma-3-27B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -8.835,
+    "ci_M1": [
+     -14.0666,
+     -3.1573
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -13.1365,
+    "ci_1st": [
+     -20.7982,
+     -8.1375
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -14.4623,
+    "ci_M1": [
+     -19.7461,
+     -9.5295
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -24.964,
+    "ci_1st": [
+     -30.3493,
+     -20.4413
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -7.3656,
+    "ci_M1": [
+     -12.4928,
+     -2.1224
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -35.8479,
+    "ci_1st": [
+     -44.734,
+     -26.1659
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -4.6887,
+    "ci_M1": [
+     -10.6294,
+     1.1945
+    ],
+    "sinif_M1": "null",
+    "d1st": -28.4984,
+    "ci_1st": [
+     -41.3202,
+     -17.4264
+    ],
+    "sinif_1st": "asagi"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -4.6089,
+    "ci_M1": [
+     -6.6435,
+     -2.6291
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -19.9893,
+    "ci_1st": [
+     -26.8088,
+     -13.4677
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Llama-3.1-8B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -19.4843,
+    "ci_M1": [
+     -27.3607,
+     -13.0373
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -37.7185,
+    "ci_1st": [
+     -50.1431,
+     -27.0546
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -20.4133,
+    "ci_M1": [
+     -31.2788,
+     -10.8398
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -28.2077,
+    "ci_1st": [
+     -37.4557,
+     -18.3681
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -13.8253,
+    "ci_M1": [
+     -19.5919,
+     -8.8392
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -29.5392,
+    "ci_1st": [
+     -39.9175,
+     -20.7311
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -25.9364,
+    "ci_M1": [
+     -34.1354,
+     -18.3839
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -17.3048,
+    "ci_1st": [
+     -27.1575,
+     -7.8032
+    ],
+    "sinif_1st": "asagi"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -31.8967,
+    "ci_M1": [
+     -41.5679,
+     -22.9213
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -26.6744,
+    "ci_1st": [
+     -34.8055,
+     -19.4939
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Llama-3.1-70B": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -18.6796,
+    "ci_M1": [
+     -26.9944,
+     -9.3824
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -33.9714,
+    "ci_1st": [
+     -42.8748,
+     -24.2897
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -13.0129,
+    "ci_M1": [
+     -18.3248,
+     -7.8507
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -31.8356,
+    "ci_1st": [
+     -42.5927,
+     -21.5934
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -19.9727,
+    "ci_M1": [
+     -24.8637,
+     -13.8659
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -40.1816,
+    "ci_1st": [
+     -49.7427,
+     -32.6955
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -13.3306,
+    "ci_M1": [
+     -21.7672,
+     -3.616
+    ],
+    "sinif_M1": "asagi",
+    "d1st": 9.1822,
+    "ci_1st": [
+     -8.6203,
+     26.4726
+    ],
+    "sinif_1st": "null"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -24.603,
+    "ci_M1": [
+     -33.4366,
+     -16.8422
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -28.1884,
+    "ci_1st": [
+     -34.8648,
+     -21.2643
+    ],
+    "sinif_1st": "asagi"
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "YO": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -15.8599,
+    "ci_M1": [
+     -25.4561,
+     -6.8769
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -21.1257,
+    "ci_1st": [
+     -28.1279,
+     -14.5562
+    ],
+    "sinif_1st": "asagi"
+   },
+   "KP": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -6.2979,
+    "ci_M1": [
+     -14.2828,
+     0.9233
+    ],
+    "sinif_M1": "null",
+    "d1st": -34.3403,
+    "ci_1st": [
+     -45.579,
+     -23.0621
+    ],
+    "sinif_1st": "asagi"
+   },
+   "AO": {
+    "n_istem": 19,
+    "n_satir": 76,
+    "dM1": -13.0634,
+    "ci_M1": [
+     -18.068,
+     -8.0158
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -45.6254,
+    "ci_1st": [
+     -56.6044,
+     -34.1238
+    ],
+    "sinif_1st": "asagi"
+   },
+   "SI": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -20.8133,
+    "ci_M1": [
+     -34.0527,
+     -8.6308
+    ],
+    "sinif_M1": "asagi",
+    "d1st": 7.5309,
+    "ci_1st": [
+     -8.4266,
+     24.2025
+    ],
+    "sinif_1st": "null"
+   },
+   "TK": {
+    "n_istem": 20,
+    "n_satir": 80,
+    "dM1": -25.7226,
+    "ci_M1": [
+     -31.6092,
+     -19.8733
+    ],
+    "sinif_M1": "asagi",
+    "d1st": -33.2905,
+    "ci_1st": [
+     -39.9603,
+     -26.4604
+    ],
+    "sinif_1st": "asagi"
+   }
+  }
+ },
+ "raf": [
+  "Qwen2.5-1.5B"
+ ],
+ "sayim": {
+  "YO": {
+   "M1": {
+    "asagi": 11,
+    "yukari": 0,
+    "null": 4
+   },
+   "1st": {
+    "asagi": 15,
+    "yukari": 0,
+    "null": 0
+   }
+  },
+  "KP": {
+   "M1": {
+    "asagi": 9,
+    "yukari": 0,
+    "null": 6
+   },
+   "1st": {
+    "asagi": 15,
+    "yukari": 0,
+    "null": 0
+   }
+  },
+  "AO": {
+   "M1": {
+    "asagi": 10,
+    "yukari": 1,
+    "null": 4
+   },
+   "1st": {
+    "asagi": 15,
+    "yukari": 0,
+    "null": 0
+   }
+  },
+  "SI": {
+   "M1": {
+    "asagi": 5,
+    "yukari": 1,
+    "null": 9
+   },
+   "1st": {
+    "asagi": 7,
+    "yukari": 2,
+    "null": 6
+   }
+  },
+  "TK": {
+   "M1": {
+    "asagi": 15,
+    "yukari": 0,
+    "null": 0
+   },
+   "1st": {
+    "asagi": 15,
+    "yukari": 0,
+    "null": 0
+   }
+  }
+ },
+ "sayim_adlar": {
+  "YO": {
+   "M1": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-32B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": [
+     "Qwen2.5-14B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B"
+    ]
+   },
+   "1st": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": []
+   }
+  },
+  "KP": {
+   "M1": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-72B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": [
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-7B"
+    ]
+   },
+   "1st": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": []
+   }
+  },
+  "AO": {
+   "M1": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-32B",
+     "Tulu3-8B"
+    ],
+    "yukari": [
+     "OLMo-3-7B"
+    ],
+    "null": [
+     "Qwen2.5-14B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B"
+    ]
+   },
+   "1st": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": []
+   }
+  },
+  "SI": {
+   "M1": {
+    "asagi": [
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo2-13B",
+     "Tulu3-8B"
+    ],
+    "yukari": [
+     "OLMo-3-7B"
+    ],
+    "null": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "OLMo2-32B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B"
+    ]
+   },
+   "1st": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-8B",
+     "Qwen2.5-14B",
+     "Qwen2.5-3B",
+     "Tulu3-8B"
+    ],
+    "yukari": [
+     "OLMo-3-7B",
+     "Qwen2.5-7B"
+    ],
+    "null": [
+     "Llama-3.1-70B",
+     "Mistral-7B-v0.3",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-32B",
+     "Qwen2.5-72B"
+    ]
+   }
+  },
+  "TK": {
+   "M1": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": []
+   },
+   "1st": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": []
+   }
+  }
+ },
+ "damga_utc": "2026-09-17T07:49:02Z"
+}

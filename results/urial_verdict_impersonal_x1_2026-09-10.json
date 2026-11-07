@@ -1,0 +1,813 @@
+{
+ "damga_utc": "2026-09-10T09:58:48Z",
+ "alet": "scripts/urial_verdict.py",
+ "borc": "sahip kelimesi 2026-09-09 §1",
+ "prereg_1": {
+  "dosya": "prereg_urial_2026-09-07.md",
+  "commit": "31a8f13c",
+  "kiyas": "ii"
+ },
+ "prereg_2": {
+  "dosya": "prereg_urial_2_2026-09-07.md",
+  "commit": "c22249dd",
+  "kiyas": "i"
+ },
+ "rakip_aciklama": {
+  "ornek_M1": 16.29,
+  "ciplak_hizali_bandi": [
+   2.9,
+   9.8
+  ],
+  "serh": ""
+ },
+ "kol_kipi": "x1",
+ "kirpma": {
+  "max_length": 1024,
+  "alet": "seritA_harman102._kol_uret",
+  "serh": "W-1016: üretimde GÖMÜLÜYDÜ; artik PROJECT_ISTEM_MAXLEN"
+ },
+ "yeniden_okuma": true,
+ "n_plasebo": 200,
+ "seed": 20260909,
+ "kiyas": {
+  "ii": {
+   "tarif": "ayni dize",
+   "kok_taban": "<data>/c1_panel_urial_kisisiz",
+   "kok_hizali": "<data>/c1_panel_urial_kisisiz",
+   "kol_kipi": "x1",
+   "n_kol": 6,
+   "n_satir_suzulen": 0,
+   "n_hucre_kirpik": 0,
+   "n_aile": 16,
+   "n_olculen": 0,
+   "aile": {
+    "Qwen2.5-1.5B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Qwen2.5-3B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Mistral-7B-v0.3": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Qwen2.5-7B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "OLMo-3-7B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Llama-3.1-8B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Tulu3-8B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Gemma-3-4B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "OLMo2-13B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Gemma-3-12B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Qwen2.5-14B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Gemma-3-27B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "OLMo2-32B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Qwen2.5-32B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Qwen2.5-72B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    },
+    "Llama-3.1-70B": {
+     "hal": "BACAK-EKSIK",
+     "taban": 6528,
+     "hizali": null
+    }
+   },
+   "n_bacak_eksik": 16,
+   "KAPSAM_HUKMU": "ÖLCÜLEMEZ-KAPSAM",
+   "sayim": {
+    "asagi": 0,
+    "bicim": 0,
+    "ters": 0,
+    "olculemez_kirpma": 0
+   }
+  },
+  "i": {
+   "tarif": "görev esit",
+   "kok_taban": "<data>/c1_panel_urial_kisisiz",
+   "kok_hizali": "<data>/c1_panel_template",
+   "kol_kipi": "x1",
+   "n_kol": 6,
+   "n_satir_suzulen": 78336,
+   "n_hucre_kirpik": 2448,
+   "n_aile": 16,
+   "n_olculen": 16,
+   "aile": {
+    "Qwen2.5-1.5B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 19.7592,
+     "M1_hizali": 14.488,
+     "dM1": -5.2713,
+     "ci": [
+      -6.5699,
+      -4.2536
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9939,
+      1.0
+     ],
+     "null_sd": 1.0815,
+     "null_merkez": -0.1229,
+     "MDE": 1.7791,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 955,
+       "dip_jeton": 915,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 116,
+       "dip_jeton": 76,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "AGIRLIK-ÖZELLIGI"
+    },
+    "Qwen2.5-3B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 17.2417,
+     "M1_hizali": 10.697,
+     "dM1": -6.5447,
+     "ci": [
+      -7.3555,
+      -5.8007
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9947,
+      1.0
+     ],
+     "null_sd": 1.1968,
+     "null_merkez": -0.0971,
+     "MDE": 1.9687,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 955,
+       "dip_jeton": 915,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 116,
+       "dip_jeton": 76,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "AGIRLIK-ÖZELLIGI"
+    },
+    "Mistral-7B-v0.3": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 14.7333,
+     "M1_hizali": 10.886,
+     "dM1": -3.8473,
+     "ci": [
+      -4.6374,
+      -3.0177
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9714,
+      1.0
+     ],
+     "null_sd": 0.7923,
+     "null_merkez": -0.1196,
+     "MDE": 1.3033,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 1085,
+       "dip_jeton": 1047,
+       "max_length": 1024,
+       "n_kirpilan": 2448,
+       "oran_kirpilan": 1.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 93,
+       "dip_jeton": 56,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "ÖLCÜLEMEZ-KIRPMA"
+    },
+    "Qwen2.5-7B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 18.463,
+     "M1_hizali": 8.604,
+     "dM1": -9.859,
+     "ci": [
+      -10.656,
+      -9.0076
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9898,
+      1.0
+     ],
+     "null_sd": 1.7104,
+     "null_merkez": -0.1914,
+     "MDE": 2.8136,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 955,
+       "dip_jeton": 915,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 116,
+       "dip_jeton": 76,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "AGIRLIK-ÖZELLIGI"
+    },
+    "OLMo-3-7B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 14.2552,
+     "M1_hizali": 23.3587,
+     "dM1": 9.1035,
+     "ci": [
+      7.8623,
+      10.2246
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9996,
+      0.9996
+     ],
+     "null_sd": 1.7162,
+     "null_merkez": 0.1674,
+     "MDE": 2.8231,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 955,
+       "dip_jeton": 915,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 123,
+       "dip_jeton": 83,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "TERS"
+    },
+    "Llama-3.1-8B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 19.4625,
+     "M1_hizali": 19.1428,
+     "dM1": -0.3197,
+     "ci": [
+      -1.3243,
+      0.6477
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.98,
+      1.0
+     ],
+     "null_sd": 0.4769,
+     "null_merkez": -0.0388,
+     "MDE": 0.7845,
+     "null_merkezli": true,
+     "plasebo_frac": 0.52,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 956,
+       "dip_jeton": 916,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 123,
+       "dip_jeton": 83,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "BICIM-ÖZELLIGI"
+    },
+    "Tulu3-8B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 19.4625,
+     "M1_hizali": 2.6408,
+     "dM1": -16.8216,
+     "ci": [
+      -17.7202,
+      -15.9996
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.98,
+      1.0
+     ],
+     "null_sd": 2.9535,
+     "null_merkez": -0.3561,
+     "MDE": 4.8585,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 956,
+       "dip_jeton": 916,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 98,
+       "dip_jeton": 58,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "AGIRLIK-ÖZELLIGI"
+    },
+    "Gemma-3-4B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 16.3354,
+     "M1_hizali": 33.0602,
+     "dM1": 16.7248,
+     "ci": [
+      15.3329,
+      18.1428
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9853,
+      0.9967
+     ],
+     "null_sd": 2.9646,
+     "null_merkez": 0.35,
+     "MDE": 4.8767,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 993,
+       "dip_jeton": 955,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 95,
+       "dip_jeton": 57,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "TERS"
+    },
+    "OLMo2-13B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 21.198,
+     "M1_hizali": 3.1722,
+     "dM1": -18.0258,
+     "ci": [
+      -18.8155,
+      -17.2479
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9959,
+      0.9996
+     ],
+     "null_sd": 3.1529,
+     "null_merkez": -0.3317,
+     "MDE": 5.1865,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 1001,
+       "dip_jeton": 961,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 101,
+       "dip_jeton": 61,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "AGIRLIK-ÖZELLIGI"
+    },
+    "Gemma-3-12B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 18.0454,
+     "M1_hizali": 29.1234,
+     "dM1": 11.078,
+     "ci": [
+      9.2215,
+      13.2048
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9943,
+      0.9947
+     ],
+     "null_sd": 2.1452,
+     "null_merkez": 0.2983,
+     "MDE": 3.5288,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 993,
+       "dip_jeton": 955,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 95,
+       "dip_jeton": 57,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "TERS"
+    },
+    "Qwen2.5-14B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 13.4896,
+     "M1_hizali": 10.6284,
+     "dM1": -2.8612,
+     "ci": [
+      -3.7408,
+      -1.9796
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9865,
+      1.0
+     ],
+     "null_sd": 0.6723,
+     "null_merkez": -0.1064,
+     "MDE": 1.1059,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 955,
+       "dip_jeton": 915,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 116,
+       "dip_jeton": 76,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "AGIRLIK-ÖZELLIGI"
+    },
+    "Gemma-3-27B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 15.8619,
+     "M1_hizali": 42.1907,
+     "dM1": 26.3288,
+     "ci": [
+      24.0253,
+      28.7129
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9971,
+      0.9988
+     ],
+     "null_sd": 4.6574,
+     "null_merkez": 0.6055,
+     "MDE": 7.6614,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 993,
+       "dip_jeton": 955,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 95,
+       "dip_jeton": 57,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "TERS"
+    },
+    "OLMo2-32B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 20.0236,
+     "M1_hizali": 3.5096,
+     "dM1": -16.514,
+     "ci": [
+      -17.543,
+      -15.4706
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9984,
+      0.9996
+     ],
+     "null_sd": 2.9102,
+     "null_merkez": -0.2961,
+     "MDE": 4.7873,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 1001,
+       "dip_jeton": 961,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 100,
+       "dip_jeton": 60,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "AGIRLIK-ÖZELLIGI"
+    },
+    "Qwen2.5-32B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 19.1442,
+     "M1_hizali": 10.4307,
+     "dM1": -8.7135,
+     "ci": [
+      -9.8571,
+      -7.6622
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9914,
+      1.0
+     ],
+     "null_sd": 1.6373,
+     "null_merkez": -0.1892,
+     "MDE": 2.6934,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 955,
+       "dip_jeton": 915,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 116,
+       "dip_jeton": 76,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "AGIRLIK-ÖZELLIGI"
+    },
+    "Qwen2.5-72B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 14.7241,
+     "M1_hizali": 9.5792,
+     "dM1": -5.1449,
+     "ci": [
+      -6.0197,
+      -4.3228
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9931,
+      1.0
+     ],
+     "null_sd": 0.9464,
+     "null_merkez": -0.1231,
+     "MDE": 1.5568,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 955,
+       "dip_jeton": 915,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 116,
+       "dip_jeton": 76,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "AGIRLIK-ÖZELLIGI"
+    },
+    "Llama-3.1-70B": {
+     "hal": "ÖLCÜLDÜ",
+     "M1_taban": 11.6364,
+     "M1_hizali": 15.4342,
+     "dM1": 3.7978,
+     "ci": [
+      2.6295,
+      4.9474
+     ],
+     "n_kume": 34,
+     "dshelf_tutulan": [
+      0.9894,
+      1.0
+     ],
+     "null_sd": 0.8917,
+     "null_merkez": 0.1262,
+     "MDE": 1.4668,
+     "null_merkezli": true,
+     "plasebo_frac": 0.0,
+     "kirpma": {
+      "taban": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 956,
+       "dip_jeton": 916,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      },
+      "hizali": {
+       "hal": "ÖLCÜLDÜ",
+       "n": 2448,
+       "tepe_jeton": 123,
+       "dip_jeton": 83,
+       "max_length": 1024,
+       "n_kirpilan": 0,
+       "oran_kirpilan": 0.0
+      }
+     },
+     "AD": "TERS"
+    }
+   },
+   "n_bacak_eksik": 0,
+   "KAPSAM_HUKMU": "OKUNUR",
+   "sayim": {
+    "asagi": 9,
+    "bicim": 1,
+    "ters": 5,
+    "olculemez_kirpma": 1
+   }
+  }
+ },
+ "gecen_dk": 5.3
+}

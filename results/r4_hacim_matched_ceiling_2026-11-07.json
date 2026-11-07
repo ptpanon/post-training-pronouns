@@ -1,0 +1,136 @@
+{
+ "sinif": "SAYIM · fizibilite · kosu yok · prereg yok · verdict adi yok",
+ "birincil": "hacim5.n_max",
+ "ikincil_betim": "isaret3.n_max",
+ "tanim": {
+  "havuz": "",
+  "yon": "kol (takas=1 ⇒ × −1)",
+  "aday": "|ΔM1| ≤ p25(havuz)",
+  "ret_boy": "hedefin 4 yüzdelik kutusu (B0)",
+  "hacim": "ΔKJ = v103_diskten._kod_jeton(_yanit(secilen)) − ayni(reddedilen)",
+  "hacim5_kenar": {
+   "med_neg": -69.0,
+   "med_pos": 84.0
+  },
+  "eslesme": "uc_kol.tabaka_esle, asgari 5",
+  "seed": 20260924
+ },
+ "hedef": {
+  "n": 7537,
+  "n_dKJ_negatif": 1173,
+  "n_dKJ_sifir": 5119,
+  "n_dKJ_pozitif": 1245
+ },
+ "aday_n": 158802,
+ "kapilar": {
+  "G1_b1c_kol_yonu": {
+   "uclu": [
+    1881,
+    1881
+   ],
+   "ikili": [
+    1794,
+    1794
+   ],
+   "yonlu": [
+    3346,
+    3346
+   ]
+  },
+  "G2_maks_fark": 0.0,
+  "G2_ort": 3.06,
+  "G2_card": 3.06,
+  "G3_kimlik": true
+ },
+ "sonuc": {
+  "hacim5": {
+   "n_max": 0,
+   "n_cekilen": 0,
+   "n_tabaka": 32,
+   "n_atilan_tabaka": 7,
+   "n_atilan_satir": 17,
+   "karsi": {
+    "tam_kol": {
+     "boy": 7537,
+     "yeter": false
+    },
+    "R2A1": {
+     "boy": 3346,
+     "yeter": false
+    }
+   },
+   "denge": {
+    "dKJ": {
+     "hedef": 3.0601,
+     "kontrol": NaN
+    },
+    "dKod": {
+     "hedef": -0.0176,
+     "kontrol": NaN
+    },
+    "dRed": {
+     "hedef": -0.0385,
+     "kontrol": NaN
+    },
+    "dBoy_log": {
+     "hedef": -0.141,
+     "kontrol": NaN
+    },
+    "dJeton": {
+     "hedef": -23.7198,
+     "kontrol": NaN
+    },
+    "dM1": {
+     "hedef": -11.1023,
+     "kontrol": NaN
+    }
+   }
+  },
+  "isaret3": {
+   "n_max": 654,
+   "n_cekilen": 655,
+   "n_tabaka": 22,
+   "n_atilan_tabaka": 2,
+   "n_atilan_satir": 6,
+   "karsi": {
+    "tam_kol": {
+     "boy": 7537,
+     "yeter": false
+    },
+    "R2A1": {
+     "boy": 3346,
+     "yeter": false
+    }
+   },
+   "denge": {
+    "dKJ": {
+     "hedef": 3.0601,
+     "kontrol": -4.0061
+    },
+    "dKod": {
+     "hedef": -0.0176,
+     "kontrol": 0.0153
+    },
+    "dRed": {
+     "hedef": -0.0385,
+     "kontrol": -0.058
+    },
+    "dBoy_log": {
+     "hedef": -0.141,
+     "kontrol": 0.084
+    },
+    "dJeton": {
+     "hedef": -23.7198,
+     "kontrol": -11.5328
+    },
+    "dM1": {
+     "hedef": -11.1023,
+     "kontrol": 0.0
+    }
+   }
+  }
+ },
+ "alet_sha16": "3e5b97e496110d45",
+ "damga_utc": "2026-11-07T09:10:38Z",
+ "sure_sn": 20.7
+}

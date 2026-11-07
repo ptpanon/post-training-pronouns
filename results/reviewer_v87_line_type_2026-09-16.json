@@ -1,0 +1,2018 @@
+{
+ "sinif": "BETIM · card",
+ "rule": "preregistration/rule_v84_readings_2026-09-16.md @ 0e94ab96",
+ "soru": "",
+ "desen": {
+  "baslik": "^\\s{0,3}#{1,6}\\s+\\S|^\\s*\\*\\*[^*\\n]+\\*\\*\\s*:?\\s*$",
+  "liste": "^\\s{0,3}[-*+•]\\s+\\S|^\\s{0,3}\\d{1,2}[.)]\\s+\\S",
+  "duzyazi": "bos olmayan, öteki ikisine uymayan"
+ },
+ "alet": {
+  "hal": "KAYDI",
+  "en_buyuk_sapma": 0.08226429572629002
+ },
+ "sinir": "",
+ "sayim": {
+  "ciplak_duzyazi": {
+   "asagi": 10,
+   "yukari": 0,
+   "null": 6
+  },
+  "ciplak_liste": {
+   "asagi": 15,
+   "yukari": 0,
+   "null": 1
+  },
+  "ciplak_baslik": {
+   "asagi": 0,
+   "yukari": 6,
+   "null": 10
+  },
+  "template_duzyazi": {
+   "asagi": 4,
+   "yukari": 10,
+   "null": 2
+  },
+  "template_liste": {
+   "asagi": 10,
+   "yukari": 4,
+   "null": 2
+  },
+  "template_baslik": {
+   "asagi": 4,
+   "yukari": 5,
+   "null": 7
+  }
+ },
+ "sayim_adlar": {
+  "ciplak_duzyazi": {
+   "asagi": [
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [],
+   "null": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-32B",
+    "Qwen2.5-72B"
+   ]
+  },
+  "ciplak_liste": {
+   "asagi": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [],
+   "null": [
+    "Qwen2.5-32B"
+   ]
+  },
+  "ciplak_baslik": {
+   "asagi": [],
+   "yukari": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B"
+   ],
+   "null": [
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ]
+  },
+  "template_duzyazi": {
+   "asagi": [
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B"
+   ],
+   "null": [
+    "Qwen2.5-14B",
+    "Qwen2.5-32B"
+   ]
+  },
+  "template_liste": {
+   "asagi": [
+    "Mistral-7B-v0.3",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B"
+   ],
+   "null": [
+    "Llama-3.1-8B",
+    "OLMo-3-7B"
+   ]
+  },
+  "template_baslik": {
+   "asagi": [
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "Qwen2.5-32B"
+   ],
+   "yukari": [
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B"
+   ],
+   "null": [
+    "Gemma-3-12B",
+    "OLMo-3-7B",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ]
+  }
+ },
+ "aileler": {
+  "Gemma-3-12B": {
+   "ciplak_sapma_taban": 0.00015224834471183613,
+   "ciplak_sapma_hizali": 0.0026238426961189276,
+   "ciplak_duzyazi": {
+    "d": 0.6903,
+    "ci": [
+     -0.9665,
+     2.1303
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.917,
+     "hizali": 0.6062
+    },
+    "M1": {
+     "taban": 12.9505,
+     "hizali": 13.6408
+    }
+   },
+   "ciplak_liste": {
+    "d": -5.0423,
+    "ci": [
+     -8.4017,
+     -2.4934
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.083,
+     "hizali": 0.3709
+    },
+    "M1": {
+     "taban": 8.6841,
+     "hizali": 3.6418
+    }
+   },
+   "ciplak_baslik": {
+    "d": 7.7037,
+    "ci": [
+     6.3108,
+     9.3261
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0,
+     "hizali": 0.0232
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 7.7037
+    }
+   },
+   "ciplak_tam": {
+    "d": -2.798
+   },
+   "template_sapma_taban": 0.0007353061387540549,
+   "template_sapma_hizali": 0.08226429572629002,
+   "template_duzyazi": {
+    "d": 31.2758,
+    "ci": [
+     29.5006,
+     33.0033
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9714,
+     "hizali": 0.7183
+    },
+    "M1": {
+     "taban": 10.7348,
+     "hizali": 42.0106
+    }
+   },
+   "template_liste": {
+    "d": 12.0952,
+    "ci": [
+     4.4786,
+     16.5771
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0264,
+     "hizali": 0.192
+    },
+    "M1": {
+     "taban": 7.9274,
+     "hizali": 20.0226
+    }
+   },
+   "template_baslik": {
+    "d": 5.8011,
+    "ci": [
+     -3.3839,
+     13.163
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0021,
+     "hizali": 0.0874
+    },
+    "M1": {
+     "taban": 11.1336,
+     "hizali": 16.9347
+    }
+   },
+   "template_tam": {
+    "d": 24.8385
+   }
+  },
+  "Gemma-3-27B": {
+   "ciplak_sapma_taban": 0.000359795288234821,
+   "ciplak_sapma_hizali": 0.0023857031611100865,
+   "ciplak_duzyazi": {
+    "d": -0.3542,
+    "ci": [
+     -2.4999,
+     1.544
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.912,
+     "hizali": 0.6131
+    },
+    "M1": {
+     "taban": 12.3362,
+     "hizali": 11.982
+    }
+   },
+   "ciplak_liste": {
+    "d": -4.1993,
+    "ci": [
+     -8.7347,
+     -0.5695
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.088,
+     "hizali": 0.3659
+    },
+    "M1": {
+     "taban": 8.0835,
+     "hizali": 3.8842
+    }
+   },
+   "ciplak_baslik": {
+    "d": 5.9928,
+    "ci": [
+     4.9102,
+     7.2066
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0,
+     "hizali": 0.0212
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 5.9928
+    }
+   },
+   "ciplak_tam": {
+    "d": -3.0669
+   },
+   "template_sapma_taban": 0.00013961394393113835,
+   "template_sapma_hizali": 0.034142259048849155,
+   "template_duzyazi": {
+    "d": 38.9256,
+    "ci": [
+     37.308,
+     40.4227
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9773,
+     "hizali": 0.7445
+    },
+    "M1": {
+     "taban": 8.3246,
+     "hizali": 47.2502
+    }
+   },
+   "template_liste": {
+    "d": 16.1966,
+    "ci": [
+     7.2672,
+     21.3331
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0202,
+     "hizali": 0.2004
+    },
+    "M1": {
+     "taban": 8.5354,
+     "hizali": 24.732
+    }
+   },
+   "template_baslik": {
+    "d": 12.8313,
+    "ci": [
+     7.7597,
+     16.3698
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0026,
+     "hizali": 0.0542
+    },
+    "M1": {
+     "taban": 4.902,
+     "hizali": 17.7333
+    }
+   },
+   "template_tam": {
+    "d": 32.7764
+   }
+  },
+  "Gemma-3-4B": {
+   "ciplak_sapma_taban": 0.0012921199843720643,
+   "ciplak_sapma_hizali": 0.002438692707914747,
+   "ciplak_duzyazi": {
+    "d": -1.1576,
+    "ci": [
+     -2.5481,
+     0.2187
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.8951,
+     "hizali": 0.6031
+    },
+    "M1": {
+     "taban": 11.9225,
+     "hizali": 10.7649
+    }
+   },
+   "ciplak_liste": {
+    "d": -4.7513,
+    "ci": [
+     -8.0419,
+     -2.1136
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.1049,
+     "hizali": 0.3662
+    },
+    "M1": {
+     "taban": 8.2915,
+     "hizali": 3.5402
+    }
+   },
+   "ciplak_baslik": {
+    "d": 3.9472,
+    "ci": [
+     3.1911,
+     4.7754
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0,
+     "hizali": 0.0303
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 3.9472
+    }
+   },
+   "ciplak_tam": {
+    "d": -3.6314
+   },
+   "template_sapma_taban": 0.0001236184328181622,
+   "template_sapma_hizali": 0.05800057924128055,
+   "template_duzyazi": {
+    "d": 36.5451,
+    "ci": [
+     34.7683,
+     38.1842
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9784,
+     "hizali": 0.6787
+    },
+    "M1": {
+     "taban": 12.1743,
+     "hizali": 48.7194
+    }
+   },
+   "template_liste": {
+    "d": 8.0799,
+    "ci": [
+     1.1307,
+     13.12
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0211,
+     "hizali": 0.2389
+    },
+    "M1": {
+     "taban": 11.7831,
+     "hizali": 19.863
+    }
+   },
+   "template_baslik": {
+    "d": 13.2324,
+    "ci": [
+     11.8154,
+     14.7985
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0005,
+     "hizali": 0.0809
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 13.2324
+    }
+   },
+   "template_tam": {
+    "d": 26.7224
+   }
+  },
+  "Llama-3.1-70B": {
+   "ciplak_sapma_taban": 3.9882826284198813e-05,
+   "ciplak_sapma_hizali": 2.311940545052238e-05,
+   "ciplak_duzyazi": {
+    "d": -3.9169,
+    "ci": [
+     -4.5577,
+     -3.2366
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9301,
+     "hizali": 0.9401
+    },
+    "M1": {
+     "taban": 11.9223,
+     "hizali": 8.0054
+    }
+   },
+   "ciplak_liste": {
+    "d": -2.5496,
+    "ci": [
+     -4.5879,
+     -0.8748
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0694,
+     "hizali": 0.0583
+    },
+    "M1": {
+     "taban": 6.1702,
+     "hizali": 3.6206
+    }
+   },
+   "ciplak_baslik": {
+    "d": -1.5378,
+    "ci": [
+     -7.6054,
+     1.6995
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0005,
+     "hizali": 0.0016
+    },
+    "M1": {
+     "taban": 2.1739,
+     "hizali": 0.6361
+    }
+   },
+   "ciplak_tam": {
+    "d": -3.7798
+   },
+   "template_sapma_taban": 0.0029169347518713806,
+   "template_sapma_hizali": 0.0011127663427323853,
+   "template_duzyazi": {
+    "d": 23.0881,
+    "ci": [
+     21.6663,
+     24.4037
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9347,
+     "hizali": 0.5315
+    },
+    "M1": {
+     "taban": 8.7932,
+     "hizali": 31.8813
+    }
+   },
+   "template_liste": {
+    "d": 5.6272,
+    "ci": [
+     1.5699,
+     9.0021
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0548,
+     "hizali": 0.4567
+    },
+    "M1": {
+     "taban": 8.3589,
+     "hizali": 13.9861
+    }
+   },
+   "template_baslik": {
+    "d": -2.5354,
+    "ci": [
+     -5.5241,
+     -0.2771
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0102,
+     "hizali": 0.0117
+    },
+    "M1": {
+     "taban": 3.5742,
+     "hizali": 1.0388
+    }
+   },
+   "template_tam": {
+    "d": 14.6317
+   }
+  },
+  "Llama-3.1-8B": {
+   "ciplak_sapma_taban": 0.0014431072875442652,
+   "ciplak_sapma_hizali": 2.017737227077987e-05,
+   "ciplak_duzyazi": {
+    "d": -4.9237,
+    "ci": [
+     -5.8957,
+     -3.9953
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9384,
+     "hizali": 0.9392
+    },
+    "M1": {
+     "taban": 11.9892,
+     "hizali": 7.0655
+    }
+   },
+   "ciplak_liste": {
+    "d": -2.4168,
+    "ci": [
+     -4.2623,
+     -0.452
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0615,
+     "hizali": 0.0604
+    },
+    "M1": {
+     "taban": 5.8477,
+     "hizali": 3.431
+    }
+   },
+   "ciplak_baslik": {
+    "d": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0,
+     "hizali": 0.0003
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 0.0
+    }
+   },
+   "ciplak_tam": {
+    "d": -4.7667
+   },
+   "template_sapma_taban": 0.0105803185363893,
+   "template_sapma_hizali": 0.0033860314625542287,
+   "template_duzyazi": {
+    "d": 17.9297,
+    "ci": [
+     16.8094,
+     19.0405
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.8711,
+     "hizali": 0.5388
+    },
+    "M1": {
+     "taban": 11.4158,
+     "hizali": 29.3455
+    }
+   },
+   "template_liste": {
+    "d": -3.8398,
+    "ci": [
+     -8.6131,
+     0.089
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0962,
+     "hizali": 0.447
+    },
+    "M1": {
+     "taban": 12.9635,
+     "hizali": 9.1237
+    }
+   },
+   "template_baslik": {
+    "d": -8.1332,
+    "ci": [
+     -11.3168,
+     -5.4982
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0318,
+     "hizali": 0.014
+    },
+    "M1": {
+     "taban": 8.7148,
+     "hizali": 0.5816
+    }
+   },
+   "template_tam": {
+    "d": 8.4305
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "ciplak_sapma_taban": 0.0022813745341050407,
+   "ciplak_sapma_hizali": 8.3983842811719e-05,
+   "ciplak_duzyazi": {
+    "d": -8.6819,
+    "ci": [
+     -9.9989,
+     -7.4225
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.83,
+     "hizali": 0.4975
+    },
+    "M1": {
+     "taban": 14.365,
+     "hizali": 5.683
+    }
+   },
+   "ciplak_liste": {
+    "d": -7.6249,
+    "ci": [
+     -10.3365,
+     -5.3238
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.1502,
+     "hizali": 0.5023
+    },
+    "M1": {
+     "taban": 9.4574,
+     "hizali": 1.8325
+    }
+   },
+   "ciplak_baslik": {
+    "d": 14.3541,
+    "ci": [
+     -14.9526,
+     155.1416
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0196,
+     "hizali": 0.0001
+    },
+    "M1": {
+     "taban": 13.4237,
+     "hizali": 27.7778
+    }
+   },
+   "ciplak_tam": {
+    "d": -9.8563
+   },
+   "template_sapma_taban": 0.003934154593428829,
+   "template_sapma_hizali": 1.4845338361269e-05,
+   "template_duzyazi": {
+    "d": 10.0558,
+    "ci": [
+     6.8247,
+     13.0999
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9143,
+     "hizali": 0.4889
+    },
+    "M1": {
+     "taban": 13.7926,
+     "hizali": 23.8483
+    }
+   },
+   "template_liste": {
+    "d": -5.4195,
+    "ci": [
+     -8.4105,
+     -2.7501
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.056,
+     "hizali": 0.5111
+    },
+    "M1": {
+     "taban": 8.8421,
+     "hizali": 3.4226
+    }
+   },
+   "template_baslik": {
+    "d": -12.068,
+    "ci": [
+     -14.7375,
+     -10.062
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0294,
+     "hizali": 0.0
+    },
+    "M1": {
+     "taban": 12.068,
+     "hizali": 0.0
+    }
+   },
+   "template_tam": {
+    "d": -0.0507
+   }
+  },
+  "OLMo-3-7B": {
+   "ciplak_sapma_taban": 0.0001396798455388648,
+   "ciplak_sapma_hizali": 0.00021283332221244677,
+   "ciplak_duzyazi": {
+    "d": -4.7134,
+    "ci": [
+     -5.691,
+     -3.7237
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9268,
+     "hizali": 0.9402
+    },
+    "M1": {
+     "taban": 14.5257,
+     "hizali": 9.8124
+    }
+   },
+   "ciplak_liste": {
+    "d": -5.376,
+    "ci": [
+     -8.8048,
+     -2.6029
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0732,
+     "hizali": 0.0591
+    },
+    "M1": {
+     "taban": 10.6095,
+     "hizali": 5.2335
+    }
+   },
+   "ciplak_baslik": {
+    "d": 1.4948,
+    "ci": [
+     0.0,
+     5.1437
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0,
+     "hizali": 0.0007
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 1.4948
+    }
+   },
+   "ciplak_tam": {
+    "d": -4.7032
+   },
+   "template_sapma_taban": 3.918413388603881e-05,
+   "template_sapma_hizali": 0.016792582364359987,
+   "template_duzyazi": {
+    "d": 10.2125,
+    "ci": [
+     8.7985,
+     11.6789
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9402,
+     "hizali": 0.8368
+    },
+    "M1": {
+     "taban": 20.6627,
+     "hizali": 30.8752
+    }
+   },
+   "template_liste": {
+    "d": 0.2254,
+    "ci": [
+     -1.3669,
+     1.9054
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0596,
+     "hizali": 0.0868
+    },
+    "M1": {
+     "taban": 4.8672,
+     "hizali": 5.0926
+    }
+   },
+   "template_baslik": {
+    "d": 3.0507,
+    "ci": [
+     -15.6779,
+     11.0652
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0001,
+     "hizali": 0.0758
+    },
+    "M1": {
+     "taban": 6.7114,
+     "hizali": 9.7621
+    }
+   },
+   "template_tam": {
+    "d": 7.2989
+   }
+  },
+  "OLMo2-13B": {
+   "ciplak_sapma_taban": 0.00014668674377205093,
+   "ciplak_sapma_hizali": 0.00016085485377281827,
+   "ciplak_duzyazi": {
+    "d": -6.2687,
+    "ci": [
+     -7.3898,
+     -5.4004
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.962,
+     "hizali": 0.9508
+    },
+    "M1": {
+     "taban": 11.8913,
+     "hizali": 5.6226
+    }
+   },
+   "ciplak_liste": {
+    "d": -6.3018,
+    "ci": [
+     -9.2408,
+     -3.887
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.038,
+     "hizali": 0.0485
+    },
+    "M1": {
+     "taban": 11.2137,
+     "hizali": 4.9118
+    }
+   },
+   "ciplak_baslik": {
+    "d": 1.8416,
+    "ci": [
+     0.0,
+     6.8827
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0001,
+     "hizali": 0.0006
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 1.8416
+    }
+   },
+   "ciplak_tam": {
+    "d": -6.2796
+   },
+   "template_sapma_taban": 0.00013697598307871317,
+   "template_sapma_hizali": 0.00022958455446264736,
+   "template_duzyazi": {
+    "d": -12.0936,
+    "ci": [
+     -13.531,
+     -10.7883
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9699,
+     "hizali": 0.5621
+    },
+    "M1": {
+     "taban": 18.0415,
+     "hizali": 5.9478
+    }
+   },
+   "template_liste": {
+    "d": -5.4598,
+    "ci": [
+     -9.5171,
+     -2.129
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0301,
+     "hizali": 0.4171
+    },
+    "M1": {
+     "taban": 7.37,
+     "hizali": 1.9102
+    }
+   },
+   "template_baslik": {
+    "d": 0.2793,
+    "ci": [
+     0.048,
+     0.5838
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0,
+     "hizali": 0.0209
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 0.2793
+    }
+   },
+   "template_tam": {
+    "d": -13.5747
+   }
+  },
+  "OLMo2-32B": {
+   "ciplak_sapma_taban": 0.00017212851881431845,
+   "ciplak_sapma_hizali": 9.565754283258343e-05,
+   "ciplak_duzyazi": {
+    "d": -4.7679,
+    "ci": [
+     -5.4649,
+     -4.0683
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9735,
+     "hizali": 0.9681
+    },
+    "M1": {
+     "taban": 13.7512,
+     "hizali": 8.9833
+    }
+   },
+   "ciplak_liste": {
+    "d": -4.7682,
+    "ci": [
+     -9.0861,
+     -0.7496
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0265,
+     "hizali": 0.0317
+    },
+    "M1": {
+     "taban": 12.7559,
+     "hizali": 7.9877
+    }
+   },
+   "ciplak_baslik": {
+    "d": 5.2632,
+    "ci": [
+     0.0,
+     33.3621
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0,
+     "hizali": 0.0002
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 5.2632
+    }
+   },
+   "ciplak_tam": {
+    "d": -4.7733
+   },
+   "template_sapma_taban": 2.3230388944028846e-05,
+   "template_sapma_hizali": 0.00011591962405610445,
+   "template_duzyazi": {
+    "d": -10.5909,
+    "ci": [
+     -12.544,
+     -8.8007
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9817,
+     "hizali": 0.656
+    },
+    "M1": {
+     "taban": 16.8264,
+     "hizali": 6.2355
+    }
+   },
+   "template_liste": {
+    "d": -5.8202,
+    "ci": [
+     -14.9156,
+     -0.4299
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0183,
+     "hizali": 0.3363
+    },
+    "M1": {
+     "taban": 7.8668,
+     "hizali": 2.0466
+    }
+   },
+   "template_baslik": {
+    "d": 0.9165,
+    "ci": [
+     0.1174,
+     2.0505
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0,
+     "hizali": 0.0077
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 0.9165
+    }
+   },
+   "template_tam": {
+    "d": -11.877
+   }
+  },
+  "Qwen2.5-1.5B": {
+   "ciplak_sapma_taban": 0.0006935251942241649,
+   "ciplak_sapma_hizali": 0.000286731362860948,
+   "ciplak_duzyazi": {
+    "d": -1.1274,
+    "ci": [
+     -2.4943,
+     0.1002
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9173,
+     "hizali": 0.8081
+    },
+    "M1": {
+     "taban": 10.2228,
+     "hizali": 9.0954
+    }
+   },
+   "ciplak_liste": {
+    "d": -2.7012,
+    "ci": [
+     -5.6202,
+     -0.4838
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0823,
+     "hizali": 0.1888
+    },
+    "M1": {
+     "taban": 8.6823,
+     "hizali": 5.9811
+    }
+   },
+   "ciplak_baslik": {
+    "d": 1.6276,
+    "ci": [
+     0.3578,
+     2.844
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0003,
+     "hizali": 0.0031
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 1.6276
+    }
+   },
+   "ciplak_tam": {
+    "d": -1.6075
+   },
+   "template_sapma_taban": 6.642951660040808e-05,
+   "template_sapma_hizali": 0.0,
+   "template_duzyazi": {
+    "d": 3.1923,
+    "ci": [
+     1.7924,
+     4.6266
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.961,
+     "hizali": 0.6681
+    },
+    "M1": {
+     "taban": 16.7097,
+     "hizali": 19.9021
+    }
+   },
+   "template_liste": {
+    "d": -4.3379,
+    "ci": [
+     -7.2373,
+     -1.6526
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0386,
+     "hizali": 0.3247
+    },
+    "M1": {
+     "taban": 8.3272,
+     "hizali": 3.9893
+    }
+   },
+   "template_baslik": {
+    "d": 2.009,
+    "ci": [
+     0.8248,
+     3.1435
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0003,
+     "hizali": 0.0072
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 2.009
+    }
+   },
+   "template_tam": {
+    "d": -1.774
+   }
+  },
+  "Qwen2.5-14B": {
+   "ciplak_sapma_taban": 2.3412178045134624e-05,
+   "ciplak_sapma_hizali": 0.00025999964587697377,
+   "ciplak_duzyazi": {
+    "d": -1.6717,
+    "ci": [
+     -2.9863,
+     -0.4857
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9143,
+     "hizali": 0.6732
+    },
+    "M1": {
+     "taban": 11.0703,
+     "hizali": 9.3986
+    }
+   },
+   "ciplak_liste": {
+    "d": -3.9131,
+    "ci": [
+     -9.6199,
+     -0.8653
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0851,
+     "hizali": 0.3106
+    },
+    "M1": {
+     "taban": 6.6935,
+     "hizali": 2.7804
+    }
+   },
+   "ciplak_baslik": {
+    "d": -1.1266,
+    "ci": [
+     -4.7139,
+     0.9466
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0006,
+     "hizali": 0.0162
+    },
+    "M1": {
+     "taban": 1.7301,
+     "hizali": 0.6035
+    }
+   },
+   "ciplak_tam": {
+    "d": -3.4919
+   },
+   "template_sapma_taban": 0.0014364940385398484,
+   "template_sapma_hizali": 0.00015631659961279354,
+   "template_duzyazi": {
+    "d": 0.6261,
+    "ci": [
+     -1.2842,
+     2.2787
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.8809,
+     "hizali": 0.4107
+    },
+    "M1": {
+     "taban": 21.325,
+     "hizali": 21.951
+    }
+   },
+   "template_liste": {
+    "d": -1.7425,
+    "ci": [
+     -3.224,
+     -0.3791
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.1175,
+     "hizali": 0.5717
+    },
+    "M1": {
+     "taban": 4.9438,
+     "hizali": 3.2013
+    }
+   },
+   "template_baslik": {
+    "d": -3.5899,
+    "ci": [
+     -8.7714,
+     0.8327
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0015,
+     "hizali": 0.0176
+    },
+    "M1": {
+     "taban": 4.0258,
+     "hizali": 0.4359
+    }
+   },
+   "template_tam": {
+    "d": -8.5198
+   }
+  },
+  "Qwen2.5-32B": {
+   "ciplak_sapma_taban": 4.558049687553023e-05,
+   "ciplak_sapma_hizali": 0.000125540894469367,
+   "ciplak_duzyazi": {
+    "d": -0.3376,
+    "ci": [
+     -1.2962,
+     0.558
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9354,
+     "hizali": 0.678
+    },
+    "M1": {
+     "taban": 10.5477,
+     "hizali": 10.2101
+    }
+   },
+   "ciplak_liste": {
+    "d": -1.87,
+    "ci": [
+     -5.392,
+     0.4592
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0642,
+     "hizali": 0.3086
+    },
+    "M1": {
+     "taban": 5.4558,
+     "hizali": 3.5858
+    }
+   },
+   "ciplak_baslik": {
+    "d": -4.5582,
+    "ci": [
+     -12.2253,
+     1.1165
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0004,
+     "hizali": 0.0134
+    },
+    "M1": {
+     "taban": 5.4348,
+     "hizali": 0.8766
+    }
+   },
+   "ciplak_tam": {
+    "d": -2.1777
+   },
+   "template_sapma_taban": 7.395367080675896e-05,
+   "template_sapma_hizali": 0.00032939017637900747,
+   "template_duzyazi": {
+    "d": -1.0059,
+    "ci": [
+     -2.7737,
+     0.664
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.8536,
+     "hizali": 0.4744
+    },
+    "M1": {
+     "taban": 22.6739,
+     "hizali": 21.668
+    }
+   },
+   "template_liste": {
+    "d": -3.0994,
+    "ci": [
+     -4.637,
+     -1.6649
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.1451,
+     "hizali": 0.5053
+    },
+    "M1": {
+     "taban": 6.1722,
+     "hizali": 3.0728
+    }
+   },
+   "template_baslik": {
+    "d": -7.3731,
+    "ci": [
+     -14.7924,
+     -1.2883
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0013,
+     "hizali": 0.0204
+    },
+    "M1": {
+     "taban": 7.6555,
+     "hizali": 0.2824
+    }
+   },
+   "template_tam": {
+    "d": -8.4234
+   }
+  },
+  "Qwen2.5-3B": {
+   "ciplak_sapma_taban": 3.2981510058149865e-05,
+   "ciplak_sapma_hizali": 0.0006050168452311766,
+   "ciplak_duzyazi": {
+    "d": -2.6857,
+    "ci": [
+     -4.1862,
+     -1.2461
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9258,
+     "hizali": 0.7928
+    },
+    "M1": {
+     "taban": 10.5974,
+     "hizali": 7.9117
+    }
+   },
+   "ciplak_liste": {
+    "d": -5.3188,
+    "ci": [
+     -9.8592,
+     -1.8267
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0738,
+     "hizali": 0.1911
+    },
+    "M1": {
+     "taban": 9.1399,
+     "hizali": 3.8211
+    }
+   },
+   "ciplak_baslik": {
+    "d": 1.2841,
+    "ci": [
+     0.7768,
+     1.8145
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0004,
+     "hizali": 0.016
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 1.2841
+    }
+   },
+   "ciplak_tam": {
+    "d": -3.4625
+   },
+   "template_sapma_taban": 0.00020866238883954225,
+   "template_sapma_hizali": 0.000206175287146948,
+   "template_duzyazi": {
+    "d": 1.5584,
+    "ci": [
+     0.5087,
+     2.4509
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.8793,
+     "hizali": 0.5913
+    },
+    "M1": {
+     "taban": 15.5336,
+     "hizali": 17.092
+    }
+   },
+   "template_liste": {
+    "d": -4.2969,
+    "ci": [
+     -5.106,
+     -3.4337
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.1177,
+     "hizali": 0.3507
+    },
+    "M1": {
+     "taban": 5.9353,
+     "hizali": 1.6384
+    }
+   },
+   "template_baslik": {
+    "d": 0.0721,
+    "ci": [
+     -0.6867,
+     0.6047
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.003,
+     "hizali": 0.0579
+    },
+    "M1": {
+     "taban": 0.4098,
+     "hizali": 0.482
+    }
+   },
+   "template_tam": {
+    "d": -3.6492
+   }
+  },
+  "Qwen2.5-72B": {
+   "ciplak_sapma_taban": 2.5274370280214953e-05,
+   "ciplak_sapma_hizali": 0.0008281020305940245,
+   "ciplak_duzyazi": {
+    "d": -1.2855,
+    "ci": [
+     -3.3546,
+     0.4635
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.8922,
+     "hizali": 0.6186
+    },
+    "M1": {
+     "taban": 10.8548,
+     "hizali": 9.5693
+    }
+   },
+   "ciplak_liste": {
+    "d": -3.7875,
+    "ci": [
+     -8.5154,
+     -1.3373
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.1075,
+     "hizali": 0.3473
+    },
+    "M1": {
+     "taban": 5.6525,
+     "hizali": 1.865
+    }
+   },
+   "ciplak_baslik": {
+    "d": 0.9731,
+    "ci": [
+     0.6025,
+     1.5001
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0003,
+     "hizali": 0.034
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 0.9731
+    }
+   },
+   "ciplak_tam": {
+    "d": -3.6919
+   },
+   "template_sapma_taban": 1.1682966723824961e-05,
+   "template_sapma_hizali": 0.001762451798079212,
+   "template_duzyazi": {
+    "d": 10.1499,
+    "ci": [
+     7.9087,
+     12.1947
+    ],
+    "sinif": "yukari",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.7614,
+     "hizali": 0.375
+    },
+    "M1": {
+     "taban": 13.1974,
+     "hizali": 23.3473
+    }
+   },
+   "template_liste": {
+    "d": -2.6409,
+    "ci": [
+     -3.3345,
+     -2.1025
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.2352,
+     "hizali": 0.5628
+    },
+    "M1": {
+     "taban": 4.5909,
+     "hizali": 1.9501
+    }
+   },
+   "template_baslik": {
+    "d": -0.1337,
+    "ci": [
+     -1.869,
+     0.9796
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0034,
+     "hizali": 0.0621
+    },
+    "M1": {
+     "taban": 0.9352,
+     "hizali": 0.8014
+    }
+   },
+   "template_tam": {
+    "d": -1.2297
+   }
+  },
+  "Qwen2.5-7B": {
+   "ciplak_sapma_taban": 4.524006075889986e-05,
+   "ciplak_sapma_hizali": 4.440019075158119e-05,
+   "ciplak_duzyazi": {
+    "d": -2.796,
+    "ci": [
+     -4.4372,
+     -1.3652
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.8947,
+     "hizali": 0.7065
+    },
+    "M1": {
+     "taban": 10.8913,
+     "hizali": 8.0953
+    }
+   },
+   "ciplak_liste": {
+    "d": -3.3879,
+    "ci": [
+     -5.7748,
+     -1.8242
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.1048,
+     "hizali": 0.2824
+    },
+    "M1": {
+     "taban": 6.0209,
+     "hizali": 2.633
+    }
+   },
+   "ciplak_baslik": {
+    "d": -3.8464,
+    "ci": [
+     -12.5522,
+     1.5689
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0005,
+     "hizali": 0.0111
+    },
+    "M1": {
+     "taban": 4.8193,
+     "hizali": 0.9728
+    }
+   },
+   "ciplak_tam": {
+    "d": -3.9045
+   },
+   "template_sapma_taban": 0.0018095568372338278,
+   "template_sapma_hizali": 9.757832488865859e-05,
+   "template_duzyazi": {
+    "d": -5.5639,
+    "ci": [
+     -7.505,
+     -3.5776
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.8064,
+     "hizali": 0.3591
+    },
+    "M1": {
+     "taban": 24.4058,
+     "hizali": 18.842
+    }
+   },
+   "template_liste": {
+    "d": -1.1727,
+    "ci": [
+     -1.8517,
+     -0.5385
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.1917,
+     "hizali": 0.6132
+    },
+    "M1": {
+     "taban": 3.8637,
+     "hizali": 2.691
+    }
+   },
+   "template_baslik": {
+    "d": -0.3979,
+    "ci": [
+     -2.2566,
+     1.0459
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.002,
+     "hizali": 0.0277
+    },
+    "M1": {
+     "taban": 1.3351,
+     "hizali": 0.9372
+    }
+   },
+   "template_tam": {
+    "d": -11.9801
+   }
+  },
+  "Tulu3-8B": {
+   "ciplak_sapma_taban": 0.0014431072875442652,
+   "ciplak_sapma_hizali": 2.0463173954876623e-05,
+   "ciplak_duzyazi": {
+    "d": -9.0354,
+    "ci": [
+     -10.4093,
+     -7.7988
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9384,
+     "hizali": 0.9451
+    },
+    "M1": {
+     "taban": 11.9892,
+     "hizali": 2.9538
+    }
+   },
+   "ciplak_liste": {
+    "d": -3.9425,
+    "ci": [
+     -6.1064,
+     -1.5818
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0615,
+     "hizali": 0.0544
+    },
+    "M1": {
+     "taban": 5.8477,
+     "hizali": 1.9052
+    }
+   },
+   "ciplak_baslik": {
+    "d": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0,
+     "hizali": 0.0005
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 0.0
+    }
+   },
+   "ciplak_tam": {
+    "d": -8.7147
+   },
+   "template_sapma_taban": 0.00010978218430324205,
+   "template_sapma_hizali": 6.482164259580259e-05,
+   "template_duzyazi": {
+    "d": -17.0032,
+    "ci": [
+     -18.3408,
+     -15.6814
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.9897,
+     "hizali": 0.7395
+    },
+    "M1": {
+     "taban": 19.2271,
+     "hizali": 2.2239
+    }
+   },
+   "template_liste": {
+    "d": -7.303,
+    "ci": [
+     -12.1576,
+     -3.0076
+    ],
+    "sinif": "asagi",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0103,
+     "hizali": 0.2564
+    },
+    "M1": {
+     "taban": 8.4633,
+     "hizali": 1.1603
+    }
+   },
+   "template_baslik": {
+    "d": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "sinif": "null",
+    "n_istem": 34,
+    "jeton_payi": {
+     "taban": 0.0,
+     "hizali": 0.0042
+    },
+    "M1": {
+     "taban": 0.0,
+     "hizali": 0.0
+    }
+   },
+   "template_tam": {
+    "d": -17.174
+   }
+  }
+ },
+ "damga_utc": "2026-09-16T14:34:08Z",
+ "sure_dk": 35.9
+}

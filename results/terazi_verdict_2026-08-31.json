@@ -1,0 +1,92 @@
+{
+ "damga_utc": "2026-08-31T03:32:06Z",
+ "SINIF": "VERDICT — PREREG_KOL_GECESI §3'ün mekanik isletilmesi",
+ "bar_MDE_a": 0.00438,
+ "taban": "PREREG_TABAN_CIZGISI m=6 · DOM +0.083918",
+ "dU_PREREG": {
+  "EMIR_ARTI": -0.002561249999999994,
+  "EMIR_EKSI": 0.0009632500000000058,
+  "FORM_YOK": 0.0007905000000000099,
+  "RASTGELE": -0.0009734999999999952
+ },
+ "dU_ALET": {
+  "EMIR_ARTI": -0.01302825,
+  "EMIR_EKSI": -0.009503749999999998,
+  "FORM_YOK": -0.0096765,
+  "RASTGELE": -0.0114405
+ },
+ "sd": {
+  "EMIR_ARTI": 0.0035895059432555147,
+  "EMIR_EKSI": 0.0029909688926277136,
+  "FORM_YOK": 0.0012268638881310309,
+  "RASTGELE": 0.0036748734672094508
+ },
+ "asan": {
+  "EMIR_ARTI": false,
+  "EMIR_EKSI": false,
+  "FORM_YOK": false,
+  "RASTGELE": false
+ },
+ "verdict_payda_dort": "B2-GECTI",
+ "verdict_payda_emir": "B2-GECTI",
+ "betim_ad": {
+  "EMIR_ARTI": "CONTINGENT",
+  "EMIR_EKSI": "~",
+  "FORM_YOK": "CONTINGENT",
+  "RASTGELE": "~"
+ },
+ "ulasilabilirlik": {
+  "KIP": "izgara",
+  "turetilmis_arglar": [],
+  "n_hucre": 6561,
+  "n_eksen": 4,
+  "eksen_boyu": {
+   "dA": 9,
+   "dE": 9,
+   "dF": 9,
+   "dR": 9
+  },
+  "ates_sayilari": {
+   "ÜCÜ-DE-DISINDA": 5103,
+   "B1-GECTI": 729,
+   "B3-TEK-YÖN": 648,
+   "B2-GECTI": 81
+  },
+  "pay": {
+   "ÜCÜ-DE-DISINDA": 0.7778,
+   "B3-TEK-YÖN": 0.0988,
+   "B2-GECTI": 0.0123,
+   "B1-GECTI": 0.1111
+  },
+  "ilk_ornek": {
+   "ÜCÜ-DE-DISINDA": {
+    "dA": -0.02,
+    "dE": -0.02,
+    "dF": -0.02,
+    "dR": -0.02
+   },
+   "B3-TEK-YÖN": {
+    "dA": -0.02,
+    "dE": -0.002,
+    "dF": -0.002,
+    "dR": -0.002
+   },
+   "B2-GECTI": {
+    "dA": -0.002,
+    "dE": -0.002,
+    "dF": -0.002,
+    "dR": -0.002
+   },
+   "B1-GECTI": {
+    "dA": 0.006,
+    "dE": -0.02,
+    "dF": -0.02,
+    "dR": -0.02
+   }
+  },
+  "DOGAMAYAN_ADLAR": [],
+  "MUHURDE_OLMAYAN_ADLAR": [],
+  "GECTI": true,
+  "_serh": "DOGAMAYAN"
+ }
+}

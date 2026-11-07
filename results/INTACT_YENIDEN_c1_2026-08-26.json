@@ -1,0 +1,301 @@
+{
+ "SINIF": "DENETIM",
+ "panel": "c1",
+ "MERKEZLI": false,
+ "hucre": {
+  "Qwen2.5-7B": {
+   "HAL": "OK",
+   "POZ_KONTROL": true,
+   "delta": {
+    "ARO": {
+     "dU": 0.040401,
+     "CI": [
+      0.023333,
+      0.050987
+     ],
+     "sd": 0.007109,
+     "null_merkezi": -0.000164,
+     "sd_kati": 5.683,
+     "AD": "AYRIK_POZ"
+    },
+    "DOM": {
+     "dU": -0.005713,
+     "CI": [
+      -0.021385,
+      0.008343
+     ],
+     "sd": 0.007454,
+     "null_merkezi": 0.001468,
+     "sd_kati": 0.766,
+     "AD": "~"
+    },
+    "TON": {
+     "dU": 0.009877,
+     "CI": [
+      -0.008412,
+      0.027485
+     ],
+     "sd": 0.009158,
+     "null_merkezi": -0.000187,
+     "sd_kati": 1.078,
+     "AD": "CONTINGENT"
+    }
+   },
+   "n_base": 5174,
+   "n_instruct": 6188,
+   "n_kume": 34,
+   "saniye": 14.6,
+   "eski_ad": {
+    "ARO": "AYRIK_POZ",
+    "DOM": "CONTINGENT",
+    "TON": "~"
+   },
+   "VERDICT": "DÜSER"
+  },
+  "Mistral-7B-v0.3": {
+   "HAL": "OK",
+   "POZ_KONTROL": true,
+   "delta": {
+    "ARO": {
+     "dU": -0.051782,
+     "CI": [
+      -0.064029,
+      -0.033577
+     ],
+     "sd": 0.007686,
+     "null_merkezi": 0.000247,
+     "sd_kati": 6.738,
+     "AD": "AYRIK_NEG"
+    },
+    "DOM": {
+     "dU": 0.074425,
+     "CI": [
+      0.05201,
+      0.087363
+     ],
+     "sd": 0.008994,
+     "null_merkezi": 0.0004,
+     "sd_kati": 8.275,
+     "AD": "AYRIK_POZ"
+    },
+    "TON": {
+     "dU": -0.006472,
+     "CI": [
+      -0.026604,
+      0.010319
+     ],
+     "sd": 0.009522,
+     "null_merkezi": 7.4e-05,
+     "sd_kati": 0.68,
+     "AD": "~"
+    }
+   },
+   "n_base": 5121,
+   "n_instruct": 6111,
+   "n_kume": 34,
+   "saniye": 14.5,
+   "eski_ad": {
+    "ARO": "AYRIK_NEG",
+    "DOM": "AYRIK_POZ",
+    "TON": "CONTINGENT"
+   },
+   "VERDICT": "DÜSER"
+  },
+  "OLMo-3-7B": {
+   "HAL": "OK",
+   "POZ_KONTROL": true,
+   "delta": {
+    "ARO": {
+     "dU": 0.013022,
+     "CI": [
+      -0.006929,
+      0.027244
+     ],
+     "sd": 0.008906,
+     "null_merkezi": -0.00078,
+     "sd_kati": 1.462,
+     "AD": "CONTINGENT"
+    },
+    "DOM": {
+     "dU": 0.028336,
+     "CI": [
+      0.008794,
+      0.040798
+     ],
+     "sd": 0.008339,
+     "null_merkezi": -0.000106,
+     "sd_kati": 3.398,
+     "AD": "AYRIK_POZ"
+    },
+    "TON": {
+     "dU": -0.024587,
+     "CI": [
+      -0.042731,
+      -0.009397
+     ],
+     "sd": 0.008334,
+     "null_merkezi": -0.001482,
+     "sd_kati": 2.95,
+     "AD": "AYRIK_NEG"
+    }
+   },
+   "n_base": 5763,
+   "n_instruct": 6296,
+   "n_kume": 34,
+   "saniye": 15.4,
+   "eski_ad": {
+    "ARO": "CONTINGENT",
+    "DOM": "AYRIK_POZ",
+    "TON": "AYRIK_NEG"
+   },
+   "VERDICT": "DAYANIR"
+  },
+  "Llama-3.1-8B": {
+   "HAL": "OK",
+   "POZ_KONTROL": true,
+   "delta": {
+    "ARO": {
+     "dU": -0.021932,
+     "CI": [
+      -0.037596,
+      -0.004971
+     ],
+     "sd": 0.008366,
+     "null_merkezi": 0.004319,
+     "sd_kati": 2.622,
+     "AD": "AYRIK_NEG"
+    },
+    "DOM": {
+     "dU": 0.033344,
+     "CI": [
+      0.01631,
+      0.046735
+     ],
+     "sd": 0.007849,
+     "null_merkezi": 0.002501,
+     "sd_kati": 4.248,
+     "AD": "AYRIK_POZ"
+    },
+    "TON": {
+     "dU": -0.039071,
+     "CI": [
+      -0.05497,
+      -0.023243
+     ],
+     "sd": 0.008351,
+     "null_merkezi": 0.000509,
+     "sd_kati": 4.679,
+     "AD": "AYRIK_NEG"
+    }
+   },
+   "n_base": 4731,
+   "n_instruct": 6051,
+   "n_kume": 34,
+   "saniye": 13.8,
+   "eski_ad": {
+    "ARO": "AYRIK_NEG",
+    "DOM": "AYRIK_POZ",
+    "TON": "AYRIK_NEG"
+   },
+   "VERDICT": "DAYANIR"
+  },
+  "Gemma-3-4B": {
+   "HAL": "OK",
+   "POZ_KONTROL": true,
+   "delta": {
+    "ARO": {
+     "dU": -0.027745,
+     "CI": [
+      -0.039173,
+      -0.011975
+     ],
+     "sd": 0.007145,
+     "null_merkezi": 0.003927,
+     "sd_kati": 3.883,
+     "AD": "AYRIK_NEG"
+    },
+    "DOM": {
+     "dU": -0.001392,
+     "CI": [
+      -0.016848,
+      0.017369
+     ],
+     "sd": 0.008825,
+     "null_merkezi": 0.002456,
+     "sd_kati": 0.158,
+     "AD": "~"
+    },
+    "TON": {
+     "dU": -0.05775,
+     "CI": [
+      -0.0699,
+      -0.039063
+     ],
+     "sd": 0.008077,
+     "null_merkezi": 0.003306,
+     "sd_kati": 7.15,
+     "AD": "AYRIK_NEG"
+    }
+   },
+   "n_base": 5372,
+   "n_instruct": 5984,
+   "n_kume": 34,
+   "saniye": 14.5,
+   "eski_ad": {
+    "ARO": "AYRIK_NEG",
+    "DOM": "~",
+    "TON": "AYRIK_NEG"
+   },
+   "VERDICT": "DAYANIR"
+  },
+  "Gemma-3-12B": {
+   "HAL": "OK",
+   "POZ_KONTROL": true,
+   "delta": {
+    "ARO": {
+     "dU": 0.021896,
+     "CI": [
+      0.007436,
+      0.036249
+     ],
+     "sd": 0.007432,
+     "null_merkezi": 0.002781,
+     "sd_kati": 2.946,
+     "AD": "AYRIK_POZ"
+    },
+    "DOM": {
+     "dU": 0.088162,
+     "CI": [
+      0.067614,
+      0.104401
+     ],
+     "sd": 0.009562,
+     "null_merkezi": 0.005569,
+     "sd_kati": 9.22,
+     "AD": "AYRIK_POZ"
+    },
+    "TON": {
+     "dU": -0.034559,
+     "CI": [
+      -0.049374,
+      -0.020206
+     ],
+     "sd": 0.007307,
+     "null_merkezi": 0.00292,
+     "sd_kati": 4.73,
+     "AD": "AYRIK_NEG"
+    }
+   },
+   "n_base": 5162,
+   "n_instruct": 5939,
+   "n_kume": 34,
+   "saniye": 14.0,
+   "eski_ad": {
+    "ARO": "AYRIK_POZ",
+    "DOM": "AYRIK_POZ",
+    "TON": "AYRIK_NEG"
+   },
+   "VERDICT": "DAYANIR"
+  }
+ }
+}

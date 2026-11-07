@@ -1,0 +1,29 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-14T15:01:01Z",
+  "alet": "scripts/v61_example_pair.py",
+  "kaynak": "v61_puanlama.havuz_ciftleri (seed 20260911)",
+  "prova_eslesen": 3000,
+  "secim": "yon=ileri · kisili ≤400 kar · n_takas=1 · en kücük istem_i",
+  "n_aday": 82,
+  "gecen_dk": 0.8
+ },
+ "ornek": {
+  "istem_i": 1272,
+  "kisili": "Student: Riding on the back of a friend's bicycle makes sense because it's a common way to describe being a passenger on a bicycle. However, \"riding on the back of a friend's while\" is nonsensical because \"while\" is not an object you can ride on.\n\nThe answer is Sentence A.",
+  "kisisiz": "Student: Riding on the back of a friend's bicycle makes sense because it's a common way to describe being a passenger on a bicycle. However, \"riding on the back of a friend's while\" is nonsensical because \"while\" is not an object it is possible to ride on.\n\nThe answer is Sentence A.",
+  "n_takas": 1,
+  "degisim_payi": 0.02564102564102564
+ },
+ "uretim_kunyesi": {
+  "n_taranan": 87311,
+  "n_istem": 3000,
+  "red_uygunsuz": 8834,
+  "red_ters_yok": 160021,
+  "degisim_payi": {
+   "p05": 0.0015007316111168862,
+   "p50": 0.008516074475854382,
+   "p95": 0.042013855278530104
+  }
+ }
+}

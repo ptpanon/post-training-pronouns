@@ -1,0 +1,273 @@
+{
+ "table": "TUR_D2",
+ "ciktilar": [
+  "TUR_D2.tex",
+  "TUR_CUMLE.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/v97_q4_turn_2026-09-21.json",
+   "sha256_16": "58193a070d6a7536"
+  }
+ ],
+ "payda": {
+  "n_model": 16,
+  "n_satir_bacak": 1632,
+  "sayim": {
+   "TUM": {
+    "M1_1k": {
+     "asagi": 15,
+     "yukari": 0,
+     "null": 1
+    },
+    "IS1_1k": {
+     "asagi": 15,
+     "yukari": 0,
+     "null": 1
+    },
+    "duz_M1_1k": {
+     "asagi": 14,
+     "yukari": 0,
+     "null": 2
+    },
+    "duz_IS1_1k": {
+     "asagi": 13,
+     "yukari": 0,
+     "null": 3
+    },
+    "duz_M1_cumle": {
+     "asagi": 13,
+     "yukari": 0,
+     "null": 3
+    },
+    "duz_IS1_cumle": {
+     "asagi": 13,
+     "yukari": 0,
+     "null": 3
+    }
+   },
+   "TUR_BLOG": {
+    "M1_1k": {
+     "asagi": 15,
+     "yukari": 0,
+     "null": 1
+    },
+    "IS1_1k": {
+     "asagi": 16,
+     "yukari": 0,
+     "null": 0
+    },
+    "duz_M1_1k": {
+     "asagi": 15,
+     "yukari": 0,
+     "null": 1
+    },
+    "duz_IS1_1k": {
+     "asagi": 11,
+     "yukari": 0,
+     "null": 5
+    },
+    "duz_M1_cumle": {
+     "asagi": 13,
+     "yukari": 0,
+     "null": 3
+    },
+    "duz_IS1_cumle": {
+     "asagi": 10,
+     "yukari": 0,
+     "null": 6
+    }
+   },
+   "TUR_FORUM": {
+    "M1_1k": {
+     "asagi": 12,
+     "yukari": 0,
+     "null": 4
+    },
+    "IS1_1k": {
+     "asagi": 13,
+     "yukari": 0,
+     "null": 3
+    },
+    "duz_M1_1k": {
+     "asagi": 10,
+     "yukari": 1,
+     "null": 5
+    },
+    "duz_IS1_1k": {
+     "asagi": 10,
+     "yukari": 0,
+     "null": 6
+    },
+    "duz_M1_cumle": {
+     "asagi": 9,
+     "yukari": 2,
+     "null": 5
+    },
+    "duz_IS1_cumle": {
+     "asagi": 9,
+     "yukari": 0,
+     "null": 7
+    }
+   },
+   "TUR_NASIL": {
+    "M1_1k": {
+     "asagi": 12,
+     "yukari": 0,
+     "null": 4
+    },
+    "IS1_1k": {
+     "asagi": 15,
+     "yukari": 0,
+     "null": 1
+    },
+    "duz_M1_1k": {
+     "asagi": 12,
+     "yukari": 0,
+     "null": 4
+    },
+    "duz_IS1_1k": {
+     "asagi": 15,
+     "yukari": 0,
+     "null": 1
+    },
+    "duz_M1_cumle": {
+     "asagi": 12,
+     "yukari": 0,
+     "null": 4
+    },
+    "duz_IS1_cumle": {
+     "asagi": 14,
+     "yukari": 1,
+     "null": 1
+    }
+   },
+   "TUR_NOTICE": {
+    "M1_1k": {
+     "asagi": 15,
+     "yukari": 0,
+     "null": 1
+    },
+    "IS1_1k": {
+     "asagi": 14,
+     "yukari": 0,
+     "null": 2
+    },
+    "duz_M1_1k": {
+     "asagi": 15,
+     "yukari": 0,
+     "null": 1
+    },
+    "duz_IS1_1k": {
+     "asagi": 12,
+     "yukari": 0,
+     "null": 4
+    },
+    "duz_M1_cumle": {
+     "asagi": 15,
+     "yukari": 0,
+     "null": 1
+    },
+    "duz_IS1_cumle": {
+     "asagi": 13,
+     "yukari": 0,
+     "null": 3
+    }
+   }
+  },
+  "plasebo": {
+   "TUM": {
+    "M1_1k": 14,
+    "IS1_1k": 14,
+    "duz_M1_1k": 12,
+    "duz_IS1_1k": 12,
+    "duz_M1_cumle": 11,
+    "duz_IS1_cumle": 12
+   },
+   "TUR_BLOG": {
+    "M1_1k": 11,
+    "IS1_1k": 13,
+    "duz_M1_1k": 12,
+    "duz_IS1_1k": 9,
+    "duz_M1_cumle": 12,
+    "duz_IS1_cumle": 8
+   },
+   "TUR_FORUM": {
+    "M1_1k": 10,
+    "IS1_1k": 10,
+    "duz_M1_1k": 9,
+    "duz_IS1_1k": 9,
+    "duz_M1_cumle": 8,
+    "duz_IS1_cumle": 8
+   },
+   "TUR_NASIL": {
+    "M1_1k": 10,
+    "IS1_1k": 14,
+    "duz_M1_1k": 9,
+    "duz_IS1_1k": 13,
+    "duz_M1_cumle": 10,
+    "duz_IS1_cumle": 11
+   },
+   "TUR_NOTICE": {
+    "M1_1k": 13,
+    "IS1_1k": 13,
+    "duz_M1_1k": 11,
+    "duz_IS1_1k": 11,
+    "duz_M1_cumle": 10,
+    "duz_IS1_cumle": 10
+   }
+  },
+  "uyum_pay": {
+   "taban": {
+    "TUR_BLOG": 0.6808,
+    "TUR_FORUM": 0.0066,
+    "TUR_NASIL": 0.292,
+    "TUR_NOTICE": 0.0861
+   },
+   "hizali": {
+    "TUR_BLOG": 0.5069,
+    "TUR_FORUM": 0.0015,
+    "TUR_NASIL": 0.5222,
+    "TUR_NOTICE": 0.074
+   }
+  },
+  "uyum_kayma": {
+   "TUR_BLOG": [
+    0.5069,
+    2.6,
+    0.4809
+   ],
+   "TUR_FORUM": [
+    0.0015,
+    0.06,
+    0.001
+   ],
+   "TUR_NASIL": [
+    0.5222,
+    8.58,
+    0.4364
+   ],
+   "TUR_NOTICE": [
+    0.074,
+    2.72,
+    0.0468
+   ]
+  },
+  "havuz": {
+   "taban": {
+    "TUR_BLOG": 0.6504,
+    "TUR_FORUM": 0.0056,
+    "TUR_NASIL": 0.2717,
+    "TUR_NOTICE": 0.0723
+   },
+   "hizali": {
+    "TUR_BLOG": 0.4874,
+    "TUR_FORUM": 0.0011,
+    "TUR_NASIL": 0.4579,
+    "TUR_NOTICE": 0.0536
+   }
+  },
+  "prereg": "preregistration/prereg_v97_q4_turn_2026-09-20.md"
+ },
+ "note": "renders the descriptive genre-fixed card; no statistic computed here"
+}

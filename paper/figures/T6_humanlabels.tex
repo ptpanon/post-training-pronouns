@@ -1,0 +1,16 @@
+\begin{table}[tb]\centering\small
+\caption{\textbf{The correction counter against a human labeller.} Forty counter-flagged sentences, drawn balanced across three substrates and across the counter's own two decisions, labelled by one person under a single three-way question: does this sentence correct a claim, and is the correction aimed at the reader or at the claim. \textsc{precision}: the share the labeller agreed were corrections at all. \textsc{impersonal}: among those, the share aimed at the claim. Two items were set to \textsc{no-context} because the package showed one sentence and the deictic reached back into the previous one (one returned unlabelled, one labelled with that note). They leave the denominator by name. Intervals are Wilson $95\%$. Recall is \emph{not} measurable here: every item was already flagged by the counter.}\label{tab:humanlabels}
+\begin{tabular}{lrrrcrrc}
+\toprule
+substrate & $n$ & \multicolumn{3}{c}{precision} & \multicolumn{3}{c}{impersonal share} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+ & & count & rate & 95\% CI & count & rate & 95\% CI \\
+\midrule
+aligned assistant & 12 & 11/12 & 0.92 & [0.65, 0.99] & 10/11 & 0.91 & [0.62, 0.98] \\
+online debate & 14 & 10/14 & 0.71 & [0.45, 0.88] & 8/10 & 0.80 & [0.49, 0.94] \\
+courtroom argument & 14 & 5/12 & 0.42 & [0.19, 0.68] & 4/5 & 0.80 & [0.38, 0.96] \\
+\midrule
+pooled & 40 & 26/38 & 0.68 & [0.53, 0.81] & 22/26 & 0.85 & [0.66, 0.94] \\
+\bottomrule
+\end{tabular}
+\end{table}

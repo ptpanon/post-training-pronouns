@@ -1,0 +1,850 @@
+{
+ "sinif": "SAYIM · card",
+ "rule": "preregistration/rule_v90_failed_count_2026-09-17.md @ ec8e80aa",
+ "kagit": "p11.tex @ 05193854",
+ "kaynak": {
+  "sayim": "failed_tahmin_count_v2_2026-09-17.json",
+  "sayim_sha16": "43977d5caa86abb8",
+  "ozet": "failed_tahmin_count_v2_abstract_2026-09-17.json",
+  "ozet_sha16": "d569d73f92afeef8"
+ },
+ "N": 32,
+ "M": 19,
+ "T": 46,
+ "n_islemsel": 2,
+ "islemsel": {
+  "F5-16": [
+   "BF5-7"
+  ],
+  "E799": [
+   "PB-5"
+  ]
+ },
+ "n_taban": 2,
+ "taban": {
+  "RLVR OLMo-2-7B": [
+   "BR-3"
+  ],
+  "P-ÖLCEK3": [
+   "SAHIP-HIPOTEZI"
+  ]
+ },
+ "dipnot": [
+  {
+   "kayit_ic_ad": "R2",
+   "kayit_en": "the injected-needle control",
+   "n": 1,
+   "neden": "No line of p11.tex@05193854 names VERDICT_R2_ACILIS or states the result; the paragraph was cut in 33ec7786."
+  },
+  {
+   "kayit_ic_ad": "PREREG-8",
+   "kayit_en": "a six-counter reading of three training ladders",
+   "n": 1,
+   "neden": "The seal is named only (not its result document): beside the counter definitions (263, 1532), beside a general intro claim (196) and beside the M3-share paragraph whose numbers come from the 16-family panel (1855). Its own outcome (three SFT→RL ladders, B8a) is not stated in the text. Judgment call — same reading as the 2026-09-14 count."
+  }
+ ],
+ "alinti_kapisi": {
+  "toplam": 731,
+  "ok": 731,
+  "tutmayan": [],
+  "yurutucu_yeniden": "731/731 (dogrula.py, 2026-09-17, yürütücü kosusu)"
+ },
+ "eski_sayim": "25 · 19 · 46 (SAYIM_DUSEN_PREDICTION_2026-09-14, v52)",
+ "fark_satir_satir": [
+  {
+   "kayit": "PREREG-9",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "PREREG-URIAL",
+   "eski": [
+    1,
+    1,
+    3
+   ],
+   "yeni": [
+    1,
+    1,
+    3
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "M-SISTEM-2",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "V61 → V61-MERDIVEN + V61-PUANLAMA",
+   "eski": [
+    1,
+    1,
+    2
+   ],
+   "yeni": [
+    2,
+    2,
+    2
+   ],
+   "neden": "Karar 1: iki prereg dosyasi ⇒ iki kayit; her birinde 1 esasli düsen."
+  },
+  {
+   "kayit": "KISI KADRANI",
+   "eski": [
+    1,
+    1,
+    4
+   ],
+   "yeni": [
+    1,
+    1,
+    4
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "KK-2",
+   "eski": [
+    1,
+    1,
+    4
+   ],
+   "yeni": [
+    1,
+    1,
+    4
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "KK-3F",
+   "eski": [
+    1,
+    1,
+    3
+   ],
+   "yeni": [
+    1,
+    1,
+    3
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "SimPO",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "YARGIC-IMZASI-2",
+   "eski": [
+    1,
+    1,
+    3
+   ],
+   "yeni": [
+    1,
+    1,
+    3
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "FORM-SAYIM",
+   "eski": [
+    1,
+    1,
+    8
+   ],
+   "yeni": [
+    1,
+    1,
+    8
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "F5-16",
+   "eski": [
+    1,
+    1,
+    2
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "islemsel düsen disarida: BF5-7"
+  },
+  {
+   "kayit": "D2V2-N",
+   "eski": [
+    1,
+    1,
+    2
+   ],
+   "yeni": [
+    1,
+    1,
+    2
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "R2",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    0,
+    0,
+    0
+   ],
+   "neden": "K2 yok ⇒ dipnot"
+  },
+  {
+   "kayit": "E-YALINLIK",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "E799",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "islemsel düsen disarida: PB-5"
+  },
+  {
+   "kayit": "D2",
+   "eski": [
+    1,
+    1,
+    2
+   ],
+   "yeni": [
+    1,
+    1,
+    2
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "C3",
+   "eski": [
+    1,
+    1,
+    2
+   ],
+   "yeni": [
+    1,
+    1,
+    2
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "P7-ÖLCEK2",
+   "eski": [
+    1,
+    1,
+    4
+   ],
+   "yeni": [
+    1,
+    1,
+    4
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "RLVR OLMo-2-7B",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "taban beyani disarida: BR-3"
+  },
+  {
+   "kayit": "ACI",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "YETENEK",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "PREREG-9b",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "D-DPO-DELTA",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "P-ÖLCEK3",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "MERDIVEN-TEMPLATE",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "YARGIC-IMZASI-1",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    1,
+    3
+   ],
+   "neden": "girdi: eski-evren-disi; SAYILIR-DUSENLI"
+  },
+  {
+   "kayit": "KK3T2",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "girdi: yeni; SAYILIR-DUSENSIZ"
+  },
+  {
+   "kayit": "KK3T3",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "girdi: yeni; SAYILIR-DUSENSIZ"
+  },
+  {
+   "kayit": "KISI_SEED23",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "girdi: yeni; SAYILIR-DUSENSIZ"
+  },
+  {
+   "kayit": "SEED_UC_AILE",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "girdi: yeni; SAYILIR-DUSENSIZ"
+  },
+  {
+   "kayit": "YETENEK_SAHISSIZ",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "girdi: yeni; SAYILIR-DUSENSIZ"
+  },
+  {
+   "kayit": "TERAZI (KOL-GECESI)",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "girdi: karar6-ek; SAYILIR-DUSENLI"
+  }
+ ],
+ "kapsam_kararlari": [
+  {
+   "no": 1,
+   "karar": "V61: iki prereg dosyasi (PREREG_V61_MERDIVEN, PREREG_V61_PUANLAMA) ⇒ iki kayit (§1 birim = prereg).",
+   "etki": "N +1, M +1, T 0"
+  },
+  {
+   "no": 2,
+   "karar": "",
+   "etki": "sayima girmez"
+  },
+  {
+   "no": 3,
+   "karar": "PREREG-8",
+   "etki": "dipnot +1"
+  },
+  {
+   "no": 4,
+   "karar": "YARGIC-IMZASI-1",
+   "etki": "N +1, M +1, T +3"
+  },
+  {
+   "no": 5,
+   "karar": "",
+   "etki": "sayima girmez; toplam yazili esasli düsen 4 (✗ sayilirsa 8)"
+  },
+  {
+   "no": 6,
+   "karar": "",
+   "etki": "N +1, M +1, T +1 (TERAZI)"
+  },
+  {
+   "no": "7-okuma",
+   "karar": "TERAZI",
+   "etki": "hassasiyet: M 18 · T 45"
+  },
+  {
+   "no": "8-okuma",
+   "karar": "",
+   "etki": "E799 ve RLVR düsensiz; F5-16 T 2→1"
+  },
+  {
+   "no": "9-okuma",
+   "karar": "",
+   "etki": ""
+  }
+ ],
+ "ACIK_OKUMALAR": [
+  "TERAZI",
+  "FORM-SAYIM PF-4 islemsel sayilsaydi T 45"
+ ],
+ "satirlar": [
+  {
+   "i": 1,
+   "kayit_ic_ad": "PREREG-9",
+   "kayit_en": "the registered bare-prompt direction of the second person (Depersonalization, $M_1$)",
+   "n_dusen": 1,
+   "dusen_bahisler": [
+    "B9b"
+   ],
+   "tahmin_en": "The second-person decline would appear only in the Tülu/OLMo lineage (a local pattern).",
+   "olculen_en": "The prediction failed on arm A and could not be measured on arm B.",
+   "serh": null,
+   "kagit_yeri": "§1 Introduction · «What this paper claims, and what it does not.» (p11.tex@05193854:227)",
+   "dogrulandi": true
+  },
+  {
+   "i": 2,
+   "kayit_ic_ad": "PREREG-URIAL",
+   "kayit_en": "the task-matched ground: the neutral panel's prompts inside the URIAL frame",
+   "n_dusen": 3,
+   "dusen_bahisler": [
+    "URIAL-F2",
+    "URIAL-F3",
+    "URIAL-F5"
+   ],
+   "tahmin_en": "On the identical-string comparison, 6–8 families would fall and 2–4 rise with intervals excluding zero, the fallers mostly AI2 and Qwen and every riser Gemma or Llama. The base models' median in the URIAL frame would be 12–18 per thousand.",
+   "olculen_en": "10 families fell and 6 rose, both outside their bands; 9/10 fallers were AI2 or Qwen, but one riser, OLMo-3-7B (AI2), was neither Gemma nor Llama. The base median was 20.13.",
+   "serh": "scored on the 1,024-token card",
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · The task-matched ground · «With the task held fixed.» (p11.tex@05193854:2187)",
+   "dogrulandi": true
+  },
+  {
+   "i": 3,
+   "kayit_ic_ad": "M-SISTEM-2",
+   "kayit_en": "the default system line, present or absent inside the same string",
+   "n_dusen": 1,
+   "dusen_bahisler": [
+    "F-MS2-2"
+   ],
+   "tahmin_en": "Among the interval-disjoint families, the signs of the shift would be indistinguishable from random (sign agreement u below 0.543).",
+   "olculen_en": "Sign agreement measured u = 0.5565, above the 0.543 bar.",
+   "serh": null,
+   "kagit_yeri": "§3 What alignment does: depersonalization · «Given the task, the addressee splits by recipe.» (p11.tex@05193854:354)",
+   "dogrulandi": true
+  },
+  {
+   "i": 4,
+   "kayit_ic_ad": "V61-MERDIVEN",
+   "kayit_en": "two ladders outside the AI2 and Zephyr recipes (SmolLM2-1.7B, NeuralHermes-2.5)",
+   "n_dusen": 1,
+   "dusen_bahisler": [
+    "F-V61-1a"
+   ],
+   "tahmin_en": "On both the SmolLM2 and Hermes ladders the outcome would be the one named «same step».",
+   "olculen_en": "Both ladders read «different step»: the supervised step moved −3.3356 (SmolLM2-1.7B) and −5.4761 (NeuralHermes-2.5) with intervals excluding zero, the preference step +0.0740 and +0.1497 with intervals covering zero.",
+   "serh": null,
+   "kagit_yeri": "§4 Which step carries it depends on the protocol, and differs between the ladders we can read · «How the steps share it follows the recipe: the second case.» (p11.tex@05193854:446)",
+   "dogrulandi": true
+  },
+  {
+   "i": 5,
+   "kayit_ic_ad": "V61-PUANLAMA",
+   "kayit_en": "re-scoring person-swapped responses with two public reward models",
+   "n_dusen": 1,
+   "dusen_bahisler": [
+    "F-V61-2a"
+   ],
+   "tahmin_en": "Both reward-model scorers would read as penalising.",
+   "olculen_en": "Both scorers read as rewarding (Δ = −0.0004 and −0.5971, person-free minus person-marked score).",
+   "serh": null,
+   "kagit_yeri": "§5 The data's tilt accounts for a minority of it, and a dial can · «The data leans away from persons; two reward models do not.» (p11.tex@05193854:498)",
+   "dogrulandi": true
+  },
+  {
+   "i": 6,
+   "kayit_ic_ad": "KISI KADRANI",
+   "kayit_en": "the person dial (four arms of 7,537 preference pairs selected on person marking)",
+   "n_dusen": 4,
+   "dusen_bahisler": [
+    "Q5",
+    "Q7",
+    "Q8",
+    "Q9"
+   ],
+   "tahmin_en": "The unselected arm's shift against the supervised checkpoint would be −1.0 to −2.5. On the person arms force would separate from the persons, the force-selected arm would not train force at this dose, and the embedding estimator would move less than 1 null-sd in every arm.",
+   "olculen_en": "The layer-separation, force-below-dose and embedding-band predictions all failed on the same measurement, so the dial is a register dial rather than a person dial; the unselected arm's actual shift was +0.225.",
+   "serh": null,
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · The dial · «The dial.» (p11.tex@05193854:2698)",
+   "dogrulandi": true
+  },
+  {
+   "i": 7,
+   "kayit_ic_ad": "KK-2",
+   "kayit_en": "a third targeted run on minimal pairs built by exchanging a single determiner",
+   "n_dusen": 4,
+   "dusen_bahisler": [
+    "Q3",
+    "Q5",
+    "Q8",
+    "Q9"
+   ],
+   "tahmin_en": "On the minimal-pair arms the mean dial magnitude would be 3.0–5.5 per thousand, force would move at z 2.0–6.0 on the person arms, and the downward shift would exceed the upward one. The embedding estimator would move less than 1 null-sd in every arm.",
+   "olculen_en": "The dial size, the force z, the down-over-up asymmetry and the embedding-estimator band were each scored as not holding.",
+   "serh": "arms below the degeneracy shelf; magnitudes not read",
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · The dial · «A third targeted run, and why it could not answer the dose question.» (p11.tex@05193854:2762)",
+   "dogrulandi": true
+  },
+  {
+   "i": 8,
+   "kayit_ic_ad": "KK-3F",
+   "kayit_en": "pairs without person content",
+   "n_dusen": 3,
+   "dusen_bahisler": [
+    "F-KK3F-1",
+    "F-KK3F-2",
+    "F-KK3F-3"
+   ],
+   "tahmin_en": "The arm trained on pairs without person difference would not withdraw (the first-ranked of 7 outcomes, at 0.34), and it would withdraw less than the neutral arm, with a shift above −1.1224.",
+   "olculen_en": "The arm withdrew (the outcome given 0.26), with a shift of −1.2041; the ranking's Brier score was 0.774.",
+   "serh": null,
+   "kagit_yeri": "§5 The data's tilt accounts for a minority of it, and a dial can · «Dose, not direction.» (p11.tex@05193854:516)",
+   "dogrulandi": true
+  },
+  {
+   "i": 9,
+   "kayit_ic_ad": "SimPO",
+   "kayit_en": "the reference-free objective: released DPO and SimPO checkpoints from one supervised base",
+   "n_dusen": 1,
+   "dusen_bahisler": [
+    "F-SIMPO-2"
+   ],
+   "tahmin_en": "From the same supervised base, the SimPO step would withdraw less than the DPO step, with non-overlapping intervals.",
+   "olculen_en": "The SimPO step was larger than the DPO step; the DPO reference step read «same sign» and no leg fell below the degeneracy shelf, so the prediction was scorable.",
+   "serh": null,
+   "kagit_yeri": "Appendix A Reproducibility details · Limitations in detail · «What the dial does not separate.» (p11.tex@05193854:917)",
+   "dogrulandi": true
+  },
+  {
+   "i": 10,
+   "kayit_ic_ad": "YARGIC-IMZASI-2",
+   "kayit_en": "the scorer fit: a joint fit with first-person density and two surface controls",
+   "n_dusen": 3,
+   "dusen_bahisler": [
+    "Q2",
+    "Q3",
+    "Q5"
+   ],
+   "tahmin_en": "In the joint fit the second-person coefficient would stay between 0.10 and 0.19 in absolute value, its margin over the other controls would fall below 1.5 (a general style penalty), and it would be largest on the helpfulness rating.",
+   "olculen_en": "The coefficient measured 0.1925, 0.0025 above the upper bound; the margin was 3.13; and the largest coefficient fell on instruction following.",
+   "serh": null,
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · Corpora and the scorer · «The three preference corpora, subset by subset, with the sign that reverses.» (p11.tex@05193854:2542)",
+   "dogrulandi": true
+  },
+  {
+   "i": 11,
+   "kayit_ic_ad": "FORM-SAYIM",
+   "kayit_en": "the mechanical form counters (bare imperative, second-person obligation, hedge, interrogative directive, hortative)",
+   "n_dusen": 8,
+   "dusen_bahisler": [
+    "BF-1",
+    "BF-2",
+    "BF-3",
+    "BF-6",
+    "PF-2",
+    "PF-3",
+    "PF-4",
+    "PF-6"
+   ],
+   "tahmin_en": "Aligned models would use fewer bare imperatives (≥4/6 families), more hedges (≥5/6) and more interrogative directives (≥4/6) than their bases, with the bare-imperative drop at the SFT→DPO rung on ≥2/3 ladders. The hedge counter would give the largest, most stable difference, sentences per generation would rise (≥4/6), the intact-only filter would change no cell's outcome, and hortatives would rise and clear the bar in ≥4/6.",
+   "olculen_en": "Against thresholds of 4, 5, 2 and 4, the first set measured 2/6, 1/6, 0/3 and 1/6; the second set measured 1, 3, 29 and 2 against thresholds of 4, 4, 30 and 4.",
+   "serh": null,
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · Instruments and setup · «(iv) Two prompt protocols, bare and templated.» (p11.tex@05193854:1453)",
+   "dogrulandi": true
+  },
+  {
+   "i": 12,
+   "kayit_ic_ad": "F5-16",
+   "kayit_en": "the reading cascade: identical text scored under a real and a matched pseudo-neutral context",
+   "n_dusen": 1,
+   "dusen_bahisler": [
+    "BF5-2"
+   ],
+   "tahmin_en": "On the CMV substrate, the share of families whose interpersonal-command channel separates positively would lie between 0.375 and 0.625.",
+   "olculen_en": "The CMV share measured 0.333.",
+   "serh": null,
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · Multiplicity and limits · «Exploratory profile map and reading cascade, in brief.» (p11.tex@05193854:2880)",
+   "dogrulandi": true
+  },
+  {
+   "i": 13,
+   "kayit_ic_ad": "D2V2-N",
+   "kayit_en": "injecting the pre-specified weight-space dominance direction",
+   "n_dusen": 2,
+   "dusen_bahisler": [
+    "BDN-4",
+    "BDN-5"
+   ],
+   "tahmin_en": "For Tülu-8B and Zephyr-7B, the dominance-direction arm would register movement along that direction («on-axis»).",
+   "olculen_en": "Both read «off-axis»: the movement registered outside the dominance direction rather than along it.",
+   "serh": null,
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · Ladders · «Gradients: the direction we could build does not behave like the» (p11.tex@05193854:2328)",
+   "dogrulandi": true
+  },
+  {
+   "i": 14,
+   "kayit_ic_ad": "E-YALINLIK",
+   "kayit_en": "the grammatical mood swap: rule-based imperative–request minimal pairs under a short and a long frame",
+   "n_dusen": 1,
+   "dusen_bahisler": [
+    "BE-2"
+   ],
+   "tahmin_en": "A dominant-phrased request would register on the command side (the dominant-request trap cell firing) in at least 3 of 6 families.",
+   "olculen_en": "The dominant-request cell fired in 2 of 6 families (0.333).",
+   "serh": null,
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · Instruments and setup · «(ii) Grammatical mood swap.» (p11.tex@05193854:1432)",
+   "dogrulandi": true
+  },
+  {
+   "i": 15,
+   "kayit_ic_ad": "D2",
+   "kayit_en": "undoing the preference delta by interpolation",
+   "n_dusen": 2,
+   "dusen_bahisler": [
+    "BD2-1",
+    "BD2-2"
+   ],
+   "tahmin_en": "The erasure would sit in the single DPO weight delta, so undoing that delta would work on OLMo-2-32B (a monotone curve approaching the base at α = −0.5) and on Zephyr (dSFT→dDPO).",
+   "olculen_en": "On OLMo-2-32B the curve was monotone but did not approach the base, and Zephyr read as scattered.",
+   "serh": null,
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · Ladders · «Undoing the preference delta.» (p11.tex@05193854:2289)",
+   "dogrulandi": true
+  },
+  {
+   "i": 16,
+   "kayit_ic_ad": "C3",
+   "kayit_en": "the behavioural anchor: the supervised weights stepped either way along the dominance direction at a fixed KL budget",
+   "n_dusen": 2,
+   "dusen_bahisler": [
+    "BC3-1",
+    "BC3-2"
+   ],
+   "tahmin_en": "The ruler would show the dominance direction on Zephyr, with both perturbation branches inside the bar, and on Tülu as well.",
+   "olculen_en": "Neither showed it: on Zephyr the plus branch cleared the bar (0.0000) and the minus branch did not (0.2000); on Tülu the branches read 0.3500 and 0.2833.",
+   "serh": null,
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · Multiplicity and limits · «Extended limitations.» (p11.tex@05193854:2928)",
+   "dogrulandi": true
+  },
+  {
+   "i": 17,
+   "kayit_ic_ad": "P7-ÖLCEK2",
+   "kayit_en": "rung-by-rung reading with the embedding estimator",
+   "n_dusen": 4,
+   "dusen_bahisler": [
+    "B1",
+    "B2",
+    "B3",
+    "B5"
+   ],
+   "tahmin_en": "No pair's embedding-estimator interval would lie wholly below 0, the largest shift would fall at an interior rung in every family with at least 3 dense rungs, and Gemma-3-27B's dense pair would show no net erasure. On every OLMo-2 ladder the largest step would be SFT→DPO.",
+   "olculen_en": "OLMo2-32B's base→SFT interval lay wholly below zero ([−0.0347, −0.0048]), the Qwen2.5 maximum fell at the end rung (14B), and Gemma-3-27B moved +0.0314 with an interval excluding zero. The largest OLMo-2 step was SFT→DPO at 13B but DPO→Inst at 32B.",
+   "serh": null,
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · Ladders · «Rungs.» (p11.tex@05193854:2297)",
+   "dogrulandi": true
+  },
+  {
+   "i": 18,
+   "kayit_ic_ad": "YARGIC-IMZASI-1",
+   "kayit_en": "the first scorer fit, whose specificity margin set the later bar",
+   "n_dusen": 3,
+   "dusen_bahisler": [
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "tahmin_en": "The second-person coefficient would stay under the floor, with |β| between 0.005 and 0.050, and the first-person coefficient would be larger in absolute value. The modal-density placebo would not clear the floor.",
+   "olculen_en": "The second-person coefficient measured 0.2116, 4.2 times the predicted ceiling; the first-person coefficient was smaller (0.179 against 0.212); and the placebo prediction did not hold.",
+   "serh": null,
+   "kagit_yeri": "Appendix B Deviations from pre-registration (p11.tex@05193854:1049)",
+   "dogrulandi": true
+  },
+  {
+   "i": 19,
+   "kayit_ic_ad": "TERAZI (KOL-GECESI)",
+   "kayit_en": "the low-dose targeted preference arms (four DPO arms on form-selected pairs)",
+   "n_dusen": 1,
+   "dusen_bahisler": [
+    "B1"
+   ],
+   "tahmin_en": "The dominance-axis shift would follow each arm's direction, negative for imperative-down and positive for imperative-up, with |Δ| above the MDE.",
+   "olculen_en": "Imperative-up came out negative and already below the bar, and no arm exceeded the bar.",
+   "serh": null,
+   "kagit_yeri": "Appendix D Measurements and controls behind the main text · The dial · «A targeted preference run learns its objective and moves nothing.» (p11.tex@05193854:2611)",
+   "dogrulandi": true
+  }
+ ],
+ "damga_utc": "2026-09-17T15:33:00Z"
+}

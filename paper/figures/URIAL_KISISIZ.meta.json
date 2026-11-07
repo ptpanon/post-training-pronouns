@@ -1,0 +1,70 @@
+{
+ "table": "URIAL_KISISIZ",
+ "sources": [
+  {
+   "yol": "results/urial_verdict_2048_x1_2026-09-11.json",
+   "sha256_16": "aab5e5a98e93ff71"
+  },
+  {
+   "yol": "results/urial_verdict_impersonal_x1_2026-09-10.json",
+   "sha256_16": "a2ad53c7a20026ad"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "n_olculen": 16,
+  "bacak_eksik": 0,
+  "kapsam": "OKUNUR",
+  "sayim_kisisiz": {
+   "asagi": 9,
+   "bicim": 1,
+   "ters": 5,
+   "olculemez_kirpma": 1
+  },
+  "sayim_kisili": {
+   "asagi": 12,
+   "bicim": 0,
+   "ters": 4,
+   "olculemez_kirpma": 0
+  },
+  "sayim_eslesen_kisili": {
+   "asagi": 11,
+   "ters": 4,
+   "bicim": 0
+  },
+  "sayim_eslesen_kisisiz": {
+   "asagi": 9,
+   "ters": 5,
+   "bicim": 1
+  },
+  "n_eslesen": 15,
+  "hal_kayma_pozitif": 15,
+  "p_isaret": 6.103515625e-05,
+  "hizali_bacak_ozdes": 15,
+  "donen_aile": [
+   "Llama-3.1-8B",
+   "Llama-3.1-70B"
+  ],
+  "bekleyen": [],
+  "bant_kisili": [
+   19.5976,
+   28.4353
+  ],
+  "bant_kisisiz": [
+   11.6364,
+   21.198
+  ],
+  "ortanca_kisili": 23.3638,
+  "ortanca_kisisiz": 18.0454,
+  "ort_kayma": 6.302106666666666,
+  "dusus_payi_yuzde": 26.731436043233387,
+  "istem_m1_kisisiz": 0.0,
+  "kol_kipi": "x1",
+  "yeniden_okuma": true,
+  "kirpma_max_length": 2048,
+  "olculemez_kirpma": [
+   "Mistral-7B-v0.3"
+  ]
+ },
+ "note": "reads two sealed cards; computes only their difference"
+}

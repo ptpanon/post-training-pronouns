@@ -1,0 +1,37 @@
+{
+ "_kunye": {
+  "alet": "scripts/v62_dolci_person.py",
+  "damga_utc": "2026-09-12T11:49:57Z",
+  "sinif": "KESIFSEL",
+  "repo": "allenai/Dolci-Think-DPO-7B",
+  "yol": "<storage>/huggingface/hub/datasets--allenai--Dolci-Think-DPO-7B/snapshots/f27fa9b8e9f315f01fbc25b4d6d7763e0f6e25cb",
+  "mb": 1391,
+  "cikarici": "mesaj",
+  "seed": 20260829,
+  "n_havuz": 150000,
+  "n_cift": 20000
+ },
+ "ikinci_sahis": {
+  "delta": 0.156180439237989,
+  "ci": [
+   0.09773581277820473,
+   0.2155567635114483
+  ],
+  "okuma": "KARSI"
+ },
+ "birinci_sahis": {
+  "delta": -2.683339601775614,
+  "ci": [
+   -2.816879148463887,
+   -2.552507924830492
+  ],
+  "okuma": "DESTEKLER (secilen daha az kisi)"
+ },
+ "jeton": {
+  "secilen_ort": 2250.8111,
+  "reddedilen_ort": 1754.0737,
+  "secilen_medyan": 1285.0,
+  "reddedilen_medyan": 756.0
+ },
+ "sinir": ""
+}

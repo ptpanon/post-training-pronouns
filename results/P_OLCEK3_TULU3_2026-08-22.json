@@ -1,0 +1,1093 @@
+{
+ "damga_utc": "2026-08-23T00:30:50Z",
+ "prereg": "prereg_scale3_tulu3_2026-08-22.md",
+ "VERDICT": "IMZA-AILEYE-GÖRE",
+ "KARNE_RULE3": {
+  "gecen": 4,
+  "gecmeyen": 0,
+  "rejim_kurulamadi": 0
+ },
+ "rejim_kurulamayan": [],
+ "gecmeyen_cifter": [],
+ "n_cift_gecen": 4,
+ "gecen_cifter": [
+  "Tulu3-8B·taban→SFT",
+  "Tulu3-8B·SFT→DPO",
+  "Tulu3-8B·DPO→RL",
+  "Tulu3-8B·taban→RL"
+ ],
+ "atlanan": [],
+ "ALT_IMZA_AYRIK": false,
+ "ALT_GEMMA_EKLER": false,
+ "ALT_DOM_HIC_BIRIKMEDI": false,
+ "eksenler": [
+  "ARO",
+  "DOM",
+  "TON"
+ ],
+ "VERDICT_ARO": "ARO-TEK-YÖNLÜ-NEG",
+ "ARO": {
+  "gecen": [
+   "Tulu3-8B·taban→SFT",
+   "Tulu3-8B·SFT→DPO",
+   "Tulu3-8B·DPO→RL",
+   "Tulu3-8B·taban→RL"
+  ],
+  "n_gecen": 4,
+  "ayrik_poz": [],
+  "ayrik_neg": [
+   "Tulu3-8B·taban→SFT",
+   "Tulu3-8B·taban→RL"
+  ],
+  "rejim_kurulamadi": [],
+  "adlar": [
+   "ARO-DOKUNULMAMIS",
+   "ARO-IKI-YÖNLÜ",
+   "ARO-TEK-YÖNLÜ-POZ",
+   "ARO-TEK-YÖNLÜ-NEG",
+   "KAPI/ÖLCÜLEMEZ"
+  ]
+ },
+ "SEKIL": {
+  "SEKIL_ASAMA": {
+   "Tulu3-8B": {
+    "uyeler": [
+     "Tulu3-8B·taban→SFT",
+     "Tulu3-8B·SFT→DPO",
+     "Tulu3-8B·DPO→RL"
+    ],
+    "dU": [
+     -0.000863,
+     0.052234,
+     0.009884
+    ],
+    "HAL": "IC-MAKSIMUM",
+    "maksimum": "Tulu3-8B·SFT→DPO",
+    "n": 3
+   }
+  }
+ },
+ "panel": {
+  "Tulu3-8B·taban→SFT": {
+   "tarif": "AI2 Tülu-3 merdiveni — 1. adim (Llama-3.1-8B tabani → SFT)",
+   "POZ_KONTROL": true,
+   "kapi_bos": true,
+   "base": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.031163,
+      "g_x4": 0.075089,
+      "U": 0.043926,
+      "U_CI": [
+       0.033689,
+       0.051703
+      ],
+      "U_sd": 0.004654,
+      "MDE_1645sd": 0.007656,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.00037,
+      "Unull_sd": 0.003232,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.017063,
+      "g_x4": 0.089651,
+      "U": 0.072588,
+      "U_CI": [
+       0.057114,
+       0.079906
+      ],
+      "U_sd": 0.005828,
+      "MDE_1645sd": 0.009587,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000827,
+      "Unull_sd": 0.003065,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.071663,
+      "g_x4": 0.091303,
+      "U": 0.01964,
+      "U_CI": [
+       0.008999,
+       0.030589
+      ],
+      "U_sd": 0.005425,
+      "MDE_1645sd": 0.008923,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000253,
+      "Unull_sd": 0.003305,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.033278,
+     "sd": 0.002217
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.006127,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--meta-llama--Llama-3.1-8B/snapshots/d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "592eb929ef5c3a15",
+     "n_agirlik_dosyasi": 4,
+     "ayirt_edici_alanlar": [
+      "template"
+     ],
+     "config_ayirt_edici_VAR": true,
+     "imza": {
+      "eos": 128001,
+      "tip": "llama",
+      "L": 32,
+      "d": 4096,
+      "orn": true,
+      "template": false
+     }
+    }
+   },
+   "instruct": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.017212,
+      "g_x4": 0.088672,
+      "U": 0.07146,
+      "U_CI": [
+       0.055799,
+       0.081436
+      ],
+      "U_sd": 0.006528,
+      "MDE_1645sd": 0.010739,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000581,
+      "Unull_sd": 0.003804,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.017011,
+      "g_x4": 0.090462,
+      "U": 0.073451,
+      "U_CI": [
+       0.053393,
+       0.087347
+      ],
+      "U_sd": 0.008605,
+      "MDE_1645sd": 0.014155,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000701,
+      "Unull_sd": 0.003984,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.064944,
+      "g_x4": 0.095187,
+      "U": 0.030243,
+      "U_CI": [
+       0.018812,
+       0.041035
+      ],
+      "U_sd": 0.005743,
+      "MDE_1645sd": 0.009447,
+      "AYRIK_POZ": true,
+      "Unull_ort": 0.000222,
+      "Unull_sd": 0.003718,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.034396,
+     "sd": 0.002418
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.039216,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--allenai--Llama-3.1-Tulu-3-8B-SFT/snapshots/f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "d974da9ce120ac19",
+     "n_agirlik_dosyasi": 4,
+     "ayirt_edici_alanlar": [
+      "template"
+     ],
+     "config_ayirt_edici_VAR": true,
+     "imza": {
+      "eos": 128001,
+      "tip": "llama",
+      "L": 32,
+      "d": 4096,
+      "orn": true,
+      "template": true
+     }
+    }
+   },
+   "delta": {
+    "ARO": {
+     "dU": -0.027534,
+     "dU_CI": [
+      -0.039698,
+      -0.012573
+     ],
+     "dU_sd": 0.006745,
+     "MDE_1645sd": 0.011096,
+     "null_sd_kati": 4.082,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": true,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": 0.000211,
+     "dU_plasebo_sd": 0.004023,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": 0.000211,
+     "dU_M": -0.027745,
+     "dU_CI_M": [
+      -0.039909,
+      -0.012784
+     ],
+     "null_sd_kati_M": 4.113,
+     "AYRIK_POZ_M": false,
+     "AYRIK_NEG_M": true,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.0,
+     "AYRIK_POZ_HAM": false,
+     "AYRIK_NEG_HAM": true,
+     "KARAR_TABANI": "null_merkezi"
+    },
+    "DOM": {
+     "dU": -0.000863,
+     "dU_CI": [
+      -0.018581,
+      0.015066
+     ],
+     "dU_sd": 0.008332,
+     "MDE_1645sd": 0.013707,
+     "null_sd_kati": 0.104,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -0.000126,
+     "dU_plasebo_sd": 0.00402,
+     "dU_plasebo_frac": 0.8425,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": -0.000126,
+     "dU_M": -0.000737,
+     "dU_CI_M": [
+      -0.018455,
+      0.015192
+     ],
+     "null_sd_kati_M": 0.089,
+     "AYRIK_POZ_M": false,
+     "AYRIK_NEG_M": false,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.8725,
+     "AYRIK_POZ_HAM": false,
+     "AYRIK_NEG_HAM": false,
+     "KARAR_TABANI": "null_merkezi"
+    },
+    "TON": {
+     "dU": -0.010603,
+     "dU_CI": [
+      -0.02314,
+      0.004164
+     ],
+     "dU_sd": 0.006912,
+     "MDE_1645sd": 0.01137,
+     "null_sd_kati": 1.534,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": false,
+     "CONTINGENT": true,
+     "dU_plasebo_ort": -0.000476,
+     "dU_plasebo_sd": 0.004151,
+     "dU_plasebo_frac": 0.0225,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": -0.000476,
+     "dU_M": -0.010127,
+     "dU_CI_M": [
+      -0.022664,
+      0.00464
+     ],
+     "null_sd_kati_M": 1.465,
+     "AYRIK_POZ_M": false,
+     "AYRIK_NEG_M": false,
+     "CONTINGENT_M": true,
+     "dU_plasebo_frac_M": 0.025,
+     "AYRIK_POZ_HAM": false,
+     "AYRIK_NEG_HAM": false,
+     "KARAR_TABANI": "null_merkezi"
+    }
+   }
+  },
+  "Tulu3-8B·SFT→DPO": {
+   "tarif": "AI2 Tülu-3 merdiveni — 2. adim (SFT→DPO)",
+   "POZ_KONTROL": true,
+   "kapi_bos": true,
+   "base": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.017212,
+      "g_x4": 0.088672,
+      "U": 0.07146,
+      "U_CI": [
+       0.055799,
+       0.081436
+      ],
+      "U_sd": 0.006528,
+      "MDE_1645sd": 0.010739,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000581,
+      "Unull_sd": 0.003804,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.017011,
+      "g_x4": 0.090462,
+      "U": 0.073451,
+      "U_CI": [
+       0.053393,
+       0.087347
+      ],
+      "U_sd": 0.008605,
+      "MDE_1645sd": 0.014155,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000701,
+      "Unull_sd": 0.003984,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.064944,
+      "g_x4": 0.095187,
+      "U": 0.030243,
+      "U_CI": [
+       0.018812,
+       0.041035
+      ],
+      "U_sd": 0.005743,
+      "MDE_1645sd": 0.009447,
+      "AYRIK_POZ": true,
+      "Unull_ort": 0.000222,
+      "Unull_sd": 0.003718,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.034396,
+     "sd": 0.002418
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.039216,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--allenai--Llama-3.1-Tulu-3-8B-SFT/snapshots/f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "d974da9ce120ac19",
+     "n_agirlik_dosyasi": 4,
+     "ayirt_edici_alanlar": [
+      "template"
+     ],
+     "config_ayirt_edici_VAR": true,
+     "imza": {
+      "eos": 128001,
+      "tip": "llama",
+      "L": 32,
+      "d": 4096,
+      "orn": true,
+      "template": true
+     }
+    }
+   },
+   "instruct": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.026664,
+      "g_x4": 0.101596,
+      "U": 0.074932,
+      "U_CI": [
+       0.059554,
+       0.087695
+      ],
+      "U_sd": 0.007161,
+      "MDE_1645sd": 0.01178,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.00054,
+      "Unull_sd": 0.004222,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.004559,
+      "g_x4": 0.025776,
+      "U": 0.021217,
+      "U_CI": [
+       0.006178,
+       0.035816
+      ],
+      "U_sd": 0.007705,
+      "MDE_1645sd": 0.012674,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000197,
+      "Unull_sd": 0.004525,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.084268,
+      "g_x4": 0.140213,
+      "U": 0.055945,
+      "U_CI": [
+       0.037932,
+       0.074789
+      ],
+      "U_sd": 0.00958,
+      "MDE_1645sd": 0.015759,
+      "AYRIK_POZ": true,
+      "Unull_ort": 0.000705,
+      "Unull_sd": 0.004311,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.034129,
+     "sd": 0.002865
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.012255,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--allenai--Llama-3.1-Tulu-3-8B-DPO/snapshots/a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "32642dd452d29b95",
+     "n_agirlik_dosyasi": 4,
+     "ayirt_edici_alanlar": [],
+     "config_ayirt_edici_VAR": false,
+     "imza": {
+      "eos": 128001,
+      "tip": "llama",
+      "L": 32,
+      "d": 4096,
+      "orn": true,
+      "template": true
+     }
+    }
+   },
+   "delta": {
+    "ARO": {
+     "dU": -0.003472,
+     "dU_CI": [
+      -0.019496,
+      0.01004
+     ],
+     "dU_sd": 0.007593,
+     "MDE_1645sd": 0.012491,
+     "null_sd_kati": 0.457,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -4.2e-05,
+     "dU_plasebo_sd": 0.003915,
+     "dU_plasebo_frac": 0.345,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": -4.2e-05,
+     "dU_M": -0.00343,
+     "dU_CI_M": [
+      -0.019454,
+      0.010082
+     ],
+     "null_sd_kati_M": 0.452,
+     "AYRIK_POZ_M": false,
+     "AYRIK_NEG_M": false,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.345,
+     "AYRIK_POZ_HAM": false,
+     "AYRIK_NEG_HAM": false,
+     "KARAR_TABANI": "null_merkezi"
+    },
+    "DOM": {
+     "dU": 0.052234,
+     "dU_CI": [
+      0.033723,
+      0.065715
+     ],
+     "dU_sd": 0.008102,
+     "MDE_1645sd": 0.013329,
+     "null_sd_kati": 6.447,
+     "AYRIK_POZ": true,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -0.000504,
+     "dU_plasebo_sd": 0.004287,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": -0.000504,
+     "dU_M": 0.052738,
+     "dU_CI_M": [
+      0.034227,
+      0.066219
+     ],
+     "null_sd_kati_M": 6.509,
+     "AYRIK_POZ_M": true,
+     "AYRIK_NEG_M": false,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.0,
+     "AYRIK_POZ_HAM": true,
+     "AYRIK_NEG_HAM": false,
+     "KARAR_TABANI": "null_merkezi"
+    },
+    "TON": {
+     "dU": -0.025702,
+     "dU_CI": [
+      -0.044275,
+      -0.00834
+     ],
+     "dU_sd": 0.009262,
+     "MDE_1645sd": 0.015236,
+     "null_sd_kati": 2.775,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": true,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -0.000482,
+     "dU_plasebo_sd": 0.004208,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": -0.000482,
+     "dU_M": -0.02522,
+     "dU_CI_M": [
+      -0.043793,
+      -0.007858
+     ],
+     "null_sd_kati_M": 2.723,
+     "AYRIK_POZ_M": false,
+     "AYRIK_NEG_M": true,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.0,
+     "AYRIK_POZ_HAM": false,
+     "AYRIK_NEG_HAM": true,
+     "KARAR_TABANI": "null_merkezi"
+    }
+   }
+  },
+  "Tulu3-8B·DPO→RL": {
+   "tarif": "AI2 Tülu-3 merdiveni — 3. adim (DPO→RLVR; final Tülu-3-8B)",
+   "POZ_KONTROL": true,
+   "kapi_bos": true,
+   "base": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.026664,
+      "g_x4": 0.101596,
+      "U": 0.074932,
+      "U_CI": [
+       0.059554,
+       0.087695
+      ],
+      "U_sd": 0.007161,
+      "MDE_1645sd": 0.01178,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.00054,
+      "Unull_sd": 0.004222,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.004559,
+      "g_x4": 0.025776,
+      "U": 0.021217,
+      "U_CI": [
+       0.006178,
+       0.035816
+      ],
+      "U_sd": 0.007705,
+      "MDE_1645sd": 0.012674,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000197,
+      "Unull_sd": 0.004525,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.084268,
+      "g_x4": 0.140213,
+      "U": 0.055945,
+      "U_CI": [
+       0.037932,
+       0.074789
+      ],
+      "U_sd": 0.00958,
+      "MDE_1645sd": 0.015759,
+      "AYRIK_POZ": true,
+      "Unull_ort": 0.000705,
+      "Unull_sd": 0.004311,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.034129,
+     "sd": 0.002865
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.012255,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--allenai--Llama-3.1-Tulu-3-8B-DPO/snapshots/a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "32642dd452d29b95",
+     "n_agirlik_dosyasi": 4,
+     "ayirt_edici_alanlar": [],
+     "config_ayirt_edici_VAR": false,
+     "imza": {
+      "eos": 128001,
+      "tip": "llama",
+      "L": 32,
+      "d": 4096,
+      "orn": true,
+      "template": true
+     }
+    }
+   },
+   "instruct": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.022319,
+      "g_x4": 0.100789,
+      "U": 0.07847,
+      "U_CI": [
+       0.059929,
+       0.091905
+      ],
+      "U_sd": 0.008195,
+      "MDE_1645sd": 0.01348,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000514,
+      "Unull_sd": 0.004332,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.002656,
+      "g_x4": 0.013989,
+      "U": 0.011333,
+      "U_CI": [
+       0.000961,
+       0.022008
+      ],
+      "U_sd": 0.005387,
+      "MDE_1645sd": 0.008861,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000127,
+      "Unull_sd": 0.004834,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0125
+     },
+     "TON": {
+      "g_x1": 0.088901,
+      "g_x4": 0.141355,
+      "U": 0.052454,
+      "U_CI": [
+       0.036072,
+       0.06917
+      ],
+      "U_sd": 0.008623,
+      "MDE_1645sd": 0.014185,
+      "AYRIK_POZ": true,
+      "Unull_ort": 0.00058,
+      "Unull_sd": 0.004359,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.034294,
+     "sd": 0.003113
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.007812,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--allenai--Llama-3.1-Tulu-3-8B/snapshots/666943798adbde0b1aff34626007e26986a3c107",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "9fadeb941c2c2c80",
+     "n_agirlik_dosyasi": 4,
+     "ayirt_edici_alanlar": [],
+     "config_ayirt_edici_VAR": false,
+     "imza": {
+      "eos": 128001,
+      "tip": "llama",
+      "L": 32,
+      "d": 4096,
+      "orn": true,
+      "template": true
+     }
+    }
+   },
+   "delta": {
+    "ARO": {
+     "dU": -0.003538,
+     "dU_CI": [
+      -0.016217,
+      0.010423
+     ],
+     "dU_sd": 0.006671,
+     "MDE_1645sd": 0.010974,
+     "null_sd_kati": 0.53,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -2.5e-05,
+     "dU_plasebo_sd": 0.003151,
+     "dU_plasebo_frac": 0.24,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": -2.5e-05,
+     "dU_M": -0.003513,
+     "dU_CI_M": [
+      -0.016192,
+      0.010448
+     ],
+     "null_sd_kati_M": 0.527,
+     "AYRIK_POZ_M": false,
+     "AYRIK_NEG_M": false,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.24,
+     "AYRIK_POZ_HAM": false,
+     "AYRIK_NEG_HAM": false,
+     "KARAR_TABANI": "null_merkezi"
+    },
+    "DOM": {
+     "dU": 0.009884,
+     "dU_CI": [
+      -0.001562,
+      0.0203
+     ],
+     "dU_sd": 0.005599,
+     "MDE_1645sd": 0.009211,
+     "null_sd_kati": 1.765,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -7e-05,
+     "dU_plasebo_sd": 0.003145,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": -7e-05,
+     "dU_M": 0.009954,
+     "dU_CI_M": [
+      -0.001492,
+      0.02037
+     ],
+     "null_sd_kati_M": 1.778,
+     "AYRIK_POZ_M": false,
+     "AYRIK_NEG_M": false,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.0,
+     "AYRIK_POZ_HAM": false,
+     "AYRIK_NEG_HAM": false,
+     "KARAR_TABANI": "null_merkezi"
+    },
+    "TON": {
+     "dU": 0.003491,
+     "dU_CI": [
+      -0.008048,
+      0.016117
+     ],
+     "dU_sd": 0.006149,
+     "MDE_1645sd": 0.010115,
+     "null_sd_kati": 0.568,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": 0.000125,
+     "dU_plasebo_sd": 0.003362,
+     "dU_plasebo_frac": 0.2825,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": 0.000125,
+     "dU_M": 0.003366,
+     "dU_CI_M": [
+      -0.008173,
+      0.015992
+     ],
+     "null_sd_kati_M": 0.547,
+     "AYRIK_POZ_M": false,
+     "AYRIK_NEG_M": false,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.3,
+     "AYRIK_POZ_HAM": false,
+     "AYRIK_NEG_HAM": false,
+     "KARAR_TABANI": "null_merkezi"
+    }
+   }
+  },
+  "Tulu3-8B·taban→RL": {
+   "tarif": "★ UCTAN-UCA — ÖLCEK-2'de EKSIKTI; sekle GIRMEZ (asama=None)",
+   "POZ_KONTROL": true,
+   "kapi_bos": true,
+   "base": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.031163,
+      "g_x4": 0.075089,
+      "U": 0.043926,
+      "U_CI": [
+       0.033689,
+       0.051703
+      ],
+      "U_sd": 0.004654,
+      "MDE_1645sd": 0.007656,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.00037,
+      "Unull_sd": 0.003232,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.017063,
+      "g_x4": 0.089651,
+      "U": 0.072588,
+      "U_CI": [
+       0.057114,
+       0.079906
+      ],
+      "U_sd": 0.005828,
+      "MDE_1645sd": 0.009587,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000827,
+      "Unull_sd": 0.003065,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "TON": {
+      "g_x1": 0.071663,
+      "g_x4": 0.091303,
+      "U": 0.01964,
+      "U_CI": [
+       0.008999,
+       0.030589
+      ],
+      "U_sd": 0.005425,
+      "MDE_1645sd": 0.008923,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000253,
+      "Unull_sd": 0.003305,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.033278,
+     "sd": 0.002217
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.006127,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--meta-llama--Llama-3.1-8B/snapshots/d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "592eb929ef5c3a15",
+     "n_agirlik_dosyasi": 4,
+     "ayirt_edici_alanlar": [
+      "template"
+     ],
+     "config_ayirt_edici_VAR": true,
+     "imza": {
+      "eos": 128001,
+      "tip": "llama",
+      "L": 32,
+      "d": 4096,
+      "orn": true,
+      "template": false
+     }
+    }
+   },
+   "instruct": {
+    "olcum": {
+     "ARO": {
+      "g_x1": 0.022319,
+      "g_x4": 0.100789,
+      "U": 0.07847,
+      "U_CI": [
+       0.059929,
+       0.091905
+      ],
+      "U_sd": 0.008195,
+      "MDE_1645sd": 0.01348,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000514,
+      "Unull_sd": 0.004332,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     },
+     "DOM": {
+      "g_x1": 0.002656,
+      "g_x4": 0.013989,
+      "U": 0.011333,
+      "U_CI": [
+       0.000961,
+       0.022008
+      ],
+      "U_sd": 0.005387,
+      "MDE_1645sd": 0.008861,
+      "AYRIK_POZ": true,
+      "Unull_ort": -0.000127,
+      "Unull_sd": 0.004834,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0125
+     },
+     "TON": {
+      "g_x1": 0.088901,
+      "g_x4": 0.141355,
+      "U": 0.052454,
+      "U_CI": [
+       0.036072,
+       0.06917
+      ],
+      "U_sd": 0.008623,
+      "MDE_1645sd": 0.014185,
+      "AYRIK_POZ": true,
+      "Unull_ort": 0.00058,
+      "Unull_sd": 0.004359,
+      "REJIM": "kuruldu",
+      "frac_null_gecen": 0.0
+     }
+    },
+    "null": {
+     "ort": 0.034294,
+     "sd": 0.003113
+    },
+    "kapi_bos": true,
+    "bos_orani": 0.007812,
+    "n_satir": 6528,
+    "n_kume": 34,
+    "model": "<storage>/huggingface/hub/models--allenai--Llama-3.1-Tulu-3-8B/snapshots/666943798adbde0b1aff34626007e26986a3c107",
+    "kimlik": {
+     "yol": true,
+     "agirlik_izi": "9fadeb941c2c2c80",
+     "n_agirlik_dosyasi": 4,
+     "ayirt_edici_alanlar": [],
+     "config_ayirt_edici_VAR": false,
+     "imza": {
+      "eos": 128001,
+      "tip": "llama",
+      "L": 32,
+      "d": 4096,
+      "orn": true,
+      "template": true
+     }
+    }
+   },
+   "delta": {
+    "ARO": {
+     "dU": -0.034544,
+     "dU_CI": [
+      -0.051947,
+      -0.015825
+     ],
+     "dU_sd": 0.009361,
+     "MDE_1645sd": 0.015399,
+     "null_sd_kati": 3.69,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": true,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": 0.000144,
+     "dU_plasebo_sd": 0.004193,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": 0.000144,
+     "dU_M": -0.034688,
+     "dU_CI_M": [
+      -0.052091,
+      -0.015969
+     ],
+     "null_sd_kati_M": 3.706,
+     "AYRIK_POZ_M": false,
+     "AYRIK_NEG_M": true,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.0,
+     "AYRIK_POZ_HAM": false,
+     "AYRIK_NEG_HAM": true,
+     "KARAR_TABANI": "null_merkezi"
+    },
+    "DOM": {
+     "dU": 0.061255,
+     "dU_CI": [
+      0.044404,
+      0.071533
+     ],
+     "dU_sd": 0.006891,
+     "MDE_1645sd": 0.011335,
+     "null_sd_kati": 8.889,
+     "AYRIK_POZ": true,
+     "AYRIK_NEG": false,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -0.0007,
+     "dU_plasebo_sd": 0.004276,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": -0.0007,
+     "dU_M": 0.061955,
+     "dU_CI_M": [
+      0.045104,
+      0.072233
+     ],
+     "null_sd_kati_M": 8.991,
+     "AYRIK_POZ_M": true,
+     "AYRIK_NEG_M": false,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.0,
+     "AYRIK_POZ_HAM": true,
+     "AYRIK_NEG_HAM": false,
+     "KARAR_TABANI": "null_merkezi"
+    },
+    "TON": {
+     "dU": -0.032814,
+     "dU_CI": [
+      -0.049793,
+      -0.014498
+     ],
+     "dU_sd": 0.008962,
+     "MDE_1645sd": 0.014743,
+     "null_sd_kati": 3.661,
+     "AYRIK_POZ": false,
+     "AYRIK_NEG": true,
+     "CONTINGENT": false,
+     "dU_plasebo_ort": -0.000833,
+     "dU_plasebo_sd": 0.004352,
+     "dU_plasebo_frac": 0.0,
+     "PLASEBO_MERKEZLI": true,
+     "null_merkezi": -0.000833,
+     "dU_M": -0.031981,
+     "dU_CI_M": [
+      -0.04896,
+      -0.013665
+     ],
+     "null_sd_kati_M": 3.568,
+     "AYRIK_POZ_M": false,
+     "AYRIK_NEG_M": true,
+     "CONTINGENT_M": false,
+     "dU_plasebo_frac_M": 0.0,
+     "AYRIK_POZ_HAM": false,
+     "AYRIK_NEG_HAM": true,
+     "KARAR_TABANI": "null_merkezi"
+    }
+   }
+  }
+ },
+ "N_CIFT_BAR": 3,
+ "B_boot": 2000,
+ "K_null": 400,
+ "betik_sha": "2c372dcb749a5d3f",
+ "saniye": 177.8
+}

@@ -1,0 +1,295 @@
+{
+ "rule": "REBUTTAL_CEVAPLAR_2026-09-15.md Q2",
+ "n_aile": 16,
+ "aile": {
+  "Tulu3-8B": {
+   "taban": {
+    "zemin": "taban",
+    "n": 6528,
+    "RET": 7,
+    "ASISTAN": 17,
+    "META": 127,
+    "DEVAM": 6377
+   },
+   "hizali": {
+    "zemin": "rl",
+    "n": 6528,
+    "RET": 0,
+    "ASISTAN": 5,
+    "META": 82,
+    "DEVAM": 6441
+   }
+  },
+  "OLMo2-13B": {
+   "taban": {
+    "zemin": "taban",
+    "n": 6528,
+    "RET": 12,
+    "ASISTAN": 4,
+    "META": 211,
+    "DEVAM": 6301
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 8,
+    "ASISTAN": 1,
+    "META": 235,
+    "DEVAM": 6284
+   }
+  },
+  "OLMo2-32B": {
+   "taban": {
+    "zemin": "taban",
+    "n": 6528,
+    "RET": 11,
+    "ASISTAN": 0,
+    "META": 162,
+    "DEVAM": 6355
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 6,
+    "ASISTAN": 1,
+    "META": 179,
+    "DEVAM": 6342
+   }
+  },
+  "OLMo-3-7B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 18,
+    "ASISTAN": 4,
+    "META": 27,
+    "DEVAM": 6479
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 3,
+    "ASISTAN": 10,
+    "META": 45,
+    "DEVAM": 6470
+   }
+  },
+  "Qwen2.5-1.5B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 15,
+    "ASISTAN": 3,
+    "META": 179,
+    "DEVAM": 6331
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 16,
+    "ASISTAN": 5,
+    "META": 105,
+    "DEVAM": 6402
+   }
+  },
+  "Qwen2.5-3B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 11,
+    "ASISTAN": 1,
+    "META": 102,
+    "DEVAM": 6414
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 2,
+    "ASISTAN": 4,
+    "META": 99,
+    "DEVAM": 6423
+   }
+  },
+  "Qwen2.5-7B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 5,
+    "ASISTAN": 6,
+    "META": 57,
+    "DEVAM": 6460
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 7,
+    "ASISTAN": 5,
+    "META": 158,
+    "DEVAM": 6358
+   }
+  },
+  "Qwen2.5-14B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 29,
+    "ASISTAN": 56,
+    "META": 96,
+    "DEVAM": 6347
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 15,
+    "ASISTAN": 11,
+    "META": 217,
+    "DEVAM": 6285
+   }
+  },
+  "Qwen2.5-32B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 31,
+    "ASISTAN": 6,
+    "META": 81,
+    "DEVAM": 6410
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 30,
+    "ASISTAN": 7,
+    "META": 245,
+    "DEVAM": 6246
+   }
+  },
+  "Qwen2.5-72B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 31,
+    "ASISTAN": 9,
+    "META": 115,
+    "DEVAM": 6373
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 11,
+    "ASISTAN": 4,
+    "META": 230,
+    "DEVAM": 6283
+   }
+  },
+  "Gemma-3-4B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 9,
+    "ASISTAN": 17,
+    "META": 130,
+    "DEVAM": 6372
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 6,
+    "ASISTAN": 58,
+    "META": 174,
+    "DEVAM": 6290
+   }
+  },
+  "Gemma-3-12B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 9,
+    "ASISTAN": 13,
+    "META": 130,
+    "DEVAM": 6376
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 6,
+    "ASISTAN": 99,
+    "META": 260,
+    "DEVAM": 6163
+   }
+  },
+  "Gemma-3-27B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 21,
+    "ASISTAN": 25,
+    "META": 113,
+    "DEVAM": 6369
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 20,
+    "ASISTAN": 69,
+    "META": 106,
+    "DEVAM": 6333
+   }
+  },
+  "Llama-3.1-8B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 7,
+    "ASISTAN": 17,
+    "META": 127,
+    "DEVAM": 6377
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 2,
+    "ASISTAN": 1,
+    "META": 105,
+    "DEVAM": 6420
+   }
+  },
+  "Llama-3.1-70B": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 12,
+    "ASISTAN": 25,
+    "META": 112,
+    "DEVAM": 6379
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 2,
+    "ASISTAN": 6,
+    "META": 91,
+    "DEVAM": 6429
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "taban": {
+    "zemin": "base",
+    "n": 6528,
+    "RET": 9,
+    "ASISTAN": 3,
+    "META": 57,
+    "DEVAM": 6459
+   },
+   "hizali": {
+    "zemin": "instruct",
+    "n": 6528,
+    "RET": 2,
+    "ASISTAN": 5,
+    "META": 57,
+    "DEVAM": 6464
+   }
+  }
+ },
+ "sure_sn": 5.6
+}

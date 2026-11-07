@@ -1,0 +1,908 @@
+{
+ "warriner": {
+  "emir_kisa": {
+   "n": 52,
+   "ort": 5.196250000000001,
+   "CI": [
+    4.9006947115384625,
+    5.48573798076923
+   ],
+   "kapsam_jeton": 0.5294,
+   "kapsam": {
+    "eslesen": 54,
+    "jeton": 102,
+    "satir_bos": 8
+   }
+  },
+  "rica_kisa": {
+   "n": 52,
+   "ort": 5.196250000000001,
+   "CI": [
+    4.9006947115384625,
+    5.48573798076923
+   ],
+   "kapsam_jeton": 0.2432,
+   "kapsam": {
+    "eslesen": 54,
+    "jeton": 222,
+    "satir_bos": 8
+   }
+  },
+  "emir_uzun": {
+   "n": 60,
+   "ort": 5.667458333333333,
+   "CI": [
+    5.584601388888889,
+    5.749015277777779
+   ],
+   "kapsam_jeton": 0.4328,
+   "kapsam": {
+    "eslesen": 174,
+    "jeton": 402,
+    "satir_bos": 0
+   }
+  },
+  "rica_uzun": {
+   "n": 60,
+   "ort": 5.667458333333333,
+   "CI": [
+    5.584601388888889,
+    5.749015277777779
+   ],
+   "kapsam_jeton": 0.3333,
+   "kapsam": {
+    "eslesen": 174,
+    "jeton": 522,
+    "satir_bos": 0
+   }
+  },
+  "ricaw_kisa": {
+   "n": 60,
+   "ort": 5.989,
+   "CI": [
+    5.946218055555555,
+    6.023944444444444
+   ],
+   "kapsam_jeton": 0.4468,
+   "kapsam": {
+    "eslesen": 126,
+    "jeton": 282,
+    "satir_bos": 0
+   }
+  },
+  "ricaw_uzun": {
+   "n": 60,
+   "ort": 5.92345,
+   "CI": [
+    5.898325,
+    5.944152916666666
+   ],
+   "kapsam_jeton": 0.4227,
+   "kapsam": {
+    "eslesen": 246,
+    "jeton": 582,
+    "satir_bos": 0
+   }
+  },
+  "baskin_rica": {
+   "n": 60,
+   "ort": 5.122694444444445,
+   "CI": [
+    5.001238194444444,
+    5.239261111111111
+   ],
+   "kapsam_jeton": 0.3333,
+   "kapsam": {
+    "eslesen": 114,
+    "jeton": 342,
+    "satir_bos": 0
+   }
+  },
+  "yumusak_emir": {
+   "n": 60,
+   "ort": 5.688625,
+   "CI": [
+    5.605661111111112,
+    5.770298611111111
+   ],
+   "kapsam_jeton": 0.4328,
+   "kapsam": {
+    "eslesen": 174,
+    "jeton": 402,
+    "satir_bos": 0
+   }
+  }
+ },
+ "OLCUM_3": "★ ÖNCÜL-DÜSTÜ — R2 aktivasyon probu diske yazilmamis",
+ "havuz": {
+  "n_dortlu": 60,
+  "ek": "when you have a moment",
+  "hucreler": [
+   "emir_kisa",
+   "rica_kisa",
+   "emir_uzun",
+   "rica_uzun",
+   "baskin_rica",
+   "yumusak_emir"
+  ]
+ },
+ "ornek": {
+  "emir_kisa": "Talk down to them.",
+  "rica_kisa": "Could you talk down to them?",
+  "emir_uzun": "Talk down to them when you have a moment.",
+  "rica_uzun": "Could you talk down to them when you have a moment?",
+  "ricaw_kisa": "Would you mind talking down to them?",
+  "ricaw_uzun": "Would you mind talking down to them when you have a moment?",
+  "baskin_rica": "I need you to talk down to them.",
+  "yumusak_emir": "Talk down to them, if you feel like it."
+ },
+ "aile": {
+  "Qwen2.5-1.5B": {
+   "aile": "Qwen2.5-1.5B",
+   "AD": "YALINLIK-TASIR",
+   "AD_TUZAK": "BASKIN-RICA-VURMAZ",
+   "ort": {
+    "kisa": -0.45104952653249103,
+    "uzun": 0.006101977825164795,
+    "emir": 0.38673172394434613,
+    "rica": -0.07041978041330973
+   },
+   "CI": {
+    "kip_kisa": [
+     -0.8508625824252763,
+     -0.07104503204425182
+    ],
+    "kip_uzun": [
+     -0.0734344216187795,
+     0.08450939625501622
+    ],
+    "uzunluk_emir": [
+     0.07187614172697068,
+     0.725093206266562
+    ],
+    "uzunluk_rica": [
+     -0.11411447912454606,
+     -0.023161836465199793
+    ]
+   },
+   "kip_ayrik": false,
+   "uzunluk_ayrik": true,
+   "D_ort": {
+    "emir_kisa": -0.2999261379241943,
+    "rica_kisa": 0.15112338860829672,
+    "emir_uzun": 0.08680558602015177,
+    "rica_uzun": 0.08070360819498698,
+    "ricaw_kisa": 0.2537768125534058,
+    "ricaw_uzun": 0.14217023849487304,
+    "baskin_rica": 0.14800810813903809,
+    "yumusak_emir": 0.088438614209493
+   },
+   "kip_ikincil": {
+    "kisa": -0.5537029504776001,
+    "uzun": -0.05536465247472127,
+    "CI_kisa": [
+     -0.9584825946887334,
+     -0.16158045371373528
+    ],
+    "CI_uzun": [
+     -0.13016483316818875,
+     0.020966763595739936
+    ]
+   },
+   "jeton_ort": {
+    "emir_kisa": 3.4,
+    "rica_kisa": 5.0,
+    "emir_uzun": 8.4,
+    "rica_uzun": 10.0,
+    "ricaw_kisa": 6.4,
+    "ricaw_uzun": 11.4,
+    "baskin_rica": 7.0,
+    "yumusak_emir": 9.4
+   },
+   "tuzak": {
+    "baskin_rica_CI": [
+     -0.4214102134108544,
+     -0.031353103667497696
+    ],
+    "yumusak_emir_CI": [
+     -0.3255361952881018,
+     -0.009677249640226367
+    ],
+    "emir_yonu": -1.0
+   },
+   "n_dortlu": 60,
+   "sn": 28.0
+  },
+  "Zephyr-7B": {
+   "aile": "Zephyr-7B",
+   "AD": "YALINLIK-TASIR",
+   "AD_TUZAK": "BASKIN-RICA-VURUR",
+   "ort": {
+    "kisa": -0.20073647499084474,
+    "uzun": -0.054317291577657065,
+    "emir": -0.37355499267578124,
+    "rica": -0.5199741760889689
+   },
+   "CI": {
+    "kip_kisa": [
+     -0.320226305325826,
+     -0.08405565321445471
+    ],
+    "kip_uzun": [
+     -0.13340644170840582,
+     0.02020859907070793
+    ],
+    "uzunluk_emir": [
+     -0.43503704597552617,
+     -0.31589459170897805
+    ],
+    "uzunluk_rica": [
+     -0.6073632537325223,
+     -0.4359142535924912
+    ]
+   },
+   "kip_ayrik": false,
+   "uzunluk_ayrik": true,
+   "D_ort": {
+    "emir_kisa": 0.6947215080261231,
+    "rica_kisa": 0.8954579830169678,
+    "emir_uzun": 0.3211665153503418,
+    "rica_uzun": 0.3754838069279989,
+    "ricaw_kisa": 0.5835275491078694,
+    "ricaw_uzun": 0.23848207791646323,
+    "baskin_rica": 0.1995551586151123,
+    "yumusak_emir": 0.37079634666442873
+   },
+   "kip_ikincil": {
+    "kisa": 0.11119395891825358,
+    "uzun": 0.08268443743387859,
+    "CI_kisa": [
+     0.050598593751589455,
+     0.17224168082078295
+    ],
+    "CI_uzun": [
+     0.035555677711963656,
+     0.13469637135664622
+    ]
+   },
+   "jeton_ort": {
+    "emir_kisa": 5.0,
+    "rica_kisa": 6.2,
+    "emir_uzun": 10.0,
+    "rica_uzun": 11.2,
+    "ricaw_kisa": 7.8,
+    "ricaw_uzun": 12.8,
+    "baskin_rica": 8.2,
+    "yumusak_emir": 11.0
+   },
+   "tuzak": {
+    "baskin_rica_CI": [
+     0.5275375596682231,
+     0.6641136572758357
+    ],
+    "yumusak_emir_CI": [
+     0.3574287798007329,
+     0.49385008354981735
+    ],
+    "emir_yonu": -1.0
+   },
+   "n_dortlu": 60,
+   "sn": 28.7
+  },
+  "Falcon-H1-7B": {
+   "aile": "Falcon-H1-7B",
+   "AD": "IKISI-DE",
+   "AD_TUZAK": "BASKIN-RICA-VURUR",
+   "ort": {
+    "kisa": -0.9493611137072245,
+    "uzun": -0.13768123388290404,
+    "emir": -0.4112837870915731,
+    "rica": -1.2229636669158936
+   },
+   "CI": {
+    "kip_kisa": [
+     -1.2333529792229334,
+     -0.6716487376888594
+    ],
+    "kip_uzun": [
+     -0.22367944349845248,
+     -0.053486379086971396
+    ],
+    "uzunluk_emir": [
+     -0.6364504118760427,
+     -0.20394573648770653
+    ],
+    "uzunluk_rica": [
+     -1.3707015670339266,
+     -1.0740407275160153
+    ]
+   },
+   "kip_ayrik": true,
+   "uzunluk_ayrik": true,
+   "D_ort": {
+    "emir_kisa": 0.8991445660591125,
+    "rica_kisa": 1.848505679766337,
+    "emir_uzun": 0.4878607789675395,
+    "rica_uzun": 0.6255420128504435,
+    "ricaw_kisa": 0.9395151813824971,
+    "ricaw_uzun": 0.4251395980517069,
+    "baskin_rica": 0.7592445453008015,
+    "yumusak_emir": 0.3031606594721476
+   },
+   "kip_ikincil": {
+    "kisa": -0.0403706153233846,
+    "uzun": 0.06272118091583252,
+    "CI_kisa": [
+     -0.3054164473215739,
+     0.24232104301452626
+    ],
+    "CI_uzun": [
+     -0.034113093713919324,
+     0.16008176227410625
+    ]
+   },
+   "jeton_ort": {
+    "emir_kisa": 3.8,
+    "rica_kisa": 5.4,
+    "emir_uzun": 8.8,
+    "rica_uzun": 10.4,
+    "ricaw_kisa": 6.8,
+    "ricaw_uzun": 11.8,
+    "baskin_rica": 7.4,
+    "yumusak_emir": 9.8
+   },
+   "tuzak": {
+    "baskin_rica_CI": [
+     0.4753574269016584,
+     0.7718662265936533
+    ],
+    "yumusak_emir_CI": [
+     0.9381631074349086,
+     1.201858842819929
+    ],
+    "emir_yonu": -1.0
+   },
+   "n_dortlu": 60,
+   "sn": 194.2
+  },
+  "Tulu-3-8B": {
+   "aile": "Tulu-3-8B",
+   "AD": "YALINLIK-TASIR",
+   "AD_TUZAK": "BASKIN-RICA-VURMAZ",
+   "ort": {
+    "kisa": -0.0020563681920369465,
+    "uzun": 0.032246283690134686,
+    "emir": 0.06965585947036743,
+    "rica": 0.0353532075881958
+   },
+   "CI": {
+    "kip_kisa": [
+     -0.033949580589930216,
+     0.03478743692239125
+    ],
+    "kip_uzun": [
+     0.005965908070405324,
+     0.05888413151105245
+    ],
+    "uzunluk_emir": [
+     0.038011432091395056,
+     0.09964450925588605
+    ],
+    "uzunluk_rica": [
+     0.00987260381380717,
+     0.06072637856006621
+    ]
+   },
+   "kip_ayrik": false,
+   "uzunluk_ayrik": true,
+   "D_ort": {
+    "emir_kisa": 0.17860197226206462,
+    "rica_kisa": 0.18065834045410156,
+    "emir_uzun": 0.24825783173243204,
+    "rica_uzun": 0.21601154804229736,
+    "ricaw_kisa": 0.19042932192484538,
+    "ricaw_uzun": 0.1819666028022766,
+    "baskin_rica": 0.2759134610493978,
+    "yumusak_emir": 0.2199658234914144
+   },
+   "kip_ikincil": {
+    "kisa": -0.011827349662780762,
+    "uzun": 0.06629122893015543,
+    "CI_kisa": [
+     -0.042135388255119324,
+     0.022366157770156853
+    ],
+    "CI_uzun": [
+     0.03528811424970627,
+     0.0974609754482905
+    ]
+   },
+   "jeton_ort": {
+    "emir_kisa": 4.4,
+    "rica_kisa": 6.0,
+    "emir_uzun": 9.4,
+    "rica_uzun": 11.0,
+    "ricaw_kisa": 7.4,
+    "ricaw_uzun": 12.4,
+    "baskin_rica": 8.0,
+    "yumusak_emir": 10.4
+   },
+   "tuzak": {
+    "baskin_rica_CI": [
+     -0.1152572010954221,
+     -0.07754491209983828
+    ],
+    "yumusak_emir_CI": [
+     -0.06651815017064412,
+     -0.013869443237781524
+    ],
+    "emir_yonu": -1.0
+   },
+   "n_dortlu": 60,
+   "sn": 54.9
+  },
+  "Granite-4.1-8B": {
+   "aile": "Granite-4.1-8B",
+   "AD": "IKISI-DE",
+   "AD_TUZAK": "BASKIN-RICA-VURMAZ",
+   "ort": {
+    "kisa": 0.6216142614682515,
+    "uzun": 0.38606566190719604,
+    "emir": -0.6983523964881897,
+    "rica": -0.4628037969271342
+   },
+   "CI": {
+    "kip_kisa": [
+     0.13976627280314763,
+     1.0775518693526585
+    ],
+    "kip_uzun": [
+     0.2829641912380854,
+     0.4903497758507729
+    ],
+    "uzunluk_emir": [
+     -1.0641266146302222,
+     -0.31516208142042157
+    ],
+    "uzunluk_rica": [
+     -0.5400574870904287,
+     -0.38531281828880315
+    ]
+   },
+   "kip_ayrik": true,
+   "uzunluk_ayrik": true,
+   "D_ort": {
+    "emir_kisa": 1.2461647510528564,
+    "rica_kisa": 0.6245504895846049,
+    "emir_uzun": 0.5478123545646667,
+    "rica_uzun": 0.16174669265747071,
+    "ricaw_kisa": 0.44813170830408733,
+    "ricaw_uzun": 0.14830851952234905,
+    "baskin_rica": 0.5863120277722677,
+    "yumusak_emir": 0.4939039945602417
+   },
+   "kip_ikincil": {
+    "kisa": 0.7980330427487691,
+    "uzun": 0.39950383504231773,
+    "CI_kisa": [
+     0.30227415521939593,
+     1.2692220406730967
+    ],
+    "CI_uzun": [
+     0.28760576526323955,
+     0.5066267242034276
+    ]
+   },
+   "jeton_ort": {
+    "emir_kisa": 3.4,
+    "rica_kisa": 5.0,
+    "emir_uzun": 8.4,
+    "rica_uzun": 10.0,
+    "ricaw_kisa": 6.4,
+    "ricaw_uzun": 11.4,
+    "baskin_rica": 7.0,
+    "yumusak_emir": 9.4
+   },
+   "tuzak": {
+    "baskin_rica_CI": [
+     -0.5843709746003151,
+     -0.08969139551122986
+    ],
+    "yumusak_emir_CI": [
+     -0.5894567716121674,
+     -0.2874140533804894
+    ],
+    "emir_yonu": 1.0
+   },
+   "n_dortlu": 60,
+   "sn": 53.6
+  },
+  "OLMo-2-13B": {
+   "aile": "OLMo-2-13B",
+   "AD": "KIP-TASIR",
+   "AD_TUZAK": "BASKIN-RICA-VURUR",
+   "ort": {
+    "kisa": -0.657110595703125,
+    "uzun": -0.13504830201466878,
+    "emir": -0.001401956876118978,
+    "rica": -0.5234642505645752
+   },
+   "CI": {
+    "kip_kisa": [
+     -0.9234130184849103,
+     -0.4040681486328444
+    ],
+    "kip_uzun": [
+     -0.19743823885917663,
+     -0.07264591763416933
+    ],
+    "uzunluk_emir": [
+     -0.1933201777935028,
+     0.1990924681226411
+    ],
+    "uzunluk_rica": [
+     -0.5799384062488874,
+     -0.46940168112516406
+    ]
+   },
+   "kip_ayrik": true,
+   "uzunluk_ayrik": false,
+   "D_ort": {
+    "emir_kisa": 0.2424606402715047,
+    "rica_kisa": 0.8995712359746297,
+    "emir_uzun": 0.24105868339538575,
+    "rica_uzun": 0.37610698541005455,
+    "ricaw_kisa": 0.44589495261510215,
+    "ricaw_uzun": 0.24005746046702067,
+    "baskin_rica": 0.30651541948318484,
+    "yumusak_emir": 0.3241376558939616
+   },
+   "kip_ikincil": {
+    "kisa": -0.2034343123435974,
+    "uzun": 0.0010012229283650716,
+    "CI_kisa": [
+     -0.4655771267414093,
+     0.036673597494761116
+    ],
+    "CI_uzun": [
+     -0.06118625203768412,
+     0.06545455803473785
+    ]
+   },
+   "jeton_ort": {
+    "emir_kisa": 3.4,
+    "rica_kisa": 5.0,
+    "emir_uzun": 8.4,
+    "rica_uzun": 10.0,
+    "ricaw_kisa": 6.4,
+    "ricaw_uzun": 11.4,
+    "baskin_rica": 7.0,
+    "yumusak_emir": 9.4
+   },
+   "tuzak": {
+    "baskin_rica_CI": [
+     0.1375649016102155,
+     0.3874499494830767
+    ],
+    "yumusak_emir_CI": [
+     0.14936127732197443,
+     0.34016553247968356
+    ],
+    "emir_yonu": -1.0
+   },
+   "n_dortlu": 60,
+   "sn": 49.9
+  },
+  "Qwen2.5-14B": {
+   "aile": "Qwen2.5-14B",
+   "AD": "KAPI",
+   "AD_TUZAK": "BASKIN-RICA-VURUR",
+   "ort": {
+    "kisa": 0.2593348781267802,
+    "uzun": 0.03440231482187907,
+    "emir": -0.26781856616338096,
+    "rica": -0.042886002858479814
+   },
+   "CI": {
+    "kip_kisa": [
+     0.1156519772609075,
+     0.41207196305195487
+    ],
+    "kip_uzun": [
+     -0.02151379664738973,
+     0.09117676536242161
+    ],
+    "uzunluk_emir": [
+     -0.3716395459572474,
+     -0.16677130093177175
+    ],
+    "uzunluk_rica": [
+     -0.0955562111735344,
+     0.012283298174540162
+    ]
+   },
+   "kip_ayrik": false,
+   "uzunluk_ayrik": false,
+   "D_ort": {
+    "emir_kisa": 0.36821198066075644,
+    "rica_kisa": 0.10887710253397624,
+    "emir_uzun": 0.10039341449737549,
+    "rica_uzun": 0.06599109967549642,
+    "ricaw_kisa": 0.02542964220046997,
+    "ricaw_uzun": -0.03392200072606404,
+    "baskin_rica": 0.33072258631388346,
+    "yumusak_emir": 0.02309269905090332
+   },
+   "kip_ikincil": {
+    "kisa": 0.34278233846028644,
+    "uzun": 0.13431541522343954,
+    "CI_kisa": [
+     0.21237249145905177,
+     0.47861874183018993
+    ],
+    "CI_uzun": [
+     0.08051017701625825,
+     0.1908414813876152
+    ]
+   },
+   "jeton_ort": {
+    "emir_kisa": 3.4,
+    "rica_kisa": 5.0,
+    "emir_uzun": 8.4,
+    "rica_uzun": 10.0,
+    "ricaw_kisa": 6.4,
+    "ricaw_uzun": 11.4,
+    "baskin_rica": 7.0,
+    "yumusak_emir": 9.4
+   },
+   "tuzak": {
+    "baskin_rica_CI": [
+     0.013956919908523558,
+     0.16498899385333057
+    ],
+    "yumusak_emir_CI": [
+     -0.2726387534538905,
+     -0.16369956036408742
+    ],
+    "emir_yonu": 1.0
+   },
+   "n_dortlu": 60,
+   "sn": 46.4
+  },
+  "Mistral-Small-24B": {
+   "aile": "Mistral-Small-24B",
+   "AD": "IKISI-DE",
+   "AD_TUZAK": "BASKIN-RICA-VURMAZ",
+   "ort": {
+    "kisa": 0.09650273323059082,
+    "uzun": -0.07469074328740438,
+    "emir": -0.5400363047917683,
+    "rica": -0.3688428282737732
+   },
+   "CI": {
+    "kip_kisa": [
+     0.0013094792763392131,
+     0.1916026695569356
+    ],
+    "kip_uzun": [
+     -0.12195709983507792,
+     -0.02592255304257084
+    ],
+    "uzunluk_emir": [
+     -0.6179866876204809,
+     -0.4631912042697271
+    ],
+    "uzunluk_rica": [
+     -0.41034806410471597,
+     -0.32850253929694495
+    ]
+   },
+   "kip_ayrik": true,
+   "uzunluk_ayrik": true,
+   "D_ort": {
+    "emir_kisa": 0.9108422438303629,
+    "rica_kisa": 0.8143395105997722,
+    "emir_uzun": 0.37080593903859455,
+    "rica_uzun": 0.4454966823259989,
+    "ricaw_kisa": 0.5114484151204427,
+    "ricaw_uzun": 0.22171780665715535,
+    "baskin_rica": 0.749417511622111,
+    "yumusak_emir": 0.32819193998972573
+   },
+   "kip_ikincil": {
+    "kisa": 0.39939382870992024,
+    "uzun": 0.1490881323814392,
+    "CI_kisa": [
+     0.29779896736145023,
+     0.5029517088333765
+    ],
+    "CI_uzun": [
+     0.10340457906325658,
+     0.19493181933959322
+    ]
+   },
+   "jeton_ort": {
+    "emir_kisa": 5.0,
+    "rica_kisa": 6.2,
+    "emir_uzun": 10.0,
+    "rica_uzun": 11.2,
+    "ricaw_kisa": 7.4,
+    "ricaw_uzun": 12.4,
+    "baskin_rica": 8.2,
+    "yumusak_emir": 11.0
+   },
+   "tuzak": {
+    "baskin_rica_CI": [
+     -0.17400444974501927,
+     -0.04968653351068502
+    ],
+    "yumusak_emir_CI": [
+     -0.5927932825684548,
+     -0.47662642021973933
+    ],
+    "emir_yonu": 1.0
+   },
+   "n_dortlu": 60,
+   "sn": 76.8
+  },
+  "OLMo-2-32B": {
+   "aile": "OLMo-2-32B",
+   "AD": "IKISI-DE",
+   "AD_TUZAK": "BASKIN-RICA-VURUR",
+   "ort": {
+    "kisa": 0.3714272777239482,
+    "uzun": 0.4387255112330119,
+    "emir": 0.36482195456822714,
+    "rica": 0.2975237210591634
+   },
+   "CI": {
+    "kip_kisa": [
+     0.16870799243450166,
+     0.5636504472295443
+    ],
+    "kip_uzun": [
+     0.36530855486790337,
+     0.5067579196890194
+    ],
+    "uzunluk_emir": [
+     0.2822137056787809,
+     0.44941891958316166
+    ],
+    "uzunluk_rica": [
+     0.18409779965877532,
+     0.3962916582822799
+    ]
+   },
+   "kip_ayrik": true,
+   "uzunluk_ayrik": true,
+   "D_ort": {
+    "emir_kisa": -0.2009003480275472,
+    "rica_kisa": -0.5723276257514953,
+    "emir_uzun": 0.16392160654067994,
+    "rica_uzun": -0.27480390469233196,
+    "ricaw_kisa": 1.0817322214444478,
+    "ricaw_uzun": 0.4987950404485067,
+    "baskin_rica": 0.32858027617136637,
+    "yumusak_emir": 0.10182894070943196
+   },
+   "kip_ikincil": {
+    "kisa": -1.282632569471995,
+    "uzun": -0.33487343390782676,
+    "CI_kisa": [
+     -1.3972340418895086,
+     -1.165929548839728
+    ],
+    "CI_uzun": [
+     -0.3643079903721809,
+     -0.30785919576883325
+    ]
+   },
+   "jeton_ort": {
+    "emir_kisa": 3.4,
+    "rica_kisa": 5.0,
+    "emir_uzun": 8.4,
+    "rica_uzun": 10.0,
+    "ricaw_kisa": 6.4,
+    "ricaw_uzun": 11.4,
+    "baskin_rica": 7.0,
+    "yumusak_emir": 9.4
+   },
+   "tuzak": {
+    "baskin_rica_CI": [
+     0.6192756692071756,
+     0.8147587303817271
+    ],
+    "yumusak_emir_CI": [
+     0.39568163484334945,
+     0.5723129063347976
+    ],
+    "emir_yonu": 1.0
+   },
+   "n_dortlu": 60,
+   "sn": 92.2
+  },
+  "Gemma-3-27B": {
+   "aile": "Gemma-3-27B",
+   "AD": "KIP-TASIR",
+   "AD_TUZAK": "BASKIN-RICA-VURMAZ",
+   "ort": {
+    "kisa": -1.9974794228871664,
+    "uzun": -1.1586846709251404,
+    "emir": -0.0019525766372680664,
+    "rica": -0.840747328599294
+   },
+   "CI": {
+    "kip_kisa": [
+     -2.415460660854975,
+     -1.5764473283290863
+    ],
+    "kip_uzun": [
+     -1.3928953716158865,
+     -0.9313508485754332
+    ],
+    "uzunluk_emir": [
+     -0.21029295643170676,
+     0.21462386886278775
+    ],
+    "uzunluk_rica": [
+     -0.9528944891691208,
+     -0.7341625601053238
+    ]
+   },
+   "kip_ayrik": true,
+   "uzunluk_ayrik": false,
+   "D_ort": {
+    "emir_kisa": -0.23870563507080078,
+    "rica_kisa": 1.7587737878163656,
+    "emir_uzun": -0.24065821170806884,
+    "rica_uzun": 0.9180264592170715,
+    "ricaw_kisa": 1.2537254095077515,
+    "ricaw_uzun": 0.6983858903249105,
+    "baskin_rica": 1.618312128384908,
+    "yumusak_emir": -0.1468202789624532
+   },
+   "kip_ikincil": {
+    "kisa": -1.4924310445785522,
+    "uzun": -0.9390441020329793,
+    "CI_kisa": [
+     -1.89209852039814,
+     -1.0911424283186595
+    ],
+    "CI_uzun": [
+     -1.168682675162951,
+     -0.7125948594013851
+    ]
+   },
+   "jeton_ort": {
+    "emir_kisa": 4.6,
+    "rica_kisa": 6.0,
+    "emir_uzun": 9.6,
+    "rica_uzun": 11.0,
+    "ricaw_kisa": 7.4,
+    "ricaw_uzun": 12.4,
+    "baskin_rica": 8.0,
+    "yumusak_emir": 10.6
+   },
+   "tuzak": {
+    "baskin_rica_CI": [
+     -1.0824661071101824,
+     -0.6454236766695977
+    ],
+    "yumusak_emir_CI": [
+     0.7963961982727051,
+     1.0222871581713358
+    ],
+    "emir_yonu": -1.0
+   },
+   "n_dortlu": 60,
+   "sn": 149.0
+  }
+ },
+ "PANEL": {
+  "kip": 2,
+  "yalinlik": 3,
+  "ikisi": 4,
+  "kapi": 1,
+  "payda": 10
+ }
+}

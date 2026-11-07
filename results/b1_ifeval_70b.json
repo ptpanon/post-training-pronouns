@@ -1,0 +1,130 @@
+{
+ "yeni": {
+  "Llama-3.1-70B": {
+   "ps": {
+    "duz": 0.8336,
+    "kayit": 0.8078,
+    "delta": -0.0259,
+    "ci": [
+     -0.0555,
+     0.0037
+    ],
+    "ayrik": false,
+    "n_istem": 541
+   },
+   "is": {
+    "duz": 0.8873,
+    "kayit": 0.8669,
+    "delta": -0.0204,
+    "ci": [
+     -0.0414,
+     -0.0012
+    ],
+    "ayrik": true,
+    "n_istem": 541
+   },
+   "pl": {
+    "duz": 0.8706,
+    "kayit": 0.8614,
+    "delta": -0.0092,
+    "ci": [
+     -0.037,
+     0.0166
+    ],
+    "ayrik": false,
+    "n_istem": 541
+   },
+   "il": {
+    "duz": 0.9125,
+    "kayit": 0.9077,
+    "delta": -0.0048,
+    "ci": [
+     -0.0242,
+     0.0131
+    ],
+    "ayrik": false,
+    "n_istem": 541
+   }
+  },
+  "Qwen2.5-72B": {
+   "ps": {
+    "duz": 0.8336,
+    "kayit": 0.8041,
+    "delta": -0.0296,
+    "ci": [
+     -0.0573,
+     -0.0018
+    ],
+    "ayrik": true,
+    "n_istem": 541
+   },
+   "is": {
+    "duz": 0.8873,
+    "kayit": 0.8657,
+    "delta": -0.0216,
+    "ci": [
+     -0.0416,
+     -0.0012
+    ],
+    "ayrik": true,
+    "n_istem": 541
+   },
+   "pl": {
+    "duz": 0.8669,
+    "kayit": 0.8336,
+    "delta": -0.0333,
+    "ci": [
+     -0.0591,
+     -0.0074
+    ],
+    "ayrik": true,
+    "n_istem": 541
+   },
+   "il": {
+    "duz": 0.9113,
+    "kayit": 0.8873,
+    "delta": -0.024,
+    "ci": [
+     -0.0423,
+     -0.0059
+    ],
+    "ayrik": true,
+    "n_istem": 541
+   }
+  }
+ },
+ "panel_16": {
+  "ps": {
+   "medyan": -0.0352,
+   "n": 16,
+   "ayrik_negatif": 8,
+   "ayrik_pozitif": 0
+  },
+  "is": {
+   "medyan": -0.0318,
+   "n": 16,
+   "ayrik_negatif": 13,
+   "ayrik_pozitif": 0
+  },
+  "pl": {
+   "medyan": -0.0379,
+   "n": 16,
+   "ayrik_negatif": 10,
+   "ayrik_pozitif": 0
+  },
+  "il": {
+   "medyan": -0.0252,
+   "n": 16,
+   "ayrik_negatif": 10,
+   "ayrik_pozitif": 0
+  }
+ },
+ "panel_payda": {
+  "kayitli_hizali": 14,
+  "yeni": 2,
+  "toplam": 16
+ },
+ "eksik": [],
+ "kayitli_card": "<repo>/results/ifeval_kayit_2026-09-24.json",
+ "alet": "ifeval_kayit_verdict (IMPORT)"
+}

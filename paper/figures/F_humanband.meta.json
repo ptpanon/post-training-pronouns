@@ -1,0 +1,27 @@
+{
+ "figure": "F_humanband",
+ "caption_draft": "Seven human references and the three model bands on one row layout, read with the same counters. Row order is fixed by second-person density and held across all three panels. Filled circles are spoken and interactive registers, open squares written expository ones; the shaded row is the textbook. The aligned band sits below every conversational group and below written how-to and Q&A prose, and lands on the textbook row on both counters that measure person. The third band reads the same aligned checkpoints through their own chat templates; it is measured on the first ruler only, so it is drawn in the first panel alone. It spans the human-assistant row rather than sitting below it, and no aligned checkpoint lands inside that row's interval under that protocol.",
+ "sources": [
+  {
+   "yol": "results/human_band_2026-09-10_reservoir_fixed.json",
+   "sha256_16": "8400894e6785c6cc"
+  },
+  {
+   "yol": "results/PREREG9_A_OLCUM_2026-08-31.json",
+   "sha256_16": "8b3c5fba7156b393"
+  },
+  {
+   "yol": "results/written_anchor_2026-09-01.json",
+   "sha256_16": "3da92578b6b2e6ed"
+  },
+  {
+   "yol": "results/v27_human_assistant_2026-09-10_reservoir_fixed.json",
+   "sha256_16": "0c8061315652d0a4"
+  },
+  {
+   "yol": "results/template_filtered_2026-09-07.json",
+   "sha256_16": "84812c8ac68df5ab"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

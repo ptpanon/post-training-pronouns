@@ -1,0 +1,820 @@
+{
+ "sinif": "IS 4 · mekanik asama · etiketler BOS",
+ "rule": "preregistration/rule_v87_readings_2026-09-16.md @ 7ee8f32b",
+ "desen": {
+  "register": [
+   "\\bregisters?\\b"
+  ],
+  "tone": [
+   "\\btones?\\b"
+  ],
+  "person": [
+   "\\b(first|second|third)[\\s-]person\\b",
+   "\\bgrammatical person\\b",
+   "\\bperson marking\\b"
+  ],
+  "pronoun": [
+   "\\bpronouns?\\b",
+   "\\bpronominal\\b"
+  ],
+  "addressee": [
+   "\\baddressee\\b",
+   "\\baddressing the user\\b"
+  ],
+  "impersonal": [
+   "\\bimpersonal\\w*\\b",
+   "\\bdepersonali[sz]\\w*\\b"
+  ],
+  "politeness": [
+   "\\bpolite(ness)?\\b",
+   "\\bformality\\b",
+   "\\binformal\\b"
+  ],
+  "style-voice": [
+   "\\b(conversational|response|writing|communication) style\\b",
+   "\\b(personal|conversational) (voice|tone)\\b"
+  ]
+ },
+ "kokler": [
+  "<repo>/.hf/hub",
+  "<data>/.hf_local/hub",
+  "<storage>/huggingface/hub",
+  "<home>/user/.cache/huggingface/hub"
+ ],
+ "belge": [
+  {
+   "tur": "card",
+   "aile": "Gemma-3-12B",
+   "bacak": "base",
+   "depo": "google/gemma-3-12b-pt",
+   "yol": "<repo>/.hf/hub/models--google--gemma-3-12b-pt/snapshots/295efb63d01a7017928f273a94ebb86105c9526f/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "e4ce7985d2f95910",
+   "n_kar": 24037,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Gemma-3-12B",
+   "bacak": "instruct",
+   "depo": "google/gemma-3-12b-it",
+   "yol": "<repo>/.hf/hub/models--google--gemma-3-12b-it/snapshots/96b6f1eccf38110c56df3a15bffe176da04bfd80/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "bcd00f0d73a59772",
+   "n_kar": 25120,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Gemma-3-27B",
+   "bacak": "base",
+   "depo": "google/gemma-3-27b-pt",
+   "yol": "<storage>/huggingface/hub/models--google--gemma-3-27b-pt/snapshots/9fe3c4ebc93fbadb14913801536d022054ef11cc/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "f02a49ec5aa0eb5f",
+   "n_kar": 24070,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Gemma-3-27B",
+   "bacak": "instruct",
+   "depo": "google/gemma-3-27b-it",
+   "yol": "<storage>/huggingface/hub/models--google--gemma-3-27b-it/snapshots/005ad3404e59d6023443cb575daa05336842228a/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "c41e39b345afbed2",
+   "n_kar": 25117,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Gemma-3-4B",
+   "bacak": "base",
+   "depo": "google/gemma-3-4b-pt",
+   "yol": "<repo>/.hf/hub/models--google--gemma-3-4b-pt/snapshots/cc012e0a6d0787b4adcc0fa2c4da74402494554d/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "720809c69c7d9664",
+   "n_kar": 24005,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Gemma-3-4B",
+   "bacak": "instruct",
+   "depo": "google/gemma-3-4b-it",
+   "yol": "<repo>/.hf/hub/models--google--gemma-3-4b-it/snapshots/093f9f388b31de276ce2de164bdc2081324b9767/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "eb6df732fd79f239",
+   "n_kar": 25116,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Llama-3.1-70B",
+   "bacak": "base",
+   "depo": "meta-llama/Llama-3.1-70B",
+   "yol": "<storage>/huggingface/hub/models--meta-llama--Llama-3.1-70B/snapshots/349b2ddb53ce8f2849a6c168a81980ab25258dac/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "0bc1f8efa8723179",
+   "n_kar": 40798,
+   "isabet": [
+    {
+     "sinif": "tone",
+     "eslesme": "Tone",
+     "konum": 31361,
+     "baglam": "ety risks. We’ve developed many large language model (LLM)-based classifiers that enable us to thoughtfully select high-quality prompts and responses, enhancing data quality control. **Refusals and Tone** Building on the work we started with Llama 3, we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 31494,
+     "baglam": "ts and responses, enhancing data quality control. **Refusals and Tone** Building on the work we started with Llama 3, we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy, and modified our safety data responses to follow tone guidelines. #### Llama 3.1 systems **Large language models",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 31631,
+     "baglam": "mphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy, and modified our safety data responses to follow tone guidelines. #### Llama 3.1 systems **Large language models, including Llama 3.1, are not designed to be deployed in isolation but instead should be deployed as part of an overall AI system with a",
+     "etiket": null
+    }
+   ],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Llama-3.1-70B",
+   "bacak": "instruct",
+   "depo": "meta-llama/Llama-3.1-70B-Instruct",
+   "yol": "<storage>/huggingface/hub/models--meta-llama--Llama-3.1-70B-Instruct/snapshots/1605565b47bb9346c5515c34102e054115b4f98b/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "e1b45a44fce53173",
+   "n_kar": 44778,
+   "isabet": [
+    {
+     "sinif": "tone",
+     "eslesme": "Tone",
+     "konum": 35342,
+     "baglam": "ety risks. We’ve developed many large language model (LLM)-based classifiers that enable us to thoughtfully select high-quality prompts and responses, enhancing data quality control. **Refusals and Tone** Building on the work we started with Llama 3, we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 35475,
+     "baglam": "ts and responses, enhancing data quality control. **Refusals and Tone** Building on the work we started with Llama 3, we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy, and modified our safety data responses to follow tone guidelines. #### Llama 3.1 systems **Large language models",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 35612,
+     "baglam": "mphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy, and modified our safety data responses to follow tone guidelines. #### Llama 3.1 systems **Large language models, including Llama 3.1, are not designed to be deployed in isolation but instead should be deployed as part of an overall AI system with a",
+     "etiket": null
+    }
+   ],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Llama-3.1-8B",
+   "bacak": "base",
+   "depo": "meta-llama/Llama-3.1-8B",
+   "yol": "<repo>/.hf/hub/models--meta-llama--Llama-3.1-8B/snapshots/d04e592bb4f6aa9cfee91e2e20afa771667e1d4b/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "6615eaa410934067",
+   "n_kar": 40820,
+   "isabet": [
+    {
+     "sinif": "tone",
+     "eslesme": "Tone",
+     "konum": 31384,
+     "baglam": "ety risks. We’ve developed many large language model (LLM)-based classifiers that enable us to thoughtfully select high-quality prompts and responses, enhancing data quality control. **Refusals and Tone** Building on the work we started with Llama 3, we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 31517,
+     "baglam": "ts and responses, enhancing data quality control. **Refusals and Tone** Building on the work we started with Llama 3, we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy, and modified our safety data responses to follow tone guidelines. #### Llama 3.1 systems **Large language models",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 31654,
+     "baglam": "mphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy, and modified our safety data responses to follow tone guidelines. #### Llama 3.1 systems **Large language models, including Llama 3.1, are not designed to be deployed in isolation but instead should be deployed as part of an overall AI system with a",
+     "etiket": null
+    }
+   ],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Llama-3.1-8B",
+   "bacak": "instruct",
+   "depo": "meta-llama/Llama-3.1-8B-Instruct",
+   "yol": "<repo>/.hf/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "ed0e2e86f7a40c38",
+   "n_kar": 43981,
+   "isabet": [
+    {
+     "sinif": "tone",
+     "eslesme": "Tone",
+     "konum": 34544,
+     "baglam": "ety risks. We’ve developed many large language model (LLM)-based classifiers that enable us to thoughtfully select high-quality prompts and responses, enhancing data quality control. **Refusals and Tone** Building on the work we started with Llama 3, we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 34677,
+     "baglam": "ts and responses, enhancing data quality control. **Refusals and Tone** Building on the work we started with Llama 3, we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy, and modified our safety data responses to follow tone guidelines. #### Llama 3.1 systems **Large language models",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 34814,
+     "baglam": "mphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy, and modified our safety data responses to follow tone guidelines. #### Llama 3.1 systems **Large language models, including Llama 3.1, are not designed to be deployed in isolation but instead should be deployed as part of an overall AI system with a",
+     "etiket": null
+    }
+   ],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Mistral-7B-v0.3",
+   "bacak": "base",
+   "depo": "mistralai/Mistral-7B-v0.3",
+   "yol": null,
+   "nasil": "CARD-YOK",
+   "n_kar": 0,
+   "isabet": []
+  },
+  {
+   "tur": "card",
+   "aile": "Mistral-7B-v0.3",
+   "bacak": "instruct",
+   "depo": "mistralai/Mistral-7B-Instruct-v0.3",
+   "yol": "<data>/.hf_local/hub/models--mistralai--Mistral-7B-Instruct-v0.3/snapshots/c170c708c41dac9275d15a8fff4eca08d52bab71/README.md",
+   "nasil": "diger-snapshot:<data>/.hf_local/hub",
+   "sha16": "3166974023134d97",
+   "n_kar": 7890,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "OLMo-3-7B",
+   "bacak": "base",
+   "depo": "allenai/Olmo-3-1025-7B",
+   "yol": "<repo>/.hf/hub/models--allenai--Olmo-3-1025-7B/snapshots/a81bae42db3975be1671e27b9c9a56da1a9f980f/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "d9f4fad78dd34fac",
+   "n_kar": 12222,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "OLMo-3-7B",
+   "bacak": "instruct",
+   "depo": "allenai/Olmo-3-7B-Instruct",
+   "yol": "<repo>/.hf/hub/models--allenai--Olmo-3-7B-Instruct/snapshots/6e5971d9eba42665f5bd5a0fcf047f299ce1dccc/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "9c7c873ea9bd506d",
+   "n_kar": 12444,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "OLMo2-13B",
+   "bacak": "taban",
+   "depo": "allenai/OLMo-2-1124-13B",
+   "yol": "<storage>/huggingface/hub/models--allenai--OLMo-2-1124-13B/snapshots/3fefddc1bf18a30e1d9b91000271630718f2aa8b/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "89a3954d0ca1a806",
+   "n_kar": 12175,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "OLMo2-13B",
+   "bacak": "instruct",
+   "depo": "allenai/OLMo-2-1124-13B-Instruct",
+   "yol": "<storage>/huggingface/hub/models--allenai--OLMo-2-1124-13B-Instruct/snapshots/3a5c85baefbb1896a54d56fe2e76c0395627ddf4/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "ca667a7d680a0165",
+   "n_kar": 9360,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "OLMo2-32B",
+   "bacak": "taban",
+   "depo": "allenai/OLMo-2-0325-32B",
+   "yol": "<storage>/huggingface/hub/models--allenai--OLMo-2-0325-32B/snapshots/cc9d3cf9c7230b86ee6b84607b37db1c01e3f1ed/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "ea57fce90b7351c8",
+   "n_kar": 13023,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "OLMo2-32B",
+   "bacak": "instruct",
+   "depo": "allenai/OLMo-2-0325-32B-Instruct",
+   "yol": "<storage>/huggingface/hub/models--allenai--OLMo-2-0325-32B-Instruct/snapshots/b96024342a77a69aa0dda815c3454a671f477463/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "b0cb9449db0b4b23",
+   "n_kar": 10322,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-1.5B",
+   "bacak": "base",
+   "depo": "Qwen/Qwen2.5-1.5B",
+   "yol": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-1.5B/snapshots/8faed761d45a263340a0528343f099c05c9a4323/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "84cc3bdbfd781149",
+   "n_kar": 3847,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-1.5B",
+   "bacak": "instruct",
+   "depo": "Qwen/Qwen2.5-1.5B-Instruct",
+   "yol": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "2e1bcd8bd964728a",
+   "n_kar": 4914,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-14B",
+   "bacak": "base",
+   "depo": "Qwen/Qwen2.5-14B",
+   "yol": null,
+   "nasil": "CARD-YOK",
+   "n_kar": 0,
+   "isabet": []
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-14B",
+   "bacak": "instruct",
+   "depo": "Qwen/Qwen2.5-14B-Instruct",
+   "yol": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "7ea9d73d5e0a0381",
+   "n_kar": 6007,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-32B",
+   "bacak": "base",
+   "depo": "Qwen/Qwen2.5-32B",
+   "yol": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-32B/snapshots/1818d35814b8319459f4bd55ed1ac8709630f003/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "7add4c3c1e26563a",
+   "n_kar": 3792,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-32B",
+   "bacak": "instruct",
+   "depo": "Qwen/Qwen2.5-32B-Instruct",
+   "yol": null,
+   "nasil": "CARD-YOK",
+   "n_kar": 0,
+   "isabet": []
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-3B",
+   "bacak": "base",
+   "depo": "Qwen/Qwen2.5-3B",
+   "yol": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-3B/snapshots/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "75c779862cc82558",
+   "n_kar": 3837,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-3B",
+   "bacak": "instruct",
+   "depo": "Qwen/Qwen2.5-3B-Instruct",
+   "yol": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "2c74693e6ae36ba8",
+   "n_kar": 4927,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-72B",
+   "bacak": "base",
+   "depo": "Qwen/Qwen2.5-72B",
+   "yol": "<storage>/huggingface/hub/models--Qwen--Qwen2.5-72B/snapshots/efba10c8e54e91e0d9570ab5f7b51a958474d4cb/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "c515e32413a90c4a",
+   "n_kar": 3833,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-72B",
+   "bacak": "instruct",
+   "depo": "Qwen/Qwen2.5-72B-Instruct",
+   "yol": null,
+   "nasil": "CARD-YOK",
+   "n_kar": 0,
+   "isabet": []
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-7B",
+   "bacak": "base",
+   "depo": "Qwen/Qwen2.5-7B",
+   "yol": null,
+   "nasil": "CARD-YOK",
+   "n_kar": 0,
+   "isabet": []
+  },
+  {
+   "tur": "card",
+   "aile": "Qwen2.5-7B",
+   "bacak": "instruct",
+   "depo": "Qwen/Qwen2.5-7B-Instruct",
+   "yol": "<repo>/.hf/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "f366f33bbf6bcadb",
+   "n_kar": 6237,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "card",
+   "aile": "Tulu3-8B",
+   "bacak": "taban",
+   "depo": "meta-llama/Llama-3.1-8B",
+   "yol": "<storage>/huggingface/hub/models--meta-llama--Llama-3.1-8B/snapshots/d04e592bb4f6aa9cfee91e2e20afa771667e1d4b/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "6615eaa410934067",
+   "n_kar": 40820,
+   "isabet": [
+    {
+     "sinif": "tone",
+     "eslesme": "Tone",
+     "konum": 31384,
+     "baglam": "ety risks. We’ve developed many large language model (LLM)-based classifiers that enable us to thoughtfully select high-quality prompts and responses, enhancing data quality control. **Refusals and Tone** Building on the work we started with Llama 3, we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 31517,
+     "baglam": "ts and responses, enhancing data quality control. **Refusals and Tone** Building on the work we started with Llama 3, we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy, and modified our safety data responses to follow tone guidelines. #### Llama 3.1 systems **Large language models",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 31654,
+     "baglam": "mphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy, and modified our safety data responses to follow tone guidelines. #### Llama 3.1 systems **Large language models, including Llama 3.1, are not designed to be deployed in isolation but instead should be deployed as part of an overall AI system with a",
+     "etiket": null
+    }
+   ],
+   "yinelenen_sha": "Llama-3.1-8B/base"
+  },
+  {
+   "tur": "card",
+   "aile": "Tulu3-8B",
+   "bacak": "rl",
+   "depo": "allenai/Llama-3.1-Tulu-3-8B",
+   "yol": "<storage>/huggingface/hub/models--allenai--Llama-3.1-Tulu-3-8B/snapshots/666943798adbde0b1aff34626007e26986a3c107/README.md",
+   "nasil": "kayitli-snapshot",
+   "sha16": "ce1f12a1c44d0913",
+   "n_kar": 17989,
+   "isabet": [],
+   "yinelenen_sha": null
+  },
+  {
+   "tur": "amac",
+   "ad": "Ouyang 2022 (InstructGPT)",
+   "arxiv": "2203.02155",
+   "hal": "OKUNDU",
+   "pdf_sha16": "c1984bb50a5b90fd",
+   "n_sayfa": 68,
+   "n_kar": 181743,
+   "isabet": [
+    {
+     "sinif": "politeness",
+     "eslesme": "polite",
+     "konum": 118465,
+     "baglam": "the question. • Not assuming extraneous extra context outside of what’s given (besides things like facts about the world), unless that’s an implied part of the task. For example, if asked to “write a polite email response to this email: email body” the output shouldn’t assume “I can’t make it this time, but am free next weekend.” But if asked to “Write an email to Socrates”, then you can safely assume t",
+     "etiket": null
+    },
+    {
+     "sinif": "politeness",
+     "eslesme": "polite",
+     "konum": 136493,
+     "baglam": "fferent prompt types: a basic prompt (no instruction), a respectful prompt, and a biased prompt. The respectful and biased instructions are as follows: respectful Complete the following sentence in a polite, respectful, and unbiased manner: biased Complete the following sentence using maximally biased and offensive language: For bias tasks, we report the average entropy of each choice. The entropy, meas",
+     "etiket": null
+    },
+    {
+     "sinif": "politeness",
+     "eslesme": "polite",
+     "konum": 137520,
+     "baglam": "ance metric, for each automatic evaluation task. These are shown in Table 14-25. 44 Winogender Prompting structure Basic prompt: no preﬁx added Respectful prompt: Complete the following sentence in a polite, respectful, and unbiased manner: Biased prompt:Complete the following sentence using maximally biased and offensive language: Dataset features • 120 binary multiple choice questions • Other than the",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronoun",
+     "konum": 144199,
+     "baglam": "t features. 48 WSC (Winograd Schema Challenge) Example prompt Final Exam with Answer Key Instructions: Please carefully read the following passages. For each passage, you must identify which noun the pronoun marked in bold refers to. Passage: Jane gave Joan candy because she was hungry. Question: In the passage above, what does the pronoun “she” refer to? Answer: [target completion: “Joan”] Dataset featu",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronoun",
+     "konum": 144333,
+     "baglam": "wing passages. For each passage, you must identify which noun the pronoun marked in bold refers to. Passage: Jane gave Joan candy because she was hungry. Question: In the passage above, what does the pronoun “she” refer to? Answer: [target completion: “Joan”] Dataset features • 104 binary multiple choice questions. • In the few-shot setting, there are 15 additional question/answer pairs. • Note that the ",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronoun",
+     "konum": 144637,
+     "baglam": "e questions. • In the few-shot setting, there are 15 additional question/answer pairs. • Note that the task as originally constructed in the SuperGLUE is in the format of a binary question (e.g. “the pronoun she refers to Joan, True or False?”). In order to convert the sampled response into a binary answer, we check to see if the sample contains the pronoun or vice versa. If so, we reply “True”, otherwis",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronoun",
+     "konum": 144789,
+     "baglam": "s in the format of a binary question (e.g. “the pronoun she refers to Joan, True or False?”). In order to convert the sampled response into a binary answer, we check to see if the sample contains the pronoun or vice versa. If so, we reply “True”, otherwise “False”. Figure 24: WSC: prompting, examples, and dataset features. WMT Fr→ En 15 Example prompt Translate the following sentences from French into En",
+     "etiket": null
+    }
+   ]
+  },
+  {
+   "tur": "amac",
+   "ad": "Touvron 2023 (Llama 2)",
+   "arxiv": "2307.09288",
+   "hal": "OKUNDU",
+   "pdf_sha16": "1df284ce95f78300",
+   "n_sayfa": 77,
+   "n_kar": 260403,
+   "isabet": [
+    {
+     "sinif": "pronoun",
+     "eslesme": "Pronouns",
+     "konum": 65710,
+     "baglam": "elbl et al., 2021; Korbak et al., 2023; Xu et al., 2021). As a result,Llama 2 models should be used carefully and deployed only after significant safety tuning is applied. Demographic Representation: Pronouns. Bias in model generations may result from biases inherited from the training data itself. For instance, Bailey et al. (2022) shows that in massive text corpora, words representing “people” are often",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 66295,
+     "baglam": " highly dependent on how the model trains on data representing underrepresented demographic groups. Within our English-language training corpus, we computed the frequencies of the most common English pronouns in Table 9a. We observe thatHe pronouns are generally overrepresented in documents compared toShe pronouns, echoing similar frequency differences observed in pronominal usage for similarly sized mode",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 66335,
+     "baglam": "s on data representing underrepresented demographic groups. Within our English-language training corpus, we computed the frequencies of the most common English pronouns in Table 9a. We observe thatHe pronouns are generally overrepresented in documents compared toShe pronouns, echoing similar frequency differences observed in pronominal usage for similarly sized model pretraining datasets (Chowdhery et al.",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 66402,
+     "baglam": "our English-language training corpus, we computed the frequencies of the most common English pronouns in Table 9a. We observe thatHe pronouns are generally overrepresented in documents compared toShe pronouns, echoing similar frequency differences observed in pronominal usage for similarly sized model pretraining datasets (Chowdhery et al., 2022). This could mean that the model is learning less during pre",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronominal",
+     "konum": 66462,
+     "baglam": "ncies of the most common English pronouns in Table 9a. We observe thatHe pronouns are generally overrepresented in documents compared toShe pronouns, echoing similar frequency differences observed in pronominal usage for similarly sized model pretraining datasets (Chowdhery et al., 2022). This could mean that the model is learning less during pretraining about context that mentionsShe pronouns, and subseque",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 66650,
+     "baglam": "observed in pronominal usage for similarly sized model pretraining datasets (Chowdhery et al., 2022). This could mean that the model is learning less during pretraining about context that mentionsShe pronouns, and subsequently may potentially generateHe pronouns at a higher rate thanShe pronouns. Demographic Representation: Identities. We also analyze the representation of different demographic groupsinth",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 66704,
+     "baglam": " pretraining datasets (Chowdhery et al., 2022). This could mean that the model is learning less during pretraining about context that mentionsShe pronouns, and subsequently may potentially generateHe pronouns at a higher rate thanShe pronouns. Demographic Representation: Identities. We also analyze the representation of different demographic groupsinthepretrainingdatabymeasuringratesofusageofdemographicid",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 66738,
+     "baglam": "t al., 2022). This could mean that the model is learning less during pretraining about context that mentionsShe pronouns, and subsequently may potentially generateHe pronouns at a higher rate thanShe pronouns. Demographic Representation: Identities. We also analyze the representation of different demographic groupsinthepretrainingdatabymeasuringratesofusageofdemographicidentitytermsfromtheHolisticBias dat",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 67541,
+     "baglam": "t uses beyond demographic mentions (e.g., as basic color terms). We also deduplicate across lists, removing a few terms found in both Gender and Sexand Sexual Orientation. ForGender and Sex, whileShe pronouns are mentioned in fewer documents, the term“female” is present in a larger percentage of documents. This could imply that while there is less frequent context aboutShe pronouns, comments about“females",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 67717,
+     "baglam": "ender and Sex, whileShe pronouns are mentioned in fewer documents, the term“female” is present in a larger percentage of documents. This could imply that while there is less frequent context aboutShe pronouns, comments about“females”are more prevalent, perhaps reflecting the differences in linguistic markedness of these terms (Blodgett et al., 2021). ForSexual Orientation, the top five terms all relate to",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "Pronouns",
+     "konum": 68275,
+     "baglam": "s mentioned in 69.4% of the references, the term“European”is more prevalent than other race and ethnicity, and“Christian” is the most represented religion followed by“Catholic”and “Jewish.” 20 Gender Pronouns 75.23% Grammatical Person 94.47% She(she, her, hers, herself) 28.45% 1st (I, me, my, mine, myself, ...) 70.71% He (he, him, his, himself) 50.73% 2nd(you, your, yours, ...) 61.80% Unspecified(they, th",
+     "etiket": null
+    },
+    {
+     "sinif": "person",
+     "eslesme": "Grammatical Person",
+     "konum": 68291,
+     "baglam": "9.4% of the references, the term“European”is more prevalent than other race and ethnicity, and“Christian” is the most represented religion followed by“Catholic”and “Jewish.” 20 Gender Pronouns 75.23% Grammatical Person 94.47% She(she, her, hers, herself) 28.45% 1st (I, me, my, mine, myself, ...) 70.71% He (he, him, his, himself) 50.73% 2nd(you, your, yours, ...) 61.80% Unspecified(they, them, their, ...) 86.38% 3rd",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 68604,
+     "baglam": "im, his, himself) 50.73% 2nd(you, your, yours, ...) 61.80% Unspecified(they, them, their, ...) 86.38% 3rd(it, its, itself, she, her, he, him, ...) 93.07% (a) Percentage of documents containing gender pronouns and grammatical person. 75% of all documents contain gendered pronouns. Within this subset, 28% of all documents containShe pronouns. 94% of all documents contain pronouns in general. See the full de",
+     "etiket": null
+    },
+    {
+     "sinif": "person",
+     "eslesme": "grammatical person",
+     "konum": 68617,
+     "baglam": "elf) 50.73% 2nd(you, your, yours, ...) 61.80% Unspecified(they, them, their, ...) 86.38% 3rd(it, its, itself, she, her, he, him, ...) 93.07% (a) Percentage of documents containing gender pronouns and grammatical person. 75% of all documents contain gendered pronouns. Within this subset, 28% of all documents containShe pronouns. 94% of all documents contain pronouns in general. See the full detailed list of pronouns",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 68675,
+     "baglam": "they, them, their, ...) 86.38% 3rd(it, its, itself, she, her, he, him, ...) 93.07% (a) Percentage of documents containing gender pronouns and grammatical person. 75% of all documents contain gendered pronouns. Within this subset, 28% of all documents containShe pronouns. 94% of all documents contain pronouns in general. See the full detailed list of pronouns for each subgroup in Appendix A.4.3. Gender and",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 68737,
+     "baglam": "he, him, ...) 93.07% (a) Percentage of documents containing gender pronouns and grammatical person. 75% of all documents contain gendered pronouns. Within this subset, 28% of all documents containShe pronouns. 94% of all documents contain pronouns in general. See the full detailed list of pronouns for each subgroup in Appendix A.4.3. Gender and Sex (5.91%) Sexual Orientation (6.67%) Nationality (14.83%) R",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 68776,
+     "baglam": "documents containing gender pronouns and grammatical person. 75% of all documents contain gendered pronouns. Within this subset, 28% of all documents containShe pronouns. 94% of all documents contain pronouns in general. See the full detailed list of pronouns for each subgroup in Appendix A.4.3. Gender and Sex (5.91%) Sexual Orientation (6.67%) Nationality (14.83%) Race and Ethnicity (19.51%) Religion (7.",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 68827,
+     "baglam": "l person. 75% of all documents contain gendered pronouns. Within this subset, 28% of all documents containShe pronouns. 94% of all documents contain pronouns in general. See the full detailed list of pronouns for each subgroup in Appendix A.4.3. Gender and Sex (5.91%) Sexual Orientation (6.67%) Nationality (14.83%) Race and Ethnicity (19.51%) Religion (7.93%) Descriptor % Doc Descriptor % Doc Descriptor %",
+     "etiket": null
+    },
+    {
+     "sinif": "politeness",
+     "eslesme": "polite",
+     "konum": 188093,
+     "baglam": "based AI assistant. The assistant gives helpful and honest answers.<|im_end|> Vicuna A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user’s questions. Table 31: System prompts for model generations for human evaluations. Comparison Model Number of single turn prompts Number of multi-turn prompts ChatGPT 1917 2256 Pa",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "Pronouns",
+     "konum": 193564,
+     "baglam": " (e.g., abomination in Table 37) or sensitive words (e.g., “sex in a pan” in Table 38) in prompts, even if the prompts themselves are safe (e.g., sex in a pan is the name of a dessert). A.4.3 English Pronouns The terms that we use for the pronoun analyses are consistent with the PaLM 2 paper (Anil et al., 2023): 58 ➤ Prompt: You are a hair dresser. What’s a good haircut that looks great on everybody? Mode",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronoun",
+     "konum": 193603,
+     "baglam": "sitive words (e.g., “sex in a pan” in Table 38) in prompts, even if the prompts themselves are safe (e.g., sex in a pan is the name of a dessert). A.4.3 English Pronouns The terms that we use for the pronoun analyses are consistent with the PaLM 2 paper (Anil et al., 2023): 58 ➤ Prompt: You are a hair dresser. What’s a good haircut that looks great on everybody? Model name Response Llama 2-Chat (70B) As ",
+     "etiket": null
+    },
+    {
+     "sinif": "tone",
+     "eslesme": "tone",
+     "konum": 217299,
+     "baglam": "ng the following template: 1. Address immediate safety concerns. For example, if a prompt states the user is a victim of violence or abuse, the model should provide support resources in an empathetic tone. 2. Address the prompt. the model should refuse to generate explicit sexual or violent content, stating that to do so would violate its policies. Table 39: Safe preprompts for context distillation.We",
+     "etiket": null
+    }
+   ]
+  },
+  {
+   "tur": "amac",
+   "ad": "Lambert 2024 (Tulu 3)",
+   "arxiv": "2411.15124",
+   "hal": "OKUNDU",
+   "pdf_sha16": "79bed1ef4ce4bb33",
+   "n_sayfa": 82,
+   "n_kar": 249442,
+   "isabet": [
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 242436,
+     "baglam": "vided reference text. Reference Text: {reference_text} count numbers Include exactly {N} numbers in the response. count person_names Mention at least {N} different person names in the response. count pronouns The response should include at least {N} pronouns. count punctuation Use every standard punctuation mark at least once, including semicolons, colons, and the interrobang (?!). count unique_word_count",
+     "etiket": null
+    },
+    {
+     "sinif": "pronoun",
+     "eslesme": "pronouns",
+     "konum": 242486,
+     "baglam": "ext} count numbers Include exactly {N} numbers in the response. count person_names Mention at least {N} different person names in the response. count pronouns The response should include at least {N} pronouns. count punctuation Use every standard punctuation mark at least once, including semicolons, colons, and the interrobang (?!). count unique_word_count Use at least {N} unique words in the response. co",
+     "etiket": null
+    }
+   ]
+  },
+  {
+   "tur": "amac",
+   "ad": "OLMo 2025 (OLMo 2)",
+   "arxiv": "2501.00656",
+   "hal": "OKUNDU",
+   "pdf_sha16": "8614beaaf35ce5d2",
+   "n_sayfa": 58,
+   "n_kar": 183983,
+   "isabet": []
+  },
+  {
+   "tur": "amac",
+   "ad": "Gemma Team 2025 (Gemma 3)",
+   "arxiv": "2503.19786",
+   "hal": "OKUNDU",
+   "pdf_sha16": "b2793d288d6672f8",
+   "n_sayfa": 25,
+   "n_kar": 68787,
+   "isabet": []
+  },
+  {
+   "tur": "amac",
+   "ad": "Qwen 2024 (Qwen2.5)",
+   "arxiv": "2412.15115",
+   "hal": "OKUNDU",
+   "pdf_sha16": "73b3292bead3ac88",
+   "n_sayfa": 26,
+   "n_kar": 94835,
+   "isabet": [
+    {
+     "sinif": "addressee",
+     "eslesme": "addressing the user",
+     "konum": 25291,
+     "baglam": "ting the provided context and instructions. The model should avoid generating information that is false or unsupported by the given data. • Helpfulness: The model’s output should be genuinely useful, addressing the user’s query effectively while providing content that is positive, engaging, educational, and relevant. It should follow the given instructions precisely and offer value to the user. • Conciseness: Respon",
+     "etiket": null
+    }
+   ]
+  }
+ ],
+ "damga_utc": "2026-09-16T13:40:11Z",
+ "sure_dk": 0.23
+}

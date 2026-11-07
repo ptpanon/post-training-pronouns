@@ -1,0 +1,13 @@
+{
+ "table": "H6_TEMPLATE_KIP",
+ "ciktilar": [
+  "H6_TEMPLATE_KIP.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/reviewer6_template_mode_2026-09-17.json",
+   "sha256_16": "52f430bb9d2fd422"
+  }
+ ],
+ "note": "renders the rule-first mode reading of the chat-template panel; computes no new statistic"
+}

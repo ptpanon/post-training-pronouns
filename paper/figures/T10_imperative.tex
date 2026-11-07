@@ -1,0 +1,28 @@
+\begin{table}[tb]\centering\small
+\caption{\textbf{Bare imperatives, model by model.} Rate is bare imperatives as a percentage of parsed sentences on the debate prompts; \textsc{proc.} is the share of those that stand inside a numbered procedure rather than in prose. Appendix~\ref{app:D2} reports the panel total; this is the model-level decomposition behind it. The rate rises in 10 of 16 models and falls in 6, and the largest model-level change is 0.94 percentage points, so the panel statement holds model by model and not only in aggregate. What moves is the composition: the procedural share rises in most models, which is the same post-training change that lengthens sentences.}
+\label{tab:imperative}
+\begin{tabular}{lrrr@{\hspace{10pt}}rrr@{\hspace{10pt}}r}
+\toprule
+ & \multicolumn{3}{c}{base} & \multicolumn{3}{c}{aligned} & \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+model & sentences & rate \% & \textsc{proc.} \% & sentences & rate \% & \textsc{proc.} \% & $\Delta$ \\
+\midrule
+Gemma-3-12B & 53{,}053 & 0.92 & 29 & 64{,}737 & 0.97 & 49 & +0.05 \\
+Gemma-3-27B & 56{,}448 & 0.82 & 28 & 62{,}628 & 0.89 & 61 & +0.07 \\
+Gemma-3-4B & 55{,}213 & 1.01 & 34 & 63{,}366 & 0.73 & 52 & -0.28 \\
+Llama-3.1-70B & 60{,}706 & 0.91 & 31 & 64{,}639 & 1.04 & 36 & +0.13 \\
+Llama-3.1-8B & 58{,}938 & 0.83 & 25 & 60{,}872 & 1.06 & 41 & +0.23 \\
+Mistral-7B-v0.3 & 53{,}345 & 1.07 & 35 & 47{,}748 & 0.39 & 43 & -0.68 \\
+OLMo-3-7B & 68{,}758 & 1.14 & 33 & 51{,}187 & 1.84 & 25 & +0.69 \\
+OLMo-2-13B & 60{,}166 & 1.25 & 30 & 51{,}420 & 1.59 & 26 & +0.34 \\
+OLMo-2-32B & 61{,}419 & 1.37 & 31 & 53{,}624 & 1.26 & 30 & -0.11 \\
+Qwen2.5-1.5B & 61{,}955 & 1.28 & 28 & 54{,}920 & 2.22 & 32 & +0.94 \\
+Qwen2.5-14B & 61{,}527 & 1.04 & 36 & 51{,}382 & 1.01 & 21 & -0.03 \\
+Qwen2.5-32B & 60{,}546 & 0.97 & 25 & 51{,}773 & 1.03 & 21 & +0.05 \\
+Qwen2.5-3B & 62{,}575 & 1.14 & 30 & 54{,}478 & 1.17 & 29 & +0.03 \\
+Qwen2.5-72B & 56{,}040 & 0.89 & 36 & 53{,}233 & 0.85 & 31 & -0.04 \\
+Qwen2.5-7B & 58{,}756 & 1.06 & 28 & 53{,}556 & 0.95 & 21 & -0.11 \\
+T\"ulu-3-8B & 58{,}938 & 0.83 & 25 & 41{,}788 & 0.97 & 24 & +0.15 \\
+\bottomrule
+\end{tabular}
+\end{table}

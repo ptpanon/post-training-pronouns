@@ -1,0 +1,2148 @@
+{
+ "sinif": "BETIM · card · bar yok",
+ "rule": "preregistration/rule_v97_cpu_readings_2026-09-19.md",
+ "okuma": "R5",
+ "tavan_kaynak": "a3_harman_oran.YENI_JETON=160 (panel kökleri) · ELICIT satirda n_yeni_jeton/kesik",
+ "esik": "n ≥ tavan − 3 (yeniden jetonlama)",
+ "pozitif_kontrol": {
+  "Gemma-3-4B": {
+   "sayac": 0.3712,
+   "kesik": 1.0
+  },
+  "Gemma-3-12B": {
+   "sayac": 0.6793,
+   "kesik": 1.0
+  },
+  "Gemma-3-27B": {
+   "sayac": 0.7424,
+   "kesik": 1.0
+  }
+ },
+ "sayac_kayit_uyumu": {
+  "n_bacak": 32,
+  "en_dusuk": 0.7878787878787878,
+  "en_dusuk_2": 0.9722222222222222
+ },
+ "ERRATA_1": "ELICIT",
+ "kok": {
+  "ham": {
+   "Qwen2.5-1.5B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8399,
+     "pay_bant_7_10": 0.0069,
+     "ortanca": 160.0,
+     "en_cok": 165
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9707,
+     "pay_bant_7_10": 0.0011,
+     "ortanca": 160.0,
+     "en_cok": 164
+    }
+   },
+   "Qwen2.5-3B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8499,
+     "pay_bant_7_10": 0.0084,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9963,
+     "pay_bant_7_10": 0.0005,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Mistral-7B-v0.3": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7623,
+     "pay_bant_7_10": 0.0089,
+     "ortanca": 160.0,
+     "en_cok": 163
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7129,
+     "pay_bant_7_10": 0.0155,
+     "ortanca": 160.0,
+     "en_cok": 162
+    }
+   },
+   "Qwen2.5-7B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7802,
+     "pay_bant_7_10": 0.0119,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9933,
+     "pay_bant_7_10": 0.0003,
+     "ortanca": 160.0,
+     "en_cok": 165
+    }
+   },
+   "OLMo-3-7B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9994,
+     "pay_bant_7_10": 0.0006,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8683,
+     "pay_bant_7_10": 0.0052,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Llama-3.1-8B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7884,
+     "pay_bant_7_10": 0.0086,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9989,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 162
+    }
+   },
+   "Tulu3-8B": {
+    "dpo": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.5839,
+     "pay_bant_7_10": 0.0204,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "rl": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6506,
+     "pay_bant_7_10": 0.0195,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "sft": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.2475,
+     "pay_bant_7_10": 0.0139,
+     "ortanca": 78.0,
+     "en_cok": 160
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7884,
+     "pay_bant_7_10": 0.0086,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-4B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7463,
+     "pay_bant_7_10": 0.0078,
+     "ortanca": 160.0,
+     "en_cok": 162
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8771,
+     "pay_bant_7_10": 0.0067,
+     "ortanca": 160.0,
+     "en_cok": 162
+    }
+   },
+   "OLMo2-13B": {
+    "dpo": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6843,
+     "pay_bant_7_10": 0.0175,
+     "ortanca": 162.0,
+     "en_cok": 208
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6697,
+     "pay_bant_7_10": 0.0191,
+     "ortanca": 161.0,
+     "en_cok": 208
+    },
+    "sft": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.5728,
+     "pay_bant_7_10": 0.0135,
+     "ortanca": 160.0,
+     "en_cok": 194
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7655,
+     "pay_bant_7_10": 0.0081,
+     "ortanca": 160.0,
+     "en_cok": 227
+    }
+   },
+   "Gemma-3-12B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6996,
+     "pay_bant_7_10": 0.008,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9277,
+     "pay_bant_7_10": 0.0058,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-14B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7681,
+     "pay_bant_7_10": 0.0116,
+     "ortanca": 160.0,
+     "en_cok": 162
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9989,
+     "pay_bant_7_10": 0.0003,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-27B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6999,
+     "pay_bant_7_10": 0.0081,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9084,
+     "pay_bant_7_10": 0.0047,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo2-32B": {
+    "dpo": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.5702,
+     "pay_bant_7_10": 0.0213,
+     "ortanca": 160.0,
+     "en_cok": 169
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6247,
+     "pay_bant_7_10": 0.0182,
+     "ortanca": 160.0,
+     "en_cok": 169
+    },
+    "sft": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.5648,
+     "pay_bant_7_10": 0.0152,
+     "ortanca": 160.0,
+     "en_cok": 176
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.746,
+     "pay_bant_7_10": 0.0083,
+     "ortanca": 160.0,
+     "en_cok": 194
+    }
+   },
+   "Qwen2.5-32B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7442,
+     "pay_bant_7_10": 0.0101,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9963,
+     "pay_bant_7_10": 0.0005,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Qwen2.5-72B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6206,
+     "pay_bant_7_10": 0.0153,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9897,
+     "pay_bant_7_10": 0.0023,
+     "ortanca": 160.0,
+     "en_cok": 165
+    }
+   },
+   "Llama-3.1-70B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7246,
+     "pay_bant_7_10": 0.0081,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9669,
+     "pay_bant_7_10": 0.002,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   }
+  },
+  "template": {
+   "Qwen2.5-1.5B": {
+    "base.KIRLI_W974": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8626,
+     "pay_bant_7_10": 0.0043,
+     "ortanca": 160.0,
+     "en_cok": 631
+    },
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8099,
+     "pay_bant_7_10": 0.0074,
+     "ortanca": 160.0,
+     "en_cok": 213
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6314,
+     "pay_bant_7_10": 0.0136,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Qwen2.5-3B": {
+    "base.KIRLI_W974": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6244,
+     "pay_bant_7_10": 0.0124,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6363,
+     "pay_bant_7_10": 0.0103,
+     "ortanca": 160.0,
+     "en_cok": 168
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9988,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 162
+    }
+   },
+   "Mistral-7B-v0.3": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.786,
+     "pay_bant_7_10": 0.009,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9836,
+     "pay_bant_7_10": 0.0031,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-7B": {
+    "base.KIRLI_W974": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6942,
+     "pay_bant_7_10": 0.0106,
+     "ortanca": 160.0,
+     "en_cok": 162
+    },
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7495,
+     "pay_bant_7_10": 0.0123,
+     "ortanca": 160.0,
+     "en_cok": 166
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9998,
+     "pay_bant_7_10": 0.0002,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo-3-7B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9979,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 164
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9963,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 162
+    }
+   },
+   "Llama-3.1-8B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8367,
+     "pay_bant_7_10": 0.0034,
+     "ortanca": 160.0,
+     "en_cok": 176
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9383,
+     "pay_bant_7_10": 0.0018,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Tulu3-8B": {
+    "dpo": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9835,
+     "pay_bant_7_10": 0.0031,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "rl": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9926,
+     "pay_bant_7_10": 0.0014,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "sft": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.1604,
+     "pay_bant_7_10": 0.0152,
+     "ortanca": 84.0,
+     "en_cok": 160
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8183,
+     "pay_bant_7_10": 0.01,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-4B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7944,
+     "pay_bant_7_10": 0.0072,
+     "ortanca": 160.0,
+     "en_cok": 347
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9629,
+     "pay_bant_7_10": 0.0025,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo2-13B": {
+    "dpo": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 165.0,
+     "en_cok": 175
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 165.0,
+     "en_cok": 176
+    },
+    "sft": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6821,
+     "pay_bant_7_10": 0.0169,
+     "ortanca": 163.0,
+     "en_cok": 174
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7184,
+     "pay_bant_7_10": 0.0093,
+     "ortanca": 162.0,
+     "en_cok": 242
+    }
+   },
+   "Gemma-3-12B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8925,
+     "pay_bant_7_10": 0.006,
+     "ortanca": 160.0,
+     "en_cok": 418
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9263,
+     "pay_bant_7_10": 0.0029,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Qwen2.5-14B": {
+    "base.KIRLI_W974": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.4458,
+     "pay_bant_7_10": 0.017,
+     "ortanca": 135.0,
+     "en_cok": 161
+    },
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6383,
+     "pay_bant_7_10": 0.0127,
+     "ortanca": 160.0,
+     "en_cok": 163
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9965,
+     "pay_bant_7_10": 0.0005,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-27B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9527,
+     "pay_bant_7_10": 0.0021,
+     "ortanca": 160.0,
+     "en_cok": 162
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9776,
+     "pay_bant_7_10": 0.0057,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "OLMo2-32B": {
+    "dpo": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9998,
+     "pay_bant_7_10": 0.0002,
+     "ortanca": 160.0,
+     "en_cok": 166
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 165
+    },
+    "sft": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7829,
+     "pay_bant_7_10": 0.0095,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "taban.KIRLI_W974.1788888394": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.5426,
+     "pay_bant_7_10": 0.0138,
+     "ortanca": 160.0,
+     "en_cok": 192
+    },
+    "taban.KIRLI_W974": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.5426,
+     "pay_bant_7_10": 0.0138,
+     "ortanca": 160.0,
+     "en_cok": 192
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.5426,
+     "pay_bant_7_10": 0.0138,
+     "ortanca": 160.0,
+     "en_cok": 192
+    }
+   },
+   "Qwen2.5-32B": {
+    "base.KIRLI_W974": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.4931,
+     "pay_bant_7_10": 0.0141,
+     "ortanca": 153.0,
+     "en_cok": 160
+    },
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.6552,
+     "pay_bant_7_10": 0.0095,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9975,
+     "pay_bant_7_10": 0.0003,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Qwen2.5-72B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8595,
+     "pay_bant_7_10": 0.0061,
+     "ortanca": 160.0,
+     "en_cok": 165
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9942,
+     "pay_bant_7_10": 0.0005,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Llama-3.1-70B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8641,
+     "pay_bant_7_10": 0.0061,
+     "ortanca": 160.0,
+     "en_cok": 162
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.918,
+     "pay_bant_7_10": 0.0054,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   }
+  },
+  "urial": {
+   "Qwen2.5-1.5B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9597,
+     "pay_bant_7_10": 0.0018,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9441,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 162
+    }
+   },
+   "Qwen2.5-3B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9476,
+     "pay_bant_7_10": 0.0026,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9995,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Mistral-7B-v0.3": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9991,
+     "pay_bant_7_10": 0.0002,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9992,
+     "pay_bant_7_10": 0.0003,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Qwen2.5-7B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9753,
+     "pay_bant_7_10": 0.0023,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo-3-7B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9997,
+     "pay_bant_7_10": 0.0003,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9974,
+     "pay_bant_7_10": 0.0002,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Llama-3.1-8B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9884,
+     "pay_bant_7_10": 0.0005,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Tulu3-8B": {
+    "rl": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9884,
+     "pay_bant_7_10": 0.0005,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-4B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9563,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9928,
+     "pay_bant_7_10": 0.0028,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo2-13B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 166.0,
+     "en_cok": 177
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9472,
+     "pay_bant_7_10": 0.0044,
+     "ortanca": 163.0,
+     "en_cok": 193
+    }
+   },
+   "Gemma-3-12B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9715,
+     "pay_bant_7_10": 0.0012,
+     "ortanca": 160.0,
+     "en_cok": 164
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9877,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-14B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9566,
+     "pay_bant_7_10": 0.0021,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-27B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9709,
+     "pay_bant_7_10": 0.0021,
+     "ortanca": 160.0,
+     "en_cok": 168
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9951,
+     "pay_bant_7_10": 0.0021,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo2-32B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9998,
+     "pay_bant_7_10": 0.0002,
+     "ortanca": 160.0,
+     "en_cok": 166
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.7693,
+     "pay_bant_7_10": 0.0172,
+     "ortanca": 163.0,
+     "en_cok": 209
+    }
+   },
+   "Qwen2.5-32B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.8799,
+     "pay_bant_7_10": 0.0044,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9997,
+     "pay_bant_7_10": 0.0002,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-72B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9766,
+     "pay_bant_7_10": 0.0018,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Llama-3.1-70B": {
+    "base": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.987,
+     "pay_bant_7_10": 0.0015,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 6528,
+     "pay_tavan": 0.9992,
+     "pay_bant_7_10": 0.0002,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   }
+  },
+  "siradan_B1": {
+   "Qwen2.5-1.5B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9608,
+     "pay_bant_7_10": 0.0033,
+     "ortanca": 160.0,
+     "en_cok": 162
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.55,
+     "pay_bant_7_10": 0.005,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-3B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9383,
+     "pay_bant_7_10": 0.0008,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6358,
+     "pay_bant_7_10": 0.0058,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Mistral-7B-v0.3": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9992,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6067,
+     "pay_bant_7_10": 0.0075,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-7B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9675,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6175,
+     "pay_bant_7_10": 0.0025,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo-3-7B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6817,
+     "pay_bant_7_10": 0.01,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Llama-3.1-8B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.995,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6225,
+     "pay_bant_7_10": 0.0058,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Tulu3-8B": {
+    "rl": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.645,
+     "pay_bant_7_10": 0.0075,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.995,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-4B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9842,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6658,
+     "pay_bant_7_10": 0.01,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo2-13B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.71,
+     "pay_bant_7_10": 0.0117,
+     "ortanca": 166.0,
+     "en_cok": 186
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.7533,
+     "pay_bant_7_10": 0.015,
+     "ortanca": 164.0,
+     "en_cok": 180
+    }
+   },
+   "Gemma-3-12B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9758,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6508,
+     "pay_bant_7_10": 0.0075,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-14B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.955,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.595,
+     "pay_bant_7_10": 0.005,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-27B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9733,
+     "pay_bant_7_10": 0.0008,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6775,
+     "pay_bant_7_10": 0.01,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo2-32B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6592,
+     "pay_bant_7_10": 0.0067,
+     "ortanca": 160.0,
+     "en_cok": 164
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.7383,
+     "pay_bant_7_10": 0.0142,
+     "ortanca": 164.0,
+     "en_cok": 176
+    }
+   },
+   "Qwen2.5-32B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.92,
+     "pay_bant_7_10": 0.0058,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6058,
+     "pay_bant_7_10": 0.0067,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-72B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9667,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6225,
+     "pay_bant_7_10": 0.0058,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Llama-3.1-70B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9958,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.6175,
+     "pay_bant_7_10": 0.01,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   }
+  },
+  "v96_q4": {
+   "Qwen2.5-1.5B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9617,
+     "pay_bant_7_10": 0.0025,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9567,
+     "pay_bant_7_10": 0.0033,
+     "ortanca": 160.0,
+     "en_cok": 162
+    }
+   },
+   "Qwen2.5-3B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.95,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.985,
+     "pay_bant_7_10": 0.0008,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Mistral-7B-v0.3": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9992,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9667,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Qwen2.5-7B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9708,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo-3-7B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9475,
+     "pay_bant_7_10": 0.0008,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Llama-3.1-8B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9983,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9992,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Tulu3-8B": {
+    "rl": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9433,
+     "pay_bant_7_10": 0.005,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9983,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-4B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.975,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.8717,
+     "pay_bant_7_10": 0.0058,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo2-13B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.7625,
+     "pay_bant_7_10": 0.015,
+     "ortanca": 167.0,
+     "en_cok": 181
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.7383,
+     "pay_bant_7_10": 0.02,
+     "ortanca": 164.0,
+     "en_cok": 184
+    }
+   },
+   "Gemma-3-12B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9842,
+     "pay_bant_7_10": 0.0008,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.8083,
+     "pay_bant_7_10": 0.0133,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-14B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9175,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-27B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.97,
+     "pay_bant_7_10": 0.0008,
+     "ortanca": 160.0,
+     "en_cok": 161
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.75,
+     "pay_bant_7_10": 0.0133,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo2-32B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.7158,
+     "pay_bant_7_10": 0.015,
+     "ortanca": 160.0,
+     "en_cok": 168
+    },
+    "taban": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.7492,
+     "pay_bant_7_10": 0.015,
+     "ortanca": 164.0,
+     "en_cok": 179
+    }
+   },
+   "Qwen2.5-32B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.8758,
+     "pay_bant_7_10": 0.0092,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9783,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-72B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9583,
+     "pay_bant_7_10": 0.0033,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9992,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Llama-3.1-70B": {
+    "base": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9875,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    },
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9975,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   }
+  },
+  "v96_k3": {
+   "Qwen2.5-1.5B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.965,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Qwen2.5-3B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.985,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Mistral-7B-v0.3": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9683,
+     "pay_bant_7_10": 0.0008,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Qwen2.5-7B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo-3-7B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9592,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 161
+    }
+   },
+   "Llama-3.1-8B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 1.0,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Tulu3-8B": {
+    "rl": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9667,
+     "pay_bant_7_10": 0.0025,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-4B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9658,
+     "pay_bant_7_10": 0.0017,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo2-13B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.76,
+     "pay_bant_7_10": 0.0133,
+     "ortanca": 167.0,
+     "en_cok": 178
+    }
+   },
+   "Gemma-3-12B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.8167,
+     "pay_bant_7_10": 0.0133,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-14B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9942,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Gemma-3-27B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.7483,
+     "pay_bant_7_10": 0.02,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "OLMo2-32B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.7492,
+     "pay_bant_7_10": 0.0092,
+     "ortanca": 160.0,
+     "en_cok": 168
+    }
+   },
+   "Qwen2.5-32B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9608,
+     "pay_bant_7_10": 0.0033,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Qwen2.5-72B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9992,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   },
+   "Llama-3.1-70B": {
+    "instruct": {
+     "tavan": 160,
+     "n": 1200,
+     "pay_tavan": 0.9975,
+     "pay_bant_7_10": 0.0,
+     "ortanca": 160.0,
+     "en_cok": 160
+    }
+   }
+  },
+  "elicit": {
+   "Qwen2.5-1.5B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.7626,
+     "pay_bant_7_10": 0.0051,
+     "kayit_kesik_payi": 0.7854,
+     "kayit_n_yeni_ge_tavan": 0.7854,
+     "uyum_kayit_n": 0.9722,
+     "uyum_kayit_kesik": 0.9722
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "Qwen2.5-3B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.096,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.096,
+     "kayit_n_yeni_ge_tavan": 0.096,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "Mistral-7B-v0.3": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.5631,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.5631,
+     "kayit_n_yeni_ge_tavan": 0.5631,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "Qwen2.5-7B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0429,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0429,
+     "kayit_n_yeni_ge_tavan": 0.0429,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "OLMo-3-7B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.7879,
+     "pay_bant_7_10": 0.1843,
+     "kayit_kesik_payi": 0.2096,
+     "kayit_n_yeni_ge_tavan": 1.0,
+     "uyum_kayit_n": 0.7879,
+     "uyum_kayit_kesik": 0.4217
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.2399,
+     "pay_bant_7_10": 0.0025,
+     "kayit_kesik_payi": 0.2374,
+     "kayit_n_yeni_ge_tavan": 0.2374,
+     "uyum_kayit_n": 0.9975,
+     "uyum_kayit_kesik": 0.9975
+    }
+   },
+   "Llama-3.1-8B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.1995,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.1995,
+     "kayit_n_yeni_ge_tavan": 0.1995,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "Tulu3-8B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.1995,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.1995,
+     "kayit_n_yeni_ge_tavan": 0.1995,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "Gemma-3-4B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.2096,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.2096,
+     "kayit_n_yeni_ge_tavan": 0.2096,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.3712,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 1.0,
+     "kayit_n_yeni_ge_tavan": 0.3687,
+     "uyum_kayit_n": 0.9975,
+     "uyum_kayit_kesik": 0.3712
+    }
+   },
+   "OLMo2-13B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0227,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0202,
+     "kayit_n_yeni_ge_tavan": 0.0202,
+     "uyum_kayit_n": 0.9975,
+     "uyum_kayit_kesik": 0.9975
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "Gemma-3-12B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.4268,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.4268,
+     "kayit_n_yeni_ge_tavan": 0.4268,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.6793,
+     "pay_bant_7_10": 0.0076,
+     "kayit_kesik_payi": 1.0,
+     "kayit_n_yeni_ge_tavan": 0.6768,
+     "uyum_kayit_n": 0.9975,
+     "uyum_kayit_kesik": 0.6793
+    }
+   },
+   "Qwen2.5-14B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0101,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0101,
+     "kayit_n_yeni_ge_tavan": 0.0101,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "Gemma-3-27B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.5581,
+     "pay_bant_7_10": 0.0025,
+     "kayit_kesik_payi": 0.5581,
+     "kayit_n_yeni_ge_tavan": 0.5581,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.7424,
+     "pay_bant_7_10": 0.0025,
+     "kayit_kesik_payi": 1.0,
+     "kayit_n_yeni_ge_tavan": 0.7399,
+     "uyum_kayit_n": 0.9975,
+     "uyum_kayit_kesik": 0.7424
+    }
+   },
+   "OLMo2-32B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0606,
+     "pay_bant_7_10": 0.0025,
+     "kayit_kesik_payi": 0.053,
+     "kayit_n_yeni_ge_tavan": 0.053,
+     "uyum_kayit_n": 0.9924,
+     "uyum_kayit_kesik": 0.9924
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "Qwen2.5-32B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.1338,
+     "pay_bant_7_10": 0.0025,
+     "kayit_kesik_payi": 0.1338,
+     "kayit_n_yeni_ge_tavan": 0.1338,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "Qwen2.5-72B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.1187,
+     "pay_bant_7_10": 0.0025,
+     "kayit_kesik_payi": 0.1162,
+     "kayit_n_yeni_ge_tavan": 0.1162,
+     "uyum_kayit_n": 0.9975,
+     "uyum_kayit_kesik": 0.9975
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0051,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0051,
+     "kayit_n_yeni_ge_tavan": 0.0051,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   },
+   "Llama-3.1-70B": {
+    "base": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.2222,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.2222,
+     "kayit_n_yeni_ge_tavan": 0.2222,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    },
+    "instruct": {
+     "tavan": 1024,
+     "n": 396,
+     "pay_tavan": 0.0,
+     "pay_bant_7_10": 0.0,
+     "kayit_kesik_payi": 0.0,
+     "kayit_n_yeni_ge_tavan": 0.0,
+     "uyum_kayit_n": 1.0,
+     "uyum_kayit_kesik": 1.0
+    }
+   }
+  }
+ },
+ "damga_utc": "2026-09-19T16:36:13Z"
+}

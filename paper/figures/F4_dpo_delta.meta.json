@@ -1,0 +1,23 @@
+{
+ "figure": "F4_dpo_delta",
+ "caption_draft": "Interpolating the preference delta θ(α)=θ_SFT+α(θ_DPO−θ_SFT) moves the mood statistic monotonically in all four ladders (ρ = −1.000 each), yet only OLMo-2-13B returns toward its pre-trained base (star) when the delta is undone; at 32B the same lab, recipe and grid give a curve that moves away from base --- the direction is shared, the return is not, and it is scale that breaks it.",
+ "sources": [
+  {
+   "yol": "results/D_DELTA_olmo32_2026-08-28.json",
+   "sha256_16": "6421b643a81ec85c"
+  },
+  {
+   "yol": "results/D_DELTA_olmo_2026-08-27.json",
+   "sha256_16": "252ab615e471ff78"
+  },
+  {
+   "yol": "results/D_DELTA_tulu3_2026-08-27.json",
+   "sha256_16": "36cd01184d12c73b"
+  },
+  {
+   "yol": "results/D_DELTA_zephyr_2026-08-28.json",
+   "sha256_16": "ccf7d332c6776fad"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

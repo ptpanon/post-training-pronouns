@@ -1,0 +1,22 @@
+{
+ "table": "TEMPLATE_KADRAN",
+ "ciktilar": [
+  "TEMPLATE_KADRAN.tex",
+  "TEMPLATE_KADRAN_SAPMA.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/template_kadran_betim_2026-09-17.json",
+   "sha256_16": "746c3636a31ee6dd"
+  }
+ ],
+ "payda": {
+  "n_kol": 3,
+  "yuva_tam": 12,
+  "raf": [
+   "KISI_YUKARI"
+  ],
+  "taban_M1": 9.5625
+ },
+ "note": "renders the descriptive chat-template-dial card; no statistic computed here"
+}

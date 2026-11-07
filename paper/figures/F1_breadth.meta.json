@@ -1,0 +1,23 @@
+{
+ "figure": "F1_breadth",
+ "caption_draft": "Across 24 base→aligned model pairs the dominance shift is predominantly one-signed, whereas the arousal shift is two-signed; grey strips mark the null band and the pre-registered unmeasurable band (1.00–1.645 null-sd).",
+ "sources": [
+  {
+   "yol": "results/C1_AILE_PANELI_2026-08-15.json",
+   "sha256_16": "6558aadc1dc962e6"
+  },
+  {
+   "yol": "results/P5_OLCEK_KOLU_2026-08-21.json",
+   "sha256_16": "af2e09505def6db5"
+  },
+  {
+   "yol": "results/P7_OLCEK2_2026-08-21.json",
+   "sha256_16": "3e123d97ff6ef33b"
+  },
+  {
+   "yol": "results/P_OLCEK3_TULU3_2026-08-22.json",
+   "sha256_16": "26c7c9be9b0043d3"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

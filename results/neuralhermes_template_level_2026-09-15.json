@@ -1,0 +1,23 @@
+{
+ "_kunye": {
+  "alet": "scripts/neuralhermes_template_level.py",
+  "damga_utc": "2026-09-15T08:44:59Z",
+  "kok": "<data>/c1_panel_v61_template/NeuralHermes-2.5",
+  "sinif": "DÜZEY OKUMASI — verdict kurmaz",
+  "zemin_kaynagi": "p11.tex Ek «Absolute densities behind the templated ladder shares»: floor of the whole templated aligned band 2.01"
+ },
+ "M1_sft": 4.5691,
+ "M1_dpo": 6.2311,
+ "dM1_tercih": 1.662,
+ "ci": [
+  1.0053,
+  2.1584
+ ],
+ "ayrik": true,
+ "n_istem": 34,
+ "n_satir": {
+  "sft": 6528,
+  "dpo": 6528
+ },
+ "sft_sablonlu_zemine_mesafe": 2.5591
+}

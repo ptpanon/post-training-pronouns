@@ -1,0 +1,1857 @@
+{
+ "sinif": "ISTEM",
+ "prereg": "preregistration/prereg_siradan_instruction_2026-09-17.md",
+ "kaynak": {
+  "set": "tatsu-lab/alpaca",
+  "lisans": "CC BY-NC 4.0",
+  "snapshot": "dce01c9b08f87459cf36a430d809084718273017",
+  "parquet_sha256_16": "06391b656a06fd3f",
+  "n_satir": 52002
+ },
+ "rule": {
+  "siniflar": [
+   [
+    "OZET",
+    "^(summari[sz]e|write a summary|provide a summary|give a summary)\\b"
+   ],
+   [
+    "SINIFLAMA",
+    "^(classify|categori[sz]e|identify (whether|if|the type|the category)|is (this|the following) (a|an)\\b)"
+   ],
+   [
+    "NASIL",
+    "^(how (to|does|do|can|is|are)|what are the steps|steps to|outline the steps)\\b"
+   ],
+   [
+    "ACIKLAMA",
+    "^(explain|describe|what (is|are) (a |an |the )?[a-z]|why (do|does|is|are|did))\\b"
+   ]
+  ],
+  "muhatap_turu": "\\b(letter|e-?mail|message|dialog(ue)?|conversation|speech|tweet|reply|respond|advice|advise|recommend|persuade|convince|greet|apolog\\w*|thank)\\b",
+  "kelime_tavani": 150,
+  "kisi": "muhatap_kos m5_yakin + m1_sahis2 == 0",
+  "sira": "sha256(metin) artan",
+  "n_sinif": 75
+ },
+ "red": {
+  "sinifsiz": 43907,
+  "kod_blogu": 0,
+  "kelime": 2,
+  "muhatap_turu": 114,
+  "kisi": 855,
+  "yinelenen": 0
+ },
+ "aday_temiz": {
+  "OZET": 777,
+  "SINIFLAMA": 1233,
+  "NASIL": 380,
+  "ACIKLAMA": 4734
+ },
+ "istem_dosyasi": {
+  "yol": "<data>/siradan_talimat/istemler.jsonl",
+  "sha256_16": "40038787bfc9fdea"
+ },
+ "istemler": [
+  {
+   "istem_id": "OZET-00",
+   "satir": 29325,
+   "sha16": "00147f0ebbab9759",
+   "n_kelime": 93
+  },
+  {
+   "istem_id": "OZET-01",
+   "satir": 9458,
+   "sha16": "0021cf760dea5ec9",
+   "n_kelime": 58
+  },
+  {
+   "istem_id": "OZET-02",
+   "satir": 12513,
+   "sha16": "0043b664060e53f2",
+   "n_kelime": 67
+  },
+  {
+   "istem_id": "OZET-03",
+   "satir": 20665,
+   "sha16": "005a25980ba3f31a",
+   "n_kelime": 18
+  },
+  {
+   "istem_id": "OZET-04",
+   "satir": 41873,
+   "sha16": "01258a5e736df584",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "OZET-05",
+   "satir": 3788,
+   "sha16": "013b2eb27d51a40f",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "OZET-06",
+   "satir": 23806,
+   "sha16": "01754c77a6a7763f",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "OZET-07",
+   "satir": 28338,
+   "sha16": "01a23d39b8b6214b",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "OZET-08",
+   "satir": 23855,
+   "sha16": "01b0778075e0b4f6",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "OZET-09",
+   "satir": 36386,
+   "sha16": "031a6b10ffba3dd7",
+   "n_kelime": 59
+  },
+  {
+   "istem_id": "OZET-10",
+   "satir": 4663,
+   "sha16": "0353f8e557f750d8",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "OZET-11",
+   "satir": 51558,
+   "sha16": "03766dc79ba0e1e6",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "OZET-12",
+   "satir": 24543,
+   "sha16": "03a531943ef594ba",
+   "n_kelime": 33
+  },
+  {
+   "istem_id": "OZET-13",
+   "satir": 39602,
+   "sha16": "03d9c4e07d0341d8",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "OZET-14",
+   "satir": 9183,
+   "sha16": "03ed588a2e50b7f7",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "OZET-15",
+   "satir": 20502,
+   "sha16": "040aa774205d5e86",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "OZET-16",
+   "satir": 15128,
+   "sha16": "041099145c2a4130",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "OZET-17",
+   "satir": 6530,
+   "sha16": "0412c95b3a8bb5c4",
+   "n_kelime": 18
+  },
+  {
+   "istem_id": "OZET-18",
+   "satir": 1665,
+   "sha16": "0434a41581597699",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "OZET-19",
+   "satir": 9719,
+   "sha16": "04c26ecbdc93696b",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "OZET-20",
+   "satir": 49063,
+   "sha16": "04e00b7a72e79b35",
+   "n_kelime": 74
+  },
+  {
+   "istem_id": "OZET-21",
+   "satir": 24266,
+   "sha16": "0505b957e7c86abc",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "OZET-22",
+   "satir": 2938,
+   "sha16": "056c6d6515be09c6",
+   "n_kelime": 52
+  },
+  {
+   "istem_id": "OZET-23",
+   "satir": 17959,
+   "sha16": "0571a5bc76cc1850",
+   "n_kelime": 4
+  },
+  {
+   "istem_id": "OZET-24",
+   "satir": 5421,
+   "sha16": "05ca84ba842bb7ec",
+   "n_kelime": 61
+  },
+  {
+   "istem_id": "OZET-25",
+   "satir": 25019,
+   "sha16": "06040ee099ef887c",
+   "n_kelime": 19
+  },
+  {
+   "istem_id": "OZET-26",
+   "satir": 10526,
+   "sha16": "06e65143b6df26e4",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "OZET-27",
+   "satir": 34214,
+   "sha16": "07475370c98e0d96",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "OZET-28",
+   "satir": 27237,
+   "sha16": "075074ce6c00a585",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "OZET-29",
+   "satir": 37979,
+   "sha16": "07b7cb585cb936a8",
+   "n_kelime": 79
+  },
+  {
+   "istem_id": "OZET-30",
+   "satir": 27459,
+   "sha16": "085b400338ed1d4d",
+   "n_kelime": 4
+  },
+  {
+   "istem_id": "OZET-31",
+   "satir": 11269,
+   "sha16": "0887252e22af485c",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "OZET-32",
+   "satir": 12127,
+   "sha16": "08ad8d4fd30a1b1f",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "OZET-33",
+   "satir": 26446,
+   "sha16": "09185bd3d561287f",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "OZET-34",
+   "satir": 18260,
+   "sha16": "097957174a8f0d74",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "OZET-35",
+   "satir": 47287,
+   "sha16": "09c04f263c68728d",
+   "n_kelime": 78
+  },
+  {
+   "istem_id": "OZET-36",
+   "satir": 23489,
+   "sha16": "09de0e4cb45410df",
+   "n_kelime": 93
+  },
+  {
+   "istem_id": "OZET-37",
+   "satir": 35698,
+   "sha16": "0a183ca3eb007033",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "OZET-38",
+   "satir": 35742,
+   "sha16": "0a39453b3825e274",
+   "n_kelime": 81
+  },
+  {
+   "istem_id": "OZET-39",
+   "satir": 38823,
+   "sha16": "0a776b68a7ea70d4",
+   "n_kelime": 76
+  },
+  {
+   "istem_id": "OZET-40",
+   "satir": 10139,
+   "sha16": "0aada223633baf27",
+   "n_kelime": 61
+  },
+  {
+   "istem_id": "OZET-41",
+   "satir": 41599,
+   "sha16": "0acf83a3e466c354",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "OZET-42",
+   "satir": 6670,
+   "sha16": "0af941484e979acc",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "OZET-43",
+   "satir": 27391,
+   "sha16": "0d340fbfc96a1b21",
+   "n_kelime": 40
+  },
+  {
+   "istem_id": "OZET-44",
+   "satir": 32553,
+   "sha16": "0d80986d7379fa1e",
+   "n_kelime": 47
+  },
+  {
+   "istem_id": "OZET-45",
+   "satir": 3195,
+   "sha16": "0e5376db20e9ac39",
+   "n_kelime": 49
+  },
+  {
+   "istem_id": "OZET-46",
+   "satir": 1884,
+   "sha16": "0e76b1cb897003ae",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "OZET-47",
+   "satir": 29654,
+   "sha16": "0ea142edbf235888",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "OZET-48",
+   "satir": 28842,
+   "sha16": "0f0f3fc4410b3cd0",
+   "n_kelime": 27
+  },
+  {
+   "istem_id": "OZET-49",
+   "satir": 37479,
+   "sha16": "0f489d977bab2d3e",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "OZET-50",
+   "satir": 25295,
+   "sha16": "0f6c43e04a0b15b1",
+   "n_kelime": 47
+  },
+  {
+   "istem_id": "OZET-51",
+   "satir": 51690,
+   "sha16": "0fcf6558a7edbd96",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "OZET-52",
+   "satir": 24525,
+   "sha16": "108afc3d69ecdb0e",
+   "n_kelime": 40
+  },
+  {
+   "istem_id": "OZET-53",
+   "satir": 47522,
+   "sha16": "116dc06bda9c06dd",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "OZET-54",
+   "satir": 28898,
+   "sha16": "11e2f23c8bba6086",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "OZET-55",
+   "satir": 18240,
+   "sha16": "11e6da4c3f6d2e7c",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "OZET-56",
+   "satir": 41072,
+   "sha16": "12172c1178a4ad7f",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "OZET-57",
+   "satir": 24295,
+   "sha16": "1239a79c6aaeeeae",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "OZET-58",
+   "satir": 5299,
+   "sha16": "12438a2f68e11334",
+   "n_kelime": 66
+  },
+  {
+   "istem_id": "OZET-59",
+   "satir": 10939,
+   "sha16": "138abed9daa7d003",
+   "n_kelime": 51
+  },
+  {
+   "istem_id": "OZET-60",
+   "satir": 36434,
+   "sha16": "1432618ad36697e0",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "OZET-61",
+   "satir": 24509,
+   "sha16": "1460a2ae98e20f6e",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "OZET-62",
+   "satir": 20439,
+   "sha16": "1485a83e96cef713",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "OZET-63",
+   "satir": 32592,
+   "sha16": "149d6d6bf3a335fd",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "OZET-64",
+   "satir": 39398,
+   "sha16": "152f6cfe860cf9af",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "OZET-65",
+   "satir": 22399,
+   "sha16": "15bcf83b36da190e",
+   "n_kelime": 15
+  },
+  {
+   "istem_id": "OZET-66",
+   "satir": 31660,
+   "sha16": "15d76a7a6bae602e",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "OZET-67",
+   "satir": 41923,
+   "sha16": "16014647884e4d93",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "OZET-68",
+   "satir": 38527,
+   "sha16": "160af94da833e7a5",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "OZET-69",
+   "satir": 10154,
+   "sha16": "162989386b0e8f62",
+   "n_kelime": 100
+  },
+  {
+   "istem_id": "OZET-70",
+   "satir": 17161,
+   "sha16": "1652269d36390b32",
+   "n_kelime": 77
+  },
+  {
+   "istem_id": "OZET-71",
+   "satir": 41102,
+   "sha16": "16bd071e0c97e5e7",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "OZET-72",
+   "satir": 39844,
+   "sha16": "16e85edf56267ab7",
+   "n_kelime": 56
+  },
+  {
+   "istem_id": "OZET-73",
+   "satir": 50700,
+   "sha16": "174c17e9aa5c917b",
+   "n_kelime": 27
+  },
+  {
+   "istem_id": "OZET-74",
+   "satir": 43836,
+   "sha16": "1795c8c3b80c72be",
+   "n_kelime": 22
+  },
+  {
+   "istem_id": "SINIFLAMA-00",
+   "satir": 28206,
+   "sha16": "0016c3f346c35df4",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "SINIFLAMA-01",
+   "satir": 27727,
+   "sha16": "001d7ebaa29c86cb",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "SINIFLAMA-02",
+   "satir": 8783,
+   "sha16": "00d7661cec8acd65",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "SINIFLAMA-03",
+   "satir": 40173,
+   "sha16": "0147e8b8f5266d29",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "SINIFLAMA-04",
+   "satir": 36861,
+   "sha16": "0160520af84aeb6a",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "SINIFLAMA-05",
+   "satir": 24639,
+   "sha16": "021ed98188cefd12",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "SINIFLAMA-06",
+   "satir": 10863,
+   "sha16": "0246e8ea75152441",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "SINIFLAMA-07",
+   "satir": 29441,
+   "sha16": "024ae9cd21cbe4b4",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "SINIFLAMA-08",
+   "satir": 30531,
+   "sha16": "02830c1673a8bc01",
+   "n_kelime": 30
+  },
+  {
+   "istem_id": "SINIFLAMA-09",
+   "satir": 47535,
+   "sha16": "02f43d75d337768a",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "SINIFLAMA-10",
+   "satir": 3448,
+   "sha16": "02fe15ba838b25cf",
+   "n_kelime": 15
+  },
+  {
+   "istem_id": "SINIFLAMA-11",
+   "satir": 40081,
+   "sha16": "032f9ec12464b01f",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "SINIFLAMA-12",
+   "satir": 15144,
+   "sha16": "0338396c492d7495",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "SINIFLAMA-13",
+   "satir": 1741,
+   "sha16": "034dd4aac0c528c8",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "SINIFLAMA-14",
+   "satir": 33400,
+   "sha16": "039e0561529c9ae3",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "SINIFLAMA-15",
+   "satir": 6834,
+   "sha16": "03e2da6c6a40b373",
+   "n_kelime": 18
+  },
+  {
+   "istem_id": "SINIFLAMA-16",
+   "satir": 44244,
+   "sha16": "03e3dcd35e33dc0a",
+   "n_kelime": 16
+  },
+  {
+   "istem_id": "SINIFLAMA-17",
+   "satir": 25210,
+   "sha16": "03f37aff6bd35e3c",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "SINIFLAMA-18",
+   "satir": 28082,
+   "sha16": "041b8b7998df6db3",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "SINIFLAMA-19",
+   "satir": 81,
+   "sha16": "042c637c62893998",
+   "n_kelime": 25
+  },
+  {
+   "istem_id": "SINIFLAMA-20",
+   "satir": 5888,
+   "sha16": "043b865f958be536",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "SINIFLAMA-21",
+   "satir": 43429,
+   "sha16": "044009c5b01fd4f3",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "SINIFLAMA-22",
+   "satir": 10771,
+   "sha16": "0488b019cda6220e",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "SINIFLAMA-23",
+   "satir": 12182,
+   "sha16": "049230e5c3abd1a1",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "SINIFLAMA-24",
+   "satir": 11502,
+   "sha16": "051d6d7a82a08526",
+   "n_kelime": 17
+  },
+  {
+   "istem_id": "SINIFLAMA-25",
+   "satir": 286,
+   "sha16": "0566a28d38f15c3b",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "SINIFLAMA-26",
+   "satir": 22897,
+   "sha16": "05c69217e054dd61",
+   "n_kelime": 24
+  },
+  {
+   "istem_id": "SINIFLAMA-27",
+   "satir": 16639,
+   "sha16": "062d521fabc392f1",
+   "n_kelime": 16
+  },
+  {
+   "istem_id": "SINIFLAMA-28",
+   "satir": 8927,
+   "sha16": "06883420a8e9c29f",
+   "n_kelime": 22
+  },
+  {
+   "istem_id": "SINIFLAMA-29",
+   "satir": 5413,
+   "sha16": "0750e67bc126371d",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "SINIFLAMA-30",
+   "satir": 33291,
+   "sha16": "0759d89d557ccb1b",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "SINIFLAMA-31",
+   "satir": 39477,
+   "sha16": "07bea5bcd9b6504f",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "SINIFLAMA-32",
+   "satir": 37083,
+   "sha16": "07ceb8ce5609d232",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "SINIFLAMA-33",
+   "satir": 21907,
+   "sha16": "07e50ba3123cb7d8",
+   "n_kelime": 17
+  },
+  {
+   "istem_id": "SINIFLAMA-34",
+   "satir": 12419,
+   "sha16": "08ab51c4018da159",
+   "n_kelime": 18
+  },
+  {
+   "istem_id": "SINIFLAMA-35",
+   "satir": 4928,
+   "sha16": "08f539086d39223d",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "SINIFLAMA-36",
+   "satir": 11416,
+   "sha16": "08f9b292f1948c2b",
+   "n_kelime": 16
+  },
+  {
+   "istem_id": "SINIFLAMA-37",
+   "satir": 44729,
+   "sha16": "0920827aa084549a",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "SINIFLAMA-38",
+   "satir": 16032,
+   "sha16": "093fa8403ad780bf",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "SINIFLAMA-39",
+   "satir": 15119,
+   "sha16": "0991ac0e02bf6098",
+   "n_kelime": 26
+  },
+  {
+   "istem_id": "SINIFLAMA-40",
+   "satir": 25793,
+   "sha16": "0af5530569078ad8",
+   "n_kelime": 17
+  },
+  {
+   "istem_id": "SINIFLAMA-41",
+   "satir": 30173,
+   "sha16": "0b6e7867245315a0",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "SINIFLAMA-42",
+   "satir": 39864,
+   "sha16": "0b72f2f61f274042",
+   "n_kelime": 21
+  },
+  {
+   "istem_id": "SINIFLAMA-43",
+   "satir": 7369,
+   "sha16": "0b7a38e012b95808",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "SINIFLAMA-44",
+   "satir": 45675,
+   "sha16": "0b9334efe0296706",
+   "n_kelime": 22
+  },
+  {
+   "istem_id": "SINIFLAMA-45",
+   "satir": 17276,
+   "sha16": "0c3acc17bf57afac",
+   "n_kelime": 35
+  },
+  {
+   "istem_id": "SINIFLAMA-46",
+   "satir": 24080,
+   "sha16": "0c680114c397c298",
+   "n_kelime": 21
+  },
+  {
+   "istem_id": "SINIFLAMA-47",
+   "satir": 24730,
+   "sha16": "0cea2dd675880fc1",
+   "n_kelime": 22
+  },
+  {
+   "istem_id": "SINIFLAMA-48",
+   "satir": 10035,
+   "sha16": "0ced7028879d04cd",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "SINIFLAMA-49",
+   "satir": 25847,
+   "sha16": "0d5be39e8591f8a8",
+   "n_kelime": 16
+  },
+  {
+   "istem_id": "SINIFLAMA-50",
+   "satir": 20815,
+   "sha16": "0dbb1616ccd9582b",
+   "n_kelime": 19
+  },
+  {
+   "istem_id": "SINIFLAMA-51",
+   "satir": 2394,
+   "sha16": "0e46b608e6d6ae38",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "SINIFLAMA-52",
+   "satir": 37986,
+   "sha16": "0e6fc983063f7cf5",
+   "n_kelime": 22
+  },
+  {
+   "istem_id": "SINIFLAMA-53",
+   "satir": 19009,
+   "sha16": "0ea408b526a8fd59",
+   "n_kelime": 18
+  },
+  {
+   "istem_id": "SINIFLAMA-54",
+   "satir": 47772,
+   "sha16": "0f1809a98706623e",
+   "n_kelime": 32
+  },
+  {
+   "istem_id": "SINIFLAMA-55",
+   "satir": 50215,
+   "sha16": "0f3bb99b9ede04c6",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "SINIFLAMA-56",
+   "satir": 14481,
+   "sha16": "0fed182644037837",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "SINIFLAMA-57",
+   "satir": 50262,
+   "sha16": "0ff1aca01b562ef1",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "SINIFLAMA-58",
+   "satir": 44557,
+   "sha16": "10110438cffc4188",
+   "n_kelime": 19
+  },
+  {
+   "istem_id": "SINIFLAMA-59",
+   "satir": 21588,
+   "sha16": "10477c36e368bec3",
+   "n_kelime": 17
+  },
+  {
+   "istem_id": "SINIFLAMA-60",
+   "satir": 16466,
+   "sha16": "104b30ae8e92d789",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "SINIFLAMA-61",
+   "satir": 26543,
+   "sha16": "108d9a1dc4bd25e8",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "SINIFLAMA-62",
+   "satir": 40888,
+   "sha16": "10f68307b2a6eae9",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "SINIFLAMA-63",
+   "satir": 11301,
+   "sha16": "10f8e1fa5fdf0dce",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "SINIFLAMA-64",
+   "satir": 48673,
+   "sha16": "118c8bc6f98a5f04",
+   "n_kelime": 22
+  },
+  {
+   "istem_id": "SINIFLAMA-65",
+   "satir": 4603,
+   "sha16": "11b82b7fcf059d6e",
+   "n_kelime": 70
+  },
+  {
+   "istem_id": "SINIFLAMA-66",
+   "satir": 9614,
+   "sha16": "11f42f40aef3b773",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "SINIFLAMA-67",
+   "satir": 17087,
+   "sha16": "120024962778924a",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "SINIFLAMA-68",
+   "satir": 46482,
+   "sha16": "120127b602070d39",
+   "n_kelime": 18
+  },
+  {
+   "istem_id": "SINIFLAMA-69",
+   "satir": 24125,
+   "sha16": "123cb572cf49ef98",
+   "n_kelime": 34
+  },
+  {
+   "istem_id": "SINIFLAMA-70",
+   "satir": 37365,
+   "sha16": "1279035f474a6e2a",
+   "n_kelime": 15
+  },
+  {
+   "istem_id": "SINIFLAMA-71",
+   "satir": 20243,
+   "sha16": "128541c5e0d33c22",
+   "n_kelime": 18
+  },
+  {
+   "istem_id": "SINIFLAMA-72",
+   "satir": 37509,
+   "sha16": "1294a6c740c42720",
+   "n_kelime": 15
+  },
+  {
+   "istem_id": "SINIFLAMA-73",
+   "satir": 32420,
+   "sha16": "12978c215de6c72d",
+   "n_kelime": 18
+  },
+  {
+   "istem_id": "SINIFLAMA-74",
+   "satir": 32561,
+   "sha16": "1300693483c32207",
+   "n_kelime": 21
+  },
+  {
+   "istem_id": "NASIL-00",
+   "satir": 28686,
+   "sha16": "0058833d988f456a",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "NASIL-01",
+   "satir": 14427,
+   "sha16": "007056853f8643cb",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-02",
+   "satir": 4291,
+   "sha16": "00f9ddc48ef5d84b",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-03",
+   "satir": 14976,
+   "sha16": "026417f61e445f4a",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-04",
+   "satir": 31205,
+   "sha16": "029eb9489a7722a6",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-05",
+   "satir": 50259,
+   "sha16": "033bf24bd450d459",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-06",
+   "satir": 19179,
+   "sha16": "051766caceec1c30",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-07",
+   "satir": 24802,
+   "sha16": "0594fa202cbe16b5",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-08",
+   "satir": 34936,
+   "sha16": "059562e04fa54727",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "NASIL-09",
+   "satir": 42073,
+   "sha16": "05aa4086744b5b09",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "NASIL-10",
+   "satir": 20247,
+   "sha16": "06b1872c2891b06e",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "NASIL-11",
+   "satir": 12534,
+   "sha16": "08432506dc1f9d06",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "NASIL-12",
+   "satir": 28990,
+   "sha16": "0860a4ad6cbd47cb",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-13",
+   "satir": 26021,
+   "sha16": "088cda3d0af7ee8f",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "NASIL-14",
+   "satir": 16815,
+   "sha16": "08a2fe8283c0188d",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-15",
+   "satir": 42400,
+   "sha16": "09490dcfea23582d",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "NASIL-16",
+   "satir": 17926,
+   "sha16": "09b1e68aa25652ef",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "NASIL-17",
+   "satir": 44381,
+   "sha16": "09c6339f2457bb1c",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "NASIL-18",
+   "satir": 34304,
+   "sha16": "0bbf91fe850173da",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "NASIL-19",
+   "satir": 48437,
+   "sha16": "0c84ce59dcdb992e",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-20",
+   "satir": 5123,
+   "sha16": "0d7c36b37a8e2257",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "NASIL-21",
+   "satir": 20712,
+   "sha16": "0e9e7fec2c9e455a",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-22",
+   "satir": 51464,
+   "sha16": "0f7919b589589771",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-23",
+   "satir": 11759,
+   "sha16": "0fb73553e2c55d53",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "NASIL-24",
+   "satir": 49603,
+   "sha16": "1000ddea1b8f507c",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "NASIL-25",
+   "satir": 11574,
+   "sha16": "10d5cb306e6e2c8f",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "NASIL-26",
+   "satir": 31366,
+   "sha16": "112fc2925f7291c7",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "NASIL-27",
+   "satir": 34536,
+   "sha16": "11880f84a76af589",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-28",
+   "satir": 6410,
+   "sha16": "11e8cf58ccfc4bd7",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "NASIL-29",
+   "satir": 33077,
+   "sha16": "11ec28716792e1c0",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-30",
+   "satir": 28874,
+   "sha16": "11f8d3e007c68f1e",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "NASIL-31",
+   "satir": 9132,
+   "sha16": "12ab550084d2f0e0",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-32",
+   "satir": 38068,
+   "sha16": "12faf1ee83eafb36",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-33",
+   "satir": 4732,
+   "sha16": "13012d57bc802bbd",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-34",
+   "satir": 31018,
+   "sha16": "1392f912c74a51cd",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "NASIL-35",
+   "satir": 9690,
+   "sha16": "158bcb0cdc621615",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-36",
+   "satir": 36479,
+   "sha16": "16c34945deb2be30",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "NASIL-37",
+   "satir": 16678,
+   "sha16": "1877333b2962bc1d",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "NASIL-38",
+   "satir": 8878,
+   "sha16": "18acd9232a6b1ca1",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "NASIL-39",
+   "satir": 25863,
+   "sha16": "19009ee6b47bc7e4",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-40",
+   "satir": 3646,
+   "sha16": "1aabd684d33ebd8a",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-41",
+   "satir": 48404,
+   "sha16": "1b2377cb39871c00",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-42",
+   "satir": 28032,
+   "sha16": "1b6f745d5f23c6dd",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-43",
+   "satir": 44633,
+   "sha16": "1b8103ab1fb1cf5d",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-44",
+   "satir": 35226,
+   "sha16": "1bfd5f9bb00ee824",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-45",
+   "satir": 1152,
+   "sha16": "1c66becc1270d947",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-46",
+   "satir": 47400,
+   "sha16": "1cec879cf6d739c7",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "NASIL-47",
+   "satir": 5850,
+   "sha16": "1d146ff277756de5",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-48",
+   "satir": 40095,
+   "sha16": "1d1654fbb71b53d4",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "NASIL-49",
+   "satir": 16613,
+   "sha16": "1d76f993abe3efbb",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "NASIL-50",
+   "satir": 17895,
+   "sha16": "1de7fbb39a2cb948",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "NASIL-51",
+   "satir": 15643,
+   "sha16": "1e7a39a80f24a7d7",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-52",
+   "satir": 35002,
+   "sha16": "1e9e8d63eeece0e9",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "NASIL-53",
+   "satir": 47117,
+   "sha16": "1f0711ec4b6162c2",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-54",
+   "satir": 50983,
+   "sha16": "206126faa672bd72",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "NASIL-55",
+   "satir": 41271,
+   "sha16": "206a1832f9211343",
+   "n_kelime": 4
+  },
+  {
+   "istem_id": "NASIL-56",
+   "satir": 44125,
+   "sha16": "21028a39509ba586",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "NASIL-57",
+   "satir": 23837,
+   "sha16": "215167442a359dec",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "NASIL-58",
+   "satir": 24234,
+   "sha16": "22a88a365101b4ef",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-59",
+   "satir": 30492,
+   "sha16": "22c89a674bbf657a",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-60",
+   "satir": 14068,
+   "sha16": "23e0850132af771c",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-61",
+   "satir": 20071,
+   "sha16": "23f634d793704cc8",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-62",
+   "satir": 12817,
+   "sha16": "244e4e239cdec2c4",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "NASIL-63",
+   "satir": 40097,
+   "sha16": "2513d4d25c872287",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-64",
+   "satir": 37599,
+   "sha16": "25a5ea58ce4a7fa5",
+   "n_kelime": 16
+  },
+  {
+   "istem_id": "NASIL-65",
+   "satir": 44915,
+   "sha16": "267e6da4495e80dd",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-66",
+   "satir": 21709,
+   "sha16": "271a8c69c707b28e",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-67",
+   "satir": 42753,
+   "sha16": "28b0477aff2aa32c",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "NASIL-68",
+   "satir": 40666,
+   "sha16": "2a151b3460ee8f52",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-69",
+   "satir": 11585,
+   "sha16": "2a61fc95c8a7def7",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "NASIL-70",
+   "satir": 48160,
+   "sha16": "2afda581d43b1bb6",
+   "n_kelime": 4
+  },
+  {
+   "istem_id": "NASIL-71",
+   "satir": 44970,
+   "sha16": "2bf459b63986aebb",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "NASIL-72",
+   "satir": 9969,
+   "sha16": "2c249f2765401c08",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-73",
+   "satir": 11762,
+   "sha16": "2c8a748f52f59c7a",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "NASIL-74",
+   "satir": 40118,
+   "sha16": "2ce76e3a0a740b37",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-00",
+   "satir": 26023,
+   "sha16": "0004b70bc91181d7",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "ACIKLAMA-01",
+   "satir": 43921,
+   "sha16": "00113e3b78c6b54d",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-02",
+   "satir": 9795,
+   "sha16": "001491ddc7c23460",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "ACIKLAMA-03",
+   "satir": 4682,
+   "sha16": "001c14d74709a051",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "ACIKLAMA-04",
+   "satir": 21751,
+   "sha16": "001ed7e20649be73",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-05",
+   "satir": 6922,
+   "sha16": "0033fd32408a72f0",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "ACIKLAMA-06",
+   "satir": 8655,
+   "sha16": "0034304ba5063703",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "ACIKLAMA-07",
+   "satir": 18473,
+   "sha16": "003a83f8fb7eaad5",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-08",
+   "satir": 2631,
+   "sha16": "003bb6fd453ed427",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "ACIKLAMA-09",
+   "satir": 51382,
+   "sha16": "00413400f35c4872",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-10",
+   "satir": 3760,
+   "sha16": "00517066d475d9f1",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-11",
+   "satir": 34154,
+   "sha16": "00595abe8293235a",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "ACIKLAMA-12",
+   "satir": 19660,
+   "sha16": "007cbbc783db0c8f",
+   "n_kelime": 4
+  },
+  {
+   "istem_id": "ACIKLAMA-13",
+   "satir": 42505,
+   "sha16": "007d4952f28212a3",
+   "n_kelime": 4
+  },
+  {
+   "istem_id": "ACIKLAMA-14",
+   "satir": 15288,
+   "sha16": "00855c043c696069",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-15",
+   "satir": 16055,
+   "sha16": "00a133de507d3077",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "ACIKLAMA-16",
+   "satir": 19490,
+   "sha16": "00a502c661400f52",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "ACIKLAMA-17",
+   "satir": 47096,
+   "sha16": "00a68f5b3f4d6c55",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "ACIKLAMA-18",
+   "satir": 45150,
+   "sha16": "00abccaa2f32dea6",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "ACIKLAMA-19",
+   "satir": 12776,
+   "sha16": "00c07f2d77e8c864",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-20",
+   "satir": 17406,
+   "sha16": "00d967a84bd86f51",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-21",
+   "satir": 17737,
+   "sha16": "00f5408b31dbd95d",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-22",
+   "satir": 44052,
+   "sha16": "0100e65af0989182",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-23",
+   "satir": 15035,
+   "sha16": "0102470298d3b544",
+   "n_kelime": 4
+  },
+  {
+   "istem_id": "ACIKLAMA-24",
+   "satir": 26918,
+   "sha16": "0109a37228966f25",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "ACIKLAMA-25",
+   "satir": 21028,
+   "sha16": "010dbc9ec0b1b61e",
+   "n_kelime": 50
+  },
+  {
+   "istem_id": "ACIKLAMA-26",
+   "satir": 4848,
+   "sha16": "012935b38538df26",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-27",
+   "satir": 15047,
+   "sha16": "0136649fd67319e2",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-28",
+   "satir": 26557,
+   "sha16": "013c50a39a76fd8b",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-29",
+   "satir": 24179,
+   "sha16": "0151b075c2c62f8e",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-30",
+   "satir": 2436,
+   "sha16": "016a065aec61473a",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-31",
+   "satir": 3102,
+   "sha16": "01a65c345af51672",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-32",
+   "satir": 14528,
+   "sha16": "01c5b0fa68e9514f",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-33",
+   "satir": 48864,
+   "sha16": "01d075a4c7dd2824",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-34",
+   "satir": 42752,
+   "sha16": "01fe21c7e9ad6906",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-35",
+   "satir": 44884,
+   "sha16": "02148631d4f96e06",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "ACIKLAMA-36",
+   "satir": 7620,
+   "sha16": "021e048c358b0b1f",
+   "n_kelime": 15
+  },
+  {
+   "istem_id": "ACIKLAMA-37",
+   "satir": 3920,
+   "sha16": "022394098e89ef9b",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-38",
+   "satir": 34833,
+   "sha16": "022c0424222f7908",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "ACIKLAMA-39",
+   "satir": 32293,
+   "sha16": "0235b99f335cdeb3",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-40",
+   "satir": 24309,
+   "sha16": "024374104ba239aa",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-41",
+   "satir": 44710,
+   "sha16": "0258ea1cc1dd6ade",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-42",
+   "satir": 19094,
+   "sha16": "0260c767530b345c",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "ACIKLAMA-43",
+   "satir": 18084,
+   "sha16": "02632f78b72dbbd7",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "ACIKLAMA-44",
+   "satir": 30890,
+   "sha16": "026e7b0d17819155",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "ACIKLAMA-45",
+   "satir": 15460,
+   "sha16": "0270530501b4fe3d",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-46",
+   "satir": 16213,
+   "sha16": "0288888ed2bf632e",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-47",
+   "satir": 33248,
+   "sha16": "02898ec76464fa22",
+   "n_kelime": 14
+  },
+  {
+   "istem_id": "ACIKLAMA-48",
+   "satir": 42723,
+   "sha16": "028c3b020c4e4ea1",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-49",
+   "satir": 14053,
+   "sha16": "029c5a1b0bb5851a",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "ACIKLAMA-50",
+   "satir": 8706,
+   "sha16": "02b621f34d8e5cff",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "ACIKLAMA-51",
+   "satir": 42721,
+   "sha16": "02c2523df70c5821",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "ACIKLAMA-52",
+   "satir": 47245,
+   "sha16": "02c742b97e98bc47",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "ACIKLAMA-53",
+   "satir": 14757,
+   "sha16": "02d0027a34f8c77f",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-54",
+   "satir": 43381,
+   "sha16": "02d3488563ad3115",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "ACIKLAMA-55",
+   "satir": 24344,
+   "sha16": "02e2905e70dfb755",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-56",
+   "satir": 18505,
+   "sha16": "03074e09d4af83d8",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-57",
+   "satir": 44231,
+   "sha16": "031d244ed0bfbfa5",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "ACIKLAMA-58",
+   "satir": 44891,
+   "sha16": "032e02f76ef1971d",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "ACIKLAMA-59",
+   "satir": 10441,
+   "sha16": "03309a8c12f02df1",
+   "n_kelime": 12
+  },
+  {
+   "istem_id": "ACIKLAMA-60",
+   "satir": 15481,
+   "sha16": "033dbee5e0d866fc",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "ACIKLAMA-61",
+   "satir": 9410,
+   "sha16": "0340fa3e83f06fb7",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "ACIKLAMA-62",
+   "satir": 44017,
+   "sha16": "034b6b2751d265df",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-63",
+   "satir": 26531,
+   "sha16": "036ff43477a4b52d",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-64",
+   "satir": 38400,
+   "sha16": "03852f17396edb85",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-65",
+   "satir": 2887,
+   "sha16": "0385a7b3576bed87",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-66",
+   "satir": 41176,
+   "sha16": "038e824d2ee68b1a",
+   "n_kelime": 9
+  },
+  {
+   "istem_id": "ACIKLAMA-67",
+   "satir": 19944,
+   "sha16": "039ed44df30b4689",
+   "n_kelime": 6
+  },
+  {
+   "istem_id": "ACIKLAMA-68",
+   "satir": 25255,
+   "sha16": "03c427b2681ab5ef",
+   "n_kelime": 11
+  },
+  {
+   "istem_id": "ACIKLAMA-69",
+   "satir": 45998,
+   "sha16": "040230d0cca39f1c",
+   "n_kelime": 5
+  },
+  {
+   "istem_id": "ACIKLAMA-70",
+   "satir": 1421,
+   "sha16": "0403cc127f24d8b5",
+   "n_kelime": 8
+  },
+  {
+   "istem_id": "ACIKLAMA-71",
+   "satir": 41957,
+   "sha16": "040851c515414de2",
+   "n_kelime": 13
+  },
+  {
+   "istem_id": "ACIKLAMA-72",
+   "satir": 26017,
+   "sha16": "041ab926cc8c8c03",
+   "n_kelime": 10
+  },
+  {
+   "istem_id": "ACIKLAMA-73",
+   "satir": 22768,
+   "sha16": "0423cc0b0b9615be",
+   "n_kelime": 7
+  },
+  {
+   "istem_id": "ACIKLAMA-74",
+   "satir": 21076,
+   "sha16": "04337ea1236c5e6b",
+   "n_kelime": 12
+  }
+ ],
+ "damga_utc": "2026-09-17T08:13:35Z"
+}

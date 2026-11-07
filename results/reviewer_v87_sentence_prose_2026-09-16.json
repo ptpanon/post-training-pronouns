@@ -1,0 +1,160 @@
+{
+ "sinif": "BETIM",
+ "rule": "preregistration/rule_v87_readings_2026-09-16.md @ 7ee8f32b",
+ "soru": "IS 5(b) · alti liste-bagimli ailede cümle-birimli düzyazi ΔM1 [CI]",
+ "satir_deseni": "^\\s{0,3}#{1,6}\\s+\\S|^\\s{0,3}[-*+•]\\s+\\S|^\\s{0,3}\\d{1,2}[.)]\\s+\\S|^\\s*\\*\\*[^*\\n]+\\*\\*\\s*:?\\s*$",
+ "birim": "cümle: dokundugu satirlarin hicbiri desene uymuyorsa DÜZYAZI; tek ayristirma",
+ "alet": {
+  "hal": "ESDEGER",
+  "satir_sapma": 0.0,
+  "d_sapma": 0.0,
+  "kapi": ""
+ },
+ "sayim": {
+  "asagi": 3,
+  "null": 3,
+  "yukari": 0
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": 0.358,
+    "ci": [
+     -1.2726,
+     1.7895
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -2.798
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.0943,
+    "jeton_payi": 0.0858
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.4262,
+    "jeton_payi": 0.4287
+   }
+  },
+  "Gemma-3-27B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -0.5946,
+    "ci": [
+     -2.702,
+     1.3055
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.0669
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.1068,
+    "jeton_payi": 0.0903
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.4321,
+    "jeton_payi": 0.4279
+   }
+  },
+  "Gemma-3-4B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -1.364,
+    "ci": [
+     -2.6787,
+     -0.0341
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.6314
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.1283,
+    "jeton_payi": 0.1078
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.4448,
+    "jeton_payi": 0.4331
+   }
+  },
+  "Qwen2.5-1.5B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -1.1461,
+    "ci": [
+     -2.4624,
+     0.0624
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -1.6075
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.0986,
+    "jeton_payi": 0.0865
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.2298,
+    "jeton_payi": 0.2213
+   }
+  },
+  "Qwen2.5-32B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -0.995,
+    "ci": [
+     -1.8836,
+     -0.1496
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -2.1777
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.073,
+    "jeton_payi": 0.0698
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.3816,
+    "jeton_payi": 0.3745
+   }
+  },
+  "Qwen2.5-72B": {
+   "kontrast": "base→instruct",
+   "duzyazi_cumle": {
+    "d": -2.0494,
+    "ci": [
+     -4.039,
+     -0.4058
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam": {
+    "d": -3.6919
+   },
+   "atilan_taban": {
+    "cumle_payi": 0.1251,
+    "jeton_payi": 0.1108
+   },
+   "atilan_hizali": {
+    "cumle_payi": 0.4238,
+    "jeton_payi": 0.4473
+   }
+  }
+ },
+ "damga_utc": "2026-09-16T13:35:07Z",
+ "sure_dk": 10.5
+}

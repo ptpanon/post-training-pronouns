@@ -1,0 +1,25 @@
+\paragraph*{The first-person fall on the prefix conditions that carry no first person.}
+\vekalet{Twelve of the $16$ prefix conditions carry first-person forms of their own, so a base checkpoint could copy them. Four carry none (the arousal conditions, one- and four-utterance, in both directions), and two of these carry no second person either. We re-read the first-person change on those four alone (Table~\ref{tab:birincisiz}), on the original sampling seed, with the prompt-clustered interval of the full panel ($1{,}000$ draws). The same loop reproduces the full panel's first-person change in all $16$ models, to within $10^{-9}$, before any subset is read. \textbf{On the four conditions the first person falls in $15$ of $16$ models}, counted directly or as derived, and Qwen2.5-1.5B is the exception (interval covering zero). On the two conditions that carry neither person the first person falls in $15$ and rises in $1$, and the second person falls in $10$, rises in $1$ and is unclear in $5$. The four conditions hold a quarter of the data and the two an eighth, so intervals are wider and an unclear reading is a loss of power, not a finding of no change. The reading is descriptive: its rule was committed before the count, with no bar.}
+\begin{table}[tb]\centering\scriptsize\setlength{\tabcolsep}{4pt}
+\caption{\textbf{The first-person fall without first-person prefixes.} Aligned minus base per 1,000 tokens, raw continuation, original seed. \emph{All 16}: every prefix condition. \emph{Four}: the conditions with no first person. \emph{Two}: the conditions with neither person. $\Delta$1st is counted directly, with a capitalised \emph{US} not counted. \textbf{Bold}: prompt-clustered $95\%$ interval excludes zero.}\label{tab:birincisiz}
+\begin{tabular}{lrrrrr}\toprule
+ & all 16 prefixes & \multicolumn{2}{c}{four} & \multicolumn{2}{c}{two} \\ \cmidrule(lr){3-4}\cmidrule(lr){5-6}
+model & $\Delta$1st & $\Delta$1st & $95\%$ CI & $\Delta M_1$ & $\Delta$1st \\ \midrule
+Mistral-7B-v0.3 & $\mathbf{-15.34}$ & $\mathbf{-11.65}$ & $[-13.92,-9.42]$ & $\mathbf{-6.35}$ & $\mathbf{-9.97}$ \\
+Gemma-3-12B & $\mathbf{-16.62}$ & $\mathbf{-10.67}$ & $[-12.55,-8.61]$ & $-1.18$ & $\mathbf{-6.38}$ \\
+T\"ulu-3-8B & $\mathbf{-16.82}$ & $\mathbf{-8.62}$ & $[-10.33,-6.88]$ & $\mathbf{-4.47}$ & $\mathbf{-6.96}$ \\
+Gemma-3-27B & $\mathbf{-15.53}$ & $\mathbf{-8.11}$ & $[-9.83,-6.38]$ & $+0.31$ & $\mathbf{-5.84}$ \\
+Qwen2.5-32B & $\mathbf{-15.12}$ & $\mathbf{-7.90}$ & $[-9.00,-6.75]$ & $\mathbf{-2.52}$ & $\mathbf{-2.35}$ \\
+OLMo-2-13B & $\mathbf{-12.56}$ & $\mathbf{-7.85}$ & $[-9.23,-6.57]$ & $\mathbf{-3.86}$ & $\mathbf{-5.10}$ \\
+Qwen2.5-7B & $\mathbf{-9.45}$ & $\mathbf{-7.34}$ & $[-8.50,-6.16]$ & $\mathbf{-1.94}$ & $\mathbf{-2.98}$ \\
+OLMo-2-32B & $\mathbf{-10.65}$ & $\mathbf{-7.18}$ & $[-9.02,-5.42]$ & $\mathbf{-1.91}$ & $\mathbf{-5.83}$ \\
+Qwen2.5-72B & $\mathbf{-13.41}$ & $\mathbf{-6.66}$ & $[-8.17,-5.29]$ & $\mathbf{-1.95}$ & $\mathbf{-2.42}$ \\
+Gemma-3-4B & $\mathbf{-9.34}$ & $\mathbf{-6.43}$ & $[-8.05,-4.69]$ & $-1.02$ & $\mathbf{-3.67}$ \\
+Qwen2.5-14B & $\mathbf{-13.00}$ & $\mathbf{-6.24}$ & $[-7.48,-5.14]$ & $-1.29$ & $\mathbf{-2.97}$ \\
+Qwen2.5-3B & $\mathbf{-8.05}$ & $\mathbf{-3.32}$ & $[-4.77,-1.80]$ & $-0.78$ & $\mathbf{-3.84}$ \\
+Llama-3.1-70B & $\mathbf{-8.69}$ & $\mathbf{-3.14}$ & $[-5.09,-1.29]$ & $\mathbf{-2.23}$ & $\mathbf{-2.61}$ \\
+OLMo-3-7B & $\mathbf{-7.70}$ & $\mathbf{-3.03}$ & $[-4.61,-1.31]$ & $\mathbf{-3.23}$ & $\mathbf{-5.58}$ \\
+Llama-3.1-8B & $\mathbf{-6.21}$ & $\mathbf{-2.79}$ & $[-4.36,-1.31]$ & $\mathbf{-3.53}$ & $\mathbf{-4.39}$ \\
+Qwen2.5-1.5B & $\mathbf{-5.22}$ & $+0.72$ & $[-0.84,+2.39]$ & $\mathbf{+1.78}$ & $\mathbf{+1.71}$ \\
+\midrule down / up / unclear & 16/0/0 & 15/0/1 & & 10/1/5 & 15/1/0 \\
+\bottomrule\end{tabular}\end{table}

@@ -1,0 +1,31 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-09T17:33:10Z",
+  "alet": "scripts/matched_arm_gate.py",
+  "prereg": "preregistration/prereg_matched_arm_2026-09-10.md @ 5090356c",
+  "ornek": "<data>/dial_kol/RASTGELE.jsonl",
+  "n_ornek": 7537,
+  "seed": 20260910,
+  "sinir": ""
+ },
+ "sd_dM1_cift": 12.3151,
+ "MDE_cift": 20.2583,
+ "n_aday": 7537,
+ "notrluk_olcutu": "KOL birimi: |ort(dM1)| ≤ 1,645·sd/√n VE sd(secilen) ≤ sd(havuz) — ERRATA-1",
+ "hedef": {
+  "dred": -0.0386,
+  "djeton": -23.72,
+  "band_red": 0.0097,
+  "band_jeton": 5.93
+ },
+ "ulasilan": {
+  "n": 7537,
+  "dred": -0.0377,
+  "djeton": -23.6954,
+  "ort_dM1": -0.1972,
+  "sd_dM1": 12.3144,
+  "notr_bar": 0.2333,
+  "medyan_dM1": 0.248
+ },
+ "HAL": "ESLEME-KURULUR"
+}

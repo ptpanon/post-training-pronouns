@@ -1,0 +1,14 @@
+{
+ "table": "T11_degen",
+ "sources": [
+  {
+   "yol": "results/v22_cheap_measurements_2026-09-06.json",
+   "sha256_16": "1863fb26784f2c3d"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "suzgecli_ayrik": 16,
+  "en_yuksek_eleme": 7.321622882014613
+ }
+}

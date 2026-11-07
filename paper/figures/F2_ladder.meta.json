@@ -1,0 +1,19 @@
+{
+ "figure": "F2_ladder",
+ "caption_draft": "Per-rung dominance shift: in OLMo-2-13B and Tulu-3-8B the shift is built at the SFT→DPO rung, whereas OLMo-2-32B moves the OPPOSITE way at base→SFT (−2.6 null-sd) and never recovers it — the model-specific signature — and six successive RLVR steps leave the axis flat.",
+ "sources": [
+  {
+   "yol": "results/P7_OLCEK2_2026-08-21.json",
+   "sha256_16": "3e123d97ff6ef33b"
+  },
+  {
+   "yol": "results/P_OLCEK3_TULU3_2026-08-22.json",
+   "sha256_16": "26c7c9be9b0043d3"
+  },
+  {
+   "yol": "results/rlvr_olmo2_7b_2026-08-23.json",
+   "sha256_16": "09a3dad4b7571f77"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

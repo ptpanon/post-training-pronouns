@@ -1,0 +1,816 @@
+{
+ "dosyalar": {
+  "Gemma-3-12B/base": {
+   "aile": "Gemma-3-12B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 53053,
+   "a": 488.0,
+   "a_yordamsal": 142.0,
+   "a_duzyazi": 346.0,
+   "a_duzyazi_2sahis": 150.0
+  },
+  "Gemma-3-12B/instruct": {
+   "aile": "Gemma-3-12B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 64737,
+   "a": 628.0,
+   "a_yordamsal": 306.0,
+   "a_duzyazi": 322.0,
+   "a_duzyazi_2sahis": 117.0
+  },
+  "Gemma-3-27B/base": {
+   "aile": "Gemma-3-27B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 56448,
+   "a": 465.0,
+   "a_yordamsal": 132.0,
+   "a_duzyazi": 333.0,
+   "a_duzyazi_2sahis": 153.0
+  },
+  "Gemma-3-27B/instruct": {
+   "aile": "Gemma-3-27B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 62628,
+   "a": 560.0,
+   "a_yordamsal": 341.0,
+   "a_duzyazi": 219.0,
+   "a_duzyazi_2sahis": 62.0
+  },
+  "Gemma-3-4B/base": {
+   "aile": "Gemma-3-4B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 55213,
+   "a": 557.0,
+   "a_yordamsal": 192.0,
+   "a_duzyazi": 365.0,
+   "a_duzyazi_2sahis": 151.0
+  },
+  "Gemma-3-4B/instruct": {
+   "aile": "Gemma-3-4B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 63366,
+   "a": 462.0,
+   "a_yordamsal": 240.0,
+   "a_duzyazi": 222.0,
+   "a_duzyazi_2sahis": 68.0
+  },
+  "Gemma-4-12B/base": {
+   "aile": "Gemma-4-12B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 50083,
+   "a": 435.0,
+   "a_yordamsal": 175.0,
+   "a_duzyazi": 260.0,
+   "a_duzyazi_2sahis": 120.0
+  },
+  "Gemma-4-12B/instruct": {
+   "aile": "Gemma-4-12B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 63140,
+   "a": 1507.0,
+   "a_yordamsal": 1259.0,
+   "a_duzyazi": 248.0,
+   "a_duzyazi_2sahis": 6.0
+  },
+  "Gemma-4-26B-A4B/base": {
+   "aile": "Gemma-4-26B-A4B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 49689,
+   "a": 552.0,
+   "a_yordamsal": 227.0,
+   "a_duzyazi": 325.0,
+   "a_duzyazi_2sahis": 147.0
+  },
+  "Gemma-4-26B-A4B/instruct": {
+   "aile": "Gemma-4-26B-A4B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 84837,
+   "a": 788.0,
+   "a_yordamsal": 385.0,
+   "a_duzyazi": 403.0,
+   "a_duzyazi_2sahis": 5.0
+  },
+  "Gemma-4-E4B/base": {
+   "aile": "Gemma-4-E4B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 50462,
+   "a": 373.0,
+   "a_yordamsal": 135.0,
+   "a_duzyazi": 238.0,
+   "a_duzyazi_2sahis": 101.0
+  },
+  "Gemma-4-E4B/instruct": {
+   "aile": "Gemma-4-E4B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 82388,
+   "a": 578.0,
+   "a_yordamsal": 6.0,
+   "a_duzyazi": 572.0,
+   "a_duzyazi_2sahis": 2.0
+  },
+  "Llama-3.1-70B/base": {
+   "aile": "Llama-3.1-70B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 60706,
+   "a": 554.0,
+   "a_yordamsal": 169.0,
+   "a_duzyazi": 385.0,
+   "a_duzyazi_2sahis": 150.0
+  },
+  "Llama-3.1-70B/instruct": {
+   "aile": "Llama-3.1-70B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 64639,
+   "a": 673.0,
+   "a_yordamsal": 240.0,
+   "a_duzyazi": 433.0,
+   "a_duzyazi_2sahis": 170.0
+  },
+  "Llama-3.1-8B/base": {
+   "aile": "Llama-3.1-8B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 58938,
+   "a": 487.0,
+   "a_yordamsal": 124.0,
+   "a_duzyazi": 363.0,
+   "a_duzyazi_2sahis": 166.0
+  },
+  "Llama-3.1-8B/instruct": {
+   "aile": "Llama-3.1-8B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 60872,
+   "a": 646.0,
+   "a_yordamsal": 262.0,
+   "a_duzyazi": 384.0,
+   "a_duzyazi_2sahis": 155.0
+  },
+  "Mistral-7B-v0.3/base": {
+   "aile": "Mistral-7B-v0.3",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 53345,
+   "a": 570.0,
+   "a_yordamsal": 197.0,
+   "a_duzyazi": 373.0,
+   "a_duzyazi_2sahis": 176.0
+  },
+  "Mistral-7B-v0.3/instruct": {
+   "aile": "Mistral-7B-v0.3",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 47748,
+   "a": 186.0,
+   "a_yordamsal": 80.0,
+   "a_duzyazi": 106.0,
+   "a_duzyazi_2sahis": 38.0
+  },
+  "Mistral-Small-24B/base": {
+   "aile": "Mistral-Small-24B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 55641,
+   "a": 567.0,
+   "a_yordamsal": 196.0,
+   "a_duzyazi": 371.0,
+   "a_duzyazi_2sahis": 183.0
+  },
+  "Mistral-Small-24B/instruct": {
+   "aile": "Mistral-Small-24B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 41998,
+   "a": 261.0,
+   "a_yordamsal": 118.0,
+   "a_duzyazi": 143.0,
+   "a_duzyazi_2sahis": 69.0
+  },
+  "OLMo-3-7B/base": {
+   "aile": "OLMo-3-7B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 68758,
+   "a": 787.0,
+   "a_yordamsal": 261.0,
+   "a_duzyazi": 526.0,
+   "a_duzyazi_2sahis": 253.0
+  },
+  "OLMo-3-7B/instruct": {
+   "aile": "OLMo-3-7B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 51187,
+   "a": 940.0,
+   "a_yordamsal": 233.0,
+   "a_duzyazi": 707.0,
+   "a_duzyazi_2sahis": 309.0
+  },
+  "OLMo2-13B/dpo": {
+   "aile": "OLMo2-13B",
+   "zemin": "dpo",
+   "n_metin": 6528,
+   "n_cumle": 50739,
+   "a": 851.0,
+   "a_yordamsal": 212.0,
+   "a_duzyazi": 639.0,
+   "a_duzyazi_2sahis": 237.0
+  },
+  "OLMo2-13B/instruct": {
+   "aile": "OLMo2-13B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 51420,
+   "a": 817.0,
+   "a_yordamsal": 215.0,
+   "a_duzyazi": 602.0,
+   "a_duzyazi_2sahis": 196.0
+  },
+  "OLMo2-13B/sft": {
+   "aile": "OLMo2-13B",
+   "zemin": "sft",
+   "n_metin": 6528,
+   "n_cumle": 50947,
+   "a": 533.0,
+   "a_yordamsal": 193.0,
+   "a_duzyazi": 340.0,
+   "a_duzyazi_2sahis": 142.0
+  },
+  "OLMo2-13B/taban": {
+   "aile": "OLMo2-13B",
+   "zemin": "taban",
+   "n_metin": 6528,
+   "n_cumle": 60166,
+   "a": 753.0,
+   "a_yordamsal": 225.0,
+   "a_duzyazi": 528.0,
+   "a_duzyazi_2sahis": 237.0
+  },
+  "OLMo2-32B/dpo": {
+   "aile": "OLMo2-32B",
+   "zemin": "dpo",
+   "n_metin": 6528,
+   "n_cumle": 51249,
+   "a": 637.0,
+   "a_yordamsal": 176.0,
+   "a_duzyazi": 461.0,
+   "a_duzyazi_2sahis": 156.0
+  },
+  "OLMo2-32B/instruct": {
+   "aile": "OLMo2-32B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 53624,
+   "a": 677.0,
+   "a_yordamsal": 202.0,
+   "a_duzyazi": 475.0,
+   "a_duzyazi_2sahis": 150.0
+  },
+  "OLMo2-32B/sft": {
+   "aile": "OLMo2-32B",
+   "zemin": "sft",
+   "n_metin": 6528,
+   "n_cumle": 54056,
+   "a": 581.0,
+   "a_yordamsal": 261.0,
+   "a_duzyazi": 320.0,
+   "a_duzyazi_2sahis": 140.0
+  },
+  "OLMo2-32B/taban": {
+   "aile": "OLMo2-32B",
+   "zemin": "taban",
+   "n_metin": 6528,
+   "n_cumle": 61419,
+   "a": 844.0,
+   "a_yordamsal": 264.0,
+   "a_duzyazi": 580.0,
+   "a_duzyazi_2sahis": 224.0
+  },
+  "OLMo2-7B-RLVR/dpo": {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "dpo",
+   "n_metin": 6528,
+   "n_cumle": 47782,
+   "a": 768.0,
+   "a_yordamsal": 220.0,
+   "a_duzyazi": 548.0,
+   "a_duzyazi_2sahis": 125.0
+  },
+  "OLMo2-7B-RLVR/step_120": {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_120",
+   "n_metin": 6528,
+   "n_cumle": 46454,
+   "a": 685.0,
+   "a_yordamsal": 186.0,
+   "a_duzyazi": 499.0,
+   "a_duzyazi_2sahis": 105.0
+  },
+  "OLMo2-7B-RLVR/step_180": {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_180",
+   "n_metin": 6528,
+   "n_cumle": 46510,
+   "a": 704.0,
+   "a_yordamsal": 194.0,
+   "a_duzyazi": 510.0,
+   "a_duzyazi_2sahis": 102.0
+  },
+  "OLMo2-7B-RLVR/step_240": {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_240",
+   "n_metin": 6528,
+   "n_cumle": 46917,
+   "a": 654.0,
+   "a_yordamsal": 184.0,
+   "a_duzyazi": 470.0,
+   "a_duzyazi_2sahis": 106.0
+  },
+  "OLMo2-7B-RLVR/step_300": {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_300",
+   "n_metin": 6528,
+   "n_cumle": 46935,
+   "a": 718.0,
+   "a_yordamsal": 188.0,
+   "a_duzyazi": 530.0,
+   "a_duzyazi_2sahis": 128.0
+  },
+  "OLMo2-7B-RLVR/step_360": {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_360",
+   "n_metin": 6528,
+   "n_cumle": 46964,
+   "a": 670.0,
+   "a_yordamsal": 164.0,
+   "a_duzyazi": 506.0,
+   "a_duzyazi_2sahis": 121.0
+  },
+  "OLMo2-7B-RLVR/step_60": {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_60",
+   "n_metin": 6528,
+   "n_cumle": 46914,
+   "a": 751.0,
+   "a_yordamsal": 246.0,
+   "a_duzyazi": 505.0,
+   "a_duzyazi_2sahis": 102.0
+  },
+  "Qwen2.5-1.5B/base": {
+   "aile": "Qwen2.5-1.5B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 61955,
+   "a": 792.0,
+   "a_yordamsal": 225.0,
+   "a_duzyazi": 567.0,
+   "a_duzyazi_2sahis": 246.0
+  },
+  "Qwen2.5-1.5B/instruct": {
+   "aile": "Qwen2.5-1.5B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 54920,
+   "a": 1217.0,
+   "a_yordamsal": 395.0,
+   "a_duzyazi": 822.0,
+   "a_duzyazi_2sahis": 381.0
+  },
+  "Qwen2.5-14B/base": {
+   "aile": "Qwen2.5-14B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 61527,
+   "a": 639.0,
+   "a_yordamsal": 233.0,
+   "a_duzyazi": 406.0,
+   "a_duzyazi_2sahis": 204.0
+  },
+  "Qwen2.5-14B/instruct": {
+   "aile": "Qwen2.5-14B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 51382,
+   "a": 517.0,
+   "a_yordamsal": 108.0,
+   "a_duzyazi": 409.0,
+   "a_duzyazi_2sahis": 166.0
+  },
+  "Qwen2.5-32B/base": {
+   "aile": "Qwen2.5-32B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 60546,
+   "a": 590.0,
+   "a_yordamsal": 145.0,
+   "a_duzyazi": 445.0,
+   "a_duzyazi_2sahis": 218.0
+  },
+  "Qwen2.5-32B/instruct": {
+   "aile": "Qwen2.5-32B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 51773,
+   "a": 532.0,
+   "a_yordamsal": 112.0,
+   "a_duzyazi": 420.0,
+   "a_duzyazi_2sahis": 178.0
+  },
+  "Qwen2.5-3B/base": {
+   "aile": "Qwen2.5-3B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 62575,
+   "a": 716.0,
+   "a_yordamsal": 214.0,
+   "a_duzyazi": 502.0,
+   "a_duzyazi_2sahis": 200.0
+  },
+  "Qwen2.5-3B/instruct": {
+   "aile": "Qwen2.5-3B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 54478,
+   "a": 639.0,
+   "a_yordamsal": 183.0,
+   "a_duzyazi": 456.0,
+   "a_duzyazi_2sahis": 173.0
+  },
+  "Qwen2.5-72B/base": {
+   "aile": "Qwen2.5-72B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 56040,
+   "a": 497.0,
+   "a_yordamsal": 179.0,
+   "a_duzyazi": 318.0,
+   "a_duzyazi_2sahis": 146.0
+  },
+  "Qwen2.5-72B/instruct": {
+   "aile": "Qwen2.5-72B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 53233,
+   "a": 452.0,
+   "a_yordamsal": 141.0,
+   "a_duzyazi": 311.0,
+   "a_duzyazi_2sahis": 122.0
+  },
+  "Qwen2.5-7B/base": {
+   "aile": "Qwen2.5-7B",
+   "zemin": "base",
+   "n_metin": 6528,
+   "n_cumle": 58756,
+   "a": 622.0,
+   "a_yordamsal": 174.0,
+   "a_duzyazi": 448.0,
+   "a_duzyazi_2sahis": 236.0
+  },
+  "Qwen2.5-7B/instruct": {
+   "aile": "Qwen2.5-7B",
+   "zemin": "instruct",
+   "n_metin": 6528,
+   "n_cumle": 53556,
+   "a": 508.0,
+   "a_yordamsal": 109.0,
+   "a_duzyazi": 399.0,
+   "a_duzyazi_2sahis": 145.0
+  },
+  "Tulu3-8B/dpo": {
+   "aile": "Tulu3-8B",
+   "zemin": "dpo",
+   "n_metin": 6528,
+   "n_cumle": 40096,
+   "a": 348.0,
+   "a_yordamsal": 78.0,
+   "a_duzyazi": 270.0,
+   "a_duzyazi_2sahis": 73.0
+  },
+  "Tulu3-8B/rl": {
+   "aile": "Tulu3-8B",
+   "zemin": "rl",
+   "n_metin": 6528,
+   "n_cumle": 41788,
+   "a": 407.0,
+   "a_yordamsal": 96.0,
+   "a_duzyazi": 311.0,
+   "a_duzyazi_2sahis": 78.0
+  },
+  "Tulu3-8B/sft": {
+   "aile": "Tulu3-8B",
+   "zemin": "sft",
+   "n_metin": 6528,
+   "n_cumle": 32689,
+   "a": 223.0,
+   "a_yordamsal": 82.0,
+   "a_duzyazi": 141.0,
+   "a_duzyazi_2sahis": 59.0
+  },
+  "Tulu3-8B/taban": {
+   "aile": "Tulu3-8B",
+   "zemin": "taban",
+   "n_metin": 6528,
+   "n_cumle": 58938,
+   "a": 487.0,
+   "a_yordamsal": 124.0,
+   "a_duzyazi": 363.0,
+   "a_duzyazi_2sahis": 166.0
+  },
+  "miniDPO/ckpt-050": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-050",
+   "n_metin": 6528,
+   "n_cumle": 32780,
+   "a": 241.0,
+   "a_yordamsal": 85.0,
+   "a_duzyazi": 156.0,
+   "a_duzyazi_2sahis": 67.0
+  },
+  "miniDPO/ckpt-100": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-100",
+   "n_metin": 6528,
+   "n_cumle": 32918,
+   "a": 242.0,
+   "a_yordamsal": 102.0,
+   "a_duzyazi": 140.0,
+   "a_duzyazi_2sahis": 58.0
+  },
+  "miniDPO/ckpt-1207": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1207",
+   "n_metin": 6528,
+   "n_cumle": 32482,
+   "a": 233.0,
+   "a_yordamsal": 74.0,
+   "a_duzyazi": 159.0,
+   "a_duzyazi_2sahis": 63.0
+  },
+  "miniDPO/ckpt-1236": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1236",
+   "n_metin": 6528,
+   "n_cumle": 32024,
+   "a": 251.0,
+   "a_yordamsal": 88.0,
+   "a_duzyazi": 163.0,
+   "a_duzyazi_2sahis": 71.0
+  },
+  "miniDPO/ckpt-150": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-150",
+   "n_metin": 6528,
+   "n_cumle": 32440,
+   "a": 234.0,
+   "a_yordamsal": 90.0,
+   "a_duzyazi": 144.0,
+   "a_duzyazi_2sahis": 63.0
+  },
+  "miniDPO/ckpt-1664": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1664",
+   "n_metin": 6528,
+   "n_cumle": 32948,
+   "a": 200.0,
+   "a_yordamsal": 61.0,
+   "a_duzyazi": 139.0,
+   "a_duzyazi_2sahis": 54.0
+  },
+  "miniDPO/ckpt-1710": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1710",
+   "n_metin": 6528,
+   "n_cumle": 32386,
+   "a": 221.0,
+   "a_yordamsal": 72.0,
+   "a_duzyazi": 149.0,
+   "a_duzyazi_2sahis": 52.0
+  },
+  "miniDPO/ckpt-1976": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1976",
+   "n_metin": 6528,
+   "n_cumle": 39453,
+   "a": 353.0,
+   "a_yordamsal": 75.0,
+   "a_duzyazi": 278.0,
+   "a_duzyazi_2sahis": 79.0
+  },
+  "miniDPO/ckpt-200": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-200",
+   "n_metin": 6528,
+   "n_cumle": 32769,
+   "a": 205.0,
+   "a_yordamsal": 79.0,
+   "a_duzyazi": 126.0,
+   "a_duzyazi_2sahis": 44.0
+  },
+  "miniDPO/ckpt-207": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-207",
+   "n_metin": 6528,
+   "n_cumle": 31875,
+   "a": 231.0,
+   "a_yordamsal": 63.0,
+   "a_duzyazi": 168.0,
+   "a_duzyazi_2sahis": 73.0
+  },
+  "miniDPO/ckpt-2207": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2207",
+   "n_metin": 6528,
+   "n_cumle": 32023,
+   "a": 198.0,
+   "a_yordamsal": 56.0,
+   "a_duzyazi": 142.0,
+   "a_duzyazi_2sahis": 56.0
+  },
+  "miniDPO/ckpt-2236": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2236",
+   "n_metin": 6528,
+   "n_cumle": 31588,
+   "a": 232.0,
+   "a_yordamsal": 80.0,
+   "a_duzyazi": 152.0,
+   "a_duzyazi_2sahis": 63.0
+  },
+  "miniDPO/ckpt-236": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-236",
+   "n_metin": 6528,
+   "n_cumle": 31235,
+   "a": 233.0,
+   "a_yordamsal": 81.0,
+   "a_duzyazi": 152.0,
+   "a_duzyazi_2sahis": 67.0
+  },
+  "miniDPO/ckpt-2664": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2664",
+   "n_metin": 6528,
+   "n_cumle": 32784,
+   "a": 204.0,
+   "a_yordamsal": 50.0,
+   "a_duzyazi": 154.0,
+   "a_duzyazi_2sahis": 62.0
+  },
+  "miniDPO/ckpt-2710": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2710",
+   "n_metin": 6528,
+   "n_cumle": 32286,
+   "a": 207.0,
+   "a_yordamsal": 63.0,
+   "a_duzyazi": 144.0,
+   "a_duzyazi_2sahis": 51.0
+  },
+  "miniDPO/ckpt-2976": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2976",
+   "n_metin": 6528,
+   "n_cumle": 39587,
+   "a": 400.0,
+   "a_yordamsal": 116.0,
+   "a_duzyazi": 284.0,
+   "a_duzyazi_2sahis": 78.0
+  },
+  "miniDPO/ckpt-3207": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3207",
+   "n_metin": 6528,
+   "n_cumle": 32550,
+   "a": 224.0,
+   "a_yordamsal": 69.0,
+   "a_duzyazi": 155.0,
+   "a_duzyazi_2sahis": 66.0
+  },
+  "miniDPO/ckpt-3236": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3236",
+   "n_metin": 6528,
+   "n_cumle": 31502,
+   "a": 253.0,
+   "a_yordamsal": 81.0,
+   "a_duzyazi": 172.0,
+   "a_duzyazi_2sahis": 70.0
+  },
+  "miniDPO/ckpt-3664": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3664",
+   "n_metin": 6528,
+   "n_cumle": 32408,
+   "a": 221.0,
+   "a_yordamsal": 71.0,
+   "a_duzyazi": 150.0,
+   "a_duzyazi_2sahis": 61.0
+  },
+  "miniDPO/ckpt-3710": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3710",
+   "n_metin": 6528,
+   "n_cumle": 32246,
+   "a": 194.0,
+   "a_yordamsal": 51.0,
+   "a_duzyazi": 143.0,
+   "a_duzyazi_2sahis": 59.0
+  },
+  "miniDPO/ckpt-3976": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3976",
+   "n_metin": 6528,
+   "n_cumle": 39615,
+   "a": 390.0,
+   "a_yordamsal": 90.0,
+   "a_duzyazi": 300.0,
+   "a_duzyazi_2sahis": 70.0
+  },
+  "miniDPO/ckpt-664": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-664",
+   "n_metin": 6528,
+   "n_cumle": 32361,
+   "a": 192.0,
+   "a_yordamsal": 45.0,
+   "a_duzyazi": 147.0,
+   "a_duzyazi_2sahis": 67.0
+  },
+  "miniDPO/ckpt-710": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-710",
+   "n_metin": 6528,
+   "n_cumle": 31999,
+   "a": 193.0,
+   "a_yordamsal": 56.0,
+   "a_duzyazi": 137.0,
+   "a_duzyazi_2sahis": 68.0
+  },
+  "miniDPO/ckpt-830": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-830",
+   "n_metin": 6528,
+   "n_cumle": 31906,
+   "a": 258.0,
+   "a_yordamsal": 76.0,
+   "a_duzyazi": 182.0,
+   "a_duzyazi_2sahis": 72.0
+  },
+  "miniDPO/ckpt-831": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-831",
+   "n_metin": 6528,
+   "n_cumle": 32578,
+   "a": 270.0,
+   "a_yordamsal": 87.0,
+   "a_duzyazi": 183.0,
+   "a_duzyazi_2sahis": 75.0
+  },
+  "miniDPO/ckpt-832": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-832",
+   "n_metin": 6528,
+   "n_cumle": 32318,
+   "a": 227.0,
+   "a_yordamsal": 64.0,
+   "a_duzyazi": 163.0,
+   "a_duzyazi_2sahis": 58.0
+  },
+  "miniDPO/ckpt-976": {
+   "aile": "miniDPO",
+   "zemin": "ckpt-976",
+   "n_metin": 6528,
+   "n_cumle": 39225,
+   "a": 364.0,
+   "a_yordamsal": 77.0,
+   "a_duzyazi": 287.0,
+   "a_duzyazi_2sahis": 84.0
+  }
+ },
+ "toplam": {
+  "n_cumle": 3816510,
+  "a": 39564.0,
+  "a_yordamsal": 13150.0,
+  "a_duzyazi": 26414.0,
+  "a_duzyazi_2sahis": 9564.0,
+  "oran_a": 0.01036653906317552,
+  "oran_yordamsal": 0.0034455562804761417,
+  "oran_duzyazi": 0.0069209827826993775,
+  "pay_yordamsal": 0.33237286421999795,
+  "pay_duzyazi": 0.667627135780002
+ }
+}

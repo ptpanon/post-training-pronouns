@@ -1,0 +1,1085 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-09T08:38:51Z",
+  "alet": "scripts/substrate_protocol.py",
+  "borc": "W-965",
+  "kaynak": {
+   "notr": "<data>/c1_panel",
+   "elicit": "<repo>/unreleased/elicit",
+   "tablo_karti": "results/P11_2X2_ELICIT_2026-09-03.json",
+   "tablo_karti_sha16": "9d137d402f154131"
+  },
+  "prova": {
+   "i_template_izi_yakalanir": true,
+   "ii_ciplak_iskele_temiz": true,
+   "iii_bos_metin_temiz": true
+  },
+  "payda_notr": {
+   "n_dizin": 133,
+   "n_kunye": 133,
+   "n_onek_okundu": 133
+  },
+  "payda_elicit": {
+   "n_kunye": 32,
+   "n_olculen": 15,
+   "n_ayrik_protokol": 10,
+   "n_ayni_protokol": 5
+  }
+ },
+ "NOTR_PROTOKOL": {
+  "hal": "TEK PROTOKOL — ciplak iskele, her bacakta",
+  "n_okunan": 133,
+  "onekte_template_izi": 0,
+  "kunyede_template_yetenek": 39,
+  "not_": ""
+ },
+ "ELICIT_PROTOKOL": {
+  "hal": "IKI PROTOKOL — sablonu olan bacakta template, olmayanda ciplak iskele",
+  "iskele": "User: {q}\nAssistant:",
+  "farkli_protokol": [
+   "Gemma-3-12B",
+   "Gemma-3-27B",
+   "Gemma-3-4B",
+   "Llama-3.1-70B",
+   "Llama-3.1-8B",
+   "Mistral-7B-v0.3",
+   "OLMo-3-7B",
+   "OLMo2-13B",
+   "OLMo2-32B",
+   "Tulu3-8B"
+  ],
+  "ayni_protokol": [
+   "Qwen2.5-14B",
+   "Qwen2.5-32B",
+   "Qwen2.5-3B",
+   "Qwen2.5-72B",
+   "Qwen2.5-7B"
+  ]
+ },
+ "AILELER": [
+  {
+   "aile": "Gemma-3-12B",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-3-12B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-3-27B",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-3-27B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-3-4B",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-3-4B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-4-12B",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-4-12B",
+   "zemin": "instruct",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-4-26B-A4B",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-4-26B-A4B",
+   "zemin": "instruct",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-4-E4B",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Gemma-4-E4B",
+   "zemin": "instruct",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Llama-3.1-70B",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Llama-3.1-70B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Llama-3.1-8B",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Llama-3.1-8B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Mistral-7B-v0.3",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Mistral-7B-v0.3",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Mistral-Small-24B",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Mistral-Small-24B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo-3-7B",
+   "zemin": "base",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo-3-7B",
+   "zemin": "instruct",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-13B",
+   "zemin": "dpo",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-13B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-13B",
+   "zemin": "sft",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-13B",
+   "zemin": "taban",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-32B",
+   "zemin": "dpo",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-32B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-32B",
+   "zemin": "sft",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-32B",
+   "zemin": "taban",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "dpo",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_120",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_180",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_240",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_300",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_360",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "OLMo2-7B-RLVR",
+   "zemin": "step_60",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-1.5B",
+   "zemin": "base",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-1.5B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-14B",
+   "zemin": "base",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-14B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-32B",
+   "zemin": "base",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-32B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-3B",
+   "zemin": "base",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-3B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-72B",
+   "zemin": "base",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-72B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-7B",
+   "zemin": "base",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Qwen2.5-7B",
+   "zemin": "instruct",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Tulu3-8B",
+   "zemin": "dpo",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Tulu3-8B",
+   "zemin": "rl",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Tulu3-8B",
+   "zemin": "sft",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Tulu3-8B",
+   "zemin": "taban",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "Zephyr-7B",
+   "zemin": "taban",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-050",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-100",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1114",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1139",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-114",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1207",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1236",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1357",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-139",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1407",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-150",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1604",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1664",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1682",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1710",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1773",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1844",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1922",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1951",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-1976",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-200",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-207",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2114",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2139",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2207",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2236",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2357",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-236",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2407",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2604",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2664",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2682",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2710",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2773",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2844",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2922",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2951",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-2976",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3114",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3139",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3207",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3236",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3357",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3407",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-357",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3604",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3664",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3682",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3710",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3773",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3844",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3922",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3951",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-3976",
+   "kunye_template": true,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-407",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-4139",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-4604",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-4682",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-5139",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-5604",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-5682",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-604",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-6139",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-6604",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-664",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-6682",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-682",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-710",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-7139",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-7604",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-7682",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-773",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-830",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-831",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-832",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-844",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-922",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-951",
+   "kunye_template": false,
+   "onek_template_izi": false
+  },
+  {
+   "aile": "miniDPO",
+   "zemin": "ckpt-976",
+   "kunye_template": true,
+   "onek_template_izi": false
+  }
+ ],
+ "ELICIT": [
+  {
+   "aile": "Gemma-3-12B",
+   "bacak": "base",
+   "sablonlu": false,
+   "iskele": "User: {q}\nAssistant:",
+   "hf_ad": "google/gemma-3-12b-pt"
+  },
+  {
+   "aile": "Gemma-3-12B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "google/gemma-3-12b-it"
+  },
+  {
+   "aile": "Gemma-3-27B",
+   "bacak": "base",
+   "sablonlu": false,
+   "iskele": "User: {q}\nAssistant:",
+   "hf_ad": "google/gemma-3-27b-pt"
+  },
+  {
+   "aile": "Gemma-3-27B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "google/gemma-3-27b-it"
+  },
+  {
+   "aile": "Gemma-3-4B",
+   "bacak": "base",
+   "sablonlu": false,
+   "iskele": "User: {q}\nAssistant:",
+   "hf_ad": "google/gemma-3-4b-pt"
+  },
+  {
+   "aile": "Gemma-3-4B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "google/gemma-3-4b-it"
+  },
+  {
+   "aile": "Llama-3.1-70B",
+   "bacak": "base",
+   "sablonlu": false,
+   "iskele": "User: {q}\nAssistant:",
+   "hf_ad": "meta-llama/Llama-3.1-70B"
+  },
+  {
+   "aile": "Llama-3.1-70B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "meta-llama/Llama-3.1-70B-Instruct"
+  },
+  {
+   "aile": "Llama-3.1-8B",
+   "bacak": "base",
+   "sablonlu": false,
+   "iskele": "User: {q}\nAssistant:",
+   "hf_ad": "meta-llama/Llama-3.1-8B"
+  },
+  {
+   "aile": "Llama-3.1-8B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+   "aile": "Mistral-7B-v0.3",
+   "bacak": "base",
+   "sablonlu": false,
+   "iskele": "User: {q}\nAssistant:",
+   "hf_ad": "mistralai/Mistral-7B-v0.3"
+  },
+  {
+   "aile": "Mistral-7B-v0.3",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "mistralai/Mistral-7B-Instruct-v0.3"
+  },
+  {
+   "aile": "OLMo-3-7B",
+   "bacak": "base",
+   "sablonlu": false,
+   "iskele": "User: {q}\nAssistant:",
+   "hf_ad": "allenai/Olmo-3-1025-7B"
+  },
+  {
+   "aile": "OLMo-3-7B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "allenai/Olmo-3-7B-Instruct"
+  },
+  {
+   "aile": "OLMo2-13B",
+   "bacak": "base",
+   "sablonlu": false,
+   "iskele": "User: {q}\nAssistant:",
+   "hf_ad": "allenai/OLMo-2-1124-13B"
+  },
+  {
+   "aile": "OLMo2-13B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+   "aile": "OLMo2-32B",
+   "bacak": "base",
+   "sablonlu": false,
+   "iskele": "User: {q}\nAssistant:",
+   "hf_ad": "allenai/OLMo-2-0325-32B"
+  },
+  {
+   "aile": "OLMo2-32B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "allenai/OLMo-2-0325-32B-Instruct"
+  },
+  {
+   "aile": "Qwen2.5-1.5B",
+   "bacak": "base",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-1.5B"
+  },
+  {
+   "aile": "Qwen2.5-1.5B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-1.5B-Instruct"
+  },
+  {
+   "aile": "Qwen2.5-14B",
+   "bacak": "base",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-14B"
+  },
+  {
+   "aile": "Qwen2.5-14B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-14B-Instruct"
+  },
+  {
+   "aile": "Qwen2.5-32B",
+   "bacak": "base",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-32B"
+  },
+  {
+   "aile": "Qwen2.5-32B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+   "aile": "Qwen2.5-3B",
+   "bacak": "base",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-3B"
+  },
+  {
+   "aile": "Qwen2.5-3B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+   "aile": "Qwen2.5-72B",
+   "bacak": "base",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-72B"
+  },
+  {
+   "aile": "Qwen2.5-72B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+   "aile": "Qwen2.5-7B",
+   "bacak": "base",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-7B"
+  },
+  {
+   "aile": "Qwen2.5-7B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  {
+   "aile": "Tulu3-8B",
+   "bacak": "base",
+   "sablonlu": false,
+   "iskele": "User: {q}\nAssistant:",
+   "hf_ad": "meta-llama/Llama-3.1-8B"
+  },
+  {
+   "aile": "Tulu3-8B",
+   "bacak": "instruct",
+   "sablonlu": true,
+   "iskele": null,
+   "hf_ad": "allenai/Llama-3.1-Tulu-3-8B"
+  }
+ ]
+}

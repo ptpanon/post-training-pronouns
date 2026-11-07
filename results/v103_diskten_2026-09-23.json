@@ -1,0 +1,2087 @@
+{
+ "_kunye": {
+  "sinif": "BETIM · bar YOK · sahip «EXECUTOR · v103» (5)",
+  "rule": "9e4f097e",
+  "alet": "3ff2fce18642caaf",
+  "alet_yolu": "scripts/v103_diskten.py",
+  "damga_utc": "2026-09-23T08:45:11Z"
+ },
+ "a": {
+  "_kaynak": {
+   "card": "results/siradan_instruction_reading_2026-09-17.json",
+   "sha256_16": "0d86b8e9c563ec9f",
+   "tanim": "hizali düzey = M1.taban + M1.gozlenen (ayni hücreler, ayni card)"
+  },
+  "Tulu3-8B": {
+   "M1_taban": 13.5603,
+   "dM1": -10.8546,
+   "M1_hizali": 2.7057,
+   "ci": [
+    -11.8687,
+    -9.8891
+   ],
+   "ayrik": true,
+   "n_tutulan": 1190
+  },
+  "Llama-3.1-8B": {
+   "M1_taban": 13.5497,
+   "dM1": -9.6854,
+   "M1_hizali": 3.8643,
+   "ci": [
+    -10.7629,
+    -8.6547
+   ],
+   "ayrik": true,
+   "n_tutulan": 1187
+  },
+  "bant_hizali": {
+   "min": 2.7046,
+   "min_aile": "OLMo2-13B",
+   "max": 6.2403,
+   "max_aile": "Gemma-3-4B",
+   "oran": 2.307,
+   "n": 16
+  },
+  "taban_ayni_mi": {
+   "fark": 0.0106,
+   "serh": ""
+  },
+  "kat": 1.428
+ },
+ "c": {
+  "_kaynak": {
+   "kol": [
+    "dial_kol/KISI_ASAGI.jsonl",
+    "dial_kol/RASTGELE.jsonl"
+   ],
+   "tanim": ""
+  },
+  "KISI_ASAGI": {
+   "chosen": {
+    "kod_jeton_top": 365240,
+    "jeton_top": 3147809,
+    "kod_jeton_pay": 0.11603,
+    "kod_jeton_ort": 48.46,
+    "kod_iceren_pay": 0.2608
+   },
+   "rejected": {
+    "kod_jeton_top": 342176,
+    "jeton_top": 3340223,
+    "kod_jeton_pay": 0.10244,
+    "kod_jeton_ort": 45.4,
+    "kod_iceren_pay": 0.2785
+   },
+   "fark": {
+    "kod_jeton_pay": 0.01359,
+    "kod_jeton_ort": 3.06,
+    "kod_iceren_pay": -0.0177
+   },
+   "n_cift": 7537,
+   "sha256_16": "bb959a4b87fe9c9b"
+  },
+  "RASTGELE": {
+   "chosen": {
+    "kod_jeton_top": 252511,
+    "jeton_top": 3317922,
+    "kod_jeton_pay": 0.07611,
+    "kod_jeton_ort": 33.5,
+    "kod_iceren_pay": 0.1807
+   },
+   "rejected": {
+    "kod_jeton_top": 265790,
+    "jeton_top": 3226415,
+    "kod_jeton_pay": 0.08238,
+    "kod_jeton_ort": 35.26,
+    "kod_iceren_pay": 0.1876
+   },
+   "fark": {
+    "kod_jeton_pay": -0.00627,
+    "kod_jeton_ort": -1.76,
+    "kod_iceren_pay": -0.0069
+   },
+   "n_cift": 7537,
+   "sha256_16": "2d0c43c45a3cbe24"
+  },
+  "munazara_paneli": {
+   "n_tez_durus": 34,
+   "n_onek": 4977,
+   "n_istem_metni": 5011,
+   "n_kod_citi": 0,
+   "n_kod_ipucu": 0,
+   "ipucu_listesi": [
+    "code",
+    "python",
+    "javascript",
+    "java ",
+    "c\\+\\+",
+    "function",
+    "program",
+    "script",
+    "compile",
+    "api",
+    "sql",
+    "regex",
+    "algorithm",
+    "debug",
+    "snippet"
+   ],
+   "ornek": []
+  }
+ },
+ "e": {
+  "_kaynak": {
+   "kok": "c1_panel",
+   "panel16": [
+    "Qwen2.5-1.5B",
+    "Qwen2.5-3B",
+    "Mistral-7B-v0.3",
+    "Qwen2.5-7B",
+    "OLMo-3-7B",
+    "Llama-3.1-8B",
+    "Tulu3-8B",
+    "Gemma-3-4B",
+    "OLMo2-13B",
+    "Gemma-3-12B",
+    "Qwen2.5-14B",
+    "Gemma-3-27B",
+    "OLMo2-32B",
+    "Qwen2.5-32B",
+    "Qwen2.5-72B",
+    "Llama-3.1-70B"
+   ],
+   "ekH4": [
+    "Gemma-4-12B",
+    "Gemma-4-26B-A4B",
+    "Gemma-4-E4B",
+    "Mistral-Small-24B"
+   ],
+   "bizim_egitim": [
+    "miniDPO"
+   ],
+   "tanim": ""
+  },
+  "Gemma-3-12B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Gemma": 158
+   },
+   "en_seyrek": 158
+  },
+  "Gemma-3-27B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Gemma": 158
+   },
+   "en_seyrek": 158
+  },
+  "Gemma-3-4B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Gemma": 158
+   },
+   "en_seyrek": 158
+  },
+  "Gemma-4-12B": {
+   "sinif": "EK-H-4",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Gemma": 158
+   },
+   "en_seyrek": 158
+  },
+  "Gemma-4-26B-A4B": {
+   "sinif": "EK-H-4",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Gemma": 158
+   },
+   "en_seyrek": 158
+  },
+  "Gemma-4-E4B": {
+   "sinif": "EK-H-4",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Gemma": 158
+   },
+   "en_seyrek": 158
+  },
+  "Llama-3.1-70B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Llama": 116
+   },
+   "en_seyrek": 116
+  },
+  "Llama-3.1-8B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Llama": 116
+   },
+   "en_seyrek": 116
+  },
+  "Llama3SimPO": {
+   "sinif": "KÂGITTA IZ VAR",
+   "bacak": {
+    "dpo": 6528,
+    "sft": 6528,
+    "simpo": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "dpo": 16,
+    "sft": 16,
+    "simpo": 16
+   },
+   "n_satir": 19584,
+   "kagit_gecis": {
+    "Llama": 116,
+    "SimPO": 9
+   },
+   "en_seyrek": 9
+  },
+  "Mistral-7B-v0.3": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Mistral": 53
+   },
+   "en_seyrek": 53
+  },
+  "Mistral-Small-24B": {
+   "sinif": "EK-H-4",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Mistral": 53,
+    "Small": 73
+   },
+   "en_seyrek": 53
+  },
+  "Mixtral-8x7B": {
+   "sinif": "KÂGITTA IZ YOK",
+   "bacak": {
+    "base": 0,
+    "base.kilit": 0
+   },
+   "yarim_kol_dosyasi": {
+    "base": 4,
+    "base.kilit": 0
+   },
+   "n_satir": 0,
+   "kagit_gecis": {
+    "Mixtral": 0
+   },
+   "en_seyrek": 0
+  },
+  "OLMo-3-7B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "OLMo": 220
+   },
+   "en_seyrek": 220
+  },
+  "OLMo2-13B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "dpo": 6528,
+    "instruct": 6528,
+    "sft": 6528,
+    "taban": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "dpo": 16,
+    "instruct": 16,
+    "sft": 16,
+    "taban": 16
+   },
+   "n_satir": 26112,
+   "kagit_gecis": {
+    "OLMo": 220
+   },
+   "en_seyrek": 220
+  },
+  "OLMo2-32B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "dpo": 6528,
+    "instruct": 6528,
+    "sft": 6528,
+    "taban": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "dpo": 16,
+    "instruct": 16,
+    "sft": 16,
+    "taban": 16
+   },
+   "n_satir": 26112,
+   "kagit_gecis": {
+    "OLMo": 220
+   },
+   "en_seyrek": 220
+  },
+  "OLMo2-7B": {
+   "sinif": "KÂGITTA IZ VAR",
+   "bacak": {
+    "dpo": 6528,
+    "instruct": 6528,
+    "sft": 6528,
+    "taban": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "dpo": 16,
+    "instruct": 16,
+    "sft": 16,
+    "taban": 16
+   },
+   "n_satir": 26112,
+   "kagit_gecis": {
+    "OLMo": 220
+   },
+   "en_seyrek": 220
+  },
+  "OLMo2-7B-RLVR": {
+   "sinif": "KÂGITTA IZ VAR",
+   "bacak": {
+    "dpo": 6528,
+    "step_120": 6528,
+    "step_180": 6528,
+    "step_240": 6528,
+    "step_300": 6528,
+    "step_360": 6528,
+    "step_60": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "dpo": 16,
+    "step_120": 16,
+    "step_180": 16,
+    "step_240": 16,
+    "step_300": 16,
+    "step_360": 16,
+    "step_60": 16
+   },
+   "n_satir": 45696,
+   "kagit_gecis": {
+    "OLMo": 220,
+    "RLVR": 10
+   },
+   "en_seyrek": 10
+  },
+  "OLMo3-7B": {
+   "sinif": "KÂGITTA IZ VAR",
+   "bacak": {
+    "dpo": 6528,
+    "rlvr": 6528,
+    "sft": 6528,
+    "taban": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "dpo": 16,
+    "rlvr": 16,
+    "sft": 16,
+    "taban": 16
+   },
+   "n_satir": 26112,
+   "kagit_gecis": {
+    "OLMo": 220
+   },
+   "en_seyrek": 220
+  },
+  "Qwen2.5-1.5B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Qwen": 274
+   },
+   "en_seyrek": 274
+  },
+  "Qwen2.5-14B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Qwen": 274
+   },
+   "en_seyrek": 274
+  },
+  "Qwen2.5-32B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Qwen": 274
+   },
+   "en_seyrek": 274
+  },
+  "Qwen2.5-3B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Qwen": 274
+   },
+   "en_seyrek": 274
+  },
+  "Qwen2.5-72B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Qwen": 274
+   },
+   "en_seyrek": 274
+  },
+  "Qwen2.5-7B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "base": 6528,
+    "instruct": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "base": 16,
+    "instruct": 16
+   },
+   "n_satir": 13056,
+   "kagit_gecis": {
+    "Qwen": 274
+   },
+   "en_seyrek": 274
+  },
+  "Tulu3-70B": {
+   "sinif": "KÂGITTA IZ VAR",
+   "bacak": {
+    "dpo": 6528,
+    "sft": 6528,
+    "taban": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "dpo": 16,
+    "sft": 16,
+    "taban": 16
+   },
+   "n_satir": 19584,
+   "kagit_gecis": {
+    "Tulu": 32
+   },
+   "en_seyrek": 32
+  },
+  "Tulu3-8B": {
+   "sinif": "PANEL-16",
+   "bacak": {
+    "dpo": 6528,
+    "rl": 6528,
+    "sft": 6528,
+    "taban": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "dpo": 16,
+    "rl": 16,
+    "sft": 16,
+    "taban": 16
+   },
+   "n_satir": 26112,
+   "kagit_gecis": {
+    "Tulu": 32
+   },
+   "en_seyrek": 32
+  },
+  "Zephyr-7B": {
+   "sinif": "KÂGITTA IZ VAR",
+   "bacak": {
+    "dpo": 6528,
+    "sft": 6528,
+    "taban": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "dpo": 16,
+    "sft": 16,
+    "taban": 16
+   },
+   "n_satir": 19584,
+   "kagit_gecis": {
+    "Zephyr": 36
+   },
+   "en_seyrek": 36
+  },
+  "miniDPO": {
+   "sinif": "BIZIM-EGITIM",
+   "bacak": {
+    "ckpt-050": 6528,
+    "ckpt-100": 6528,
+    "ckpt-1114": 6528,
+    "ckpt-1119": 6528,
+    "ckpt-1126": 6528,
+    "ckpt-1139": 6528,
+    "ckpt-114": 6528,
+    "ckpt-119": 6528,
+    "ckpt-1195": 6528,
+    "ckpt-1207": 6528,
+    "ckpt-1220": 6528,
+    "ckpt-1236": 6528,
+    "ckpt-1246": 6528,
+    "ckpt-126": 6528,
+    "ckpt-1296": 6528,
+    "ckpt-1357": 6528,
+    "ckpt-1376": 6528,
+    "ckpt-1378": 6528,
+    "ckpt-139": 6528,
+    "ckpt-1407": 6528,
+    "ckpt-1460": 6528,
+    "ckpt-150": 6528,
+    "ckpt-1533": 6528,
+    "ckpt-1582": 6528,
+    "ckpt-1604": 6528,
+    "ckpt-1664": 6528,
+    "ckpt-1682": 6528,
+    "ckpt-1709": 6528,
+    "ckpt-1710": 6528,
+    "ckpt-1771": 6528,
+    "ckpt-1773": 6528,
+    "ckpt-1788": 6528,
+    "ckpt-1802": 6528,
+    "ckpt-1844": 6528,
+    "ckpt-1922": 6528,
+    "ckpt-1926": 6528,
+    "ckpt-195": 6528,
+    "ckpt-1951": 6528,
+    "ckpt-1976": 6528,
+    "ckpt-200": 6528,
+    "ckpt-207": 6528,
+    "ckpt-2114": 6528,
+    "ckpt-2119": 6528,
+    "ckpt-2126": 6528,
+    "ckpt-2139": 6528,
+    "ckpt-2195": 6528,
+    "ckpt-220": 6528,
+    "ckpt-2207": 6528,
+    "ckpt-2220": 6528,
+    "ckpt-2236": 6528,
+    "ckpt-2246": 6528,
+    "ckpt-2296": 6528,
+    "ckpt-2357": 6528,
+    "ckpt-236": 6528,
+    "ckpt-2376": 6528,
+    "ckpt-2378": 6528,
+    "ckpt-2407": 6528,
+    "ckpt-246": 6528,
+    "ckpt-2460": 6528,
+    "ckpt-2533": 6528,
+    "ckpt-2582": 6528,
+    "ckpt-2604": 6528,
+    "ckpt-2664": 6528,
+    "ckpt-2682": 6528,
+    "ckpt-2709": 6528,
+    "ckpt-2710": 6528,
+    "ckpt-2771": 6528,
+    "ckpt-2773": 6528,
+    "ckpt-2788": 6528,
+    "ckpt-2802": 6528,
+    "ckpt-2844": 6528,
+    "ckpt-2922": 6528,
+    "ckpt-2926": 6528,
+    "ckpt-2951": 6528,
+    "ckpt-296": 6528,
+    "ckpt-2976": 6528,
+    "ckpt-3114": 6528,
+    "ckpt-3119": 6528,
+    "ckpt-3126": 6528,
+    "ckpt-3139": 6528,
+    "ckpt-3195": 6528,
+    "ckpt-3207": 6528,
+    "ckpt-3220": 6528,
+    "ckpt-3236": 6528,
+    "ckpt-3246": 6528,
+    "ckpt-3296": 6528,
+    "ckpt-3357": 6528,
+    "ckpt-3376": 6528,
+    "ckpt-3378": 6528,
+    "ckpt-3407": 6528,
+    "ckpt-3460": 6528,
+    "ckpt-3533": 6528,
+    "ckpt-357": 6528,
+    "ckpt-3582": 6528,
+    "ckpt-3604": 6528,
+    "ckpt-3664": 6528,
+    "ckpt-3682": 6528,
+    "ckpt-3709": 6528,
+    "ckpt-3710": 6528,
+    "ckpt-376": 6528,
+    "ckpt-3771": 6528,
+    "ckpt-3773": 6528,
+    "ckpt-378": 6528,
+    "ckpt-3788": 6528,
+    "ckpt-3802": 6528,
+    "ckpt-3844": 6528,
+    "ckpt-3922": 6528,
+    "ckpt-3926": 6528,
+    "ckpt-3951": 6528,
+    "ckpt-3976": 6528,
+    "ckpt-407": 6528,
+    "ckpt-4119": 6528,
+    "ckpt-4139": 6528,
+    "ckpt-4376": 6528,
+    "ckpt-4378": 6528,
+    "ckpt-4533": 6528,
+    "ckpt-460": 6528,
+    "ckpt-4604": 6528,
+    "ckpt-4682": 6528,
+    "ckpt-4788": 6528,
+    "ckpt-4802": 6528,
+    "ckpt-4926": 6528,
+    "ckpt-5119": 6528,
+    "ckpt-5139": 6528,
+    "ckpt-533": 6528,
+    "ckpt-533.kesik_20260922T0056": 0,
+    "ckpt-5376": 6528,
+    "ckpt-5378": 6528,
+    "ckpt-5533": 6528,
+    "ckpt-5533.kesik_20260922T0056": 0,
+    "ckpt-5604": 6528,
+    "ckpt-5682": 6528,
+    "ckpt-5788": 6528,
+    "ckpt-5802": 6528,
+    "ckpt-582": 6528,
+    "ckpt-5926": 6528,
+    "ckpt-604": 6528,
+    "ckpt-6119": 6528,
+    "ckpt-6139": 6528,
+    "ckpt-6376": 6528,
+    "ckpt-6378": 6528,
+    "ckpt-6533": 6528,
+    "ckpt-6604": 6528,
+    "ckpt-664": 6528,
+    "ckpt-6682": 6528,
+    "ckpt-6788": 6528,
+    "ckpt-6802": 6528,
+    "ckpt-682": 6528,
+    "ckpt-6926": 6528,
+    "ckpt-709": 6528,
+    "ckpt-710": 6528,
+    "ckpt-7119": 6528,
+    "ckpt-7139": 6528,
+    "ckpt-7376": 6528,
+    "ckpt-7378": 6528,
+    "ckpt-7533": 6528,
+    "ckpt-7604": 6528,
+    "ckpt-7682": 6528,
+    "ckpt-771": 6528,
+    "ckpt-773": 6528,
+    "ckpt-7788": 6528,
+    "ckpt-7802": 6528,
+    "ckpt-788": 6528,
+    "ckpt-7926": 6528,
+    "ckpt-802": 6528,
+    "ckpt-830": 6528,
+    "ckpt-831": 6528,
+    "ckpt-832": 6528,
+    "ckpt-844": 6528,
+    "ckpt-8604": 6528,
+    "ckpt-922": 6528,
+    "ckpt-926": 6528,
+    "ckpt-951": 6528,
+    "ckpt-976": 6528
+   },
+   "yarim_kol_dosyasi": {
+    "ckpt-050": 16,
+    "ckpt-100": 16,
+    "ckpt-1114": 16,
+    "ckpt-1119": 16,
+    "ckpt-1126": 16,
+    "ckpt-1139": 16,
+    "ckpt-114": 16,
+    "ckpt-119": 16,
+    "ckpt-1195": 16,
+    "ckpt-1207": 16,
+    "ckpt-1220": 16,
+    "ckpt-1236": 16,
+    "ckpt-1246": 16,
+    "ckpt-126": 16,
+    "ckpt-1296": 16,
+    "ckpt-1357": 16,
+    "ckpt-1376": 16,
+    "ckpt-1378": 16,
+    "ckpt-139": 16,
+    "ckpt-1407": 16,
+    "ckpt-1460": 16,
+    "ckpt-150": 16,
+    "ckpt-1533": 16,
+    "ckpt-1582": 16,
+    "ckpt-1604": 16,
+    "ckpt-1664": 16,
+    "ckpt-1682": 16,
+    "ckpt-1709": 16,
+    "ckpt-1710": 16,
+    "ckpt-1771": 16,
+    "ckpt-1773": 16,
+    "ckpt-1788": 16,
+    "ckpt-1802": 16,
+    "ckpt-1844": 16,
+    "ckpt-1922": 16,
+    "ckpt-1926": 16,
+    "ckpt-195": 16,
+    "ckpt-1951": 16,
+    "ckpt-1976": 16,
+    "ckpt-200": 16,
+    "ckpt-207": 16,
+    "ckpt-2114": 16,
+    "ckpt-2119": 16,
+    "ckpt-2126": 16,
+    "ckpt-2139": 16,
+    "ckpt-2195": 16,
+    "ckpt-220": 16,
+    "ckpt-2207": 16,
+    "ckpt-2220": 16,
+    "ckpt-2236": 16,
+    "ckpt-2246": 16,
+    "ckpt-2296": 16,
+    "ckpt-2357": 16,
+    "ckpt-236": 16,
+    "ckpt-2376": 16,
+    "ckpt-2378": 16,
+    "ckpt-2407": 16,
+    "ckpt-246": 16,
+    "ckpt-2460": 16,
+    "ckpt-2533": 16,
+    "ckpt-2582": 16,
+    "ckpt-2604": 16,
+    "ckpt-2664": 16,
+    "ckpt-2682": 16,
+    "ckpt-2709": 16,
+    "ckpt-2710": 16,
+    "ckpt-2771": 16,
+    "ckpt-2773": 16,
+    "ckpt-2788": 16,
+    "ckpt-2802": 16,
+    "ckpt-2844": 16,
+    "ckpt-2922": 16,
+    "ckpt-2926": 16,
+    "ckpt-2951": 16,
+    "ckpt-296": 16,
+    "ckpt-2976": 16,
+    "ckpt-3114": 16,
+    "ckpt-3119": 16,
+    "ckpt-3126": 16,
+    "ckpt-3139": 16,
+    "ckpt-3195": 16,
+    "ckpt-3207": 16,
+    "ckpt-3220": 16,
+    "ckpt-3236": 16,
+    "ckpt-3246": 16,
+    "ckpt-3296": 16,
+    "ckpt-3357": 16,
+    "ckpt-3376": 16,
+    "ckpt-3378": 16,
+    "ckpt-3407": 16,
+    "ckpt-3460": 16,
+    "ckpt-3533": 16,
+    "ckpt-357": 16,
+    "ckpt-3582": 16,
+    "ckpt-3604": 16,
+    "ckpt-3664": 16,
+    "ckpt-3682": 16,
+    "ckpt-3709": 16,
+    "ckpt-3710": 16,
+    "ckpt-376": 16,
+    "ckpt-3771": 16,
+    "ckpt-3773": 16,
+    "ckpt-378": 16,
+    "ckpt-3788": 16,
+    "ckpt-3802": 16,
+    "ckpt-3844": 16,
+    "ckpt-3922": 16,
+    "ckpt-3926": 16,
+    "ckpt-3951": 16,
+    "ckpt-3976": 16,
+    "ckpt-407": 16,
+    "ckpt-4119": 16,
+    "ckpt-4139": 16,
+    "ckpt-4376": 16,
+    "ckpt-4378": 16,
+    "ckpt-4533": 16,
+    "ckpt-460": 16,
+    "ckpt-4604": 16,
+    "ckpt-4682": 16,
+    "ckpt-4788": 16,
+    "ckpt-4802": 16,
+    "ckpt-4926": 16,
+    "ckpt-5119": 16,
+    "ckpt-5139": 16,
+    "ckpt-533": 16,
+    "ckpt-533.kesik_20260922T0056": 14,
+    "ckpt-5376": 16,
+    "ckpt-5378": 16,
+    "ckpt-5533": 16,
+    "ckpt-5533.kesik_20260922T0056": 14,
+    "ckpt-5604": 16,
+    "ckpt-5682": 16,
+    "ckpt-5788": 16,
+    "ckpt-5802": 16,
+    "ckpt-582": 16,
+    "ckpt-5926": 16,
+    "ckpt-604": 16,
+    "ckpt-6119": 16,
+    "ckpt-6139": 16,
+    "ckpt-6376": 16,
+    "ckpt-6378": 16,
+    "ckpt-6533": 16,
+    "ckpt-6604": 16,
+    "ckpt-664": 16,
+    "ckpt-6682": 16,
+    "ckpt-6788": 16,
+    "ckpt-6802": 16,
+    "ckpt-682": 16,
+    "ckpt-6926": 16,
+    "ckpt-709": 16,
+    "ckpt-710": 16,
+    "ckpt-7119": 16,
+    "ckpt-7139": 16,
+    "ckpt-7376": 16,
+    "ckpt-7378": 16,
+    "ckpt-7533": 16,
+    "ckpt-7604": 16,
+    "ckpt-7682": 16,
+    "ckpt-771": 16,
+    "ckpt-773": 16,
+    "ckpt-7788": 16,
+    "ckpt-7802": 16,
+    "ckpt-788": 16,
+    "ckpt-7926": 16,
+    "ckpt-802": 16,
+    "ckpt-830": 16,
+    "ckpt-831": 16,
+    "ckpt-832": 16,
+    "ckpt-844": 16,
+    "ckpt-8604": 16,
+    "ckpt-922": 16,
+    "ckpt-926": 16,
+    "ckpt-951": 16,
+    "ckpt-976": 16
+   },
+   "n_satir": 1122816,
+   "kagit_gecis": {
+    "miniDPO": 0
+   },
+   "en_seyrek": 0
+  },
+  "_sayim": {
+   "n_dizin": 28,
+   "izyok": [
+    "Mixtral-8x7B"
+   ],
+   "n_izyok": 1,
+   "izyok_ve_uretilmemis": [
+    "Mixtral-8x7B"
+   ],
+   "izyok_ve_uretilmis": [],
+   "n_uretilip_disarida": 0
+  }
+ },
+ "b": {
+  "_kaynak": {
+   "card": "results/template_filtered_2026-09-07.json",
+   "sha256_16": "960d06e88b5c41d5",
+   "yukselen": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "OLMo-3-7B",
+    "Qwen2.5-1.5B"
+   ],
+   "n": 7,
+   "tanim": ""
+  },
+  "Gemma-3-12B": {
+   "tam": {
+    "dM1": 24.6134,
+    "ci": [
+     22.3864,
+     26.6087
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 11.5373,
+    "M1_hizali": 36.1508,
+    "n_istem": 34
+   },
+   "ilk_cumle_atildi": {
+    "dM1": 20.3272,
+    "ci": [
+     18.2218,
+     22.2868
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 11.7707,
+    "M1_hizali": 32.0979,
+    "n_istem": 34
+   },
+   "n_cumle_atilan_taban": 6502,
+   "n_cumle_atilan_hizali": 6528,
+   "pay_jeton_atilan_hizali": 0.1496,
+   "pay_jeton_atilan_taban": 0.1402,
+   "hal": "ÖLCÜLDÜ",
+   "esdegerlik": [
+    0.0,
+    0.0
+   ]
+  },
+  "Gemma-3-27B": {
+   "tam": {
+    "dM1": 32.2671,
+    "ci": [
+     30.4194,
+     33.9
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 8.9281,
+    "M1_hizali": 41.1952,
+    "n_istem": 34
+   },
+   "ilk_cumle_atildi": {
+    "dM1": 30.7773,
+    "ci": [
+     28.892,
+     32.418
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 9.2739,
+    "M1_hizali": 40.0512,
+    "n_istem": 34
+   },
+   "n_cumle_atilan_taban": 6525,
+   "n_cumle_atilan_hizali": 6528,
+   "pay_jeton_atilan_hizali": 0.1368,
+   "pay_jeton_atilan_taban": 0.1388,
+   "hal": "ÖLCÜLDÜ",
+   "esdegerlik": [
+    0.0,
+    0.0
+   ]
+  },
+  "Gemma-3-4B": {
+   "tam": {
+    "dM1": 26.3549,
+    "ci": [
+     24.6053,
+     27.8856
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 13.7805,
+    "M1_hizali": 40.1354,
+    "n_istem": 34
+   },
+   "ilk_cumle_atildi": {
+    "dM1": 23.222,
+    "ci": [
+     21.6862,
+     24.6766
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 14.0283,
+    "M1_hizali": 37.2502,
+    "n_istem": 34
+   },
+   "n_cumle_atilan_taban": 6471,
+   "n_cumle_atilan_hizali": 6528,
+   "pay_jeton_atilan_hizali": 0.131,
+   "pay_jeton_atilan_taban": 0.1453,
+   "hal": "ÖLCÜLDÜ",
+   "esdegerlik": [
+    0.0,
+    0.0
+   ]
+  },
+  "Llama-3.1-70B": {
+   "tam": {
+    "dM1": 14.7602,
+    "ci": [
+     13.5109,
+     16.0792
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 8.3052,
+    "M1_hizali": 23.0654,
+    "n_istem": 34
+   },
+   "ilk_cumle_atildi": {
+    "dM1": 10.1475,
+    "ci": [
+     8.7461,
+     11.5306
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 8.6549,
+    "M1_hizali": 18.8024,
+    "n_istem": 34
+   },
+   "n_cumle_atilan_taban": 6468,
+   "n_cumle_atilan_hizali": 6528,
+   "pay_jeton_atilan_hizali": 0.1345,
+   "pay_jeton_atilan_taban": 0.1481,
+   "hal": "ÖLCÜLDÜ",
+   "esdegerlik": [
+    0.0,
+    0.0
+   ]
+  },
+  "Llama-3.1-8B": {
+   "tam": {
+    "dM1": 7.5054,
+    "ci": [
+     6.2642,
+     8.6175
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 12.5142,
+    "M1_hizali": 20.0196,
+    "n_istem": 34
+   },
+   "ilk_cumle_atildi": {
+    "dM1": 1.0862,
+    "ci": [
+     -0.3074,
+     2.3511
+    ],
+    "ayrik": false,
+    "yon": "yukari",
+    "M1_taban": 12.9131,
+    "M1_hizali": 13.9994,
+    "n_istem": 34
+   },
+   "n_cumle_atilan_taban": 6328,
+   "n_cumle_atilan_hizali": 6528,
+   "pay_jeton_atilan_hizali": 0.1335,
+   "pay_jeton_atilan_taban": 0.133,
+   "hal": "ÖLCÜLDÜ",
+   "esdegerlik": [
+    0.0,
+    0.0
+   ]
+  },
+  "OLMo-3-7B": {
+   "tam": {
+    "dM1": 9.9182,
+    "ci": [
+     8.63,
+     11.1988
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 17.4584,
+    "M1_hizali": 27.3766,
+    "n_istem": 34
+   },
+   "ilk_cumle_atildi": {
+    "dM1": 7.2289,
+    "ci": [
+     5.8456,
+     8.6078
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 15.4919,
+    "M1_hizali": 22.7208,
+    "n_istem": 34
+   },
+   "n_cumle_atilan_taban": 6528,
+   "n_cumle_atilan_hizali": 6528,
+   "pay_jeton_atilan_hizali": 0.1519,
+   "pay_jeton_atilan_taban": 0.1055,
+   "hal": "ÖLCÜLDÜ",
+   "esdegerlik": [
+    0.0,
+    0.0
+   ]
+  },
+  "Qwen2.5-1.5B": {
+   "tam": {
+    "dM1": 1.4252,
+    "ci": [
+     0.0472,
+     2.9165
+    ],
+    "ayrik": true,
+    "yon": "yukari",
+    "M1_taban": 14.9957,
+    "M1_hizali": 16.4209,
+    "n_istem": 34
+   },
+   "ilk_cumle_atildi": {
+    "dM1": -1.3556,
+    "ci": [
+     -2.9007,
+     0.3173
+    ],
+    "ayrik": false,
+    "yon": "asagi",
+    "M1_taban": 14.2418,
+    "M1_hizali": 12.8862,
+    "n_istem": 34
+   },
+   "n_cumle_atilan_taban": 6527,
+   "n_cumle_atilan_hizali": 6528,
+   "pay_jeton_atilan_hizali": 0.1821,
+   "pay_jeton_atilan_taban": 0.1295,
+   "hal": "ÖLCÜLDÜ",
+   "esdegerlik": [
+    0.0,
+    0.0
+   ]
+  },
+  "_sayim": {
+   "n_yukselen": 7,
+   "n_olculen": 7,
+   "n_hala_yukselen_ayrik": 5,
+   "hala_yukselen": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "OLMo-3-7B"
+   ],
+   "dusen": [
+    "Llama-3.1-8B",
+    "Qwen2.5-1.5B"
+   ]
+  }
+ },
+ "d": {
+  "_kaynak": {
+   "referans": "c1_panel/<aile>/<hizali bacak> (cümlesiz)",
+   "kollar": [
+    "kayit_sahissiz",
+    "kayit",
+    "acik"
+   ],
+   "tanim": "uzunluk = satir basina jeton ortalamasi (MK) · liste payi = H80.SATIR eslesen bos-olmayan satir payi · ret orani = Q2.sinif == RET payi"
+  },
+  "Gemma-3-12B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 147.55,
+    "liste_payi": 0.4447,
+    "ret_orani": 0.0009
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 148.5,
+    "liste_payi": 0.0119,
+    "ret_orani": 0.0006,
+    "fark": {
+     "jeton_ort": 0.95,
+     "liste_payi": -0.4328,
+     "ret_orani": -0.0003
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 148.39,
+    "liste_payi": 0.0012,
+    "ret_orani": 0.0005,
+    "fark": {
+     "jeton_ort": 0.84,
+     "liste_payi": -0.4435,
+     "ret_orani": -0.0004
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 150.28,
+    "liste_payi": 0.0105,
+    "ret_orani": 0.0017,
+    "fark": {
+     "jeton_ort": 2.73,
+     "liste_payi": -0.4342,
+     "ret_orani": 0.0008
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Gemma-3-27B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 145.6,
+    "liste_payi": 0.4547,
+    "ret_orani": 0.0031
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 147.77,
+    "liste_payi": 0.028,
+    "ret_orani": 0.0006,
+    "fark": {
+     "jeton_ort": 2.17,
+     "liste_payi": -0.4267,
+     "ret_orani": -0.0025
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 149.34,
+    "liste_payi": 0.0726,
+    "ret_orani": 0.002,
+    "fark": {
+     "jeton_ort": 3.74,
+     "liste_payi": -0.3821,
+     "ret_orani": -0.0011
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 149.13,
+    "liste_payi": 0.0435,
+    "ret_orani": 0.0023,
+    "fark": {
+     "jeton_ort": 3.53,
+     "liste_payi": -0.4112,
+     "ret_orani": -0.0008
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Gemma-3-4B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 144.61,
+    "liste_payi": 0.4317,
+    "ret_orani": 0.0009
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 147.72,
+    "liste_payi": 0.0642,
+    "ret_orani": 0.0011,
+    "fark": {
+     "jeton_ort": 3.11,
+     "liste_payi": -0.3675,
+     "ret_orani": 0.0002
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 148.8,
+    "liste_payi": 0.1074,
+    "ret_orani": 0.0008,
+    "fark": {
+     "jeton_ort": 4.19,
+     "liste_payi": -0.3243,
+     "ret_orani": -0.0001
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 150.62,
+    "liste_payi": 0.1076,
+    "ret_orani": 0.0011,
+    "fark": {
+     "jeton_ort": 6.01,
+     "liste_payi": -0.3241,
+     "ret_orani": 0.0002
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Llama-3.1-70B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 153.82,
+    "liste_payi": 0.0847,
+    "ret_orani": 0.0003
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 152.67,
+    "liste_payi": 0.0765,
+    "ret_orani": 0.0005,
+    "fark": {
+     "jeton_ort": -1.15,
+     "liste_payi": -0.0082,
+     "ret_orani": 0.0002
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 156.09,
+    "liste_payi": 0.0656,
+    "ret_orani": 0.0002,
+    "fark": {
+     "jeton_ort": 2.27,
+     "liste_payi": -0.0191,
+     "ret_orani": -0.0001
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 157.04,
+    "liste_payi": 0.0489,
+    "ret_orani": 0.0005,
+    "fark": {
+     "jeton_ort": 3.22,
+     "liste_payi": -0.0358,
+     "ret_orani": 0.0002
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Llama-3.1-8B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 155.86,
+    "liste_payi": 0.075,
+    "ret_orani": 0.0003
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 155.33,
+    "liste_payi": 0.1972,
+    "ret_orani": 0.0002,
+    "fark": {
+     "jeton_ort": -0.53,
+     "liste_payi": 0.1222,
+     "ret_orani": -0.0001
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 155.92,
+    "liste_payi": 0.2329,
+    "ret_orani": 0.0002,
+    "fark": {
+     "jeton_ort": 0.06,
+     "liste_payi": 0.1579,
+     "ret_orani": -0.0001
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 156.44,
+    "liste_payi": 0.1749,
+    "ret_orani": 0.0002,
+    "fark": {
+     "jeton_ort": 0.58,
+     "liste_payi": 0.0999,
+     "ret_orani": -0.0001
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 123.14,
+    "liste_payi": 0.6347,
+    "ret_orani": 0.0003
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 112.92,
+    "liste_payi": 0.4354,
+    "ret_orani": 0.0002,
+    "fark": {
+     "jeton_ort": -10.22,
+     "liste_payi": -0.1993,
+     "ret_orani": -0.0001
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 116.2,
+    "liste_payi": 0.3446,
+    "ret_orani": 0.0002,
+    "fark": {
+     "jeton_ort": -6.94,
+     "liste_payi": -0.2901,
+     "ret_orani": -0.0001
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 119.94,
+    "liste_payi": 0.1652,
+    "ret_orani": 0.0014,
+    "fark": {
+     "jeton_ort": -3.2,
+     "liste_payi": -0.4695,
+     "ret_orani": 0.0011
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "OLMo-3-7B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 144.13,
+    "liste_payi": 0.078,
+    "ret_orani": 0.0005
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 121.21,
+    "liste_payi": 0.0169,
+    "ret_orani": 0.0006,
+    "fark": {
+     "jeton_ort": -22.92,
+     "liste_payi": -0.0611,
+     "ret_orani": 0.0001
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 111.96,
+    "liste_payi": 0.0574,
+    "ret_orani": 0.0003,
+    "fark": {
+     "jeton_ort": -32.17,
+     "liste_payi": -0.0206,
+     "ret_orani": -0.0002
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 116.91,
+    "liste_payi": 0.0113,
+    "ret_orani": 0.0025,
+    "fark": {
+     "jeton_ort": -27.22,
+     "liste_payi": -0.0667,
+     "ret_orani": 0.002
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "OLMo2-13B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 132.99,
+    "liste_payi": 0.12,
+    "ret_orani": 0.0012
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 119.32,
+    "liste_payi": 0.0225,
+    "ret_orani": 0.0015,
+    "fark": {
+     "jeton_ort": -13.67,
+     "liste_payi": -0.0975,
+     "ret_orani": 0.0003
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 129.49,
+    "liste_payi": 0.0221,
+    "ret_orani": 0.0009,
+    "fark": {
+     "jeton_ort": -3.5,
+     "liste_payi": -0.0979,
+     "ret_orani": -0.0003
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 125.09,
+    "liste_payi": 0.0372,
+    "ret_orani": 0.0008,
+    "fark": {
+     "jeton_ort": -7.9,
+     "liste_payi": -0.0828,
+     "ret_orani": -0.0004
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "OLMo2-32B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 129.01,
+    "liste_payi": 0.0608,
+    "ret_orani": 0.0009
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 152.26,
+    "liste_payi": 0.0044,
+    "ret_orani": 0.0012,
+    "fark": {
+     "jeton_ort": 23.25,
+     "liste_payi": -0.0564,
+     "ret_orani": 0.0003
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 144.98,
+    "liste_payi": 0.0022,
+    "ret_orani": 0.0002,
+    "fark": {
+     "jeton_ort": 15.97,
+     "liste_payi": -0.0586,
+     "ret_orani": -0.0007
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 145.68,
+    "liste_payi": 0.0034,
+    "ret_orani": 0.0018,
+    "fark": {
+     "jeton_ort": 16.67,
+     "liste_payi": -0.0574,
+     "ret_orani": 0.0009
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Qwen2.5-1.5B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 154.12,
+    "liste_payi": 0.2399,
+    "ret_orani": 0.0025
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 156.33,
+    "liste_payi": 0.1121,
+    "ret_orani": 0.0025,
+    "fark": {
+     "jeton_ort": 2.21,
+     "liste_payi": -0.1278,
+     "ret_orani": 0.0
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 156.59,
+    "liste_payi": 0.0765,
+    "ret_orani": 0.0037,
+    "fark": {
+     "jeton_ort": 2.47,
+     "liste_payi": -0.1634,
+     "ret_orani": 0.0012
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 156.67,
+    "liste_payi": 0.1285,
+    "ret_orani": 0.0029,
+    "fark": {
+     "jeton_ort": 2.55,
+     "liste_payi": -0.1114,
+     "ret_orani": 0.0004
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Qwen2.5-14B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 156.97,
+    "liste_payi": 0.4803,
+    "ret_orani": 0.0023
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 155.9,
+    "liste_payi": 0.0263,
+    "ret_orani": 0.0023,
+    "fark": {
+     "jeton_ort": -1.07,
+     "liste_payi": -0.454,
+     "ret_orani": 0.0
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 156.59,
+    "liste_payi": 0.0102,
+    "ret_orani": 0.0028,
+    "fark": {
+     "jeton_ort": -0.38,
+     "liste_payi": -0.4701,
+     "ret_orani": 0.0005
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 156.14,
+    "liste_payi": 0.024,
+    "ret_orani": 0.0035,
+    "fark": {
+     "jeton_ort": -0.83,
+     "liste_payi": -0.4563,
+     "ret_orani": 0.0012
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Qwen2.5-32B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 156.99,
+    "liste_payi": 0.4553,
+    "ret_orani": 0.0046
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 156.68,
+    "liste_payi": 0.0047,
+    "ret_orani": 0.0029,
+    "fark": {
+     "jeton_ort": -0.31,
+     "liste_payi": -0.4506,
+     "ret_orani": -0.0017
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 156.51,
+    "liste_payi": 0.0078,
+    "ret_orani": 0.0052,
+    "fark": {
+     "jeton_ort": -0.48,
+     "liste_payi": -0.4475,
+     "ret_orani": 0.0006
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 156.81,
+    "liste_payi": 0.0095,
+    "ret_orani": 0.009,
+    "fark": {
+     "jeton_ort": -0.18,
+     "liste_payi": -0.4458,
+     "ret_orani": 0.0044
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Qwen2.5-3B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 156.5,
+    "liste_payi": 0.3879,
+    "ret_orani": 0.0003
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 156.53,
+    "liste_payi": 0.0874,
+    "ret_orani": 0.0012,
+    "fark": {
+     "jeton_ort": 0.03,
+     "liste_payi": -0.3005,
+     "ret_orani": 0.0009
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 156.81,
+    "liste_payi": 0.0856,
+    "ret_orani": 0.0011,
+    "fark": {
+     "jeton_ort": 0.31,
+     "liste_payi": -0.3023,
+     "ret_orani": 0.0008
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 156.98,
+    "liste_payi": 0.0313,
+    "ret_orani": 0.0044,
+    "fark": {
+     "jeton_ort": 0.48,
+     "liste_payi": -0.3566,
+     "ret_orani": 0.0041
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Qwen2.5-72B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 157.53,
+    "liste_payi": 0.5487,
+    "ret_orani": 0.0017
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 156.11,
+    "liste_payi": 0.0612,
+    "ret_orani": 0.0012,
+    "fark": {
+     "jeton_ort": -1.42,
+     "liste_payi": -0.4875,
+     "ret_orani": -0.0005
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 156.39,
+    "liste_payi": 0.0171,
+    "ret_orani": 0.0017,
+    "fark": {
+     "jeton_ort": -1.14,
+     "liste_payi": -0.5316,
+     "ret_orani": 0.0
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 157.2,
+    "liste_payi": 0.0333,
+    "ret_orani": 0.0026,
+    "fark": {
+     "jeton_ort": -0.33,
+     "liste_payi": -0.5154,
+     "ret_orani": 0.0009
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Qwen2.5-7B": {
+   "hizali_ad": "instruct",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 156.34,
+    "liste_payi": 0.4378,
+    "ret_orani": 0.0011
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 156.71,
+    "liste_payi": 0.018,
+    "ret_orani": 0.0015,
+    "fark": {
+     "jeton_ort": 0.37,
+     "liste_payi": -0.4198,
+     "ret_orani": 0.0004
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 156.85,
+    "liste_payi": 0.0268,
+    "ret_orani": 0.0009,
+    "fark": {
+     "jeton_ort": 0.51,
+     "liste_payi": -0.411,
+     "ret_orani": -0.0002
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 156.62,
+    "liste_payi": 0.1151,
+    "ret_orani": 0.0041,
+    "fark": {
+     "jeton_ort": 0.28,
+     "liste_payi": -0.3227,
+     "ret_orani": 0.003
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "Tulu3-8B": {
+   "hizali_ad": "rl",
+   "referans": {
+    "n": 6528,
+    "jeton_ort": 130.05,
+    "liste_payi": 0.1001,
+    "ret_orani": 0.0
+   },
+   "kayit_sahissiz": {
+    "n": 6528,
+    "jeton_ort": 129.35,
+    "liste_payi": 0.0357,
+    "ret_orani": 0.0005,
+    "fark": {
+     "jeton_ort": -0.7,
+     "liste_payi": -0.0644,
+     "ret_orani": 0.0005
+    },
+    "etiket": "no pronoun",
+    "bacak_ad": "instruct"
+   },
+   "kayit": {
+    "n": 6528,
+    "jeton_ort": 127.12,
+    "liste_payi": 0.0406,
+    "ret_orani": 0.0003,
+    "fark": {
+     "jeton_ort": -2.93,
+     "liste_payi": -0.0595,
+     "ret_orani": 0.0003
+    },
+    "etiket": "one you",
+    "bacak_ad": "instruct"
+   },
+   "acik": {
+    "n": 6528,
+    "jeton_ort": 138.47,
+    "liste_payi": 0.0545,
+    "ret_orani": 0.0021,
+    "fark": {
+     "jeton_ort": 8.42,
+     "liste_payi": -0.0456,
+     "ret_orani": 0.0021
+    },
+    "etiket": "names the forms",
+    "bacak_ad": "instruct"
+   }
+  },
+  "_medyan": {
+   "kayit_sahissiz": {
+    "etiket": "no pronoun",
+    "n": 16,
+    "jeton_ort": -0.42,
+    "liste_payi": -0.2499,
+    "ret_orani": 0.0001
+   },
+   "kayit": {
+    "etiket": "one you",
+    "n": 16,
+    "jeton_ort": 0.185,
+    "liste_payi": -0.2962,
+    "ret_orani": -0.0001
+   },
+   "acik": {
+    "etiket": "names the forms",
+    "n": 16,
+    "jeton_ort": 0.53,
+    "liste_payi": -0.3234,
+    "ret_orani": 0.0009
+   }
+  }
+ }
+}

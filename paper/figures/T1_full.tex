@@ -1,0 +1,29 @@
+\begin{table}[tb]
+\centering\scriptsize\setlength{\tabcolsep}{2.6pt}
+\caption{\textbf{Sixteen models on the debate prompts, ELICIT-99 and the in-context assistant prompt, in full.} Table~\ref{tab:families} with the elicited and in-context assistant prompts restored. $M_1$ is second-person forms per thousand tokens and $\Delta$1st the first-person shift on the debate prompts, counted directly (the debate-prompt columns pool four further sampling seeds). \textsc{disj.} and bold mark a negative shift whose prompt-clustered 95\% CI excludes zero. Models with no elicited entry carry their measured reason: \textsc{d-shelf} = degeneracy shelf (distinct-4 $< 0.60$). The prompt sets, the counts and the task-matched reading are in Appendix~\ref{app:kesim}.}
+\label{tab:families-full}
+\begin{tabular}{llrrrrrr@{\hspace{5pt}}rrr@{\hspace{5pt}}rrr}
+\toprule
+ & & \multicolumn{6}{c}{debate prompts} & \multicolumn{3}{c}{ELICIT-99$^{\dagger}$} & \multicolumn{3}{c}{in-context assistant prompt$^{\ast}$} \\
+\cmidrule(lr){3-8}\cmidrule(lr){9-11}\cmidrule(lr){12-14}
+model & lin. & base & inst. & $\Delta M_1$ & \% & 1st base & $\Delta$1st & base & inst. & $\Delta M_1$ & base & inst. & $\Delta M_1$ \\
+\midrule
+Mistral-7B-v0.3 & Mistral & 13.1 & 3.6 & \textbf{-9.51} & -73 & 22.2 & -15.3 & 32.4 & 16.3 & \textbf{-16.03} & 30.1 & 28.1 & \textbf{-2.02} \\
+T\"ulu-3-8B & AI2 & 12.0 & 2.9 & \textbf{-9.04} & -76 & 22.8 & -17.1 & 39.0 & 15.5 & \textbf{-23.50} & 30.0 & 13.5 & \textbf{-16.49} \\
+OLMo-2-13B & AI2 & 12.5 & 5.8 & \textbf{-6.76} & -54 & 23.1 & -12.5 & 34.0 & 16.7 & \textbf{-17.30} & 26.1 & 16.3 & \textbf{-9.85} \\
+OLMo-2-32B & AI2 & 13.8 & 8.6 & \textbf{-5.17} & -37 & 26.8 & -10.1 & 30.5 & 17.0 & \textbf{-13.53} & 32.4 & 18.0 & \textbf{-14.41} \\
+Llama-3.1-8B & Meta & 12.0 & 7.3 & \textbf{-4.69} & -39 & 22.8 & -6.4 & 39.0 & 14.6 & \textbf{-24.46} & 30.0 & 30.4 & +0.45 \\
+OLMo-3-7B & AI2 & 14.0 & 9.5 & \textbf{-4.54} & -32 & 24.8 & -8.2 & 17.6 & 18.1 & +0.54$^{\S}$ & 21.3 & 23.6 & +2.37 \\
+Qwen2.5-72B & Alibaba & 10.9 & 6.7 & \textbf{-4.14} & -38 & 20.2 & -14.0 & 23.4 & 18.1 & \textbf{-5.26} & 22.1 & 13.1 & \textbf{-9.04} \\
+Llama-3.1-70B & Meta & 11.7 & 7.8 & \textbf{-3.86} & -33 & 27.1 & -8.8 & 34.5 & 15.0 & \textbf{-19.51} & 21.5 & 28.5 & +7.04 \\
+Qwen2.5-7B & Alibaba & 10.1 & 6.5 & \textbf{-3.62} & -36 & 17.6 & -9.4 & 19.0 & 17.4 & -1.63 & 23.8 & 11.1 & \textbf{-12.70} \\
+Qwen2.5-14B & Alibaba & 10.7 & 7.2 & \textbf{-3.44} & -32 & 17.9 & -13.5 & 21.4 & 18.7 & -2.61 & 26.7 & 15.0 & \textbf{-11.63} \\
+Qwen2.5-3B & Alibaba & 10.3 & 7.3 & \textbf{-3.06} & -30 & 17.6 & -8.5 & 26.0 & 18.2 & \textbf{-7.85} & 21.4 & 14.3 & \textbf{-7.09} \\
+Gemma-3-4B & Google & 11.3 & 8.3 & \textbf{-3.02} & -27 & 22.9 & -9.8 & 29.8 & 19.5 & \textbf{-10.32}$^{\S}$ & 23.2 & 45.6 & +22.41 \\
+Qwen2.5-32B & Alibaba & 10.8 & 8.0 & \textbf{-2.77} & -26 & 21.1 & -15.4 & 23.0 & 17.7 & \textbf{-5.25} & 27.4 & 16.1 & \textbf{-11.29} \\
+Gemma-3-27B & Google & 11.5 & 8.9 & \textbf{-2.59} & -23 & 28.5 & -16.2 & 24.4 & 17.1 & \textbf{-7.33}$^{\S}$ & 24.5 & 51.3 & +26.79 \\
+Gemma-3-12B & Google & 12.2 & 9.9 & \textbf{-2.33} & -19 & 25.6 & -16.8 & 25.6 & 16.4 & \textbf{-9.18}$^{\S}$ & 24.3 & 46.4 & +22.17 \\
+Qwen2.5-1.5B & Alibaba & 10.1 & 8.3 & \textbf{-1.77} & -17 & 20.4 & -5.3 & \multicolumn{3}{c}{\textsc{d-shelf}} & 23.3 & 16.5 & \textbf{-6.78} \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,75 @@
+{
+ "damga_utc": "2026-09-03T23:24:50Z",
+ "SINIF": "KESIF (bar yok · ad yok · prediction yok)",
+ "etiket": "DIAL_KUVVET_ASAGI",
+ "kol": "KUVVET_ASAGI",
+ "seed": 20260830,
+ "n_cift": 7537,
+ "adim": 458,
+ "max_length": 1536,
+ "birikim": 8,
+ "optim": "adamw_torch",
+ "fsdp": "full_shard auto_wrap",
+ "n_card": 2,
+ "boru": {
+  "template": {
+   "template_var": true,
+   "ilk_80": "<|user|>\nWrite design system documentation for the Accordion component. We base ",
+   "n_bos_bas": 1,
+   "HAL": "TEK-BOS"
+  },
+  "kesme": {
+   "max_length": 1536,
+   "truncation_mode": "keep_start",
+   "istem_jeton_ort": 199.6,
+   "istem_jeton_p50": 99,
+   "istem_jeton_p95": 617,
+   "chosen_jeton_ort": 625.8,
+   "rejected_jeton_ort": 756.1,
+   "cevaba_kalan_jeton_ort": 1349.8,
+   "oran_SESSIZ_DUSEN": 0.0153,
+   "oran_cevap_KISMEN_kesilen": 0.0284,
+   "esik": 0.1,
+   "HAL": "KABUL"
+  },
+  "dolgu": {
+   "pad_token": "<pad>",
+   "pad_token_id": 128256,
+   "eos_token": "<|end_of_text|>",
+   "padding_side": "right",
+   "pad_eos_ayni": false
+  },
+  "ozdes_cift": {
+   "n": 0,
+   "oran": 0.0
+  }
+ },
+ "saniye": 2174.3,
+ "saniye_basina_adim": 4.75,
+ "tahsis_tepe_mib": 76647.2,
+ "card_tepe_mib": 89083,
+ "card_son": 89083,
+ "kapi_mib": 93272,
+ "gozcu_ihlal": false,
+ "dur_istendi": false,
+ "egitim": {
+  "train_runtime": 2173.864,
+  "train_samples_per_second": 3.371,
+  "train_steps_per_second": 0.211,
+  "total_flos": 5.910797907237274e+17,
+  "train_loss": 0.4721454944152499,
+  "entropy": 0.97412109375,
+  "num_tokens": 11248968.0,
+  "logits/chosen": -1.239055191712796,
+  "logits/rejected": -1.140018062609362,
+  "mean_token_accuracy": 0.6920132587353388,
+  "rewards/chosen": -0.7041666811952988,
+  "rewards/rejected": -2.1083333864808083,
+  "rewards/accuracies": 0.7083333333333334,
+  "rewards/margins": 1.40416669100523,
+  "logps/chosen": -672.5833333333334,
+  "logps/rejected": -677.5,
+  "epoch": 0.987334950148208
+ },
+ "ckpt": "<data>/dial_ckpt/DIAL_KUVVET_ASAGI_t20260830"
+}

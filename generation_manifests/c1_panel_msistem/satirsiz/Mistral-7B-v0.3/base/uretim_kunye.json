@@ -1,0 +1,70 @@
+{
+ "damga_utc": "2026-09-11T14:28:03Z",
+ "HALKA": "üretim",
+ "cift": "Mistral-7B-v0.3",
+ "zemin": "base",
+ "model": "<storage>/huggingface/hub/models--mistralai--Mistral-7B-v0.3/snapshots/caa1feb0e54d415e2df31207e5f4e273e33509b1",
+ "kimlik": {
+  "yol": true,
+  "agirlik_izi": "19135691e9a0e04c",
+  "n_agirlik_dosyasi": 3,
+  "ayirt_edici_alanlar": [
+   "template"
+  ],
+  "config_ayirt_edici_VAR": true,
+  "imza": {
+   "eos": 2,
+   "tip": "mistral",
+   "L": 32,
+   "d": 4096,
+   "orn": false,
+   "template": false
+  }
+ },
+ "cevre": {
+  "dev": "cuda:0",
+  "torch_index": 0,
+  "gpu_adi": "NVIDIA H100 NVL",
+  "gpu_uuid": "b0d35e5b-f48b-72f4-9220-4c527f22df0f",
+  "fiziksel_gpu": 1,
+  "cvd_once": "1",
+  "cvd_kilitten_sonra": "1",
+  "smi_card_sayisi": 2,
+  "smi_kullanilan": "74815 MiB"
+ },
+ "yerlesim": {
+  "(hepsi)": "cuda:0"
+ },
+ "coklu_card": 0,
+ "tepe_vram_MiB": 55877,
+ "seed": 20260812,
+ "seed_kaynagi": "seritA_harman102.SEED",
+ "TAM": true,
+ "n_kol": 16,
+ "n_satir": 6528,
+ "kol_satir": {
+  "ARO+x1": 408,
+  "ARO-x1": 408,
+  "DOM+x1": 408,
+  "DOM-x1": 408,
+  "ARO+x4": 408,
+  "ARO-x4": 408,
+  "DOM+x4": 408,
+  "DOM-x4": 408,
+  "DOM+x2_ARO+x2": 408,
+  "DOM-x2_ARO+x2": 408,
+  "DOM+x2_ARO-x2": 408,
+  "DOM-x2_ARO-x2": 408,
+  "TON+x1": 408,
+  "TON-x1": 408,
+  "TON+x4": 408,
+  "TON-x4": 408
+ },
+ "atlanan_kol": 0,
+ "n_cekim": 12,
+ "yigin": 17,
+ "red_bos_metin": 199,
+ "bos_orani": 0.030484,
+ "yukleme_sn": 2.7,
+ "saniye": 1176.4
+}

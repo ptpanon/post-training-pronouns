@@ -1,0 +1,25 @@
+{
+ "table": "V61_PUANLAMA_EK",
+ "ciktilar": [
+  "V61_PUANLAMA_EK.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/v61_scoring_2026-09-11.json",
+   "sha256_16": "7cb7ffd947670186"
+  },
+  {
+   "yol": "results/v61_scoring_generation_2026-09-12.json",
+   "sha256_16": "77317b2aa8f36b9c"
+  },
+  {
+   "yol": "results/v61_example_pair_2026-09-14.json",
+   "sha256_16": "e165a027861723c6"
+  },
+  {
+   "yol": "results/v98_cpu_readings_2026-09-21.json",
+   "sha256_16": "742f321995a1cab5"
+  }
+ ],
+ "note": "renders the sealed re-scoring reading and a reconstructed example pair; no statistic computed here"
+}

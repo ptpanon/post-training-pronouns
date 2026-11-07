@@ -1,0 +1,138 @@
+{
+ "sinif": "BETIM · bar yok · ad yok · prediction yok",
+ "prereg": "preregistration/prereg_template_kadran_betim_2026-09-17.md",
+ "alet_sha256_16": "2571393ce7d0edd0",
+ "etiket_yeni": "KKT_KISI_YUKARI",
+ "yuvalar": {
+  "KISI_ASAGI": 126,
+  "RASTGELE": 460,
+  "KISI_YUKARI": 220
+ },
+ "zemin": "",
+ "referans": {
+  "A": "sablonlu SFT (c1_panel_template/Tulu3-8B/sft)",
+  "B": "secilmemis kol (RASTGELE)"
+ },
+ "motor": "dial_verdict.delta_kol/boot_kol + M9.plasebo_esli (ITHAL) · dize kapisi m_kol_template_verdict",
+ "dize_tam": true,
+ "dize": {
+  "KISI_ASAGI": [
+   true,
+   400,
+   0
+  ],
+  "RASTGELE": [
+   true,
+   0,
+   0
+  ],
+  "KISI_YUKARI": [
+   true,
+   400,
+   0
+  ],
+  "SFT": [
+   true,
+   400,
+   0
+  ]
+ },
+ "taban_M1": 9.56252093704823,
+ "kol": {
+  "KISI_ASAGI": {
+   "dA": -7.311619615430558,
+   "ciA": [
+    -9.520483781436987,
+    -5.664277479195728
+   ],
+   "dB": -9.038590029495285,
+   "ciB": [
+    -10.948253174261827,
+    -7.564836744973692
+   ],
+   "plasebo_p95": 0.4294333541243003,
+   "plasebo_ort": 0.005578659844344167,
+   "dSAHIS1": -6.846826624287145,
+   "dSAHIS1_A": -6.300856269047874,
+   "dKUVVET": -0.009469404755588938,
+   "dJETON_CUMLE": 1.2130808378932958,
+   "dJETON_CUMLE_A": 0.895330790879135,
+   "distinct4": 0.6324109516269264,
+   "raf": false,
+   "dU_PREREG_DOM": 0.11244675000000001,
+   "ciplak_dA": -6.66508925129248,
+   "ciplak_dB": -6.889914327426587
+  },
+  "RASTGELE": {
+   "dA": 1.726970414064728,
+   "ciA": [
+    1.0465878685895635,
+    2.3480167130202183
+   ],
+   "dB": 0.0,
+   "ciB": [
+    0.0,
+    0.0
+   ],
+   "plasebo_p95": 1.0413784003752515,
+   "plasebo_ort": -0.04645861585176855,
+   "dSAHIS1": 0.0,
+   "dSAHIS1_A": 0.5459703552392692,
+   "dKUVVET": 0.0,
+   "dJETON_CUMLE": 0.0,
+   "dJETON_CUMLE_A": -0.31775004701416076,
+   "distinct4": 0.6201614500539006,
+   "raf": false,
+   "dU_PREREG_DOM": 0.09776525,
+   "ciplak_dA": 0.22482507613410663,
+   "ciplak_dB": 0.0
+  },
+  "KISI_YUKARI": {
+   "dA": 11.427705453662828,
+   "ciA": [
+    10.236017489750244,
+    12.743382882422768
+   ],
+   "dB": 9.7007350395981,
+   "ciB": [
+    8.789897950944505,
+    10.695260366332757
+   ],
+   "plasebo_p95": 1.2973988028925283,
+   "plasebo_ort": -0.07713749024722494,
+   "dSAHIS1": 6.2642048690321435,
+   "dSAHIS1_A": 6.810175224271413,
+   "dKUVVET": 0.007352172956567717,
+   "dJETON_CUMLE": -0.7578687893637381,
+   "dJETON_CUMLE_A": -1.075618836377899,
+   "distinct4": 0.5926713239067912,
+   "raf": true,
+   "dU_PREREG_DOM": 0.07991575000000001,
+   "ciplak_dA": 6.874006993791907,
+   "ciplak_dB": 6.649181917657801
+  }
+ },
+ "yuva_kapisi": {
+  "KISI_ASAGI": {
+   "126": "TAM",
+   "1126": "TAM",
+   "2126": "TAM",
+   "3126": "TAM"
+  },
+  "RASTGELE": {
+   "460": "TAM",
+   "1460": "TAM",
+   "2460": "TAM",
+   "3460": "TAM"
+  },
+  "KISI_YUKARI": {
+   "220": "TAM",
+   "1220": "TAM",
+   "2220": "TAM",
+   "3220": "TAM"
+  }
+ },
+ "serh": "",
+ "damga_utc": "2026-09-17T18:39:02Z",
+ "sure_dk": 4.5
+}

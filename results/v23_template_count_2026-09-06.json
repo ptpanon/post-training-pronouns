@@ -1,0 +1,763 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-07T08:33:43Z",
+  "alet": "scripts/v23_template_count.py",
+  "borc": "D-0907-GECE-2 §1 (sayim yarisi)",
+  "kok_sablonlu": "<data>/c1_panel_template",
+  "kok_ciplak": "<data>/c1_panel",
+  "n_beklenen_satir": 6528,
+  "prova": {
+   "i_ozdes_delta_sifir": true,
+   "ii_M1_birimi_bin_jeton": true,
+   "iii_M3_oran": true
+  },
+  "n_bacak": 46,
+  "red": [],
+  "SERH_SUPHELI_HIZLI": "",
+  "SERH_SABLONSUZ": ""
+ },
+ "kunye": {
+  "SAB:Qwen2.5-1.5B/instruct": {
+   "n": 6528,
+   "sn": 1118.2,
+   "damga": "2026-08-27T14:47:51Z",
+   "template": true
+  },
+  "SAB:Qwen2.5-3B/instruct": {
+   "n": 6528,
+   "sn": 1306.8,
+   "damga": "2026-08-27T15:10:00Z",
+   "template": true
+  },
+  "SAB:Qwen2.5-7B/instruct": {
+   "n": 6528,
+   "sn": 4.0,
+   "damga": "2026-08-29T17:26:32Z",
+   "template": true
+  },
+  "SAB:Qwen2.5-14B/instruct": {
+   "n": 6528,
+   "sn": 2016.1,
+   "damga": "2026-08-27T15:43:50Z",
+   "template": true
+  },
+  "SAB:Qwen2.5-32B/instruct": {
+   "n": 6528,
+   "sn": 3121.7,
+   "damga": "2026-08-27T17:55:38Z",
+   "template": true
+  },
+  "SAB:Gemma-3-4B/instruct": {
+   "n": 6528,
+   "sn": 1689.7,
+   "damga": "2026-08-26T16:54:58Z",
+   "template": true
+  },
+  "SAB:Gemma-3-12B/instruct": {
+   "n": 6528,
+   "sn": 2360.1,
+   "damga": "2026-08-26T18:27:51Z",
+   "template": true
+  },
+  "SAB:Gemma-3-27B/instruct": {
+   "n": 6528,
+   "sn": 3406.7,
+   "damga": "2026-08-27T18:53:05Z",
+   "template": true
+  },
+  "SAB:OLMo-3-7B/instruct": {
+   "n": 6528,
+   "sn": 1381.5,
+   "damga": "2026-08-26T16:05:08Z",
+   "template": false
+  },
+  "SAB:OLMo2-13B/instruct": {
+   "n": 6528,
+   "sn": 1965.2,
+   "damga": "2026-08-26T17:48:14Z",
+   "template": true
+  },
+  "SAB:OLMo2-32B/instruct": {
+   "n": 6528,
+   "sn": 3311.1,
+   "damga": "2026-08-26T19:23:23Z",
+   "template": true
+  },
+  "SAB:Mistral-7B-v0.3/instruct": {
+   "n": 6528,
+   "sn": 1191.8,
+   "damga": "2026-08-26T15:41:58Z",
+   "template": true
+  },
+  "SAB:Llama-3.1-8B/instruct": {
+   "n": 6528,
+   "sn": 1257.8,
+   "damga": "2026-08-26T16:26:26Z",
+   "template": true
+  },
+  "SAB:Tulu3-8B/rl": {
+   "n": 6528,
+   "sn": 1215.4,
+   "damga": "2026-08-26T17:15:24Z",
+   "template": true
+  },
+  "SAB:Gemma-3-12B/base": {
+   "n": 6528,
+   "sn": 2353.5,
+   "damga": "2026-09-07T06:27:10Z",
+   "template": false
+  },
+  "SAB:Gemma-3-27B/base": {
+   "n": 6528,
+   "sn": 3427.8,
+   "damga": "2026-09-07T08:19:52Z",
+   "template": false
+  },
+  "SAB:Gemma-3-4B/base": {
+   "n": 6528,
+   "sn": 1704.9,
+   "damga": "2026-09-07T05:20:43Z",
+   "template": false
+  },
+  "SAB:Llama-3.1-70B/base": {
+   "n": 6528,
+   "sn": 5682.5,
+   "damga": "2026-09-07T01:51:52Z",
+   "template": false
+  },
+  "SAB:Llama-3.1-8B/base": {
+   "n": 6528,
+   "sn": 1230.4,
+   "damga": "2026-09-07T04:09:38Z",
+   "template": false
+  },
+  "SAB:Mistral-7B-v0.3/base": {
+   "n": 6528,
+   "sn": 1179.9,
+   "damga": "2026-09-07T03:49:07Z",
+   "template": false
+  },
+  "SAB:OLMo-3-7B/base": {
+   "n": 6528,
+   "sn": 1378.6,
+   "damga": "2026-09-07T04:52:17Z",
+   "template": false
+  },
+  "SAB:OLMo2-13B/taban": {
+   "n": 6528,
+   "sn": 2003.8,
+   "damga": "2026-09-07T05:54:07Z",
+   "template": false
+  },
+  "SAB:OLMo2-32B/taban": {
+   "n": 6528,
+   "sn": 3327.3,
+   "damga": "2026-09-07T07:22:37Z",
+   "template": false
+  },
+  "SAB:Qwen2.5-1.5B/base": {
+   "n": 6528,
+   "sn": 929.3,
+   "damga": "2026-09-07T03:44:56Z",
+   "template": true
+  },
+  "SAB:Qwen2.5-14B/base": {
+   "n": 6528,
+   "sn": 2003.5,
+   "damga": "2026-09-07T04:54:14Z",
+   "template": true
+  },
+  "SAB:Qwen2.5-32B/base": {
+   "n": 6528,
+   "sn": 3149.4,
+   "damga": "2026-09-07T05:46:44Z",
+   "template": true
+  },
+  "SAB:Qwen2.5-3B/base": {
+   "n": 6528,
+   "sn": 1138.1,
+   "damga": "2026-09-07T04:03:55Z",
+   "template": true
+  },
+  "SAB:Qwen2.5-72B/base": {
+   "n": 6528,
+   "sn": 5790.9,
+   "damga": "2026-09-07T03:28:27Z",
+   "template": true
+  },
+  "SAB:Qwen2.5-7B/base": {
+   "n": 6528,
+   "sn": 1015.4,
+   "damga": "2026-09-07T04:20:50Z",
+   "template": true
+  },
+  "SAB:Tulu3-8B/taban": {
+   "n": 6528,
+   "sn": 1178.4,
+   "damga": "2026-09-07T04:29:18Z",
+   "template": false
+  },
+  "SAB:Llama-3.1-70B/instruct": {
+   "n": 6528,
+   "sn": 5679.4,
+   "damga": "2026-09-06T22:40:22Z",
+   "template": true
+  },
+  "SAB:Qwen2.5-72B/instruct": {
+   "n": 6528,
+   "sn": 5797.1,
+   "damga": "2026-09-07T00:17:04Z",
+   "template": true
+  },
+  "CIP:Qwen2.5-1.5B/instruct": {
+   "n": 6528,
+   "sn": 1007.6,
+   "damga": "2026-08-22T00:16:08Z",
+   "template": true
+  },
+  "CIP:Qwen2.5-3B/instruct": {
+   "n": 6528,
+   "sn": 1192.7,
+   "damga": "2026-08-22T00:36:03Z",
+   "template": true
+  },
+  "CIP:Qwen2.5-7B/instruct": {
+   "n": 6528,
+   "sn": 280.2,
+   "damga": "2026-08-15T10:37:04Z",
+   "template": true
+  },
+  "CIP:Qwen2.5-14B/instruct": {
+   "n": 6528,
+   "sn": 1970.6,
+   "damga": "2026-08-21T23:01:09Z",
+   "template": true
+  },
+  "CIP:Qwen2.5-32B/instruct": {
+   "n": 6528,
+   "sn": 3042.5,
+   "damga": "2026-08-21T17:18:01Z",
+   "template": true
+  },
+  "CIP:Gemma-3-4B/instruct": {
+   "n": 6528,
+   "sn": 1644.0,
+   "damga": "2026-08-15T12:08:59Z",
+   "template": true
+  },
+  "CIP:Gemma-3-12B/instruct": {
+   "n": 6528,
+   "sn": 2353.9,
+   "damga": "2026-08-15T12:48:58Z",
+   "template": true
+  },
+  "CIP:Gemma-3-27B/instruct": {
+   "n": 6528,
+   "sn": 3485.2,
+   "damga": "2026-08-21T23:59:17Z",
+   "template": true
+  },
+  "CIP:OLMo-3-7B/instruct": {
+   "n": 6528,
+   "sn": 1390.5,
+   "damga": "2026-08-15T11:20:35Z",
+   "template": false
+  },
+  "CIP:OLMo2-13B/instruct": {
+   "n": 6528,
+   "sn": 1948.7,
+   "damga": "2026-08-22T10:51:32Z",
+   "template": true
+  },
+  "CIP:OLMo2-32B/instruct": {
+   "n": 6528,
+   "sn": 3288.1,
+   "damga": "2026-08-22T12:29:00Z",
+   "template": true
+  },
+  "CIP:Mistral-7B-v0.3/instruct": {
+   "n": 6528,
+   "sn": 1211.5,
+   "damga": "2026-08-15T10:57:18Z",
+   "template": true
+  },
+  "CIP:Llama-3.1-8B/instruct": {
+   "n": 6528,
+   "sn": 1245.0,
+   "damga": "2026-08-15T11:41:31Z",
+   "template": true
+  },
+  "CIP:Tulu3-8B/rl": {
+   "n": 6528,
+   "sn": 1264.7,
+   "damga": "2026-08-23T00:27:30Z",
+   "template": true
+  }
+ },
+ "A_template_kaymasi": {
+  "Qwen2.5-1.5B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 14.606152313913794,
+   "M1_ciplak": 8.484338860677335,
+   "d_M1": 6.121813453236459,
+   "ci": [
+    4.769394261139748,
+    7.386217347762829
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.8461538461538461,
+   "M3_ciplak": 0.9181380417335474,
+   "KUVVET_sablonlu": 0.024736436101825663,
+   "KUVVET_ciplak": 0.02964311726147123
+  },
+  "Qwen2.5-3B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 10.709486645387585,
+   "M1_ciplak": 7.023193668847854,
+   "d_M1": 3.6862929765397316,
+   "ci": [
+    2.1819574198300873,
+    4.746092844600908
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.8165137614678899,
+   "M3_ciplak": 0.946980854197349,
+   "KUVVET_sablonlu": 0.02095336787564767,
+   "KUVVET_ciplak": 0.02197217225301957
+  },
+  "Qwen2.5-7B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 8.441891199395853,
+   "M1_ciplak": 6.473573183122659,
+   "d_M1": 1.9683180162731935,
+   "ci": [
+    0.284811651819734,
+    3.1843692447338894
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.803680981595092,
+   "M3_ciplak": 0.9580514208389715,
+   "KUVVET_sablonlu": 0.017143207004224576,
+   "KUVVET_ciplak": 0.0186347001269699
+  },
+  "Qwen2.5-14B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 10.852217401575256,
+   "M1_ciplak": 7.200240463438627,
+   "d_M1": 3.651976938136629,
+   "ci": [
+    1.941951457567614,
+    4.974379449300408
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.6336633663366337,
+   "M3_ciplak": 0.9318181818181818,
+   "KUVVET_sablonlu": 0.01342228258698518,
+   "KUVVET_ciplak": 0.019559378770775758
+  },
+  "Qwen2.5-32B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 11.83721526056555,
+   "M1_ciplak": 8.041168911383215,
+   "d_M1": 3.796046349182335,
+   "ci": [
+    1.6768599581259782,
+    5.42949174423142
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.4010416666666667,
+   "M3_ciplak": 0.9145299145299145,
+   "KUVVET_sablonlu": 0.011382588392261507,
+   "KUVVET_ciplak": 0.020358101713248217
+  },
+  "Gemma-3-4B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 38.88227811743466,
+   "M1_ciplak": 7.908772636028029,
+   "d_M1": 30.97350548140663,
+   "ci": [
+    29.648223443659024,
+    32.20848552495954
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.31896551724137934,
+   "M3_ciplak": 0.9601990049751243,
+   "KUVVET_sablonlu": 0.06643240502788413,
+   "KUVVET_ciplak": 0.011946469715620365
+  },
+  "Gemma-3-12B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 35.49943143170171,
+   "M1_ciplak": 9.798445620599368,
+   "d_M1": 25.700985811102342,
+   "ci": [
+    24.220429668159348,
+    27.17632353163237
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.48172757475083056,
+   "M3_ciplak": 0.9385749385749386,
+   "KUVVET_sablonlu": 0.07123940677966102,
+   "KUVVET_ciplak": 0.021023525958879775
+  },
+  "Gemma-3-27B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 41.09636402832633,
+   "M1_ciplak": 8.894621773411247,
+   "d_M1": 32.20174225491508,
+   "ci": [
+    30.959413855854137,
+    33.40931035063325
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.49122807017543857,
+   "M3_ciplak": 0.9745042492917847,
+   "KUVVET_sablonlu": 0.05123067101716555,
+   "KUVVET_ciplak": 0.014178961486874881
+  },
+  "OLMo-3-7B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 27.017975311815142,
+   "M1_ciplak": 9.5356422794989,
+   "d_M1": 17.48233303231624,
+   "ci": [
+    15.778040533239066,
+    19.25900372740149
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": false,
+   "M3_sablonlu": 0.5062111801242236,
+   "M3_ciplak": 0.9067405355493998,
+   "KUVVET_sablonlu": 0.0500621023548199,
+   "KUVVET_ciplak": 0.025377537265321274
+  },
+  "OLMo2-13B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 4.145789550900327,
+   "M1_ciplak": 5.585562547587864,
+   "d_M1": -1.4397729966875374,
+   "ci": [
+    -3.0152896128747444,
+    -0.2346786567675717
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.8945578231292517,
+   "M3_ciplak": 0.9798792756539235,
+   "KUVVET_sablonlu": 0.00900727015376697,
+   "KUVVET_ciplak": 0.019447685725398678
+  },
+  "OLMo2-32B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 4.785847938815427,
+   "M1_ciplak": 8.950846340638005,
+   "d_M1": -4.1649984018225785,
+   "ci": [
+    -6.468125764664998,
+    -2.3623175382658768
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.9244372990353698,
+   "M3_ciplak": 0.9451737451737452,
+   "KUVVET_sablonlu": 0.008759776536312849,
+   "KUVVET_ciplak": 0.021109950768312697
+  },
+  "Mistral-7B-v0.3": {
+   "bacak": "instruct",
+   "M1_sablonlu": 13.40974960644217,
+   "M1_ciplak": 3.75059710998766,
+   "d_M1": 9.65915249645451,
+   "ci": [
+    7.519039839737362,
+    11.265736790655243
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.9002849002849003,
+   "M3_ciplak": 0.9788182831661093,
+   "KUVVET_sablonlu": 0.00792342799188641,
+   "KUVVET_ciplak": 0.006534305101784368
+  },
+  "Llama-3.1-8B": {
+   "bacak": "instruct",
+   "M1_sablonlu": 19.89865257229715,
+   "M1_ciplak": 6.843357579438674,
+   "d_M1": 13.055294992858475,
+   "ci": [
+    10.467129121444621,
+    14.946062656410533
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.696969696969697,
+   "M3_ciplak": 0.9603580562659847,
+   "KUVVET_sablonlu": 0.01599334213811445,
+   "KUVVET_ciplak": 0.016132211854382968
+  },
+  "Tulu3-8B": {
+   "bacak": "rl",
+   "M1_sablonlu": 1.941962992743656,
+   "M1_ciplak": 2.8953651776385456,
+   "d_M1": -0.9534021848948897,
+   "ci": [
+    -2.588084585172444,
+    0.24109995521169086
+   ],
+   "ayrik": false,
+   "n_istem": 34,
+   "template_var": true,
+   "M3_sablonlu": 0.9704433497536946,
+   "M3_ciplak": 0.9830866807610994,
+   "KUVVET_sablonlu": 0.007079528913590049,
+   "KUVVET_ciplak": 0.010888293289939696
+  }
+ },
+ "B_sablonlu_delta": {
+  "Gemma-3-12B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 10.660882009370972,
+   "M1_instruct": 35.49943143170171,
+   "d_M1": 24.838549422330736,
+   "ci": [
+    23.018677354691803,
+    26.462667905891756
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -2.7980343268004777
+  },
+  "Gemma-3-27B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 8.319926501897232,
+   "M1_instruct": 41.09636402832633,
+   "d_M1": 32.77643752642909,
+   "ci": [
+    31.262364131079913,
+    34.18360914592373
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -3.0669452857180204
+  },
+  "Gemma-3-4B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 12.159835310413186,
+   "M1_instruct": 38.88227811743466,
+   "d_M1": 26.722442807021473,
+   "ci": [
+    25.083163967886733,
+    28.28532192259299
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -3.6314176230412496
+  },
+  "Llama-3.1-70B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 8.71341805121643,
+   "M1_instruct": 23.345080242375072,
+   "d_M1": 14.631662191158643,
+   "ci": [
+    13.458912650047866,
+    15.721312382045188
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -3.7798299231611745
+  },
+  "Llama-3.1-8B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 11.468108417091411,
+   "M1_instruct": 19.89865257229715,
+   "d_M1": 8.430544155205737,
+   "ci": [
+    7.12957952163637,
+    9.58081810011287
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -4.7666576534820315
+  },
+  "Mistral-7B-v0.3": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 13.460493229515524,
+   "M1_instruct": 13.40974960644217,
+   "d_M1": -0.05074362307335356,
+   "ci": [
+    -2.605742609537444,
+    1.9428875104764434
+   ],
+   "ayrik": false,
+   "n_istem": 34,
+   "d_M1_ciplak": -9.85634866587398
+  },
+  "OLMo-3-7B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 19.719101905043885,
+   "M1_instruct": 27.017975311815142,
+   "d_M1": 7.298873406771257,
+   "ci": [
+    5.868765909336974,
+    8.74927358447463
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -4.703153558829211
+  },
+  "OLMo2-13B": {
+   "zemin_taban": "taban",
+   "zemin_hizali": "instruct",
+   "M1_base": 17.720468784018983,
+   "M1_instruct": 4.145789550900327,
+   "d_M1": -13.574679233118657,
+   "ci": [
+    -15.060251781744016,
+    -12.299947665260754
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -6.279554771752041
+  },
+  "OLMo2-32B": {
+   "zemin_taban": "taban",
+   "zemin_hizali": "instruct",
+   "M1_base": 16.662832765218845,
+   "M1_instruct": 4.785847938815427,
+   "d_M1": -11.876984826403419,
+   "ci": [
+    -13.914510428202652,
+    -10.071899239777046
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -4.773336017568058
+  },
+  "Qwen2.5-1.5B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 16.380168059956524,
+   "M1_instruct": 14.606152313913794,
+   "d_M1": -1.7740157460427302,
+   "ci": [
+    -2.950346195270081,
+    -0.5512115147887355
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -1.6074983378810952
+  },
+  "Qwen2.5-14B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 19.372026827511043,
+   "M1_instruct": 10.852217401575256,
+   "d_M1": -8.519809425935787,
+   "ci": [
+    -10.27223400321517,
+    -7.002328804117293
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -3.49187883372368
+  },
+  "Qwen2.5-32B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 20.260569515216112,
+   "M1_instruct": 11.83721526056555,
+   "d_M1": -8.423354254650562,
+   "ci": [
+    -10.112431116497325,
+    -6.854496832877426
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -2.1777050052867963
+  },
+  "Qwen2.5-3B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 14.35871974036354,
+   "M1_instruct": 10.709486645387585,
+   "d_M1": -3.649233094975955,
+   "ci": [
+    -4.505794068059425,
+    -2.8820043026554525
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -3.4624639101091157
+  },
+  "Qwen2.5-72B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 11.131460597505235,
+   "M1_instruct": 9.901766894668507,
+   "d_M1": -1.2296937028367285,
+   "ci": [
+    -2.611049174217424,
+    0.1106105225610739
+   ],
+   "ayrik": false,
+   "n_istem": 34,
+   "d_M1_ciplak": -3.691871492345701
+  },
+  "Qwen2.5-7B": {
+   "zemin_taban": "base",
+   "zemin_hizali": "instruct",
+   "M1_base": 20.42194488877764,
+   "M1_instruct": 8.441891199395853,
+   "d_M1": -11.980053689381789,
+   "ci": [
+    -13.55428050746927,
+    -10.421905365442745
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -3.9045193751212937
+  },
+  "Tulu3-8B": {
+   "zemin_taban": "taban",
+   "zemin_hizali": "rl",
+   "M1_base": 19.11593262388946,
+   "M1_instruct": 1.941962992743656,
+   "d_M1": -17.173969631145805,
+   "ci": [
+    -18.45291093228582,
+    -15.892609148010255
+   ],
+   "ayrik": true,
+   "n_istem": 34,
+   "d_M1_ciplak": -8.71465005528216
+  }
+ }
+}

@@ -1,0 +1,27 @@
+\begin{table}[t]\centering\small
+\caption{\textbf{The raw-continuation outputs' second persons, read outside quoted, attributed and reported speech.} Share of the base outputs' second-person tokens falling inside a detected span, and $\Delta M_1$ recomputed with those spans removed from both checkpoints. \emph{ceiling} additionally treats everything after the first blank line as another speaker's turn, which over-cuts. Intervals are prompt-clustered ($500$ resamples). Over-detection works against the result, not for it: it removes text and leaves less to count.}
+\label{tab:konusma}
+\begin{tabular}{lrrrrr}\toprule
+model & in-span \% & tokens cut \% & $\Delta M_1$ & outside spans & ceiling \\
+\midrule
+Gemma-3-12B & $4.0$ & $4.8$ & $-2.80$ & $-2.57$ & $-5.93$ \\
+Gemma-3-27B & $4.6$ & $5.0$ & $-3.07$ & $-2.79$ & $-4.78$ \\
+Gemma-3-4B & $3.1$ & $4.1$ & $-3.63$ & $-3.39$ & $-5.83$ \\
+Llama-3.1-70B & $4.8$ & $5.2$ & $-3.78$ & $-3.75$ & $-3.77$ \\
+Llama-3.1-8B & $4.0$ & $4.8$ & $-4.77$ & $-4.80$ & $-4.80$ \\
+Mistral-7B-v0.3 & $3.1$ & $3.6$ & $-9.86$ & $-9.90$ & $-9.28$ \\
+OLMo-3-7B & $3.2$ & $4.1$ & $-4.70$ & $-4.61$ & $-4.52$ \\
+OLMo-2-13B & $4.0$ & $5.3$ & $-6.28$ & $-6.34$ & $-6.32$ \\
+OLMo-2-32B & $4.7$ & $5.4$ & $-4.77$ & $-4.83$ & $-3.80$ \\
+Qwen2.5-1.5B & $2.2$ & $3.1$ & $-1.61$ & $-1.44$ & $-1.58$ \\
+Qwen2.5-14B & $4.2$ & $5.3$ & $-3.49$ & $-3.30$ & $-2.30$ \\
+Qwen2.5-32B & $5.9$ & $6.7$ & $-2.18$ & $-2.03$ & $-0.32$$^{\circ}$ \\
+Qwen2.5-3B & $2.2$ & $3.2$ & $-3.46$ & $-3.35$ & $-3.07$ \\
+Qwen2.5-72B & $4.3$ & $4.9$ & $-3.69$ & $-3.60$ & $-2.98$ \\
+Qwen2.5-7B & $2.0$ & $2.9$ & $-3.90$ & $-3.83$ & $-2.82$ \\
+T\"ulu-3-8B & $4.0$ & $4.8$ & $-8.71$ & $-8.78$ & $-8.55$ \\
+\midrule
+\textbf{down, interval-disjoint} & & & \textbf{16/16} & \textbf{16/16} & \textbf{15/16} \\
+\bottomrule\end{tabular}
+\par\smallskip\footnotesize $^{\circ}$ interval covers zero. Limits, named: straight-apostrophe quotation is not counted, the speech-verb list is our own, and unmarked turn transitions appear only in the ceiling column.
+\end{table}

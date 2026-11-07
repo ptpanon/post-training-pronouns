@@ -1,0 +1,26 @@
+\paragraph*{Generation caps, and how often a generation reaches one.}
+\vekalet{The debate prompts, in all three prompt formats, and the ordinary instructions are generated with a cap of $160$ new tokens, and ELICIT-99 with $1{,}024$. Table~\ref{tab:tavan} gives, for each model and checkpoint, the share of generations that reach the cap, counted by re-tokenizing each output with its own checkpoint's tokenizer and counting a generation that ends within three tokens of the cap. On ELICIT-99, where the generator also recorded its own token count, the two agree in at least $97\%$ of generations on 31 of the 32 generation sets; the exception is one base checkpoint whose recorded count is itself unusable. \textbf{Most debate-prompt generations run to the cap on both checkpoints}: on raw continuation a median $76\%$ of base and $95\%$ of aligned generations do ($62$--$100\%$ and $62$--$100\%$), so rates on this prompt set are rates over the first $160$ tokens of a continuation that would have run on. On the ordinary instructions the aligned answers reach the cap in $55$--$71\%$ of cases, and the base continuations in $74$--$100\%$ before they are cut at their first code fence or new query. In Gemma-3-4B, -12B and -27B the aligned ELICIT-99 outputs reach the $1{,}024$-token cap in 37, 68 and 74\% of draws (the base outputs in 21, 43 and 56\%), so part of their density there is read on truncated text; OLMo-3-7B's (24\%) is the only other aligned checkpoint above a tenth, and every other aligned checkpoint stays under $1\%$.}
+\begin{table}[tb]\centering\scriptsize\setlength{\tabcolsep}{3.5pt}
+\caption{\textbf{Share of generations that reach the token cap} (\%), base and aligned outputs, counted by re-tokenizing each output with its own checkpoint's tokenizer. Cap $160$ new tokens except ELICIT-99 ($1{,}024$). Raw, template and in-context are the three formats of the debate prompts; the in-context aligned checkpoint reads the identical string. Instruction base outputs are counted before they are cut.}\label{tab:tavan}
+\begin{tabular}{lrrrrrrrrrr}\toprule
+ & \multicolumn{2}{c}{raw} & \multicolumn{2}{c}{template} & \multicolumn{2}{c}{in-context} & \multicolumn{2}{c}{instructions} & \multicolumn{2}{c}{ELICIT-99} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}
+model & base & al. & base & al. & base & al. & base & al. & base & al. \\ \midrule
+Gemma-3-12B & 70 & 93 & 89 & 93 & 97 & 99 & 98 & 65 & 43 & 68 \\
+Gemma-3-27B & 70 & 91 & 95 & 98 & 97 & 100 & 97 & 68 & 56 & 74 \\
+Gemma-3-4B & 75 & 88 & 79 & 96 & 96 & 99 & 98 & 67 & 21 & 37 \\
+Llama-3.1-70B & 72 & 97 & 86 & 92 & 99 & 100 & 100 & 62 & 22 & 0 \\
+Llama-3.1-8B & 79 & 100 & 84 & 94 & 99 & 100 & 100 & 62 & 20 & 0 \\
+Mistral-7B-v0.3 & 76 & 71 & 79 & 98 & 100 & 100 & 100 & 61 & 56 & 0 \\
+OLMo-3-7B & 100 & 87 & 100 & 100 & 100 & 100 & 100 & 68 & 79 & 24 \\
+OLMo-2-13B & 77 & 67 & 72 & 100 & 95 & 100 & 75 & 71 & 2 & 0 \\
+OLMo-2-32B & 75 & 62 & 54 & 100 & 77 & 100 & 74 & 66 & 6 & 0 \\
+Qwen2.5-1.5B & 84 & 97 & 81 & 63 & 96 & 94 & 96 & 55 & 76 & 0 \\
+Qwen2.5-14B & 77 & 100 & 64 & 100 & 96 & 100 & 96 & 60 & 1 & 0 \\
+Qwen2.5-32B & 74 & 100 & 66 & 100 & 88 & 100 & 92 & 61 & 13 & 0 \\
+Qwen2.5-3B & 85 & 100 & 64 & 100 & 95 & 100 & 94 & 64 & 10 & 0 \\
+Qwen2.5-72B & 62 & 99 & 86 & 99 & 98 & 100 & 97 & 62 & 12 & 1 \\
+Qwen2.5-7B & 78 & 99 & 75 & 100 & 98 & 100 & 97 & 62 & 4 & 0 \\
+T\"ulu-3-8B & 79 & 65 & 82 & 99 & 99 & 100 & 100 & 64 & 20 & 0 \\
+\midrule median & 76 & 95 & 80 & 99 & 97 & 100 & 97 & 63 & 20 & 0 \\
+\bottomrule\end{tabular}\end{table}

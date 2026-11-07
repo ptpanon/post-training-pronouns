@@ -1,0 +1,24 @@
+{
+ "table": "T13_2x2",
+ "sources": [
+  {
+   "yol": "results/URIAL_VERDICT_2048_16_K2048_2026-09-11.json",
+   "sha256_16": "1ffad87e9423fc5b"
+  },
+  {
+   "yol": "results/template_filtered_2026-09-07.json",
+   "sha256_16": "84812c8ac68df5ab"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "poz": 7,
+  "neg": 7,
+  "null": 2,
+  "ciplak_neg": 16,
+  "U_asagi": 11,
+  "U_ters": 5,
+  "U_bicim": 0
+ },
+ "note": "renders FILTERED_2x2_2026-09-07; bar fixed before the run"
+}

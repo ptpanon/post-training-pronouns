@@ -1,0 +1,11 @@
+{
+ "figure": "F1_reading_map",
+ "caption_draft": "Context-shadow effect sizes in null-sd for sixteen base->aligned pairs on two substrates and three context classes; the dashed rule separates the six models on which the effect was first established from the ten added afterwards, and the solid rule separates the substrates.",
+ "sources": [
+  {
+   "yol": "results/shadow_reading_16_scorecard_2026-08-25.json",
+   "sha256_16": "6690ed606e922449"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

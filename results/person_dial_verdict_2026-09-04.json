@@ -1,0 +1,187 @@
+{
+ "damga_utc": "2026-09-04T10:30:10Z",
+ "prereg": "prereg_person_dial_2026-09-03.md @ 72600717 · gövde 33efcd27…",
+ "bar": 1.1,
+ "mde_B": 1.29,
+ "null_sd_kuvvet": 0.00104,
+ "m": 4,
+ "nb": 1000,
+ "taban_M1": 9.981037310373104,
+ "kol": {
+  "KISI_ASAGI": {
+   "dA": -6.66508925129248,
+   "dB": -6.889914327426587,
+   "ciA": [
+    -8.946782166770694,
+    -4.919179417284271
+   ],
+   "ciB": [
+    -8.926130069344557,
+    -5.320600867737271
+   ],
+   "plasebo_p95": 0.6771893626771287,
+   "plasebo_ort": -0.04122647764706465,
+   "hal_A": "GECTI",
+   "hal_B": "GECTI",
+   "bilesen_A": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "bilesen_B": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "hucre_A": "GECTI",
+   "hucre_B": "GECTI",
+   "dKUVVET": -0.008580121234482945,
+   "z_kuvvet": 8.250116571618216,
+   "kuvvet_yerinde": false,
+   "dSAHIS1": -3.335352658071452,
+   "dJETON_CUMLE": 0.6741639505289152,
+   "dSAHIS1_A": -2.7346949987333913,
+   "dJETON_CUMLE_A": 0.6336390490490889,
+   "distinct4": 0.7483429419547099,
+   "raf": false,
+   "dU_PREREG_DOM": -0.00579024999999999,
+   "z_dU": 0.971229518954416,
+   "dU_yerinde": true,
+   "z_dU_PREREG_REF": 2.174648687214608,
+   "dU_yerinde_PREREG_REF": false
+  },
+  "KISI_YUKARI": {
+   "dA": 6.874006993791907,
+   "dB": 6.649181917657801,
+   "ciA": [
+    5.57320930350567,
+    8.315262998464021
+   ],
+   "ciB": [
+    5.654853376200682,
+    7.72318805471091
+   ],
+   "plasebo_p95": 1.6188800658520894,
+   "plasebo_ort": -0.036118060886717665,
+   "hal_A": "GECTI",
+   "hal_B": "GECTI",
+   "bilesen_A": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "bilesen_B": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "hucre_A": "GECTI",
+   "hucre_B": "GECTI",
+   "dKUVVET": 0.007713870902549575,
+   "z_kuvvet": 7.417183560143823,
+   "kuvvet_yerinde": false,
+   "dSAHIS1": 1.9035766646027517,
+   "dJETON_CUMLE": -0.2045675354827301,
+   "dSAHIS1_A": 2.5042343239408122,
+   "dJETON_CUMLE_A": -0.24509243696255645,
+   "distinct4": 0.7452804279467681,
+   "raf": false,
+   "dU_PREREG_DOM": 0.005850750000000005,
+   "z_dU": 1.234616505759881,
+   "dU_yerinde": false,
+   "z_dU_PREREG_REF": 2.197370719178084,
+   "dU_yerinde_PREREG_REF": false
+  },
+  "RASTGELE": {
+   "dA": 0.22482507613410663,
+   "dB": 0.0,
+   "ciA": [
+    -0.6787225245389875,
+    1.143920141623467
+   ],
+   "ciB": [
+    0.0,
+    0.0
+   ],
+   "plasebo_p95": 1.2578638987383748,
+   "plasebo_ort": -0.011600539637618307,
+   "hal_A": "GECMEZ",
+   "hal_B": "GECMEZ",
+   "bilesen_A": {
+    "bar": false,
+    "ayrik": false,
+    "plasebo": false
+   },
+   "bilesen_B": {
+    "bar": false,
+    "ayrik": false,
+    "plasebo": false
+   },
+   "hucre_A": "GECMEZ",
+   "hucre_B": "GECMEZ",
+   "dKUVVET": 0.0,
+   "z_kuvvet": 0.0,
+   "kuvvet_yerinde": true,
+   "dSAHIS1": 0.0,
+   "dJETON_CUMLE": 0.0,
+   "dSAHIS1_A": 0.6006576593380606,
+   "dJETON_CUMLE_A": -0.04052490147982635,
+   "distinct4": 0.7439376751015674,
+   "raf": false,
+   "dU_PREREG_DOM": -0.0007984999999999902,
+   "z_dU": 0.8625892087739964,
+   "dU_yerinde": true,
+   "z_dU_PREREG_REF": 0.2998932648401789,
+   "dU_yerinde_PREREG_REF": true
+  },
+  "KUVVET_ASAGI": {
+   "dA": -1.0176064215214091,
+   "dB": -1.2424314976555157,
+   "ciA": [
+    -1.9630859888035388,
+    -0.08179195028680548
+   ],
+   "ciB": [
+    -1.563448108528142,
+    -0.994174016327495
+   ],
+   "plasebo_p95": 1.0692116418872812,
+   "plasebo_ort": -0.007841678978465536,
+   "hal_A": "GECMEZ",
+   "hal_B": "GECTI",
+   "bilesen_A": {
+    "bar": false,
+    "ayrik": true,
+    "plasebo": false
+   },
+   "bilesen_B": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "hucre_A": "GECMEZ",
+   "hucre_B": "GECTI",
+   "dKUVVET": -0.0029709126201395443,
+   "z_kuvvet": 2.8566467501341775,
+   "kuvvet_yerinde": false,
+   "dSAHIS1": -0.9700385156786324,
+   "dJETON_CUMLE": 1.2749442584312627,
+   "dSAHIS1_A": -0.36938085634057183,
+   "dJETON_CUMLE_A": 1.2344193569514363,
+   "distinct4": 0.7688478788275782,
+   "raf": false,
+   "dU_PREREG_DOM": 0.013523750000000008,
+   "z_dU": 3.4090035685778157,
+   "dU_yerinde": false,
+   "z_dU_PREREG_REF": 5.07912528538813,
+   "dU_yerinde_PREREG_REF": false
+  }
+ },
+ "verdict": {
+  "kisi": "KADRAN-IKI-YÖN",
+  "katman": "KATMAN-BIRLIKTE",
+  "kuvvet": "KUVVET-KADRAN"
+ },
+ "du_null_sd_prereg": 0.0026626139817629182,
+ "errata_1": ""
+}

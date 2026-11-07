@@ -1,0 +1,25 @@
+{
+ "table": "T9_dilution",
+ "sources": [
+  {
+   "yol": "results/dilution_2026-09-03.json",
+   "sha256_16": "0f45d0a431dbc118"
+  },
+  {
+   "yol": "results/v22_force_dilution_2026-09-06.json",
+   "sha256_16": "2a8ac7ae5ee97fb2"
+  },
+  {
+   "yol": "results/v22_force_dilution_ladder_2026-09-06.json",
+   "sha256_16": "fb2fc7771c6f33a6"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "n_basamak": 6,
+  "kuvvet_ayrik_aile": 14,
+  "kuvvet_ayrik_basamak": 1,
+  "cumle_cetvelinde_yukari": 3
+ },
+ "note": "renders measured quantities; computes no new statistic"
+}

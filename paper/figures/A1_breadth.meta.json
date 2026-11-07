@@ -1,0 +1,66 @@
+{
+ "table": "A1_breadth",
+ "n_cift": 24,
+ "n_template_kapsanan": 16,
+ "hal_ad_degisti": 13,
+ "sources": [
+  {
+   "yol": "results/C1_AILE_PANELI_2026-08-15.json",
+   "sha256_16": "6558aadc1dc962e6"
+  },
+  {
+   "yol": "results/P5_OLCEK_KOLU_2026-08-21.json",
+   "sha256_16": "af2e09505def6db5"
+  },
+  {
+   "yol": "results/P7_OLCEK2_2026-08-21.json",
+   "sha256_16": "3e123d97ff6ef33b"
+  },
+  {
+   "yol": "results/P_OLCEK3_TULU3_2026-08-22.json",
+   "sha256_16": "26c7c9be9b0043d3"
+  },
+  {
+   "yol": "results/template_robustness_2026-08-26.json",
+   "sha256_16": "8832a52f148d1422"
+  },
+  {
+   "yol": "results/template_robustness_24_2026-08-27.json",
+   "sha256_16": "904f17dc2ff6ea71"
+  },
+  {
+   "yol": "results/template_holes_ladder_rungs_2026-08-29.json",
+   "sha256_16": "92a60d097130caf3"
+  }
+ ],
+ "satir_kaynagi": {
+  "Qwen2.5-7B": "template_robustness_2026-08-26.json",
+  "Mistral-7B-v0.3": "template_robustness_2026-08-26.json",
+  "OLMo-3-7B": "template_robustness_2026-08-26.json",
+  "Llama-3.1-8B": "template_robustness_2026-08-26.json",
+  "Gemma-3-4B": "template_robustness_2026-08-26.json",
+  "Gemma-3-12B": "template_robustness_2026-08-26.json",
+  "Qwen2.5-32B": "template_robustness_24_2026-08-27.json",
+  "Gemma-4-26B-A4B": "template_robustness_24_2026-08-27.json",
+  "Qwen2.5-1.5B": "template_robustness_24_2026-08-27.json",
+  "Qwen2.5-3B": "template_robustness_24_2026-08-27.json",
+  "Qwen2.5-14B": "template_robustness_24_2026-08-27.json",
+  "OLMo2-13B·taban→SFT": "template_holes_ladder_rungs_2026-08-29.json",
+  "Mistral-Small-24B": "template_robustness_24_2026-08-27.json",
+  "Gemma-3-27B": "template_robustness_24_2026-08-27.json",
+  "OLMo2-32B·taban→SFT": "template_holes_ladder_rungs_2026-08-29.json",
+  "Tulu3-8B·taban→SFT": "template_holes_ladder_rungs_2026-08-29.json"
+ },
+ "bos_hucre_adi": {
+  "Qwen2.5-72B": "vram",
+  "Llama-3.1-70B": "vram",
+  "OLMo2-13B·SFT→DPO": "protocol",
+  "OLMo2-13B·DPO→Inst": "protocol",
+  "OLMo2-32B·SFT→DPO": "protocol",
+  "OLMo2-32B·DPO→Inst": "protocol",
+  "Tulu3-8B·SFT→DPO": "protocol",
+  "Tulu3-8B·DPO→RL": "protocol"
+ },
+ "note": "renders pre-specified measurements; computes no new statistic",
+ "KARAR": "ASSISTANT 28.08 · F1_breadth setten cikti, appendix tablosu"
+}

@@ -1,0 +1,75 @@
+{
+ "sinif": "betim, prereg disi, kosu sonrasi, girdi ciftleri",
+ "alet": "scripts/v103_diskten.py _kod_jeton/_yanit",
+ "kol": {
+  "KISI_ASAGI_7537": {
+   "chosen": {
+    "kod_jeton_top": 365240,
+    "jeton_top": 3147809,
+    "kod_jeton_pay": 0.11603,
+    "kod_jeton_ort": 48.46,
+    "kod_iceren_pay": 0.2608
+   },
+   "rejected": {
+    "kod_jeton_top": 342176,
+    "jeton_top": 3340223,
+    "kod_jeton_pay": 0.10244,
+    "kod_jeton_ort": 45.4,
+    "kod_iceren_pay": 0.2785
+   },
+   "fark": {
+    "kod_jeton_pay": 0.01359,
+    "kod_jeton_ort": 3.06,
+    "kod_iceren_pay": -0.0177
+   },
+   "n_cift": 7537,
+   "sha256_16": "bb959a4b87fe9c9b"
+  },
+  "A1": {
+   "chosen": {
+    "kod_jeton_top": 164799,
+    "jeton_top": 1402752,
+    "kod_jeton_pay": 0.11748,
+    "kod_jeton_ort": 49.25,
+    "kod_iceren_pay": 0.2642
+   },
+   "rejected": {
+    "kod_jeton_top": 152974,
+    "jeton_top": 1481791,
+    "kod_jeton_pay": 0.10324,
+    "kod_jeton_ort": 45.72,
+    "kod_iceren_pay": 0.2782
+   },
+   "fark": {
+    "kod_jeton_pay": 0.01424,
+    "kod_jeton_ort": 3.53,
+    "kod_iceren_pay": -0.014
+   },
+   "n_cift": 3346,
+   "sha256_16": "2d039cb169209802"
+  },
+  "A2_B1C": {
+   "chosen": {
+    "kod_jeton_top": 30493,
+    "jeton_top": 717327,
+    "kod_jeton_pay": 0.04251,
+    "kod_jeton_ort": 9.11,
+    "kod_iceren_pay": 0.0714
+   },
+   "rejected": {
+    "kod_jeton_top": 50185,
+    "jeton_top": 811759,
+    "kod_jeton_pay": 0.06182,
+    "kod_jeton_ort": 15.0,
+    "kod_iceren_pay": 0.104
+   },
+   "fark": {
+    "kod_jeton_pay": -0.01931,
+    "kod_jeton_ort": -5.89,
+    "kod_iceren_pay": -0.0326
+   },
+   "n_cift": 3346,
+   "sha256_16": "38f299034147bb88"
+  }
+ }
+}

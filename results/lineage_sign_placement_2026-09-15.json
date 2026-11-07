@@ -1,0 +1,65 @@
+{
+ "damga_utc": "2026-09-15T13:19:14Z",
+ "SINIF": "BETIM · mühürsüz · v75 oturum hesabinin karta alinmasi (Q7), yeni ölcüm degil",
+ "alet": "scripts/lineage_sign_placement.py (soy_permutasyon._isaret_saf ITHAL)",
+ "kaynaklar": [
+  {
+   "yol": "results/template_filtered_2026-09-07.json",
+   "sha256_16": "960d06e88b5c41d5"
+  },
+  {
+   "yol": "results/lineage_permutation_2026-09-11.json",
+   "sha256_16": "4088fac894892cdf"
+  }
+ ],
+ "n_perm": 1000,
+ "seed": 20260911,
+ "bar": 0.05,
+ "referans": "",
+ "okuma_A": {
+  "aciklama": "OLMo-3 ayri seviye (alti seviye) — kâgidin birincil okumasi",
+  "uyusan": 13,
+  "n_isaretli": 14,
+  "null_ort": 10.325,
+  "frac": 0.03,
+  "uymayan": [
+   "Qwen2.5-1.5B"
+  ],
+  "seviye": {
+   "AI2": 3,
+   "Google": 3,
+   "Meta": 2,
+   "Mistral": 1,
+   "OLMo-3": 1,
+   "Qwen": 6
+  },
+  "n_seviye": 6,
+  "H": 13.7059,
+  "H_null_ort": 5.0148,
+  "H_frac": 0.0
+ },
+ "okuma_B": {
+  "aciklama": "OLMo-3 AI2'ye katilmis (bes soy, §1'in sayimi)",
+  "uyusan": 12,
+  "n_isaretli": 14,
+  "null_ort": 9.935,
+  "frac": 0.092,
+  "uymayan": [
+   "OLMo-3-7B",
+   "Qwen2.5-1.5B"
+  ],
+  "seviye": {
+   "AI2": 4,
+   "Google": 3,
+   "Meta": 2,
+   "Mistral": 1,
+   "Qwen": 6
+  },
+  "n_seviye": 5,
+  "H": 10.3971,
+  "H_null_ort": 4.035,
+  "H_frac": 0.01
+ },
+ "red_esdeger_A": 0,
+ "red_rebuttal_B": 0
+}

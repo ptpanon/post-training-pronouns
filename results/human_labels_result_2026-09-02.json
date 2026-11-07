@@ -1,0 +1,238 @@
+{
+ "_sayim": {
+  "n_madde": 40,
+  "A": 4,
+  "B": 22,
+  "C": 12,
+  "X": 2,
+  "n_gecerli": 38,
+  "duzeltme_kabulu": 0.6842105263157895,
+  "C_orani": 0.3157894736842105,
+  "kisisizlik_payi": 0.8461538461538461,
+  "kesir_kabul": "26/38",
+  "kesir_kisisizlik": "22/26"
+ },
+ "substrat": {
+  "CMV": {
+   "n": 14,
+   "X": 0,
+   "C": 4,
+   "A": 2,
+   "B": 8,
+   "sayac_kisisiz": {
+    "A": 0,
+    "B": 5,
+    "C": 2
+   },
+   "sayac_kisili": {
+    "A": 2,
+    "B": 3,
+    "C": 2
+   },
+   "n_gecerli": 14,
+   "kesinlik": 0.7142857142857143,
+   "kisisizlik": 0.8,
+   "matris_kisisizlik": {
+    "sayac_kisisiz_insan_B": 5,
+    "sayac_kisisiz_insan_A": 0,
+    "sayac_kisili_insan_B": 3,
+    "sayac_kisili_insan_A": 2,
+    "n": 10,
+    "uyum": 0.7
+   }
+  },
+  "KP-ac9d": {
+   "n": 12,
+   "X": 0,
+   "C": 1,
+   "A": 1,
+   "B": 10,
+   "sayac_kisisiz": {
+    "A": 0,
+    "B": 7,
+    "C": 0
+   },
+   "sayac_kisili": {
+    "A": 1,
+    "B": 3,
+    "C": 1
+   },
+   "n_gecerli": 12,
+   "kesinlik": 0.9166666666666666,
+   "kisisizlik": 0.9090909090909091,
+   "matris_kisisizlik": {
+    "sayac_kisisiz_insan_B": 7,
+    "sayac_kisisiz_insan_A": 0,
+    "sayac_kisili_insan_B": 3,
+    "sayac_kisili_insan_A": 1,
+    "n": 11,
+    "uyum": 0.7272727272727273
+   }
+  },
+  "SCOTUS": {
+   "n": 14,
+   "X": 2,
+   "C": 7,
+   "A": 1,
+   "B": 4,
+   "sayac_kisisiz": {
+    "A": 0,
+    "B": 2,
+    "C": 4
+   },
+   "sayac_kisili": {
+    "A": 1,
+    "B": 2,
+    "C": 3
+   },
+   "n_gecerli": 12,
+   "kesinlik": 0.4166666666666667,
+   "kisisizlik": 0.8,
+   "matris_kisisizlik": {
+    "sayac_kisisiz_insan_B": 2,
+    "sayac_kisisiz_insan_A": 0,
+    "sayac_kisili_insan_B": 2,
+    "sayac_kisili_insan_A": 1,
+    "n": 5,
+    "uyum": 0.6
+   }
+  }
+ },
+ "A_vakalari": [
+  {
+   "madde_no": 10,
+   "substrat": "CMV",
+   "sayac": "kisili",
+   "sahip_notu": ""
+  },
+  {
+   "madde_no": 19,
+   "substrat": "SCOTUS",
+   "sayac": "kisili",
+   "sahip_notu": "sahip «a?» yazdi, netlestirmede A'da karar kilindi"
+  },
+  {
+   "madde_no": 30,
+   "substrat": "KP-ac9d",
+   "sayac": "kisili",
+   "sahip_notu": "laftan adama varmis — akil-yürütmeden kisiye gecis sinifi"
+  },
+  {
+   "madde_no": 35,
+   "substrat": "CMV",
+   "sayac": "kisili",
+   "sahip_notu": "(A; netlestirme turunda degismedi)"
+  }
+ ],
+ "cevrilen_etiket": [
+  {
+   "madde_no": 22,
+   "once": "a",
+   "sonra": "b",
+   "rule": "k2/k3",
+   "not_": ""
+  }
+ ],
+ "baglam_yok": [
+  {
+   "madde_no": 13,
+   "substrat": "SCOTUS",
+   "sayac": "kisili"
+  },
+  {
+   "madde_no": 33,
+   "substrat": "SCOTUS",
+   "sayac": "kisisiz"
+  }
+ ],
+ "_kunye": {
+  "damga_utc": "2026-09-02T08:22:28Z",
+  "SINIF": "DOGRULAMA — sahip-onayli el etiketi; bar YOK, yeni verdict YOK",
+  "paket": "KP-5b23",
+  "n_tabaka": 6,
+  "teslim": "<data>/teslim_annotator/KP-5b23",
+  "OLCULEMEZ_DOGAR": [
+   "",
+   "",
+   "saha-düzeyi kisisizlik orani (tabakali örneklem)"
+  ],
+  "kurallar": {
+   "k1": "baglam yoksa karar yok — BAGLAM-YOK, paydadan düser",
+   "k2": "«kisiye» = OKUR/MUHATAP; ücüncü sahis ya da GRUBA yönelik elestiri B",
+   "k3": "k2 uygulamasi: h=22 a→b (tek cevrilen etiket)",
+   "k4": "",
+   "k5": "SAHIS2/M3 sayac esdegerlik notuna baglanir (W-869)"
+  }
+ },
+ "duzlestirme": {
+  "farklar": {
+   "15": {
+    "ham": "b-c?",
+    "nihai": "c",
+    "not_": "iki sik arasinda kararsiz"
+   },
+   "19": {
+    "ham": "a?",
+    "nihai": "a",
+    "not_": "harf ayni, belirsizlik silindi"
+   },
+   "22": {
+    "ham": "a → «c oluyor o zaman?»",
+    "nihai": "b",
+    "not_": ""
+   },
+   "33": {
+    "ham": "a (önceki cümleye bagli bayagi)",
+    "nihai": "X",
+    "not_": ""
+   }
+  },
+  "duyarlilik": {
+   "h=15→b": {
+    "kabul": 0.7105263157894737,
+    "kisisizlik": 0.8518518518518519,
+    "kesir_kabul": "27/38",
+    "kesir_kisisizlik": "23/27"
+   },
+   "h=22→a": {
+    "kabul": 0.6842105263157895,
+    "kisisizlik": 0.8076923076923077,
+    "kesir_kabul": "26/38",
+    "kesir_kisisizlik": "21/26"
+   },
+   "h=22→c": {
+    "kabul": 0.6578947368421053,
+    "kisisizlik": 0.84,
+    "kesir_kabul": "25/38",
+    "kesir_kisisizlik": "21/25"
+   },
+   "h=33→a": {
+    "kabul": 0.6923076923076923,
+    "kisisizlik": 0.8148148148148148,
+    "kesir_kabul": "27/39",
+    "kesir_kisisizlik": "22/27"
+   },
+   "h=33→b": {
+    "kabul": 0.6923076923076923,
+    "kisisizlik": 0.8518518518518519,
+    "kesir_kabul": "27/39",
+    "kesir_kisisizlik": "23/27"
+   },
+   "h=33→c": {
+    "kabul": 0.6666666666666666,
+    "kisisizlik": 0.8461538461538461,
+    "kesir_kabul": "26/39",
+    "kesir_kisisizlik": "22/26"
+   }
+  },
+  "band_kisisizlik": [
+   0.8076923076923077,
+   0.8518518518518519
+  ],
+  "band_kabul": [
+   0.6578947368421053,
+   0.7105263157894737
+  ],
+  "SAHIP_HANESI": "h=33: sahip 'a' yazdi, düzlestirme 'X' yapti — etiketi geri koymak ya da X'te birakmak SAHIP KARARIDIR; simdilik X yürürlükte"
+ }
+}

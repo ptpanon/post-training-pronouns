@@ -1,0 +1,252 @@
+{
+ "table": "T2_template",
+ "n_cift": 9,
+ "n_basamak": 9,
+ "cift": [
+  {
+   "ad": "Qwen2.5-7B",
+   "hal": "AD-DEGISTI",
+   "ac": "CONTINGENT",
+   "as_": "AYRIK_NEG",
+   "uc": -0.008242,
+   "us": -0.097819,
+   "dondu": false,
+   "dej_c": 0.0521,
+   "dej_s": 0.1019,
+   "karisik": null
+  },
+  {
+   "ad": "Mistral-7B-v0.3",
+   "hal": "AD-DEGISTI",
+   "ac": "AYRIK_POZ",
+   "as_": "~",
+   "uc": 0.059413,
+   "us": -0.004024,
+   "dondu": true,
+   "dej_c": 0.0639,
+   "dej_s": 0.0098,
+   "karisik": null
+  },
+  {
+   "ad": "OLMo-3-7B",
+   "hal": "AYNI-AD",
+   "ac": "AYRIK_POZ",
+   "as_": "AYRIK_POZ",
+   "uc": 0.025866,
+   "us": 0.020736,
+   "dondu": false,
+   "dej_c": 0.0355,
+   "dej_s": 0.0538,
+   "karisik": null
+  },
+  {
+   "ad": "Llama-3.1-8B",
+   "hal": "AD-DEGISTI",
+   "ac": "AYRIK_POZ",
+   "as_": "~",
+   "uc": 0.033325,
+   "us": 0.002851,
+   "dondu": false,
+   "dej_c": 0.0731,
+   "dej_s": 0.0119,
+   "karisik": null
+  },
+  {
+   "ad": "Gemma-3-4B",
+   "hal": "AD-DEGISTI",
+   "ac": "~",
+   "as_": "AYRIK_NEG",
+   "uc": 0.006007,
+   "us": -0.085563,
+   "dondu": true,
+   "dej_c": 0.0833,
+   "dej_s": 0.0522,
+   "karisik": null
+  },
+  {
+   "ad": "Gemma-3-12B",
+   "hal": "AD-DEGISTI",
+   "ac": "AYRIK_POZ",
+   "as_": "~",
+   "uc": 0.087625,
+   "us": 0.00794,
+   "dondu": false,
+   "dej_c": 0.0902,
+   "dej_s": 0.0985,
+   "karisik": null
+  },
+  {
+   "ad": "OLMo2-13B·uctan-uca",
+   "hal": "AYNI-AD",
+   "ac": "AYRIK_POZ",
+   "as_": "AYRIK_POZ",
+   "uc": 0.039572,
+   "us": 0.091896,
+   "dondu": false,
+   "dej_c": 0.0506,
+   "dej_s": 0.04,
+   "karisik": null
+  },
+  {
+   "ad": "OLMo2-32B·uctan-uca",
+   "hal": "AD-DEGISTI",
+   "ac": "AYRIK_NEG",
+   "as_": "~",
+   "uc": -0.017175,
+   "us": 0.030115,
+   "dondu": true,
+   "dej_c": 0.0608,
+   "dej_s": 0.0311,
+   "karisik": null
+  },
+  {
+   "ad": "Tulu3-8B·uctan-uca",
+   "hal": "AYNI-AD",
+   "ac": "AYRIK_POZ",
+   "as_": "AYRIK_POZ",
+   "uc": 0.061955,
+   "us": 0.087853,
+   "dondu": false,
+   "dej_c": 0.0384,
+   "dej_s": 0.03,
+   "karisik": null
+  }
+ ],
+ "basamak": [
+  {
+   "ad": "OLMo2-13B·taban→SFT",
+   "hal": "AD-DEGISTI",
+   "ac": "~",
+   "as_": "AYRIK_POZ",
+   "uc": -0.001253,
+   "us": 0.042194,
+   "dondu": true,
+   "dej_c": 0.174,
+   "dej_s": 0.0139,
+   "karisik": true
+  },
+  {
+   "ad": "OLMo2-13B·SFT→DPO",
+   "hal": "AYNI-AD",
+   "ac": "AYRIK_POZ",
+   "as_": "AYRIK_POZ",
+   "uc": 0.051861,
+   "us": 0.052753,
+   "dondu": false,
+   "dej_c": 0.0487,
+   "dej_s": 0.0314,
+   "karisik": false
+  },
+  {
+   "ad": "OLMo2-13B·DPO→Inst",
+   "hal": "AYNI-AD",
+   "ac": "~",
+   "as_": "~",
+   "uc": -0.011036,
+   "us": -0.003051,
+   "dondu": false,
+   "dej_c": 0.0506,
+   "dej_s": 0.04,
+   "karisik": false
+  },
+  {
+   "ad": "OLMo2-32B·taban→SFT",
+   "hal": "AD-DEGISTI",
+   "ac": "AYRIK_NEG",
+   "as_": "AYRIK_POZ",
+   "uc": -0.019964,
+   "us": 0.045046,
+   "dondu": true,
+   "dej_c": 0.1952,
+   "dej_s": 0.0159,
+   "karisik": true
+  },
+  {
+   "ad": "OLMo2-32B·SFT→DPO",
+   "hal": "AYNI-AD",
+   "ac": "~",
+   "as_": "~",
+   "uc": 0.000187,
+   "us": 0.003175,
+   "dondu": false,
+   "dej_c": 0.0602,
+   "dej_s": 0.0404,
+   "karisik": false
+  },
+  {
+   "ad": "OLMo2-32B·DPO→Inst",
+   "hal": "AD-DEGISTI",
+   "ac": "~",
+   "as_": "AYRIK_NEG",
+   "uc": 0.002602,
+   "us": -0.018106,
+   "dondu": true,
+   "dej_c": 0.0608,
+   "dej_s": 0.0311,
+   "karisik": false
+  },
+  {
+   "ad": "Tulu3-8B·taban→SFT",
+   "hal": "AD-DEGISTI",
+   "ac": "~",
+   "as_": "AYRIK_POZ",
+   "uc": -0.000737,
+   "us": 0.111046,
+   "dondu": true,
+   "dej_c": 0.2096,
+   "dej_s": 0.0461,
+   "karisik": true
+  },
+  {
+   "ad": "Tulu3-8B·SFT→DPO",
+   "hal": "AD-DEGISTI",
+   "ac": "AYRIK_POZ",
+   "as_": "~",
+   "uc": 0.052738,
+   "us": -0.006337,
+   "dondu": true,
+   "dej_c": 0.0506,
+   "dej_s": 0.0259,
+   "karisik": false
+  },
+  {
+   "ad": "Tulu3-8B·DPO→RL",
+   "hal": "AYNI-AD",
+   "ac": "~",
+   "as_": "~",
+   "uc": 0.009954,
+   "us": -0.016855,
+   "dondu": true,
+   "dej_c": 0.0384,
+   "dej_s": 0.03,
+   "karisik": false
+  }
+ ],
+ "sources": [
+  {
+   "yol": "results/template_robustness_2026-08-26.json",
+   "sha256_16": "8832a52f148d1422"
+  },
+  {
+   "yol": "results/ladder_template_2026-08-27.json",
+   "sha256_16": "b449fbd15c442b77"
+  }
+ ],
+ "panel_cift": "SABLONA-BAGIMLI",
+ "panel_basamak": "DPO-BASAMAGI-GÜRBÜZ",
+ "sayac_cift": {
+  "ayni": 3,
+  "degisti": 6,
+  "kapi": 0,
+  "dej_dusuk": 6,
+  "isaret_dondu": 3
+ },
+ "sayac_basamak": {
+  "ayni": 4,
+  "degisti": 5,
+  "kapi": 0,
+  "karisik_bicim": 3,
+  "bos_asimetrik": 0
+ },
+ "SERH": "No number is computed here; both blocks are read from their cards and each is cross-checked against its card's own counter (K-2f)."
+}

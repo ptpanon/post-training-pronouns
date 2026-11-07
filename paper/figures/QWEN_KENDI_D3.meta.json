@@ -1,0 +1,17 @@
+{
+ "table": "QWEN_KENDI_D3",
+ "sources": [
+  {
+   "yol": "results/qwen_base_own_template_2026-09-24.json"
+  }
+ ],
+ "ciktilar": [
+  "QWEN_KENDI_D3.tex"
+ ],
+ "n_aile": 4,
+ "sayim_d2nd": {
+  "asagi": 2,
+  "yukari": 1,
+  "belirsiz": 1
+ }
+}

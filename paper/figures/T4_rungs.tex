@@ -1,0 +1,23 @@
+\begin{table}[tb]
+\centering\small
+\caption{\textbf{How the training stages share the drop.} Change in the second-person rate ($\Delta$2nd per 1,000 tokens) at each stage of the seven AI2 and Zephyr sequences, on raw continuation and, where its checkpoints share one template, under it. SFT: supervised fine-tuning. Bold: interval excluding zero. Dashes: no such stage (Zephyr-7B); checkpoints do not share one template (OLMo-2-32B, OLMo-3-7B); not run (Tülu-3-70B pref.$\rightarrow$post). Appendix Table~\ref{tab:rungs-full} gives intervals and the two sequences outside these labs.}
+\label{tab:rungs}
+\begin{tabular}{l rrr @{\hspace{1.1em}} rrr}
+\toprule
+& \multicolumn{3}{c}{raw continuation} & \multicolumn{3}{c}{chat template} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+sequence & base$\rightarrow$SFT & SFT$\rightarrow$pref. & pref.$\rightarrow$post & base$\rightarrow$SFT & SFT$\rightarrow$pref. & pref.$\rightarrow$post \\
+\midrule
+\multicolumn{7}{l}{\emph{AI2 pipelines} (6)} \\
+\quad Tülu-3-8B & $\mathbf{-1.63}$ & $\mathbf{-6.62}$ & $\mathbf{-0.46}$ & $\mathbf{-9.55}$ & $\mathbf{-7.28}$ & $\mathbf{-0.34}$ \\
+\quad OLMo-2-13B & $\mathbf{-0.67}$ & $\mathbf{-5.39}$ & $-0.22$ & $\mathbf{-10.98}$ & $\mathbf{-2.27}$ & $\mathbf{-0.32}$ \\
+\quad OLMo-2-32B & $\mathbf{-2.16}$ & $\mathbf{-2.68}$ & $+0.07$ & --- & --- & --- \\
+\quad OLMo-3-7B & $\mathbf{-2.62}$ & $\mathbf{-1.52}$ & $\mathbf{-0.56}$ & --- & --- & --- \\
+\quad Tülu-3-70B & $\mathbf{-1.81}$ & $\mathbf{-4.87}$ & --- & $+0.25$ & $\mathbf{-5.45}$ & --- \\
+\quad OLMo-2-7B & $\mathbf{-3.24}$ & $\mathbf{-6.95}$ & $\mathbf{-0.33}$ & $\mathbf{-19.25}$ & $\mathbf{-1.70}$ & $\mathbf{-0.15}$ \\
+\addlinespace[2pt]
+\multicolumn{7}{l}{\emph{Zephyr pipeline} (1)} \\
+\quad Zephyr-7B & $+0.08$ & $\mathbf{-4.06}$ & --- & $\mathbf{-20.68}$ & $+0.08$ & --- \\
+\bottomrule
+\end{tabular}
+\end{table}

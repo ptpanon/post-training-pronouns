@@ -1,0 +1,19 @@
+\begin{table}[t]\centering\scriptsize\setlength{\tabcolsep}{3.5pt}
+\caption{\textbf{The same contrast under three prompt protocols.} $\Delta M_1$ is instruct $-$ base in second-person forms per thousand tokens; \textbf{bold} marks a prompt-clustered $95\%$ interval excluding zero. \emph{raw-continuation} and \emph{chat-template} are read on the same non-degenerate cells; \emph{task}$^{\ast}$ holds the task fixed and prompts each checkpoint in its own format. Intervals, the two template levels, the retention columns, the daggered rows and the unfiltered reading are in Table~\ref{tab:twobytwo-full}.}\label{tab:twobytwo}
+\begin{tabular}{l rrr @{\hspace{1.3em}} l rrr}
+\toprule
+model & raw-continuation & templ. & task$^{\ast}$ & model & raw-continuation & templ. & task$^{\ast}$ \\
+\midrule
+Gemma-3-27B & $\mathbf{-2.81}$ & $\mathbf{+32.27}$ & $\mathbf{+16.67}$ & Qwen2.5-72B & $\mathbf{-3.87}$ & $-0.17$ & $\mathbf{-12.22}$ \\
+Gemma-3-4B & $\mathbf{-3.17}$ & $\mathbf{+26.35}$ & $\mathbf{+15.75}$ & Qwen2.5-3B & $\mathbf{-3.27}$ & $\mathbf{-2.90}$ & $\mathbf{-10.73}$ \\
+Gemma-3-12B & $\mathbf{-3.28}$ & $\mathbf{+24.61}$ & $\mathbf{+11.34}$ & Qwen2.5-14B & $\mathbf{-3.90}$ & $\mathbf{-5.10}$ & $\mathbf{-15.81}$ \\
+Llama-3.1-70B & $\mathbf{-4.31}$ & $\mathbf{+14.76}$ & $\mathbf{+1.84}$ & Qwen2.5-7B & $\mathbf{-4.28}$ & $\mathbf{-7.23}$ & $\mathbf{-15.33}$ \\
+OLMo-3-7B & $\mathbf{-4.52}$ & $\mathbf{+9.92}$ & $\mathbf{+5.76}$ & Qwen2.5-32B & $\mathbf{-2.46}$ & $\mathbf{-7.30}$ & $\mathbf{-15.56}$ \\
+Llama-3.1-8B$^{\S}$ & $\mathbf{-5.44}$ & $\mathbf{+7.51}$ & $\mathbf{-10.05}$ & OLMo-2-32B & $\mathbf{-4.75}$ & $\mathbf{-12.65}$ & $\mathbf{-27.58}$ \\
+Qwen2.5-1.5B$^\dagger$ & $\mathbf{-2.31}$ & $\mathbf{+1.43}$ & $\mathbf{-8.65}$ & OLMo-2-13B & $\mathbf{-6.56}$ & $\mathbf{-14.55}$ & $\mathbf{-22.00}$ \\
+Mistral-7B-v0.3 & $\mathbf{-9.99}$ & $-0.11$ & $\mathbf{-16.73}$ & T\"ulu-3-8B$^{\S}$ & $\mathbf{-9.29}$ & $\mathbf{-18.41}$ & $\mathbf{-28.01}$ \\
+\midrule
+\multicolumn{8}{l}{\footnotesize raw-continuation: 16/16 disjoint and down. chat template: 7 up, 7 down, 2 null. task: 11 down, 5 up, 0 format-only.} \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,21 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-09T11:33:11Z",
+  "alet": "scripts/urial_prefix_density.py",
+  "motor": "muhatap_kos.olc_toplam (ITHAL, edit yok)",
+  "borc": "D-0910-V27 §1 · PREREG_URIAL ERRATA-1",
+  "istem": "<data>/unreleased/inst_1k.txt",
+  "esdegerlik_sapma": 0.0,
+  "n_ornek": 3
+ },
+ "cevaplar_tek": [
+  53.1915,
+  13.2743,
+  6.8027
+ ],
+ "cevaplar_uc": 16.2866,
+ "baslik": 60.1504,
+ "baslik_kelime": 103,
+ "baslik_arti_cevaplar": 24.0964,
+ "onek_butun": 21.2515
+}

@@ -1,0 +1,18 @@
+\providecommand{\okB}{}\definecolor{okB}{HTML}{0072B2}\definecolor{okO}{HTML}{D55E00}
+\providecommand{\fbir}[1]{\textcolor{okB}{\underline{\textbf{#1}}}}
+\providecommand{\fiki}[1]{{\setlength{\fboxsep}{0.6pt}\textcolor{okO}{\fbox{\textbf{#1}}}}}
+\begin{figure}[b]\centering\footnotesize
+\begin{tcolorbox}[colback=black!4,colframe=black!25,boxrule=0.4pt,arc=1pt,left=3pt,right=3pt,top=1.5pt,bottom=1.5pt,boxsep=0pt]
+\textbf{Prompt} \emph{Pineapple belongs on pizza is right. Sweet and salty combinations occur in several cuisines. Preferences differ between people. The topping is sold in many places. That is the position.} feminism aims to correct the systemic biases against women and other minorities that are born out of historical discrimination is wrong. Here is why:
+\end{tcolorbox}\par\nointerlineskip
+\begin{tikzpicture}
+\useasboundingbox (0,0) rectangle (\linewidth,10pt);
+\draw[black!45,line width=0.7pt] (0.5\linewidth,10pt) -- (0.5\linewidth,7pt);
+\draw[black!45,line width=0.7pt] (0.246\linewidth,7pt) -- (0.754\linewidth,7pt);
+\draw[-latex,black!45,line width=0.7pt] (0.246\linewidth,7pt) -- (0.246\linewidth,0.5pt);
+\draw[-latex,black!45,line width=0.7pt] (0.754\linewidth,7pt) -- (0.754\linewidth,0.5pt);
+\end{tikzpicture}\par\nointerlineskip
+\begin{minipage}[t]{0.492\linewidth}\vspace{0pt}\begin{tcolorbox}[colback=white,boxrule=0.6pt,arc=1pt,left=3pt,right=3pt,top=1.5pt,bottom=1.5pt,equal height group=f1,toptitle=0pt,bottomtitle=0pt,fonttitle=\bfseries\scriptsize,coltitle=white,boxsep=0pt,colframe=okB,colbacktitle=okB,title=Base checkpoint]\fbir{I} did a quick search of the word feminism in the Oxford dictionary, and these were the definitions \fbir{I}\,\ldots\par{\scriptsize I/we \textcolor{okB}{\rule[0.3ex]{34.00pt}{4pt}}\,24.7\quad you \textcolor{okO}{\rule[0.3ex]{10.91pt}{4pt}}\,7.9\quad(192 outputs)}\end{tcolorbox}\end{minipage}\hfill\begin{minipage}[t]{0.492\linewidth}\vspace{0pt}\begin{tcolorbox}[colback=white,boxrule=0.6pt,arc=1pt,left=3pt,right=3pt,top=1.5pt,bottom=1.5pt,equal height group=f1,toptitle=0pt,bottomtitle=0pt,fonttitle=\bfseries\scriptsize,coltitle=white,boxsep=0pt,colframe=okO,colbacktitle=okO,title=Aligned checkpoint]$\hookleftarrow$ 1.  **Feminism's Scope Has Expanded Beyond Addressing Discrimination:** While initially focused on equal rights\,\ldots\par{\scriptsize I/we \textcolor{okB}{\rule[0.3ex]{11.02pt}{4pt}}\,8.0\quad you \textcolor{okO}{\rule[0.3ex]{8.43pt}{4pt}}\,6.1\quad(192 outputs)}\end{tcolorbox}\end{minipage}
+\caption{\textbf{One prompt, two checkpoints.} One of two Appendix~\ref{app:ornek} pairs, picked by a fixed rule for a typical change in ``you'' (Gemma-3-27B); first-person forms underlined. The prefix (one of 16) is italic. Bars are rates per 1,000 tokens on one shared scale.}
+\label{fig:ornek}
+\end{figure}

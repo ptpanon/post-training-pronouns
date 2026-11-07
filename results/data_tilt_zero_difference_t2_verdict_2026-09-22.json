@@ -1,0 +1,123 @@
+{
+ "damga_utc": "2026-09-22T08:53:31Z",
+ "prereg": "prereg_v98_data_tilt_zero_difference_t2_2026-09-21.md",
+ "bar": 1.1,
+ "mde_B": 1.29,
+ "null_sd_kuvvet": 0.00104,
+ "m": 8,
+ "nb": 1000,
+ "du_null_sd_prereg": 0.0026626139817629182,
+ "errata_1": "",
+ "taban_M1": 9.981037310373104,
+ "kol": {
+  "KK3_NOTR": {
+   "dA": -1.1224340002903708,
+   "dB": 0.0,
+   "ciA": [
+    -1.9454679845643095,
+    -0.3070025550418582
+   ],
+   "ciB": [
+    0.0,
+    0.0
+   ],
+   "plasebo_p95": 1.0868093059884918,
+   "plasebo_ort": -0.027269675443104574,
+   "hal_A": "GECTI",
+   "hal_B": "GECMEZ",
+   "bilesen_A": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "bilesen_B": {
+    "bar": false,
+    "ayrik": false,
+    "plasebo": false
+   },
+   "hucre_A": "GECTI",
+   "hucre_B": "GECMEZ",
+   "dKUVVET": 0.0,
+   "z_kuvvet": 0.0,
+   "kuvvet_yerinde": true,
+   "dSAHIS1": 0.0,
+   "dJETON_CUMLE": 0.0,
+   "dSAHIS1_A": -3.233049190080248,
+   "dJETON_CUMLE_A": 1.0364244894177532,
+   "distinct4": 0.7663804169551865,
+   "raf": false,
+   "dU_PREREG_DOM": 0.007051875000000007,
+   "z_dU": 0.7157799519994986,
+   "dU_yerinde": true,
+   "z_dU_PREREG_REF": 2.6484781678082214,
+   "dU_yerinde_PREREG_REF": false
+  },
+  "KK3_FARKSIZ_T2": {
+   "dA": -1.6844250452320797,
+   "dB": -0.5619910449417089,
+   "ciA": [
+    -2.5359133178321684,
+    -0.8777368875481135
+   ],
+   "ciB": [
+    -0.8173217220086302,
+    -0.33871480309720914
+   ],
+   "plasebo_p95": 1.0138490991169882,
+   "plasebo_ort": -0.013876159137532675,
+   "hal_A": "GECTI",
+   "hal_B": "GECMEZ",
+   "bilesen_A": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "bilesen_B": {
+    "bar": false,
+    "ayrik": true,
+    "plasebo": false
+   },
+   "hucre_A": "GECTI",
+   "hucre_B": "GECMEZ",
+   "dKUVVET": -0.0004964181715385292,
+   "z_kuvvet": 0.47732516494089355,
+   "kuvvet_yerinde": true,
+   "dSAHIS1": -0.3191961278411397,
+   "dJETON_CUMLE": -0.200613487786081,
+   "dSAHIS1_A": -3.552245317921387,
+   "dJETON_CUMLE_A": 0.8358110016316722,
+   "distinct4": 0.7677748478527231,
+   "raf": false,
+   "dU_PREREG_DOM": 0.014364375000000006,
+   "z_dU": 1.9183129818573603,
+   "dU_yerinde": false,
+   "z_dU_PREREG_REF": 5.394839469178084,
+   "dU_yerinde_PREREG_REF": false
+  }
+ },
+ "verdict": {
+  "kk3f_t2": "TUTAR",
+  "dA": -1.6844250452320797,
+  "ciA": [
+   -2.5359133178321684,
+   -0.8777368875481135
+  ],
+  "plasebo_p95": 1.0138490991169882,
+  "dB_notr": -0.5619910449417089,
+  "ciB_notr": [
+   -0.8173217220086302,
+   -0.33871480309720914
+  ],
+  "distinct4": 0.7677748478527231,
+  "raf": false,
+  "egitim_tam": true,
+  "seed1": {
+   "dA": -1.2041472322476658,
+   "ciA": [
+    -2.0306516305456297,
+    -0.3866554828772091
+   ],
+   "kaynak": "KK3F_VERDICT_2026-09-13"
+  }
+ }
+}

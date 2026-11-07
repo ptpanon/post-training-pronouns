@@ -1,0 +1,45 @@
+\paragraph*{Who names the axis: sixteen models' cards and six objective texts.}
+\vekalet{Search strings and reading labels were committed before any document was read. A match counts as \emph{named} unless its context is unrelated (\emph{register an account}, \emph{personal information}); \emph{metric} requires a reported number on pronoun or grammatical-person use; the objective column reads \emph{person} only where a training objective, reward criterion, preference-collection criterion or rater guideline names grammatical person, pronouns or addressing the user as a target, and \emph{tone} where it names tone, register or politeness instead. Cards are the files in our own snapshots; \emph{not on disk} is not \emph{no}. Absence here is absence in these documents.}
+\begin{center}\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llp{4.1cm}l}\toprule
+document & register, tone, person or pronoun named & person metric reported & objective names the axis \\ \midrule
+\texttt{google/gemma-3-12b-pt} & no & no & no \\
+\texttt{google/gemma-3-12b-it} & no & no & no \\
+\texttt{google/gemma-3-27b-pt} & no & no & no \\
+\texttt{google/gemma-3-27b-it} & no & no & no \\
+\texttt{google/gemma-3-4b-pt} & no & no & no \\
+\texttt{google/gemma-3-4b-it} & no & no & no \\
+\texttt{meta-llama/Llama-3.1-70B} & yes & no & tone \\
+\texttt{meta-llama/Llama-3.1-70B-Instruct} & yes & no & tone \\
+\texttt{meta-llama/Llama-3.1-8B} & yes & no & tone \\
+\texttt{meta-llama/Llama-3.1-8B-Instruct} & yes & no & tone \\
+\texttt{mistralai/Mistral-7B-v0.3} & not on disk & not on disk & not on disk \\
+\texttt{mistralai/Mistral-7B-Instruct-v0.3} & no & no & no \\
+\texttt{allenai/Olmo-3-1025-7B} & no & no & no \\
+\texttt{allenai/Olmo-3-7B-Instruct} & no & no & no \\
+\texttt{allenai/OLMo-2-1124-13B} & no & no & no \\
+\texttt{allenai/OLMo-2-1124-13B-Instruct} & no & no & no \\
+\texttt{allenai/OLMo-2-0325-32B} & no & no & no \\
+\texttt{allenai/OLMo-2-0325-32B-Instruct} & no & no & no \\
+\texttt{Qwen/Qwen2.5-1.5B} & no & no & no \\
+\texttt{Qwen/Qwen2.5-1.5B-Instruct} & no & no & no \\
+\texttt{Qwen/Qwen2.5-14B} & not on disk & not on disk & not on disk \\
+\texttt{Qwen/Qwen2.5-14B-Instruct} & no & no & no \\
+\texttt{Qwen/Qwen2.5-32B} & no & no & no \\
+\texttt{Qwen/Qwen2.5-32B-Instruct} & not on disk & not on disk & not on disk \\
+\texttt{Qwen/Qwen2.5-3B} & no & no & no \\
+\texttt{Qwen/Qwen2.5-3B-Instruct} & no & no & no \\
+\texttt{Qwen/Qwen2.5-72B} & no & no & no \\
+\texttt{Qwen/Qwen2.5-72B-Instruct} & not on disk & not on disk & not on disk \\
+\texttt{Qwen/Qwen2.5-7B} & not on disk & not on disk & not on disk \\
+\texttt{Qwen/Qwen2.5-7B-Instruct} & no & no & no \\
+\texttt{allenai/Llama-3.1-Tulu-3-8B} & no & no & no \\
+\midrule
+Ouyang 2022 (InstructGPT) & yes & no & no \\
+Touvron 2023 (Llama 2) & yes & yes: reports the pretraining corpus's person shares (second person $61.8\%$), not the model's output register & tone \\
+Lambert 2024 (Tulu 3) & yes & no & no \\
+OLMo 2025 (OLMo 2) & no & no & no \\
+Gemma Team 2025 (Gemma 3) & no & no & no \\
+Qwen 2024 (Qwen2.5) & no & no & no \\
+\bottomrule\end{tabular}\end{center}
+\vekalet{Of $32$ card slots, $27$ are on disk and $5$ are not (their weights are, their cards were never downloaded). No card reports a person metric and no objective text names grammatical person as a target. Two sources name \emph{tone}: the Llama~3.1 cards state that safety responses were modified to follow tone guidelines, and Llama~2's context-distillation preprompt asks for an empathetic tone. One reports a person metric outside the cards: Llama~2 gives the share of pretraining documents containing each grammatical person (second person $61.80\%$), for demographic representation, not for what post-training does to it.}

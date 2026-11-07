@@ -1,0 +1,26 @@
+{
+ "tercih_karisimi": {
+  "n_govde": 544856,
+  "n_uygun": 136608,
+  "oran": 0.2507,
+  "takas_p50": 2.0,
+  "takas_ort": 4.840712110564535,
+  "degisim_payi": {
+   "p05": 0.001444043321299639,
+   "p50": 0.009399477806788513,
+   "p95": 0.04271809682754623,
+   "ort": 0.014425568105178567
+  }
+ },
+ "sft_uretimi": {
+  "n_govde": 6528,
+  "n_uygun": 1170,
+  "oran": 0.1792
+ },
+ "kapi": {
+  "hedef_cift": 7537,
+  "tercih_karisimi_yeter": true,
+  "sft_uretimi_yeter": false,
+  "SERH": ""
+ }
+}

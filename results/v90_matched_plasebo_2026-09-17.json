@@ -1,0 +1,71 @@
+{
+ "sinif": "BETIM · card · bar yok",
+ "rule": "preregistration/rule_v90_readings_2026-09-17.md @ fc97c65d",
+ "soru": "(ii) düz − dogal esli plasebo, seed seed ve havuz",
+ "kaynak": {
+  "esli": "data_tilt_natural_matched_fark_2026-09-17.json",
+  "verdict": "data_tilt_natural_verdict_2026-09-16.json"
+ },
+ "alet": {
+  "hal": "ESDEGER",
+  "red_kapi": [],
+  "kol_plasebo_t1": 0.9487795130556589,
+  "plasebo": "muhatap9_kos.plasebo_esli n=200 seed 20260901 · küme (seed,cekim,istem) · olc cekim-ortalamali M1"
+ },
+ "sonuc": {
+  "t1": {
+   "fark": 0.41643969622026566,
+   "plasebo_p95": 0.2959911923527528,
+   "plasebo_ort": -0.016758135947136293,
+   "plasebo_sd": 0.13637305074325262,
+   "plasebo_n": 200,
+   "plasebo_ustu": true,
+   "merkezlenme_bayragi": false,
+   "kapi1_sapma": 0.0,
+   "kapi3_sapma": 2.220446049250313e-16,
+   "n_satir": 104448,
+   "n_kume": 272
+  },
+  "t2": {
+   "fark": 0.92312959510421,
+   "plasebo_p95": 0.28165006964396244,
+   "plasebo_ort": 0.0009958059914934037,
+   "plasebo_sd": 0.1421832579464153,
+   "plasebo_n": 200,
+   "plasebo_ustu": true,
+   "merkezlenme_bayragi": false,
+   "kapi1_sapma": 0.0,
+   "kapi3_sapma": 1.1102230246251565e-15,
+   "n_satir": 104448,
+   "n_kume": 272
+  },
+  "t3": {
+   "fark": 0.38981240007112783,
+   "plasebo_p95": 0.26356686908085064,
+   "plasebo_ort": 0.0036549001634528988,
+   "plasebo_sd": 0.14006896232989305,
+   "plasebo_n": 200,
+   "plasebo_ustu": true,
+   "merkezlenme_bayragi": false,
+   "kapi1_sapma": 0.0,
+   "kapi3_sapma": 4.440892098500626e-16,
+   "n_satir": 104448,
+   "n_kume": 272
+  },
+  "havuz": {
+   "fark": 0.5764605637985345,
+   "plasebo_p95": 0.15280107136106444,
+   "plasebo_ort": 0.006606315424479367,
+   "plasebo_sd": 0.08334384395268676,
+   "plasebo_n": 200,
+   "plasebo_ustu": true,
+   "merkezlenme_bayragi": false,
+   "kapi1_sapma": 0.0,
+   "kapi3_sapma": 4.440892098500626e-16,
+   "n_satir": 313344,
+   "n_kume": 816
+  }
+ },
+ "SERH": "",
+ "damga_utc": "2026-09-17T14:23:02Z"
+}

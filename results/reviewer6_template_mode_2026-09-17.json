@@ -1,0 +1,1196 @@
+{
+ "sinif": "BETIM · card · bar yok",
+ "rule": "preregistration/rule_reviewer6_readings_2026-09-17.md @ 84f79b65",
+ "soru": "(c) kip kurali (RET/ASISTAN/META/DEVAM) sablonlu panelin iki bacaginda",
+ "alet": {
+  "hal": "ESDEGER",
+  "red": [],
+  "kapi": "kipten bagimsiz süzülmüs M1 = TEMPLATE_FILTERED sbl.M1_taban/M1_hizali (4 ondalik)"
+ },
+ "kip_kurali": "p11_q2_kip_exit.sinif (ilk eslesen) · DEVAM = acilista listelenmis cikis isareti YOK (sürdürmenin üst siniri)",
+ "hucreler": "template_filtered dört-kadran süzgeci (20,52× bandinin hücre kümesi)",
+ "bant_esik_satir": 80,
+ "kaynak": {
+  "TEMPLATE_FILTERED": "960d06e88b5c41d5"
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "taban": {
+    "n_tutulan": 3050,
+    "M1_filtered": 11.5373,
+    "kip": {
+     "RET": {
+      "n": 57,
+      "pay": 0.0187,
+      "M1": 18.3371
+     },
+     "ASISTAN": {
+      "n": 49,
+      "pay": 0.0161,
+      "M1": 11.2089
+     },
+     "META": {
+      "n": 105,
+      "pay": 0.0344,
+      "M1": 6.0567
+     },
+     "DEVAM": {
+      "n": 2839,
+      "pay": 0.9308,
+      "M1": 11.615
+     }
+    },
+    "cevaplayan_pay": 0.0692,
+    "surduren_pay": 0.9308
+   },
+   "hizali": {
+    "n_tutulan": 3050,
+    "M1_filtered": 36.1508,
+    "kip": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 3024,
+      "pay": 0.9915,
+      "M1": 36.254
+     },
+     "META": {
+      "n": 1,
+      "pay": 0.0003,
+      "M1": 27.027
+     },
+     "DEVAM": {
+      "n": 25,
+      "pay": 0.0082,
+      "M1": 24.5239
+     }
+    },
+    "cevaplayan_pay": 0.9918,
+    "surduren_pay": 0.0082
+   }
+  },
+  "Gemma-3-27B": {
+   "taban": {
+    "n_tutulan": 2845,
+    "M1_filtered": 8.9281,
+    "kip": {
+     "RET": {
+      "n": 33,
+      "pay": 0.0116,
+      "M1": 12.9345
+     },
+     "ASISTAN": {
+      "n": 19,
+      "pay": 0.0067,
+      "M1": 8.7138
+     },
+     "META": {
+      "n": 57,
+      "pay": 0.02,
+      "M1": 4.8914
+     },
+     "DEVAM": {
+      "n": 2736,
+      "pay": 0.9617,
+      "M1": 8.9676
+     }
+    },
+    "cevaplayan_pay": 0.0383,
+    "surduren_pay": 0.9617
+   },
+   "hizali": {
+    "n_tutulan": 2845,
+    "M1_filtered": 41.1952,
+    "kip": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 2700,
+      "pay": 0.949,
+      "M1": 41.2725
+     },
+     "META": {
+      "n": 32,
+      "pay": 0.0112,
+      "M1": 48.2429
+     },
+     "DEVAM": {
+      "n": 113,
+      "pay": 0.0397,
+      "M1": 37.4161
+     }
+    },
+    "cevaplayan_pay": 0.9603,
+    "surduren_pay": 0.0397
+   }
+  },
+  "Gemma-3-4B": {
+   "taban": {
+    "n_tutulan": 2706,
+    "M1_filtered": 13.7805,
+    "kip": {
+     "RET": {
+      "n": 18,
+      "pay": 0.0067,
+      "M1": 23.1352
+     },
+     "ASISTAN": {
+      "n": 72,
+      "pay": 0.0266,
+      "M1": 25.4488
+     },
+     "META": {
+      "n": 35,
+      "pay": 0.0129,
+      "M1": 6.1627
+     },
+     "DEVAM": {
+      "n": 2581,
+      "pay": 0.9538,
+      "M1": 13.514
+     }
+    },
+    "cevaplayan_pay": 0.0462,
+    "surduren_pay": 0.9538
+   },
+   "hizali": {
+    "n_tutulan": 2706,
+    "M1_filtered": 40.1354,
+    "kip": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 2581,
+      "pay": 0.9538,
+      "M1": 40.2699
+     },
+     "META": {
+      "n": 45,
+      "pay": 0.0166,
+      "M1": 49.47
+     },
+     "DEVAM": {
+      "n": 80,
+      "pay": 0.0296,
+      "M1": 30.4154
+     }
+    },
+    "cevaplayan_pay": 0.9704,
+    "surduren_pay": 0.0296
+   }
+  },
+  "Llama-3.1-70B": {
+   "taban": {
+    "n_tutulan": 2424,
+    "M1_filtered": 8.3052,
+    "kip": {
+     "RET": {
+      "n": 7,
+      "pay": 0.0029,
+      "M1": 13.4128
+     },
+     "ASISTAN": {
+      "n": 66,
+      "pay": 0.0272,
+      "M1": 10.8783
+     },
+     "META": {
+      "n": 62,
+      "pay": 0.0256,
+      "M1": 3.5866
+     },
+     "DEVAM": {
+      "n": 2289,
+      "pay": 0.9443,
+      "M1": 8.345
+     }
+    },
+    "cevaplayan_pay": 0.0557,
+    "surduren_pay": 0.9443
+   },
+   "hizali": {
+    "n_tutulan": 2424,
+    "M1_filtered": 23.0654,
+    "kip": {
+     "RET": {
+      "n": 70,
+      "pay": 0.0289,
+      "M1": 19.5272
+     },
+     "ASISTAN": {
+      "n": 6,
+      "pay": 0.0025,
+      "M1": 21.9895
+     },
+     "META": {
+      "n": 1128,
+      "pay": 0.4653,
+      "M1": 27.1015
+     },
+     "DEVAM": {
+      "n": 1220,
+      "pay": 0.5033,
+      "M1": 19.2558
+     }
+    },
+    "cevaplayan_pay": 0.4967,
+    "surduren_pay": 0.5033
+   }
+  },
+  "Llama-3.1-8B": {
+   "taban": {
+    "n_tutulan": 2695,
+    "M1_filtered": 12.5142,
+    "kip": {
+     "RET": {
+      "n": 2,
+      "pay": 0.0007,
+      "M1": 9.6774
+     },
+     "ASISTAN": {
+      "n": 38,
+      "pay": 0.0141,
+      "M1": 10.1982
+     },
+     "META": {
+      "n": 75,
+      "pay": 0.0278,
+      "M1": 10.536
+     },
+     "DEVAM": {
+      "n": 2580,
+      "pay": 0.9573,
+      "M1": 12.6079
+     }
+    },
+    "cevaplayan_pay": 0.0427,
+    "surduren_pay": 0.9573
+   },
+   "hizali": {
+    "n_tutulan": 2695,
+    "M1_filtered": 20.0196,
+    "kip": {
+     "RET": {
+      "n": 118,
+      "pay": 0.0438,
+      "M1": 19.917
+     },
+     "ASISTAN": {
+      "n": 17,
+      "pay": 0.0063,
+      "M1": 18.9029
+     },
+     "META": {
+      "n": 1414,
+      "pay": 0.5247,
+      "M1": 20.4939
+     },
+     "DEVAM": {
+      "n": 1146,
+      "pay": 0.4252,
+      "M1": 19.4447
+     }
+    },
+    "cevaplayan_pay": 0.5748,
+    "surduren_pay": 0.4252
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "taban": {
+    "n_tutulan": 4044,
+    "M1_filtered": 13.2365,
+    "kip": {
+     "RET": {
+      "n": 2,
+      "pay": 0.0005,
+      "M1": 50.7246
+     },
+     "ASISTAN": {
+      "n": 40,
+      "pay": 0.0099,
+      "M1": 17.8042
+     },
+     "META": {
+      "n": 21,
+      "pay": 0.0052,
+      "M1": 6.1856
+     },
+     "DEVAM": {
+      "n": 3981,
+      "pay": 0.9844,
+      "M1": 13.2117
+     }
+    },
+    "cevaplayan_pay": 0.0156,
+    "surduren_pay": 0.9844
+   },
+   "hizali": {
+    "n_tutulan": 4044,
+    "M1_filtered": 13.124,
+    "kip": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 35,
+      "pay": 0.0087,
+      "M1": 10.5985
+     },
+     "META": {
+      "n": 755,
+      "pay": 0.1867,
+      "M1": 13.9048
+     },
+     "DEVAM": {
+      "n": 3254,
+      "pay": 0.8046,
+      "M1": 12.9699
+     }
+    },
+    "cevaplayan_pay": 0.1954,
+    "surduren_pay": 0.8046
+   }
+  },
+  "OLMo-3-7B": {
+   "taban": {
+    "n_tutulan": 4378,
+    "M1_filtered": 17.4584,
+    "kip": {
+     "RET": {
+      "n": 317,
+      "pay": 0.0724,
+      "M1": 16.6613
+     },
+     "ASISTAN": {
+      "n": 682,
+      "pay": 0.1558,
+      "M1": 17.1784
+     },
+     "META": {
+      "n": 121,
+      "pay": 0.0276,
+      "M1": 15.2797
+     },
+     "DEVAM": {
+      "n": 3258,
+      "pay": 0.7442,
+      "M1": 17.6768
+     }
+    },
+    "cevaplayan_pay": 0.2558,
+    "surduren_pay": 0.7442
+   },
+   "hizali": {
+    "n_tutulan": 4378,
+    "M1_filtered": 27.3766,
+    "kip": {
+     "RET": {
+      "n": 10,
+      "pay": 0.0023,
+      "M1": 18.0567
+     },
+     "ASISTAN": {
+      "n": 1400,
+      "pay": 0.3198,
+      "M1": 24.7559
+     },
+     "META": {
+      "n": 311,
+      "pay": 0.071,
+      "M1": 34.8331
+     },
+     "DEVAM": {
+      "n": 2657,
+      "pay": 0.6069,
+      "M1": 27.9107
+     }
+    },
+    "cevaplayan_pay": 0.3931,
+    "surduren_pay": 0.6069
+   }
+  },
+  "OLMo2-13B": {
+   "taban": {
+    "n_tutulan": 2994,
+    "M1_filtered": 18.5537,
+    "kip": {
+     "RET": {
+      "n": 62,
+      "pay": 0.0207,
+      "M1": 26.2952
+     },
+     "ASISTAN": {
+      "n": 412,
+      "pay": 0.1376,
+      "M1": 22.9212
+     },
+     "META": {
+      "n": 83,
+      "pay": 0.0277,
+      "M1": 13.0544
+     },
+     "DEVAM": {
+      "n": 2437,
+      "pay": 0.814,
+      "M1": 17.8748
+     }
+    },
+    "cevaplayan_pay": 0.186,
+    "surduren_pay": 0.814
+   },
+   "hizali": {
+    "n_tutulan": 2994,
+    "M1_filtered": 4.0083,
+    "kip": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 48,
+      "pay": 0.016,
+      "M1": 6.1623
+     },
+     "META": {
+      "n": 794,
+      "pay": 0.2652,
+      "M1": 2.5441
+     },
+     "DEVAM": {
+      "n": 2152,
+      "pay": 0.7188,
+      "M1": 4.4994
+     }
+    },
+    "cevaplayan_pay": 0.2812,
+    "surduren_pay": 0.7188
+   }
+  },
+  "OLMo2-32B": {
+   "taban": {
+    "n_tutulan": 3347,
+    "M1_filtered": 17.4531,
+    "kip": {
+     "RET": {
+      "n": 43,
+      "pay": 0.0128,
+      "M1": 32.156
+     },
+     "ASISTAN": {
+      "n": 233,
+      "pay": 0.0696,
+      "M1": 15.7794
+     },
+     "META": {
+      "n": 97,
+      "pay": 0.029,
+      "M1": 10.2992
+     },
+     "DEVAM": {
+      "n": 2974,
+      "pay": 0.8886,
+      "M1": 17.6338
+     }
+    },
+    "cevaplayan_pay": 0.1114,
+    "surduren_pay": 0.8886
+   },
+   "hizali": {
+    "n_tutulan": 3347,
+    "M1_filtered": 4.7993,
+    "kip": {
+     "RET": {
+      "n": 6,
+      "pay": 0.0018,
+      "M1": 5.5804
+     },
+     "ASISTAN": {
+      "n": 91,
+      "pay": 0.0272,
+      "M1": 11.12
+     },
+     "META": {
+      "n": 368,
+      "pay": 0.1099,
+      "M1": 3.6386
+     },
+     "DEVAM": {
+      "n": 2882,
+      "pay": 0.8611,
+      "M1": 4.7476
+     }
+    },
+    "cevaplayan_pay": 0.1389,
+    "surduren_pay": 0.8611
+   }
+  },
+  "Qwen2.5-1.5B": {
+   "taban": {
+    "n_tutulan": 1823,
+    "M1_filtered": 14.9957,
+    "kip": {
+     "RET": {
+      "n": 149,
+      "pay": 0.0817,
+      "M1": 22.7356
+     },
+     "ASISTAN": {
+      "n": 23,
+      "pay": 0.0126,
+      "M1": 14.415
+     },
+     "META": {
+      "n": 11,
+      "pay": 0.006,
+      "M1": 12.1429
+     },
+     "DEVAM": {
+      "n": 1640,
+      "pay": 0.8996,
+      "M1": 14.4545
+     }
+    },
+    "cevaplayan_pay": 0.1004,
+    "surduren_pay": 0.8996
+   },
+   "hizali": {
+    "n_tutulan": 1823,
+    "M1_filtered": 16.4209,
+    "kip": {
+     "RET": {
+      "n": 482,
+      "pay": 0.2644,
+      "M1": 17.7386
+     },
+     "ASISTAN": {
+      "n": 38,
+      "pay": 0.0208,
+      "M1": 15.9487
+     },
+     "META": {
+      "n": 240,
+      "pay": 0.1317,
+      "M1": 12.2661
+     },
+     "DEVAM": {
+      "n": 1063,
+      "pay": 0.5831,
+      "M1": 17.1003
+     }
+    },
+    "cevaplayan_pay": 0.4169,
+    "surduren_pay": 0.5831
+   }
+  },
+  "Qwen2.5-14B": {
+   "taban": {
+    "n_tutulan": 3139,
+    "M1_filtered": 16.3106,
+    "kip": {
+     "RET": {
+      "n": 347,
+      "pay": 0.1105,
+      "M1": 20.4971
+     },
+     "ASISTAN": {
+      "n": 328,
+      "pay": 0.1045,
+      "M1": 26.1342
+     },
+     "META": {
+      "n": 112,
+      "pay": 0.0357,
+      "M1": 9.1932
+     },
+     "DEVAM": {
+      "n": 2352,
+      "pay": 0.7493,
+      "M1": 14.7748
+     }
+    },
+    "cevaplayan_pay": 0.2507,
+    "surduren_pay": 0.7493
+   },
+   "hizali": {
+    "n_tutulan": 3139,
+    "M1_filtered": 11.2095,
+    "kip": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 407,
+      "pay": 0.1297,
+      "M1": 7.3346
+     },
+     "META": {
+      "n": 1119,
+      "pay": 0.3565,
+      "M1": 12.441
+     },
+     "DEVAM": {
+      "n": 1613,
+      "pay": 0.5139,
+      "M1": 11.336
+     }
+    },
+    "cevaplayan_pay": 0.4861,
+    "surduren_pay": 0.5139
+   }
+  },
+  "Qwen2.5-32B": {
+   "taban": {
+    "n_tutulan": 3499,
+    "M1_filtered": 19.4439,
+    "kip": {
+     "RET": {
+      "n": 358,
+      "pay": 0.1023,
+      "M1": 20.2081
+     },
+     "ASISTAN": {
+      "n": 467,
+      "pay": 0.1335,
+      "M1": 28.9668
+     },
+     "META": {
+      "n": 193,
+      "pay": 0.0552,
+      "M1": 20.1679
+     },
+     "DEVAM": {
+      "n": 2481,
+      "pay": 0.7091,
+      "M1": 17.5363
+     }
+    },
+    "cevaplayan_pay": 0.2909,
+    "surduren_pay": 0.7091
+   },
+   "hizali": {
+    "n_tutulan": 3499,
+    "M1_filtered": 12.147,
+    "kip": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 47,
+      "pay": 0.0134,
+      "M1": 5.2861
+     },
+     "META": {
+      "n": 2602,
+      "pay": 0.7436,
+      "M1": 12.8074
+     },
+     "DEVAM": {
+      "n": 850,
+      "pay": 0.2429,
+      "M1": 10.5131
+     }
+    },
+    "cevaplayan_pay": 0.7571,
+    "surduren_pay": 0.2429
+   }
+  },
+  "Qwen2.5-3B": {
+   "taban": {
+    "n_tutulan": 3468,
+    "M1_filtered": 14.0382,
+    "kip": {
+     "RET": {
+      "n": 130,
+      "pay": 0.0375,
+      "M1": 21.3143
+     },
+     "ASISTAN": {
+      "n": 353,
+      "pay": 0.1018,
+      "M1": 19.8134
+     },
+     "META": {
+      "n": 120,
+      "pay": 0.0346,
+      "M1": 10.3853
+     },
+     "DEVAM": {
+      "n": 2865,
+      "pay": 0.8261,
+      "M1": 13.1827
+     }
+    },
+    "cevaplayan_pay": 0.1739,
+    "surduren_pay": 0.8261
+   },
+   "hizali": {
+    "n_tutulan": 3468,
+    "M1_filtered": 11.1424,
+    "kip": {
+     "RET": {
+      "n": 21,
+      "pay": 0.0061,
+      "M1": 13.876
+     },
+     "ASISTAN": {
+      "n": 1100,
+      "pay": 0.3172,
+      "M1": 10.8814
+     },
+     "META": {
+      "n": 291,
+      "pay": 0.0839,
+      "M1": 9.8204
+     },
+     "DEVAM": {
+      "n": 2056,
+      "pay": 0.5928,
+      "M1": 11.4438
+     }
+    },
+    "cevaplayan_pay": 0.4072,
+    "surduren_pay": 0.5928
+   }
+  },
+  "Qwen2.5-72B": {
+   "taban": {
+    "n_tutulan": 3784,
+    "M1_filtered": 10.4805,
+    "kip": {
+     "RET": {
+      "n": 536,
+      "pay": 0.1416,
+      "M1": 10.7386
+     },
+     "ASISTAN": {
+      "n": 381,
+      "pay": 0.1007,
+      "M1": 20.0736
+     },
+     "META": {
+      "n": 458,
+      "pay": 0.121,
+      "M1": 10.631
+     },
+     "DEVAM": {
+      "n": 2409,
+      "pay": 0.6366,
+      "M1": 8.9071
+     }
+    },
+    "cevaplayan_pay": 0.3634,
+    "surduren_pay": 0.6366
+   },
+   "hizali": {
+    "n_tutulan": 3784,
+    "M1_filtered": 10.3093,
+    "kip": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 360,
+      "pay": 0.0951,
+      "M1": 4.2855
+     },
+     "META": {
+      "n": 2118,
+      "pay": 0.5597,
+      "M1": 11.5866
+     },
+     "DEVAM": {
+      "n": 1306,
+      "pay": 0.3451,
+      "M1": 9.8934
+     }
+    },
+    "cevaplayan_pay": 0.6549,
+    "surduren_pay": 0.3451
+   }
+  },
+  "Qwen2.5-7B": {
+   "taban": {
+    "n_tutulan": 3066,
+    "M1_filtered": 15.947,
+    "kip": {
+     "RET": {
+      "n": 218,
+      "pay": 0.0711,
+      "M1": 22.5851
+     },
+     "ASISTAN": {
+      "n": 559,
+      "pay": 0.1823,
+      "M1": 20.1768
+     },
+     "META": {
+      "n": 154,
+      "pay": 0.0502,
+      "M1": 7.1239
+     },
+     "DEVAM": {
+      "n": 2135,
+      "pay": 0.6963,
+      "M1": 14.9442
+     }
+    },
+    "cevaplayan_pay": 0.3037,
+    "surduren_pay": 0.6963
+   },
+   "hizali": {
+    "n_tutulan": 3066,
+    "M1_filtered": 8.7131,
+    "kip": {
+     "RET": {
+      "n": 1,
+      "pay": 0.0003,
+      "M1": 6.3291
+     },
+     "ASISTAN": {
+      "n": 1091,
+      "pay": 0.3558,
+      "M1": 9.2094
+     },
+     "META": {
+      "n": 643,
+      "pay": 0.2097,
+      "M1": 7.4479
+     },
+     "DEVAM": {
+      "n": 1331,
+      "pay": 0.4341,
+      "M1": 8.9199
+     }
+    },
+    "cevaplayan_pay": 0.5659,
+    "surduren_pay": 0.4341
+   }
+  },
+  "Tulu3-8B": {
+   "taban": {
+    "n_tutulan": 2976,
+    "M1_filtered": 20.4204,
+    "kip": {
+     "RET": {
+      "n": 41,
+      "pay": 0.0138,
+      "M1": 26.4317
+     },
+     "ASISTAN": {
+      "n": 118,
+      "pay": 0.0397,
+      "M1": 30.1748
+     },
+     "META": {
+      "n": 62,
+      "pay": 0.0208,
+      "M1": 12.459
+     },
+     "DEVAM": {
+      "n": 2755,
+      "pay": 0.9257,
+      "M1": 20.1026
+     }
+    },
+    "cevaplayan_pay": 0.0743,
+    "surduren_pay": 0.9257
+   },
+   "hizali": {
+    "n_tutulan": 2976,
+    "M1_filtered": 2.0079,
+    "kip": {
+     "RET": {
+      "n": 10,
+      "pay": 0.0034,
+      "M1": 4.3997
+     },
+     "ASISTAN": {
+      "n": 52,
+      "pay": 0.0175,
+      "M1": 4.9897
+     },
+     "META": {
+      "n": 223,
+      "pay": 0.0749,
+      "M1": 1.3686
+     },
+     "DEVAM": {
+      "n": 2691,
+      "pay": 0.9042,
+      "M1": 1.9938
+     }
+    },
+    "cevaplayan_pay": 0.0958,
+    "surduren_pay": 0.9042
+   }
+  }
+ },
+ "kip_ici_bant": {
+  "taban": {
+   "RET": {
+    "min": 10.7386,
+    "min_aile": "Qwen2.5-72B",
+    "max": 22.7356,
+    "max_aile": "Qwen2.5-1.5B",
+    "oran": 2.117,
+    "n": 7
+   },
+   "ASISTAN": {
+    "min": 15.7794,
+    "min_aile": "OLMo2-32B",
+    "max": 30.1748,
+    "max_aile": "Tulu3-8B",
+    "oran": 1.912,
+    "n": 9
+   },
+   "META": {
+    "min": 6.0567,
+    "min_aile": "Gemma-3-12B",
+    "max": 20.1679,
+    "max_aile": "Qwen2.5-32B",
+    "oran": 3.33,
+    "n": 9
+   },
+   "DEVAM": {
+    "min": 8.345,
+    "min_aile": "Llama-3.1-70B",
+    "max": 20.1026,
+    "max_aile": "Tulu3-8B",
+    "oran": 2.409,
+    "n": 16
+   }
+  },
+  "hizali": {
+   "RET": {
+    "min": 17.7386,
+    "min_aile": "Qwen2.5-1.5B",
+    "max": 19.917,
+    "max_aile": "Llama-3.1-8B",
+    "oran": 1.123,
+    "n": 2
+   },
+   "ASISTAN": {
+    "min": 4.2855,
+    "min_aile": "Qwen2.5-72B",
+    "max": 41.2725,
+    "max_aile": "Gemma-3-27B",
+    "oran": 9.631,
+    "n": 9
+   },
+   "META": {
+    "min": 1.3686,
+    "min_aile": "Tulu3-8B",
+    "max": 34.8331,
+    "max_aile": "OLMo-3-7B",
+    "oran": 25.452,
+    "n": 13
+   },
+   "DEVAM": {
+    "min": 1.9938,
+    "min_aile": "Tulu3-8B",
+    "max": 37.4161,
+    "max_aile": "Gemma-3-27B",
+    "oran": 18.766,
+    "n": 15
+   }
+  }
+ },
+ "bant_disi": {
+  "taban": {
+   "RET": {
+    "Gemma-3-12B": 57,
+    "Gemma-3-27B": 33,
+    "Gemma-3-4B": 18,
+    "Llama-3.1-70B": 7,
+    "Llama-3.1-8B": 2,
+    "Mistral-7B-v0.3": 2,
+    "OLMo2-13B": 62,
+    "OLMo2-32B": 43,
+    "Tulu3-8B": 41
+   },
+   "ASISTAN": {
+    "Gemma-3-12B": 49,
+    "Gemma-3-27B": 19,
+    "Gemma-3-4B": 72,
+    "Llama-3.1-70B": 66,
+    "Llama-3.1-8B": 38,
+    "Mistral-7B-v0.3": 40,
+    "Qwen2.5-1.5B": 23
+   },
+   "META": {
+    "Gemma-3-27B": 57,
+    "Gemma-3-4B": 35,
+    "Llama-3.1-70B": 62,
+    "Llama-3.1-8B": 75,
+    "Mistral-7B-v0.3": 21,
+    "Qwen2.5-1.5B": 11,
+    "Tulu3-8B": 62
+   },
+   "DEVAM": {}
+  },
+  "hizali": {
+   "RET": {
+    "Gemma-3-12B": 0,
+    "Gemma-3-27B": 0,
+    "Gemma-3-4B": 0,
+    "Llama-3.1-70B": 70,
+    "Mistral-7B-v0.3": 0,
+    "OLMo-3-7B": 10,
+    "OLMo2-13B": 0,
+    "OLMo2-32B": 6,
+    "Qwen2.5-14B": 0,
+    "Qwen2.5-32B": 0,
+    "Qwen2.5-3B": 21,
+    "Qwen2.5-72B": 0,
+    "Qwen2.5-7B": 1,
+    "Tulu3-8B": 10
+   },
+   "ASISTAN": {
+    "Llama-3.1-70B": 6,
+    "Llama-3.1-8B": 17,
+    "Mistral-7B-v0.3": 35,
+    "OLMo2-13B": 48,
+    "Qwen2.5-1.5B": 38,
+    "Qwen2.5-32B": 47,
+    "Tulu3-8B": 52
+   },
+   "META": {
+    "Gemma-3-12B": 1,
+    "Gemma-3-27B": 32,
+    "Gemma-3-4B": 45
+   },
+   "DEVAM": {
+    "Gemma-3-12B": 25
+   }
+  }
+ },
+ "sahip_adli": {
+  "Gemma-3-27B": {
+   "taban": {
+    "cevaplayan_pay": 0.0383,
+    "surduren_pay": 0.9617,
+    "kip": {
+     "RET": {
+      "n": 33,
+      "pay": 0.0116,
+      "M1": 12.9345
+     },
+     "ASISTAN": {
+      "n": 19,
+      "pay": 0.0067,
+      "M1": 8.7138
+     },
+     "META": {
+      "n": 57,
+      "pay": 0.02,
+      "M1": 4.8914
+     },
+     "DEVAM": {
+      "n": 2736,
+      "pay": 0.9617,
+      "M1": 8.9676
+     }
+    }
+   },
+   "hizali": {
+    "cevaplayan_pay": 0.9603,
+    "surduren_pay": 0.0397,
+    "kip": {
+     "RET": {
+      "n": 0,
+      "pay": 0.0,
+      "M1": null
+     },
+     "ASISTAN": {
+      "n": 2700,
+      "pay": 0.949,
+      "M1": 41.2725
+     },
+     "META": {
+      "n": 32,
+      "pay": 0.0112,
+      "M1": 48.2429
+     },
+     "DEVAM": {
+      "n": 113,
+      "pay": 0.0397,
+      "M1": 37.4161
+     }
+    }
+   }
+  },
+  "Tulu3-8B": {
+   "taban": {
+    "cevaplayan_pay": 0.0743,
+    "surduren_pay": 0.9257,
+    "kip": {
+     "RET": {
+      "n": 41,
+      "pay": 0.0138,
+      "M1": 26.4317
+     },
+     "ASISTAN": {
+      "n": 118,
+      "pay": 0.0397,
+      "M1": 30.1748
+     },
+     "META": {
+      "n": 62,
+      "pay": 0.0208,
+      "M1": 12.459
+     },
+     "DEVAM": {
+      "n": 2755,
+      "pay": 0.9257,
+      "M1": 20.1026
+     }
+    }
+   },
+   "hizali": {
+    "cevaplayan_pay": 0.0958,
+    "surduren_pay": 0.9042,
+    "kip": {
+     "RET": {
+      "n": 10,
+      "pay": 0.0034,
+      "M1": 4.3997
+     },
+     "ASISTAN": {
+      "n": 52,
+      "pay": 0.0175,
+      "M1": 4.9897
+     },
+     "META": {
+      "n": 223,
+      "pay": 0.0749,
+      "M1": 1.3686
+     },
+     "DEVAM": {
+      "n": 2691,
+      "pay": 0.9042,
+      "M1": 1.9938
+     }
+    }
+   }
+  }
+ },
+ "damga_utc": "2026-09-17T07:42:36Z"
+}

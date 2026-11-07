@@ -1,0 +1,35 @@
+\begin{table}[tb]\centering\scriptsize\setlength{\tabcolsep}{2pt}
+\caption{\textbf{Dilution share, for both layers.} Columns are the log change per thousand tokens, the log change per sentence, the log change in tokens per sentence, and the dilution share $s=\Delta\log(\text{tokens per sentence})/\Delta\log(X/\mathrm{1k})$ with its prompt-clustered $95\%$ interval, first for second-person density and then for the force total. The same identity governs both, so the per-sentence change is $(1+s)$ times the per-thousand change in each half. $\Delta\log\mathrm{len}$ is shared. Negative $s$ means the per-sentence fall is smaller than the per-thousand fall. Where the per-thousand change's interval includes zero the ratio has no stable sign and no number is printed. Rows below the rule are the three preference checkpoint sequences, stage by stage. \textbf{Force dilutes harder than register}: the force total separates per thousand tokens in 14 of 16 models, but in 3 of those the per-sentence count moves \emph{up} while the per-thousand count falls, which is the sentence growing rather than the acts thinning. On the stages only 1 of 6 stages separate on force at all.}
+\label{tab:dilution}
+\begin{tabular}{lrrrrlcrrrl}
+\toprule
+ & \multicolumn{5}{c}{second person ($M_1$)} & & \multicolumn{4}{c}{force total} \\
+\cmidrule(lr){2-6}\cmidrule(lr){8-11}
+model / stage & $/\mathrm{1k}$ & $/\mathrm{sent}$ & $\Delta\log\mathrm{len}$ & $s$ & $95\%$ CI & & $/\mathrm{1k}$ & $/\mathrm{sent}$ & $s$ & $95\%$ CI \\
+\midrule
+Gemma-3-12B & $-0.251$ & $-0.298$ & $-0.047$ & $+0.19$ & $[+0.09,+0.35]$ & & $+0.080$ & $+0.033$ & --- & --- \\
+Gemma-3-27B & $-0.296$ & $-0.266$ & $+0.030$ & $-0.10$ & $[-0.27,-0.03]$ & & $-0.297$ & $-0.267$ & $-0.10$ & $[-0.26,-0.03]$ \\
+Gemma-3-4B & $-0.378$ & $-0.426$ & $-0.048$ & $+0.13$ & $[+0.08,+0.21]$ & & $-0.494$ & $-0.542$ & $+0.10$ & $[+0.06,+0.15]$ \\
+Llama-3.1-70B & $-0.398$ & $-0.313$ & $+0.085$ & $-0.21$ & $[-0.28,-0.16]$ & & $-0.299$ & $-0.214$ & $-0.28$ & $[-0.52,-0.19]$ \\
+Llama-3.1-8B & $-0.529$ & $-0.448$ & $+0.080$ & $-0.15$ & $[-0.19,-0.12]$ & & $-0.252$ & $-0.172$ & $-0.32$ & $[-0.49,-0.21]$ \\
+Mistral-7B-v0.3 & $-1.289$ & $-1.180$ & $+0.109$ & $-0.08$ & $[-0.11,-0.06]$ & & $-1.341$ & $-1.232$ & $-0.08$ & $[-0.10,-0.06]$ \\
+OLMo-3-7B & $-0.401$ & $-0.186$ & $+0.215$ & $-0.54$ & $[-0.64,-0.46]$ & & $-0.181$ & $+0.034$ & $-1.19$ & $[-2.22,-0.82]$ \\
+OLMo-2-13B & $-0.753$ & $-0.621$ & $+0.132$ & $-0.18$ & $[-0.21,-0.15]$ & & $-0.303$ & $-0.171$ & $-0.44$ & $[-0.70,-0.32]$ \\
+OLMo-2-32B & $-0.427$ & $-0.332$ & $+0.095$ & $-0.22$ & $[-0.26,-0.19]$ & & $-0.305$ & $-0.210$ & $-0.31$ & $[-0.44,-0.23]$ \\
+Qwen2.5-1.5B & $-0.174$ & $+0.009$ & $+0.182$ & $-1.05$ & $[-3.36,-0.68]$ & & $+0.111$ & $+0.293$ & --- & --- \\
+Qwen2.5-14B & $-0.395$ & $-0.100$ & $+0.295$ & $-0.75$ & $[-1.04,-0.60]$ & & $-0.311$ & $-0.016$ & $-0.95$ & $[-2.04,-0.64]$ \\
+Qwen2.5-32B & $-0.240$ & $+0.050$ & $+0.290$ & $-1.21$ & $[-2.06,-0.91]$ & & $-0.150$ & $+0.141$ & $-1.94$ & $[-7.78,-1.16]$ \\
+Qwen2.5-3B & $-0.401$ & $-0.194$ & $+0.207$ & $-0.52$ & $[-0.75,-0.41]$ & & $-0.137$ & $+0.070$ & $-1.51$ & $[-6.21,-0.83]$ \\
+Qwen2.5-72B & $-0.444$ & $-0.160$ & $+0.285$ & $-0.64$ & $[-1.04,-0.48]$ & & $-0.385$ & $-0.100$ & $-0.74$ & $[-1.20,-0.54]$ \\
+Qwen2.5-7B & $-0.472$ & $-0.273$ & $+0.199$ & $-0.42$ & $[-0.55,-0.34]$ & & $-0.283$ & $-0.084$ & $-0.70$ & $[-1.40,-0.50]$ \\
+T\"ulu-3-8B & $-1.389$ & $-1.113$ & $+0.275$ & $-0.20$ & $[-0.25,-0.14]$ & & $-0.840$ & $-0.565$ & $-0.33$ & $[-0.47,-0.24]$ \\
+\midrule
+T\"ulu-3-8B sft $\to$ dpo & $-1.089$ & $-0.899$ & $+0.190$ & $-0.17$ & $[-0.23,-0.12]$ & & $-0.649$ & $-0.459$ & $-0.29$ & $[-0.50,-0.21]$ \\
+T\"ulu-3-8B dpo $\to$ rl & $-0.149$ & $-0.144$ & $+0.005$ & $-0.03$ & $[-0.09,+0.02]$ & & $+0.041$ & $+0.046$ & --- & --- \\
+OLMo-2-13B sft $\to$ dpo & $-0.657$ & $-0.550$ & $+0.107$ & $-0.16$ & $[-0.19,-0.14]$ & & $-0.050$ & $+0.057$ & --- & --- \\
+OLMo-2-13B dpo $\to$ instruct & $-0.038$ & $-0.056$ & $-0.018$ & --- & --- & & $-0.063$ & $-0.081$ & --- & --- \\
+OLMo-2-32B sft $\to$ dpo & $-0.264$ & $-0.178$ & $+0.086$ & $-0.33$ & $[-0.43,-0.25]$ & & $-0.087$ & $-0.001$ & --- & --- \\
+OLMo-2-32B dpo $\to$ instruct & $+0.008$ & $-0.001$ & $-0.009$ & --- & --- & & $+0.012$ & $+0.003$ & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,1149 @@
+{
+ "sinif": "BETIM · card · bar yok",
+ "rule": "preregistration/rule_v96_q1_birincisiz_prefix_2026-09-18.md @ 86f2912a",
+ "soru": "hakem v95 kalibre Q1: birinci sahissiz önek kollarinda Δ1st",
+ "kaynak": {
+  "card": "results/PREREG9_A_OLCUM_2026-08-31.json",
+  "panel": "c1_panel (özgün seed)"
+ },
+ "alet": {
+  "hal": "ESDEGER",
+  "red_kapi": [],
+  "kapi": "16 kolun tamaminda sahis1_1k.d ≤1e-9"
+ },
+ "kollar": {
+  "K4": [
+   "ARO+x1",
+   "ARO+x4",
+   "ARO-x1",
+   "ARO-x4"
+  ],
+  "K2": [
+   "ARO-x1",
+   "ARO-x4"
+  ]
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -2.7980343268004777,
+    "d1st_turetilmis": -16.36815306638292,
+    "d1st_dogrudan": -16.624910394436224,
+    "ci_dM1": [
+     -4.400756411739768,
+     -1.2978817280549744
+    ],
+    "ci_d1st_turetilmis": [
+     -17.742511874707798,
+     -15.021066754708205
+    ],
+    "ci_d1st_dogrudan": [
+     -17.79466431999374,
+     -15.523438381031085
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -8.638250323485789,
+    "d1st_turetilmis": -10.271759578152928,
+    "d1st_dogrudan": -10.669277734280744,
+    "ci_dM1": [
+     -10.307918885906494,
+     -6.8951156627940255
+    ],
+    "ci_d1st_turetilmis": [
+     -12.431333643769031,
+     -7.977595550974375
+    ],
+    "ci_d1st_dogrudan": [
+     -12.549510877825963,
+     -8.611999868109635
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -1.1833032254075375,
+    "d1st_turetilmis": -6.017149941511581,
+    "d1st_dogrudan": -6.380478728514953,
+    "ci_dM1": [
+     -3.1737186077796418,
+     0.6262571025842693
+    ],
+    "ci_d1st_turetilmis": [
+     -8.139943101326576,
+     -3.8572785131036422
+    ],
+    "ci_d1st_dogrudan": [
+     -8.065629665704218,
+     -4.673688756851932
+    ],
+    "sinif_dM1": "null",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Gemma-3-27B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -3.0669452857180204,
+    "d1st_turetilmis": -15.693138046199877,
+    "d1st_dogrudan": -15.532156665968538,
+    "ci_dM1": [
+     -5.194862226987986,
+     -1.0285312039747057
+    ],
+    "ci_d1st_turetilmis": [
+     -17.056663681014513,
+     -14.377068656155416
+    ],
+    "ci_d1st_dogrudan": [
+     -16.795051343264646,
+     -14.263217333401927
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -5.702334393623218,
+    "d1st_turetilmis": -8.118253832960251,
+    "d1st_dogrudan": -8.106686129142375,
+    "ci_dM1": [
+     -8.06674569775859,
+     -3.4269860329725383
+    ],
+    "ci_d1st_turetilmis": [
+     -9.94728408160365,
+     -6.310016558494824
+    ],
+    "ci_d1st_dogrudan": [
+     -9.834909526106074,
+     -6.379360994529167
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": 0.314727986081186,
+    "d1st_turetilmis": -5.9116635782840845,
+    "d1st_dogrudan": -5.836715096376607,
+    "ci_dM1": [
+     -2.502067834623177,
+     2.63072242432217
+    ],
+    "ci_d1st_turetilmis": [
+     -8.163271273360479,
+     -3.7226147628978614
+    ],
+    "ci_d1st_dogrudan": [
+     -8.054013747966843,
+     -3.6503266691215863
+    ],
+    "sinif_dM1": "null",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Gemma-3-4B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -3.6314176230412496,
+    "d1st_turetilmis": -9.771195684864601,
+    "d1st_dogrudan": -9.34445697404868,
+    "ci_dM1": [
+     -5.282492416200828,
+     -1.9675673586373237
+    ],
+    "ci_d1st_turetilmis": [
+     -10.893226892965966,
+     -8.551620054039155
+    ],
+    "ci_d1st_dogrudan": [
+     -10.512820248484095,
+     -8.052701603246218
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -7.05475985682559,
+    "d1st_turetilmis": -6.998917869470887,
+    "d1st_dogrudan": -6.429616653272978,
+    "ci_dM1": [
+     -9.417063642519262,
+     -4.8235314780182845
+    ],
+    "ci_d1st_turetilmis": [
+     -8.644130643432403,
+     -5.318515701648537
+    ],
+    "ci_d1st_dogrudan": [
+     -8.050087805231476,
+     -4.692811187210052
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -1.02050669085705,
+    "d1st_turetilmis": -4.502306065666946,
+    "d1st_dogrudan": -3.674913708102241,
+    "ci_dM1": [
+     -2.458639285425529,
+     0.4305171672948682
+    ],
+    "ci_d1st_turetilmis": [
+     -5.736199257524703,
+     -3.413947577349074
+    ],
+    "ci_d1st_dogrudan": [
+     -4.990182772282524,
+     -2.5662401665235346
+    ],
+    "sinif_dM1": "null",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Llama-3.1-70B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -3.7798299231611745,
+    "d1st_turetilmis": -8.739508211269033,
+    "d1st_dogrudan": -8.690127740002993,
+    "ci_dM1": [
+     -4.416729532699632,
+     -3.1646188820864567
+    ],
+    "ci_d1st_turetilmis": [
+     -10.045810912821583,
+     -7.434526856057757
+    ],
+    "ci_d1st_dogrudan": [
+     -9.991442355148362,
+     -7.37522142959067
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -4.238161531582698,
+    "d1st_turetilmis": -3.0028396338644807,
+    "d1st_dogrudan": -3.138891686486952,
+    "ci_dM1": [
+     -5.824738299042352,
+     -2.8191243774321144
+    ],
+    "ci_d1st_turetilmis": [
+     -4.940653678084005,
+     -1.1751142627216735
+    ],
+    "ci_d1st_dogrudan": [
+     -5.08757287021255,
+     -1.2949600660665117
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -2.2308812494915022,
+    "d1st_turetilmis": -2.2541316181295192,
+    "d1st_dogrudan": -2.6068204468040275,
+    "ci_dM1": [
+     -3.8570033137091118,
+     -0.6316533356145595
+    ],
+    "ci_d1st_turetilmis": [
+     -4.142695657082878,
+     -0.5045469331863099
+    ],
+    "ci_d1st_dogrudan": [
+     -4.422177329509021,
+     -0.9291698177606971
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Llama-3.1-8B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -4.7666576534820315,
+    "d1st_turetilmis": -6.166765492258069,
+    "d1st_dogrudan": -6.210064613559986,
+    "ci_dM1": [
+     -5.753262099446296,
+     -3.8275575054237714
+    ],
+    "ci_d1st_turetilmis": [
+     -7.274231673498439,
+     -5.061593399429844
+    ],
+    "ci_d1st_dogrudan": [
+     -7.307144211917617,
+     -5.119071669643036
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -5.378699866551619,
+    "d1st_turetilmis": -2.4847392944900673,
+    "d1st_dogrudan": -2.791099598395377,
+    "ci_dM1": [
+     -6.924473018774969,
+     -3.898929453006721
+    ],
+    "ci_d1st_turetilmis": [
+     -4.035943022456814,
+     -0.9150507499703617
+    ],
+    "ci_d1st_dogrudan": [
+     -4.360047770503411,
+     -1.3074744228783781
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -3.52984047839315,
+    "d1st_turetilmis": -3.9339070364529913,
+    "d1st_dogrudan": -4.389929255370619,
+    "ci_dM1": [
+     -4.884425669263723,
+     -2.384176798314472
+    ],
+    "ci_d1st_turetilmis": [
+     -6.272284427404629,
+     -2.132983748464237
+    ],
+    "ci_d1st_dogrudan": [
+     -6.632751377344786,
+     -2.707381092405704
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -9.85634866587398,
+    "d1st_turetilmis": -15.17819729803844,
+    "d1st_dogrudan": -15.338014266746614,
+    "ci_dM1": [
+     -11.401700515352605,
+     -8.377108101256523
+    ],
+    "ci_d1st_turetilmis": [
+     -16.492338470998764,
+     -13.823821777152865
+    ],
+    "ci_d1st_dogrudan": [
+     -16.72987029085921,
+     -13.92838317723247
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -9.400882089064016,
+    "d1st_turetilmis": -11.479469524829415,
+    "d1st_dogrudan": -11.646627030249743,
+    "ci_dM1": [
+     -11.217196670747404,
+     -7.583567852000133
+    ],
+    "ci_d1st_turetilmis": [
+     -13.693569843423518,
+     -9.240106988309375
+    ],
+    "ci_d1st_dogrudan": [
+     -13.916046406855388,
+     -9.41852670017979
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -6.346458344390317,
+    "d1st_turetilmis": -9.765346994732042,
+    "d1st_dogrudan": -9.969024998149056,
+    "ci_dM1": [
+     -8.63247514651135,
+     -4.344036804140021
+    ],
+    "ci_d1st_turetilmis": [
+     -12.041137951273454,
+     -7.476881221682553
+    ],
+    "ci_d1st_dogrudan": [
+     -12.349865323713733,
+     -7.686442603685127
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "OLMo-3-7B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -4.703153558829211,
+    "d1st_turetilmis": -8.003835346078041,
+    "d1st_dogrudan": -7.697402901957826,
+    "ci_dM1": [
+     -5.677156367718292,
+     -3.6541542125345905
+    ],
+    "ci_d1st_turetilmis": [
+     -9.07361179454787,
+     -6.899314197035549
+    ],
+    "ci_d1st_dogrudan": [
+     -8.756108018044483,
+     -6.587967010756437
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -3.454376327127555,
+    "d1st_turetilmis": -3.3279982698253097,
+    "d1st_dogrudan": -3.029037344777759,
+    "ci_dM1": [
+     -4.812461893335461,
+     -1.9203522833181872
+    ],
+    "ci_d1st_turetilmis": [
+     -4.893400176533695,
+     -1.5759951453624337
+    ],
+    "ci_d1st_dogrudan": [
+     -4.611987556159044,
+     -1.3095559940565409
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -3.2283962144026663,
+    "d1st_turetilmis": -5.982868057277106,
+    "d1st_dogrudan": -5.575179774128577,
+    "ci_dM1": [
+     -5.085242643671685,
+     -1.2076673373614444
+    ],
+    "ci_d1st_turetilmis": [
+     -7.776837619023503,
+     -4.357143117012519
+    ],
+    "ci_d1st_dogrudan": [
+     -7.260478430591898,
+     -4.029375825939112
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "OLMo2-13B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -6.279554771752041,
+    "d1st_turetilmis": -12.568781206441162,
+    "d1st_dogrudan": -12.56129487411489,
+    "ci_dM1": [
+     -7.359902523950724,
+     -5.375622994399081
+    ],
+    "ci_d1st_turetilmis": [
+     -13.476104713471445,
+     -11.655807610866056
+    ],
+    "ci_d1st_dogrudan": [
+     -13.561682884794399,
+     -11.563331987266821
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -6.439072395784705,
+    "d1st_turetilmis": -7.726951774419751,
+    "d1st_dogrudan": -7.8537403850221335,
+    "ci_dM1": [
+     -8.082494859608081,
+     -4.978052622276637
+    ],
+    "ci_d1st_turetilmis": [
+     -9.129331913672441,
+     -6.378593406751353
+    ],
+    "ci_d1st_dogrudan": [
+     -9.225876518134967,
+     -6.566953479116914
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -3.8553633703227392,
+    "d1st_turetilmis": -5.134275022435867,
+    "d1st_dogrudan": -5.100791171922567,
+    "ci_dM1": [
+     -5.151367857757186,
+     -2.6526219695526496
+    ],
+    "ci_d1st_turetilmis": [
+     -6.258399465416712,
+     -3.926489618611472
+    ],
+    "ci_d1st_dogrudan": [
+     -6.1872425175574675,
+     -4.003104887339781
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "OLMo2-32B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -4.773336017568058,
+    "d1st_turetilmis": -10.719515529583461,
+    "d1st_dogrudan": -10.652677984527188,
+    "ci_dM1": [
+     -5.491925761481152,
+     -3.9872944334547302
+    ],
+    "ci_d1st_turetilmis": [
+     -11.851659022865336,
+     -9.610187953742017
+    ],
+    "ci_d1st_dogrudan": [
+     -11.78966689558903,
+     -9.583273330241248
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -5.200221726287795,
+    "d1st_turetilmis": -7.396936778841033,
+    "d1st_dogrudan": -7.181922810894132,
+    "ci_dM1": [
+     -6.6266133423710984,
+     -3.9803181678782003
+    ],
+    "ci_d1st_turetilmis": [
+     -9.227347878730955,
+     -5.616915626459644
+    ],
+    "ci_d1st_dogrudan": [
+     -9.022860317192093,
+     -5.423509273366165
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -1.9118570734248141,
+    "d1st_turetilmis": -6.216427108203116,
+    "d1st_dogrudan": -5.831417019216339,
+    "ci_dM1": [
+     -3.0629028696272202,
+     -0.6048015183833777
+    ],
+    "ci_d1st_turetilmis": [
+     -7.826538368694514,
+     -4.469509660144708
+    ],
+    "ci_d1st_dogrudan": [
+     -7.484605553556518,
+     -4.109585304508735
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Qwen2.5-1.5B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -1.6074983378810952,
+    "d1st_turetilmis": -5.464090349868167,
+    "d1st_dogrudan": -5.224160301884421,
+    "ci_dM1": [
+     -2.819964578231996,
+     -0.4543879355009181
+    ],
+    "ci_d1st_turetilmis": [
+     -6.649446153080026,
+     -4.188409379891142
+    ],
+    "ci_d1st_dogrudan": [
+     -6.295716857660186,
+     -3.9967979536546734
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -3.5016349389817254,
+    "d1st_turetilmis": 0.49473552874059834,
+    "d1st_dogrudan": 0.7216105479252377,
+    "ci_dM1": [
+     -5.162032103850838,
+     -2.0351140433602843
+    ],
+    "ci_d1st_turetilmis": [
+     -1.0855764377877006,
+     2.1430869744526704
+    ],
+    "ci_d1st_dogrudan": [
+     -0.8414930447774552,
+     2.3918037345356384
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "null",
+    "sinif_d1st_dogrudan": "null"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": 1.7751126163961377,
+    "d1st_turetilmis": 1.337357080018748,
+    "d1st_dogrudan": 1.714793675107897,
+    "ci_dM1": [
+     0.8207509584064108,
+     2.7633749060899935
+    ],
+    "ci_d1st_turetilmis": [
+     -0.23002215934184744,
+     2.8932601864869674
+    ],
+    "ci_d1st_dogrudan": [
+     0.13683933523783426,
+     3.171096294054198
+    ],
+    "sinif_dM1": "yukari",
+    "sinif_d1st_turetilmis": "null",
+    "sinif_d1st_dogrudan": "yukari"
+   }
+  },
+  "Qwen2.5-14B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -3.49187883372368,
+    "d1st_turetilmis": -13.315812378588632,
+    "d1st_dogrudan": -13.001645906391994,
+    "ci_dM1": [
+     -5.105802909296348,
+     -2.0705922320895445
+    ],
+    "ci_d1st_turetilmis": [
+     -14.31338144549632,
+     -12.255587978603847
+    ],
+    "ci_d1st_dogrudan": [
+     -14.006552794702035,
+     -11.903983015932203
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -6.733150028574452,
+    "d1st_turetilmis": -6.562936364157433,
+    "d1st_dogrudan": -6.238160769454005,
+    "ci_dM1": [
+     -8.937806311533553,
+     -4.72904913345944
+    ],
+    "ci_d1st_turetilmis": [
+     -7.835264733510312,
+     -5.381760752275756
+    ],
+    "ci_d1st_dogrudan": [
+     -7.4817448674505584,
+     -5.139660025069584
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -1.2889475208373726,
+    "d1st_turetilmis": -3.482652441755424,
+    "d1st_dogrudan": -2.9701223986119487,
+    "ci_dM1": [
+     -3.375824296957178,
+     0.4768346389048366
+    ],
+    "ci_d1st_turetilmis": [
+     -4.554589466275236,
+     -2.55806854551856
+    ],
+    "ci_d1st_dogrudan": [
+     -4.089427018046766,
+     -2.0124750566878338
+    ],
+    "sinif_dM1": "null",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Qwen2.5-32B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -2.1777050052867963,
+    "d1st_turetilmis": -15.416089638699894,
+    "d1st_dogrudan": -15.121289739183844,
+    "ci_dM1": [
+     -3.436223712219371,
+     -0.9931656947207612
+    ],
+    "ci_d1st_turetilmis": [
+     -16.39795021609309,
+     -14.435569098284375
+    ],
+    "ci_d1st_dogrudan": [
+     -16.10280620284602,
+     -14.114618396715356
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -7.128026733103986,
+    "d1st_turetilmis": -8.226321482288638,
+    "d1st_dogrudan": -7.90116088202212,
+    "ci_dM1": [
+     -9.330739625926716,
+     -5.138171105923552
+    ],
+    "ci_d1st_turetilmis": [
+     -9.380549508176308,
+     -7.014483462263543
+    ],
+    "ci_d1st_dogrudan": [
+     -8.99954803576926,
+     -6.749531869109189
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -2.5178741394957616,
+    "d1st_turetilmis": -2.953624575246197,
+    "d1st_dogrudan": -2.3522151900530277,
+    "ci_dM1": [
+     -4.491471940886845,
+     -0.7948593230766904
+    ],
+    "ci_d1st_turetilmis": [
+     -4.262948539595599,
+     -1.9510395655605381
+    ],
+    "ci_d1st_dogrudan": [
+     -3.3282555974388406,
+     -1.5040082159252788
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Qwen2.5-3B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -3.4624639101091157,
+    "d1st_turetilmis": -8.245579483426077,
+    "d1st_dogrudan": -8.045301310404238,
+    "ci_dM1": [
+     -5.177713057206233,
+     -1.8821756754101426
+    ],
+    "ci_d1st_turetilmis": [
+     -9.252360894692575,
+     -7.238542789089618
+    ],
+    "ci_d1st_dogrudan": [
+     -8.998079700492857,
+     -7.103164721010131
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -4.35993173818474,
+    "d1st_turetilmis": -3.6231642116687155,
+    "d1st_dogrudan": -3.322526091971289,
+    "ci_dM1": [
+     -6.240023993676117,
+     -2.6002042332225304
+    ],
+    "ci_d1st_turetilmis": [
+     -5.09727297696966,
+     -2.04694700323908
+    ],
+    "ci_d1st_dogrudan": [
+     -4.765616740699467,
+     -1.7953420289022584
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -0.779721123892438,
+    "d1st_turetilmis": -4.256640978397995,
+    "d1st_dogrudan": -3.8372621691031865,
+    "ci_dM1": [
+     -2.1927040992891706,
+     0.5629727569384593
+    ],
+    "ci_d1st_turetilmis": [
+     -5.880026635139396,
+     -2.906277331906904
+    ],
+    "ci_d1st_dogrudan": [
+     -5.399922171543111,
+     -2.5738145358932174
+    ],
+    "sinif_dM1": "null",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Qwen2.5-72B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -3.691871492345701,
+    "d1st_turetilmis": -13.677506322357855,
+    "d1st_dogrudan": -13.412783685218717,
+    "ci_dM1": [
+     -5.798236261562024,
+     -1.8553501943394546
+    ],
+    "ci_d1st_turetilmis": [
+     -14.809229536891527,
+     -12.511813175645607
+    ],
+    "ci_d1st_dogrudan": [
+     -14.533228247453595,
+     -12.298255554701749
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -6.079026856550834,
+    "d1st_turetilmis": -6.782182367018539,
+    "d1st_dogrudan": -6.656279672428845,
+    "ci_dM1": [
+     -8.390117808907146,
+     -3.991840781276462
+    ],
+    "ci_d1st_turetilmis": [
+     -8.184742455049392,
+     -5.417559478030686
+    ],
+    "ci_d1st_dogrudan": [
+     -8.168066042148785,
+     -5.291827230987166
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -1.951072461002123,
+    "d1st_turetilmis": -2.7930984079539933,
+    "d1st_dogrudan": -2.4222271057277562,
+    "ci_dM1": [
+     -3.670736288466573,
+     -0.35061532414316693
+    ],
+    "ci_d1st_turetilmis": [
+     -3.8881975762632077,
+     -1.7753109784724175
+    ],
+    "ci_d1st_dogrudan": [
+     -3.498635497681361,
+     -1.3857577293137557
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Qwen2.5-7B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -3.9045193751212937,
+    "d1st_turetilmis": -9.601470961693284,
+    "d1st_dogrudan": -9.446475916720715,
+    "ci_dM1": [
+     -5.687535258370538,
+     -2.385007762374991
+    ],
+    "ci_d1st_turetilmis": [
+     -10.478310203050816,
+     -8.711313442117502
+    ],
+    "ci_d1st_dogrudan": [
+     -10.258317787711944,
+     -8.624900430168017
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -6.8245362339124025,
+    "d1st_turetilmis": -7.58668887019962,
+    "d1st_dogrudan": -7.340253376602955,
+    "ci_dM1": [
+     -8.522026826318884,
+     -5.115808148649077
+    ],
+    "ci_d1st_turetilmis": [
+     -8.907442111548855,
+     -6.243782770075304
+    ],
+    "ci_d1st_dogrudan": [
+     -8.50167123259651,
+     -6.15541453061273
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -1.9408134340546845,
+    "d1st_turetilmis": -3.398913939217062,
+    "d1st_dogrudan": -2.9751335830367482,
+    "ci_dM1": [
+     -3.376931536188394,
+     -0.7067977708175502
+    ],
+    "ci_d1st_turetilmis": [
+     -4.553412663480078,
+     -2.245051862684452
+    ],
+    "ci_d1st_dogrudan": [
+     -3.930437897570165,
+     -2.0134399486431964
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  },
+  "Tulu3-8B": {
+   "kapi_sapma": 0.0,
+   "n_cift": 6528,
+   "TUM": {
+    "n_hucre": 6528,
+    "dM1": -8.71465005528216,
+    "d1st_turetilmis": -17.042038447484646,
+    "d1st_dogrudan": -16.81801118645557,
+    "ci_dM1": [
+     -9.989820097854185,
+     -7.4849884764890655
+    ],
+    "ci_d1st_turetilmis": [
+     -18.310871667183264,
+     -15.809984329892263
+    ],
+    "ci_d1st_dogrudan": [
+     -18.153174407773403,
+     -15.575754873726675
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K4": {
+    "n_hucre": 1632,
+    "dM1": -8.272469925740598,
+    "d1st_turetilmis": -8.613675017432904,
+    "d1st_dogrudan": -8.618147433926293,
+    "ci_dM1": [
+     -9.88891283121782,
+     -6.577983096198484
+    ],
+    "ci_d1st_turetilmis": [
+     -10.297810822107213,
+     -6.900750686486339
+    ],
+    "ci_d1st_dogrudan": [
+     -10.327741518756627,
+     -6.88076109519026
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   },
+   "K2": {
+    "n_hucre": 816,
+    "dM1": -4.472732842750515,
+    "d1st_turetilmis": -7.024918743830176,
+    "d1st_dogrudan": -6.955375702787785,
+    "ci_dM1": [
+     -5.702033808511016,
+     -3.3101104840755036
+    ],
+    "ci_d1st_turetilmis": [
+     -9.230958225997774,
+     -5.178624148346607
+    ],
+    "ci_d1st_dogrudan": [
+     -9.221442028059329,
+     -5.057859492726498
+    ],
+    "sinif_dM1": "asagi",
+    "sinif_d1st_turetilmis": "asagi",
+    "sinif_d1st_dogrudan": "asagi"
+   }
+  }
+ },
+ "sayim": {
+  "TUM_sinif_dM1": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  },
+  "TUM_sinif_d1st_turetilmis": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  },
+  "TUM_sinif_d1st_dogrudan": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  },
+  "K4_sinif_dM1": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  },
+  "K4_sinif_d1st_turetilmis": {
+   "asagi": 15,
+   "yukari": 0,
+   "null": 1
+  },
+  "K4_sinif_d1st_dogrudan": {
+   "asagi": 15,
+   "yukari": 0,
+   "null": 1
+  },
+  "K2_sinif_dM1": {
+   "asagi": 10,
+   "yukari": 1,
+   "null": 5
+  },
+  "K2_sinif_d1st_turetilmis": {
+   "asagi": 15,
+   "yukari": 0,
+   "null": 1
+  },
+  "K2_sinif_d1st_dogrudan": {
+   "asagi": 15,
+   "yukari": 1,
+   "null": 0
+  }
+ },
+ "SERH": "K4",
+ "damga_utc": "2026-09-18T21:24:29Z"
+}

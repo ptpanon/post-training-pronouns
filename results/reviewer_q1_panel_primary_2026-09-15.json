@@ -1,0 +1,675 @@
+{
+ "sinif": "BETIM · card · kâgida girmez",
+ "rule": "preregistration/rule_reviewer_readings_2026-09-15.md @ 25315d8e",
+ "soru": "Q1",
+ "alet": {
+  "hal": "ESDEGER",
+  "en_buyuk_sapma": 0.0,
+  "kanonik": "PREREG9_A_OLCUM_2026-08-31.json"
+ },
+ "sayim": {
+  "dogrudan_US_haric": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  },
+  "dogrudan_US_dahil": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  },
+  "turetilmis": {
+   "asagi": 16,
+   "yukari": 0,
+   "null": 0
+  }
+ },
+ "sayim_adlar": {
+  "dogrudan_US_haric": {
+   "asagi": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [],
+   "null": []
+  },
+  "dogrudan_US_dahil": {
+   "asagi": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [],
+   "null": []
+  },
+  "turetilmis": {
+   "asagi": [
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Gemma-3-4B",
+    "Llama-3.1-70B",
+    "Llama-3.1-8B",
+    "Mistral-7B-v0.3",
+    "OLMo-3-7B",
+    "OLMo2-13B",
+    "OLMo2-32B",
+    "Qwen2.5-1.5B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B",
+    "Qwen2.5-3B",
+    "Qwen2.5-72B",
+    "Qwen2.5-7B",
+    "Tulu3-8B"
+   ],
+   "yukari": [],
+   "null": []
+  }
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -16.6249,
+    "ci": [
+     -17.7184,
+     -15.4084
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -16.3733,
+    "ci": [
+     -17.7527,
+     -14.7963
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -16.3682,
+    "ci": [
+     -17.7503,
+     -14.7962
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 400,
+    "hizali": 708
+   },
+   "US_etkisi_d": 0.2516
+  },
+  "Gemma-3-27B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -15.5322,
+    "ci": [
+     -16.7711,
+     -14.2664
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -15.6948,
+    "ci": [
+     -17.0263,
+     -14.3914
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -15.6931,
+    "ci": [
+     -17.026,
+     -14.3865
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 436,
+    "hizali": 344
+   },
+   "US_etkisi_d": -0.1626
+  },
+  "Gemma-3-4B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -9.3445,
+    "ci": [
+     -10.533,
+     -8.0515
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -9.7758,
+    "ci": [
+     -10.9571,
+     -8.4966
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -9.7712,
+    "ci": [
+     -10.9488,
+     -8.493
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 494,
+    "hizali": 133
+   },
+   "US_etkisi_d": -0.4313
+  },
+  "Llama-3.1-70B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -8.6901,
+    "ci": [
+     -9.9801,
+     -7.3332
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -8.7484,
+    "ci": [
+     -10.0243,
+     -7.4171
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -8.7395,
+    "ci": [
+     -10.0166,
+     -7.4009
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 456,
+    "hizali": 470
+   },
+   "US_etkisi_d": -0.0583
+  },
+  "Llama-3.1-8B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -6.2101,
+    "ci": [
+     -7.3258,
+     -5.1874
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -6.1669,
+    "ci": [
+     -7.2822,
+     -5.1518
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -6.1668,
+    "ci": [
+     -7.28,
+     -5.1507
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 496,
+    "hizali": 599
+   },
+   "US_etkisi_d": 0.0432
+  },
+  "Mistral-7B-v0.3": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -15.338,
+    "ci": [
+     -16.6372,
+     -13.9314
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -15.1782,
+    "ci": [
+     -16.4235,
+     -13.8362
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -15.1782,
+    "ci": [
+     -16.4235,
+     -13.8362
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 262,
+    "hizali": 390
+   },
+   "US_etkisi_d": 0.1598
+  },
+  "OLMo-3-7B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -7.6974,
+    "ci": [
+     -8.8103,
+     -6.6688
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -7.9962,
+    "ci": [
+     -9.088,
+     -6.9493
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -8.0038,
+    "ci": [
+     -9.0962,
+     -6.9576
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 725,
+    "hizali": 388
+   },
+   "US_etkisi_d": -0.2988
+  },
+  "OLMo2-13B": {
+   "kontrast": "taban→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -12.5613,
+    "ci": [
+     -13.643,
+     -11.6097
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -12.5777,
+    "ci": [
+     -13.549,
+     -11.6839
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -12.5688,
+    "ci": [
+     -13.5443,
+     -11.6795
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 402,
+    "hizali": 378
+   },
+   "US_etkisi_d": -0.0164
+  },
+  "OLMo2-32B": {
+   "kontrast": "taban→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -10.6527,
+    "ci": [
+     -11.6681,
+     -9.5983
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -10.7274,
+    "ci": [
+     -11.7646,
+     -9.6441
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -10.7195,
+    "ci": [
+     -11.7523,
+     -9.6362
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 454,
+    "hizali": 373
+   },
+   "US_etkisi_d": -0.0747
+  },
+  "Qwen2.5-1.5B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -5.2242,
+    "ci": [
+     -6.3222,
+     -4.1084
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -5.4621,
+    "ci": [
+     -6.6906,
+     -4.2557
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -5.4641,
+    "ci": [
+     -6.6926,
+     -4.2562
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 462,
+    "hizali": 252
+   },
+   "US_etkisi_d": -0.2379
+  },
+  "Qwen2.5-14B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -13.0016,
+    "ci": [
+     -14.0032,
+     -12.0607
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -13.3202,
+    "ci": [
+     -14.2946,
+     -12.3886
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -13.3158,
+    "ci": [
+     -14.2934,
+     -12.379
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 586,
+    "hizali": 331
+   },
+   "US_etkisi_d": -0.3186
+  },
+  "Qwen2.5-32B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -15.1213,
+    "ci": [
+     -15.9702,
+     -14.1191
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -15.4217,
+    "ci": [
+     -16.2496,
+     -14.4562
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -15.4161,
+    "ci": [
+     -16.2441,
+     -14.4518
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 489,
+    "hizali": 251
+   },
+   "US_etkisi_d": -0.3004
+  },
+  "Qwen2.5-3B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -8.0453,
+    "ci": [
+     -8.9653,
+     -7.0909
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -8.2477,
+    "ci": [
+     -9.2038,
+     -7.2858
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -8.2456,
+    "ci": [
+     -9.1995,
+     -7.2837
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 587,
+    "hizali": 422
+   },
+   "US_etkisi_d": -0.2024
+  },
+  "Qwen2.5-72B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -13.4128,
+    "ci": [
+     -14.564,
+     -12.2425
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -13.679,
+    "ci": [
+     -14.8246,
+     -12.4888
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -13.6775,
+    "ci": [
+     -14.8219,
+     -12.4886
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 456,
+    "hizali": 302
+   },
+   "US_etkisi_d": -0.2662
+  },
+  "Qwen2.5-7B": {
+   "kontrast": "base→instruct",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -9.4465,
+    "ci": [
+     -10.2862,
+     -8.6207
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -9.6026,
+    "ci": [
+     -10.5307,
+     -8.708
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -9.6015,
+    "ci": [
+     -10.5296,
+     -8.708
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 653,
+    "hizali": 567
+   },
+   "US_etkisi_d": -0.1561
+  },
+  "Tulu3-8B": {
+   "kontrast": "taban→rl",
+   "kapi_sapma": 0.0,
+   "dogrudan_US_haric": {
+    "d": -16.818,
+    "ci": [
+     -17.9421,
+     -15.6115
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "dogrudan_US_dahil": {
+    "d": -17.0431,
+    "ci": [
+     -18.1876,
+     -15.8697
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "turetilmis": {
+    "d": -17.042,
+    "ci": [
+     -18.1864,
+     -15.8686
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "US_sayisi": {
+    "taban": 496,
+    "hizali": 272
+   },
+   "US_etkisi_d": -0.2251
+  }
+ },
+ "damga_utc": "2026-09-15T19:42:53Z",
+ "sure_dk": 8.3
+}

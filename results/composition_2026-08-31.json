@@ -1,0 +1,398 @@
+{
+ "damga_utc": "2026-08-31T07:38:29Z",
+ "SINIF": "BETIM/DENETIM — verdict YOK; yazim-onarimina dipnot malzemesi",
+ "tanim": {
+  "HURMET": [
+   "c_rica",
+   "c_lutfen"
+  ],
+  "CEKINCE": [
+   "c_istek",
+   "c_artik"
+  ],
+  "not_": "hürmet_payi = (c_rica + c_lütfen) / c"
+ },
+ "yaslanan": [
+  {
+   "dosya": "p11_submission.tex",
+   "satir": 127,
+   "tur": "tanim",
+   "cumle": "Five sentence-level counters … bare imperative, second-person obligation, **hedge**, interrogative directive, hortative",
+   "dayanak": "sayac listesi (sayi yok)"
+  },
+  {
+   "dosya": "p11_submission.tex",
+   "satir": 131,
+   "tur": "SAYI",
+   "cumle": "balanced accuracy $0.958$ (bare imperative) and **$1.000$ for hedge**, interrogative directive and hortative",
+   "dayanak": "FORM_TESTSETI_2026-08-28.json · altin c-pozitifleri"
+  },
+  {
+   "dosya": "p11_submission.tex",
+   "satir": 272,
+   "tur": "SAYI",
+   "cumle": "the first component (41\\% of variance) puts all six reading axes on one side and the **mood and hedge axes** on the other",
+   "dayanak": "HARITA_MATRIS · sütun `form_c_delta` · 16 aile"
+  }
+ ],
+ "testseti": {
+  "n_madde": 70,
+  "n_altin_c_pozitif": 14,
+  "n_tahmin_c_pozitif": 14,
+  "uyusmazlik": 0,
+  "bilesim": {
+   "c": 14.0,
+   "c_rica": 7.0,
+   "c_istek": 1.0,
+   "c_lutfen": 4.0,
+   "c_artik": 4.0,
+   "hurmet_payi": 0.7857,
+   "cekince_payi": 0.3571
+  },
+  "madde": [
+   {
+    "kod": "R08",
+    "katman": "rastgele",
+    "cumle": "There is a growing consensus among economists that a UBI would erode the personal and societal incentives for financial responsibility, self-improvement, and hard work.",
+    "c": 1,
+    "c_rica": 0,
+    "c_istek": 0,
+    "c_lutfen": 0,
+    "c_artik": 1
+   },
+   {
+    "kod": "S1",
+    "katman": "soru",
+    "cumle": "Based on this summary, would the speaker agree with this conclusion?",
+    "c": 1,
+    "c_rica": 0,
+    "c_istek": 0,
+    "c_lutfen": 0,
+    "c_artik": 1
+   },
+   {
+    "kod": "S2",
+    "katman": "soru",
+    "cumle": "Before you answer, ask yourself this: what could possibly be wrong with any of it?",
+    "c": 1,
+    "c_rica": 0,
+    "c_istek": 0,
+    "c_lutfen": 0,
+    "c_artik": 1
+   },
+   {
+    "kod": "S4",
+    "katman": "soru",
+    "cumle": "Could you please provide more context or rephrase your statement?",
+    "c": 1,
+    "c_rica": 1,
+    "c_istek": 0,
+    "c_lutfen": 1,
+    "c_artik": 0
+   },
+   {
+    "kod": "S6",
+    "katman": "soru",
+    "cumle": "For example, if a \"magician\" claims to be able to make your laundry clean instantly, how would you ensure it wasn't just regular washing machine usage?",
+    "c": 1,
+    "c_rica": 1,
+    "c_istek": 0,
+    "c_lutfen": 0,
+    "c_artik": 0
+   },
+   {
+    "kod": "S7",
+    "katman": "soru",
+    "cumle": "Could you please provide more information or clarify your points?",
+    "c": 1,
+    "c_rica": 1,
+    "c_istek": 0,
+    "c_lutfen": 1,
+    "c_artik": 0
+   },
+   {
+    "kod": "Y2",
+    "katman": "you",
+    "cumle": "you could trace them back in the first place.",
+    "c": 1,
+    "c_rica": 0,
+    "c_istek": 0,
+    "c_lutfen": 0,
+    "c_artik": 1
+   },
+   {
+    "kod": "E4",
+    "katman": "hortatif",
+    "cumle": "It would be better if we could just keep the same time all year and avoid that hassle.",
+    "c": 1,
+    "c_rica": 0,
+    "c_istek": 1,
+    "c_lutfen": 0,
+    "c_artik": 0
+   },
+   {
+    "kod": "G0co",
+    "katman": "rule",
+    "cumle": "Could you talk down to them?",
+    "c": 1,
+    "c_rica": 1,
+    "c_istek": 0,
+    "c_lutfen": 0,
+    "c_artik": 0
+   },
+   {
+    "kod": "G0wo",
+    "katman": "rule",
+    "cumle": "Would you mind talking down to them?",
+    "c": 1,
+    "c_rica": 1,
+    "c_istek": 0,
+    "c_lutfen": 0,
+    "c_artik": 0
+   },
+   {
+    "kod": "G0pl",
+    "katman": "rule",
+    "cumle": "Please talk down to them.",
+    "c": 1,
+    "c_rica": 0,
+    "c_istek": 0,
+    "c_lutfen": 1,
+    "c_artik": 0
+   },
+   {
+    "kod": "G1co",
+    "katman": "rule",
+    "cumle": "Could you butter up them?",
+    "c": 1,
+    "c_rica": 1,
+    "c_istek": 0,
+    "c_lutfen": 0,
+    "c_artik": 0
+   },
+   {
+    "kod": "G1wo",
+    "katman": "rule",
+    "cumle": "Would you mind buttering up them?",
+    "c": 1,
+    "c_rica": 1,
+    "c_istek": 0,
+    "c_lutfen": 0,
+    "c_artik": 0
+   },
+   {
+    "kod": "G1pl",
+    "katman": "rule",
+    "cumle": "Please butter up them.",
+    "c": 1,
+    "c_rica": 0,
+    "c_istek": 0,
+    "c_lutfen": 1,
+    "c_artik": 0
+   }
+  ]
+ },
+ "harita": {
+  "Qwen2.5-1.5B": {
+   "delta": {
+    "c": 0.03155821310994289,
+    "c_rica": 0.0032856266292470935,
+    "c_istek": -0.00265070923184326,
+    "c_lutfen": 0.0012087353653942494,
+    "c_artik": 0.029732699584660828
+   },
+   "pay_rica": 0.1041,
+   "pay_lutfen": 0.0383,
+   "pay_istek": -0.084,
+   "pay_artik": 0.9422,
+   "yayin_form_c_delta": 0.0315582,
+   "yayin_sapma": 1.3e-08
+  },
+  "Qwen2.5-7B": {
+   "delta": {
+    "c": -0.0049404024805464325,
+    "c_rica": 0.0009625274178039684,
+    "c_istek": -0.003942717366581424,
+    "c_lutfen": -0.0011758188818270284,
+    "c_artik": -0.0009451684801087268
+   },
+   "pay_rica": 0.1948,
+   "pay_lutfen": -0.238,
+   "pay_istek": -0.7981,
+   "pay_artik": -0.1913,
+   "yayin_form_c_delta": -0.0049404,
+   "yayin_sapma": -2e-09
+  },
+  "Qwen2.5-14B": {
+   "delta": {
+    "c": -0.00503976251431798,
+    "c_rica": 0.002743412098061164,
+    "c_istek": -0.008358835817056334,
+    "c_lutfen": -0.0022980275317802208,
+    "c_artik": 0.0017445648584499818
+   },
+   "pay_rica": 0.5444,
+   "pay_lutfen": -0.456,
+   "pay_istek": -1.6586,
+   "pay_artik": 0.3462,
+   "yayin_form_c_delta": -0.00503976,
+   "yayin_sapma": -3e-09
+  },
+  "Mistral-7B-v0.3": {
+   "delta": {
+    "c": 0.0003223687724819291,
+    "c_rica": -0.0008161662581773921,
+    "c_istek": -0.007205213018360451,
+    "c_lutfen": -0.0027074409371668218,
+    "c_artik": 0.010616669105894955
+   },
+   "pay_rica": -2.5318,
+   "pay_lutfen": -8.3986,
+   "pay_istek": -22.3508,
+   "pay_artik": 32.9333,
+   "yayin_form_c_delta": 0.000322369,
+   "yayin_sapma": -0.0
+  },
+  "Mistral-Small-24B": {
+   "delta": {
+    "c": 0.014489712298555113,
+    "c_rica": -0.00037809438017135993,
+    "c_istek": -0.002115158049356398,
+    "c_lutfen": -0.0033473019186999464,
+    "c_artik": 0.019682695584075982
+   },
+   "pay_rica": -0.0261,
+   "pay_lutfen": -0.231,
+   "pay_istek": -0.146,
+   "pay_artik": 1.3584,
+   "yayin_form_c_delta": 0.0144897,
+   "yayin_sapma": 1.2e-08
+  },
+  "Llama-3.1-8B": {
+   "delta": {
+    "c": 0.000407819669819634,
+    "c_rica": -0.0003840822841153532,
+    "c_istek": -0.004702822581143283,
+    "c_lutfen": -0.0025370705817676065,
+    "c_artik": 0.007361174530103681
+   },
+   "pay_rica": -0.9418,
+   "pay_lutfen": -6.2211,
+   "pay_istek": -11.5316,
+   "pay_artik": 18.0501,
+   "yayin_form_c_delta": 0.00040782,
+   "yayin_sapma": -0.0
+  },
+  "Tulu-3-8B": {
+   "delta": {
+    "c": 0.012617768307796942,
+    "c_rica": -0.0013886444481671003,
+    "c_istek": -0.012502213527738733,
+    "c_lutfen": -0.005640785881254193,
+    "c_artik": 0.030833833580776487
+   },
+   "pay_rica": -0.1101,
+   "pay_lutfen": -0.4471,
+   "pay_istek": -0.9908,
+   "pay_artik": 2.4437,
+   "yayin_form_c_delta": 0.0126178,
+   "yayin_sapma": -3.2e-08
+  },
+  "OLMo-3-7B": {
+   "delta": {
+    "c": 0.02476164884303944,
+    "c_rica": -3.7140052619046016e-05,
+    "c_istek": -0.002539621824439481,
+    "c_lutfen": -0.0007059550743092483,
+    "c_artik": 0.027881993456494114
+   },
+   "pay_rica": -0.0015,
+   "pay_lutfen": -0.0285,
+   "pay_istek": -0.1026,
+   "pay_artik": 1.126,
+   "yayin_form_c_delta": 0.0247616,
+   "yayin_sapma": 4.9e-08
+  },
+  "OLMo-2-13B": {
+   "delta": {
+    "c": -0.00028900723297722863,
+    "c_rica": -0.000610527908957912,
+    "c_istek": -0.005036592459811015,
+    "c_lutfen": -0.004025172518614487,
+    "c_artik": 0.008806095434680514
+   },
+   "pay_rica": -2.1125,
+   "pay_lutfen": -13.9276,
+   "pay_istek": -17.4272,
+   "pay_artik": 30.4702,
+   "yayin_form_c_delta": -0.000289007,
+   "yayin_sapma": -0.0
+  },
+  "OLMo-2-32B": {
+   "delta": {
+    "c": 0.007383090139494897,
+    "c_rica": -0.0002112515997018615,
+    "c_istek": -0.0042602249066769175,
+    "c_lutfen": 0.0010496174081121613,
+    "c_artik": 0.01083326928659846
+   },
+   "pay_rica": -0.0286,
+   "pay_lutfen": 0.1422,
+   "pay_istek": -0.577,
+   "pay_artik": 1.4673,
+   "yayin_form_c_delta": 0.00738309,
+   "yayin_sapma": 0.0
+  },
+  "Gemma-3-4B": {
+   "delta": {
+    "c": -0.03969317039716242,
+    "c_rica": 0.00037291029185512856,
+    "c_istek": -0.010300383959940894,
+    "c_lutfen": -0.00040155610096913883,
+    "c_artik": -0.029377385538341245
+   },
+   "pay_rica": 0.0094,
+   "pay_lutfen": -0.0101,
+   "pay_istek": -0.2595,
+   "pay_artik": -0.7401,
+   "yayin_form_c_delta": -0.0396932,
+   "yayin_sapma": 3e-08
+  },
+  "Gemma-3-12B": {
+   "delta": {
+    "c": -0.04599545673545816,
+    "c_rica": -0.0014453077520157934,
+    "c_istek": -0.013643411359744586,
+    "c_lutfen": -0.005971104790974213,
+    "c_artik": -0.026686480961995156
+   },
+   "pay_rica": -0.0314,
+   "pay_lutfen": -0.1298,
+   "pay_istek": -0.2966,
+   "pay_artik": -0.5802,
+   "yayin_form_c_delta": -0.0459955,
+   "yayin_sapma": 4.3e-08
+  },
+  "Gemma-3-27B": {
+   "delta": {
+    "c": -0.043166750956625866,
+    "c_rica": -0.0019978777341555514,
+    "c_istek": -0.011910566343801363,
+    "c_lutfen": -0.004367996519997792,
+    "c_artik": -0.026078523157362837
+   },
+   "pay_rica": -0.0463,
+   "pay_lutfen": -0.1012,
+   "pay_istek": -0.2759,
+   "pay_artik": -0.6041,
+   "yayin_form_c_delta": -0.0431668,
+   "yayin_sapma": 4.9e-08
+  }
+ },
+ "harita_atlanan": [
+  "Zephyr-7B",
+  "Falcon-H1-7B",
+  "Granite-4.1-8B"
+ ],
+ "saniye": 195.0
+}

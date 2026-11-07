@@ -1,0 +1,191 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-09T13:33:34Z",
+  "SINIF": "ÖLCÜM — KISI EKSENI KONTROLLERI",
+  "alet": "scripts/judge_signature5.py",
+  "borc": "D-0910-V29 §3b",
+  "veri": "openbmb/UltraFeedback · 1. mührün önbellegi",
+  "n_yanit": 255864,
+  "n_istem": 63966,
+  "sahis3_ort_1k": 15.4629,
+  "aciklama_sorusu_pay": 0.0203,
+  "bar": 0.05,
+  "marj_bar": 1.5,
+  "yuzey": [
+   "modal_1k",
+   "hedge_1k",
+   "RED",
+   "LISTEKOD",
+   "LOG_JETON",
+   "LOG_CUMLE",
+   "SAHIS3_1k",
+   "ACIKLAMA_SORUSU"
+  ],
+  "onceki_beta_M1": -0.193,
+  "prova": {
+   "i_sahis3_sayiyor": true,
+   "ii_sahis3_sifir": true,
+   "iii_aq_yakalar": true,
+   "iv_aq_bos": true
+  }
+ },
+ "_ortak": {
+  "M1_1k": {
+   "beta": -0.19065526986640854,
+   "ci": [
+    -0.2024678066419763,
+    -0.1791705451895986
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.23124235795062353,
+    -0.15006818178219355
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.0207076980021505,
+   "frac_null": 0.0
+  },
+  "SAHIS1_1k": {
+   "beta": -0.15193649673174542,
+   "ci": [
+    -0.16589711153567008,
+    -0.1387763326320044
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.19668188979292084,
+    -0.10719110367057001
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.022829282174069085,
+   "frac_null": 0.0
+  },
+  "SAHIS3_1k": {
+   "beta": 0.024626714473806637,
+   "ci": [
+    0.014526742652974269,
+    0.03459592392423815
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    0.010260501480520084,
+    0.038992927467093194
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.007329700506778854,
+   "frac_null": 0.0
+  },
+  "ACIKLAMA_SORUSU": {
+   "beta": -0.003957908416727644,
+   "ci": [
+    -0.011274821618671408,
+    0.0036085987055424398
+   ],
+   "ayrik": false,
+   "ci_iki_yonlu": [
+    -0.0132709189531835,
+    0.005355102119728211
+   ],
+   "ayrik_iki_yonlu": false,
+   "se_iki_yonlu": 0.0047515359879876816,
+   "frac_null": 0.37
+  },
+  "modal_1k": {
+   "beta": -0.05557842278634783,
+   "ci": [
+    -0.06547004581548378,
+    -0.04525619080043399
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.07693967482039796,
+    -0.0342171707522977
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.010898597976556186,
+   "frac_null": 0.0
+  },
+  "hedge_1k": {
+   "beta": -0.010604646551169827,
+   "ci": [
+    -0.021001720909534616,
+    -0.0028595198739648784
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.025106424238856395,
+    0.0038971311365167387
+   ],
+   "ayrik_iki_yonlu": false,
+   "se_iki_yonlu": 0.007398866167187023,
+   "frac_null": 0.025
+  },
+  "RED": {
+   "beta": -0.05644488651948063,
+   "ci": [
+    -0.06298875808413375,
+    -0.048818271651093204
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.08739172919781278,
+    -0.025498043841148486
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.015789205448128646,
+   "frac_null": 0.0
+  },
+  "LISTEKOD": {
+   "beta": 0.025846996882893807,
+   "ci": [
+    0.014919558715613748,
+    0.036437741232645045
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    -0.016001353409915587,
+    0.0676953471757032
+   ],
+   "ayrik_iki_yonlu": false,
+   "se_iki_yonlu": 0.021351199128984387,
+   "frac_null": 0.0
+  },
+  "LOG_JETON": {
+   "beta": 0.12670898986476725,
+   "ci": [
+    0.10376468298071793,
+    0.1520458195968832
+   ],
+   "ayrik": true,
+   "ci_iki_yonlu": [
+    0.07348037640735759,
+    0.1799376033221769
+   ],
+   "ayrik_iki_yonlu": true,
+   "se_iki_yonlu": 0.027157455845617174,
+   "frac_null": 0.0
+  },
+  "LOG_CUMLE": {
+   "beta": 0.00936524643129025,
+   "ci": [
+    -0.01354674842927999,
+    0.03174455190125011
+   ],
+   "ayrik": false,
+   "ci_iki_yonlu": [
+    -0.04074206772261471,
+    0.05947256058519522
+   ],
+   "ayrik_iki_yonlu": false,
+   "se_iki_yonlu": 0.025564956200971923,
+   "frac_null": 0.46
+  }
+ },
+ "_verdict": {
+  "ad": "ÖZGÜL-IMZA-YÜZEY-GECTI",
+  "marj_yuzey": 1.5046704268567626,
+  "en_guclu_yuzey": "LOG_JETON",
+  "beta_M1": -0.19065526986640854,
+  "kayma_onceki": -0.0023447301335914605
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "table": "KK3T3_SEED",
+ "ciktilar": [
+  "KK3T3_SEED.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/data_tilt_neutral_seed3_verdict_2026-09-15.json",
+   "sha256_16": "2c3a98ecdcf9d107"
+  },
+  {
+   "yol": "results/data_tilt_natural_verdict_2026-09-16.json",
+   "sha256_16": "6998e5dd1c5811ff"
+  }
+ ],
+ "payda": {
+  "n_seed": 3,
+  "plasebo_gecen": 2,
+  "dT3": 0.0131,
+  "paylar": {
+   "KK3_NOTR": 0.2706,
+   "KK3_NOTR_T2": 0.4988,
+   "KK3_NOTR_T3": 0.26
+  }
+ },
+ "note": "renders the sealed KK-3T3 verdict; computes no new statistic"
+}

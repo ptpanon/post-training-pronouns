@@ -1,0 +1,71 @@
+{
+ "damga_utc": "2026-09-12T15:46:22Z",
+ "HALKA": "üretim",
+ "cift": "SmolLM2-1.7B·taban→sft",
+ "zemin": "instruct",
+ "model": "<storage>/huggingface/hub/models--HuggingFaceTB--SmolLM2-1.7B-sft-only/snapshots/c9c43e73dbb7054658b0b973a30dccd0d23fbc86",
+ "kimlik": {
+  "yol": true,
+  "agirlik_izi": "7169e1f3bc8a094b",
+  "n_agirlik_dosyasi": 1,
+  "ayirt_edici_alanlar": [
+   "eos",
+   "template"
+  ],
+  "config_ayirt_edici_VAR": true,
+  "imza": {
+   "eos": 2,
+   "tip": "llama",
+   "L": 24,
+   "d": 2048,
+   "orn": false,
+   "template": true
+  }
+ },
+ "cevre": {
+  "dev": "cuda:0",
+  "torch_index": 0,
+  "gpu_adi": "NVIDIA H100 NVL",
+  "gpu_uuid": "b0d35e5b-f48b-72f4-9220-4c527f22df0f",
+  "fiziksel_gpu": 1,
+  "cvd_once": "1",
+  "cvd_kilitten_sonra": "1",
+  "smi_card_sayisi": 2,
+  "smi_kullanilan": "9783 MiB"
+ },
+ "yerlesim": {
+  "(hepsi)": "cuda:0"
+ },
+ "coklu_card": 0,
+ "tepe_vram_MiB": 4596,
+ "seed": 20260812,
+ "seed_kaynagi": "seritA_harman102.SEED",
+ "TAM": true,
+ "n_kol": 16,
+ "n_satir": 6528,
+ "kol_satir": {
+  "ARO+x1": 408,
+  "ARO-x1": 408,
+  "DOM+x1": 408,
+  "DOM-x1": 408,
+  "ARO+x4": 408,
+  "ARO-x4": 408,
+  "DOM+x4": 408,
+  "DOM-x4": 408,
+  "DOM+x2_ARO+x2": 408,
+  "DOM-x2_ARO+x2": 408,
+  "DOM+x2_ARO-x2": 408,
+  "DOM-x2_ARO-x2": 408,
+  "TON+x1": 408,
+  "TON-x1": 408,
+  "TON+x4": 408,
+  "TON-x4": 408
+ },
+ "atlanan_kol": 0,
+ "n_cekim": 12,
+ "yigin": 17,
+ "red_bos_metin": 17,
+ "bos_orani": 0.002604,
+ "yukleme_sn": 1.9,
+ "saniye": 694.1
+}

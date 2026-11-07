@@ -1,0 +1,31 @@
+{
+ "table": "KK3TABAN_SEED",
+ "ciktilar": [
+  "KK3TABAN_SEED.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/data_tilt_natural_verdict_2026-09-16.json",
+   "sha256_16": "6998e5dd1c5811ff"
+  },
+  {
+   "yol": "results/data_tilt_natural_matched_fark_2026-09-17.json",
+   "sha256_16": "8c6faef68f3c4e59"
+  },
+  {
+   "yol": "results/v90_matched_plasebo_2026-09-17.json",
+   "sha256_16": "50c762688f0e7d64"
+  },
+  {
+   "yol": "results/kk3uckat_t2_verdict_2026-09-18.json",
+   "sha256_16": "28113396375e633a"
+  }
+ ],
+ "payda": {
+  "verdict": "ISARET-TUTTU",
+  "n_seed": 3,
+  "havuz": true,
+  "esli_plasebo": true
+ },
+ "note": "renders the sealed KK3_TABAN seed verdict and its sealed description; computes no new statistic"
+}

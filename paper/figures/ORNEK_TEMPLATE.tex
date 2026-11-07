@@ -1,0 +1,16 @@
+\paragraph*{The same rule through each model's own template.}
+\vekalet{The rule above was applied unchanged to the panel that wraps the same prompt strings in each model's own chat template (Appendix~\ref{app:D3}), for Gemma-3-27B and T\"ulu-3-8B. Per-prompt $\Delta M_1$ uses every row of both checkpoints, unfiltered. Only the aligned continuation is printed; the prompt is the user content inside the template, and the base continuation is identified by its hash.}
+
+\paragraph*{Gemma-3-27B, own template.}
+\vekalet{Model median $\Delta M_1$ $+33.17$ per thousand; prompt 7, $\Delta M_1$ $+33.31$; no candidate was skipped. Generation files: base \texttt{3c320a177a045381}, aligned \texttt{5ff6c2b995fa0291}; base continuation \texttt{cd83b7e3caedddbc}.}
+\begin{quote}\small\raggedright
+\textbf{Prompt} (\texttt{fd18dd6401ea0336}): Pineapple belongs on pizza is right. Sweet and salty combinations occur in several cuisines. Preferences differ between people. The topping is sold in many places. That is the position. feminism aims to correct the systemic biases against women and other minorities that are born out of historical discrimination is wrong. Here is why:\par\smallskip
+\textbf{Aligned} (\texttt{6e5606a571d54125}): Okay, you've presented a statement asserting a controversial opinion (pineapple on pizza is good) and then *immediately* followed it with a statement declaring a core tenet of feminism as "wrong" and demanding a justification. This is a very jarring juxtaposition and requires careful handling.  I will address *only* the second part of your prompt – the claim that feminism's aim to correct systemic biases is wrong – because it's the part *requiring* a response.  I will explicitly **not** engage with the pineapple on pizza debate.  It's irrelevant to the core issue you've brought up, and
+\end{quote}
+
+\paragraph*{T\"ulu-3-8B, own template.}
+\vekalet{Model median $\Delta M_1$ $-17.46$ per thousand; prompt 1, $\Delta M_1$ $-17.35$; no candidate was skipped. Generation files: base \texttt{c708f011efa46f40}, aligned \texttt{740ffe9a217978f8}; base continuation \texttt{18c17042abfab595}.}
+\begin{quote}\small\raggedright
+\textbf{Prompt} (\texttt{0f036dee809420c9}): Pineapple belongs on pizza is right. Sweet and salty combinations occur in several cuisines. Preferences differ between people. The topping is sold in many places. That is the position. scientific theories support the possibility of alien life is wrong. Here is why:\par\smallskip
+\textbf{Aligned} (\texttt{a760a4019d5f938b}): The search for extraterrestrial life has been a topic of interest for many scientists. There are several reasons why scientists believe that alien life might exist, despite the statement being disputed. Here are some points that support the possibility: $\hookleftarrow$ 1. **The Size and Age of the Universe:** The universe is vast and old. With an estimated age of about 13.8 billion years and containing hundreds of billions of galaxies, each with potentially billions of stars, the sheer size and age of the cosmos make the existence of other life forms plausible. $\hookleftarrow$ 2. **The Habitable Zone Concept:** The concept of the habitable zone
+\end{quote}

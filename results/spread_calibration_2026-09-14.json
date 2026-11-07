@@ -1,0 +1,364 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-14T14:53:04Z",
+  "alet": "scripts/spread_calibration.py",
+  "sinif": "BETIM · verdict yok · prereg yok",
+  "kaynak_card": "results/template_filtered_2026-09-07.json",
+  "suzgec": "template_filtered dört hücre kurali (ithal)",
+  "olcu": "16 aile arasi max/min",
+  "prova_M1_sapma": 4.9149322277841634e-05,
+  "gecen_dk": 9.3
+ },
+ "yayilim": {
+  "taban": {
+   "M1": {
+    "min": 8.305244168460657,
+    "max": 20.42037982871984,
+    "max_min": 2.458733231018863
+   },
+   "uzunluk_jeton": {
+    "min": 107.9336719450254,
+    "max": 155.16857012334398,
+    "max_min": 1.4376289375420959
+   },
+   "red_orani": {
+    "min": 0.0,
+    "max": 0.06712473572938689,
+    "max_min": null
+   },
+   "listekod_payi": {
+    "min": 0.011866081208866975,
+    "max": 0.22263462254212782,
+    "max_min": 18.762270257830636
+   }
+  },
+  "hizali": {
+   "M1": {
+    "min": 2.007876390648294,
+    "max": 41.19520166347306,
+    "max_min": 20.516801659375126
+   },
+   "uzunluk_jeton": {
+    "min": 122.93143170597915,
+    "max": 159.9825581395349,
+    "max_min": 1.3013966885391253
+   },
+   "red_orani": {
+    "min": 0.0,
+    "max": 0.11848601206801974,
+    "max_min": null
+   },
+   "listekod_payi": {
+    "min": 0.15705220810862655,
+    "max": 0.6568571022587936,
+    "max_min": 4.182412397567009
+   }
+  }
+ },
+ "aileler": [
+  {
+   "aile": "Gemma-3-12B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.4672,
+   "taban": {
+    "M1": 11.537333449758977,
+    "uzunluk_jeton": 146.4383606557377,
+    "red_orani": 0.004918032786885246,
+    "listekod_payi": 0.041300217895974226,
+    "n_satir": 3050
+   },
+   "hizali": {
+    "M1": 36.15075253723695,
+    "uzunluk_jeton": 147.15245901639344,
+    "red_orani": 0.0,
+    "listekod_payi": 0.1927481134530315,
+    "n_satir": 3050
+   }
+  },
+  {
+   "aile": "Gemma-3-27B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.4358,
+   "taban": {
+    "M1": 8.928113653418599,
+    "uzunluk_jeton": 150.8239015817223,
+    "red_orani": 0.00210896309314587,
+    "listekod_payi": 0.041931314629029263,
+    "n_satir": 2845
+   },
+   "hizali": {
+    "M1": 41.19520166347306,
+    "uzunluk_jeton": 150.78453427065025,
+    "red_orani": 0.0,
+    "listekod_payi": 0.23813192177867046,
+    "n_satir": 2845
+   }
+  },
+  {
+   "aile": "Gemma-3-4B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.4145,
+   "taban": {
+    "M1": 13.780516348583946,
+    "uzunluk_jeton": 140.519955654102,
+    "red_orani": 0.0007390983000739098,
+    "listekod_payi": 0.019988686605709873,
+    "n_satir": 2706
+   },
+   "hizali": {
+    "M1": 40.13539771226258,
+    "uzunluk_jeton": 149.67812269031782,
+    "red_orani": 0.0003695491500369549,
+    "listekod_payi": 0.22282728563216367,
+    "n_satir": 2706
+   }
+  },
+  {
+   "aile": "Llama-3.1-70B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.3713,
+   "taban": {
+    "M1": 8.305244168460657,
+    "uzunluk_jeton": 144.29826732673268,
+    "red_orani": 0.004537953795379538,
+    "listekod_payi": 0.08598989901952919,
+    "n_satir": 2424
+   },
+   "hizali": {
+    "M1": 23.06543123760772,
+    "uzunluk_jeton": 150.22194719471946,
+    "red_orani": 0.02433993399339934,
+    "listekod_payi": 0.40329628315395644,
+    "n_satir": 2424
+   }
+  },
+  {
+   "aile": "Llama-3.1-8B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.4128,
+   "taban": {
+    "M1": 12.514176316966841,
+    "uzunluk_jeton": 142.65083487940632,
+    "red_orani": 0.0,
+    "listekod_payi": 0.16191450728062876,
+    "n_satir": 2695
+   },
+   "hizali": {
+    "M1": 20.019581954931834,
+    "uzunluk_jeton": 150.0756957328386,
+    "red_orani": 0.04007421150278293,
+    "listekod_payi": 0.433326281016448,
+    "n_satir": 2695
+   }
+  },
+  {
+   "aile": "Mistral-7B-v0.3",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.6195,
+   "taban": {
+    "M1": 13.236549149322277,
+    "uzunluk_jeton": 130.67779426310582,
+    "red_orani": 0.0002472799208704253,
+    "listekod_payi": 0.14139276620730626,
+    "n_satir": 4044
+   },
+   "hizali": {
+    "M1": 13.123973434264085,
+    "uzunluk_jeton": 138.50642927794263,
+    "red_orani": 0.0,
+    "listekod_payi": 0.42095756205548485,
+    "n_satir": 4044
+   }
+  },
+  {
+   "aile": "OLMo-3-7B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.6706,
+   "taban": {
+    "M1": 17.458429506806727,
+    "uzunluk_jeton": 155.16857012334398,
+    "red_orani": 0.043398812243033345,
+    "listekod_payi": 0.0659431689217722,
+    "n_satir": 4378
+   },
+   "hizali": {
+    "M1": 27.376630166429464,
+    "uzunluk_jeton": 157.28186386477844,
+    "red_orani": 0.002512562814070352,
+    "listekod_payi": 0.15705220810862655,
+    "n_satir": 4378
+   }
+  },
+  {
+   "aile": "OLMo2-13B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.4586,
+   "taban": {
+    "M1": 18.553737405939614,
+    "uzunluk_jeton": 121.53039412157649,
+    "red_orani": 0.0056780227120908485,
+    "listekod_payi": 0.023667507140916807,
+    "n_satir": 2994
+   },
+   "hizali": {
+    "M1": 4.008258156413213,
+    "uzunluk_jeton": 157.5738142952572,
+    "red_orani": 0.0,
+    "listekod_payi": 0.4246139103604033,
+    "n_satir": 2994
+   }
+  },
+  {
+   "aile": "OLMo2-32B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.5127,
+   "taban": {
+    "M1": 17.45309394498054,
+    "uzunluk_jeton": 107.9336719450254,
+    "red_orani": 0.00358530026889752,
+    "listekod_payi": 0.016609490167900684,
+    "n_satir": 3347
+   },
+   "hizali": {
+    "M1": 4.799259835234599,
+    "uzunluk_jeton": 151.77621750821632,
+    "red_orani": 0.00089632506722438,
+    "listekod_payi": 0.34058111741858377,
+    "n_satir": 3347
+   }
+  },
+  {
+   "aile": "Qwen2.5-1.5B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.2793,
+   "taban": {
+    "M1": 14.995731261463298,
+    "uzunluk_jeton": 134.28579264947888,
+    "red_orani": 0.03455842018650576,
+    "listekod_payi": 0.060779194597077195,
+    "n_satir": 1823
+   },
+   "hizali": {
+    "M1": 16.420947417270554,
+    "uzunluk_jeton": 122.93143170597915,
+    "red_orani": 0.11848601206801974,
+    "listekod_payi": 0.2158803971063982,
+    "n_satir": 1823
+   }
+  },
+  {
+   "aile": "Qwen2.5-14B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.4809,
+   "taban": {
+    "M1": 16.310553728810646,
+    "uzunluk_jeton": 129.729531697993,
+    "red_orani": 0.04587448231920994,
+    "listekod_payi": 0.10579229725364639,
+    "n_satir": 3139
+   },
+   "hizali": {
+    "M1": 11.209544388837188,
+    "uzunluk_jeton": 159.5202293724116,
+    "red_orani": 0.0,
+    "listekod_payi": 0.5563266235375187,
+    "n_satir": 3139
+   }
+  },
+  {
+   "aile": "Qwen2.5-32B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.536,
+   "taban": {
+    "M1": 19.443903906028872,
+    "uzunluk_jeton": 129.24378393826808,
+    "red_orani": 0.03543869677050586,
+    "listekod_payi": 0.12306140875732187,
+    "n_satir": 3499
+   },
+   "hizali": {
+    "M1": 12.14703876779236,
+    "uzunluk_jeton": 159.6847670763075,
+    "red_orani": 0.0,
+    "listekod_payi": 0.52650281032676,
+    "n_satir": 3499
+   }
+  },
+  {
+   "aile": "Qwen2.5-3B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.5312,
+   "taban": {
+    "M1": 14.038199628393716,
+    "uzunluk_jeton": 123.22202998846598,
+    "red_orani": 0.01182237600922722,
+    "listekod_payi": 0.10054688053237817,
+    "n_satir": 3468
+   },
+   "hizali": {
+    "M1": 11.142389477901018,
+    "uzunluk_jeton": 159.07641291810842,
+    "red_orani": 0.0008650519031141869,
+    "listekod_payi": 0.46444977392209225,
+    "n_satir": 3468
+   }
+  },
+  {
+   "aile": "Qwen2.5-72B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.5797,
+   "taban": {
+    "M1": 10.480510698443618,
+    "uzunluk_jeton": 147.33377378435517,
+    "red_orani": 0.06712473572938689,
+    "listekod_payi": 0.22263462254212782,
+    "n_satir": 3784
+   },
+   "hizali": {
+    "M1": 10.309329439321807,
+    "uzunluk_jeton": 159.9825581395349,
+    "red_orani": 0.0,
+    "listekod_payi": 0.6568571022587936,
+    "n_satir": 3784
+   }
+  },
+  {
+   "aile": "Qwen2.5-7B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.4697,
+   "taban": {
+    "M1": 15.947044837434404,
+    "uzunluk_jeton": 139.09784735812133,
+    "red_orani": 0.028049575994781473,
+    "listekod_payi": 0.1809910172571333,
+    "n_satir": 3066
+   },
+   "hizali": {
+    "M1": 8.713063851350658,
+    "uzunluk_jeton": 158.9787997390737,
+    "red_orani": 0.0,
+    "listekod_payi": 0.6408873787298445,
+    "n_satir": 3066
+   }
+  },
+  {
+   "aile": "Tulu3-8B",
+   "hal": "ÖLCÜLDÜ",
+   "tutulan_oran": 0.4559,
+   "taban": {
+    "M1": 20.42037982871984,
+    "uzunluk_jeton": 139.21102150537635,
+    "red_orani": 0.0010080645161290322,
+    "listekod_payi": 0.011866081208866975,
+    "n_satir": 2976
+   },
+   "hizali": {
+    "M1": 2.007876390648294,
+    "uzunluk_jeton": 155.97177419354838,
+    "red_orani": 0.0013440860215053765,
+    "listekod_payi": 0.25589917754736297,
+    "n_satir": 2976
+   }
+  }
+ ]
+}

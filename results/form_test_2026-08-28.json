@@ -1,0 +1,107 @@
+{
+ "surum": "form_sayim v1",
+ "bar": 0.9,
+ "asgari_pozitif": 6,
+ "asgari_kol": 3,
+ "n_madde": 70,
+ "red_cok_cumleli": 2,
+ "sayac": {
+  "a": {
+   "tp": 11,
+   "fp": 0,
+   "tn": 58,
+   "fn": 1,
+   "duyarlilik": 0.9166666666666666,
+   "ozgulluk": 1.0,
+   "dengeli_dogruluk": 0.9583333333333333,
+   "duz_dogruluk": 0.9857142857142858,
+   "hep_negatif_dogruluk": 0.8285714285714286,
+   "n_pozitif": 12,
+   "n_pozitif_kol": 10,
+   "AD": "GECER"
+  },
+  "b": {
+   "tp": 2,
+   "fp": 0,
+   "tn": 68,
+   "fn": 0,
+   "duyarlilik": 1.0,
+   "ozgulluk": 1.0,
+   "dengeli_dogruluk": 1.0,
+   "duz_dogruluk": 1.0,
+   "hep_negatif_dogruluk": 0.9714285714285714,
+   "n_pozitif": 2,
+   "n_pozitif_kol": 2,
+   "AD": "DOGRULUK-ÖLCÜLEMEZ"
+  },
+  "c": {
+   "tp": 14,
+   "fp": 0,
+   "tn": 56,
+   "fn": 0,
+   "duyarlilik": 1.0,
+   "ozgulluk": 1.0,
+   "dengeli_dogruluk": 1.0,
+   "duz_dogruluk": 1.0,
+   "hep_negatif_dogruluk": 0.8,
+   "n_pozitif": 14,
+   "n_pozitif_kol": 11,
+   "AD": "GECER"
+  },
+  "d": {
+   "tp": 7,
+   "fp": 0,
+   "tn": 63,
+   "fn": 0,
+   "duyarlilik": 1.0,
+   "ozgulluk": 1.0,
+   "dengeli_dogruluk": 1.0,
+   "duz_dogruluk": 1.0,
+   "hep_negatif_dogruluk": 0.9,
+   "n_pozitif": 7,
+   "n_pozitif_kol": 5,
+   "AD": "GECER"
+  },
+  "e": {
+   "tp": 9,
+   "fp": 0,
+   "tn": 61,
+   "fn": 0,
+   "duyarlilik": 1.0,
+   "ozgulluk": 1.0,
+   "dengeli_dogruluk": 1.0,
+   "duz_dogruluk": 1.0,
+   "hep_negatif_dogruluk": 0.8714285714285714,
+   "n_pozitif": 9,
+   "n_pozitif_kol": 9,
+   "AD": "GECER"
+  },
+  "b_cekirdek": {
+   "tp": 0,
+   "fp": 0,
+   "tn": 68,
+   "fn": 2,
+   "duyarlilik": 0.0,
+   "ozgulluk": 1.0,
+   "dengeli_dogruluk": 0.5,
+   "duz_dogruluk": 0.9714285714285714,
+   "hep_negatif_dogruluk": 0.9714285714285714,
+   "n_pozitif": 2,
+   "n_pozitif_kol": 2,
+   "AD": "DOGRULUK-ÖLCÜLEMEZ"
+  }
+ },
+ "hatali_maddeler": {
+  "a": [
+   "V2"
+  ],
+  "b": [],
+  "c": [],
+  "d": [],
+  "e": [],
+  "b_cekirdek": [
+   "R13",
+   "T0"
+  ]
+ }
+}

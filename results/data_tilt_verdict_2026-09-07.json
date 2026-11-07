@@ -1,0 +1,168 @@
+{
+ "damga_utc": "2026-09-07T13:59:06Z",
+ "prereg": "TASLAK_PREREG_KK3_2026-09-05.md @ fee45d67 · IMZALI m=8 · gövde 7690b9b11a1dafb9",
+ "bar": 1.1,
+ "mde_B": 1.29,
+ "null_sd_kuvvet": 0.00104,
+ "m": 8,
+ "nb": 1000,
+ "du_null_sd_prereg": 0.0026626139817629182,
+ "errata_1": "",
+ "taban_M1": 9.981037310373104,
+ "kol": {
+  "KK3_NOTR": {
+   "dA": -1.1224340002903708,
+   "dB": 0.41643969622026566,
+   "ciA": [
+    -1.9454679845643095,
+    -0.3070025550418582
+   ],
+   "ciB": [
+    0.16859988467535753,
+    0.7395744552623729
+   ],
+   "plasebo_p95": 1.0868093059884918,
+   "plasebo_ort": -0.027269675443104574,
+   "hal_A": "GECTI",
+   "hal_B": "GECMEZ",
+   "bilesen_A": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "bilesen_B": {
+    "bar": false,
+    "ayrik": true,
+    "plasebo": false
+   },
+   "hucre_A": "GECTI",
+   "hucre_B": "GECMEZ",
+   "dKUVVET": 0.0008242423809741637,
+   "z_kuvvet": 0.7925407509366958,
+   "kuvvet_yerinde": true,
+   "dSAHIS1": -0.6091205986200618,
+   "dJETON_CUMLE": 0.32017331581016295,
+   "dSAHIS1_A": -3.233049190080248,
+   "dJETON_CUMLE_A": 1.0364244894177532,
+   "distinct4": 0.7663804169551865,
+   "raf": false,
+   "dU_PREREG_DOM": 0.007051875000000007,
+   "z_dU": 0.7157799519994986,
+   "dU_yerinde": true,
+   "z_dU_PREREG_REF": 2.6484781678082214,
+   "dU_yerinde_PREREG_REF": false
+  },
+  "KK3_TABAN": {
+   "dA": -1.5388736965106364,
+   "dB": 0.0,
+   "ciA": [
+    -2.3662539534858014,
+    -0.7786144461359213
+   ],
+   "ciB": [
+    0.0,
+    0.0
+   ],
+   "plasebo_p95": 0.9487795130556589,
+   "plasebo_ort": -0.03901365476468679,
+   "hal_A": "GECTI",
+   "hal_B": "GECMEZ",
+   "bilesen_A": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "bilesen_B": {
+    "bar": false,
+    "ayrik": false,
+    "plasebo": false
+   },
+   "hucre_A": "GECTI",
+   "hucre_B": "GECMEZ",
+   "dKUVVET": 0.0,
+   "z_kuvvet": 0.0,
+   "kuvvet_yerinde": true,
+   "dSAHIS1": 0.0,
+   "dJETON_CUMLE": 0.0,
+   "dSAHIS1_A": -2.623928591460186,
+   "dJETON_CUMLE_A": 0.7162511736075903,
+   "distinct4": 0.7606570133945183,
+   "raf": false,
+   "dU_PREREG_DOM": 0.008659375000000007,
+   "z_dU": 1.0451424006624712,
+   "dU_yerinde": false,
+   "z_dU_PREREG_REF": 3.252208190639272,
+   "dU_yerinde_PREREG_REF": false
+  },
+  "KK3_UCKAT": {
+   "dA": -5.277681568577165,
+   "dB": -3.7388078720665288,
+   "ciA": [
+    -6.90388491298462,
+    -3.9286835176675057
+   ],
+   "ciB": [
+    -4.998808663930717,
+    -2.724866553066027
+   ],
+   "plasebo_p95": 0.7230102820294062,
+   "plasebo_ort": -0.0031826879399864884,
+   "hal_A": "GECTI",
+   "hal_B": "GECTI",
+   "bilesen_A": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "bilesen_B": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "hucre_A": "GECTI",
+   "hucre_B": "GECTI",
+   "dKUVVET": -0.003923491158748278,
+   "z_kuvvet": 3.7725876526425752,
+   "kuvvet_yerinde": false,
+   "dSAHIS1": -1.4335484879192515,
+   "dJETON_CUMLE": 0.2563191586329072,
+   "dSAHIS1_A": -4.057477079379437,
+   "dJETON_CUMLE_A": 0.9725703322404975,
+   "distinct4": 0.7573501317581991,
+   "raf": false,
+   "dU_PREREG_DOM": 0.008318625000000005,
+   "z_dU": 0.8864971607327643,
+   "dU_yerinde": true,
+   "z_dU_PREREG_REF": 3.1242324486301385,
+   "dU_yerinde_PREREG_REF": false
+  }
+ },
+ "verdict": {
+  "kk3": "VERI-EGIMI-TASIYOR",
+  "okuma_A": {
+   "KK3_NOTR": -1.1224340002903708,
+   "KK3_TABAN": -1.5388736965106364,
+   "KK3_UCKAT": -5.277681568577165
+  },
+  "okuma_B": {
+   "KK3_NOTR": 0.41643969622026566,
+   "KK3_TABAN": 0.0,
+   "KK3_UCKAT": -3.7388078720665288
+  },
+  "ci_fark": [
+   3.014116829475899,
+   5.606754869805248
+  ],
+  "plasebo_p95": 1.0868093059884918,
+  "rafta": [],
+  "pay": 0.9605848884396998,
+  "pay_not": null,
+  "egim_fit": 1.4729347949153693,
+  "yon_asagi": true,
+  "fark": 4.155247568286795,
+  "bar": true,
+  "ayrik": true,
+  "plasebo": true,
+  "alt_ad": "GECTI"
+ }
+}

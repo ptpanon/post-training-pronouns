@@ -1,0 +1,143 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-10-29T16:03:55Z",
+  "alet": "scripts/b1b_rm_regresyon.py",
+  "alet_sha16": "feda4cfbaac088b5",
+  "prereg": "<repo>/reports/opus/PREREG_GPU_B1B_P11_2026-10-28.md",
+  "prereg_commit": "db97f2417646ca130118b204cdf5fe6d225a2298",
+  "oznitelik_sha16": "6694b351dd0b5fbf",
+  "ornek": {
+   "damga_utc": "2026-10-28T19:43:11Z",
+   "alet": "scripts/b1b_rm_regresyon.py (p11-gpu-hafta)",
+   "alet_sha16": "feda4cfbaac088b5",
+   "seed": 20261028,
+   "n_set": 20000,
+   "evren": "HAVUZ (havuz_kisi_deltasi --tam, 494 833 cift) ∩ RM-gecerli",
+   "korpus": {
+    "hh-rlhf": {
+     "n_havuz": 160800,
+     "red_havuz_bos_taraf": 185,
+     "red_cok_tur": 111337,
+     "red_istem_uyusmaz": 0,
+     "red_bos_istem": 0,
+     "n_havuz_gecerli": 160615,
+     "n_rm_gecerli": 49278,
+     "n_secilen": 20000,
+     "veri_parmak_izi": "0e32124f560a1d16"
+    },
+    "ultrafeedback": {
+     "n_havuz": 61135,
+     "red_havuz_bos_taraf": 81,
+     "red_cok_tur": 0,
+     "red_istem_uyusmaz": 0,
+     "red_bos_istem": 0,
+     "n_havuz_gecerli": 61054,
+     "n_rm_gecerli": 61054,
+     "n_secilen": 20000,
+     "veri_parmak_izi": "b7407175e485ef6b"
+    },
+    "tulu3-pref": {
+     "n_havuz": 272898,
+     "red_havuz_bos_taraf": 940,
+     "red_cok_tur": 0,
+     "red_istem_uyusmaz": 0,
+     "red_bos_istem": 3,
+     "n_havuz_gecerli": 271958,
+     "n_rm_gecerli": 271955,
+     "n_secilen": 20000,
+     "veri_parmak_izi": "1851af97563e4481"
+    }
+   },
+   "esdegerlik": {
+    "modal_1k": 3.552713678800501e-15,
+    "LOG_JETON": 2.6645352591003757e-15,
+    "LOG_CUMLE": 1.7763568394002505e-15,
+    "M1_kur_vs_bin_jetonda": 2.6645352591003757e-15
+   },
+   "n_kume": 58747,
+   "oznitelik_sha16": "6694b351dd0b5fbf",
+   "metin_sha16": "b20d2b86d193d56a",
+   "spacy": "form_sayim._boru (en_core_web_sm, ner/lemmatizer haric)",
+   "sahis3_deseni": "p11_yargic_imzasi5.SAHIS3 (:77)"
+  },
+  "seed": 20261028,
+  "nb": 1000,
+  "okuma": "CI",
+  "birincil": "β(ΔM1) 8 kontrol + korpus FE",
+  "ikincil": "β(ΔM1) korpus FE, isimsiz"
+ },
+ "rm": {
+  "armorm": {
+   "beta_kontrollu": -0.05201855871126622,
+   "ci_kontrollu": [
+    -0.05829532649276547,
+    -0.04565760365969094
+   ],
+   "se_boot_kontrollu": 0.003245159043968153,
+   "beta_kontrolsuz": -0.0672285958993852,
+   "ci_kontrolsuz": [
+    -0.07367373337030382,
+    -0.061050948188733606
+   ],
+   "se_boot_kontrolsuz": 0.0031941719450344834,
+   "beta_kontroller_betimsel": {
+    "modal_1k": -0.03724700725162816,
+    "hedge_1k": 0.0017591904570368818,
+    "RED": -0.054329469046775235,
+    "LISTEKOD": 0.17916468190125376,
+    "LOG_JETON": -0.03267110220164125,
+    "LOG_CUMLE": -0.06978930635830777,
+    "SAHIS3_1k": -0.0012152924292015736,
+    "ACIKLAMA_SORUSU": -0.01746510694978507
+   },
+   "n_kume": 58739,
+   "ad": "CEZALANDIRIYOR",
+   "n_cift": 60000,
+   "n_tam": 59992,
+   "red_eksik": 8,
+   "n_korpus": {
+    "hh-rlhf": 20000,
+    "ultrafeedback": 20000,
+    "tulu3-pref": 19992
+   },
+   "marj_ham_ort": 0.022153998044414955,
+   "marj_ham_sd": 0.03725828747613532
+  },
+  "skywork": {
+   "beta_kontrollu": -0.05130732964243173,
+   "ci_kontrollu": [
+    -0.05707383354763003,
+    -0.04558393780667561
+   ],
+   "se_boot_kontrollu": 0.0029348730069699396,
+   "beta_kontrolsuz": -0.06962762720247537,
+   "ci_kontrolsuz": [
+    -0.07508801794268831,
+    -0.06412005673790647
+   ],
+   "se_boot_kontrolsuz": 0.002892196781167412,
+   "beta_kontroller_betimsel": {
+    "modal_1k": -0.028177690828826325,
+    "hedge_1k": -0.01490699126527209,
+    "RED": -0.017113648680725298,
+    "LISTEKOD": 0.1618348785964812,
+    "LOG_JETON": 0.03223903860460495,
+    "LOG_CUMLE": 0.050351441273576686,
+    "SAHIS3_1k": -0.02699470846783536,
+    "ACIKLAMA_SORUSU": -0.0074666457319902905
+   },
+   "n_kume": 58747,
+   "ad": "CEZALANDIRIYOR",
+   "n_cift": 60000,
+   "n_tam": 60000,
+   "red_eksik": 0,
+   "n_korpus": {
+    "hh-rlhf": 20000,
+    "ultrafeedback": 20000,
+    "tulu3-pref": 20000
+   },
+   "marj_ham_ort": 7.556189831336339,
+   "marj_ham_sd": 14.22743582100086
+  }
+ }
+}

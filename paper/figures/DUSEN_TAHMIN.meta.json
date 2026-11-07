@@ -1,0 +1,33 @@
+{
+ "table": "DUSEN_TAHMIN",
+ "ciktilar": [
+  "DUSEN_TAHMIN.tex",
+  "DUSEN_TAHMIN_CUMLE.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/failed_tahmin_satirlari_2026-09-17.json",
+   "sha256_16": "ee903968db197ee9"
+  }
+ ],
+ "payda": {
+  "N": 32,
+  "M": 19,
+  "T": 46,
+  "N_burada": 26,
+  "M_burada": 13,
+  "n_satir": 21,
+  "n_depo_satir": 8,
+  "depo_satir": [
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "n_islemsel": 2,
+  "n_taban": 2
+ },
+ "note": "renders the recount card one line per registration; no new statistic"
+}

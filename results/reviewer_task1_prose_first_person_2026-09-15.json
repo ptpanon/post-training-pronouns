@@ -1,0 +1,698 @@
+{
+ "sinif": "BETIM · card",
+ "rule": "preregistration/rule_prose_first_person_2026-09-15.md @ 508b8179",
+ "soru": "IS",
+ "satir_deseni": "^\\s{0,3}#{1,6}\\s+\\S|^\\s{0,3}[-*+•]\\s+\\S|^\\s{0,3}\\d{1,2}[.)]\\s+\\S|^\\s*\\*\\*[^*\\n]+\\*\\*\\s*:?\\s*$",
+ "alet": {
+  "hal": "ESDEGER",
+  "en_buyuk_sapma": 0.0,
+  "kapilar": "ham M1 ≤1e-6 · ham sahis1 ≤1e-6 · Q1 tam 4 ondalik · Q2 düzyazi 4 ondalik · Q2 pay 4 ondalik"
+ },
+ "sayim": {
+  "asagi": 16,
+  "yukari": 0,
+  "null": 0
+ },
+ "sayim_adlar": {
+  "asagi": [
+   "Gemma-3-12B",
+   "Gemma-3-27B",
+   "Gemma-3-4B",
+   "Llama-3.1-70B",
+   "Llama-3.1-8B",
+   "Mistral-7B-v0.3",
+   "OLMo-3-7B",
+   "OLMo2-13B",
+   "OLMo2-32B",
+   "Qwen2.5-1.5B",
+   "Qwen2.5-14B",
+   "Qwen2.5-32B",
+   "Qwen2.5-3B",
+   "Qwen2.5-72B",
+   "Qwen2.5-7B",
+   "Tulu3-8B"
+  ],
+  "yukari": [],
+  "null": []
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -14.0242,
+    "ci": [
+     -15.086,
+     -12.9536
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -16.6249,
+    "ci": [
+     -17.7184,
+     -15.4084
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": 0.6896,
+    "ci": [
+     -0.9667,
+     2.1296
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.1282,
+    "hizali": 0.4447
+   }
+  },
+  "Gemma-3-27B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -12.5255,
+    "ci": [
+     -13.8156,
+     -11.1207
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -15.5322,
+    "ci": [
+     -16.7711,
+     -14.2664
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -0.3545,
+    "ci": [
+     -2.5004,
+     1.5437
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.1373,
+    "hizali": 0.4547
+   }
+  },
+  "Gemma-3-4B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -6.1082,
+    "ci": [
+     -7.2996,
+     -4.9953
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -9.3445,
+    "ci": [
+     -10.533,
+     -8.0515
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -1.1568,
+    "ci": [
+     -2.5476,
+     0.2218
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.1595,
+    "hizali": 0.4317
+   }
+  },
+  "Llama-3.1-70B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -9.2713,
+    "ci": [
+     -10.6019,
+     -7.7789
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -8.6901,
+    "ci": [
+     -9.9801,
+     -7.3332
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -3.9169,
+    "ci": [
+     -4.5577,
+     -3.2366
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.0588,
+    "hizali": 0.0847
+   }
+  },
+  "Llama-3.1-8B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -6.3995,
+    "ci": [
+     -7.4895,
+     -5.3724
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -6.2101,
+    "ci": [
+     -7.3258,
+     -5.1874
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -4.9238,
+    "ci": [
+     -5.8957,
+     -3.9953
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.0511,
+    "hizali": 0.075
+   }
+  },
+  "Mistral-7B-v0.3": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -13.9131,
+    "ci": [
+     -15.4094,
+     -12.2079
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -15.338,
+    "ci": [
+     -16.6372,
+     -13.9314
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -8.6821,
+    "ci": [
+     -9.9991,
+     -7.4227
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.3069,
+    "hizali": 0.6347
+   }
+  },
+  "OLMo-3-7B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -7.8706,
+    "ci": [
+     -8.9353,
+     -6.8728
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -7.6974,
+    "ci": [
+     -8.8103,
+     -6.6688
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -4.7133,
+    "ci": [
+     -5.691,
+     -3.7237
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.0548,
+    "hizali": 0.078
+   }
+  },
+  "OLMo2-13B": {
+   "kontrast": "taban→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -12.5523,
+    "ci": [
+     -13.6251,
+     -11.5827
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -12.5613,
+    "ci": [
+     -13.643,
+     -11.6097
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -6.2687,
+    "ci": [
+     -7.3898,
+     -5.4004
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.0902,
+    "hizali": 0.12
+   }
+  },
+  "OLMo2-32B": {
+   "kontrast": "taban→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -10.6649,
+    "ci": [
+     -11.7378,
+     -9.5968
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -10.6527,
+    "ci": [
+     -11.6681,
+     -9.5983
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -4.7678,
+    "ci": [
+     -5.4647,
+     -4.0682
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.0721,
+    "hizali": 0.0608
+   }
+  },
+  "Qwen2.5-1.5B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -4.6104,
+    "ci": [
+     -5.8686,
+     -3.3757
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -5.2242,
+    "ci": [
+     -6.3222,
+     -4.1084
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -1.1273,
+    "ci": [
+     -2.4942,
+     0.1003
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.1131,
+    "hizali": 0.2399
+   }
+  },
+  "Qwen2.5-14B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -12.5695,
+    "ci": [
+     -13.5929,
+     -11.4959
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -13.0016,
+    "ci": [
+     -14.0032,
+     -12.0607
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -1.6713,
+    "ci": [
+     -2.9858,
+     -0.4853
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.1268,
+    "hizali": 0.4803
+   }
+  },
+  "Qwen2.5-32B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -14.0715,
+    "ci": [
+     -15.0121,
+     -13.0262
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -15.1213,
+    "ci": [
+     -15.9702,
+     -14.1191
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -0.3375,
+    "ci": [
+     -1.2962,
+     0.5583
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.1034,
+    "hizali": 0.4553
+   }
+  },
+  "Qwen2.5-3B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -7.0924,
+    "ci": [
+     -8.0957,
+     -6.0459
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -8.0453,
+    "ci": [
+     -8.9653,
+     -7.0909
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -2.6856,
+    "ci": [
+     -4.1861,
+     -1.246
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.099,
+    "hizali": 0.3879
+   }
+  },
+  "Qwen2.5-72B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -11.6642,
+    "ci": [
+     -12.8769,
+     -10.3928
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -13.4128,
+    "ci": [
+     -14.564,
+     -12.2425
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -1.2849,
+    "ci": [
+     -3.3538,
+     0.4641
+    ],
+    "sinif": "null",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.1233,
+    "hizali": 0.5487
+   }
+  },
+  "Qwen2.5-7B": {
+   "kontrast": "base→instruct",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -8.1237,
+    "ci": [
+     -9.0798,
+     -7.1718
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -9.4465,
+    "ci": [
+     -10.2862,
+     -8.6207
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -2.7958,
+    "ci": [
+     -4.437,
+     -1.3651
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.1215,
+    "hizali": 0.4378
+   }
+  },
+  "Tulu3-8B": {
+   "kontrast": "taban→rl",
+   "kapi": {
+    "ham_M1": 0.0,
+    "ham_sahis1": 0.0,
+    "q1_tam": 0.0,
+    "q2_duzyazi": 0.0,
+    "q2_pay": 0.0
+   },
+   "duzyazi_d1st": {
+    "d": -17.4836,
+    "ci": [
+     -18.6431,
+     -16.3157
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "tam_d1st_q1": {
+    "d": -16.818,
+    "ci": [
+     -17.9421,
+     -15.6115
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "duzyazi_dM1_q2": {
+    "d": -9.0354,
+    "ci": [
+     -10.4093,
+     -7.7988
+    ],
+    "sinif": "asagi",
+    "n_istem": 34
+   },
+   "atilan_satir_payi": {
+    "taban": 0.0511,
+    "hizali": 0.1001
+   }
+  }
+ },
+ "damga_utc": "2026-09-15T21:12:20Z",
+ "sure_dk": 13.3
+}

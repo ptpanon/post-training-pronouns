@@ -1,0 +1,30 @@
+{
+ "sinif": "sonradan betim, karar yok",
+ "n_tabaka_hedef_5plus": 32,
+ "n_bos_tabaka": 1,
+ "hedef_satir_bos": 12,
+ "hacim_sinifi_bos": {
+  "4": 1
+ },
+ "hacim_sinifi_aday": {
+  "3": 5394,
+  "2": 143553,
+  "1": 3472,
+  "0": 2468,
+  "4": 3915
+ },
+ "hacim_sinifi_hedef": {
+  "2": 5119,
+  "0": 592,
+  "4": 621,
+  "3": 624,
+  "1": 581
+ },
+ "sinif_adi": {
+  "0": "ΔKJ<0, ≤ medyan (büyük kayip)",
+  "1": "ΔKJ<0, kücük kayip",
+  "2": "ΔKJ=0",
+  "3": "ΔKJ>0, kücük",
+  "4": "ΔKJ>0, > medyan"
+ }
+}

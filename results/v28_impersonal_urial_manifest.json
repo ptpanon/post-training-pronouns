@@ -1,0 +1,57 @@
+{
+ "damga_utc": "2026-09-09T12:27:40Z",
+ "alet": "scripts/v28_impersonal_urial.py",
+ "borc": "D-0910-V28 §1",
+ "kaynak": {
+  "dosya": "<data>/unreleased/inst_1k.txt",
+  "sha256": "3a3989a9c5a58293362de475be08218cc552544882b8a8356b558d03c1a91f06"
+ },
+ "hedef": {
+  "dosya": "<data>/unreleased/inst_1k_kisisiz.txt",
+  "sha256": "46fd36169ea97c75a3990aafef8cb4ec6cc475de406dcd599532190bd246ef34",
+  "bayt": 4289
+ },
+ "donusum": {
+  "n_hedefli": 10,
+  "n_genel": 7,
+  "cerceve": {
+   "# Instruction": [
+    1,
+    1
+   ],
+   "# Query:": [
+    4,
+    4
+   ],
+   "# Answer:": [
+    4,
+    4
+   ],
+   "```": [
+    12,
+    12
+   ],
+   "satir": [
+    55,
+    55
+   ]
+  },
+  "artik_ikinci_sahis": []
+ },
+ "M1_kisisiz": {
+  "baslik": 0.0,
+  "cevaplar_uc": 4.8701,
+  "onek_butun": 0.0
+ },
+ "M1_kaynak": {
+  "baslik": 60.1504,
+  "cevaplar_uc": 16.2866,
+  "onek_butun": 21.2515
+ },
+ "SERH": "",
+ "M1_SERHI": "",
+ "KIYAS_PLANI": {
+  "i": "base-kisisizURIAL ↔ instruct kendi sablonunda (c1_panel_template, VAR)",
+  "ii": ""
+ }
+}

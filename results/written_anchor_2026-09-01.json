@@ -1,0 +1,137 @@
+{
+ "SE": {
+  "M1": 19.5958168999938,
+  "M2": 0.0566852487135506,
+  "M3": 0.7579693034238488,
+  "M4": 0.03711544168562667,
+  "M5": 0.16026054994109562,
+  "KUVVET": 0.07477272727272727,
+  "n": 20000,
+  "n_kume": 20000,
+  "M1_ci": [
+   19.17159493978,
+   20.007694318012803
+  ],
+  "jeton_ort": 275.7859,
+  "_payda": {
+   "n_satir_gorulen": 253946,
+   "red_kisa": 28729,
+   "n_site": 10,
+   "pay_site": 2000,
+   "sha": {
+    "english": "69d2591185246e52",
+    "academia": "940f6fe1672857a2",
+    "history": "f4ea82ab05f8d2d8",
+    "philosophy": "077fdb0672205f26",
+    "cooking": "395f5d33eb2a2daf",
+    "gardening": "82ab2d05519e5989",
+    "writers": "9bcc40ba0c31b9ad",
+    "law": "6bf097566bf894be",
+    "parenting": "932f7c9ab4743804",
+    "money": "93844bfd38e113ff"
+   }
+  },
+  "_kaynak": {
+   "repo": "flax-sentence-embeddings/stackexchange_title_best_voted_answer_jsonl",
+   "lisans_card": "cc-by-nc-sa-4.0",
+   "lisans_icerik": "CC BY-SA 3.0 (Stack Exchange icerigi)",
+   "kume": "konu-dizisi (thread) — CMV'nin `root`'unun tam karsiligi"
+  },
+  "site_M1": {
+   "academia": 35.058,
+   "cooking": 22.8,
+   "english": 11.092,
+   "gardening": 22.545,
+   "history": 2.662,
+   "law": 16.465,
+   "money": 37.448,
+   "parenting": 27.033,
+   "philosophy": 7.688,
+   "writers": 28.042
+  },
+  "site_yayilim": [
+   2.662,
+   37.448
+  ]
+ },
+ "WIKIHOW": {
+  "M1": 50.791545458224114,
+  "M2": 0.1412601878283894,
+  "M3": 0.5449101796407185,
+  "M4": 0.0007668402147152601,
+  "M5": 0.14607329607531933,
+  "KUVVET": 0.4158868065036614,
+  "n": 1871,
+  "n_kume": 1871,
+  "M1_ci": [
+   49.508755529685516,
+   52.095616130754976
+  ],
+  "jeton_ort": 1188.7386424371994,
+  "_payda": {
+   "n_satir_gorulen": 1878,
+   "red_kisa": 7,
+   "sha": {
+    "tek": "901e7a2d52e822da"
+   }
+  },
+  "_kaynak": {
+   "repo": "soyasis/wikihow_small",
+   "dosya": "wikihow_18k.json",
+   "lisans_card": "",
+   "lisans_icerik": "CC BY-NC-SA (wikiHow); kullanim YALNIZ ÖLCÜM",
+   "kume": "madde (article)"
+  }
+ },
+ "OPENSTAX": {
+  "M1": 4.031305751628657,
+  "M2": 0.038357833578230374,
+  "M3": 0.9280997798972854,
+  "M4": 0.008618901666167354,
+  "M5": 0.17865408164462038,
+  "KUVVET": 0.07303272485026847,
+  "n": 20000,
+  "n_kume": 76,
+  "M1_ci": [
+   3.122906952177568,
+   5.342799360465867
+  ],
+  "jeton_ort": 464.70055,
+  "_payda": {
+   "n_parca_gorulen": 68307,
+   "red_kisa": 2076,
+   "red_alfa_dusuk": 9749,
+   "red_on_madde": 2071,
+   "n_kitap": 76,
+   "havuz": 56482
+  },
+  "_kaynak": {
+   "repo": "crumb/openstax-text",
+   "lisans_card": "cc-by-4.0",
+   "lisans_icerik": "CC BY 4.0 (OpenStax, Rice University)",
+   "kume": "kitap (book)"
+  }
+ },
+ "_kunye": {
+  "damga_utc": "2026-09-01T12:39:52Z",
+  "SINIF": "KESIF/BETIM — bar YOK · ad YOK · prediction YOK (§10)",
+  "motor": "insan_bandi.olc (ITHAL, K-5a) — 500 cekim küme-bootstrap",
+  "asgari_kelime": 40,
+  "asgari_kelime_kaynak": "insan_bandi.ASGARI_KELIME (§7.4 tasindi, beyan)",
+  "n_hedef": 20000,
+  "seed": 20260901,
+  "se_siteler": [
+   "english",
+   "academia",
+   "history",
+   "philosophy",
+   "cooking",
+   "gardening",
+   "writers",
+   "law",
+   "parenting",
+   "money"
+  ],
+  "not_": ""
+ }
+}

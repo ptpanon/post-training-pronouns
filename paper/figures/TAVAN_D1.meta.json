@@ -1,0 +1,57 @@
+{
+ "table": "TAVAN_D1",
+ "ciktilar": [
+  "TAVAN_D1.tex",
+  "ELICIT_TAVAN_CUMLE.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/v97_generation_tavani_2026-09-19.json",
+   "sha256_16": "2b76e3599f7d7500"
+  }
+ ],
+ "payda": {
+  "n_model": 16,
+  "kok": [
+   "ham",
+   "template",
+   "urial",
+   "siradan_B1",
+   "elicit"
+  ],
+  "medyan": {
+   "ham": [
+    0.7639,
+    0.9473
+   ],
+   "template": [
+    0.8021,
+    0.9934
+   ],
+   "urial": [
+    0.9712,
+    0.9996
+   ],
+   "siradan_B1": [
+    0.9704,
+    0.6292
+   ],
+   "elicit": [
+    0.1995,
+    0.0
+   ]
+  },
+  "elicit_hizali_buyuk": {
+   "Gemma-3-27B": 0.7424,
+   "Gemma-3-12B": 0.6793,
+   "Gemma-3-4B": 0.3712,
+   "OLMo-3-7B": 0.2399
+  },
+  "sayac_kayit_uyumu": {
+   "n_bacak": 32,
+   "en_dusuk": 0.7878787878787878,
+   "en_dusuk_2": 0.9722222222222222
+  }
+ },
+ "note": "renders the R5 cap card; no statistic computed here"
+}

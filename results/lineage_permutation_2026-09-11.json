@@ -1,0 +1,132 @@
+{
+ "damga_utc": "2026-09-11T22:52:14Z",
+ "SINIF": "ÖLCÜM — karar kaskadi kosudan ÖNCE gövdede sabitlendi",
+ "alet": "scripts/lineage_permutation.py",
+ "borc": "D-0911-V33 §B/3 · HAKEM-ASSISTANT W4",
+ "kaynak": "results/template_filtered_2026-09-07.json",
+ "nicelik": "sbl.dM1 (sablonlu ΔM1)",
+ "kume_birimi": "aile",
+ "n_perm": 1000,
+ "seed": 20260911,
+ "bar": 0.05,
+ "referans": "",
+ "soy": {
+  "AI2": 3,
+  "Google": 3,
+  "Meta": 2,
+  "Mistral": 1,
+  "OLMo-3": 1,
+  "Qwen": 6
+ },
+ "aile": {
+  "Gemma-3-12B": {
+   "soy": "Google",
+   "dM1": 24.6134
+  },
+  "Gemma-3-27B": {
+   "soy": "Google",
+   "dM1": 32.2671
+  },
+  "Gemma-3-4B": {
+   "soy": "Google",
+   "dM1": 26.3549
+  },
+  "Llama-3.1-70B": {
+   "soy": "Meta",
+   "dM1": 14.7602
+  },
+  "Llama-3.1-8B": {
+   "soy": "Meta",
+   "dM1": 7.5054
+  },
+  "Mistral-7B-v0.3": {
+   "soy": "Mistral",
+   "dM1": -0.1126
+  },
+  "OLMo-3-7B": {
+   "soy": "OLMo-3",
+   "dM1": 9.9182
+  },
+  "OLMo2-13B": {
+   "soy": "AI2",
+   "dM1": -14.5455
+  },
+  "OLMo2-32B": {
+   "soy": "AI2",
+   "dM1": -12.6538
+  },
+  "Qwen2.5-1.5B": {
+   "soy": "Qwen",
+   "dM1": 1.4252
+  },
+  "Qwen2.5-14B": {
+   "soy": "Qwen",
+   "dM1": -5.101
+  },
+  "Qwen2.5-32B": {
+   "soy": "Qwen",
+   "dM1": -7.2969
+  },
+  "Qwen2.5-3B": {
+   "soy": "Qwen",
+   "dM1": -2.8958
+  },
+  "Qwen2.5-72B": {
+   "soy": "Qwen",
+   "dM1": -0.1712
+  },
+  "Qwen2.5-7B": {
+   "soy": "Qwen",
+   "dM1": -7.234
+  },
+  "Tulu3-8B": {
+   "soy": "AI2",
+   "dM1": -18.4125
+  }
+ },
+ "H": {
+  "gozlenen": 13.7059,
+  "null_ort": 5.0148,
+  "null_sd": 2.2391,
+  "frac": 0.0
+ },
+ "eta2": {
+  "gozlenen": 0.9584,
+  "null_ort": 0.3334,
+  "frac": 0.0
+ },
+ "okuma_B": {
+  "aciklama": "",
+  "soy": {
+   "AI2": 4,
+   "Google": 3,
+   "Meta": 2,
+   "Mistral": 1,
+   "Qwen": 6
+  },
+  "H": 10.3971,
+  "null_ort": 4.035,
+  "frac": 0.01,
+  "eta2": 0.82,
+  "frac_eta2": 0.0,
+  "VERDICT": "SIRALIYOR"
+ },
+ "ulasilabilir_en_kucuk_frac": 0.001,
+ "taban_cozunurluk": 0.001,
+ "guc_kontrolu": {
+  "aciklama": "pozitif kontrol: EN IYI olasi etiketleme",
+  "H_en_iyi": 14.0294,
+  "frac": 0.0,
+  "guc_var": true
+ },
+ "isaret": {
+  "aciklama": "iddianin kendi ekseni: yukari/asagi bölünmesi",
+  "uyusan": 13,
+  "n_isaretli": 14,
+  "null_ort": 10.325,
+  "frac": 0.03,
+  "VERDICT": "ISARETI-SIRALIYOR"
+ },
+ "VERDICT": "SIRALIYOR",
+ "CUMLE": "lineage sorts the magnitudes; lineage and recipe are confounded in this panel"
+}

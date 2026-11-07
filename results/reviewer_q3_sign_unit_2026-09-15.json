@@ -1,0 +1,246 @@
+{
+ "sinif": "BETIM · card · kâgida girmez",
+ "rule": "preregistration/rule_reviewer_readings_2026-09-15.md @ 25315d8e",
+ "soru": "Q3 · bagimlilik birimlerine indirgenmis iki yönlü kesin isaret testi",
+ "kaynak": "PREREG9_A_OLCUM_2026-08-31.json",
+ "card_arama": "kâgidin Multiplicity paragrafindaki 11/10 birim p-degerlerinin repoda karti yoktu (rule §Q3)",
+ "tanim": {
+  "U0": {
+   "n_birim": 16,
+   "n_testte": 16,
+   "n_asagi": 16,
+   "n_karisik": 0,
+   "karisik": [],
+   "p_iki_yonlu": 3.0517578125e-05,
+   "bonferroni_bar": 0.005,
+   "bar_alti": true,
+   "birimler": {
+    "Tulu3-8B": [
+     "Tulu3-8B"
+    ],
+    "OLMo2-13B": [
+     "OLMo2-13B"
+    ],
+    "OLMo2-32B": [
+     "OLMo2-32B"
+    ],
+    "OLMo-3-7B": [
+     "OLMo-3-7B"
+    ],
+    "Qwen2.5-1.5B": [
+     "Qwen2.5-1.5B"
+    ],
+    "Qwen2.5-3B": [
+     "Qwen2.5-3B"
+    ],
+    "Qwen2.5-7B": [
+     "Qwen2.5-7B"
+    ],
+    "Qwen2.5-14B": [
+     "Qwen2.5-14B"
+    ],
+    "Qwen2.5-32B": [
+     "Qwen2.5-32B"
+    ],
+    "Qwen2.5-72B": [
+     "Qwen2.5-72B"
+    ],
+    "Gemma-3-4B": [
+     "Gemma-3-4B"
+    ],
+    "Gemma-3-12B": [
+     "Gemma-3-12B"
+    ],
+    "Gemma-3-27B": [
+     "Gemma-3-27B"
+    ],
+    "Llama-3.1-8B": [
+     "Llama-3.1-8B"
+    ],
+    "Llama-3.1-70B": [
+     "Llama-3.1-70B"
+    ],
+    "Mistral-7B-v0.3": [
+     "Mistral-7B-v0.3"
+    ]
+   }
+  },
+  "U1": {
+   "n_birim": 11,
+   "n_testte": 11,
+   "n_asagi": 11,
+   "n_karisik": 0,
+   "karisik": [],
+   "p_iki_yonlu": 0.0009765625,
+   "bonferroni_bar": 0.005,
+   "bar_alti": true,
+   "birimler": {
+    "Tulu3-8B": [
+     "Tulu3-8B"
+    ],
+    "OLMo2-13B": [
+     "OLMo2-13B"
+    ],
+    "OLMo2-32B": [
+     "OLMo2-32B"
+    ],
+    "OLMo-3-7B": [
+     "OLMo-3-7B"
+    ],
+    "Gemma-3-4B": [
+     "Gemma-3-4B"
+    ],
+    "Gemma-3-12B": [
+     "Gemma-3-12B"
+    ],
+    "Gemma-3-27B": [
+     "Gemma-3-27B"
+    ],
+    "Llama-3.1-8B": [
+     "Llama-3.1-8B"
+    ],
+    "Llama-3.1-70B": [
+     "Llama-3.1-70B"
+    ],
+    "Mistral-7B-v0.3": [
+     "Mistral-7B-v0.3"
+    ],
+    "Qwen": [
+     "Qwen2.5-1.5B",
+     "Qwen2.5-3B",
+     "Qwen2.5-7B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-72B"
+    ]
+   }
+  },
+  "U2": {
+   "n_birim": 10,
+   "n_testte": 10,
+   "n_asagi": 10,
+   "n_karisik": 0,
+   "karisik": [],
+   "p_iki_yonlu": 0.001953125,
+   "bonferroni_bar": 0.005,
+   "bar_alti": true,
+   "birimler": {
+    "OLMo2-13B": [
+     "OLMo2-13B"
+    ],
+    "OLMo2-32B": [
+     "OLMo2-32B"
+    ],
+    "OLMo-3-7B": [
+     "OLMo-3-7B"
+    ],
+    "Gemma-3-4B": [
+     "Gemma-3-4B"
+    ],
+    "Gemma-3-12B": [
+     "Gemma-3-12B"
+    ],
+    "Gemma-3-27B": [
+     "Gemma-3-27B"
+    ],
+    "Llama-3.1-70B": [
+     "Llama-3.1-70B"
+    ],
+    "Mistral-7B-v0.3": [
+     "Mistral-7B-v0.3"
+    ],
+    "Qwen": [
+     "Qwen2.5-1.5B",
+     "Qwen2.5-3B",
+     "Qwen2.5-7B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-72B"
+    ],
+    "Llama-3.1-8B-taban": [
+     "Tulu3-8B",
+     "Llama-3.1-8B"
+    ]
+   }
+  },
+  "U3": {
+   "n_birim": 6,
+   "n_testte": 6,
+   "n_asagi": 6,
+   "n_karisik": 0,
+   "karisik": [],
+   "p_iki_yonlu": 0.03125,
+   "bonferroni_bar": 0.005,
+   "bar_alti": false,
+   "birimler": {
+    "Google": [
+     "Gemma-3-4B",
+     "Gemma-3-12B",
+     "Gemma-3-27B"
+    ],
+    "Meta": [
+     "Llama-3.1-8B",
+     "Llama-3.1-70B"
+    ],
+    "AI2": [
+     "Tulu3-8B",
+     "OLMo2-13B",
+     "OLMo2-32B"
+    ],
+    "Qwen": [
+     "Qwen2.5-1.5B",
+     "Qwen2.5-3B",
+     "Qwen2.5-7B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-72B"
+    ],
+    "Mistral": [
+     "Mistral-7B-v0.3"
+    ],
+    "OLMo-3": [
+     "OLMo-3-7B"
+    ]
+   }
+  },
+  "U4": {
+   "n_birim": 5,
+   "n_testte": 5,
+   "n_asagi": 5,
+   "n_karisik": 0,
+   "karisik": [],
+   "p_iki_yonlu": 0.0625,
+   "bonferroni_bar": 0.005,
+   "bar_alti": false,
+   "birimler": {
+    "Google": [
+     "Gemma-3-4B",
+     "Gemma-3-12B",
+     "Gemma-3-27B"
+    ],
+    "Meta": [
+     "Llama-3.1-8B",
+     "Llama-3.1-70B"
+    ],
+    "Qwen": [
+     "Qwen2.5-1.5B",
+     "Qwen2.5-3B",
+     "Qwen2.5-7B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-72B"
+    ],
+    "Mistral": [
+     "Mistral-7B-v0.3"
+    ],
+    "AI2+OLMo-3": [
+     "Tulu3-8B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "OLMo-3-7B"
+    ]
+   }
+  }
+ },
+ "damga_utc": "2026-09-15T19:34:14Z"
+}

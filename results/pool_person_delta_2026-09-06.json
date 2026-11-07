@@ -1,0 +1,87 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-06T14:23:44Z",
+  "alet": "scripts/pool_person_delta.py",
+  "borc": "D-0907-V19-B §2e",
+  "SINIF": "ÖLCÜM — köken kontrolü",
+  "seed_ornekleme": 20260829,
+  "seed_boot": 20260906,
+  "nb": 1000,
+  "birim": "cift",
+  "n_cift_olculen": 59894,
+  "n_havuz": 494833,
+  "ONCUL_DUZELTME": "494 833 HAVUZUN boyudur; form sayaclari da bu 59 894'lük örneklemde ölcülmüstü (FILTRE_VERIM_2026-08-29 n_ornek)",
+  "prova": {
+   "i_ikinci_sahis_sayiliyor": true,
+   "ii_sahissiz_sifir": true,
+   "iii_jeton_pozitif": true,
+   "iv_bos_metin_cokmuyor": true
+  }
+ },
+ "set": {
+  "hh-rlhf": {
+   "HAL": "ÖLCÜLDÜ",
+   "repo": "Anthropic/hh-rlhf",
+   "n_havuz": 160800,
+   "n_cift": 19981,
+   "red_bos_taraf": 19,
+   "d_M1": -0.6036507601869322,
+   "d_M1_medyan": 0.0,
+   "d_M1_ci": [
+    -1.375162404627476,
+    0.18848773019883164
+   ],
+   "d_sahis1": -1.550162867725588,
+   "d_sahis1_ci": [
+    -2.3396330083891037,
+    -0.8161494822734024
+   ],
+   "tam_sifir_pay": 0.21205144887643262,
+   "jeton_ort_chosen": 64.48355938141235,
+   "jeton_ort_rejected": 61.08848405985687
+  },
+  "ultrafeedback": {
+   "HAL": "ÖLCÜLDÜ",
+   "repo": "HuggingFaceH4/ultrafeedback_binarized",
+   "n_havuz": 61135,
+   "n_cift": 19973,
+   "red_bos_taraf": 27,
+   "d_M1": -2.823376098807263,
+   "d_M1_medyan": 0.0,
+   "d_M1_ci": [
+    -3.1310568026846677,
+    -2.5078859555545114
+   ],
+   "d_sahis1": -3.183611138631665,
+   "d_sahis1_ci": [
+    -3.569540367527688,
+    -2.8126030475486585
+   ],
+   "tam_sifir_pay": 0.40139187903669954,
+   "jeton_ort_chosen": 246.59234967205728,
+   "jeton_ort_rejected": 217.20732989535873
+  },
+  "tulu3-pref": {
+   "HAL": "ÖLCÜLDÜ",
+   "repo": "allenai/llama-3.1-tulu-3-8b-preference-mixture",
+   "n_havuz": 272898,
+   "n_cift": 19940,
+   "red_bos_taraf": 60,
+   "d_M1": -1.0931717663301956,
+   "d_M1_medyan": 0.0,
+   "d_M1_ci": [
+    -1.3107019325457936,
+    -0.8936114464394802
+   ],
+   "d_sahis1": -1.3740271701816011,
+   "d_sahis1_ci": [
+    -1.6650764532437172,
+    -1.0543107111164085
+   ],
+   "tam_sifir_pay": 0.5952858575727181,
+   "jeton_ort_chosen": 342.63946840521567,
+   "jeton_ort_rejected": 352.8159478435306
+  }
+ },
+ "_verdict": "KÖKEN-DESTEKLENDI"
+}

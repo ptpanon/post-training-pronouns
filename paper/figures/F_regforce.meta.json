@@ -1,0 +1,11 @@
+{
+ "figure": "F_regforce",
+ "caption_draft": "Register and force under both denominators. Each cell is its own pre-specified difference divided by its own paired within-prompt placebo's 95th percentile, so all four cells are in one unit and the grey strip is that placebo bar. Filled markers are the cells whose prompt-clustered interval excludes zero, which is the pre-registered decision rule; the two halves of the bar do not always agree, and the figure shows where. On the pre-registered rulers (left) register separates in 16 of 16 models, all downward, and the force total in 10, downward in 8. On the swapped rulers (right) the counts reverse: register 12 and force 14, all fourteen of the latter downward. The contrast between the two layers is therefore a property of the denominators as much as of the layers, which is why we report no magnitude ratio between them; what does not move with the ruler is the sign of the register fall.",
+ "sources": [
+  {
+   "yol": "results/swapped_ruler_2026-09-03.json",
+   "sha256_16": "bd1fe9146c258cf5"
+  }
+ ],
+ "note": "renders pre-specified measurements; computes no new statistic"
+}

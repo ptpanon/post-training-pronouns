@@ -1,0 +1,1324 @@
+{
+ "sinif": "TASLAK",
+ "rule": "preregistration/rule_v90_readings_2026-09-17.md (iii) @ fc97c65d",
+ "kaynak": "unreleased/failed_predictions.md §2 (19 satir, 46 düsen)",
+ "dogrulama": {
+  "alinti_tutan": 117,
+  "alinti_sorun": 0,
+  "satir_tam": 18,
+  "satir_cozulemeyen": [
+   13
+  ],
+  "usul": ""
+ },
+ "kapi": {
+  "bekleyen": "19 satir · 46 düsen · 19 dogrulanmis",
+  "olculen": "19 satir · 46 düsen · 18 dogrulanmis",
+  "hal": "TUTMADI"
+ },
+ "BULGU_R2": "",
+ "BAYRAKLAR": {
+  "2": "skor 1 024 jetonluk kartla yapildi, kâgit 2 048 kartini okuyor (failed_predictions dipnot 1)",
+  "6": "",
+  "11": "",
+  "15": "PB-5",
+  "19": ""
+ },
+ "satirlar": [
+  {
+   "i": 1,
+   "kayit_ic_ad": "PREREG-9",
+   "kayit_en": "the registered bare-prompt direction of the second person (Depersonalization, $M_1$)",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "227",
+     "alinti": "The registered claim of \\S\\ref{sec:deperson} is the bare-prompt direction of the second person"
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "1005",
+     "alinti": "Depersonalization, $M_1$ (\\S\\ref{sec:deperson}) & registered"
+    }
+   ],
+   "dusen_bahisler": [
+    "B9b"
+   ],
+   "n_dusen": 1,
+   "tahmin_en": "The second-person decline would appear only in the Tülu/OLMo lineage (a local pattern).",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prereg_depersonalization16_2026-08-31.md",
+     "satir": "290-291",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "The prediction failed on arm A and could not be measured on arm B.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/HANDOVER_GECE_2026-08-31.md",
+     "satir": "63",
+     "alinti": ""
+    }
+   ],
+   "kagit_yeri": "§3 (What alignment does: depersonalization), paragraph «The addressee recedes on the bare prompt.» HEAD 319–335, lineage sentence 328–329; «What this paper claims, and what it does not.» 227; Appendix D.2 «The second person family by family, with the fragile positive named.» 1738–1753",
+   "not": [
+    "Evidence line gives no magnitude. Same table, line 62: rival bet B9a «A'da TUTTU 16/16»; arms per line 54: A = neutral panel (c1_panel), B = elicited generations. failed_predictions.md:29 marks A as primary.",
+    {
+     "dosya": "results/HANDOVER_GECE_2026-08-31.md",
+     "satir": "62",
+     "alinti": "| **B9a** ≥12/16 | `prereg_depersonalization16_2026-08-31.md` | `067652a4` ✓ commit | ★ **A'da TUTTU 16/16** · B'de `TAVAN-SINIRLI` |"
+    },
+    {
+     "dosya": "results/HANDOVER_GECE_2026-08-31.md",
+     "satir": "54",
+     "alinti": ""
+    }
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "227",
+     "calisma_agaci_satir": 227
+    },
+    {
+     "head_satir": "1005",
+     "calisma_agaci_satir": 990
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 2,
+   "kayit_ic_ad": "PREREG-URIAL",
+   "kayit_en": "the task-matched ground: the neutral panel's prompts inside the URIAL frame (Appendix B deviations table, tab:sapma: «URIAL ground»)",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "286",
+     "alinti": "A third, \\emph{task-matched} ground gives the base checkpoint the assistant task itself rather than a text to continue: the neutral panel's prompts inside the URIAL frame \\citep{lin2024urial}."
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "1027",
+     "alinti": "URIAL ground (\\S\\ref{sec:origin}) & descriptive"
+    }
+   ],
+   "dusen_bahisler": [
+    "F2",
+    "F3",
+    "F5"
+   ],
+   "n_dusen": 3,
+   "tahmin_en": "On the identical-string comparison, 6–8 families would fall and 2–4 rise with intervals excluding zero, the fallers mostly AI2 and Qwen and every riser Gemma or Llama. The base models' median in the URIAL frame would be 12–18 per thousand.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_urial_2026-09-07.md",
+     "satir": "10-12",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_urial_2026-09-07.md",
+     "satir": "18",
+     "alinti": "> Sayi: base-URIAL M1 medyani **12–18/1k**; istemin örneklerinin 16,3'üne yakin"
+    },
+    {
+     "dosya": "preregistration/prediction_urial_2026-09-07.md",
+     "satir": "72",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_urial_2026-09-07.md",
+     "satir": "73",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_urial_2026-09-07.md",
+     "satir": "75",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "10 families fell and 6 rose, both outside their bands; 9/10 fallers were AI2 or Qwen, but one riser, OLMo-3-7B (AI2), was neither Gemma nor Llama. The base median was 20.13.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/HANDOVER_2026-09-09T0822Z.md",
+     "satir": "58",
+     "alinti": ""
+    },
+    {
+     "dosya": "results/HANDOVER_2026-09-09T0822Z.md",
+     "satir": "60",
+     "alinti": ""
+    }
+   ],
+   "kagit_yeri": "§2 (v) «Register counters and stimulus grounds.» HEAD 286–287; Appendix A «The task-matched ground, in full.» 744–755; Appendix D.4 «With the task held fixed.» 2169–2218 (identical string: lower in ten, higher in five, 2200); Appendix B deviations table (tab:sapma) rows 1027–1032",
+   "not": [
+    "Table points at line 58, which carries only the scores; the measurements behind them are on line 60 («F-skorlarinin gerekcesi, ölcümden»), quoted as the measured sentence.",
+    "failed_predictions.md footnote 1: scored on the 1,024-token card; the paper reads the 2,048 card (HEAD 2186, 2200: lower in ten, higher in five) and F1–F6 were not re-scored on it. The English sentence reports the 1,024 scoring and must not be placed beside the paper's 2,048 counts without that note.",
+    {
+     "dosya": "unreleased/failed_predictions.md",
+     "satir": "53",
+     "alinti": ""
+    }
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "286",
+     "calisma_agaci_satir": 286
+    },
+    {
+     "head_satir": "1027",
+     "calisma_agaci_satir": 1012
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 3,
+   "kayit_ic_ad": "M-SISTEM-2",
+   "kayit_en": "the default system line, present or absent inside the same string",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "354",
+     "alinti": "The line is not inert: present or absent inside the same string, every family, its effect on $\\Delta M_1$ excludes zero in $13$ of the $14$ families the filter admits, mostly downward, so each templated leg carries its template's own line as an uncontrolled input (Limitations)."
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "637",
+     "alinti": "The system line is an uncontrolled input to the templated legs (\\S\\ref{sec:deperson})."
+    }
+   ],
+   "dusen_bahisler": [
+    "F-MS2-2"
+   ],
+   "n_dusen": 1,
+   "tahmin_en": "Among the interval-disjoint families, the signs of the shift would be indistinguishable from random (sign agreement u below 0.543).",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_system_prompt2_2026-09-13.md",
+     "satir": "37-38",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_system_prompt2_2026-09-13.md",
+     "satir": "46",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "Sign agreement measured u = 0.5565, above the 0.543 bar.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/verdict_system_prompt2_2026-09-13.md",
+     "satir": "55",
+     "alinti": "| **F-MS2-2** | `u < 0,543` (isaretler rastgeleden ayirt edilemez) | `u = 0,5565` | **DÜSTÜ** |"
+    }
+   ],
+   "kagit_yeri": "§3 «Given the task, the addressee splits by recipe.» HEAD 354; Limitations 637 (tag 658)",
+   "not": [
+    "Scoring doc classes this registration exploratory (VERDICT_M_SISTEM2:16–20); the earlier M-SISTEM «unmeasurable, 2/16» reading is what Appendix A HEAD 922–930 describes, not this one.",
+    "Bar is 0.5434 to four places (VERDICT_M_SISTEM2:60); the bet writes 0,543."
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "354",
+     "calisma_agaci_satir": 354
+    },
+    {
+     "head_satir": "637",
+     "calisma_agaci_satir": 622
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 4,
+   "kayit_ic_ad": "V61 (merdiven + puanlama)",
+   "kayit_en": "two ladders outside the AI2 and Zephyr recipes (SmolLM2-1.7B, NeuralHermes-2.5), and the re-scoring of person-swapped responses with two public reward models",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "446-447",
+     "alinti": "On two ladders --- $n=2$,\nSmolLM2-1.7B and NeuralHermes-2.5"
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "506-508",
+     "alinti": "We rewrote $3{,}000$ responses --- one per prompt, content\nheld, only the person marking swapped --- and re-scored them with two public\nreward models that scored none of the three corpora, ArmoRM-Llama3-8B-v0.1 and Skywork-Reward-Llama-3.1-8B."
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "513",
+     "alinti": "\\textbf{This test was registered for an earlier thesis, and its prediction failed}: we predicted that both reward models would score the person-marked version lower, and both scored it higher."
+    }
+   ],
+   "dusen_bahisler": [
+    "F-V61-1a",
+    "F-V61-2a"
+   ],
+   "n_dusen": 2,
+   "tahmin_en": "On both the SmolLM2 and Hermes ladders the outcome would be the one named «same step», and both reward-model scorers would read as penalising.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_v61_2026-09-11.md",
+     "satir": "63-64",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_v61_2026-09-11.md",
+     "satir": "70",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_v61_2026-09-11.md",
+     "satir": "72",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "Both ladders read «different step»: the supervised step moved −3.3356 (SmolLM2-1.7B) and −5.4761 (NeuralHermes-2.5) with intervals excluding zero, the preference step +0.0740 and +0.1497 with intervals covering zero. Both scorers read as rewarding (Δ = −0.0004 and −0.5971, person-free minus person-marked score).",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_v61_2026-09-11.md",
+     "satir": "8",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_v61_2026-09-11.md",
+     "satir": "10",
+     "alinti": ""
+    }
+   ],
+   "kagit_yeri": "§4 «How the steps share it follows the recipe: the second case.» HEAD 443–451; §5 «The data leans away from persons; two reward models do not.» 503–513 (513: «This test was registered for an earlier thesis, and its prediction failed»); Appendix D.6 input fig/V61_PUANLAMA_EK 2381",
+   "not": [
+    "Outcome names are defined in the registrations, not the bet file; if the table needs them spelled out, these are the definitions:",
+    {
+     "dosya": "preregistration/prereg_v61_ladder_2026-09-11.md",
+     "satir": "106-107",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prereg_v61_scoring_2026-09-11.md",
+     "satir": "66-67",
+     "alinti": ""
+    },
+    ""
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "446-447",
+     "calisma_agaci_satir": 446
+    },
+    {
+     "head_satir": "506-508",
+     "calisma_agaci_satir": 491
+    },
+    {
+     "head_satir": "513",
+     "calisma_agaci_satir": 498
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 5,
+   "kayit_ic_ad": "KISI KADRANI",
+   "kayit_en": "the person dial: four arms of 7,537 preference pairs selected on person marking (Appendix B deviations table, tab:sapma: «Person dial arms»)",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2560",
+     "alinti": "What the person dial moves besides the persons."
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "1111",
+     "alinti": "Person dial arms, training length (\\S\\ref{sec:dial}) & registered"
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2683-2684",
+     "alinti": "We built four arms of $7{,}537$ preference pairs\neach from the same mixture"
+    }
+   ],
+   "dusen_bahisler": [
+    "Q5",
+    "Q7",
+    "Q8",
+    "Q9"
+   ],
+   "n_dusen": 4,
+   "tahmin_en": "The unselected arm's shift against the supervised checkpoint would be −1.0 to −2.5. On the person arms force would separate from the persons, the force-selected arm would not train force at this dose, and the embedding estimator would move less than 1 null-sd in every arm.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_person_dial_2026-09-03.md",
+     "satir": "15",
+     "alinti": "| **Q5** | `RASTGELE`'nin OKUMA-A kaymasi (kol − SFT) | **−1,0 … −2,5** | doz-sürüklenmesi varsayimim; **B'yi birincil yapan gerekce** |"
+    },
+    {
+     "dosya": "preregistration/prediction_person_dial_2026-09-03.md",
+     "satir": "17",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_person_dial_2026-09-03.md",
+     "satir": "18",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_person_dial_2026-09-03.md",
+     "satir": "19",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "The layer-separation, force-below-dose and embedding-band predictions all failed on the same measurement, so the dial is a register dial rather than a person dial; the unselected arm's actual shift was +0.225.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/REPORT_DIAL_2026-09-04.md",
+     "satir": "142-146",
+     "alinti": "Q7"
+    },
+    {
+     "dosya": "results/REPORT_DIAL_2026-09-04.md",
+     "satir": "148-149",
+     "alinti": ""
+    }
+   ],
+   "kagit_yeri": "Appendix D.7 «The dial.» HEAD 2681–2707 (2692–2697: «But nothing here moves the persons alone…»); Discussion «The exchange.» 593–599; Appendix B deviations table (tab:sapma) row 1111",
+   "not": [
+    "Table range is 142–148; the value +0,225 sits on line 149 (quoted).",
+    "failed_predictions.md footnote 2: the source says five fell but names four; the fifth is not counted. Bet file header says «sekiz», table has nine rows."
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "2560",
+     "calisma_agaci_satir": 2563
+    },
+    {
+     "head_satir": "1111",
+     "calisma_agaci_satir": 1096
+    },
+    {
+     "head_satir": "2683-2684",
+     "calisma_agaci_satir": 2686
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 6,
+   "kayit_ic_ad": "KK-2",
+   "kayit_en": "a third targeted run on minimal pairs built by exchanging a single determiner",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2744",
+     "alinti": "A third targeted run, and why it could not answer the dose question."
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2746-2747",
+     "alinti": "Minimal pairs were built by exchanging a single determiner so\nthat the two sides differed in person marking and in nothing else,"
+    }
+   ],
+   "dusen_bahisler": [
+    "Q3",
+    "Q5",
+    "Q8",
+    "Q9"
+   ],
+   "n_dusen": 4,
+   "tahmin_en": "On the minimal-pair arms the mean dial magnitude would be 3.0–5.5 per thousand, force would move at z 2.0–6.0 on the person arms, and the downward shift would exceed the upward one. The embedding estimator would move less than 1 null-sd in every arm.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_person_dial_minimal_pair_2026-09-04.md",
+     "satir": "13",
+     "alinti": "| **Q3** | kadran büyüklügü, \\|Δ\\| ortalamasi (B) | **3,0 – 5,5 /1k** | ölcek okumam; KK ±6,77 idi ve karsitlik %66'si |"
+    },
+    {
+     "dosya": "preregistration/prediction_person_dial_minimal_pair_2026-09-04.md",
+     "satir": "15",
+     "alinti": "| **Q5** | kuvvet z, kisi kollarinda | **2,0 – 6,0** (KK'da 8,25/7,42) | bagin gücü hakkindaki ölcek okumam |"
+    },
+    {
+     "dosya": "preregistration/prediction_person_dial_minimal_pair_2026-09-04.md",
+     "satir": "18",
+     "alinti": "| **Q8** | asimetri: \\|Δ_asagi\\| > \\|Δ_yukari\\| | **EVET** | KK'da da böyleydi (6,890 ↔ 6,649); taban M1 9,981 baslik payi verir |"
+    },
+    {
+     "dosya": "preregistration/prediction_person_dial_minimal_pair_2026-09-04.md",
+     "satir": "19",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "The dial measured −8.95 and +502, force z 12.1 and 392.4, the downward shift 8.95 against the upward 502, and the embedding estimator 26.3, 4.19 and 0.53 null-sd.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/REPORT_KK2_2026-09-05.md",
+     "satir": "78",
+     "alinti": "| Q3 | kadran 3,0–5,5 /1k | **TUTMADI** (−8,95 / +502) |"
+    },
+    {
+     "dosya": "results/REPORT_KK2_2026-09-05.md",
+     "satir": "80",
+     "alinti": "| Q5 | kuvvet z 2,0–6,0 | **TUTMADI** (12,1 / 392,4) |"
+    },
+    {
+     "dosya": "results/REPORT_KK2_2026-09-05.md",
+     "satir": "83",
+     "alinti": "| Q8 | \\|Δ_asagi\\| > \\|Δ_yukari\\| | **TUTMADI** (8,95 ↔ 502) |"
+    },
+    {
+     "dosya": "results/REPORT_KK2_2026-09-05.md",
+     "satir": "84",
+     "alinti": "| Q9 | üc kolda `ΔU_DOM` < 1 null-sd | **TUTMADI** (26,3 · 4,19 · 0,53) |"
+    }
+   ],
+   "kagit_yeri": "Appendix D.7 «A third targeted run, and why it could not answer the dose question.» HEAD 2744–2759 (the paper reports this outcome as unmeasurable at this dose, 2754–2756); tag under §5 «Dose, not direction.» 539",
+   "not": [
+    "The registration's outcome was unmeasurable at this dose: two of three arms collapsed (distinct-4 0.15, below the 0.60 shelf). The +502 and 392.4 magnitudes come from a collapsed arm; put them in a table only with that caveat.",
+    {
+     "dosya": "results/REPORT_KK2_2026-09-05.md",
+     "satir": "67",
+     "alinti": "| **KK-2 kollari** | 7 537 | 0,97× | **1,000** | ★ **CÖKTÜ** (distinct-4 0,15) |"
+    },
+    {
+     "dosya": "results/REPORT_KK2_2026-09-05.md",
+     "satir": "79",
+     "alinti": "| **Q4 ★ merkez** | `KATMAN-BIRLIKTE` | **KARARSIZ** — verdict `ÖLCÜLEMEZ-DOZ` |"
+    }
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "2744",
+     "calisma_agaci_satir": 2747
+    },
+    {
+     "head_satir": "2746-2747",
+     "calisma_agaci_satir": 2749
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 7,
+   "kayit_ic_ad": "KK-3F",
+   "kayit_en": "pairs without person content: an arm with no person contrast in any pair",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "1102",
+     "alinti": "Pairs without person content (\\S\\ref{sec:dial}) & registered"
+    },
+    {
+     "dosya": "paper/figures/KK3F_FARKSIZ.tex",
+     "satir": "1",
+     "alinti": "An arm with no person contrast in any pair (the second person in $0.07\\%$ of pairs, $40\\%$ in the zeroed arm) withdraws as much"
+    }
+   ],
+   "dusen_bahisler": [
+    "F-KK3F-1",
+    "F-KK3F-2",
+    "F-KK3F-3"
+   ],
+   "n_dusen": 3,
+   "tahmin_en": "The arm trained on pairs without person difference would not withdraw (the first-ranked of 7 outcomes, at 0.34), and it would withdraw less than the neutral arm, with a shift above −1.1224.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_data_tilt_zero_difference_2026-09-13.md",
+     "satir": "28",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_data_tilt_zero_difference_2026-09-13.md",
+     "satir": "29",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_data_tilt_zero_difference_2026-09-13.md",
+     "satir": "30",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "The arm withdrew (the outcome given 0.26), with a shift of −1.2041; the ranking's Brier score was 0.774.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/verdict_data_tilt_zero_difference_2026-09-14.md",
+     "satir": "60-62",
+     "alinti": "| **F-KK3F-1** | birinci sira `FARKSIZ-CEKMIYOR` (0,34) | `FARKSIZ-CEKIYOR` (0,26) | **DÜSTÜ** · Brier **0,774** |\n| **F-KK3F-2** | «farksiz kol cekmez» | `FARKSIZ-CEKIYOR` | **DÜSTÜ** |\n| **F-KK3F-3** | dA > −1,1224 | −1,2041 | **DÜSTÜ** |"
+    }
+   ],
+   "kagit_yeri": "§5 «Dose, not direction.» HEAD 531 (input figures/KK3F_FARKSIZ.tex); Appendix B deviations table (tab:sapma) row 1102–1103 (figures/KK3F_SAPMA.tex)",
+   "not": [
+    "«neutral arm» = KK3_NOTR, the arm with the data's person tilt flattened to zero (paper HEAD 2723 «flattened to zero»; fig text «the zeroed arm»).",
+    "failed_predictions.md cites only «§5» with no line number; the §5 table is lines 58–62."
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "1102",
+     "calisma_agaci_satir": 1087
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 8,
+   "kayit_ic_ad": "SimPO",
+   "kayit_en": "the reference-free objective: released DPO and SimPO checkpoints from one supervised base",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "1104",
+     "alinti": "Reference-free objective (Appendix~\\ref{app:repro}) & registered"
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "931-932",
+     "alinti": "from one supervised base, the\nreleased DPO and SimPO \\citep{meng2024simpo} checkpoints"
+    }
+   ],
+   "dusen_bahisler": [
+    "F-SIMPO-2"
+   ],
+   "n_dusen": 1,
+   "tahmin_en": "From the same supervised base, the SimPO step would withdraw less than the DPO step, with non-overlapping intervals.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_simpo_2026-09-10.md",
+     "satir": "32",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "The SimPO step was larger than the DPO step; the DPO reference step read «same sign» and no leg fell below the degeneracy shelf, so the prediction was scorable.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/verdict_simpo_bare_2026-09-14.md",
+     "satir": "38",
+     "alinti": ""
+    }
+   ],
+   "kagit_yeri": "Appendix A, Limitations in detail, «What the dial does not separate.» HEAD 931–933 (input figures/SIMPO_CIPLAK.tex: −6.53 against −2.77); Appendix B deviations table (tab:sapma) row 1104–1108",
+   "not": [
+    "Magnitudes (not on the evidence line) are in VERDICT_SIMPO_CIPLAK:11–12 and in the paper's fig text: SFT→SimPO −6.527, SFT→DPO −2.770."
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "1104",
+     "calisma_agaci_satir": 1089
+    },
+    {
+     "head_satir": "931-932",
+     "calisma_agaci_satir": 916
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 9,
+   "kayit_ic_ad": "YARGIC-IMZASI-2",
+   "kayit_en": "the scorer fit: a joint fit of the rating on second-person density with first-person density and two surface controls",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2532-2534",
+     "alinti": "a joint fit that also carries\nfirst-person density and two surface controls (modal density, matched to the"
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2976-2978",
+     "alinti": "we regress the score on second-person density with first-person\ndensity and two surface controls in the same equation"
+    }
+   ],
+   "dusen_bahisler": [
+    "Q2",
+    "Q3",
+    "Q5"
+   ],
+   "n_dusen": 3,
+   "tahmin_en": "In the joint fit the second-person coefficient would stay between 0.10 and 0.19 in absolute value, its margin over the other controls would fall below 1.5 (a general style penalty), and it would be largest on the helpfulness rating.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_judge_signature_2_2026-09-03.md",
+     "satir": "9",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_judge_signature_2_2026-09-03.md",
+     "satir": "10",
+     "alinti": "| **★ Q3** | **`marj < 1,5`** ⇒ verdict **`GENEL-ÜSLUP-CEZASI`** | 1. mührün **ikame** tasarimi 1,86× vermisti; ortak denklemde paylasilan varyans bölününce oran **daralir**. **Merkezî bahsim budur.** |"
+    },
+    {
+     "dosya": "preregistration/prediction_judge_signature_2_2026-09-03.md",
+     "satir": "12",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "The coefficient measured 0.1925, 0.0025 above the upper bound; the margin was 3.13; and the largest coefficient fell on instruction following.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/VERDICT_YARGIC_IMZASI_2_2026-09-03.md",
+     "satir": "75",
+     "alinti": ""
+    },
+    {
+     "dosya": "results/VERDICT_YARGIC_IMZASI_2_2026-09-03.md",
+     "satir": "76",
+     "alinti": "| **★ Q3** | `marj < 1,5` ⇒ `GENEL-ÜSLUP-CEZASI` | ★★ **TUTMADI** (3,13) |"
+    },
+    {
+     "dosya": "results/VERDICT_YARGIC_IMZASI_2_2026-09-03.md",
+     "satir": "78",
+     "alinti": "| Q5 | en büyük `\\|β_M1\\|` **helpfulness**'ta | **TUTMADI** (`instruction_following`) |"
+    }
+   ],
+   "kagit_yeri": "Appendix E «What the raters score lower, and how specifically.» HEAD 2973–3017 (tag 3017: margin 3.13 ≥ bar 1.5); Appendix D.6 «The three preference corpora, subset by subset, with the sign that reverses.» 2529–2557; §5 503–504",
+   "not": [],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "2532-2534",
+     "calisma_agaci_satir": 2535
+    },
+    {
+     "head_satir": "2976-2978",
+     "calisma_agaci_satir": 2980
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 10,
+   "kayit_ic_ad": "FORM-SAYIM",
+   "kayit_en": "the mechanical form counters (bare imperative, second-person obligation, hedge, interrogative directive, hortative), read under two prompt protocols",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "1414-1417",
+     "alinti": "(i) Mechanical form counters.}\nFive sentence-level counters over spaCy \\citep{honnibal2020spacy} POS and\ndependency parses: bare\nimperative, second-person obligation, hedge, interrogative directive, hortative"
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "1468-1470",
+     "alinti": "Reading the same rung under the bare prompt and under each family's own chat\ntemplate changes the \\emph{name} of the outcome for four of twelve\ncounter$\\times$ladder cells"
+    }
+   ],
+   "dusen_bahisler": [
+    "BF-1",
+    "BF-2",
+    "BF-3",
+    "BF-6",
+    "PF-2",
+    "PF-3",
+    "PF-4",
+    "PF-6"
+   ],
+   "n_dusen": 8,
+   "tahmin_en": "Aligned models would use fewer bare imperatives (≥4/6 families), more hedges (≥5/6) and more interrogative directives (≥4/6) than their bases, with the bare-imperative drop at the SFT→DPO rung on ≥2/3 ladders. The hedge counter would give the largest, most stable difference, sentences per generation would rise (≥4/6), the intact-only filter would change no cell's outcome, and hortatives would rise and clear the bar in ≥4/6.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_form.md",
+     "satir": "7",
+     "alinti": "| **BF-1** | c1 panelde ciplak-emir orani aligned < base, **≥4/6 aile** (ciplak protokol) | ORTA-YÜKSEK |"
+    },
+    {
+     "dosya": "preregistration/prediction_form.md",
+     "satir": "8",
+     "alinti": "| **BF-2** | hafifletici yogunlugu aligned > base **≥5/6** | YÜKSEK |"
+    },
+    {
+     "dosya": "preregistration/prediction_form.md",
+     "satir": "9",
+     "alinti": "| **BF-3** | merdivende ciplak-emir düsüsü **SFT→DPO** basamaginda **≥2/3 merdiven** (ciplak protokol) | ORTA |"
+    },
+    {
+     "dosya": "preregistration/prediction_form.md",
+     "satir": "12",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_form_executor.md",
+     "satir": "9",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_form_executor.md",
+     "satir": "10",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_form_executor.md",
+     "satir": "11",
+     "alinti": "| **PF-4** | INTACT-only baski **hicbir hücrede adi degistirmez** (dejenerelik orani düsük). | ORTA |"
+    },
+    {
+     "dosya": "preregistration/prediction_form_executor.md",
+     "satir": "13",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "Against thresholds of 4, 5, 2 and 4, the first set measured 2/6, 1/6, 0/3 and 1/6; the second set measured 1, 3, 29 and 2 against thresholds of 4, 4, 30 and 4.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/verdict_form_count_2026-08-28.md",
+     "satir": "227-229",
+     "alinti": "| **BF-1** | 2/6 | ≥4 | **TUTMADI** | 3/6 |\n| **BF-2** | 1/6 | ≥5 | **TUTMADI** | 3/6 |\n| **BF-3** | 0/3 | ≥2 | **TUTMADI** | 0/3 |"
+    },
+    {
+     "dosya": "results/verdict_form_count_2026-08-28.md",
+     "satir": "232",
+     "alinti": "| **BF-6** | 1/6 | ≥4 | **TUTMADI** | 2/6 |"
+    },
+    {
+     "dosya": "results/verdict_form_count_2026-08-28.md",
+     "satir": "239-241",
+     "alinti": "| **PF-2** | 1 | ≥4 | **TUTMADI** |\n| **PF-3** | 3 | ≥4 | **TUTMADI** |\n| **PF-4** | 29 | ≥30 | **TUTMADI** |"
+    },
+    {
+     "dosya": "results/verdict_form_count_2026-08-28.md",
+     "satir": "243",
+     "alinti": "| **PF-6** | 2 | ≥4 | **TUTMADI** |"
+    },
+    {
+     "dosya": "results/verdict_form_count_2026-08-28.md",
+     "satir": "313-318",
+     "alinti": ""
+    }
+   ],
+   "kagit_yeri": "Appendix D.1 «(i) Mechanical form counters.» HEAD 1414–1423; «(iv) Two prompt protocols, bare and templated.» 1467–1474",
+   "not": [
+    "Counter letters (a)–(e) → paper names: the registration's table (PREREG_FORM_SAYIM:78–82) maps (a) ciplak-emir = bare imperative, (c) hafifletici = hedge, (d) soru-formlu yönlendirici = interrogative directive, (e) öneri-formu = hortative.",
+    {
+     "dosya": "preregistration/prereg_form_count_2026-08-28.md",
+     "satir": "78",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prereg_form_count_2026-08-28.md",
+     "satir": "80-82",
+     "alinti": ""
+    }
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "1414-1417",
+     "calisma_agaci_satir": 1399
+    },
+    {
+     "head_satir": "1468-1470",
+     "calisma_agaci_satir": 1453
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 11,
+   "kayit_ic_ad": "F5-16",
+   "kayit_en": "the reading cascade: identical text scored under a real and a matched pseudo-neutral context",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2874-2876",
+     "alinti": "identical text scored under a real and a matched\npseudo-neutral context separates in $6/16$ families on one substrate and $5/16$\non the other"
+    }
+   ],
+   "dusen_bahisler": [
+    "BF5-2",
+    "BF5-7"
+   ],
+   "n_dusen": 2,
+   "tahmin_en": "On the CMV substrate, the share of families whose interpersonal-command channel separates positively would lie between 0.375 and 0.625, and at least 2 of the 10 new families would be gated as unmeasurable.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_f5_2026-08-25.md",
+     "satir": "7",
+     "alinti": "> BF5-2 CMV P1 ∈ [0.375, 0.625]. ORTA."
+    },
+    {
+     "dosya": "preregistration/prediction_f5_2026-08-25.md",
+     "satir": "12",
+     "alinti": "> BF5-7 KAPI: ≥2 of the 10 new families KAPI/ÖLCÜLEMEZ (download / disk / E1). ORTA."
+    }
+   ],
+   "olculen_en": "The CMV share measured 0.333, and 0 new families were gated as unmeasurable.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/VERDICT_F5_16_2026-08-26.md",
+     "satir": "69",
+     "alinti": "| **BF5-2** CMV P1 ∈ [0,375; 0,625] | band | **0,333** | **TUTMADI** |"
+    },
+    {
+     "dosya": "results/VERDICT_F5_16_2026-08-26.md",
+     "satir": "74",
+     "alinti": ""
+    }
+   ],
+   "kagit_yeri": "Appendix D.8 «Exploratory profile map and reading cascade, in brief.» HEAD 2856–2882 (2873–2876: 6/16 on one substrate, 5/16 on the other)",
+   "not": [
+    "P1 is defined in the extra registration, not the bet file («interpersonal-command channel» = c_KE, positive):",
+    {
+     "dosya": "results/EK_PREREG_F5_16_PANEL_2026-08-25.md",
+     "satir": "113",
+     "alinti": "Üc kontrast: `c_KE` = kisilerarasi-emir · `c_YE` = yordamsal-emir · `c_DB` = dominant-bildirim,"
+    },
+    {
+     "dosya": "results/EK_PREREG_F5_16_PANEL_2026-08-25.md",
+     "satir": "124",
+     "alinti": ""
+    },
+    "EK-1 of the scoring doc (lines 9, 16–18): with the 16th family, CMV P1 = 5/16 = 0.312, still failed; BF5-7 unchanged (KAPI 0).",
+    "Conflict: the paper introduces this paragraph as «exploratory: no bar, no outcome name, no pre-specified prediction» (HEAD 2859–2860), yet this registration had scored bets. A table row that calls it registered contradicts that sentence.",
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2859-2860",
+     "alinti": "\\textbf{Both of these are exploratory: no bar, no outcome name, no\npre-specified prediction}, and we give them here in one paragraph with the full"
+    }
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "2874-2876",
+     "calisma_agaci_satir": 2877
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 12,
+   "kayit_ic_ad": "D2V2-N",
+   "kayit_en": "injecting the pre-specified weight-space dominance direction",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2322-2324",
+     "alinti": "Injecting the pre-specified weight-space dominance direction moves aligned models\nfurther orthogonal to that axis than along it"
+    }
+   ],
+   "dusen_bahisler": [
+    "BDN-4",
+    "BDN-5"
+   ],
+   "n_dusen": 2,
+   "tahmin_en": "For Tülu-8B and Zephyr-7B, the dominance-direction arm would register movement along that direction («on-axis»).",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_steering_2026-08-23.md",
+     "satir": "15-16",
+     "alinti": "BDN-4 Tülu-8B/D: D-EKSENINDE. Güven DÜSÜK-ORTA.\nBDN-5 Zephyr-7B/D: D-EKSENINDE. Güven DÜSÜK."
+    }
+   ],
+   "olculen_en": "Both read «off-axis»: the movement registered outside the dominance direction rather than along it.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/VERDICT_D2V2N_2026-08-23.md",
+     "satir": "66-67",
+     "alinti": "| BDN-4 | Tülu/D `D-EKSENINDE` | **`D-DISINDA`** | **TUTMADI** |\n| BDN-5 | Zephyr/D `D-EKSENINDE` | **`D-DISINDA`** | **TUTMADI** |"
+    }
+   ],
+   "kagit_yeri": "Appendix D.5 «Gradients: the direction we could build does not behave like the axis.» HEAD 2306–2340 (2322–2324; tag D2V2N_KARNE 2340)",
+   "not": [
+    "Outcome names from the registration's own verdict function (on-axis = only the along-D component separates; off-axis = only the orthogonal one):",
+    {
+     "dosya": "preregistration/prereg_steering_yon_null_2026-08-23.md",
+     "satir": "429-432",
+     "alinti": "    if duz_ayrik:\n        return \"D-EKSENINDE\"\n    if dik_ayrik:\n        return \"D-DISINDA\""
+    },
+    "Scoring doc gloss (VERDICT_D2V2N:44–47): the DPO step grows the gradient and turns it away from the dominance direction."
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "2322-2324",
+     "calisma_agaci_satir": 2325
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 13,
+   "kayit_ic_ad": "R2",
+   "kayit_en": "",
+   "kayit_en_kaynak": [],
+   "dusen_bahisler": [
+    "BR2-1"
+   ],
+   "n_dusen": 1,
+   "tahmin_en": "The restoration would register as returning in 2–3 of 6 families.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_r2.md",
+     "satir": "12",
+     "alinti": "| **BR2-1** | `GERI-GELIR` **2–3/6** ailede (bant). | ORTA-DÜSÜK |"
+    }
+   ],
+   "olculen_en": "It registered as returning in 0 of 6 families (0.000).",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/VERDICT_R2_ACILIS_2026-08-28.md",
+     "satir": "102",
+     "alinti": "| **BR2-1** | `GERI-GELIR` **2–3/6** (bant) | **0** | 6 | 0,000 | **TUTMADI** |"
+    }
+   ],
+   "kagit_yeri": "",
+   "cozulemedi": "Paper name and location cannot be found in the current p11.tex. The only paragraph that reported this result (p11.tex at v52, commit 54d669f5, lines 2953–2959: «The injected-needle control does not appear in form. A restoration needle that a blind judge could not detect…» \\verdict{VERDICT_R2_ACILIS · W-649}) was cut in commit 33ec7786 (2026-09-17 08:29Z), whose message says «igne paragrafi KESILDI (dayandigi yargic sonucu kâgitta yok)». No line in HEAD cites VERDICT_R2_ACILIS or states the result (HEAD grep: «needle» 0 hits, «VERDICT\\_R2» 0 hits (the only «R2\\_» match, line 2486, is HELPSTEER2), «restoration» 1 hit at 1214, the «person-restoration comparison», a different human-labelling design). The prediction and measurement fields are filled because they resolve on disk.",
+   "not": [
+    "Rule effect: failed_predictions §1 counts only registrations whose result the paper reports. Since 33ec7786 this one is out, so the rule gives 24 · 18 · 45, but RULE_V90 (iii) fixes 25 · 19 · 46 and Appendix B HEAD 1178–1180 prints 25 and 19. That is for the owner to decide; this reading changes nothing.",
+    "Meaning of «returning» (the registration's question):",
+    {
+     "dosya": "preregistration/prereg_r2_faz2_package_2026-08-27.md",
+     "satir": "200-202",
+     "alinti": ""
+    }
+   ],
+   "kayit_en_calisma_agaci": [],
+   "dogrulandi": false
+  },
+  {
+   "i": 14,
+   "kayit_ic_ad": "E-YALINLIK",
+   "kayit_en": "the grammatical mood swap: rule-based imperative–request minimal pairs scored by teacher-forced NLL under a short and a long frame",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "1438-1442",
+     "alinti": "(ii) Grammatical mood swap.}\nRule-based minimal pairs (imperative $\\leftrightarrow$ request) with the word set\nheld fixed, scored by teacher-forced NLL. The swap moves NLL in the same\ndirection under a short and a long frame across sixteen families\n(Spearman $\\rho = +0.90$)"
+    }
+   ],
+   "dusen_bahisler": [
+    "BE-2"
+   ],
+   "n_dusen": 1,
+   "tahmin_en": "A dominant-phrased request would register on the command side (the dominant-request trap cell firing) in at least 3 of 6 families.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_e.md",
+     "satir": "7-8",
+     "alinti": "> **BE-2 (§E):** **`BASKIN-RICA-VURUR` ≥3/6** — fikir: *beyaz-yaka ricasi\n> `û_D`'yi kipirdatir, D kipten genistir.* **ORTA-DÜSÜK.**"
+    },
+    {
+     "dosya": "preregistration/prediction_e.md",
+     "satir": "21-23",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "The dominant-request cell fired in 2 of 6 families (0.333).",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/VERDICT_E_YALINLIK_2026-08-27.md",
+     "satir": "80",
+     "alinti": "| **BE-2** | `BASKIN-RICA-VURUR` **≥3/6** | **2 / 6 = 0,333** | **TUTMADI** |"
+    }
+   ],
+   "kagit_yeri": "Appendix D.1 «(ii) Grammatical mood swap.» HEAD 1438–1447 (tag VERDICT_E_YALINLIK · KESIF_KIP16 at 1447)",
+   "not": [
+    "«command side» comes from the registration's definition of the trap cell, not the bet text:",
+    {
+     "dosya": "preregistration/prereg_plainness_2026-08-27.md",
+     "satir": "99-101",
+     "alinti": ""
+    },
+    "The paper's sentence reports the exploratory 16-family frame-length reading (KESIF_KIP16, PREREG_E_YALINLIK ERRATA-1 lines 11–12); this registration's 6-family result is present only through the tag."
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "1438-1442",
+     "calisma_agaci_satir": 1423
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 15,
+   "kayit_ic_ad": "E799",
+   "kayit_en": "the blind cross-family judge against the Warriner dominance lexicon",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "237",
+     "alinti": "against a blind cross-family judge the Warriner dominance lexicon is wrong-signed ($-5.2\\sigma$ at the item level)"
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "1451-1452",
+     "alinti": "Text a blind cross-family judge calls \\textsc{dominant} scores \\emph{lower} on\nthe Warriner dominance lexicon \\citep{warriner2013norms} than text it calls \\textsc{submissive}"
+    }
+   ],
+   "dusen_bahisler": [
+    "PB-5"
+   ],
+   "n_dusen": 1,
+   "tahmin_en": "Not all 12 cells of the G2 generation run would finish at the point limit, leaving partial counts in the inventory.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_overnight2_2026-08-24.md",
+     "satir": "25",
+     "alinti": ""
+    }
+   ],
+   "olculen_en": "The binding scoring recorded the prediction as failed, definitively and as an operational matter.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/verdict_e799_opening_2026-08-25.md",
+     "satir": "67",
+     "alinti": ""
+    }
+   ],
+   "kagit_yeri": "§2 (iii) «Judges are secondary, and the cheap rulers fail:» HEAD 236–238; Appendix D.1 «(iii) Judges are secondary, and the cheap lexicon ruler is wrong-signed.» 1450–1465",
+   "not": [
+    "The binding evidence line carries no measurement. The measured count is in the earlier scoring (7 of 7 finished; the job count was 7, not 12), which failed_predictions does not treat as binding:",
+    {
+     "dosya": "results/VERDICT_GOLGE_REFLEKS_2026-08-25.md",
+     "satir": "52",
+     "alinti": ""
+    },
+    "PB-5 is an operational bet about jobs finishing; it says nothing about the content the paper reports. A reader-facing table row for it will look odd."
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "237",
+     "calisma_agaci_satir": 237
+    },
+    {
+     "head_satir": "1451-1452",
+     "calisma_agaci_satir": 1436
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 16,
+   "kayit_ic_ad": "D2",
+   "kayit_en": "undoing the preference delta by interpolation, θ(α) = θ_SFT + α(θ_DPO − θ_SFT)",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2279-2281",
+     "alinti": "Undoing the preference delta.}\nInterpolating $\\theta(\\alpha)=\\theta_{\\mathrm{SFT}}+\\alpha(\\theta_{\\mathrm{DPO}}\n-\\theta_{\\mathrm{SFT}})$"
+    }
+   ],
+   "dusen_bahisler": [
+    "BD2-1",
+    "BD2-2"
+   ],
+   "n_dusen": 2,
+   "tahmin_en": "The erasure would sit in the single DPO weight delta, so undoing that delta would work on OLMo-2-32B (a monotone curve approaching the base at α = −0.5) and on Zephyr (dSFT→dDPO).",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_d2.md",
+     "satir": "8-12",
+     "alinti": "> `--- PREDICTION-D2 · ASSISTANT · fikir: silme tek agirlik-farkinda mi, büyük modelde de mi`\n> **BD2-1** OLMo-2-32B **`SILME-TEK-DELTADA`** (α-egrisi monoton, α=−0,5\n> tabana yaklasir) — *13B'de gördük, 32B'de SFT'nin D-ekleyen ters merdiveni\n> var, yine de delta-geri-alma calisir derim.* **ORTA-DÜSÜK.**\n> **BD2-2** Zephyr (dSFT→dDPO) **`SILME-TEK-DELTADA`**. **ORTA.**"
+    }
+   ],
+   "olculen_en": "On OLMo-2-32B the curve was monotone but did not approach the base, and Zephyr read as scattered.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/VERDICT_D2_C3_2026-08-28.md",
+     "satir": "24-27",
+     "alinti": ""
+    },
+    {
+     "dosya": "results/VERDICT_D2_C3_2026-08-28.md",
+     "satir": "119",
+     "alinti": "| **BD2-2** | Zephyr (dSFT→dDPO) `SILME-TEK-DELTADA` | **TUTMADI** — `DAGINIK` |"
+    }
+   ],
+   "kagit_yeri": "Appendix D.5 «Undoing the preference delta.» HEAD 2279–2288 (tag VERDICT_D2_C3 ERRATA-1); Appendix D.7 summary sentence 2669–2672; figure caption fig:delta 2955",
+   "not": [
+    "Table range 24–33 holds the BD2-1 re-score; line 31 says BD2-2 is unchanged, so its score is read from body line 119. Zephyr detail: ρ = −1.000 but T(−0.5) = +0.1009 against T_base = −0.0898 (lines 94, 106–108)."
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "2279-2281",
+     "calisma_agaci_satir": 2282
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 17,
+   "kayit_ic_ad": "C3",
+   "kayit_en": "the behavioural anchor: the supervised weights stepped either way along the dominance direction at a fixed KL budget",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2918-2921",
+     "alinti": "The anchor cell, an\nOLMo-2 pair, is the behavioural anchor of Appendix~\\ref{app:D5}: the supervised weights are stepped either way along the\ndominance direction at a fixed KL budget, the read quantity is the likelihood gap between the imperative and request forms of a\nfixed set of minimal pairs, and $\\mathrm{frac2}$ is the share of sign-randomised placebo directions that move that gap at least as far."
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2323-2324",
+     "alinti": "a behavioural anchor built on\nthe same direction could not be established"
+    }
+   ],
+   "dusen_bahisler": [
+    "BC3-1",
+    "BC3-2"
+   ],
+   "n_dusen": 2,
+   "tahmin_en": "The ruler would show the dominance direction on Zephyr, with both perturbation branches inside the bar, and on Tülu as well.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_c3.md",
+     "satir": "8",
+     "alinti": "> **BC3-1** Zephyr **`CETVEL-D'YI-GÖSTERIR`** (iki dal da bar icinde)."
+    },
+    {
+     "dosya": "preregistration/prediction_c3.md",
+     "satir": "10",
+     "alinti": "> **BC3-2** Tülu'da da **`GÖSTERIR`**. **ORTA.**"
+    }
+   ],
+   "olculen_en": "Neither showed it: on Zephyr the plus branch cleared the bar (0.0000) and the minus branch did not (0.2000); on Tülu the branches read 0.3500 and 0.2833.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/VERDICT_D2_C3_2026-08-28.md",
+     "satir": "125-126",
+     "alinti": ""
+    }
+   ],
+   "kagit_yeri": "Appendix D.8 «Extended limitations.» HEAD 2915–2942 (anchor cell 2918–2924); Appendix D.5 «Gradients…» 2322–2324; tag at 2288 cites VERDICT_D2_C3 ERRATA-1",
+   "not": [
+    "The paper reports this registration's OLMo-2 cell (card C3_BIRLESIK_2026-08-28.json: frac2 0.9167 / 0.0833, GÖSTERMEZ). The two failed bets concern the Zephyr and Tülu cells, which the paper does not report one by one.",
+    "Table row says «ayni» (lines 24–33); line 31 says BC3-1/2 are unchanged, so their scores come from body lines 125–126.",
+    "The bet's own reading rule said before measurement that more draws could not rescue BC3-1:",
+    {
+     "dosya": "preregistration/prediction_c3.md",
+     "satir": "19-22",
+     "alinti": ""
+    }
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "2918-2921",
+     "calisma_agaci_satir": 2921
+    },
+    {
+     "head_satir": "2323-2324",
+     "calisma_agaci_satir": 2326
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 18,
+   "kayit_ic_ad": "P7-ÖLCEK2",
+   "kayit_en": "rung-by-rung reading with the embedding estimator",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2291-2294",
+     "alinti": "Read rung by rung with the embedding estimator, the dominance shift is\n\\emph{built} at the SFT$\\rightarrow$DPO rung in OLMo-2-13B and Tülu-3-8B, while\nOLMo-2-32B moves the \\emph{opposite} way at base$\\rightarrow$SFT ($-2.6$\nnull-sd) and never recovers it"
+    }
+   ],
+   "dusen_bahisler": [
+    "B1",
+    "B2",
+    "B3",
+    "B5"
+   ],
+   "n_dusen": 4,
+   "tahmin_en": "No pair's embedding-estimator interval would lie wholly below 0, the largest shift would fall at an interior rung in every family with at least 3 dense rungs, and Gemma-3-27B's dense pair would show no net erasure. On every OLMo-2 ladder the largest step would be SFT→DPO.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_overnight_2026-08-21.md",
+     "satir": "11",
+     "alinti": "- **B1 (yasa, yapisal):** hicbir ciftte ΔU_DOM CI tamamen < 0 (ters yok)."
+    },
+    {
+     "dosya": "preregistration/prediction_overnight_2026-08-21.md",
+     "satir": "13-14",
+     "alinti": ""
+    },
+    {
+     "dosya": "preregistration/prediction_overnight_2026-08-21.md",
+     "satir": "15-16",
+     "alinti": "- **B3 (kapasite ↔ MoE, kritik):** Gemma-3-27B dense cifti ΔU_DOM CI ∋ 0\n  ya da CONTINGENT bandi — **net silme DEGIL**. Güven **DÜSÜK-ORTA**."
+    },
+    {
+     "dosya": "preregistration/prediction_overnight_2026-08-21.md",
+     "satir": "20-21",
+     "alinti": "- **B5 (OLMo asama):** her OLMo-2 merdiveninde ΔU_DOM'un **en büyük adimi\n  SFT→DPO** (U-2 bahsinin ölcek-ikizi). Güven **DÜSÜK**."
+    }
+   ],
+   "olculen_en": "OLMo2-32B's base→SFT interval lay wholly below zero ([−0.0347, −0.0048]), the Qwen2.5 maximum fell at the end rung (14B), and Gemma-3-27B moved +0.0314 with an interval excluding zero. The largest OLMo-2 step was SFT→DPO at 13B but DPO→Inst at 32B.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/VERDICT_P7_OLCEK2_2026-08-22.md",
+     "satir": "81-83",
+     "alinti": ""
+    },
+    {
+     "dosya": "results/VERDICT_P7_OLCEK2_2026-08-22.md",
+     "satir": "85",
+     "alinti": "| **B5** | *\"**her** OLMo-2 merdiveninde ΔU_DOM'un en büyük adimi **SFT→DPO**\"* · **DÜSÜK** | 13B: SFT→DPO ✔ · **32B: DPO→Inst ✘** ⇒ *\"her\"* düser | **TUTMADI** |"
+    }
+   ],
+   "kagit_yeri": "Appendix D.5 «Rungs.» HEAD 2290–2303; Appendix D.7 short sentence 2664–2667 (tag P7_OLCEK2)",
+   "not": [],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "2291-2294",
+     "calisma_agaci_satir": 2294
+    }
+   ],
+   "dogrulandi": true
+  },
+  {
+   "i": 19,
+   "kayit_ic_ad": "RLVR OLMo-2-7B",
+   "kayit_en": "the six successive RLVR steps of OLMo-2-7B",
+   "kayit_en_kaynak": [
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "2294-2295",
+     "alinti": "six successive RLVR steps leave the axis\nflat."
+    },
+    {
+     "dosya": "paper/p11.tex@HEAD",
+     "satir": "787",
+     "alinti": "The six RLVR rungs are not six repositories."
+    }
+   ],
+   "dusen_bahisler": [
+    "BR-3"
+   ],
+   "n_dusen": 1,
+   "tahmin_en": "Across the 6 RLVR steps the largest dominance-axis shift would fall at an interior step, which the bet itself labels a base-rate statement (4/6 ≈ 0.67) rather than a wager.",
+   "tahmin_kaynak_alinti": [
+    {
+     "dosya": "preregistration/prediction_rlvr_executor_2026-08-23.md",
+     "satir": "16",
+     "alinti": "PREDICTION-RLVR · EXECUTOR · panel rlvr · 6 hücre · OLMo-2-7B"
+    },
+    {
+     "dosya": "preregistration/prediction_rlvr_executor_2026-08-23.md",
+     "satir": "23-26",
+     "alinti": "BR-3"
+    }
+   ],
+   "olculen_en": "The largest shift fell at an end step, and the scoring withdrew the bet's claim that such an outcome would carry information.",
+   "olculen_kaynak_alinti": [
+    {
+     "dosya": "results/VERDICT_RLVR_OLMO2_7B_2026-08-23.md",
+     "satir": "60",
+     "alinti": "| **BR-3** | `SEKIL_ASAMA` = `IC-MAKSIMUM` | **`UC-MAKSIMUM`** | **TUTMADI** *(«bilgi tasir» serhi §3'te düsürüldü)* |"
+    }
+   ],
+   "kagit_yeri": "Appendix D.5 «Rungs.» HEAD 2294; Appendix A «Models, snapshots and decoding.» 757–793 (RLVR rows 777–783, text 787–793); Appendix D.7 «Dose, not direction.» 2623–2627",
+   "not": [
+    "Why the scoring withdrew the information clause (lines 44–47): all six dU values lie within ±0.0028 against an MDE of 0.0043–0.0077, and the end-maximum base rate is 2/6 = 0.33.",
+    {
+     "dosya": "results/VERDICT_RLVR_OLMO2_7B_2026-08-23.md",
+     "satir": "44-47",
+     "alinti": ""
+    }
+   ],
+   "kayit_en_calisma_agaci": [
+    {
+     "head_satir": "2294-2295",
+     "calisma_agaci_satir": 2297
+    },
+    {
+     "head_satir": "787",
+     "calisma_agaci_satir": 772
+    }
+   ],
+   "dogrulandi": true
+  }
+ ],
+ "damga_utc": "2026-09-17T14:28:43Z"
+}

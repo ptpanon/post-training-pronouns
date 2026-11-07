@@ -1,0 +1,47 @@
+{
+ "alet": "scripts/v61_scoring.py",
+ "alet_sha16": "07305f71af88cfee",
+ "damga_utc": "2026-09-12T15:55:42Z",
+ "prereg": "prereg_v61_scoring_2026-09-11.md",
+ "prereg_sha256": "37939182ab744243",
+ "motor": {
+  "kk2_fizibilite": "846694fbac4425cd",
+  "kol_tablosu": "cd76fbdefbcfec97"
+ },
+ "ters_disi_rule": [
+  "your"
+ ],
+ "ters_serh": "",
+ "havuz": "allenai/llama-3.1-tulu-3-8b-preference-mixture",
+ "kok": "<data>/v61_puanlama",
+ "n_hedef": 3000,
+ "cift_kunyesi": {
+  "n_taranan": 87311,
+  "n_istem": 3000,
+  "red_uygunsuz": 8834,
+  "red_ters_yok": 160021,
+  "degisim_payi": {
+   "p05": 0.0015007316111168862,
+   "p50": 0.008516074475854382,
+   "p95": 0.042013855278530104
+  }
+ },
+ "sonuc": {
+  "armorm": {
+   "hal": "KOSTU",
+   "n": 3000,
+   "red": 0,
+   "dk": 6.064224223295848,
+   "guc": "GECTI",
+   "tam_kosu": true
+  },
+  "skywork": {
+   "hal": "KOSTU",
+   "n": 3000,
+   "red": 0,
+   "dk": 6.162506707509359,
+   "guc": "GECTI",
+   "tam_kosu": true
+  }
+ }
+}

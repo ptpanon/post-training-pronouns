@@ -1,0 +1,861 @@
+{
+ "damga_utc": "2026-09-17T15:26:25Z",
+ "rule": "preregistration/rule_v90_failed_count_2026-09-17.md @ ec8e80aa",
+ "kagit": "paper/p11.tex @ 05193854 (+ \\input fig/*.tex at the same commit)",
+ "N_skorlanmis_K1_K2": 32,
+ "N_kayitlar": [
+  "PREREG-9",
+  "PREREG-URIAL",
+  "M-SISTEM-2",
+  "V61-MERDIVEN",
+  "V61-PUANLAMA",
+  "KISI KADRANI",
+  "KK-2",
+  "KK-3F",
+  "SimPO",
+  "YARGIC-IMZASI-2",
+  "FORM-SAYIM",
+  "F5-16",
+  "D2V2-N",
+  "E-YALINLIK",
+  "E799",
+  "D2",
+  "C3",
+  "P7-ÖLCEK2",
+  "RLVR OLMo-2-7B",
+  "ACI",
+  "YETENEK",
+  "PREREG-9b",
+  "D-DPO-DELTA",
+  "P-ÖLCEK3",
+  "MERDIVEN-TEMPLATE",
+  "YARGIC-IMZASI-1",
+  "KK3T2",
+  "KK3T3",
+  "KISI_SEED23",
+  "SEED_UC_AILE",
+  "YETENEK_SAHISSIZ",
+  "TERAZI (KOL-GECESI)"
+ ],
+ "M_dusenli": 19,
+ "M_kayitlar": [
+  "PREREG-9",
+  "PREREG-URIAL",
+  "M-SISTEM-2",
+  "V61-MERDIVEN",
+  "V61-PUANLAMA",
+  "KISI KADRANI",
+  "KK-2",
+  "KK-3F",
+  "SimPO",
+  "YARGIC-IMZASI-2",
+  "FORM-SAYIM",
+  "F5-16",
+  "D2V2-N",
+  "E-YALINLIK",
+  "D2",
+  "C3",
+  "P7-ÖLCEK2",
+  "YARGIC-IMZASI-1",
+  "TERAZI (KOL-GECESI)"
+ ],
+ "T_dusen_esasli": 46,
+ "T_dagilim": {
+  "PREREG-9": 1,
+  "PREREG-URIAL": 3,
+  "M-SISTEM-2": 1,
+  "V61-MERDIVEN": 1,
+  "V61-PUANLAMA": 1,
+  "KISI KADRANI": 4,
+  "KK-2": 4,
+  "KK-3F": 3,
+  "SimPO": 1,
+  "YARGIC-IMZASI-2": 3,
+  "FORM-SAYIM": 8,
+  "F5-16": 1,
+  "D2V2-N": 2,
+  "E-YALINLIK": 1,
+  "D2": 2,
+  "C3": 2,
+  "P7-ÖLCEK2": 4,
+  "YARGIC-IMZASI-1": 3,
+  "TERAZI (KOL-GECESI)": 1
+ },
+ "n_islemsel_dusen": 2,
+ "islemsel_dusen_kayitlar": {
+  "F5-16": [
+   "BF5-7"
+  ],
+  "E799": [
+   "PB-5"
+  ]
+ },
+ "n_taban_dusen": 2,
+ "taban_dusen_kayitlar": {
+  "RLVR OLMo-2-7B": [
+   "BR-3"
+  ],
+  "P-ÖLCEK3": [
+   "SAHIP-HIPOTEZI"
+  ]
+ },
+ "islemsel_prediction_tutan_dahil": {
+  "PREREG-9": [
+   "B9c"
+  ],
+  "KK-2": [
+   "KAPI-1 (D-SHELF)",
+   "KAPI-2 (adim sayisi)",
+   "KAPI-3 (gözcü ihlali)",
+   "KAPI-4 (boy serhi)",
+   "KAPI-5 (MP_RASTGELE bari)"
+  ],
+  "F5-16": [
+   "BF5-7"
+  ],
+  "E799": [
+   "PB-1",
+   "PB-5"
+  ],
+  "D2": [
+   "BD2-3"
+  ],
+  "RLVR OLMo-2-7B": [
+   "BR-4",
+   "BR-5"
+  ],
+  "YETENEK": [
+   "F-YET-5"
+  ],
+  "MERDIVEN-TEMPLATE": [
+   "BM-5"
+  ],
+  "SEED_UC_AILE": [
+   "F-TUA-3"
+  ]
+ },
+ "dipnot": [
+  {
+   "kayit_ic_ad": "R2",
+   "dusen_esasli": [
+    "BR2-1"
+   ],
+   "n": 1,
+   "neden": "No line of p11.tex@05193854 names VERDICT_R2_ACILIS or states the result; the paragraph was cut in 33ec7786."
+  },
+  {
+   "kayit_ic_ad": "PREREG-8",
+   "dusen_esasli": [
+    "B8a"
+   ],
+   "n": 1,
+   "neden": "The seal is named only (not its result document): beside the counter definitions (263, 1532), beside a general intro claim (196) and beside the M3-share paragraph whose numbers come from the 16-family panel (1855). Its own outcome (three SFT→RL ladders, B8a) is not stated in the text. Judgment call — same reading as the 2026-09-14 count."
+  }
+ ],
+ "cozulemedi": [],
+ "genislik_cumlesi_disarida": [
+  {
+   "kayit_ic_ad": "TEMPLATE-GÜRBÜZLÜGÜ",
+   "skorlanmis": true,
+   "dusen_esasli": [
+    "BT-1",
+    "BT-2",
+    "BT-3"
+   ],
+   "n_dusen_esasli": 3,
+   "dusen_islemsel": [
+    "BT-4"
+   ]
+  },
+  {
+   "kayit_ic_ad": "TEMPLATE-24",
+   "skorlanmis": true,
+   "dusen_esasli": [],
+   "n_dusen_esasli": 0,
+   "dusen_islemsel": []
+  },
+  {
+   "kayit_ic_ad": "C1-AILE-PANELI",
+   "skorlanmis": true,
+   "dusen_esasli": [],
+   "n_dusen_esasli": 0,
+   "dusen_islemsel": []
+  },
+  {
+   "kayit_ic_ad": "P5-ÖLCEK-KOLU",
+   "skorlanmis": true,
+   "dusen_esasli": [
+    "Ikincil"
+   ],
+   "n_dusen_esasli": 1,
+   "dusen_islemsel": []
+  },
+  {
+   "kayit_ic_ad": "TEMPLATE-MERDIVEN (A1)",
+   "skorlanmis": false,
+   "dusen_esasli": [],
+   "n_dusen_esasli": 0,
+   "dusen_islemsel": []
+  }
+ ],
+ "eski_sayim": [
+  25,
+  19,
+  46
+ ],
+ "yeni_sayim": [
+  32,
+  19,
+  46
+ ],
+ "fark_satir_satir": [
+  {
+   "kayit": "PREREG-9",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "PREREG-URIAL",
+   "eski": [
+    1,
+    1,
+    3
+   ],
+   "yeni": [
+    1,
+    1,
+    3
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "M-SISTEM-2",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "V61 → V61-MERDIVEN + V61-PUANLAMA",
+   "eski": [
+    1,
+    1,
+    2
+   ],
+   "yeni": [
+    2,
+    2,
+    2
+   ],
+   "neden": "Karar 1: iki prereg dosyasi ⇒ iki kayit; her birinde 1 esasli düsen."
+  },
+  {
+   "kayit": "KISI KADRANI",
+   "eski": [
+    1,
+    1,
+    4
+   ],
+   "yeni": [
+    1,
+    1,
+    4
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "KK-2",
+   "eski": [
+    1,
+    1,
+    4
+   ],
+   "yeni": [
+    1,
+    1,
+    4
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "KK-3F",
+   "eski": [
+    1,
+    1,
+    3
+   ],
+   "yeni": [
+    1,
+    1,
+    3
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "SimPO",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "YARGIC-IMZASI-2",
+   "eski": [
+    1,
+    1,
+    3
+   ],
+   "yeni": [
+    1,
+    1,
+    3
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "FORM-SAYIM",
+   "eski": [
+    1,
+    1,
+    8
+   ],
+   "yeni": [
+    1,
+    1,
+    8
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "F5-16",
+   "eski": [
+    1,
+    1,
+    2
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "islemsel düsen disarida: BF5-7"
+  },
+  {
+   "kayit": "D2V2-N",
+   "eski": [
+    1,
+    1,
+    2
+   ],
+   "yeni": [
+    1,
+    1,
+    2
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "R2",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    0,
+    0,
+    0
+   ],
+   "neden": "K2 yok ⇒ dipnot"
+  },
+  {
+   "kayit": "E-YALINLIK",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "E799",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "islemsel düsen disarida: PB-5"
+  },
+  {
+   "kayit": "D2",
+   "eski": [
+    1,
+    1,
+    2
+   ],
+   "yeni": [
+    1,
+    1,
+    2
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "C3",
+   "eski": [
+    1,
+    1,
+    2
+   ],
+   "yeni": [
+    1,
+    1,
+    2
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "P7-ÖLCEK2",
+   "eski": [
+    1,
+    1,
+    4
+   ],
+   "yeni": [
+    1,
+    1,
+    4
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "RLVR OLMo-2-7B",
+   "eski": [
+    1,
+    1,
+    1
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "taban beyani disarida: BR-3"
+  },
+  {
+   "kayit": "ACI",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "YETENEK",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "PREREG-9b",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "D-DPO-DELTA",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "P-ÖLCEK3",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "MERDIVEN-TEMPLATE",
+   "eski": [
+    1,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "degismedi"
+  },
+  {
+   "kayit": "YARGIC-IMZASI-1",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    1,
+    3
+   ],
+   "neden": "girdi: eski-evren-disi; SAYILIR-DUSENLI"
+  },
+  {
+   "kayit": "KK3T2",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "girdi: yeni; SAYILIR-DUSENSIZ"
+  },
+  {
+   "kayit": "KK3T3",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "girdi: yeni; SAYILIR-DUSENSIZ"
+  },
+  {
+   "kayit": "KISI_SEED23",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "girdi: yeni; SAYILIR-DUSENSIZ"
+  },
+  {
+   "kayit": "SEED_UC_AILE",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "girdi: yeni; SAYILIR-DUSENSIZ"
+  },
+  {
+   "kayit": "YETENEK_SAHISSIZ",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    0,
+    0
+   ],
+   "neden": "girdi: yeni; SAYILIR-DUSENSIZ"
+  },
+  {
+   "kayit": "TERAZI (KOL-GECESI)",
+   "eski": [
+    0,
+    0,
+    0
+   ],
+   "yeni": [
+    1,
+    1,
+    1
+   ],
+   "neden": "girdi: karar6-ek; SAYILIR-DUSENLI"
+  }
+ ],
+ "kapsam_kararlari": [
+  {
+   "no": 1,
+   "karar": "V61: iki prereg dosyasi (PREREG_V61_MERDIVEN, PREREG_V61_PUANLAMA) ⇒ iki kayit (§1 birim = prereg).",
+   "etki": "N +1, M +1, T 0"
+  },
+  {
+   "no": 2,
+   "karar": "",
+   "etki": "sayima girmez"
+  },
+  {
+   "no": 3,
+   "karar": "PREREG-8",
+   "etki": "dipnot +1"
+  },
+  {
+   "no": 4,
+   "karar": "YARGIC-IMZASI-1",
+   "etki": "N +1, M +1, T +3"
+  },
+  {
+   "no": 5,
+   "karar": "",
+   "etki": "sayima girmez; toplam yazili esasli düsen 4 (✗ sayilirsa 8)"
+  },
+  {
+   "no": 6,
+   "karar": "",
+   "etki": "N +1, M +1, T +1 (TERAZI)"
+  },
+  {
+   "no": "7-okuma",
+   "karar": "TERAZI",
+   "etki": "hassasiyet: M 18 · T 45"
+  },
+  {
+   "no": "8-okuma",
+   "karar": "",
+   "etki": "E799 ve RLVR düsensiz; F5-16 T 2→1"
+  },
+  {
+   "no": "9-okuma",
+   "karar": "",
+   "etki": ""
+  }
+ ],
+ "kayit_olmayan_etiketler": {
+  "mühürsüz card": [
+   "P11_SEYRELME",
+   "P11_TERS_CETVEL",
+   "HAVUZ_KISI_DELTASI_TAM",
+   "DOLCI_KISI_DELTASI_TAM",
+   "V20_PANEL",
+   "V20_UF_SECILEN",
+   "V22_KUVVET_SEYRELME",
+   "V23_TEMPLATE_SAYIM",
+   "V26_B15b_OLCUM",
+   "V27_SISTEM_SATIRI_SINAVI",
+   "V29_SORU_VE_SEVIYE",
+   "V30_KOKEN_ACIK",
+   "V30_HELPSTEER2_KISI",
+   "V31_PUANLAYICI",
+   "V31_BASAMAK_DUZEY",
+   "NEURALHERMES_TEMPLATE_DUZEY",
+   "YAZILI_CAPA",
+   "ELICIT16_CARD",
+   "P11_2X2_ELICIT",
+   "SEED_M4_DUZEY",
+   "KONUSMA_CIPLAK",
+   "CAPRAZLAMA",
+   "KOMSU_11711_OLCUM",
+   "KOMSU_REGISTER",
+   "KOMSU_DOGRULAMA",
+   "FILTERED_2x2",
+   "VDA_DOLASIKLIK",
+   "UCLU_CETVEL_REV1",
+   "P11_YARGIC_IMZASI5",
+   "YARGIC_IMZASI4",
+   "KP5B23_SONUC",
+   "M2M3_ETIKET_DOGRULAMA",
+   "C_BILESIM",
+   "A_BILESIM",
+   "DIAL_CIFT_SAGLIGI",
+   "KK2_FIZIBILITE",
+   "DIAL_CIKTI_PROFILI",
+   "DIAL_BETIM",
+   "YAYILIM_KALIBRASYON",
+   "KIT_V78_TEMPLATE_UZUNLUK",
+   "BANKA_U3 REV",
+   "P11_AILE_RASTGELE"
+  ],
+  "rule-betim": [
+   "HAKEM_Q1_URIAL_BIRINCIL",
+   "HAKEM_Q2_DUZYAZI",
+   "HAKEM_IS1_DUZYAZI_SAHIS1",
+   "HAKEM_W2_TUR_KESIK_SAHIS1",
+   "HAKEM_Q4_PROTOKOL_ISARET",
+   "HAKEM_Q5_BANT_UC_ZEMIN",
+   "HAKEM6_A_ELICIT_BANT",
+   "HAKEM6_C_TEMPLATE_KIP",
+   "HAKEM6_D_ELICIT_SINIF",
+   "V90_TEZ_KUME",
+   "Q2_KIP_EXIT_SAYIM",
+   "Q2_KIP_EXIT_DUYARLILIK",
+   "Q2_TAVAN",
+   "TEMPLATE_FILTERED_SAHIS1",
+   "TEMPLATE_FILTERED_SAHIS1_YANKISIZ",
+   "KESIF_KIP16",
+   "KESIF_KISISIZLESME"
+  ],
+  "alet": [
+   "addressee_olcu.py",
+   "f4_mood_ruler.cetvel_sayimi()",
+   "plasebo_esli",
+   "muhatap9_kos.sahis1_1k",
+   "capability_arm.py",
+   "figures/continuation_mode_exit_block.py"
+  ],
+  "kayit-karti (kayda baglandi)": [
+   "PREREG9_A",
+   "PREREG9_B",
+   "PREREG9b",
+   "PREREG9_A_OLCUM",
+   "URIAL_VERDICT_2048_16_K2048",
+   "URIAL_VERDICT_2048_X1",
+   "YETENEK_SAHISSIZ_KARNE",
+   "YETENEK_SAHISSIZ_TABAN",
+   "VERDICT_YETENEK_16",
+   "VERDICT_ACI",
+   "MSISTEM_KARNE",
+   "SKOR_PREREG7_KP-ac9d",
+   "KP-ac9d",
+   "KP-bd7f",
+   "D2V2N_KARNE",
+   "VERDICT_D2_C3",
+   "V61_PUANLAMA",
+   "V61_ORNEK_CIFT",
+   "KK3_VERDICT",
+   "DÖNÜS-KK3",
+   "KK2_VERDICT",
+   "TASLAK_PREREG_KK3",
+   "MERDIVEN_TEMPLATE"
+  ],
+  "verdict-adi/etiket": [
+   "KATMAN-BIRLIKTE",
+   "KADRAN-IKI-YÖN",
+   "ÖLCÜLEMEZ-DOZ",
+   "OZGUL-IMZA",
+   "surface-charged",
+   "DEJENERE-RAF",
+   "okuma-gölgesi",
+   "secim sessizligi",
+   "filtre-verim",
+   "TAM-HAVUZ",
+   "KESIF",
+   "KESIFSEL"
+  ],
+  "kütük/direktif/belge": [
+   "W-625",
+   "W-646",
+   "W-652",
+   "W-653",
+   "W-825",
+   "W-829",
+   "W-830",
+   "W-837",
+   "W-845",
+   "W-910",
+   "W-911",
+   "W-915",
+   "W-918",
+   "W-1134",
+   "D-0908-COLLEAGUE",
+   "D-0910-V27",
+   "V22 §3",
+   "ISKELET_P11",
+   "neden-önemli",
+   "B&L",
+   "sahip metni",
+   "üc kaldirac",
+   "BARAJ_YSZ_KOPYA",
+   "BARAJ_SORGU_YARGIC_MARJ"
+  ]
+ },
+ "taranan_aday_disi": [
+  {
+   "kayit": "SECIM-KUYRUK (PREREG_SECIM_KUYRUK_2026-08-27)",
+   "not": "BK-2"
+  },
+  {
+   "kayit": "MUHATAP · D2V2 · D2V2-N3 · KGK v5 (eski §4)",
+   "not": ""
+  }
+ ],
+ "alinti_kapisi": {
+  "toplam": 731,
+  "ok": 731,
+  "tutmayan": []
+ }
+}

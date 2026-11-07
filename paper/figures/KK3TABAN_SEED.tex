@@ -1,0 +1,11 @@
+\vekalet{\textbf{The natural run at three training seeds.} The natural run was retrained from the same pairs and the same supervised checkpoint at the two further seeds of the flattened run, so each flattened seed has a natural twin. The registered bar was the sign against the supervised checkpoint in each new seed, magnitudes as a range; the sign holds in both new seeds. The flattened-minus-natural difference is description, not part of the bar: the two runs are separate training runs, and its interval carries the sampling of prompts, not the variance across training seeds. Its own paired placebo splits the two runs' generations at random within each prompt and draw, $200$ times, and recomputes the difference averaged over draws, as the difference itself is; the run's placebo splits a single draw, so the two placebo columns are not on one scale. The difference clears its own placebo's $p95$ in every row.}
+\begin{center}\scriptsize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}\toprule
+training seed & $\Delta M_1$ vs.\ SFT & 95\% CI & paired placebo $p95$ & clears it & flattened $-$ natural [95\% CI] & its placebo $p95$ \\ \midrule
+1 (20260906) & $-1.54$ & $[-2.37,-0.78]$ & $0.95$ & yes & $+0.42$ $[+0.17,+0.74]$ & $0.30$ \\
+2 (20260914) & $-1.85$ & $[-2.67,-1.06]$ & $0.90$ & yes & $+0.92$ $[+0.76,+1.10]$ & $0.28$ \\
+3 (20260917) & $-1.50$ & $[-2.31,-0.73]$ & $0.99$ & yes & $+0.39$ $[+0.18,+0.63]$ & $0.26$ \\
+\midrule
+pooled, three seeds & \multicolumn{4}{l}{natural run $-1.85$ to $-1.50$ (range only)} & $+0.58$ $[+0.43,+0.77]$ & $0.15$ \\
+\bottomrule\end{tabular}\end{center}
+\vekalet{\textbf{The tripled run at two training seeds.} The second seed was registered with one bar, the sign of tripled minus flat at the same seed, and kept it: $-4.16$ at the first seed and $-4.41$ $[-5.78,-3.31]$ at the second, with the tripled run at $-5.28$ and $-5.34$ against the supervised checkpoint and \mbox{distinct-4} $0.76$ and $0.75$. Two seeds give a range, not a spread estimate.}

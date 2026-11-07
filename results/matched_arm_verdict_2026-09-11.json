@@ -1,0 +1,178 @@
+{
+ "damga_utc": "2026-09-11T11:48:13Z",
+ "prereg": "",
+ "bar": 1.1,
+ "mde_B": 1.29,
+ "null_sd_kuvvet": 0.00104,
+ "m": 4,
+ "nb": 1000,
+ "du_null_sd_prereg": 0.0026626139817629182,
+ "errata_1": "",
+ "taban_M1": 9.981037310373104,
+ "kol": {
+  "ESLI": {
+   "dA": -0.016832835654021494,
+   "dB": -0.24165791178812812,
+   "ciA": [
+    -0.9130265291711138,
+    0.9282765847705314
+   ],
+   "ciB": [
+    -0.511071879426068,
+    -0.006023465418730483
+   ],
+   "plasebo_p95": 1.3076066648577025,
+   "plasebo_ort": -0.013352130067572094,
+   "hal_A": "GECMEZ",
+   "hal_B": "GECMEZ",
+   "bilesen_A": {
+    "bar": false,
+    "ayrik": false,
+    "plasebo": false
+   },
+   "bilesen_B": {
+    "bar": false,
+    "ayrik": true,
+    "plasebo": false
+   },
+   "hucre_A": "GECMEZ",
+   "hucre_B": "GECMEZ",
+   "dKUVVET": -0.001107955530912939,
+   "z_kuvvet": 1.0653418566470567,
+   "kuvvet_yerinde": false,
+   "dSAHIS1": -0.6347060648438894,
+   "dJETON_CUMLE": 0.09666172272171458,
+   "dSAHIS1_A": -0.03404840550582877,
+   "dJETON_CUMLE_A": 0.056136821241888235,
+   "distinct4": 0.7503744216496911,
+   "raf": false,
+   "dU_PREREG_DOM": 0.000873250000000006,
+   "z_dU": 0.18058673240165476,
+   "dU_yerinde": true,
+   "z_dU_PREREG_REF": 0.327967180365299,
+   "dU_yerinde_PREREG_REF": true
+  },
+  "KISI_ASAGI": {
+   "dA": -6.66508925129248,
+   "dB": -6.889914327426587,
+   "ciA": [
+    -8.946782166770694,
+    -4.919179417284271
+   ],
+   "ciB": [
+    -8.926130069344557,
+    -5.320600867737271
+   ],
+   "plasebo_p95": 0.6771893626771287,
+   "plasebo_ort": -0.04122647764706465,
+   "hal_A": "GECTI",
+   "hal_B": "GECTI",
+   "bilesen_A": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "bilesen_B": {
+    "bar": true,
+    "ayrik": true,
+    "plasebo": true
+   },
+   "hucre_A": "GECTI",
+   "hucre_B": "GECTI",
+   "dKUVVET": -0.008580121234482945,
+   "z_kuvvet": 8.250116571618216,
+   "kuvvet_yerinde": false,
+   "dSAHIS1": -3.335352658071452,
+   "dJETON_CUMLE": 0.6741639505289152,
+   "dSAHIS1_A": -2.7346949987333913,
+   "dJETON_CUMLE_A": 0.6336390490490889,
+   "distinct4": 0.7483429419547099,
+   "raf": false,
+   "dU_PREREG_DOM": -0.00579024999999999,
+   "z_dU": 0.971229518954416,
+   "dU_yerinde": true,
+   "z_dU_PREREG_REF": 2.174648687214608,
+   "dU_yerinde_PREREG_REF": false
+  },
+  "RASTGELE": {
+   "dA": 0.22482507613410663,
+   "dB": 0.0,
+   "ciA": [
+    -0.6787225245389875,
+    1.143920141623467
+   ],
+   "ciB": [
+    0.0,
+    0.0
+   ],
+   "plasebo_p95": 1.2578638987383748,
+   "plasebo_ort": -0.011600539637618307,
+   "hal_A": "GECMEZ",
+   "hal_B": "GECMEZ",
+   "bilesen_A": {
+    "bar": false,
+    "ayrik": false,
+    "plasebo": false
+   },
+   "bilesen_B": {
+    "bar": false,
+    "ayrik": false,
+    "plasebo": false
+   },
+   "hucre_A": "GECMEZ",
+   "hucre_B": "GECMEZ",
+   "dKUVVET": 0.0,
+   "z_kuvvet": 0.0,
+   "kuvvet_yerinde": true,
+   "dSAHIS1": 0.0,
+   "dJETON_CUMLE": 0.0,
+   "dSAHIS1_A": 0.6006576593380606,
+   "dJETON_CUMLE_A": -0.04052490147982635,
+   "distinct4": 0.7439376751015674,
+   "raf": false,
+   "dU_PREREG_DOM": -0.0007984999999999902,
+   "z_dU": 0.8625892087739964,
+   "dU_yerinde": true,
+   "z_dU_PREREG_REF": 0.2998932648401789,
+   "dU_yerinde_PREREG_REF": true
+  }
+ },
+ "verdict": {
+  "ESLI": {
+   "hal_B": "GECMEZ",
+   "hal_A": "GECMEZ",
+   "dB": -0.24165791178812812,
+   "dA": -0.016832835654021494,
+   "ciB": [
+    -0.511071879426068,
+    -0.006023465418730483
+   ],
+   "plasebo_p95": 1.3076066648577025,
+   "raf": false
+  },
+  "KISI_ASAGI": {
+   "hal_B": "GECTI",
+   "hal_A": "GECTI",
+   "dB": -6.889914327426587,
+   "dA": -6.66508925129248,
+   "ciB": [
+    -8.926130069344557,
+    -5.320600867737271
+   ],
+   "plasebo_p95": 0.6771893626771287,
+   "raf": false
+  },
+  "RASTGELE": {
+   "hal_B": "GECMEZ",
+   "hal_A": "GECMEZ",
+   "dB": 0.0,
+   "dA": 0.22482507613410663,
+   "ciB": [
+    0.0,
+    0.0
+   ],
+   "plasebo_p95": 1.2578638987383748,
+   "raf": false
+  }
+ }
+}

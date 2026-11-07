@@ -1,0 +1,78 @@
+{
+ "_kunye": {
+  "damga_utc": "2026-09-06T16:00:08Z",
+  "alet": "scripts/v20_ultrafeedback_secilen.py",
+  "borc": "D-0907-V20 §1c",
+  "SINIF": "ÖLCÜM — secim etkisi, kaynak model sabit",
+  "veri": "openbmb/UltraFeedback · 1. mührün önbellegi",
+  "ONCUL_DUZELTME": "",
+  "n_istem": 63966,
+  "n_kullanilan": 63269,
+  "n_berabere": 697,
+  "n_model": 17,
+  "model_ort_M1": [
+   6.255,
+   13.201,
+   25.035,
+   9.082,
+   8.907,
+   19.066,
+   14.476,
+   21.784,
+   9.009,
+   11.312,
+   10.924,
+   12.661,
+   10.492,
+   8.603,
+   9.459,
+   9.208,
+   10.011
+  ],
+  "nb": 1000,
+  "seed": 20260906,
+  "birim": "istem",
+  "prova": {
+   "i_secim_dogru": true,
+   "ii_beraberlik_yakalanir": true,
+   "iii_sabit_etki_sifirlar": true,
+   "iv_bootstrap_sirali": true
+  }
+ },
+ "sonuc": {
+  "M1_ciplak": {
+   "fark": -5.6725300822288185,
+   "ci": [
+    -5.894151457302197,
+    -5.4565561579526864
+   ],
+   "ayrik": true
+  },
+  "M1_model_icinde": {
+   "fark": -3.0668884636233398,
+   "ci": [
+    -3.278346076465981,
+    -2.8579597055971586
+   ],
+   "ayrik": true
+  },
+  "SAHIS1_ciplak": {
+   "fark": -5.787279095473226,
+   "ci": [
+    -6.019668640290307,
+    -5.562080483759598
+   ],
+   "ayrik": true
+  },
+  "SAHIS1_model_icinde": {
+   "fark": -3.0934463426186656,
+   "ci": [
+    -3.3184635205251007,
+    -2.861585961972525
+   ],
+   "ayrik": true
+  }
+ },
+ "kayma_sabit_etki": 2.6056416186054787,
+ "_verdict": "SECIM-ETKISI-MODELDEN-BAGIMSIZ"
+}

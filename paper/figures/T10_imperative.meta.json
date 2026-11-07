@@ -1,0 +1,18 @@
+{
+ "table": "T10_imperative",
+ "sources": [
+  {
+   "yol": "results/bare_imperative_composition_2026-08-31.json",
+   "sha256_16": "df17cce9baa0e1be"
+  },
+  {
+   "yol": "results/PREREG9_A_OLCUM_2026-08-31.json",
+   "sha256_16": "8b3c5fba7156b393"
+  }
+ ],
+ "payda": {
+  "n_aile": 16,
+  "yukselen": 10,
+  "en_buyuk_delta": 0.9376032859410974
+ }
+}

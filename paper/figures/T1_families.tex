@@ -1,0 +1,19 @@
+\begin{table}[tb]
+\centering\scriptsize\setlength{\tabcolsep}{2.8pt}
+\caption{\textbf{Sixteen models on raw continuation.} $\Delta$1st and $\Delta$2nd are the changes in the first- and second-person rates per 1,000 tokens on the debate prompts, pooled over four further sampling seeds. \emph{Base} and \emph{aligned} are second-person levels. Rows are sorted by $\Delta$2nd, the registered quantity; \textbf{bold} marks a change whose prompt-clustered $95\%$ CI ($\pm$ half-width) excludes zero.}
+\label{tab:families}
+\begin{tabular}{llrrrrr @{\hspace{1.1em}} llrrrrr}
+\toprule
+model & lin. & $\Delta$1st & base & aligned & $\Delta$2nd & $\pm$ & model & lin. & $\Delta$1st & base & aligned & $\Delta$2nd & $\pm$ \\
+\midrule
+Mistral-7B-v0.3 & Mistral & $\mathbf{-15.3}$ & 13.1 & 3.6 & $\mathbf{-9.51}$ & $\pm$1.39 & Qwen2.5-7B & Alibaba & $\mathbf{-9.4}$ & 10.1 & 6.5 & $\mathbf{-3.62}$ & $\pm$1.36 \\
+T\"ulu-3-8B & AI2 & $\mathbf{-17.1}$ & 12.0 & 2.9 & $\mathbf{-9.04}$ & $\pm$1.31 & Qwen2.5-14B & Alibaba & $\mathbf{-13.5}$ & 10.7 & 7.2 & $\mathbf{-3.44}$ & $\pm$1.49 \\
+OLMo-2-13B & AI2 & $\mathbf{-12.5}$ & 12.5 & 5.8 & $\mathbf{-6.76}$ & $\pm$0.97 & Qwen2.5-3B & Alibaba & $\mathbf{-8.5}$ & 10.3 & 7.3 & $\mathbf{-3.06}$ & $\pm$1.64 \\
+OLMo-2-32B & AI2 & $\mathbf{-10.1}$ & 13.8 & 8.6 & $\mathbf{-5.17}$ & $\pm$0.66 & Gemma-3-4B & Google & $\mathbf{-9.8}$ & 11.3 & 8.3 & $\mathbf{-3.02}$ & $\pm$1.35 \\
+Llama-3.1-8B & Meta & $\mathbf{-6.4}$ & 12.0 & 7.3 & $\mathbf{-4.69}$ & $\pm$1.10 & Qwen2.5-32B & Alibaba & $\mathbf{-15.4}$ & 10.8 & 8.0 & $\mathbf{-2.77}$ & $\pm$1.50 \\
+OLMo-3-7B & AI2 & $\mathbf{-8.2}$ & 14.0 & 9.5 & $\mathbf{-4.54}$ & $\pm$0.85 & Gemma-3-27B & Google & $\mathbf{-16.2}$ & 11.5 & 8.9 & $\mathbf{-2.59}$ & $\pm$1.67 \\
+Qwen2.5-72B & Alibaba & $\mathbf{-14.0}$ & 10.9 & 6.7 & $\mathbf{-4.14}$ & $\pm$2.37 & Gemma-3-12B & Google & $\mathbf{-16.8}$ & 12.2 & 9.9 & $\mathbf{-2.33}$ & $\pm$1.44 \\
+Llama-3.1-70B & Meta & $\mathbf{-8.8}$ & 11.7 & 7.8 & $\mathbf{-3.86}$ & $\pm$0.48 & Qwen2.5-1.5B & Alibaba & $\mathbf{-5.3}$ & 10.1 & 8.3 & $\mathbf{-1.77}$ & $\pm$1.20 \\
+\bottomrule
+\end{tabular}
+\end{table}

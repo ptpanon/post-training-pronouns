@@ -1,0 +1,35 @@
+{
+ "table": "BIRINCISIZ_D2",
+ "ciktilar": [
+  "BIRINCISIZ_D2.tex",
+  "BIRINCISIZ_CUMLE.tex"
+ ],
+ "sources": [
+  {
+   "yol": "results/v96_q1_birincisiz_prefix_2026-09-18.json",
+   "sha256_16": "7f76a0d802b82cfb"
+  }
+ ],
+ "payda": {
+  "n_model": 16,
+  "K4_dogrudan": {
+   "asagi": 15,
+   "yukari": 0,
+   "null": 1
+  },
+  "K2_dM1": {
+   "asagi": 10,
+   "yukari": 1,
+   "null": 5
+  },
+  "K2_dogrudan": {
+   "asagi": 15,
+   "yukari": 1,
+   "null": 0
+  },
+  "istisna": [
+   "Qwen2.5-1.5B"
+  ]
+ },
+ "note": "renders the descriptive C(1) card; no statistic computed here"
+}

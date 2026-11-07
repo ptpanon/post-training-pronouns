@@ -1,0 +1,75 @@
+{
+ "damga_utc": "2026-09-17T01:08:38Z",
+ "SINIF": "KESIF (bar yok · ad yok · prediction yok)",
+ "etiket": "KK3_TABAN_T3",
+ "kol": "KK3_TABAN",
+ "seed": 20260917,
+ "n_cift": 37426,
+ "adim": 2302,
+ "max_length": 1536,
+ "birikim": 8,
+ "optim": "adamw_torch",
+ "fsdp": "full_shard auto_wrap",
+ "n_card": 2,
+ "boru": {
+  "template": {
+   "template_var": true,
+   "ilk_80": "<|user|>\nFirst, repeat the request without change, then give your answer (do not",
+   "n_bos_bas": 1,
+   "HAL": "TEK-BOS"
+  },
+  "kesme": {
+   "max_length": 1536,
+   "truncation_mode": "keep_start",
+   "istem_jeton_ort": 222.4,
+   "istem_jeton_p50": 97,
+   "istem_jeton_p95": 757,
+   "chosen_jeton_ort": 427.8,
+   "rejected_jeton_ort": 449.4,
+   "cevaba_kalan_jeton_ort": 1328.2,
+   "oran_SESSIZ_DUSEN": 0.0155,
+   "oran_cevap_KISMEN_kesilen": 0.0162,
+   "esik": 0.1,
+   "HAL": "KABUL"
+  },
+  "dolgu": {
+   "pad_token": "<pad>",
+   "pad_token_id": 128256,
+   "eos_token": "<|end_of_text|>",
+   "padding_side": "right",
+   "pad_eos_ayni": false
+  },
+  "ozdes_cift": {
+   "n": 0,
+   "oran": 0.0
+  }
+ },
+ "saniye": 9699.5,
+ "saniye_basina_adim": 4.21,
+ "tahsis_tepe_mib": 76647.1,
+ "card_tepe_mib": 89233,
+ "card_son": 89233,
+ "kapi_mib": 93272,
+ "gozcu_ihlal": false,
+ "dur_istendi": false,
+ "egitim": {
+  "train_runtime": 9699.0469,
+  "train_samples_per_second": 3.797,
+  "train_steps_per_second": 0.237,
+  "total_flos": 2.2609617572562207e+18,
+  "train_loss": 0.5024453874881324,
+  "entropy": 0.9615478515625,
+  "num_tokens": 42440360.0,
+  "logits/chosen": -1.0918485595689567,
+  "logits/rejected": -0.98733014731982,
+  "mean_token_accuracy": 0.712841534987092,
+  "rewards/chosen": -0.5511718901107088,
+  "rewards/rejected": -2.264077017083764,
+  "rewards/accuracies": 0.75,
+  "rewards/margins": 1.712905127555132,
+  "logps/chosen": -370.609375,
+  "logps/rejected": -489.203125,
+  "epoch": 0.9996200401671823
+ },
+ "ckpt": "<data>/kk3_ckpt/KK3_TABAN_T3_t20260917"
+}

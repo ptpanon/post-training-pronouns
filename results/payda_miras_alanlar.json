@@ -1,0 +1,314 @@
+{
+ "damga_utc": "2026-08-22T09:59:55Z",
+ "SINIF": "MIRAS",
+ "ONEK_KANON": [
+  "n_",
+  "red_",
+  "atl_",
+  "hal_",
+  "bek_"
+ ],
+ "PAYDA": {
+  "n_dosya_taranan": 1620,
+  "n_dosya_paydali": 461,
+  "n_payda_cagrisi": 1120,
+  "n_miras_alan": 86
+ },
+ "SERH": "AST",
+ "alanlar": {
+  "B": [
+   "scripts/a4_tepe.py",
+   "scripts/prefix_reviewer_bootstrap.py",
+   "scripts/prefix_head_avi.py",
+   "scripts/prefix_head_onkapi.py",
+   "scripts/onek_steering_pilot.py"
+  ],
+  "B_boot": [
+   "scripts/family_panel.py",
+   "scripts/g3_persona_okuma.py",
+   "scripts/m3_yedinci_aile_oku.py"
+  ],
+  "K": [
+   "scripts/s1_katman_izgarasi.py",
+   "scripts/s1_tasima_serit.py",
+   "scripts/s3_gradyan_secim.py"
+  ],
+  "K_cekim": [
+   "scripts/rk_prova_null.py"
+  ],
+  "K_eval": [
+   "scripts/pergel_is3a_kolsifir.py"
+  ],
+  "K_null": [
+   "scripts/a2_kutupsallik.py",
+   "scripts/g3_persona_okuma.py",
+   "scripts/m2_yorunge.py"
+  ],
+  "K_plasebo": [
+   "scripts/g2_d_dik.py",
+   "scripts/onek_steering_pilot.py"
+  ],
+  "K_yon": [
+   "scripts/g3_persona_okuma.py"
+  ],
+  "N_bolu_d": [
+   "scripts/s1_katman_izgarasi.py"
+  ],
+  "N_egitim": [
+   "scripts/adim7_m1_cift2.py"
+  ],
+  "N_gerekli": [
+   "scripts/adim7_m1_cift2.py"
+  ],
+  "R_boot": [
+   "scripts/rk_k0b_negrisi.py"
+  ],
+  "R_istenen": [
+   "scripts/reading_style_object.py"
+  ],
+  "R_split": [
+   "scripts/rk_k0b_negrisi.py"
+  ],
+  "agdan": [
+   "scripts/paper_kunye_defteri.py"
+  ],
+  "arsivde": [
+   "scripts/kor_paket_ad_devrimi.py"
+  ],
+  "artan": [
+   "scripts/paper_safak_hedef.py"
+  ],
+  "asgari_on": [
+   "scripts/a4_katmap.py",
+   "scripts/m1_hasat.py"
+  ],
+  "asgari_on_eski": [
+   "scripts/a3_w74_temiz.py"
+  ],
+  "asgari_on_yeni": [
+   "scripts/a3_w74_temiz.py"
+  ],
+  "atlanan": [
+   "unreleased/serita_harman102.py",
+   "scripts/n5_persona_uretim.py",
+   "scripts/r2_gomu_turu.py",
+   "scripts/s3_esitlik_generation.py",
+   "scripts/serita_harman102.py",
+   "scripts/seritD_serbest.py"
+  ],
+  "atlanan_kira": [
+   "scripts/is_motoru.py"
+  ],
+  "atlanan_kisa_iddia": [
+   "scripts/p1_sandbox.py"
+  ],
+  "atlanan_kisa_zincir": [
+   "scripts/p1_sandbox.py"
+  ],
+  "atlanan_shard": [
+   "scripts/p1_sandbox.py",
+   "scripts/adil_mac.py"
+  ],
+  "atlanan_tam": [
+   "scripts/p2_notr_gomu.py"
+  ],
+  "basarili": [
+   "scripts/n7_kip_dort_motor.py"
+  ],
+  "beklenen": [
+   "scripts/reading_style_object.py"
+  ],
+  "bitirilen_hucre": [
+   "scripts/is_motoru.py"
+  ],
+  "bos_havuz": [
+   "scripts/a3_ikinci_alet_onarim.py"
+  ],
+  "boy": [
+   "scripts/onek_merdiven_dilim.py"
+  ],
+  "bulgu": [
+   "scripts/paper_capraz_sayim.py"
+  ],
+  "bulunan": [
+   "scripts/v1_act_roller.py"
+  ],
+  "cakisan": [
+   "scripts/kor_paket_ad_devrimi.py"
+  ],
+  "cok_yollu": [
+   "scripts/kor_paket_ad_devrimi.py"
+  ],
+  "cokmedi": [
+   "scripts/paper_pr_basamak.py"
+  ],
+  "cokus": [
+   "scripts/paper_pr_basamak.py"
+  ],
+  "cos_canli_arsiv": [
+   "scripts/paper_yetim_sayi.py"
+  ],
+  "d44_esit": [
+   "scripts/a2_kp_acilisi.py",
+   "scripts/a3_harman_oran.py"
+  ],
+  "degismeyen": [
+   "scripts/kp7_rubrik_ton_aro.py"
+  ],
+  "dejenere": [
+   "scripts/a3_harman_oran.py"
+  ],
+  "dizi_suzgeci": [
+   "scripts/m1_hasat.py"
+  ],
+  "dogrulanmadi": [
+   "scripts/paper_kunye_defteri.py"
+  ],
+  "durduruldu": [
+   "scripts/is_motoru.py"
+  ],
+  "dusen": [
+   "scripts/r2_gomu_turu.py"
+  ],
+  "dusen_ariza": [
+   "scripts/is_motoru.py",
+   "scripts/r3_kalibrasyon.py"
+  ],
+  "dusen_butce": [
+   "scripts/is_motoru.py",
+   "scripts/r3_kalibrasyon.py"
+  ],
+  "dusen_fren": [
+   "scripts/is_motoru.py"
+  ],
+  "eksik": [
+   "scripts/paper_capraz_sayim.py",
+   "scripts/v1_act_roller.py"
+  ],
+  "eksik_hucre": [
+   "scripts/g1_kutu_kur.py"
+  ],
+  "esit": [
+   "scripts/a1_eszamanlilik_taramasi.py",
+   "scripts/iter2_ates.py"
+  ],
+  "gecen": [
+   "scripts/m1_kosu.py",
+   "scripts/n4_k2_altin_yeniden.py",
+   "scripts/paper_yetim_sayi.py"
+  ],
+  "gecen_kosul": [
+   "scripts/g1_katman_hasadi.py"
+  ],
+  "gecti": [
+   "scripts/paper_yetim_sayi.py"
+  ],
+  "hata": [
+   "scripts/paper_kunye_defteri.py"
+  ],
+  "isabet": [
+   "scripts/r5_simcse_arkeoloji.py"
+  ],
+  "k": [
+   "scripts/onek_k5_spektrum.py",
+   "scripts/onek_k5_temiz.py"
+  ],
+  "kalan_sizan_alan": [
+   "scripts/kor_paket_kirilma_onarim.py"
+  ],
+  "karar": [
+   "scripts/h1_harman_kazi.py"
+  ],
+  "kesisim_cikarilan": [
+   "scripts/h3_dejenerelik_altin.py"
+  ],
+  "komsu_bulunan": [
+   "scripts/r1_envanter.py"
+  ],
+  "kotu": [
+   "scripts/paper_capraz_sayim.py"
+  ],
+  "kral_tiran_ortak": [
+   "scripts/v1_act_roller.py"
+  ],
+  "kullanilmayan": [
+   "scripts/paper_capraz_sayim.py"
+  ],
+  "maks_fark_1e12": [
+   "scripts/m1_kosu.py"
+  ],
+  "maks_fark_sifir": [
+   "scripts/s1_katman_izgarasi.py"
+  ],
+  "norm_arsiv_prereg": [
+   "scripts/paper_yetim_sayi.py"
+  ],
+  "norm_canli": [
+   "scripts/paper_yetim_sayi.py"
+  ],
+  "olculebilen": [
+   "scripts/m1c_motor_kulesi.py"
+  ],
+  "olculemeyen": [
+   "scripts/paper_safak_hedef.py"
+  ],
+  "olcum_yeri_yok": [
+   "scripts/paper_pr_basamak.py"
+  ],
+  "onbellekten": [
+   "scripts/paper_kunye_defteri.py"
+  ],
+  "onek_kol": [
+   "scripts/rk_p6_vllm.py"
+  ],
+  "ortak": [
+   "scripts/a4_izgara2_hasat.py",
+   "scripts/adim6_m1_substrat3.py",
+   "scripts/adim7_m1_cift2.py",
+   "scripts/m1_hasat.py",
+   "scripts/s1_izgara_hasat.py",
+   "scripts/s2_d_altin.py"
+  ],
+  "ortak_metin": [
+   "scripts/a3_gradyan_otopsi.py"
+  ],
+  "pahali_kosan": [
+   "scripts/r3_kalibrasyon.py"
+  ],
+  "sema_disi_binde": [
+   "scripts/b_dejenerelik_sinavi.py",
+   "scripts/b_dejenerelik_v2.py"
+  ],
+  "sert_kapi_sayilari": [
+   "scripts/c2_c4v2_insa.py"
+  ],
+  "tam": [
+   "scripts/r1_envanter.py"
+  ],
+  "temiz": [
+   "scripts/a3_harman_oran.py",
+   "scripts/adim4_harman2.py",
+   "scripts/h1_harman_kazi.py"
+  ],
+  "uretilen": [
+   "scripts/p2_notr_gomu.py"
+  ],
+  "uretilen_bu_kosuda": [
+   "scripts/g1_katman_hasadi.py",
+   "scripts/prefix_aktivasyon_arsivi.py"
+  ],
+  "yankili": [
+   "scripts/a3_harman_oran.py"
+  ],
+  "yapilan": [
+   "scripts/r2_gomu_turu.py"
+  ],
+  "yeni": [
+   "scripts/bk3_panel_bge.py",
+   "scripts/kp7_rubrik_ton_aro.py"
+  ],
+  "yetim": [
+   "scripts/paper_capraz_sayim.py"
+  ]
+ }
+}

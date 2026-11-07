@@ -1,0 +1,852 @@
+{
+ "damga_utc": "2026-08-23T12:29:19Z",
+ "HUCRELER": {
+  "olmo": {
+   "HUCRE_HALI": "ÖLCÜLDÜ",
+   "KOL": {
+    "D": "KAPI/ÖLCÜLEMEZ",
+    "A": "IZ-YOK"
+   },
+   "PANEL": "KAPI/ÖLCÜLEMEZ",
+   "KAPPA": {
+    "ad": "EGRILIK-FARKI-YOK",
+    "kappa_SFT_D": 1.1607992043379573e-12,
+    "kappa_DPO_D": 1.2775159310782026e-12,
+    "delta": 1.167167267402453e-13,
+    "delta_A_kontrol": 1.3063048181172888e-12
+   },
+   "neden": null
+  },
+  "tulu3": {
+   "HUCRE_HALI": "ÖLCÜLDÜ",
+   "KOL": {
+    "D": "D-DISINDA",
+    "A": "IZ-YOK"
+   },
+   "PANEL": "AYRIM-VAR",
+   "KAPPA": {
+    "ad": "EGRILIK-FARKI-YOK",
+    "kappa_SFT_D": 8.541892696003457e-11,
+    "kappa_DPO_D": 1.2401791093114398e-10,
+    "delta": 3.859898397110941e-11,
+    "delta_A_kontrol": 2.2401248727804935e-10
+   },
+   "neden": null
+  },
+  "zephyr": {
+   "HUCRE_HALI": "ÖLCÜLDÜ",
+   "KOL": {
+    "D": "D-DISINDA",
+    "A": "IZ-YOK"
+   },
+   "PANEL": "AYRIM-VAR",
+   "KAPPA": {
+    "ad": "EGRILIK-FARKI-YOK",
+    "kappa_SFT_D": 2.2517906462204008e-09,
+    "kappa_DPO_D": 3.390059074856152e-09,
+    "delta": 1.1382684286357512e-09,
+    "delta_A_kontrol": 1.736276297524027e-08
+   },
+   "neden": null
+  }
+ },
+ "AYRINTI": {
+  "olmo": {
+   "hucre": "olmo",
+   "HUCRE_HALI": "ÖLCÜLDÜ",
+   "ad": "OLMo-2-13B SFT->DPO",
+   "eskiz_norm_orani": {
+    "sft": {
+     "medyan": 0.999999956237259,
+     "p05": 0.9999990167629595,
+     "p95": 1.000001043419791,
+     "n": 800
+    },
+    "dpo": {
+     "medyan": 0.9999999727580298,
+     "p05": 0.9999989716563462,
+     "p95": 1.0000010494534164,
+     "n": 800
+    }
+   },
+   "KOL": {
+    "D": "KAPI/ÖLCÜLEMEZ",
+    "A": "IZ-YOK"
+   },
+   "PANEL": "KAPI/ÖLCÜLEMEZ",
+   "n_istem": 200,
+   "KAPPA": {
+    "ad": "EGRILIK-FARKI-YOK",
+    "kappa_SFT_D": 1.1607992043379573e-12,
+    "kappa_DPO_D": 1.2775159310782026e-12,
+    "delta": 1.167167267402453e-13,
+    "delta_A_kontrol": 1.3063048181172888e-12
+   },
+   "ayrinti": {
+    "D": {
+     "AD": "KAPI/ÖLCÜLEMEZ",
+     "kapi_capa": true,
+     "kapi_eskiz": false,
+     "eskiz_kapisi": {
+      "duz": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 16970.187024493236,
+       "null_sd": 1429898.4850045543,
+       "oran": 0.011868,
+       "bar": 0.1,
+       "GECTI": true
+      },
+      "dik": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 37464.56799229514,
+       "null_sd": 278871.3080663707,
+       "oran": 0.134344,
+       "bar": 0.1,
+       "GECTI": false
+      }
+     },
+     "eskiz_karne": {
+      "n": 1600,
+      "red_disi": 0,
+      "r": 0.999995,
+      "nrmse": 0.003202,
+      "medyan_bagil_hata": 3.746272,
+      "p90_bagil_hata": 52.643605,
+      "hal": "ÖLCÜLDÜ",
+      "taban_r_karisik": -0.013429,
+      "egim": 1.00014
+     },
+     "istatistik_TAM": {
+      "duz": {
+       "nokta": 2783949.2529755067,
+       "sd": 869753.8606650003,
+       "n": 200,
+       "ci": [
+        2667376.650833287,
+        2896045.211026151
+       ]
+      },
+      "dik": {
+       "nokta": 6592668.658692245,
+       "sd": 2788281.0209715148,
+       "n": 200,
+       "ci": [
+        6191794.457539435,
+        6969613.292734832
+       ]
+      }
+     },
+     "yon_null": {
+      "duz": {
+       "null_ort": 64240.47599237365,
+       "null_sd": 1429898.4850045543,
+       "K": 200,
+       "frac_yon": 0.035,
+       "gozlenen_eskiz": 2800919.44,
+       "gozlenen_tam": 2783949.2529755067,
+       "merkezli": 2736678.9640076263,
+       "sd_kati": 1.9138973799240788,
+       "rejim_ok_BASILIR": true
+      },
+      "dik": {
+       "null_ort": 4783313.317029158,
+       "null_sd": 278871.3080663707,
+       "K": 200,
+       "frac_yon": 0.0,
+       "gozlenen_eskiz": 6555204.09069995,
+       "gozlenen_tam": 6592668.658692245,
+       "merkezli": 1771890.7736707926,
+       "sd_kati": 6.353793747935828,
+       "rejim_ok_BASILIR": false
+      }
+     },
+     "plasebo": {
+      "duz": {
+       "gozlenen": 2783949.2529755067,
+       "kontrol": {
+        "valans": 1.9733255716910216,
+        "cosku": 1.8757008358087497,
+        "es_nll_rastgele": 1.7126904765461837
+       },
+       "frac": 0.0
+      },
+      "dik": {
+       "gozlenen": 6592668.658692245,
+       "kontrol": {
+        "valans": 4969645.8174212305,
+        "cosku": 5208735.135719751,
+        "es_nll_rastgele": 4995425.2507371195
+       },
+       "frac": 0.0
+      }
+     },
+     "duz_ayrik": true,
+     "dik_ayrik": true,
+     "ikinci_sutun_CI_ayrik": {
+      "duz": true,
+      "dik": true
+     }
+    },
+    "A": {
+     "AD": "IZ-YOK",
+     "kapi_capa": true,
+     "kapi_eskiz": true,
+     "eskiz_kapisi": {
+      "duz": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 33529.659185943856,
+       "null_sd": 1429898.4850045543,
+       "oran": 0.023449,
+       "bar": 0.1,
+       "GECTI": true
+      },
+      "dik": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 49.64750569779426,
+       "null_sd": 278871.3080663707,
+       "oran": 0.000178,
+       "bar": 0.1,
+       "GECTI": true
+      }
+     },
+     "eskiz_karne": {
+      "n": 1600,
+      "red_disi": 0,
+      "r": 0.999627,
+      "nrmse": 0.028042,
+      "medyan_bagil_hata": 5574.364156,
+      "p90_bagil_hata": 48347.624662,
+      "hal": "ÖLCÜLDÜ",
+      "taban_r_karisik": -0.00333,
+      "egim": 1.004963
+     },
+     "istatistik_TAM": {
+      "duz": {
+       "nokta": 7.692520599112474,
+       "sd": 4.327626543767451,
+       "n": 200,
+       "ci": [
+        7.097479284501682,
+        8.300427768046225
+       ]
+      },
+      "dik": {
+       "nokta": 4881053.02633603,
+       "sd": 991944.5871090073,
+       "n": 200,
+       "ci": [
+        4746382.371777685,
+        5015768.440802486
+       ]
+      }
+     },
+     "yon_null": {
+      "duz": {
+       "null_ort": 64240.47599237365,
+       "null_sd": 1429898.4850045543,
+       "K": 200,
+       "frac_yon": 0.995,
+       "gozlenen_eskiz": 33537.35170654297,
+       "gozlenen_tam": 7.692520599112474,
+       "merkezli": -30703.12428583068,
+       "sd_kati": 0.02147224058757772,
+       "rejim_ok_BASILIR": true
+      },
+      "dik": {
+       "null_ort": 4783313.317029158,
+       "null_sd": 278871.3080663707,
+       "K": 200,
+       "frac_yon": 0.68,
+       "gozlenen_eskiz": 4881003.378830332,
+       "gozlenen_tam": 4881053.02633603,
+       "merkezli": 97690.06180117466,
+       "sd_kati": 0.3503051729435165,
+       "rejim_ok_BASILIR": false
+      }
+     },
+     "plasebo": {
+      "duz": {
+       "gozlenen": 7.692520599112474,
+       "kontrol": {
+        "valans": 118366.34072751268,
+        "cosku": 1001072.9072626284,
+        "es_nll_rastgele": 6.07392143134957
+       },
+       "frac": 0.6666666666666666
+      },
+      "dik": {
+       "gozlenen": 4881053.02633603,
+       "kontrol": {
+        "valans": 4970053.456426136,
+        "cosku": 5127752.394407161,
+        "es_nll_rastgele": 4995425.250737304
+       },
+       "frac": 1.0
+      }
+     },
+     "duz_ayrik": false,
+     "dik_ayrik": false,
+     "ikinci_sutun_CI_ayrik": {
+      "duz": false,
+      "dik": false
+     }
+    }
+   },
+   "damga_utc": "2026-08-23T12:02:55Z",
+   "prereg": "2c83a8f3",
+   "prediction": "945289b4"
+  },
+  "tulu3": {
+   "hucre": "tulu3",
+   "HUCRE_HALI": "ÖLCÜLDÜ",
+   "ad": "Tulu-3-8B SFT->DPO",
+   "eskiz_norm_orani": {
+    "sft": {
+     "medyan": 0.9999998517445711,
+     "p05": 0.9999980599742897,
+     "p95": 1.0000017200888367,
+     "n": 800
+    },
+    "dpo": {
+     "medyan": 0.9999998588051442,
+     "p05": 0.9999977687732948,
+     "p95": 1.000001997157783,
+     "n": 800
+    }
+   },
+   "KOL": {
+    "D": "D-DISINDA",
+    "A": "IZ-YOK"
+   },
+   "PANEL": "AYRIM-VAR",
+   "n_istem": 200,
+   "KAPPA": {
+    "ad": "EGRILIK-FARKI-YOK",
+    "kappa_SFT_D": 8.541892696003457e-11,
+    "kappa_DPO_D": 1.2401791093114398e-10,
+    "delta": 3.859898397110941e-11,
+    "delta_A_kontrol": 2.2401248727804935e-10
+   },
+   "ayrinti": {
+    "D": {
+     "AD": "D-DISINDA",
+     "kapi_capa": true,
+     "kapi_eskiz": true,
+     "eskiz_kapisi": {
+      "duz": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 3288.331500576285,
+       "null_sd": 788922.5569510635,
+       "oran": 0.004168,
+       "bar": 0.1,
+       "GECTI": true
+      },
+      "dik": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 7918.750142036006,
+       "null_sd": 393409.42598565866,
+       "oran": 0.020129,
+       "bar": 0.1,
+       "GECTI": true
+      }
+     },
+     "eskiz_karne": {
+      "n": 1600,
+      "red_disi": 0,
+      "r": 0.999995,
+      "nrmse": 0.003263,
+      "medyan_bagil_hata": 1.737154,
+      "p90_bagil_hata": 20.142846,
+      "hal": "ÖLCÜLDÜ",
+      "taban_r_karisik": -0.018125,
+      "egim": 1.00005
+     },
+     "istatistik_TAM": {
+      "duz": {
+       "nokta": 406714.7915005763,
+       "sd": 1483574.6840070244,
+       "n": 200,
+       "ci": [
+        197918.83127253447,
+        611196.8205033197
+       ]
+      },
+      "dik": {
+       "nokta": 5151204.538307403,
+       "sd": 3034051.7870343793,
+       "n": 200,
+       "ci": [
+        4738296.361254488,
+        5569578.635437266
+       ]
+      }
+     },
+     "yon_null": {
+      "duz": {
+       "null_ort": 8881.967890433503,
+       "null_sd": 788922.5569510635,
+       "K": 200,
+       "frac_yon": 0.6,
+       "gozlenen_eskiz": 403426.46,
+       "gozlenen_tam": 406714.7915005763,
+       "merkezli": 394544.4921095665,
+       "sd_kati": 0.5001054775697584,
+       "rejim_ok_BASILIR": true
+      },
+      "dik": {
+       "null_ort": 2880393.3976323153,
+       "null_sd": 393409.42598565866,
+       "K": 200,
+       "frac_yon": 0.0,
+       "gozlenen_eskiz": 5159123.288449439,
+       "gozlenen_tam": 5151204.538307403,
+       "merkezli": 2278729.890817124,
+       "sd_kati": 5.792260531399145,
+       "rejim_ok_BASILIR": false
+      }
+     },
+     "plasebo": {
+      "duz": {
+       "gozlenen": 406714.7915005763,
+       "kontrol": {
+        "valans": 3.8350863122556267,
+        "cosku": 4.145594449318988,
+        "es_nll_rastgele": 3.5854157983154638
+       },
+       "frac": 0.0
+      },
+      "dik": {
+       "gozlenen": 5151204.538307403,
+       "kontrol": {
+        "valans": 3174990.434216689,
+        "cosku": 2981411.6948075322,
+        "es_nll_rastgele": 2837285.4936956344
+       },
+       "frac": 0.0
+      }
+     },
+     "duz_ayrik": false,
+     "dik_ayrik": true,
+     "ikinci_sutun_CI_ayrik": {
+      "duz": true,
+      "dik": true
+     }
+    },
+    "A": {
+     "AD": "IZ-YOK",
+     "kapi_capa": true,
+     "kapi_eskiz": true,
+     "eskiz_kapisi": {
+      "duz": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 117.56328354016861,
+       "null_sd": 788922.5569510635,
+       "oran": 0.000149,
+       "bar": 0.1,
+       "GECTI": true
+      },
+      "dik": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 0.03566102357581258,
+       "null_sd": 393409.42598565866,
+       "oran": 0.0,
+       "bar": 0.1,
+       "GECTI": true
+      }
+     },
+     "eskiz_karne": {
+      "n": 1600,
+      "red_disi": 0,
+      "r": 0.999727,
+      "nrmse": 0.023529,
+      "medyan_bagil_hata": 589.058807,
+      "p90_bagil_hata": 12690.604904,
+      "hal": "ÖLCÜLDÜ",
+      "taban_r_karisik": -0.023348,
+      "egim": 0.997606
+     },
+     "istatistik_TAM": {
+      "duz": {
+       "nokta": 10.821395109733736,
+       "sd": 11.368757210411294,
+       "n": 200,
+       "ci": [
+        9.246238331427387,
+        12.385225959262904
+       ]
+      },
+      "dik": {
+       "nokta": 2728298.468356368,
+       "sd": 551819.3664440502,
+       "n": 200,
+       "ci": [
+        2652945.6638043053,
+        2809044.7955596456
+       ]
+      }
+     },
+     "yon_null": {
+      "duz": {
+       "null_ort": 8881.967890433503,
+       "null_sd": 788922.5569510635,
+       "K": 200,
+       "frac_yon": 1.0,
+       "gozlenen_eskiz": 128.38467864990236,
+       "gozlenen_tam": 10.821395109733736,
+       "merkezli": -8753.583211783602,
+       "sd_kati": 0.011095617858378187,
+       "rejim_ok_BASILIR": true
+      },
+      "dik": {
+       "null_ort": 2880393.3976323153,
+       "null_sd": 393409.42598565866,
+       "K": 200,
+       "frac_yon": 0.57,
+       "gozlenen_eskiz": 2728298.5040173917,
+       "gozlenen_tam": 2728298.468356368,
+       "merkezli": -152094.89361492358,
+       "sd_kati": 0.3866071414884402,
+       "rejim_ok_BASILIR": false
+      }
+     },
+     "plasebo": {
+      "duz": {
+       "gozlenen": 10.821395109733736,
+       "kontrol": {
+        "valans": 88702.56879452169,
+        "cosku": 160074.69238367004,
+        "es_nll_rastgele": 11.832170481166713
+       },
+       "frac": 1.0
+      },
+      "dik": {
+       "gozlenen": 2728298.468356368,
+       "kontrol": {
+        "valans": 3182205.6124305115,
+        "cosku": 3058111.630025238,
+        "es_nll_rastgele": 2837285.4936936116
+       },
+       "frac": 1.0
+      }
+     },
+     "duz_ayrik": false,
+     "dik_ayrik": false,
+     "ikinci_sutun_CI_ayrik": {
+      "duz": false,
+      "dik": false
+     }
+    }
+   },
+   "damga_utc": "2026-08-23T12:28:04Z",
+   "prereg": "2c83a8f3",
+   "prediction": "945289b4"
+  },
+  "zephyr": {
+   "hucre": "zephyr",
+   "HUCRE_HALI": "ÖLCÜLDÜ",
+   "ad": "Zephyr-7B SFT->DPO",
+   "eskiz_norm_orani": {
+    "sft": {
+     "medyan": 1.0000006798421235,
+     "p05": 0.9999934468785782,
+     "p95": 1.0000056821383458,
+     "n": 800
+    },
+    "dpo": {
+     "medyan": 1.0000006020782037,
+     "p05": 0.9999922946294421,
+     "p95": 1.0000068996656954,
+     "n": 800
+    }
+   },
+   "KOL": {
+    "D": "D-DISINDA",
+    "A": "IZ-YOK"
+   },
+   "PANEL": "AYRIM-VAR",
+   "n_istem": 200,
+   "KAPPA": {
+    "ad": "EGRILIK-FARKI-YOK",
+    "kappa_SFT_D": 2.2517906462204008e-09,
+    "kappa_DPO_D": 3.390059074856152e-09,
+    "delta": 1.1382684286357512e-09,
+    "delta_A_kontrol": 1.736276297524027e-08
+   },
+   "ayrinti": {
+    "D": {
+     "AD": "D-DISINDA",
+     "kapi_capa": true,
+     "kapi_eskiz": true,
+     "eskiz_kapisi": {
+      "duz": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 639.4566101272794,
+       "null_sd": 152315.88866537547,
+       "oran": 0.004198,
+       "bar": 0.1,
+       "GECTI": true
+      },
+      "dik": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 1385.2348906244151,
+       "null_sd": 132299.11735782557,
+       "oran": 0.01047,
+       "bar": 0.1,
+       "GECTI": true
+      }
+     },
+     "eskiz_karne": {
+      "n": 1600,
+      "red_disi": 0,
+      "r": 0.999851,
+      "nrmse": 0.017477,
+      "medyan_bagil_hata": 1.64427,
+      "p90_bagil_hata": 6789.315227,
+      "hal": "ÖLCÜLDÜ",
+      "taban_r_karisik": -0.017153,
+      "egim": 1.000032
+     },
+     "istatistik_TAM": {
+      "duz": {
+       "nokta": -53484.67838987272,
+       "sd": 387960.173341702,
+       "n": 200,
+       "ci": [
+        -105710.2081195683,
+        2735.953024679088
+       ]
+      },
+      "dik": {
+       "nokta": 3123855.2965354538,
+       "sd": 1308202.3617813843,
+       "n": 200,
+       "ci": [
+        2945883.575761778,
+        3302168.139611121
+       ]
+      }
+     },
+     "yon_null": {
+      "duz": {
+       "null_ort": -10679.048733203123,
+       "null_sd": 152315.88866537547,
+       "K": 200,
+       "frac_yon": 0.78,
+       "gozlenen_eskiz": -54124.135,
+       "gozlenen_tam": -53484.67838987272,
+       "merkezli": -43445.086266796876,
+       "sd_kati": 0.28523016638298243,
+       "rejim_ok_BASILIR": true
+      },
+      "dik": {
+       "null_ort": 1790321.1589551694,
+       "null_sd": 132299.11735782557,
+       "K": 200,
+       "frac_yon": 0.0,
+       "gozlenen_eskiz": 3125240.531426078,
+       "gozlenen_tam": 3123855.2965354538,
+       "merkezli": 1334919.3724709088,
+       "sd_kati": 10.090160835014427,
+       "rejim_ok_BASILIR": false
+      }
+     },
+     "plasebo": {
+      "duz": {
+       "gozlenen": 53484.67838987272,
+       "kontrol": {
+        "valans": 8.793660288501489,
+        "cosku": 8.934686870876124,
+        "es_nll_rastgele": 6.932789957142582
+       },
+       "frac": 0.0
+      },
+      "dik": {
+       "gozlenen": 3123855.2965354538,
+       "kontrol": {
+        "valans": 1522121.0541676707,
+        "cosku": 1388710.2255069755,
+        "es_nll_rastgele": 1641406.5055524355
+       },
+       "frac": 0.0
+      }
+     },
+     "duz_ayrik": false,
+     "dik_ayrik": true,
+     "ikinci_sutun_CI_ayrik": {
+      "duz": false,
+      "dik": true
+     }
+    },
+    "A": {
+     "AD": "IZ-YOK",
+     "kapi_capa": true,
+     "kapi_eskiz": true,
+     "eskiz_kapisi": {
+      "duz": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 13611.953682118112,
+       "null_sd": 152315.88866537547,
+       "oran": 0.089367,
+       "bar": 0.1,
+       "GECTI": true
+      },
+      "dik": {
+       "hal": "ÖLCÜLDÜ",
+       "hata_rms": 104.55101274792105,
+       "null_sd": 132299.11735782557,
+       "oran": 0.00079,
+       "bar": 0.1,
+       "GECTI": true
+      }
+     },
+     "eskiz_karne": {
+      "n": 1600,
+      "red_disi": 0,
+      "r": 0.997717,
+      "nrmse": 0.071924,
+      "medyan_bagil_hata": 544.601735,
+      "p90_bagil_hata": 3131.92626,
+      "hal": "ÖLCÜLDÜ",
+      "taban_r_karisik": 0.013856,
+      "egim": 0.999504
+     },
+     "istatistik_TAM": {
+      "duz": {
+       "nokta": 38.61098131114895,
+       "sd": 48.48211505193774,
+       "n": 200,
+       "ci": [
+        31.989180331877787,
+        45.397379352097936
+       ]
+      },
+      "dik": {
+       "nokta": 1695726.3037670597,
+       "sd": 699671.4487056336,
+       "n": 200,
+       "ci": [
+        1601094.1215835465,
+        1792037.3979723605
+       ]
+      }
+     },
+     "yon_null": {
+      "duz": {
+       "null_ort": -10679.048733203123,
+       "null_sd": 152315.88866537547,
+       "K": 200,
+       "frac_yon": 0.88,
+       "gozlenen_eskiz": 13650.56466342926,
+       "gozlenen_tam": 38.61098131114895,
+       "merkezli": 24329.613396632383,
+       "sd_kati": 0.1597312900828251,
+       "rejim_ok_BASILIR": true
+      },
+      "dik": {
+       "null_ort": 1790321.1589551694,
+       "null_sd": 132299.11735782557,
+       "K": 200,
+       "frac_yon": 0.44,
+       "gozlenen_eskiz": 1695621.7527543118,
+       "gozlenen_tam": 1695726.3037670597,
+       "merkezli": -94699.4062008576,
+       "sd_kati": 0.715797717264635,
+       "rejim_ok_BASILIR": false
+      }
+     },
+     "plasebo": {
+      "duz": {
+       "gozlenen": 38.61098131114895,
+       "kontrol": {
+        "valans": 4025.5607667398235,
+        "cosku": 8713.514808472619,
+        "es_nll_rastgele": 26.06423704291753
+       },
+       "frac": 0.6666666666666666
+      },
+      "dik": {
+       "gozlenen": 1695726.3037670597,
+       "kontrol": {
+        "valans": 1531897.4723913032,
+        "cosku": 1421766.703941285,
+        "es_nll_rastgele": 1641406.505633123
+       },
+       "frac": 0.0
+      }
+     },
+     "duz_ayrik": false,
+     "dik_ayrik": false,
+     "ikinci_sutun_CI_ayrik": {
+      "duz": false,
+      "dik": false
+     }
+    }
+   },
+   "damga_utc": "2026-08-23T11:45:01Z",
+   "prereg": "2c83a8f3",
+   "prediction": "945289b4"
+  }
+ },
+ "PREDICTION": {
+  "BDN-1": {
+   "hucre": "olmo",
+   "hedef": "D",
+   "iddia": "D-EKSENINDE",
+   "guven": "DÜSÜK-ORTA",
+   "olculen": "KAPI/ÖLCÜLEMEZ",
+   "hal": "SKORLANMAZ",
+   "neden": "KAPI/ÖLCÜLEMEZ"
+  },
+  "BDN-2": {
+   "hucre": "olmo",
+   "hedef": "A",
+   "iddia": "IZ-YOK",
+   "guven": "ORTA",
+   "olculen": "IZ-YOK",
+   "hal": "TUTTU"
+  },
+  "BDN-3": {
+   "hucre": "olmo",
+   "hedef": "PANEL",
+   "iddia": "AYRIM-VAR",
+   "guven": "DÜSÜK-ORTA",
+   "olculen": "KAPI/ÖLCÜLEMEZ",
+   "hal": "SKORLANMAZ",
+   "neden": "KAPI/ÖLCÜLEMEZ"
+  },
+  "BDN-4": {
+   "hucre": "tulu3",
+   "hedef": "D",
+   "iddia": "D-EKSENINDE",
+   "guven": "DÜSÜK-ORTA",
+   "olculen": "D-DISINDA",
+   "hal": "TUTMADI"
+  },
+  "BDN-5": {
+   "hucre": "zephyr",
+   "hedef": "D",
+   "iddia": "D-EKSENINDE",
+   "guven": "DÜSÜK",
+   "olculen": "D-DISINDA",
+   "hal": "TUTMADI"
+  },
+  "BDN-6": {
+   "hucre": "*",
+   "hedef": "YAPI",
+   "iddia": "PANEL-AYNI",
+   "guven": "DÜSÜK",
+   "olculen": "PANEL-AYNI (['AYRIM-VAR'])",
+   "hal": "TUTTU"
+  }
+ },
+ "SKOR": {
+  "tuttu": 2,
+  "tutmadi": 2,
+  "skorlanmaz": 2,
+  "olculebilir_hucre": [
+   "tulu3",
+   "zephyr"
+  ]
+ },
+ "SERH": "Karne betigi hicbir D2V2-N ciktisi dogmadan yazildi; YÖN-NULL bar, PLASEBO ayri kapi; etiketler fdbe30b5'e birebir."
+}

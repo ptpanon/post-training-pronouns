@@ -1,0 +1,13 @@
+{
+ "table": "Q2_PLASEBO_D2",
+ "ciktilar": [
+  "Q2_PLASEBO_D2.tex"
+ ],
+ "note": "v100 B (Assistant-v99 Q2): failing models vs paired placebo p95",
+ "sources": [
+  {
+   "yol": "results/v100_kelime_payda_2026-09-22.json",
+   "sha256_16": "fe1b28cb05ef6830"
+  }
+ ]
+}

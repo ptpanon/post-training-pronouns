@@ -1,0 +1,876 @@
+{
+ "sinif": "BETIM · card · kâgida girmez",
+ "rule": "preregistration/rule_reviewer_readings_2026-09-15.md @ 25315d8e",
+ "soru": "Q1",
+ "yol": "urial_verdict.py (K2048 yapilandirmasi) · M1 sütunu p1 ile ikame · kiyas (i) kâgidin okumasi",
+ "alet": {
+  "hal": "ESDEGER",
+  "en_buyuk_sapma": 0.0,
+  "kanonik": "URIAL_VERDICT_2048_16_K2048_2026-09-11.json"
+ },
+ "sayim": {
+  "i": {
+   "cs": {
+    "asagi": 16,
+    "yukari": 0,
+    "null": 0
+   },
+   "dahil": {
+    "asagi": 16,
+    "yukari": 0,
+    "null": 0
+   }
+  },
+  "ii": {
+   "cs": {
+    "asagi": 15,
+    "yukari": 0,
+    "null": 1
+   },
+   "dahil": {
+    "asagi": 15,
+    "yukari": 0,
+    "null": 1
+   }
+  }
+ },
+ "sayim_adlar": {
+  "i": {
+   "cs": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-1.5B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": []
+   },
+   "dahil": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-27B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-1.5B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": []
+   }
+  },
+  "ii": {
+   "cs": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-1.5B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": [
+     "Gemma-3-27B"
+    ]
+   },
+   "dahil": {
+    "asagi": [
+     "Gemma-3-12B",
+     "Gemma-3-4B",
+     "Llama-3.1-70B",
+     "Llama-3.1-8B",
+     "Mistral-7B-v0.3",
+     "OLMo-3-7B",
+     "OLMo2-13B",
+     "OLMo2-32B",
+     "Qwen2.5-1.5B",
+     "Qwen2.5-14B",
+     "Qwen2.5-32B",
+     "Qwen2.5-3B",
+     "Qwen2.5-72B",
+     "Qwen2.5-7B",
+     "Tulu3-8B"
+    ],
+    "yukari": [],
+    "null": [
+     "Gemma-3-27B"
+    ]
+   }
+  }
+ },
+ "kiyas": {
+  "i": {
+   "Qwen2.5-1.5B": {
+    "cs": {
+     "d1": -8.5256,
+     "ci": [
+      -9.5133,
+      -7.4434
+     ],
+     "sinif": "asagi",
+     "taban": 22.8563,
+     "hizali": 14.3307
+    },
+    "dahil": {
+     "d1": -8.575,
+     "ci": [
+      -9.5651,
+      -7.4901
+     ],
+     "sinif": "asagi",
+     "taban": 22.9743,
+     "hizali": 14.3993
+    },
+    "US_etkisi_d": -0.0494
+   },
+   "Qwen2.5-3B": {
+    "cs": {
+     "d1": -15.7173,
+     "ci": [
+      -16.615,
+      -14.8898
+     ],
+     "sinif": "asagi",
+     "taban": 19.376,
+     "hizali": 3.6587
+    },
+    "dahil": {
+     "d1": -15.7437,
+     "ci": [
+      -16.6279,
+      -14.9206
+     ],
+     "sinif": "asagi",
+     "taban": 19.4669,
+     "hizali": 3.7232
+    },
+    "US_etkisi_d": -0.0264
+   },
+   "Mistral-7B-v0.3": {
+    "cs": {
+     "d1": -19.4451,
+     "ci": [
+      -20.6214,
+      -18.323
+     ],
+     "sinif": "asagi",
+     "taban": 26.848,
+     "hizali": 7.4029
+    },
+    "dahil": {
+     "d1": -19.5971,
+     "ci": [
+      -20.7632,
+      -18.4917
+     ],
+     "sinif": "asagi",
+     "taban": 27.1362,
+     "hizali": 7.539
+    },
+    "US_etkisi_d": -0.152
+   },
+   "Qwen2.5-7B": {
+    "cs": {
+     "d1": -16.8324,
+     "ci": [
+      -17.7637,
+      -15.9458
+     ],
+     "sinif": "asagi",
+     "taban": 18.5894,
+     "hizali": 1.757
+    },
+    "dahil": {
+     "d1": -16.9865,
+     "ci": [
+      -17.912,
+      -16.0581
+     ],
+     "sinif": "asagi",
+     "taban": 18.8148,
+     "hizali": 1.8282
+    },
+    "US_etkisi_d": -0.1541
+   },
+   "OLMo-3-7B": {
+    "cs": {
+     "d1": -10.6949,
+     "ci": [
+      -11.6866,
+      -9.6931
+     ],
+     "sinif": "asagi",
+     "taban": 16.414,
+     "hizali": 5.7191
+    },
+    "dahil": {
+     "d1": -10.3592,
+     "ci": [
+      -11.3753,
+      -9.3075
+     ],
+     "sinif": "asagi",
+     "taban": 16.5647,
+     "hizali": 6.2055
+    },
+    "US_etkisi_d": 0.3357
+   },
+   "Llama-3.1-8B": {
+    "cs": {
+     "d1": -23.5246,
+     "ci": [
+      -24.4829,
+      -22.6323
+     ],
+     "sinif": "asagi",
+     "taban": 29.1795,
+     "hizali": 5.6549
+    },
+    "dahil": {
+     "d1": -23.2565,
+     "ci": [
+      -24.2053,
+      -22.3596
+     ],
+     "sinif": "asagi",
+     "taban": 29.3538,
+     "hizali": 6.0973
+    },
+    "US_etkisi_d": 0.2681
+   },
+   "Tulu3-8B": {
+    "cs": {
+     "d1": -26.7957,
+     "ci": [
+      -28.1267,
+      -25.2653
+     ],
+     "sinif": "asagi",
+     "taban": 29.1795,
+     "hizali": 2.3838
+    },
+    "dahil": {
+     "d1": -26.8051,
+     "ci": [
+      -28.1056,
+      -25.2712
+     ],
+     "sinif": "asagi",
+     "taban": 29.3538,
+     "hizali": 2.5487
+    },
+    "US_etkisi_d": -0.0094
+   },
+   "Gemma-3-4B": {
+    "cs": {
+     "d1": -18.9261,
+     "ci": [
+      -19.8257,
+      -18.0216
+     ],
+     "sinif": "asagi",
+     "taban": 25.1281,
+     "hizali": 6.202
+    },
+    "dahil": {
+     "d1": -18.8532,
+     "ci": [
+      -19.7487,
+      -17.9565
+     ],
+     "sinif": "asagi",
+     "taban": 25.2786,
+     "hizali": 6.4254
+    },
+    "US_etkisi_d": 0.0729
+   },
+   "OLMo2-13B": {
+    "cs": {
+     "d1": -14.1486,
+     "ci": [
+      -14.7963,
+      -13.5396
+     ],
+     "sinif": "asagi",
+     "taban": 15.2846,
+     "hizali": 1.136
+    },
+    "dahil": {
+     "d1": -14.252,
+     "ci": [
+      -14.8956,
+      -13.6512
+     ],
+     "sinif": "asagi",
+     "taban": 15.5871,
+     "hizali": 1.3352
+    },
+    "US_etkisi_d": -0.1034
+   },
+   "Gemma-3-12B": {
+    "cs": {
+     "d1": -9.6791,
+     "ci": [
+      -10.535,
+      -8.8578
+     ],
+     "sinif": "asagi",
+     "taban": 20.4544,
+     "hizali": 10.7753
+    },
+    "dahil": {
+     "d1": -9.2676,
+     "ci": [
+      -10.2622,
+      -8.2616
+     ],
+     "sinif": "asagi",
+     "taban": 20.6887,
+     "hizali": 11.4211
+    },
+    "US_etkisi_d": 0.4115
+   },
+   "Qwen2.5-14B": {
+    "cs": {
+     "d1": -14.5906,
+     "ci": [
+      -15.3699,
+      -13.7444
+     ],
+     "sinif": "asagi",
+     "taban": 15.3992,
+     "hizali": 0.8086
+    },
+    "dahil": {
+     "d1": -14.6573,
+     "ci": [
+      -15.449,
+      -13.7821
+     ],
+     "sinif": "asagi",
+     "taban": 15.5456,
+     "hizali": 0.8883
+    },
+    "US_etkisi_d": -0.0667
+   },
+   "Gemma-3-27B": {
+    "cs": {
+     "d1": -3.2018,
+     "ci": [
+      -4.2783,
+      -2.1504
+     ],
+     "sinif": "asagi",
+     "taban": 16.8842,
+     "hizali": 13.6824
+    },
+    "dahil": {
+     "d1": -3.0052,
+     "ci": [
+      -4.1238,
+      -1.9382
+     ],
+     "sinif": "asagi",
+     "taban": 17.0884,
+     "hizali": 14.0831
+    },
+    "US_etkisi_d": 0.1966
+   },
+   "OLMo2-32B": {
+    "cs": {
+     "d1": -14.754,
+     "ci": [
+      -15.7713,
+      -13.6801
+     ],
+     "sinif": "asagi",
+     "taban": 17.7766,
+     "hizali": 3.0226
+    },
+    "dahil": {
+     "d1": -14.8949,
+     "ci": [
+      -15.8987,
+      -13.8042
+     ],
+     "sinif": "asagi",
+     "taban": 18.2628,
+     "hizali": 3.3678
+    },
+    "US_etkisi_d": -0.1409
+   },
+   "Qwen2.5-32B": {
+    "cs": {
+     "d1": -16.1917,
+     "ci": [
+      -17.4373,
+      -14.9695
+     ],
+     "sinif": "asagi",
+     "taban": 17.2443,
+     "hizali": 1.0526
+    },
+    "dahil": {
+     "d1": -16.182,
+     "ci": [
+      -17.453,
+      -14.9954
+     ],
+     "sinif": "asagi",
+     "taban": 17.3776,
+     "hizali": 1.1956
+    },
+    "US_etkisi_d": 0.0097
+   },
+   "Qwen2.5-72B": {
+    "cs": {
+     "d1": -12.0541,
+     "ci": [
+      -13.0569,
+      -11.0742
+     ],
+     "sinif": "asagi",
+     "taban": 13.5991,
+     "hizali": 1.545
+    },
+    "dahil": {
+     "d1": -12.2437,
+     "ci": [
+      -13.2652,
+      -11.2565
+     ],
+     "sinif": "asagi",
+     "taban": 13.8136,
+     "hizali": 1.5699
+    },
+    "US_etkisi_d": -0.1896
+   },
+   "Llama-3.1-70B": {
+    "cs": {
+     "d1": -15.7208,
+     "ci": [
+      -16.9762,
+      -14.5237
+     ],
+     "sinif": "asagi",
+     "taban": 20.5877,
+     "hizali": 4.8668
+    },
+    "dahil": {
+     "d1": -15.4544,
+     "ci": [
+      -16.7198,
+      -14.253
+     ],
+     "sinif": "asagi",
+     "taban": 20.7909,
+     "hizali": 5.3365
+    },
+    "US_etkisi_d": 0.2664
+   }
+  },
+  "ii": {
+   "Qwen2.5-1.5B": {
+    "cs": {
+     "d1": -7.1172,
+     "ci": [
+      -7.9122,
+      -6.3061
+     ],
+     "sinif": "asagi",
+     "taban": 22.8563,
+     "hizali": 15.7391
+    },
+    "dahil": {
+     "d1": -7.1905,
+     "ci": [
+      -7.9764,
+      -6.3956
+     ],
+     "sinif": "asagi",
+     "taban": 22.9743,
+     "hizali": 15.7838
+    },
+    "US_etkisi_d": -0.0733
+   },
+   "Qwen2.5-3B": {
+    "cs": {
+     "d1": -14.9148,
+     "ci": [
+      -15.6703,
+      -14.2094
+     ],
+     "sinif": "asagi",
+     "taban": 19.376,
+     "hizali": 4.4612
+    },
+    "dahil": {
+     "d1": -14.9747,
+     "ci": [
+      -15.7433,
+      -14.2994
+     ],
+     "sinif": "asagi",
+     "taban": 19.4669,
+     "hizali": 4.4922
+    },
+    "US_etkisi_d": -0.0599
+   },
+   "Mistral-7B-v0.3": {
+    "cs": {
+     "d1": -12.7814,
+     "ci": [
+      -13.8298,
+      -11.814
+     ],
+     "sinif": "asagi",
+     "taban": 26.848,
+     "hizali": 14.0666
+    },
+    "dahil": {
+     "d1": -12.8824,
+     "ci": [
+      -13.9334,
+      -11.9239
+     ],
+     "sinif": "asagi",
+     "taban": 27.1362,
+     "hizali": 14.2538
+    },
+    "US_etkisi_d": -0.101
+   },
+   "Qwen2.5-7B": {
+    "cs": {
+     "d1": -15.4626,
+     "ci": [
+      -16.3288,
+      -14.6358
+     ],
+     "sinif": "asagi",
+     "taban": 18.5894,
+     "hizali": 3.1267
+    },
+    "dahil": {
+     "d1": -15.6352,
+     "ci": [
+      -16.5249,
+      -14.7885
+     ],
+     "sinif": "asagi",
+     "taban": 18.8148,
+     "hizali": 3.1796
+    },
+    "US_etkisi_d": -0.1726
+   },
+   "OLMo-3-7B": {
+    "cs": {
+     "d1": -12.2917,
+     "ci": [
+      -13.1299,
+      -11.4573
+     ],
+     "sinif": "asagi",
+     "taban": 16.414,
+     "hizali": 4.1223
+    },
+    "dahil": {
+     "d1": -12.2981,
+     "ci": [
+      -13.1629,
+      -11.4431
+     ],
+     "sinif": "asagi",
+     "taban": 16.5647,
+     "hizali": 4.2665
+    },
+    "US_etkisi_d": -0.0064
+   },
+   "Llama-3.1-8B": {
+    "cs": {
+     "d1": -10.1072,
+     "ci": [
+      -11.2211,
+      -9.0732
+     ],
+     "sinif": "asagi",
+     "taban": 29.1795,
+     "hizali": 19.0723
+    },
+    "dahil": {
+     "d1": -10.0994,
+     "ci": [
+      -11.1853,
+      -9.1009
+     ],
+     "sinif": "asagi",
+     "taban": 29.3538,
+     "hizali": 19.2544
+    },
+    "US_etkisi_d": 0.0078
+   },
+   "Tulu3-8B": {
+    "cs": {
+     "d1": -26.7422,
+     "ci": [
+      -27.7744,
+      -25.6924
+     ],
+     "sinif": "asagi",
+     "taban": 29.1795,
+     "hizali": 2.4373
+    },
+    "dahil": {
+     "d1": -26.8284,
+     "ci": [
+      -27.8419,
+      -25.7829
+     ],
+     "sinif": "asagi",
+     "taban": 29.3538,
+     "hizali": 2.5254
+    },
+    "US_etkisi_d": -0.0862
+   },
+   "Gemma-3-4B": {
+    "cs": {
+     "d1": -10.4932,
+     "ci": [
+      -11.8948,
+      -9.2385
+     ],
+     "sinif": "asagi",
+     "taban": 25.1281,
+     "hizali": 14.6349
+    },
+    "dahil": {
+     "d1": -10.5262,
+     "ci": [
+      -11.9303,
+      -9.2772
+     ],
+     "sinif": "asagi",
+     "taban": 25.2786,
+     "hizali": 14.7523
+    },
+    "US_etkisi_d": -0.033
+   },
+   "OLMo2-13B": {
+    "cs": {
+     "d1": -13.0112,
+     "ci": [
+      -13.5857,
+      -12.4686
+     ],
+     "sinif": "asagi",
+     "taban": 15.2846,
+     "hizali": 2.2734
+    },
+    "dahil": {
+     "d1": -13.1296,
+     "ci": [
+      -13.6868,
+      -12.594
+     ],
+     "sinif": "asagi",
+     "taban": 15.5871,
+     "hizali": 2.4575
+    },
+    "US_etkisi_d": -0.1184
+   },
+   "Gemma-3-12B": {
+    "cs": {
+     "d1": -5.5746,
+     "ci": [
+      -7.4645,
+      -3.6851
+     ],
+     "sinif": "asagi",
+     "taban": 20.4544,
+     "hizali": 14.8798
+    },
+    "dahil": {
+     "d1": -5.4732,
+     "ci": [
+      -7.3792,
+      -3.5739
+     ],
+     "sinif": "asagi",
+     "taban": 20.6887,
+     "hizali": 15.2155
+    },
+    "US_etkisi_d": 0.1014
+   },
+   "Qwen2.5-14B": {
+    "cs": {
+     "d1": -13.7724,
+     "ci": [
+      -14.534,
+      -12.9462
+     ],
+     "sinif": "asagi",
+     "taban": 15.3992,
+     "hizali": 1.6268
+    },
+    "dahil": {
+     "d1": -13.8068,
+     "ci": [
+      -14.5974,
+      -12.9523
+     ],
+     "sinif": "asagi",
+     "taban": 15.5456,
+     "hizali": 1.7388
+    },
+    "US_etkisi_d": -0.0344
+   },
+   "Gemma-3-27B": {
+    "cs": {
+     "d1": 0.4766,
+     "ci": [
+      -1.2474,
+      2.2804
+     ],
+     "sinif": "null",
+     "taban": 16.8842,
+     "hizali": 17.3607
+    },
+    "dahil": {
+     "d1": 0.4502,
+     "ci": [
+      -1.2676,
+      2.252
+     ],
+     "sinif": "null",
+     "taban": 17.0884,
+     "hizali": 17.5386
+    },
+    "US_etkisi_d": -0.0264
+   },
+   "OLMo2-32B": {
+    "cs": {
+     "d1": -13.0235,
+     "ci": [
+      -13.7135,
+      -12.2736
+     ],
+     "sinif": "asagi",
+     "taban": 17.7766,
+     "hizali": 4.753
+    },
+    "dahil": {
+     "d1": -13.2026,
+     "ci": [
+      -13.8594,
+      -12.4529
+     ],
+     "sinif": "asagi",
+     "taban": 18.2628,
+     "hizali": 5.0602
+    },
+    "US_etkisi_d": -0.1791
+   },
+   "Qwen2.5-32B": {
+    "cs": {
+     "d1": -14.5746,
+     "ci": [
+      -15.644,
+      -13.5204
+     ],
+     "sinif": "asagi",
+     "taban": 17.2443,
+     "hizali": 2.6697
+    },
+    "dahil": {
+     "d1": -14.5969,
+     "ci": [
+      -15.671,
+      -13.5547
+     ],
+     "sinif": "asagi",
+     "taban": 17.3776,
+     "hizali": 2.7807
+    },
+    "US_etkisi_d": -0.0223
+   },
+   "Qwen2.5-72B": {
+    "cs": {
+     "d1": -10.2927,
+     "ci": [
+      -11.1363,
+      -9.4559
+     ],
+     "sinif": "asagi",
+     "taban": 13.5991,
+     "hizali": 3.3063
+    },
+    "dahil": {
+     "d1": -10.4758,
+     "ci": [
+      -11.3282,
+      -9.6269
+     ],
+     "sinif": "asagi",
+     "taban": 13.8136,
+     "hizali": 3.3377
+    },
+    "US_etkisi_d": -0.1831
+   },
+   "Llama-3.1-70B": {
+    "cs": {
+     "d1": -7.6393,
+     "ci": [
+      -8.9119,
+      -6.2565
+     ],
+     "sinif": "asagi",
+     "taban": 20.5877,
+     "hizali": 12.9483
+    },
+    "dahil": {
+     "d1": -7.5653,
+     "ci": [
+      -8.8526,
+      -6.1697
+     ],
+     "sinif": "asagi",
+     "taban": 20.7909,
+     "hizali": 13.2256
+    },
+    "US_etkisi_d": 0.074
+   }
+  }
+ },
+ "damga_utc": "2026-09-15T19:56:17Z"
+}

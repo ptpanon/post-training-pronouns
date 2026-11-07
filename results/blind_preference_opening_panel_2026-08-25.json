@@ -1,0 +1,118 @@
+{
+ "KP-1fe5_dil": {
+  "tabaka": {
+   "en": {
+    "REDDEDILEN": 32,
+    "TIE": 73,
+    "SECILEN": 27,
+    "COGUNLUK-YOK": 4
+   },
+   "es": {
+    "TIE": 47,
+    "REDDEDILEN": 13,
+    "SECILEN": 9,
+    "COGUNLUK-YOK": 1
+   },
+   "ru": {
+    "SECILEN": 5,
+    "TIE": 9,
+    "REDDEDILEN": 6
+   },
+   "zh": {
+    "SECILEN": 3,
+    "TIE": 4,
+    "REDDEDILEN": 1
+   },
+   "th": {
+    "SECILEN": 1,
+    "TIE": 1
+   },
+   "fr": {
+    "TIE": 5,
+    "SECILEN": 2
+   },
+   "pt-BR": {
+    "SECILEN": 2,
+    "REDDEDILEN": 1,
+    "TIE": 2
+   },
+   "pl": {
+    "TIE": 1
+   },
+   "it": {
+    "TIE": 2
+   },
+   "uk-UA": {
+    "REDDEDILEN": 1,
+    "TIE": 2
+   },
+   "de": {
+    "REDDEDILEN": 3,
+    "SECILEN": 3,
+    "TIE": 3
+   },
+   "ca": {
+    "TIE": 2,
+    "SECILEN": 1
+   },
+   "eu": {
+    "REDDEDILEN": 1,
+    "TIE": 1
+   },
+   "cs": {
+    "TIE": 1
+   },
+   "ja": {
+    "TIE": 1
+   }
+  },
+  "panel": {
+   "REDDEDILEN": 58,
+   "TIE": 154,
+   "SECILEN": 53,
+   "COGUNLUK-YOK": 5
+  },
+  "panel_pay": 0.4774774774774775,
+  "panel_mde": 0.07806824515064305,
+  "panel_verdict": "YÖN-YOK"
+ },
+ "KP-6717": {
+  "n": 272,
+  "kesin": 193,
+  "pay": 0.487,
+  "mde": 0.0592,
+  "verdict": "YÖN-YOK",
+  "sayac": {
+   "REDDEDILEN": 99,
+   "SECILEN": 94,
+   "TIE": 77,
+   "COGUNLUK-YOK": 2
+  }
+ },
+ "KP-1fe5": {
+  "n": 270,
+  "kesin": 111,
+  "pay": 0.4775,
+  "mde": 0.0781,
+  "verdict": "YÖN-YOK",
+  "sayac": {
+   "REDDEDILEN": 58,
+   "TIE": 154,
+   "SECILEN": 53,
+   "COGUNLUK-YOK": 5
+  }
+ },
+ "KP-9358": {
+  "n": 272,
+  "kesin": 95,
+  "pay": 0.5158,
+  "mde": 0.0844,
+  "verdict": "YÖN-YOK",
+  "sayac": {
+   "SECILEN": 49,
+   "REDDEDILEN": 46,
+   "TIE": 176,
+   "COGUNLUK-YOK": 1
+  }
+ }
+}

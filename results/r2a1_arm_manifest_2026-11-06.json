@@ -1,0 +1,118 @@
+{
+ "damga_utc": "2026-11-06T16:22:25Z",
+ "SINIF": "KOL INSASI + DENGE ÖLCÜMÜ — egitim YOK · verdict YOK",
+ "direktif": "sahip/Assistant «REBUTTAL-2» A1",
+ "n_istek": 3346,
+ "n_max": {
+  "a2_kol_yonu": 3346
+ },
+ "onculdustu": "«3 348» tavandir; A2 kurulabilir n = 3346 (B1c ERRATA)",
+ "alet": {
+  "b0_sha256": "4c37cb701c82dd3eee03d68cad51f963ab83d83ead3ab64b16e481a075305818",
+  "adaptor": "<repo>/scripts/r2a1_person_doz.py",
+  "adaptor_sha16": "f1ab28450404353b",
+  "b1c_sha16": "b0404d58dfb2d4a5",
+  "kod_parmak_izi": "946989191f362be2"
+ },
+ "tanim": {
+  "hedef": "<data>/dial_kol/KISI_ASAGI.jsonl",
+  "tabaka": "B1c yönlü kipi: digitize(ΔRed) × digitize(Δlog-boy) × (ΔKod<0), kenarlar hedefin yüzdelikleri",
+  "secim": "uc_kol.tabaka_esle(hedef, hedef, tab, default_rng(20260830), n=3346)",
+  "satir": "KISI_ASAGI aynen, yalniz kol adi"
+ },
+ "n_kol": 3346,
+ "n_a1_a2_ortak_kimlik": 0,
+ "kol_yolu": "<data>/gpu_haftasi/r2a1/kol/R2_A1.jsonl",
+ "kol_sha256": "2d039cb1692098022a3145b15db6cbb984be703caa3f8b30cbc4bf4fee48f3af",
+ "denge": {
+  "KISI_ASAGI_7537": {
+   "dRed": -0.038477,
+   "dKod": -0.017646,
+   "dListe": -0.011676,
+   "dBoy": -0.140987,
+   "dM1": -11.102331,
+   "dJeton": -23.719782,
+   "pay_dKod_neg": 0.061828,
+   "d_red_ham": -0.03861,
+   "d_kod_ham": -0.017646
+  },
+  "A1": {
+   "dRed": -0.03676,
+   "dKod": -0.014047,
+   "dListe": 0.004184,
+   "dBoy": -0.145735,
+   "dM1": -11.028129,
+   "dJeton": -22.710699,
+   "pay_dKod_neg": 0.060968,
+   "d_red_ham": -0.037059,
+   "d_kod_ham": -0.014047
+  },
+  "A2_B1C": {
+   "dRed": -0.060371,
+   "dKod": -0.032576,
+   "dListe": 0.04214,
+   "dBoy": 0.017541,
+   "dM1": 0.0,
+   "dJeton": -44.407651,
+   "pay_dKod_neg": 0.060968,
+   "d_red_ham": -0.060371,
+   "d_kod_ham": -0.032576
+  }
+ },
+ "boru": {
+  "oran_sessiz_dusen": 0.0185,
+  "tam": {
+   "template": {
+    "template_var": true,
+    "ilk_80": "<|user|>\nWhat would you suggest a college student should do to improve their res",
+    "n_bos_bas": 1,
+    "HAL": "TEK-BOS"
+   },
+   "kesme": {
+    "max_length": 1536,
+    "truncation_mode": "keep_start",
+    "istem_jeton_ort": 216.0,
+    "istem_jeton_p50": 98,
+    "istem_jeton_p95": 759,
+    "chosen_jeton_ort": 674.8,
+    "rejected_jeton_ort": 674.2,
+    "cevaba_kalan_jeton_ort": 1337.3,
+    "oran_SESSIZ_DUSEN": 0.0185,
+    "oran_cevap_KISMEN_kesilen": 0.0266,
+    "esik": 0.1,
+    "HAL": "KABUL"
+   },
+   "dolgu": {
+    "pad_token": "<pad>",
+    "pad_token_id": 128256,
+    "eos_token": "<|end_of_text|>",
+    "padding_side": "right",
+    "pad_eos_ayni": false
+   },
+   "ozdes_cift": {
+    "n": 0,
+    "oran": 0.0
+   }
+  }
+ },
+ "adim": 205,
+ "yigin": 16,
+ "adim_kurali": "⌊N·(1 − sessiz düsen)/16⌋ (kk3f_kol.py G5)",
+ "a2": {
+  "kol": "B1C_KOD",
+  "kol_sha": "38f299034147bb88",
+  "adim": 206,
+  "n": 3346,
+  "prereg": "b88d4993",
+  "sonuc": "5d5d14a8",
+  "card": "<repo>/results/b1c_kod_verdict_2026-10-29.json"
+ },
+ "kapilar": {
+  "G_yon_kol_dosyasi": true,
+  "G_a2_yeniden_kuruldu": true,
+  "G_tabaka_ayni": true,
+  "G_boru": true
+ },
+ "GECTI": true,
+ "sure_sn": 16.1
+}

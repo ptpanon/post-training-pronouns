@@ -1,0 +1,13 @@
+{
+ "table": "KELIME_CUMLE",
+ "ciktilar": [
+  "KELIME_CUMLE.tex"
+ ],
+ "note": "v100 A: §3 sentence (GÖVDEYE branch only)",
+ "sources": [
+  {
+   "yol": "results/v100_kelime_payda_2026-09-22.json",
+   "sha256_16": "fe1b28cb05ef6830"
+  }
+ ]
+}
