@@ -41,7 +41,7 @@ python paper/checks/gate_generated_layer_fresh.py paper/figures
 ```
 
 The check re-runs every generator from the cards and compares each output with the file in this tree.
-On this tree it reproduces 63 generators with no stale output.
+On this tree it reproduces 64 generators with no stale output.
 5 generators need data that is not released, and they exit with an error:
 
 - `paper/figures/example_pair.py`: prints model continuations; needs the generated texts and the original commit history.

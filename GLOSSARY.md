@@ -60,7 +60,7 @@ function definitions whose name contains it.
 | `hizali` | aligned | 0 | 65 | 0 |
 | `payda` | denominator (the coverage count a check prints) | 2 | 53 | 5 |
 | `sayim` | count | 0 | 54 | 4 |
-| `hucre` | cell | 0 | 42 | 14 |
+| `hucre` | cell | 0 | 42 | 15 |
 | `kume` | set; cluster | 5 | 38 | 13 |
 | `yukari` | up | 2 | 51 | 0 |
 | `tur` | type; round | 3 | 46 | 3 |
@@ -154,13 +154,13 @@ function definitions whose name contains it.
 | `atilan` | discarded | 0 | 16 | 0 |
 | `bicim` | form; format | 0 | 15 | 1 |
 | `hedef` | target | 0 | 16 | 0 |
+| `coz` | resolve | 0 | 0 | 15 |
 | `gecti` | passed | 0 | 15 | 0 |
 | `kodla` | encode; annotate | 0 | 0 | 15 |
 | `liste` | list | 0 | 8 | 7 |
 | `olcum` | measurement | 1 | 11 | 3 |
 | `ortak` | shared | 0 | 13 | 2 |
 | `uyum` | agreement; fit | 4 | 11 | 0 |
-| `coz` | resolve | 0 | 0 | 14 |
 | `disi` | outside | 0 | 12 | 2 |
 | `esli` | matched; paired | 0 | 11 | 3 |
 | `parca` | part; piece | 0 | 4 | 10 |

@@ -12,7 +12,7 @@
   },
   {
    "yol": "paper/figures/BANT.meta.json",
-   "sha256_16": "1e4a5cbad59c9d50"
+   "sha256_16": "dd22dd93b87fa76e"
   }
  ],
  "note": "renders pre-specified measurements; computes no new statistic"
