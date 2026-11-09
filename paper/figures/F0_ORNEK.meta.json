@@ -1,10 +1,10 @@
 {
  "table": "F0_ORNEK",
- "damga_utc": "2026-11-08T13:22:12Z",
+ "damga_utc": "2026-11-09T07:23:15Z",
  "sources": [
   {
    "yol": "paper/figures/ORNEK_CIFT.meta.json",
-   "sha256_16": "23c89b36e47c7594"
+   "sha256_16": "a4caf26c433b19bc"
   }
  ],
  "secim": {

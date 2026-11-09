@@ -188,12 +188,13 @@ def main():
     _soy_dusen = [x for x in _soylar if all(r["a_ayrik"] and r["m1d"] < 0 for r in satir if r["soy"] == x)]
     print(f"{len(_soylar)} {_soylar} {len(_soy_dusen)}"
           f"")
-    _ozet = (f"On raw continuation the second-person rate falls in {nA} of {len(satir)} models, "
-             f"{len(_soy_dusen)} of {len(_soylar)} lineages, every "
-             f"interval excluding zero (Table~\\ref{{tab:families}}). This is the pre-registered test, and its "
-             f"bar was 12 of 16 with a positive control on the same pipeline. The fall has an interval excluding zero "
-             f"in {nB} of the {len(satir)} models on ELICIT-99, which scores {nBp}. Under the in-context assistant prompt on the identical "
-             f"string it has an interval excluding zero in {nUd} of {nU}, where {Xsay['ters']} of the other {nU - nUd} rise{_bicim_c}. "
+    _ozet = (f"On raw continuation the second-person rate falls in "
+             + ("every model" if nA == len(satir) else f"{nA} of {len(satir)} models")
+             + (f" and in all {len(_soylar)} lineages" if len(_soy_dusen) == len(_soylar) else f", {len(_soy_dusen)} of {len(_soylar)} lineages")
+             + f", every interval excluding zero (Tables~\\ref{{tab:families}} and~\\ref{{tab:readings}}). This is the pre-registered test, and its "
+             f"bar was 12 of 16 with a positive control on the same pipeline. "
+             + (f"On the identical in-context string, in " + " and ".join(_bicim_ad) + " the difference appears only when each output "
+                "is in its own format. " if _bicim_ad else "")
              + (f"The first-person rate falls in every model and, in absolute terms, further "
                 f"than the second-person rate. "
                 if (n1 == len(satir) and nb == len(satir)) else

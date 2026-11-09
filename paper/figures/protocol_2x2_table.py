@@ -169,9 +169,9 @@ def main():
     io.open(f"{OUT}/T13_body.tex", "w", encoding="utf-8").write(
         "% * URETILDI - elle duzenlenmez (figures/protocol_2x2_table.py)\n"
         + ("Under the chat-template prompt the same contrast splits (Figure~\\ref{fig:effects}(b)). On the filtered "
-           "set the second-person rate rises in %d models, falls in %d and shows no clear change in %d, while "
-           % (ns, nn, nu))
-        + (("raw continuation on the same set stays falling in all %d. " % nc) if nc == len(R)
+           "set " + ("as many models rise as fall" if ns == nn else "some models rise and others fall")
+           + " (Table~\\ref{tab:readings}), while ")
+        + (("raw continuation on the same set stays falling in every model. ") if nc == len(R)
            else ("raw continuation on the same set stays at %d of %d falling. " % (nc, len(R))))
         + ("T\\\"ulu-3-8B and Llama-3.1-8B descend from the same base checkpoint, and their two pipelines say "
            "``you'' $%.1f$ and $%.1f$ times per 1,000 tokens through their own templates%s. Since the base weights are "

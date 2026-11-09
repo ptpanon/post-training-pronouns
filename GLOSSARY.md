@@ -9,9 +9,9 @@ function definitions whose name contains it.
 |---|---|---:|---:|---:|
 | `damga` | timestamp | 0 | 742 | 10 |
 | `cift` | pair | 2 | 617 | 11 |
-| `yol` | path | 0 | 619 | 4 |
+| `yol` | path | 0 | 620 | 4 |
 | `kol` | arm (one experimental condition) | 4 | 604 | 14 |
-| `satir` | row; line | 3 | 594 | 9 |
+| `satir` | row; line | 3 | 595 | 9 |
 | `kunye` | manifest (record of how an artefact was made) | 522 | 70 | 1 |
 | `bos` | empty | 1 | 576 | 3 |
 | `saniye` | seconds | 0 | 562 | 0 |
@@ -58,8 +58,8 @@ function definitions whose name contains it.
 | `cumle` | sentence | 17 | 50 | 8 |
 | `siradan` | ordinary | 41 | 34 | 0 |
 | `hizali` | aligned | 0 | 65 | 0 |
-| `payda` | denominator (the coverage count a check prints) | 2 | 52 | 5 |
-| `sayim` | count | 0 | 53 | 4 |
+| `payda` | denominator (the coverage count a check prints) | 2 | 53 | 5 |
+| `sayim` | count | 0 | 54 | 4 |
 | `hucre` | cell | 0 | 42 | 14 |
 | `kume` | set; cluster | 5 | 38 | 13 |
 | `yukari` | up | 2 | 51 | 0 |
@@ -87,9 +87,9 @@ function definitions whose name contains it.
 | `satirsiz` | without the (system) line | 32 | 3 | 0 |
 | `basina` | per | 0 | 34 | 0 |
 | `cevap` | answer | 0 | 33 | 1 |
+| `ciktilar` | outputs | 0 | 34 | 0 |
 | `kalan` | remaining | 0 | 34 | 0 |
 | `satirli` | with the (system) line | 32 | 2 | 0 |
-| `ciktilar` | outputs | 0 | 33 | 0 |
 | `kesme` | cut-off; truncation | 0 | 32 | 0 |
 | `egitim` | training | 0 | 31 | 0 |
 | `olculen` | measured | 0 | 31 | 0 |

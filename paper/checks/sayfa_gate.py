@@ -2,7 +2,7 @@
 import re, sys
 from pypdf import PdfReader
 
-BAR = 9
+BAR = 10
 BEYAN = r"\b(AI USE STATEMENT|ETHICS STATEMENT|REPRODUCIBILITY STATEMENT)\b"
 
 

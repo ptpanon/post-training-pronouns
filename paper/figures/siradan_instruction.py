@@ -56,8 +56,8 @@ def main():
         "% * URETILDI - elle duzenlenmez (figures/siradan_instruction.py)\n" + cumle)
     _uy = "rises" if len(sayI["yukari"]) == 1 else "rise"
     _nu = "shows" if len(sayI["null"]) == 1 else "show"
-    birinci = (rf"On ${n_istem}$ ordinary instructions they fall in ${n_is1_asagi}$ of $16$, while {yukari_ad} {_uy}"
-               + (rf" and {null_ad} {_nu} no clear change" if sayI["null"] else ""))
+    birinci = (rf"On ${n_istem}$ ordinary instructions the exceptions are {yukari_ad}, which {_uy}"
+               + (rf", and {null_ad}, which {_nu} no clear change" if sayI["null"] else "") + r" (Table~\ref{tab:readings})")
     io.open(f"{OUT}/SIRADAN_TALIMAT_BIRINCI.tex", "w", encoding="utf-8").write(
         "% * URETILDI - elle duzenlenmez (figures/siradan_instruction.py)\n" + birinci)
     sapma = (rf"Instrument fixed and committed before the run; no acceptance bound and no outcome name. The aligned outputs are each "

@@ -1,0 +1,20 @@
+\begin{table}[t]\centering\small\setlength{\tabcolsep}{4pt}
+\caption{\textbf{Which readings survive.} Models whose aligned-minus-base rate falls ($\downarrow$), rises ($\uparrow$) or has a 95\% interval covering zero ($\sim$), of 16 unless marked. ``Identical string'': both checkpoints read the same text. ---: not read. Last column: where each reading is reported.}
+\label{tab:readings}
+\begin{tabular}{@{}p{0.46\linewidth}ccl@{}}\toprule
+Reading & ``I'' & ``you'' & Reported in \\ \midrule
+Raw continuation, four seeds pooled & $16{\downarrow}$ & $16{\downarrow}$ & Table~\ref{tab:families}; App.~\ref{app:D2} \\
+Raw continuation, one seed (registered) & $16{\downarrow}$ & $16{\downarrow}$ & App.~\ref{app:repro}, \ref{app:D2} \\
+Chat template, filtered set & $16{\downarrow}$ & $7{\downarrow}\;7{\uparrow}\;2{\sim}$ & App.~\ref{app:D3} \\
+Chat template, unfiltered & $16{\downarrow}$ & $8{\downarrow}\;6{\uparrow}\;2{\sim}$ & App.~\ref{app:D3} \\
+In-context prompt, own format & $16{\downarrow}$ & $11{\downarrow}\;5{\uparrow}$ & App.~\ref{app:D4} \\
+In-context prompt, identical string & $15{\downarrow}\;1{\sim}$ & $10{\downarrow}\;5{\uparrow}\;1{\sim}$ & App.~\ref{app:D4} \\
+Person-stripped in-context prompt, own format & --- & $9{\downarrow}\;5{\uparrow}\;1{\sim}$$^{/15}$ & App.~\ref{app:D4} \\
+ELICIT-99, own format & $15{\downarrow}$$^{/15}$ & $12{\downarrow}\;3{\sim}$$^{/15}$ & App.~\ref{app:D2} \\
+ELICIT-99, identical string & $15{\downarrow}\;1{\sim}$ & $12{\downarrow}\;1{\uparrow}\;3{\sim}$ & App.~\ref{app:D2} \\
+Ordinary instructions, own format & $12{\downarrow}\;2{\uparrow}\;2{\sim}$ & $16{\downarrow}$ & App.~\ref{app:D4} \\
+Ordinary instructions, identical string & $9{\downarrow}\;1{\uparrow}\;6{\sim}$ & $11{\downarrow}\;3{\uparrow}\;2{\sim}$ & App.~\ref{app:D4} \\
+Ordinary instructions, identical person-stripped string & $10{\downarrow}\;1{\uparrow}\;5{\sim}$ & $6{\downarrow}\;7{\uparrow}\;3{\sim}$ & App.~\ref{app:D4} \\
+Ordinary instructions, base person-stripped, aligned own format & $12{\downarrow}\;2{\uparrow}\;2{\sim}$ & $16{\downarrow}$ & App.~\ref{app:D4} \\
+\bottomrule\end{tabular}
+\end{table}

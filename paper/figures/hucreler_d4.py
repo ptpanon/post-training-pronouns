@@ -59,11 +59,11 @@ def main():
     if (k2m, k2i) != (b1m, b1i):
         print(f"{k2m} {k2i} {b1m} {b1i}"); return 3
     hep = lambda n: "all 16" if n == 16 else f"{n} of 16"
-    cumle = (rf"On $300$ ordinary instructions, each checkpoint in its own format, ``you'' falls in {hep(b1m)} and ``I'' in ${b1i}$, and the "
-             rf"aligned range of ``you'' is ${oran:.1f}$-fold. With the base on a person-stripped in-context prompt, ``you'' again falls in {hep(k2m)} and ``I'' in ${k2i}$. On an identical "
-             rf"string the aligned model reads a format it was not trained on and the sign of ``you'' splits (${say['K1'][0]['d']}$ down on "
-             rf"the released in-context prompt; ${say['K3'][0]['d']}$ down, ${say['K3'][0]['u']}$ up on the person-stripped one) while ``I'' falls in "
-             rf"${say['K1'][1]['d']}$ and ${say['K3'][1]['d']}$ (Appendix~\ref{{app:D4}})")
+    if not (say["K1"][1]["d"] < b1i and say["K3"][1]["d"] < b1i):
+        print(""); return 3
+    cumle = (rf"On $300$ ordinary instructions, each checkpoint in its own format, the aligned range of ``you'' is ${oran:.1f}$-fold. "
+             rf"On an identical string the aligned model reads a format it was not trained on, and the sign of ``you'' splits while "
+             rf"``I'' falls in fewer models (Table~\ref{{tab:readings}}; Appendix~\ref{{app:D4}})")
     io.open(f"{OUT}/HUCRELER_CUMLE.tex", "w", encoding="utf-8").write("% * URETILDI - elle duzenlenmez (figures/hucreler_d4.py)\n" + cumle)
     r2 = ""; pr2 = None
     if os.path.exists(f"{R}/{R2K}"):
