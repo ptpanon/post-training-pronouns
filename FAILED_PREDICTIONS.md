@@ -249,7 +249,7 @@ Internal name: `TERAZI (KOL-GECESI)`
 
 | file | SHA-256 |
 |---|---|
-| `debts.md` | `4bab8830df94c2fee032e17fdfd7e25cda3833d5476536fa630e6bec09d8dabe` |
+| `debts.md` | `d29f571647da0cdebe4a6752213cdbc7435cfbcd79630f4ac3f828c1fc145725` |
 | `handover_2026-09-09t0822z.md` | `aba426e237e6d0a25dcf36500253f95268b0070ccef274b3a5e17e8c493762c8` |
 | `handover_overnight_2026-08-31.md` | `e76bbef7f43090d879775aebe941cd00f4b93092c8cffcd8d3841fe2cb4485ca` |
 | `prediction_c3.md` | `ad7f295323de1eda37855d5b853ff67f5f8c3bf795cba7080355b5eeef6c04f7` |

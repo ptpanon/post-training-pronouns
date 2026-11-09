@@ -4,6 +4,8 @@
 
 **Key.** Yes = bar met and every control the registration requires met. Partly = bar met, but a required control failed, was not read, or was met only by a control written later (also used where the reading is uncertain). No = bar not met. *Registered placebo* = the placebo that row's own registration names. **In**: S = Appendix B deviations table, status registered · F = Appendix B failed-predictions table · C = claims box, Registered line · R = Reproducibility statement · N = counted only inside the "26 registrations" of Appendix B.
 
+**Rows and registrations.** Table C counts items; Appendix B counts registrations. The 48 rows come from 45 registrations. All 26 registrations that Appendix B counts (predictions scored, results reported in the paper) appear here, in 28 rows; the 26 "Partly" above is a separate count. The other 20 rows come from 19 registrations outside Appendix B's count: eight whose results are reported only in this repository, five with no written score, five committed after that count was made, and one descriptive registration with no bar.
+
 Totals: Yes 10 · Partly 26 · No 12. If registrations that name no placebo do not count as full (rows 13, 21, 22, 24, 25): Yes 5 · Partly 31 · No 12.
 
 | # | Item | Bar (from the registration) | Outcome (from the card) | Registered placebo | Later placebo | Meets full protocol? | In | Registration · cards |
